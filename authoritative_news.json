@@ -1,11 +1,17 @@
 {
-  "updated": "2026-06-26T03:11:29.741865+08:00",
-  "updated_display": "06月26日 03:11",
-  "count": 19,
+  "updated": "2026-06-26T05:07:37.625307+08:00",
+  "updated_display": "06月26日 05:07",
+  "count": 20,
   "news": [
     {
       "title": "习近平总书记关切事｜“空天地”助力耕地保数量提质量",
       "url": "https://www.news.cn/politics/leaders/20260626/660714482d824292845a7a8178fce136/c.html",
+      "source": "新华社",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "委内瑞拉遭百余年来最强地震",
+      "url": "https://www.news.cn/world/20260626/f1fadf807d354e349e092dc1107a17c4/c.html",
       "source": "新华社",
       "date": "2026-06-26"
     },
@@ -58,12 +64,6 @@
       "date": "2026-06-25"
     },
     {
-      "title": "李强同孟加拉国总理塔里克会谈",
-      "url": "https://www.news.cn/politics/leaders/20260625/6cb62d70742f4c2eae949b066651514b/c.html",
-      "source": "新华社",
-      "date": "2026-06-25"
-    },
-    {
       "title": "习近平赴山东德州考察，心系这些“国之大者”",
       "url": "http://politics.people.com.cn/n1/2026/0625/c461001-40747633.html",
       "source": "人民日报",
@@ -78,6 +78,12 @@
     {
       "title": "这件事,总书记强调\"必须精打细算\"",
       "url": "http://finance.people.com.cn/n1/2026/0625/c1004-40747590.html",
+      "source": "人民日报",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "李强同孟加拉国总理塔里克会谈",
+      "url": "http://politics.people.com.cn/n1/2026/0625/c1024-40747641.html",
       "source": "人民日报",
       "date": "2026-06-25"
     },
