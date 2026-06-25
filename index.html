@@ -1131,7 +1131,7 @@ function renderMatches(matches) {
         </div>
         <div class="match-sub">${m.date} · ${m.venue} · ${m.league}</div>
       </div>
-      <a class="match-remind" href="${generateICSLink(m.date, m.opponent, isHome, m.venue, m.league)}" download="${getICSFileName(m.date, m.opponent)}" onclick="showToast('📅 正在添加到日历...')">📅 日历</a>
+      <button class="match-remind" onclick="addToCalendar('${m.date.replace(/'/g, "\\'")}','${m.opponent.replace(/'/g, "\\'")}',${isHome},'${m.venue.replace(/'/g, "\\'")}','${m.league.replace(/'/g, "\\'")}')">📅 日历</button>
     </div>`;
   }).join('');
 }
@@ -1247,18 +1247,12 @@ function scheduleStockRefresh() {
   if (isMarketOpen('cn') || isMarketOpen('us')) refreshStockData();
 }
 
-/* ==================== REMINDER ==================== */
-/* ==================== CALENDAR ICS GENERATION ==================== */
+/* ==================== CALENDAR AUTO-IMPORT ==================== */
 function parseMatchDate(dateStr) {
   const match = dateStr.match(/(\d+)月(\d+)日\s*(\d+):(\d+)/);
   if (!match) return null;
   const year = 2026;
-  const month = parseInt(match[1]);
-  const day = parseInt(match[2]);
-  const hour = parseInt(match[3]);
-  const min = parseInt(match[4]);
-  const d = new Date(year, month - 1, day, hour, min, 0);
-  return d;
+  return new Date(year, parseInt(match[1]) - 1, parseInt(match[2]), parseInt(match[3]), parseInt(match[4]), 0);
 }
 
 function pad(n) { return n.toString().padStart(2, '0'); }
@@ -1267,18 +1261,17 @@ function toICSDate(d) {
   return d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()) + 'T' + pad(d.getHours()) + pad(d.getMinutes()) + '00';
 }
 
-function getICSFileName(dateStr, opponent) {
-  const d = parseMatchDate(dateStr);
-  if (!d) return 'match.ics';
-  return '河南队_vs_' + opponent.replace(/\s/g, '') + '_' + d.getFullYear() + pad(d.getMonth()+1) + pad(d.getDate()) + '.ics';
+function toGCalDate(d) {
+  return d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()) + 'T' + pad(d.getHours()) + pad(d.getMinutes()) + '00';
 }
 
-function generateICSLink(dateStr, opponent, isHome, venue, league) {
+function buildICS(dateStr, opponent, isHome, venue, league) {
   const d = parseMatchDate(dateStr);
-  if (!d) return '#';
+  if (!d) return null;
   const end = new Date(d.getTime() + 2 * 60 * 60 * 1000);
   const summary = (isHome ? '河南仰韶彩陶坊 vs ' : '') + opponent + (isHome ? '' : ' vs 河南仰韶彩陶坊');
-  const ics = [
+  const loc = venue.replace('主场·', '').replace('客场·', '');
+  return [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
     'PRODID:-//每日简讯//足球赛程//ZH',
@@ -1288,8 +1281,8 @@ function generateICSLink(dateStr, opponent, isHome, venue, league) {
     'DTSTART:' + toICSDate(d),
     'DTEND:' + toICSDate(end),
     'SUMMARY:' + summary,
-    'DESCRIPTION:' + league + '\\\\n' + venue + '\\\\n由「每日简讯」生成',
-    'LOCATION:' + venue.replace('主场·', '').replace('客场·', ''),
+    'DESCRIPTION:' + league + '\\n' + venue + '\\n由「每日简讯」生成',
+    'LOCATION:' + loc,
     'BEGIN:VALARM',
     'TRIGGER:-PT30M',
     'ACTION:DISPLAY',
@@ -1297,12 +1290,52 @@ function generateICSLink(dateStr, opponent, isHome, venue, league) {
     'END:VALARM',
     'END:VEVENT',
     'END:VCALENDAR'
-  ].join('\\r\\n');
-  return 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);
+  ].join('\r\n');
 }
 
-function setReminder(date, opponent) {
-  showToast('📅 请点击「日历」按钮下载赛事提醒');
+function buildGCalUrl(dateStr, opponent, isHome, venue, league) {
+  const d = parseMatchDate(dateStr);
+  if (!d) return '#';
+  const end = new Date(d.getTime() + 2 * 60 * 60 * 1000);
+  const summary = encodeURIComponent((isHome ? '河南仰韶彩陶坊 vs ' : '') + opponent + (isHome ? '' : ' vs 河南仰韶彩陶坊'));
+  const loc = encodeURIComponent(venue.replace('主场·', '').replace('客场·', ''));
+  const details = encodeURIComponent(league + ' | ' + venue + ' | 由「每日简讯」添加');
+  return 'https://calendar.google.com/calendar/render?action=TEMPLATE' +
+    '&text=' + summary +
+    '&dates=' + toGCalDate(d) + '/' + toGCalDate(end) +
+    '&details=' + details +
+    '&location=' + loc;
+}
+
+function addToCalendar(dateStr, opponent, isHome, venue, league) {
+  const ics = buildICS(dateStr, opponent, isHome, venue, league);
+  if (!ics) { showToast('⚠️ 无法解析日期'); return; }
+
+  // Method 1: ICS Blob — triggers native Calendar on iOS/Android
+  const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+  const blobUrl = URL.createObjectURL(blob);
+
+  // Use hidden <a> click for best mobile compatibility
+  const a = document.createElement('a');
+  a.href = blobUrl;
+  a.download = 'match.ics';
+  a.style.display = 'none';
+  document.body.appendChild(a);
+  a.click();
+
+  // Cleanup blob after a delay
+  setTimeout(() => {
+    document.body.removeChild(a);
+    URL.revokeObjectURL(blobUrl);
+  }, 5000);
+
+  // Method 2: Google Calendar fallback (opens in new tab)
+  const gcalUrl = buildGCalUrl(dateStr, opponent, isHome, venue, league);
+  setTimeout(() => {
+    window.open(gcalUrl, '_blank');
+  }, 800);
+
+  showToast('📅 正在添加到日历…如未弹出，请查看打开的页面');
 }
 
 /* ==================== TOAST ==================== */
