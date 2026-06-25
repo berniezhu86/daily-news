@@ -1,17 +1,11 @@
 {
-  "updated": "2026-06-26T05:07:37.625307+08:00",
-  "updated_display": "06月26日 05:07",
-  "count": 20,
+  "updated": "2026-06-26T07:04:15.100234+08:00",
+  "updated_display": "06月26日 07:04",
+  "count": 19,
   "news": [
     {
       "title": "习近平总书记关切事｜“空天地”助力耕地保数量提质量",
       "url": "https://www.news.cn/politics/leaders/20260626/660714482d824292845a7a8178fce136/c.html",
-      "source": "新华社",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "委内瑞拉遭百余年来最强地震",
-      "url": "https://www.news.cn/world/20260626/f1fadf807d354e349e092dc1107a17c4/c.html",
       "source": "新华社",
       "date": "2026-06-26"
     },
@@ -64,10 +58,16 @@
       "date": "2026-06-25"
     },
     {
-      "title": "习近平赴山东德州考察，心系这些“国之大者”",
-      "url": "http://politics.people.com.cn/n1/2026/0625/c461001-40747633.html",
-      "source": "人民日报",
+      "title": "李强同孟加拉国总理塔里克会谈",
+      "url": "https://www.news.cn/politics/leaders/20260625/6cb62d70742f4c2eae949b066651514b/c.html",
+      "source": "新华社",
       "date": "2026-06-25"
+    },
+    {
+      "title": "习近平总书记山东德州考察重要讲话激励广大干部群众坚定信心、实干笃行",
+      "url": "http://politics.people.com.cn/n1/2026/0626/c461001-40747658.html",
+      "source": "人民日报",
+      "date": "2026-06-26"
     },
     {
       "title": "跟随总书记到田间地头,看农业农村现代化新画卷",
@@ -76,40 +76,22 @@
       "date": "2026-06-25"
     },
     {
-      "title": "这件事,总书记强调\"必须精打细算\"",
-      "url": "http://finance.people.com.cn/n1/2026/0625/c1004-40747590.html",
-      "source": "人民日报",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "李强同孟加拉国总理塔里克会谈",
-      "url": "http://politics.people.com.cn/n1/2026/0625/c1024-40747641.html",
+      "title": "一见·粮食“饭碗”，总书记为何始终牵挂",
+      "url": "http://politics.people.com.cn/n1/2026/0625/c461001-40746928.html",
       "source": "人民日报",
       "date": "2026-06-25"
     },
     {
       "title": "赵乐际主持十四届全国人大常委会第六十九次委员长会议",
-      "url": "http://politics.people.com.cn/n1/2026/0625/c1024-40747631.html",
+      "url": "http://politics.people.com.cn/n1/2026/0626/c1024-40747661.html",
       "source": "人民日报",
-      "date": "2026-06-25"
+      "date": "2026-06-26"
     },
     {
       "title": "丁薛祥出席第九届中国－亚欧博览会开幕式",
-      "url": "http://politics.people.com.cn/n1/2026/0625/c1024-40747582.html",
+      "url": "http://politics.people.com.cn/n1/2026/0626/c1024-40747662.html",
       "source": "人民日报",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "急修\"安保三文件\",暴露日本加速军事转轨的姿态",
-      "url": "http://world.people.com.cn/n1/2026/0625/c1002-40746870.html",
-      "source": "人民日报",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "习近平在山东德州考察",
-      "url": "http://politics.people.com.cn/n1/2026/0625/c1024-40746858.html",
-      "source": "人民日报",
-      "date": "2026-06-25"
+      "date": "2026-06-26"
     },
     {
       "title": "外交部回应委内瑞拉强震：愿根据委方需要提供帮助",
@@ -120,6 +102,18 @@
     {
       "title": "国防部：敦促日方同军国主义彻底切割",
       "url": "http://military.people.com.cn/n1/2026/0625/c1011-40747648.html",
+      "source": "人民日报",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "中国气象学家许健民获国际气象组织奖",
+      "url": "https://world.people.com.cn/n1/2026/0625/c1002-40747010.html",
+      "source": "人民日报",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "第九届中国—亚欧博览会开幕",
+      "url": "http://xj.people.com.cn/n2/2026/0625/c186332-41620788.html",
       "source": "人民日报",
       "date": "2026-06-25"
     }
