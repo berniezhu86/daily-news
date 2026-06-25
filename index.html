@@ -1451,7 +1451,6 @@ loadAllData();
 updateTimeDisplay();
 renderMarquee();
 scheduleStockRefresh();
-updateDateDisplay();
 
 // ============================================================
 // 定时更新机制（绝对可靠版）
@@ -1593,6 +1592,7 @@ if ('serviceWorker' in navigator) {
     document.getElementById('dateLunar').textContent=lunarStr;
   };
 })();
+updateDateDisplay();
 
 console.log('每日简讯 2026-06-25 更新完成');
 
