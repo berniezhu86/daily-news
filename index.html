@@ -84,22 +84,24 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 
 /* 关怀版按钮 */
 .btn-care {
-  width:30px; height:30px; border-radius:50%; border:1.5px solid var(--border);
+  display:inline-flex; align-items:center; gap:4px;
+  height:26px; padding:0 10px; border-radius:13px;
+  border:1.5px solid var(--border);
   background:var(--surface); cursor:pointer;
-  display:flex; align-items:center; justify-content:center;
-  font-size:16px; line-height:1; flex-shrink:0;
-  transition:all 0.2s;
+  font-size:11px; font-weight:600; color:var(--text2); letter-spacing:0.03em;
+  flex-shrink:0; transition:all 0.2s; white-space:nowrap;
 }
-.btn-care:hover { border-color:var(--orange); background:rgba(255,159,10,0.06); }
-.btn-care.active { border-color:var(--orange); background:linear-gradient(135deg,rgba(255,159,10,0.15),rgba(255,69,58,0.1)); }
+.btn-care:hover { border-color:var(--orange); color:var(--orange); background:rgba(255,159,10,0.06); }
+.btn-care.active { border-color:var(--orange); color:var(--orange); background:linear-gradient(135deg,rgba(255,159,10,0.12),rgba(255,69,58,0.06)); }
+.btn-care svg { flex-shrink:0; }
 
 /* 关怀版：放大新闻标题和摘要 */
-body.care-mode .news-title { font-size:18px; line-height:1.55; font-weight:700; }
-body.care-mode .news-summary { font-size:15px; line-height:1.6; color:var(--text1); }
-body.care-mode .stock-news-title { font-size:17px; font-weight:700; }
-body.care-mode .stock-news-summary { font-size:14px; line-height:1.6; color:var(--text1); }
-body.care-mode .card-title { font-size:19px; }
-body.care-mode .news-item { padding:16px 0; }
+body.care-mode .news-title { font-size:22px; line-height:1.5; font-weight:700; }
+body.care-mode .news-summary { font-size:17px; line-height:1.55; color:var(--text1); }
+body.care-mode .stock-news-title { font-size:20px; font-weight:700; }
+body.care-mode .stock-news-summary { font-size:16px; line-height:1.55; color:var(--text1); }
+body.care-mode .card-title { font-size:22px; }
+body.care-mode .news-item { padding:18px 0; }
 
 .hero {
   background:linear-gradient(160deg,#1c1c2e 0%,#16213e 55%,#0f3460 100%);
@@ -469,6 +471,7 @@ body.care-mode .news-item { padding:16px 0; }
   .topbar-date .d-lunar { font-size:9px; }
   .top-update { font-size:11px; }
   .btn-refresh-top { width:26px; height:26px; }
+  .btn-care { height:24px; padding:0 8px; font-size:10px; }
   .hero { padding:6px 20px; }
   .tab-bar-inner { padding:8px 8px; gap:4px; }
   .main-tab { height:38px; font-size:13px; border-radius:19px; padding:0 10px; }
@@ -512,7 +515,10 @@ body.care-mode .news-item { padding:16px 0; }
       <span class="d-lunar" id="dateLunar"></span>
     </div>
     <div class="topbar-right">
-      <button class="btn-care" id="btnCare" onclick="toggleCareMode()" title="关怀版：大字体">👁</button>
+      <button class="btn-care" id="btnCare" onclick="toggleCareMode()" title="关怀版：大字体">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        关怀版
+      </button>
       <div class="topbar-right-row">
         <span class="top-update">更新于 <span id="lastUpdateTime">--:--</span></span>
         <button class="btn-refresh-top" onclick="refreshAll()" title="刷新" id="btnRefresh">
