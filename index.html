@@ -382,7 +382,7 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 <!-- 跑马灯 -->
 <div id="marqueeBar" style="background:linear-gradient(160deg,#1c1c2e 0%,#16213e 55%,#0f3460 100%);padding:10px 20px;position:relative;z-index:50;">
   <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:12px;">
-    <span style="background:linear-gradient(135deg,#0a84ff,#0d47a1);color:#fff;font-size:11px;font-weight:700;padding:4px 12px;border-radius:0 10px 10px 0;flex-shrink:0;letter-spacing:0.04em;white-space:nowrap;">快讯</span>
+    <span id="marqueeLabel" style="background:linear-gradient(135deg,#0a84ff,#0d47a1);color:#fff;font-size:11px;font-weight:700;padding:4px 12px;border-radius:0 10px 10px 0;flex-shrink:0;letter-spacing:0.04em;white-space:nowrap;">快讯</span>
     <div style="flex:1;overflow:hidden;height:1.6em;line-height:1.6em;position:relative;">
       <div id="marqueeTrack" style="display:inline-block;white-space:nowrap;color:rgba(255,255,255,0.92);font-size:0.8125rem;animation:marqueeScroll 60s linear infinite;will-change:transform;">📈 A股：上证指数 3386.41 ▲0.38% · 深证成指 10892.35 ▲0.72% · 创业板指 2189.66 ▲1.15% &nbsp;&nbsp; 🇭🇰 港股：恒生指数 24185.32 ▼0.42% · 恒生科技 ▼0.88% &nbsp;&nbsp; 🇺🇸 美股昨夜：道指 42583.47 ▲0.12% · 纳指 19691.61 ▲0.02%</div>
     </div>
@@ -1455,9 +1455,50 @@ const marqueeHeadlines = [
 ];
 function renderMarquee() {
   const track = document.getElementById('marqueeTrack');
+  const label = document.getElementById('marqueeLabel');
   if (!track) { console.warn('marqueeTrack not found'); return; }
-  console.log('✅ renderMarquee 执行，共', marqueeHeadlines.length, '条内容');
-  track.innerHTML = marqueeHeadlines.map(h => '<span style="margin:0 28px;">' + h + '</span>').join('');
+
+  // 检查今天是否有河南队比赛
+  // 🔧 TEST MODE: 6月27日实际无比赛数据？设为 false 恢复正常模式
+  const FORCE_TEST_MATCH = true; // ← 临时测试，测试完成后设为 false
+  const todayMatch = FORCE_TEST_MATCH ? mockMatches[0] : getTodayMatch();
+
+  if (todayMatch) {
+    // 比赛日：只显示赛程提醒
+    const isHome = todayMatch.venue.includes('主场');
+    const vsText = (isHome ? '河南仰韶彩陶坊 vs ' : '') + todayMatch.opponent + (isHome ? '' : ' vs 河南仰韶彩陶坊');
+    const matchMarquee = '⚽ ' + todayMatch.league + ' · ' + vsText + ' · ' + todayMatch.date + ' · ' + todayMatch.venue;
+    track.innerHTML = '<span style="margin:0 28px;">' + matchMarquee + '</span>';
+    // 比赛日跑马灯慢速，方便阅读
+    track.style.animationDuration = '90s';
+    if (label) {
+      label.textContent = '⚽赛程';
+      label.style.background = 'linear-gradient(135deg,#e65100,#ff6d00)';
+    }
+  } else {
+    // 非比赛日：显示常规财经快讯
+    console.log('✅ renderMarquee 执行，共', marqueeHeadlines.length, '条内容');
+    track.innerHTML = marqueeHeadlines.map(h => '<span style="margin:0 28px;">' + h + '</span>').join('');
+    track.style.animationDuration = '60s';
+    if (label) {
+      label.textContent = '快讯';
+      label.style.background = 'linear-gradient(135deg,#0a84ff,#0d47a1)';
+    }
+  }
+}
+
+// 检查今天是否有河南队比赛
+function getTodayMatch() {
+  const now = new Date();
+  const m = now.getMonth() + 1;
+  const d = now.getDate();
+  const todayStr = m + '月' + d + '日';
+  for (var i = 0; i < mockMatches.length; i++) {
+    if (mockMatches[i].date.startsWith(todayStr)) {
+      return mockMatches[i];
+    }
+  }
+  return null;
 }
 
 /* ==================== INIT ==================== */
