@@ -71,6 +71,7 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 }
 .topbar-date .d-lunar { font-size:10px; color:var(--text2); white-space:nowrap; letter-spacing:0.03em; }
 .topbar-right { display:flex; align-items:center; gap:8px; flex-shrink:0; margin-left:auto; }
+.topbar-right-row { display:flex; align-items:center; gap:8px; }
 .top-update { font-size:12px; color:var(--text3); white-space:nowrap; }
 .btn-refresh-top {
   width:30px; height:30px; border-radius:50%; border:1.5px solid var(--border);
@@ -80,6 +81,25 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 }
 .btn-refresh-top:hover { border-color:var(--blue); color:var(--blue); background:rgba(10,132,255,0.06); }
 .btn-refresh-top.spinning svg { animation:spin 0.8s linear infinite; }
+
+/* 关怀版按钮 */
+.btn-care {
+  width:30px; height:30px; border-radius:50%; border:1.5px solid var(--border);
+  background:var(--surface); cursor:pointer;
+  display:flex; align-items:center; justify-content:center;
+  font-size:16px; line-height:1; flex-shrink:0;
+  transition:all 0.2s;
+}
+.btn-care:hover { border-color:var(--orange); background:rgba(255,159,10,0.06); }
+.btn-care.active { border-color:var(--orange); background:linear-gradient(135deg,rgba(255,159,10,0.15),rgba(255,69,58,0.1)); }
+
+/* 关怀版：放大新闻标题和摘要 */
+body.care-mode .news-title { font-size:18px; line-height:1.55; font-weight:700; }
+body.care-mode .news-summary { font-size:15px; line-height:1.6; color:var(--text1); }
+body.care-mode .stock-news-title { font-size:17px; font-weight:700; }
+body.care-mode .stock-news-summary { font-size:14px; line-height:1.6; color:var(--text1); }
+body.care-mode .card-title { font-size:19px; }
+body.care-mode .news-item { padding:16px 0; }
 
 .hero {
   background:linear-gradient(160deg,#1c1c2e 0%,#16213e 55%,#0f3460 100%);
@@ -492,10 +512,13 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
       <span class="d-lunar" id="dateLunar"></span>
     </div>
     <div class="topbar-right">
-      <span class="top-update">更新于 <span id="lastUpdateTime">--:--</span></span>
-      <button class="btn-refresh-top" onclick="refreshAll()" title="刷新" id="btnRefresh">
+      <button class="btn-care" id="btnCare" onclick="toggleCareMode()" title="关怀版：大字体">👁</button>
+      <div class="topbar-right-row">
+        <span class="top-update">更新于 <span id="lastUpdateTime">--:--</span></span>
+        <button class="btn-refresh-top" onclick="refreshAll()" title="刷新" id="btnRefresh">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
       </button>
+      </div>
     </div>
   </div>
 </header>
@@ -1785,12 +1808,78 @@ function restoreSubscriptions() {
   });
 }
 
+/* ==================== 关怀版 ==================== */
+function toggleCareMode() {
+  const btn = document.getElementById('btnCare');
+  const isCare = document.body.classList.toggle('care-mode');
+  if (btn) {
+    btn.classList.toggle('active', isCare);
+    btn.title = isCare ? '关怀版已开启，点击恢复标准版' : '关怀版：大字体';
+  }
+  localStorage.setItem('care_mode', isCare ? '1' : '0');
+}
+// 恢复关怀版状态
+(function() {
+  if (localStorage.getItem('care_mode') === '1') {
+    document.body.classList.add('care-mode');
+    var btn = document.getElementById('btnCare');
+    if (btn) { btn.classList.add('active'); btn.title = '关怀版已开启，点击恢复标准版'; }
+  }
+})();
+
 /* ==================== INIT ==================== */
 loadAllData();
 restoreSubscriptions();
 updateTimeDisplay();
 renderMarquee();
 scheduleStockRefresh();
+
+/* ==================== 上滑自动加载更多 ==================== */
+// 连续两次滑到底部 → 自动触发"查看更多"按钮（无需手动点击）
+var autoLoadCount = 0;           // 附近底部计数
+var autoLoadLastTime = 0;        // 上次触发时间
+var autoLoadCooldown = 3000;     // 冷却时间 3秒（避免连续触发）
+
+function getActiveLoadMoreBtn() {
+  // 找到当前可见的 load-more 按钮
+  var allBtns = document.querySelectorAll('.load-more-wrap');
+  for (var i = 0; i < allBtns.length; i++) {
+    if (allBtns[i].offsetParent !== null && allBtns[i].style.display !== 'none') {
+      var btn = allBtns[i].querySelector('.btn-load-more');
+      if (btn && !btn.classList.contains('loading') && !btn.classList.contains('done')) {
+        return btn;
+      }
+    }
+  }
+  return null;
+}
+
+window.addEventListener('scroll', function() {
+  var scrollBottom = window.innerHeight + window.scrollY;
+  var pageBottom = document.body.offsetHeight - 200; // 距离底部200px算"接近"
+
+  if (scrollBottom >= pageBottom) {
+    var now = Date.now();
+    // 冷却期内不重复计数
+    if (now - autoLoadLastTime < autoLoadCooldown) return;
+
+    autoLoadCount++;
+    autoLoadLastTime = now;
+
+    if (autoLoadCount >= 2) {
+      // 连续两次滑到底 → 自动加载
+      var btn = getActiveLoadMoreBtn();
+      if (btn) {
+        btn.click();
+        console.log('📜 自动加载更多新闻');
+      }
+      autoLoadCount = 0;
+    }
+  } else if (scrollBottom < pageBottom - 400) {
+    // 用户上滑离开底部 → 重置计数
+    autoLoadCount = 0;
+  }
+}, { passive: true });
 
 // ============================================================
 // 定时更新机制（绝对可靠版）
