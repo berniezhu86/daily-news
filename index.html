@@ -299,6 +299,11 @@ body.care-mode .news-item { padding:18px 0; }
 .dot-live { width:7px; height:7px; border-radius:50%; background:var(--green); animation:pulse 2s infinite; flex-shrink:0; }
 .dot-closed { width:7px; height:7px; border-radius:50%; background:var(--text3); flex-shrink:0; }
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+/* 全球市场收盘数据 */
+.global-closing { margin-top:8px; padding:12px 20px 0; border-top:1px dashed var(--border); }
+.global-closing-title { font-size:12px; font-weight:600; color:var(--text3); margin-bottom:10px; display:flex; align-items:center; gap:4px; }
+.global-closing .stock-grid { padding-top:0; }
 .stock-ai-note { margin:4px 20px 8px; padding:10px 14px; border-radius:var(--r-md); background:linear-gradient(135deg,rgba(94,92,230,0.07),rgba(10,132,255,0.07)); border:1px solid rgba(94,92,230,0.12); font-size:13px; color:var(--indigo); text-align:center; }
 
 /* ===== CSL STANDINGS TABLE ===== */
@@ -505,7 +510,7 @@ body.care-mode .news-item { padding:18px 0; }
   .card-header { padding:14px 14px 0; }
   .sub-tabs { padding:10px 12px 0; gap:4px; }
   .sub-tab { padding:5px 8px; font-size:11px; }
-  .news-list, .ranking-wrap, .match-list, .stock-grid, .stock-news-list, .load-more-wrap, .market-bar, .csl-standings { padding-left:12px; padding-right:12px; }
+  .news-list, .ranking-wrap, .match-list, .stock-grid, .stock-news-list, .load-more-wrap, .market-bar, .csl-standings, .global-closing { padding-left:12px; padding-right:12px; }
   .match-scroll { max-height:none; }
 }
 @media (min-width:768px) {
@@ -617,7 +622,6 @@ body.care-mode .news-item { padding:18px 0; }
       <div class="sub-tabs" id="stockSubTabs">
         <button class="sub-tab active" data-stock="us">🇺🇸 美股</button>
         <button class="sub-tab" data-stock="cn">🇨🇳 A股</button>
-        <button class="sub-tab" data-stock="global">🌏 全球</button>
         <button class="sub-tab" data-stock="reco">🤖 AI荐股</button>
       </div>
       <div class="market-bar" id="marketStatus">
@@ -626,6 +630,10 @@ body.care-mode .news-item { padding:18px 0; }
         <span id="statusRefreshNote" style="display:none">(每小时刷新)</span>
       </div>
       <div class="stock-grid" id="stockGrid"></div>
+      <div class="global-closing" id="globalClosing" style="display:none;">
+        <div class="global-closing-title">🌏 全球市场 · 最近收盘数据</div>
+        <div class="stock-grid" id="globalGrid"></div>
+      </div>
       <div class="stock-news-list" id="stockNewsList"></div>
             <div class="load-more-wrap" id="stockLoadMore" style="display:block;">
               <button class="btn-load-more" onclick="loadMoreStockNews()">查看更多股市新闻 ▼</button>
@@ -1602,6 +1610,28 @@ function renderStockIndices(indices) {
       <div class="stock-change ${s.direction === 'up' ? 'stock-up' : 'stock-down'}">${s.change}${s.reason ? `<div style="font-size:11px;color:#636366;font-weight:400;margin-top:2px;white-space:normal">${s.reason}</div>` : ''}</div>
     </div>
   `).join('');
+  renderGlobalClosing();
+}
+
+function renderGlobalClosing() {
+  var g = document.getElementById('globalGrid');
+  var wrap = document.getElementById('globalClosing');
+  if (!g || !wrap) return;
+  var activeTab = document.querySelector('#stockSubTabs .sub-tab.active');
+  var type = activeTab ? activeTab.dataset.stock : 'us';
+  // 美股/A股 tab 下展示全球收盘；AI荐股 tab 下隐藏
+  if (type === 'reco') {
+    wrap.style.display = 'none';
+    return;
+  }
+  wrap.style.display = 'block';
+  g.innerHTML = mockStockIndices.global.map(function(s) {
+    return '<div class="stock-card">'
+      + '<div class="stock-name">' + s.name + '</div>'
+      + '<div class="stock-value ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.value + '</div>'
+      + '<div class="stock-change ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.change + '</div>'
+      + '</div>';
+  }).join('');
 }
 
 function renderStockNews(news) {
@@ -1764,7 +1794,7 @@ function updateMarketStatus() {
   const activeTab = document.querySelector('#stockSubTabs .sub-tab.active');
   const type = activeTab ? activeTab.dataset.stock : 'us';
   const open = isMarketOpen(type);
-  const labels = { us: '美股', cn: 'A股', global: '全球市场', reco: 'AI荐股' };
+  const labels = { us: '美股', cn: 'A股', reco: 'AI荐股' };
   if (open) {
     dot.className = 'dot-live';
     text.textContent = (labels[type] || '') + ' · 交易时段 · 数据实时更新中';
