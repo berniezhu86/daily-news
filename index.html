@@ -1697,7 +1697,7 @@ function renderAuthBanner() {
     return;
   }
   if (banner) banner.style.display = 'block';
-  var displayNews = authoritativeNews.slice(0, 5);
+  var displayNews = authoritativeNews.slice(0, 4);
   if (list) {
     list.innerHTML = displayNews.map(function(item) {
       var cls = item.source === '新华社' ? 'auth-source-xinhua' : 'auth-source-people';
@@ -1735,7 +1735,7 @@ function renderMarquee() {
     // 非比赛日：权威要闻优先 + 常规财经快讯
     var authHeadlines = [];
     if (authoritativeNews && authoritativeNews.length > 0) {
-      authHeadlines = authoritativeNews.slice(0, 4).map(function(item) {
+      authHeadlines = authoritativeNews.slice(0, 3).map(function(item) {
         return '📡 ' + item.source + '：' + item.title;
       });
     }

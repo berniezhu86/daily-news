@@ -17,7 +17,31 @@ from urllib.parse import urljoin
 # 输出目录（脚本所在目录）
 OUT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUT_FILE = os.path.join(OUT_DIR, "authoritative_news.json")
-MAX_NEWS = 15  # 每个源最多取15条
+MAX_NEWS = 10  # 每个源最多取10条（只保留重要新闻）
+
+# "重要新闻"关键词白名单 — 标题至少命中一条才算即时重要新闻
+IMPORTANCE_KEYWORDS = [
+    # 时效性标识（即时/突发）
+    "快讯", "刚刚", "最新", "突发",
+    # 权威标识
+    "要闻", "重要", "重磅", "发布", "讲话", "指示", "部署",
+    # 政策/人事
+    "政策", "决定", "通知", "公告", "任命", "免职", "任免",
+    "规定", "条例", "办法", "方案", "意见", "修订",
+    # 领导人活动
+    "主席", "总书记", "总理", "委员长", "会见", "出席",
+    "主持", "访问", "考察", "调研", "致电", "致信",
+    # 全国性/中央层级
+    "中央", "国务院", "全国人大", "全国政协", "政治局",
+    "全会", "常务会议", "国新办",
+    # 重大事件/紧急
+    "签署", "通过", "召开", "开幕", "闭幕", "生效",
+    "紧急", "事故", "灾害", "地震", "预警", "气象",
+    # 军事/外交
+    "军事", "国防", "外交部", "大使", "国际",
+    # 经济/民生重大
+    "降息", "降准", "GDP", "统计", "国民经济",
+]
 
 # 请求头（模拟浏览器）
 HEADERS = {
@@ -50,6 +74,14 @@ def fetch_html(url):
         return ""
 
 
+def is_important_news(title):
+    """判断新闻标题是否属于"即时重要新闻" — 必须命中至少一个关键词"""
+    for kw in IMPORTANCE_KEYWORDS:
+        if kw in title:
+            return True
+    return False
+
+
 def extract_xinhua_news(html):
     """从新华网首页提取新闻标题和链接"""
     news_list = []
@@ -69,6 +101,9 @@ def extract_xinhua_news(html):
         if any(w in title for w in skip_words):
             return
         if len(title) <= 6 and not any(c in title for c in '，。！？'):
+            return
+        # ★ 仅保留"重要新闻"
+        if not is_important_news(title):
             return
         if href.startswith("/"):
             href = urljoin("https://www.news.cn", href)
@@ -150,6 +185,9 @@ def extract_people_news(html):
             "人民网版权所有", "关于我们", "人民日报社简介", "RSS",
         ]
         if any(w in title for w in skip_words):
+            continue
+        # ★ 仅保留"重要新闻"
+        if not is_important_news(title):
             continue
         key = title[:25]
         if key in seen:
