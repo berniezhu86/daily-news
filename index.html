@@ -2077,21 +2077,27 @@ var AUTH_FEATURE_ENABLED = false;
 function loadAuthoritativeNews() {
   if (authLoadAttempted) return;
   authLoadAttempted = true;
-  fetch('authoritative_news.json?_=' + Date.now())
-    .then(function(r) { return r.json(); })
-    .then(function(data) {
-      authoritativeNews = data.news || [];
-      var tEl = document.getElementById('authUpdateTime');
-      if (tEl) tEl.textContent = data.updated_display || '';
-      if (AUTH_FEATURE_ENABLED) {
-        renderAuthBanner();
-        renderMarquee();
-      }
-    })
-    .catch(function() {
-      var banner = document.getElementById('authBanner');
-      if (banner) banner.style.display = 'none';
-    });
+  // ★ try/catch 保护：MacBook WKWebView 中 file:// 协议 fetch() 可能抛同步异常
+  try {
+    fetch('authoritative_news.json?_=' + Date.now())
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        authoritativeNews = data.news || [];
+        var tEl = document.getElementById('authUpdateTime');
+        if (tEl) tEl.textContent = data.updated_display || '';
+        if (AUTH_FEATURE_ENABLED) {
+          renderAuthBanner();
+          renderMarquee();
+        }
+      })
+      .catch(function() {
+        var banner = document.getElementById('authBanner');
+        if (banner) banner.style.display = 'none';
+      });
+  } catch(e) {
+    // fetch() 同步抛出异常（file:/// 协议常见），静默处理
+    console.warn('loadAuthoritativeNews: fetch() failed synchronously, skipping');
+  }
 }
 
 function renderAuthBanner() {
@@ -2205,10 +2211,19 @@ function toggleCareMode() {
 })();
 
 /* ==================== INIT ==================== */
+// ★ 跑马灯最先渲染（不受后续 loadAllData 异常影响）
+renderMarquee();
+// 兜底：确保即使上述渲染因某种原因失败，1秒后重试
+setTimeout(function() {
+  var track = document.getElementById('marqueeTrack');
+  if (track && (!track.textContent || track.textContent.trim().length < 5)) {
+    console.warn('Marquee fallback: re-rendering');
+    renderMarquee();
+  }
+}, 1000);
 loadAllData();
 restoreSubscriptions();
 updateTimeDisplay();
-renderMarquee();
 scheduleStockRefresh();
 
 /* ==================== 上滑自动加载更多 ==================== */
