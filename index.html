@@ -51,15 +51,13 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 }
 .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:15px; letter-spacing:-0.01em; flex-shrink:0; }
 .brand-icon { width:28px; height:28px; border-radius:7px; object-fit:cover; flex-shrink:0; }
-/* Weather in top bar */
-.topbar-weather {
-  display:flex; align-items:center; gap:5px;
-  background:rgba(10,132,255,0.08); border:1px solid rgba(10,132,255,0.12);
-  border-radius:var(--r-xl); padding:4px 12px; flex-shrink:0;
+/* Date + Lunar in top bar */
+.topbar-date {
+  display:flex; flex-direction:column; align-items:flex-end;
+  flex-shrink:0; line-height:1.3; gap:1px;
 }
-.topbar-weather .w-icon { font-size:16px; }
-.topbar-weather .w-temp { font-size:14px; font-weight:700; color:var(--blue); }
-.topbar-weather .w-extra { font-size:11px; color:var(--text2); }
+.topbar-date .d-solar { font-size:13px; font-weight:700; color:var(--text1); letter-spacing:0.02em; white-space:nowrap; }
+.topbar-date .d-lunar { font-size:11px; color:var(--text2); white-space:nowrap; }
 .topbar-right { display:flex; align-items:center; gap:8px; flex-shrink:0; margin-left:auto; }
 .top-update { font-size:12px; color:var(--text3); white-space:nowrap; }
 .btn-refresh-top {
@@ -327,9 +325,8 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
   .topbar-inner { padding:0 12px; gap:8px; }
   .brand { font-size:14px; gap:6px; }
   .brand-icon { width:24px; height:24px; }
-  .topbar-weather { padding:3px 8px; gap:4px; }
-  .topbar-weather .w-temp { font-size:13px; }
-  .topbar-weather .w-extra { font-size:10px; max-width:80px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .topbar-date .d-solar { font-size:12px; }
+  .topbar-date .d-lunar { font-size:10px; }
   .top-update { font-size:11px; }
   .btn-refresh-top { width:26px; height:26px; }
   .hero { padding:6px 20px; }
@@ -355,10 +352,9 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
       <img src="images/icon.jpg" alt="" class="brand-icon">
       每日简讯
     </div>
-    <div class="topbar-weather" id="weatherCard">
-      <span class="w-icon" id="weatherIcon">🌤️</span>
-      <span class="w-temp" id="weatherTemp">--°</span>
-      <span class="w-extra" id="weatherExtra"></span>
+    <div class="topbar-date" id="dateCard">
+      <span class="d-solar" id="dateSolar"></span>
+      <span class="d-lunar" id="dateLunar"></span>
     </div>
     <div class="topbar-right">
       <span class="top-update">更新于 <span id="lastUpdateTime">--:--</span></span>
@@ -1453,10 +1449,9 @@ function renderMarquee() {
 /* ==================== INIT ==================== */
 loadAllData();
 updateTimeDisplay();
-fetchWeather();
-applyWeatherClickHandler();
 renderMarquee();
 scheduleStockRefresh();
+updateDateDisplay();
 
 // ============================================================
 // 定时更新机制（绝对可靠版）
@@ -1497,7 +1492,6 @@ function markUpdated(key) {
 function doRefresh(reason) {
   console.log('🔄 触发更新：' + reason);
   refreshAll();
-  fetchWeather();
   showToast('🔄 每日简讯已更新（' + reason + '）');
 }
 
@@ -1546,81 +1540,59 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').catch(() => {});
 }
 
-/* ==================== WEATHER ==================== */
-const weatherMap = {
-  0: { icon:'☀️', desc:'晴' }, 1: { icon:'🌤️', desc:'少云' }, 2: { icon:'⛅', desc:'多云' },
-  3: { icon:'☁️', desc:'阴' }, 45: { icon:'🌫️', desc:'雾' }, 48: { icon:'🌫️', desc:'霜雾' },
-  51: { icon:'🌦️', desc:'小雨' }, 53: { icon:'🌧️', desc:'中雨' }, 55: { icon:'🌧️', desc:'大雨' },
-  61: { icon:'🌧️', desc:'阵雨' }, 63: { icon:'🌧️', desc:'中阵雨' }, 65: { icon:'⛈️', desc:'大阵雨' },
-  71: { icon:'❄️', desc:'小雪' }, 73: { icon:'❄️', desc:'中雪' }, 75: { icon:'❄️', desc:'大雪' },
-  80: { icon:'🌦️', desc:'阵雨' }, 81: { icon:'🌧️', desc:'中阵雨' }, 82: { icon:'⛈️', desc:'强阵雨' },
-  95: { icon:'⛈️', desc:'雷暴' }, 96: { icon:'⛈️', desc:'雷暴+冰雹' }, 99: { icon:'⛈️', desc:'强雷暴+冰雹' },
-};
+/* ==================== DATE & LUNAR ==================== */
+(function(){
+  // Lunar calendar data: 1900-2050, 16-bit per year
+  // Bits 0-3: leap month (0=none); Bits 4-15: 12 month lengths (1=30d, 0=29d) from month 1
+  var L=[0x04bd8,0x04ae0,0x0a570,0x054d5,0x0d260,0x0d950,0x16554,0x056a0,0x09ad0,0x055d2,0x04ae0,0x0a5b6,0x0a4d0,0x0d250,0x1d255,0x0b540,0x0d6a0,0x0ada2,0x095b0,0x14977,0x04970,0x0a4b0,0x0b4b5,0x06a50,0x06d40,0x1ab54,0x02b60,0x09570,0x052f2,0x04970,0x06566,0x0d4a0,0x0ea50,0x06e95,0x05ad0,0x02b60,0x186e3,0x092e0,0x1c8d7,0x0c950,0x0d4a0,0x1d8a6,0x0b550,0x056a0,0x1a5b4,0x025d0,0x092d0,0x0d2b2,0x0a950,0x0b557,0x06ca0,0x0b550,0x15355,0x04da0,0x0a5b0,0x14573,0x052b0,0x0a9a8,0x0e950,0x06aa0,0x0aea6,0x0ab50,0x04b60,0x0aae4,0x0a570,0x05260,0x0f263,0x0d950,0x05b57,0x056a0,0x096d0,0x04dd5,0x04ad0,0x0a4d0,0x0d4d4,0x0d250,0x0d558,0x0b540,0x0b6a0,0x195a6,0x095b0,0x049b0,0x0a974,0x0a4b0,0x0b27a,0x06a50,0x06d40,0x0af46,0x0ab60,0x09570,0x04af5,0x04970,0x064b0,0x074a3,0x0ea50,0x06b58,0x05ac0,0x0ab60,0x096d5,0x092e0,0x0c960,0x0d954,0x0d4a0,0x0da50,0x07552,0x056a0,0x0abb7,0x025d0,0x092d0,0x0cab5,0x0a950,0x0b4a0,0x0baa4,0x0ad50,0x055d9,0x04ba0,0x0a5b0,0x15176,0x052b0,0x0a930,0x07954,0x06aa0,0x0ad50,0x05b52,0x04b60,0x0a6e6,0x0a4e0,0x0d260,0x0ea65,0x0d530,0x05aa0,0x076a3,0x096d0,0x04afb,0x04ad0,0x0a4d0,0x1d0b6,0x0d250,0x0d520,0x0dd45,0x0b5a0,0x056d0,0x055b2,0x049b0,0x0a577,0x0a4b0,0x0aa50,0x1b255,0x06d20,0x0ada0,0x14b63,0x09370,0x049f8,0x04970,0x064b0,0x168a6,0x0ea50,0x06aa0,0x1a6c4,0x0aae0,0x092e0,0x0d2e3,0x0c960,0x0d557,0x0d4a0,0x0da50,0x05d55,0x056a0,0x0a6d0,0x055d4,0x052d0,0x0a9b8,0x0a950,0x0b4a0,0x0b6a6,0x0ad50,0x055a0,0x0aba4,0x0a5b0,0x052b0,0x0b273,0x06930,0x07337,0x06aa0,0x0ad50,0x14b55,0x04b60,0x0a570,0x054e4,0x0d160,0x0e968,0x0d520,0x0daa0,0x16aa6,0x056d0,0x04ae0,0x0a9d4,0x0a4d0,0x0d150,0x0f252,0x0d520];
 
-const DEFAULT_CITY = '郑州';
-const DEFAULT_COORDS = { lat: 34.757, lon: 113.648 }; // 郑州
+  var Gan=['甲','乙','丙','丁','戊','己','庚','辛','壬','癸'];
+  var Zhi=['子','丑','寅','卯','辰','巳','午','未','申','酉','戌','亥'];
+  var Animals=['鼠','牛','虎','兔','龙','蛇','马','羊','猴','鸡','狗','猪'];
+  var nStr1=['','正','二','三','四','五','六','七','八','九','十','十一','十二'];
+  var nStr2=['初','十','廿','卅'];
+  var nStr3=['','一','二','三','四','五','六','七','八','九','十'];
 
-function applyWeatherClickHandler() {
-  const card = document.getElementById('weatherCard');
-  if (card) {
-    card.style.cursor = 'pointer';
-    card.title = '点击刷新天气';
-    card.addEventListener('click', () => {
-      document.getElementById('weatherIcon').textContent = '⏳';
-      document.getElementById('weatherTemp').textContent = '...';
-      document.getElementById('weatherExtra').textContent = '正在获取位置…';
-      fetchWeather();
-    });
+  function lYearDays(y){var i,sum=348;for(i=0x8000;i>0x8;i>>=1){sum+=(L[y-1900]&i)?1:0;}return sum+leapDays(y);}
+  function leapMonth(y){return L[y-1900]&0xf;}
+  function leapDays(y){if(leapMonth(y)){return(L[y-1900]&0x10000)?30:29;}return 0;}
+  function monthDays(y,m){return(L[y-1900]&(0x10000>>m))?30:29;}
+
+  function lunar(y,m,d){
+    var offset=(Date.UTC(y,m-1,d)-Date.UTC(1900,0,31))/86400000;
+    var year,mo,day,lm,isLeap=false,dm;
+    for(year=1900;year<2100;year++){dm=lYearDays(year);if(offset<dm)break;offset-=dm;}
+    lm=leapMonth(year);
+    for(mo=1;mo<=12;mo++){
+      if(lm>0&&mo===lm+1&&!isLeap){dm=leapDays(year);if(offset<dm){isLeap=true;break;}offset-=dm;isLeap=false;}
+      dm=monthDays(year,mo);
+      if(offset<dm)break;
+      offset-=dm;
+    }
+    day=Math.floor(offset)+1;
+    return {year:year,month:mo,day:day,isLeap:isLeap};
   }
-}
 
-async function fetchWeather() {
-  if (!navigator.geolocation) {
-    // 无定位能力，直接用默认城市
-    fetchWeatherByCoords(DEFAULT_COORDS.lat, DEFAULT_COORDS.lon, DEFAULT_CITY);
-    return;
-  }
-  navigator.geolocation.getCurrentPosition(
-    (pos) => {
-      fetchWeatherByCoords(pos.coords.latitude, pos.coords.longitude, '');
-    },
-    () => {
-      // 用户拒绝或定位失败，使用默认城市
-      fetchWeatherByCoords(DEFAULT_COORDS.lat, DEFAULT_COORDS.lon, DEFAULT_CITY);
-    },
-    { timeout: 8000, maximumAge: 600000 }
-  );
-}
+  function getDayStr(d){return nStr2[Math.floor(d/10)]+nStr3[d%10];}
 
-async function fetchWeatherByCoords(lat, lon, fallbackCity) {
-  try {
-    const resp = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true&hourly=relativehumidity_2m&timezone=auto&forecast_days=1`);
-    const json = await resp.json();
-    const cw = json.current_weather;
-    const hourly = json.hourly;
-    const nowHour = new Date().getHours();
-    const humidityIdx = hourly.time.findIndex(t => new Date(t).getHours() >= nowHour);
-    const humidity = humidityIdx >= 0 ? hourly.relativehumidity_2m[humidityIdx] : '--';
-    renderWeather({ temp: Math.round(cw.temperature), code: cw.weathercode, wind: Math.round(cw.windspeed), humidity, city: fallbackCity });
-  } catch(e) {
-    document.getElementById('weatherTemp').textContent = '--°';
-    document.getElementById('weatherExtra').textContent = '天气获取失败';
-  }
-}
+  window.updateDateDisplay = function(){
+    var now=new Date();
+    var y=now.getFullYear(), m=now.getMonth()+1, d=now.getDate();
+    var wd=['日','一','二','三','四','五','六'][now.getDay()];
+    document.getElementById('dateSolar').textContent=m+'月'+d+'日 周'+wd;
 
-function renderWeather(data) {
-  const w = weatherMap[data.code] || { icon:'🌤️', desc:'晴' };
-  document.getElementById('weatherIcon').textContent = w.icon;
-  document.getElementById('weatherTemp').textContent = `${data.temp}\u00B0`;
-  const extra = document.getElementById('weatherExtra');
-  if (extra) {
-    let txt = '';
-    if (data.city) txt += data.city;
-    txt += ` · ${w.desc}`;
-    if (data.humidity) txt += ` · ${data.humidity}%`;
-    extra.textContent = txt;
-  }
-}
+    var lu=lunar(y,m,d);
+    var cyc=Gan[(y-4)%10]+Zhi[(y-4)%12];
+    var lunarStr;
+    if(lu.month===1&&lu.day===1){
+      lunarStr=cyc+'年 正月初一';
+    }else{
+      var mon=(lu.isLeap?'闰':'')+nStr1[lu.month];
+      lunarStr=cyc+'年 '+mon+'月'+getDayStr(lu.day);
+    }
+    document.getElementById('dateLunar').textContent=lunarStr;
+  };
+})();
 
 console.log('每日简讯 2026-06-25 更新完成');
 
