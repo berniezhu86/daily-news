@@ -299,13 +299,6 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 .csl-gp,.csl-wdl,.csl-gfga,.csl-pts { text-align:center; color:var(--text2); font-family:var(--mono); font-size:12px; }
 .csl-pts { font-weight:700; color:var(--text1); }
 
-/* ===== MATCH GRID ===== */
-.match-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:0 12px 12px; }
-.match-card { margin:0; }
-.match-card .card-header { padding:14px 14px 0; }
-.match-card .card-title { font-size:15px; }
-.match-card .card-title-icon { font-size:16px; }
-.match-card .card-meta { font-size:11px; }
 .match-scroll {
   padding:6px 12px 12px; gap:4px;
   max-height:420px; overflow-y:auto;
@@ -406,7 +399,6 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
   .card-header { padding:14px 14px 0; }
   .sub-tabs { padding:10px 14px 0; }
   .news-list, .ranking-wrap, .match-list, .stock-grid, .stock-news-list, .load-more-wrap, .market-bar, .csl-standings { padding-left:12px; padding-right:12px; }
-  .match-grid { grid-template-columns:1fr; gap:8px; margin:0 8px 8px; }
   .match-scroll { max-height:none; }
 }
 @media (min-width:768px) {
@@ -547,22 +539,20 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
         <table class="csl-table" id="cslStandingsTable"></table>
       </div>
     </div>
-    <!-- 赛程并列双卡 -->
-    <div class="match-grid">
-      <div class="card match-card">
-        <div class="card-header">
-          <div class="card-title"><span class="card-title-icon">📅</span>近期赛程</div>
-          <div class="card-meta">第16-30轮</div>
-        </div>
-        <div class="match-list match-scroll" id="henanMatchList"></div>
+    <!-- 赛程：全宽卡片 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="card-title-icon">📅</span>近期赛程</div>
+        <div class="card-meta">第16-30轮</div>
       </div>
-      <div class="card match-card">
-        <div class="card-header">
-          <div class="card-title"><span class="card-title-icon">📋</span>历史战绩</div>
-          <div class="card-meta">第1-15轮</div>
-        </div>
-        <div class="match-list match-scroll" id="henanPastMatchList"></div>
+      <div class="match-list match-scroll" id="henanMatchList"></div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="card-title-icon">📋</span>历史战绩</div>
+        <div class="card-meta">第1-15轮</div>
       </div>
+      <div class="match-list match-scroll" id="henanPastMatchList"></div>
     </div>
     <div class="card">
       <div class="card-header">
