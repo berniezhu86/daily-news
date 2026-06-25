@@ -296,27 +296,42 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 .csl-gp,.csl-wdl,.csl-gfga,.csl-pts { text-align:center; color:var(--text2); font-family:var(--mono); font-size:12px; }
 .csl-pts { font-weight:700; color:var(--text1); }
 
+/* ===== MATCH GRID ===== */
+.match-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:0 12px 12px; }
+.match-card { margin:0; }
+.match-card .card-header { padding:14px 14px 0; }
+.match-card .card-title { font-size:15px; }
+.match-card .card-title-icon { font-size:16px; }
+.match-card .card-meta { font-size:11px; }
+.match-scroll {
+  padding:6px 12px 12px; gap:4px;
+  max-height:420px; overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:thin; scrollbar-color:var(--border) var(--surface1);
+}
+
 /* ===== MATCH ===== */
 .match-list { padding:8px 20px 16px; display:flex; flex-direction:column; gap:6px; }
 .match-item {
-  display:flex; align-items:center; gap:12px; padding:12px 14px;
+  display:flex; align-items:center; gap:8px; padding:8px 10px;
   border-radius:var(--r-md); background:var(--surface2); border:1.5px solid var(--border);
 }
 .match-num { font-size:11px; font-weight:700; color:var(--text3); width:16px; text-align:center; flex-shrink:0; }
 .match-body { flex:1; min-width:0; }
-.match-title { font-size:15px; font-weight:700; display:flex; align-items:center; gap:6px; }
-.match-badge { font-size:11px; padding:2px 7px; border-radius:9px; background:rgba(10,132,255,0.1); color:var(--blue); font-weight:600; }
-.match-sub { font-size:12px; color:var(--text3); margin-top:3px; }
-.match-remind {
-  flex-shrink:0; padding:5px 10px; border-radius:var(--r-sm);
-  font-size:12px; font-weight:600; cursor:pointer;
-  background:rgba(10,132,255,0.08); color:var(--blue);
-  border:1px solid rgba(10,132,255,0.2); transition:all 0.2s;
-  text-decoration:none; display:inline-flex; align-items:center; gap:3px;
+.match-title { font-size:13px; font-weight:700; display:flex; align-items:center; gap:6px; }
+.match-badge { font-size:10px; padding:1px 6px; border-radius:8px; background:rgba(10,132,255,0.1); color:var(--blue); font-weight:600; }
+.match-sub { font-size:11px; color:var(--text3); margin-top:2px; line-height:1.3; }
+.match-subscribe {
+  flex-shrink:0; width:32px; height:32px; border-radius:50%;
+  font-size:14px; cursor:pointer; border:none;
+  background:rgba(255,149,0,0.1); color:#ff9500;
+  transition:all 0.2s; display:inline-flex; align-items:center; justify-content:center;
 }
-.match-remind:hover { background:var(--blue); color:#fff; }
+.match-subscribe:hover { background:#ff9500; color:#fff; transform:scale(1.08); }
+.match-subscribe.subscribed { background:#ff9500; color:#fff; animation:pulseSub 2s ease infinite; }
+@keyframes pulseSub { 0%,100%{box-shadow:0 0 0 0 rgba(255,149,0,0.4)} 50%{box-shadow:0 0 0 6px rgba(255,149,0,0)} }
 .match-item.past { opacity:0.75; background:var(--surface1); }
-.match-result { font-size:12px; padding:2px 8px; border-radius:10px; font-weight:700; flex-shrink:0; }
+.match-result { font-size:11px; padding:2px 7px; border-radius:9px; font-weight:700; flex-shrink:0; }
 .result-win  { background:rgba(255,69,58,0.12); color:#ff453a; }
 .result-loss { background:rgba(48,209,88,0.12); color:#30d158; }
 .result-draw { background:rgba(142,142,147,0.12); color:#8e8e93; }
@@ -353,6 +368,8 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
   .card-header { padding:14px 14px 0; }
   .sub-tabs { padding:10px 14px 0; }
   .news-list, .ranking-wrap, .match-list, .stock-grid, .stock-news-list, .load-more-wrap, .market-bar, .csl-standings { padding-left:12px; padding-right:12px; }
+  .match-grid { grid-template-columns:1fr; gap:8px; margin:0 8px 8px; }
+  .match-scroll { max-height:none; }
 }
 @media (min-width:768px) {
   .stock-grid { grid-template-columns:repeat(4, 1fr); }
@@ -489,19 +506,22 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
         <table class="csl-table" id="cslStandingsTable"></table>
       </div>
     </div>
-    <div class="card">
-      <div class="card-header">
-        <div class="card-title"><span class="card-title-icon">📅</span>近期赛程</div>
-        <div class="card-meta">第16-30轮 · 球迷屋 · 搜狐体育</div>
+    <!-- 赛程并列双卡 -->
+    <div class="match-grid">
+      <div class="card match-card">
+        <div class="card-header">
+          <div class="card-title"><span class="card-title-icon">📅</span>近期赛程</div>
+          <div class="card-meta">第16-30轮</div>
+        </div>
+        <div class="match-list match-scroll" id="henanMatchList"></div>
       </div>
-      <div class="match-list" id="henanMatchList"></div>
-    </div>
-    <div class="card">
-      <div class="card-header" onclick="togglePastMatches()" style="cursor:pointer;user-select:none;">
-        <div class="card-title"><span class="card-title-icon">📋</span>历史战绩（第1-15轮）</div>
-        <div class="card-meta" id="pastMatchToggle">展开 ▼</div>
+      <div class="card match-card">
+        <div class="card-header">
+          <div class="card-title"><span class="card-title-icon">📋</span>历史战绩</div>
+          <div class="card-meta">第1-15轮</div>
+        </div>
+        <div class="match-list match-scroll" id="henanPastMatchList"></div>
       </div>
-      <div class="match-list" id="henanPastMatchList" style="display:none;"></div>
     </div>
     <div class="card">
       <div class="card-header">
@@ -1190,9 +1210,10 @@ function renderMatches(matches) {
           <span>${title}</span>
           <span class="match-badge">${isHome ? '主场' : '客场'}</span>
         </div>
-        <div class="match-sub">${m.date} · ${m.venue} · ${m.league}</div>
+        <div class="match-sub">${m.date} · ${m.league}</div>
+        <div class="match-sub" style="margin-top:1px;">${m.venue}</div>
       </div>
-      <button class="match-remind" onclick="addToCalendar('${m.date.replace(/'/g, "\\'")}','${m.opponent.replace(/'/g, "\\'")}',${isHome},'${m.venue.replace(/'/g, "\\'")}','${m.league.replace(/'/g, "\\'")}')">📅 日历</button>
+      <button class="match-subscribe" onclick="subscribeMatch('${m.date.replace(/'/g, "\\'")}','${m.opponent.replace(/'/g, "\\'")}')" title="关注比赛，赛前30分钟推送提醒">🔔</button>
     </div>`;
   }).join('');
 }
@@ -1218,18 +1239,7 @@ function renderPastMatches() {
   }).join('');
 }
 
-function togglePastMatches() {
-  const list = document.getElementById('henanPastMatchList');
-  const toggle = document.getElementById('pastMatchToggle');
-  if (list.style.display === 'none') {
-    list.style.display = 'block';
-    toggle.textContent = '收起 ▲';
-    if (!list.innerHTML) renderPastMatches();
-  } else {
-    list.style.display = 'none';
-    toggle.textContent = '展开 ▼';
-  }
-}
+function togglePastMatches() {} // deprecated, now always visible side-by-side
 
 function renderHenanNews(news) {
   document.getElementById('henanNewsList').innerHTML = news.map(item => `
@@ -1342,95 +1352,61 @@ function scheduleStockRefresh() {
   if (isMarketOpen('cn') || isMarketOpen('us')) refreshStockData();
 }
 
-/* ==================== CALENDAR AUTO-IMPORT ==================== */
+/* ==================== SUBSCRIBE MATCH ==================== */
+function subscribeMatch(dateStr, opponent) {
+  const btn = event.target.closest('.match-subscribe');
+  if (!btn) return;
+  
+  // Request notification permission
+  if ('Notification' in window && Notification.permission === 'default') {
+    Notification.requestPermission();
+  }
+  
+  const key = 'sub_' + dateStr.replace(/\s/g, '_') + '_' + opponent;
+  const isSubscribed = localStorage.getItem(key);
+  
+  if (isSubscribed) {
+    localStorage.removeItem(key);
+    btn.classList.remove('subscribed');
+    btn.title = '关注比赛，赛前30分钟推送提醒';
+    showToast('已取消关注');
+  } else {
+    localStorage.setItem(key, '1');
+    btn.classList.add('subscribed');
+    btn.title = '已关注，赛前30分钟将推送提醒';
+    showToast('🔔 已关注！赛前30分钟将推送提醒');
+    
+    // Schedule reminder if match is in the future
+    const d = parseMatchDate(dateStr);
+    if (d && d > new Date()) {
+      const remindAt = new Date(d.getTime() - 30 * 60 * 1000);
+      const msUntilRemind = remindAt.getTime() - Date.now();
+      if (msUntilRemind > 0 && msUntilRemind < 24 * 60 * 60 * 1000) {
+        setTimeout(() => {
+          fireMatchReminder(opponent, dateStr);
+        }, msUntilRemind);
+      }
+    }
+  }
+}
+
+function fireMatchReminder(opponent, dateStr) {
+  if ('Notification' in window && Notification.permission === 'granted') {
+    new Notification('⚽ 比赛即将开始', {
+      body: '河南仰韶彩陶坊 vs ' + opponent + ' · ' + dateStr,
+      icon: 'images/icon.jpg',
+      tag: 'match-reminder',
+      requireInteraction: true
+    });
+  }
+  if (navigator.vibrate) { navigator.vibrate([200, 100, 200]); }
+}
+
 function parseMatchDate(dateStr) {
   const match = dateStr.match(/(\d+)月(\d+)日\s*(\d+):(\d+)/);
   if (!match) return null;
   const year = 2026;
   return new Date(year, parseInt(match[1]) - 1, parseInt(match[2]), parseInt(match[3]), parseInt(match[4]), 0);
-}
-
-function pad(n) { return n.toString().padStart(2, '0'); }
-
-function toICSDate(d) {
-  return d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()) + 'T' + pad(d.getHours()) + pad(d.getMinutes()) + '00';
-}
-
-function toGCalDate(d) {
-  return d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()) + 'T' + pad(d.getHours()) + pad(d.getMinutes()) + '00';
-}
-
-function buildICS(dateStr, opponent, isHome, venue, league) {
-  const d = parseMatchDate(dateStr);
-  if (!d) return null;
-  const end = new Date(d.getTime() + 2 * 60 * 60 * 1000);
-  const summary = (isHome ? '河南仰韶彩陶坊 vs ' : '') + opponent + (isHome ? '' : ' vs 河南仰韶彩陶坊');
-  const loc = venue.replace('主场·', '').replace('客场·', '');
-  return [
-    'BEGIN:VCALENDAR',
-    'VERSION:2.0',
-    'PRODID:-//每日简讯//足球赛程//ZH',
-    'CALSCALE:GREGORIAN',
-    'METHOD:PUBLISH',
-    'BEGIN:VEVENT',
-    'DTSTART:' + toICSDate(d),
-    'DTEND:' + toICSDate(end),
-    'SUMMARY:' + summary,
-    'DESCRIPTION:' + league + '\\n' + venue + '\\n由「每日简讯」生成',
-    'LOCATION:' + loc,
-    'BEGIN:VALARM',
-    'TRIGGER:-PT30M',
-    'ACTION:DISPLAY',
-    'DESCRIPTION:比赛即将开始！' + summary,
-    'END:VALARM',
-    'END:VEVENT',
-    'END:VCALENDAR'
-  ].join('\r\n');
-}
-
-function buildGCalUrl(dateStr, opponent, isHome, venue, league) {
-  const d = parseMatchDate(dateStr);
-  if (!d) return '#';
-  const end = new Date(d.getTime() + 2 * 60 * 60 * 1000);
-  const summary = encodeURIComponent((isHome ? '河南仰韶彩陶坊 vs ' : '') + opponent + (isHome ? '' : ' vs 河南仰韶彩陶坊'));
-  const loc = encodeURIComponent(venue.replace('主场·', '').replace('客场·', ''));
-  const details = encodeURIComponent(league + ' | ' + venue + ' | 由「每日简讯」添加');
-  return 'https://calendar.google.com/calendar/render?action=TEMPLATE' +
-    '&text=' + summary +
-    '&dates=' + toGCalDate(d) + '/' + toGCalDate(end) +
-    '&details=' + details +
-    '&location=' + loc;
-}
-
-function addToCalendar(dateStr, opponent, isHome, venue, league) {
-  const ics = buildICS(dateStr, opponent, isHome, venue, league);
-  if (!ics) { showToast('⚠️ 无法解析日期'); return; }
-
-  // Method 1: ICS Blob — triggers native Calendar on iOS/Android
-  const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
-  const blobUrl = URL.createObjectURL(blob);
-
-  // Use hidden <a> click for best mobile compatibility
-  const a = document.createElement('a');
-  a.href = blobUrl;
-  a.download = 'match.ics';
-  a.style.display = 'none';
-  document.body.appendChild(a);
-  a.click();
-
-  // Cleanup blob after a delay
-  setTimeout(() => {
-    document.body.removeChild(a);
-    URL.revokeObjectURL(blobUrl);
-  }, 5000);
-
-  // Method 2: Google Calendar fallback (opens in new tab)
-  const gcalUrl = buildGCalUrl(dateStr, opponent, isHome, venue, league);
-  setTimeout(() => {
-    window.open(gcalUrl, '_blank');
-  }, 800);
-
-  showToast('📅 正在添加到日历…如未弹出，请查看打开的页面');
 }
 
 /* ==================== TOAST ==================== */
@@ -1471,6 +1447,7 @@ function refreshAll() {
   entNewsExpanded = false;
   document.getElementById('entLoadMore').style.display = 'block';
   renderMatches(mockMatches);
+  renderPastMatches();
   renderCslStandings(cslStandings);
   renderHenanNews(mockHenanNews);
   updateMarketStatus();
@@ -1495,6 +1472,7 @@ function loadAllData() {
   entNewsExpanded = false;
   document.getElementById('entLoadMore').style.display = 'block';
   renderMatches(mockMatches);
+  renderPastMatches();
   renderCslStandings(cslStandings);
   renderHenanNews(mockHenanNews);
   updateMarketStatus();
@@ -1578,8 +1556,22 @@ function getTodayMatch() {
   return null;
 }
 
+function restoreSubscriptions() {
+  document.querySelectorAll('.match-subscribe').forEach(btn => {
+    const onclick = btn.getAttribute('onclick') || '';
+    const args = onclick.match(/subscribeMatch\('([^']+)','([^']+)'\)/);
+    if (!args) return;
+    const key = 'sub_' + args[1].replace(/\s/g, '_') + '_' + args[2];
+    if (localStorage.getItem(key)) {
+      btn.classList.add('subscribed');
+      btn.title = '已关注，赛前30分钟将推送提醒';
+    }
+  });
+}
+
 /* ==================== INIT ==================== */
 loadAllData();
+restoreSubscriptions();
 updateTimeDisplay();
 renderMarquee();
 scheduleStockRefresh();
