@@ -299,6 +299,38 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 .csl-gp,.csl-wdl,.csl-gfga,.csl-pts { text-align:center; color:var(--text2); font-family:var(--mono); font-size:12px; }
 .csl-pts { font-weight:700; color:var(--text1); }
 
+/* ===== 权威要闻 ===== */
+.auth-banner {
+  margin:0 20px 10px; padding:10px 14px;
+  background:linear-gradient(135deg, rgba(255,59,48,0.06), rgba(255,149,0,0.06));
+  border:1px solid rgba(255,59,48,0.15); border-radius:var(--r-md);
+}
+.auth-banner-header {
+  display:flex; align-items:center; gap:6px; margin-bottom:8px;
+}
+.auth-banner-icon { font-size:13px; }
+.auth-banner-title { font-size:13px; font-weight:700; color:#d63031; letter-spacing:-0.01em; }
+.auth-banner-time { font-size:10px; color:var(--text3); margin-left:auto; }
+.auth-news-item {
+  display:flex; align-items:flex-start; gap:8px; padding:7px 0;
+  border-bottom:1px solid rgba(0,0,0,0.04);
+}
+.auth-news-item:last-child { border-bottom:none; }
+.auth-source-tag {
+  flex-shrink:0; font-size:9px; font-weight:700; padding:2px 7px; border-radius:4px;
+  color:#fff; letter-spacing:0.04em; line-height:1.5;
+}
+.auth-source-xinhua { background:#d63031; }
+.auth-source-people { background:#c0392b; }
+.auth-news-text {
+  font-size:13px; font-weight:600; color:var(--text1); line-height:1.45;
+  text-decoration:none; display:block; flex:1; min-width:0;
+}
+.auth-news-text:hover { color:#d63031; }
+.auth-news-empty {
+  text-align:center; padding:8px 0; color:var(--text3); font-size:12px;
+}
+
 .match-scroll {
   padding:6px 12px 12px; gap:4px;
   max-height:420px; overflow-y:auto;
@@ -497,6 +529,14 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
       <div class="card-header">
         <div class="card-title"><span class="card-title-icon">🔥</span>每日热搜</div>
         <div class="card-meta">综合各大媒体</div>
+      </div>
+      <div class="auth-banner" id="authBanner" style="display:none;">
+        <div class="auth-banner-header">
+          <span class="auth-banner-icon">📡</span>
+          <span class="auth-banner-title">权威发布 · 新华社/人民日报</span>
+          <span class="auth-banner-time" id="authUpdateTime"></span>
+        </div>
+        <div id="authNewsList"></div>
       </div>
       <div class="sub-tabs" id="hotNewsSubTabs">
         <button class="sub-tab active" data-hot="domestic">🇨🇳 国内</button>
@@ -1545,6 +1585,8 @@ function refreshAll() {
   const btn = document.getElementById('btnRefresh');
   btn.classList.add('spinning');
   showToast('🔄 正在刷新数据...');
+  authLoadAttempted = false; // 允许重新拉取权威要闻
+  loadAuthoritativeNews();
   hotNewsExpandedDomestic = false;
   hotNewsExpandedInternational = false;
   hotNewsExpandedAI = false;
@@ -1572,6 +1614,7 @@ function refreshAll() {
 }
 
 function loadAllData() {
+  loadAuthoritativeNews();
   renderNewsList('hotNewsList', mockHotNewsDomestic);
   hotNewsActiveTab = 'domestic';
   hotNewsExpandedDomestic = false;
@@ -1623,6 +1666,49 @@ const marqueeHeadlines = [
   '⚽ 足球概念股：双象股份 ▲6.2% · 共创草坪 ▲4.8% · 建业地产港股 ▲3.1%',
   '🔥 今日成交活跃：宁德时代 成交额82亿 · 贵州茅台 成交额47亿 · 中科曙光 成交额39亿',
 ];
+
+// 权威要闻缓存
+var authoritativeNews = [];
+var authLoadAttempted = false;
+
+function loadAuthoritativeNews() {
+  if (authLoadAttempted) return;
+  authLoadAttempted = true;
+  fetch('authoritative_news.json?_=' + Date.now())
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      authoritativeNews = data.news || [];
+      var tEl = document.getElementById('authUpdateTime');
+      if (tEl) tEl.textContent = data.updated_display || '';
+      renderAuthBanner();
+      renderMarquee();
+    })
+    .catch(function() {
+      var banner = document.getElementById('authBanner');
+      if (banner) banner.style.display = 'none';
+    });
+}
+
+function renderAuthBanner() {
+  var banner = document.getElementById('authBanner');
+  var list = document.getElementById('authNewsList');
+  if (!authoritativeNews || authoritativeNews.length === 0) {
+    if (banner) banner.style.display = 'none';
+    return;
+  }
+  if (banner) banner.style.display = 'block';
+  var displayNews = authoritativeNews.slice(0, 5);
+  if (list) {
+    list.innerHTML = displayNews.map(function(item) {
+      var cls = item.source === '新华社' ? 'auth-source-xinhua' : 'auth-source-people';
+      return '<div class="auth-news-item">' +
+        '<span class="auth-source-tag ' + cls + '">' + item.source + '</span>' +
+        '<a class="auth-news-text" href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a>' +
+        '</div>';
+    }).join('');
+  }
+}
+
 function renderMarquee() {
   const track = document.getElementById('marqueeTrack');
   const label = document.getElementById('marqueeLabel');
@@ -1646,13 +1732,24 @@ function renderMarquee() {
       label.style.background = 'linear-gradient(135deg,#e65100,#ff6d00)';
     }
   } else {
-    // 非比赛日：显示常规财经快讯
-    console.log('✅ renderMarquee 执行，共', marqueeHeadlines.length, '条内容');
-    track.innerHTML = marqueeHeadlines.map(h => '<span style="margin:0 28px;">' + h + '</span>').join('');
-    track.style.animationDuration = '60s';
+    // 非比赛日：权威要闻优先 + 常规财经快讯
+    var authHeadlines = [];
+    if (authoritativeNews && authoritativeNews.length > 0) {
+      authHeadlines = authoritativeNews.slice(0, 4).map(function(item) {
+        return '📡 ' + item.source + '：' + item.title;
+      });
+    }
+    var allHeadlines = authHeadlines.concat(marqueeHeadlines);
+    console.log('✅ renderMarquee 执行，共', allHeadlines.length, '条内容（含权威要闻', authHeadlines.length, '条）');
+    track.innerHTML = allHeadlines.map(function(h) {
+      return '<span style="margin:0 28px;">' + h + '</span>';
+    }).join('');
+    track.style.animationDuration = (allHeadlines.length > 20) ? '90s' : '60s';
     if (label) {
-      label.textContent = '快讯';
-      label.style.background = 'linear-gradient(135deg,#0a84ff,#0d47a1)';
+      label.textContent = authHeadlines.length > 0 ? '⚡权威' : '快讯';
+      label.style.background = authHeadlines.length > 0
+        ? 'linear-gradient(135deg,#d63031,#e74c3c)'
+        : 'linear-gradient(135deg,#0a84ff,#0d47a1)';
     }
   }
 }
