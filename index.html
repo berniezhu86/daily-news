@@ -1454,10 +1454,7 @@ function renderMarquee() {
 loadAllData();
 updateTimeDisplay();
 fetchWeather();
-renderMarquee();
-scheduleStockRefresh();
-
-fetchWeather();
+applyWeatherClickHandler();
 renderMarquee();
 scheduleStockRefresh();
 
@@ -1559,6 +1556,41 @@ const weatherMap = {
   80: { icon:'🌦️', desc:'阵雨' }, 81: { icon:'🌧️', desc:'中阵雨' }, 82: { icon:'⛈️', desc:'强阵雨' },
   95: { icon:'⛈️', desc:'雷暴' }, 96: { icon:'⛈️', desc:'雷暴+冰雹' }, 99: { icon:'⛈️', desc:'强雷暴+冰雹' },
 };
+
+const DEFAULT_CITY = '郑州';
+const DEFAULT_COORDS = { lat: 34.757, lon: 113.648 }; // 郑州
+
+function applyWeatherClickHandler() {
+  const card = document.getElementById('weatherCard');
+  if (card) {
+    card.style.cursor = 'pointer';
+    card.title = '点击刷新天气';
+    card.addEventListener('click', () => {
+      document.getElementById('weatherIcon').textContent = '⏳';
+      document.getElementById('weatherTemp').textContent = '...';
+      document.getElementById('weatherExtra').textContent = '正在获取位置…';
+      fetchWeather();
+    });
+  }
+}
+
+async function fetchWeather() {
+  if (!navigator.geolocation) {
+    // 无定位能力，直接用默认城市
+    fetchWeatherByCoords(DEFAULT_COORDS.lat, DEFAULT_COORDS.lon, DEFAULT_CITY);
+    return;
+  }
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      fetchWeatherByCoords(pos.coords.latitude, pos.coords.longitude, '');
+    },
+    () => {
+      // 用户拒绝或定位失败，使用默认城市
+      fetchWeatherByCoords(DEFAULT_COORDS.lat, DEFAULT_COORDS.lon, DEFAULT_CITY);
+    },
+    { timeout: 8000, maximumAge: 600000 }
+  );
+}
 
 async function fetchWeatherByCoords(lat, lon, fallbackCity) {
   try {
