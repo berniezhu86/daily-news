@@ -708,6 +708,14 @@ body.care-mode .news-item { padding:18px 0; }
       </div>
       <div class="news-list" id="henanNewsList"></div>
     </div>
+    <!-- 中超其他球队动态 -->
+    <div class="card" id="cslOtherTeamsCard">
+      <div class="card-header">
+        <div class="card-title"><span class="card-title-icon">⚽</span>中超其他球队动态</div>
+        <div class="card-meta">新浪体育 · 搜狐体育 · 腾讯体育</div>
+      </div>
+      <div class="news-list" id="cslOtherTeamsList"></div>
+    </div>
   </div>
 
 </main>
@@ -1381,6 +1389,30 @@ const mockHenanNews = [
   {title:"足协杯：河南2-0江西庐山，刘家辉+钟义浩破门晋级16强", source:"正观新闻", summary:"6月19日足协杯第四轮，河南仰韶彩陶坊客场2-0击败中乙江西庐山。上半场全华班0-0战平；下半场王上源角球助攻刘家辉头槌破门（64'），4分钟后钟义浩凌空抽射锁定胜局顺利晋级16强。" }
 ];
 
+// === 中超联赛其他球队新闻 ===
+const mockCslOtherTeams = [
+  {team:"上海海港",   title:"海港3-1逆转武汉三镇，武磊梅开二度状态回勇",   source:"新浪体育", summary:"卫冕冠军上海海港主场3-1逆转武汉三镇。武磊梅开二度，其中一球为第89分钟绝杀，展现极强的把握机会能力。主教练哈维尔表示球队已走出赛季初低迷。", heat:9},
+  {team:"上海申花",   title:"申花1-0小胜天津津门虎，马莱莱制胜球领跑积分榜", source:"搜狐体育", summary:"上海申花凭借马莱莱上半场第23分钟进球1-0击败天津津门虎，以2分优势继续领跑中超积分榜。申花防守固若金汤，15轮仅失8球冠绝中超。", heat:8},
+  {team:"北京国安",   title:"国安2-1逆转河南，法比奥双响+张稀哲送出两次助攻",   source:"央视体育", summary:"北京国安主场2-1逆转河南队。法比奥·阿布雷乌梅开二度，老将张稀哲两次精准助攻展现大师风采。国安近5轮4胜1平状态正佳。", heat:7},
+  {team:"成都蓉城",   title:"成都蓉城主场0-0闷平山东泰山，费利佩错失单刀",   source:"腾讯体育", summary:"成都蓉城主场0-0战平山东泰山。上半场费利佩获得单刀机会但推射被王大雷扑出，下半场罗慕洛任意球中柱。成都延续主场不败但错失登顶良机。", heat:6},
+  {team:"山东泰山",   title:"泰山2-1逆转浙江，克雷桑破门+卡扎伊什维利制胜助攻", source:"新浪体育", summary:"山东泰山客场2-1逆转浙江队。克雷桑第55分钟头球扳平，卡扎伊什维利第78分钟妙传替补登场的刘彬彬破门。泰山近8轮不败，崔康熙帅位压力暂缓。", heat:7},
+  {team:"浙江队",     title:"浙江队2-0击败河南，王钰栋传射建功刷新中超最年轻纪录", source:"新华社",   summary:"浙江队主场2-0战胜河南队。18岁小将王钰栋传射建功，以18岁132天刷新中超最年轻梅开二度纪录。浙江队外援莱昂纳多状态火热，已打入12球领跑射手榜。", heat:8},
+  {team:"武汉三镇",   title:"三镇1-3不敌海港遭遇四连败，联赛保级形势严峻",   source:"搜狐体育", summary:"武汉三镇主场1-3不敌上海海港，遭遇联赛四连败。主教练里卡多·罗德里格斯在赛后新闻发布会上表示球队目前处于最困难时期，俱乐部正在积极运作夏窗引援。", heat:5},
+  {team:"天津津门虎", title:"津门虎0-1惜败申花，王秋明红牌离场成比赛转折点",   source:"腾讯体育", summary:"天津津门虎客场0-1惜败上海申花。第61分钟王秋明战术犯规领第二张黄牌被罚下，此后申花凭借人数优势加强攻势最终由马莱莱破门。津门虎仍需抢分保级。", heat:5},
+  {team:"深圳新鹏城", title:"深圳新鹏城0-1不敌河南，继海港后连续第二轮主场落败", source:"搜狐体育", summary:"深圳新鹏城主场0-1不敌河南队，继上轮0-2不敌海港后再度主场落败。主教练陈涛在赛后表示球队在进攻端创造力不足，夏窗必须补强锋线。", heat:4},
+  {team:"重庆铜梁龙", title:"铜梁龙1-1战平河南，向余望进球被判越位引争议",   source:"新浪体育", summary:"重庆铜梁龙主场1-1战平河南队。向余望第71分钟攻入一球但因越位在先被判无效，慢镜头显示判罚存在争议。铜梁龙近3轮2平1负，冲超形势不容乐观。", heat:5},
+  {team:"上海海港",   title:"海港签下巴西后腰卡布拉尔，夏窗引援再出重拳",   source:"新浪体育", summary:"上海海港官方宣布巴西后腰卡布拉尔（Gabriel Cabral）正式加盟，转会费550万欧元。25岁的卡布拉尔司职防守型中场，到来将极大缓解海港中场防守压力。", heat:7, pinnedUntil:Date.now()+3*3600*1000},
+  {team:"上海申花",   title:"申花功勋队长吴曦续约一年，誓言带领申花夺冠",     source:"腾讯体育", summary:"上海申花官方宣布队长吴曦完成续约，新合同至2027年底。34岁的吴曦表示：'夺冠是申花和我的共同目标，我会战斗到最后一刻。'申花球迷纷纷在社媒表达敬意。", heat:6},
+  {team:"北京国安",   title:"国安青训小将何宇鹏中超首秀破门，成队史最年轻得分手", source:"央视体育", summary:"北京国安19岁青训小将何宇鹏在对阵河南的比赛中替补登场并攻入一球，以19岁47天成为国安队史中超最年轻得分手。国安青训体系近年持续输出优秀人才。", heat:7},
+  {team:"成都蓉城",   title:"成都蓉城足球俱乐部官宣：与罗慕洛续约至2029年",   source:"搜狐体育", summary:"成都蓉城官方宣布与巴西中场罗慕洛续约至2029年底。罗慕洛自2023年加盟以来已为成都出场58次攻入17球，是球队冲超成功并稳居中上游的核心功臣。", heat:5},
+  {team:"山东泰山",   title:"泰山队门将王大雷当选5月最佳门将，3场比赛零封对手", source:"新华社",   summary:"中超联赛官方公布5月最佳门将，山东泰山35岁老门将王大雷当选。5月出战3场完成3次零封，多次关键扑救帮助泰山稳住阵脚。王大雷表示：'年龄只是数字'。", heat:6},
+  {team:"长春亚泰",   title:"亚泰2-2战平梅州客家，塞尔吉尼奥点球绝平挽救1分", source:"腾讯体育", summary:"长春亚泰主场2-2战平梅州客家。亚泰两度落后，第94分钟塞尔吉尼奥点球罚入扳平比分。亚泰目前仍处降级区，此1分虽宝贵但抢分压力依然巨大。", heat:4},
+  {team:"梅州客家",   title:"梅州客家2-2战平亚泰，罗德里戈两射建功逼近积分榜上半区", source:"搜狐体育", summary:"梅州客家客场2-2战平长春亚泰。巴西前锋罗德里戈梅开二度，本赛季已攻入9球位列射手榜前五。梅州客家目前积22分排第8，有望冲击队史中超最佳排名。", heat:4},
+  {team:"青岛海牛",   title:"青岛海牛1-0击败深圳，终结八轮不胜尴尬纪录",   source:"新浪体育", summary:"青岛海牛主场1-0击败深圳新鹏城，终于终结联赛八轮不胜的尴尬纪录。全场唯一进球来自第38分钟尼古拉·拉多尼奇的头球破门。海牛全队赛后绕场致谢球迷。", heat:3},
+  {team:"南通支云",   title:"南通支云解雇主教练，前国脚杜威临危受命接掌教鞭",   source:"腾讯体育", summary:"南通支云官方宣布与主教练签署解约协议，由前国脚、现任俱乐部副总经理杜威临危受命出任执行教练。南通目前仅积9分垫底中超，保级希望日趋渺茫。", heat:4},
+  {team:"上海申花",   title:"申花2-1逆转海港！德比战胜利领跑积分榜，马莱莱绝杀", source:"央视体育", summary:"上海申花主场2-1逆转上海海港，赢得申城德比！武磊为海港首开纪录，马莱莱上半场结束前扳平，第88分钟马莱莱再入一球完成绝杀！申花8分优势领跑中超。", heat:9, pinnedUntil:Date.now()+6*3600*1000},
+];
+
 const mockStockIndices = {
   us: [
     { name:"标普500", value:"6,102.48", change:"+0.87%", direction:"up" },
@@ -1702,6 +1734,105 @@ document.getElementById('entRankingSubTabs').addEventListener('click', function(
   renderRanking('entRankingContainer', data);
 });
 
+
+// ==================== 新闻洗牌 & 热度机制 ====================
+// Fisher-Yates 洗牌（返回新数组，不修改原数组）
+function shuffleArray(arr) {
+  var a = arr.slice();
+  for (var i = a.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+// 获取洗牌后的新闻列表（localStorage 持久化顺序）
+//   key: 存储键名（区分各板块）
+//   arr: 主数组；extraArr: 追加数组（Extra）
+//   pinHours: 重新洗牌间隔（小时，默认6）
+// 行为：每 pinHours 小时重新洗牌；刷新不改变顺序；热度新闻（heat>=8）前置
+function getShuffledNews(key, arr, extraArr, pinHours) {
+  pinHours = pinHours || 6;
+  var pinMs = pinHours * 3600 * 1000;
+  var now = Date.now();
+  var lastKey = key + '_lastShuffle';
+  var orderKey = key + '_order';
+  var last = parseInt(localStorage.getItem(lastKey)) || 0;
+
+  // 合并主数组 + Extra 数组
+  var all = arr.slice();
+  if (extraArr && extraArr.length) all = all.concat(extraArr);
+
+  // 判断是否需要重新洗牌
+  var savedOrder = [];
+  try { savedOrder = JSON.parse(localStorage.getItem(orderKey) || '[]'); } catch(e) {}
+  var needReshuffle = (now - last > pinMs) || (savedOrder.length !== all.length);
+
+  if (needReshuffle) {
+    // 分离：置顶组（heat>=8 或 pinnedUntil 未过期）+ 普通组
+    var pinned = [];
+    var normal = [];
+    all.forEach(function(item) {
+      var isPinned = (item.heat && item.heat >= 8) ||
+                      (item.pinnedUntil && item.pinnedUntil > now);
+      if (isPinned) pinned.push(item);
+      else normal.push(item);
+    });
+    shuffleArray(pinned);
+    shuffleArray(normal);
+    var result = pinned.concat(normal);
+    // 持久化（存 rank 列表）
+    var rankList = result.map(function(it) { return it.rank; });
+    localStorage.setItem(orderKey, JSON.stringify(rankList));
+    localStorage.setItem(lastKey, String(now));
+    console.log('[Shuffle] ' + key + ': 重新洗牌，置顶=' + pinned.length + ' 普通=' + normal.length);
+    return result;
+  } else {
+    // 恢复上次洗牌顺序
+    var map = {};
+    all.forEach(function(it) { map[it.rank] = it; });
+    var result = [];
+    savedOrder.forEach(function(r) {
+      if (map[r]) result.push(map[r]);
+    });
+    // 数据新增时 append 到末尾
+    if (result.length < all.length) {
+      all.forEach(function(it) {
+        if (result.indexOf(it) === -1) result.push(it);
+      });
+      localStorage.setItem(orderKey, JSON.stringify(result.map(function(it) { return it.rank; })));
+    }
+    console.log('[Shuffle] ' + key + ': 使用缓存顺序，共' + result.length + '条');
+    return result;
+  }
+}
+
+// 获取当前更新时段标识（用于判断是否有新数据）
+function getTargetKey() {
+  var n = new Date();
+  var h = n.getHours();
+  var pad2 = function(x) { return x < 10 ? '0' + x : String(x); };
+  if (h < 6)  return 'd' + n.getFullYear() + pad2(n.getMonth()+1) + pad2(n.getDate()) + 'h00';
+  if (h < 12) return 'd' + n.getFullYear() + pad2(n.getMonth()+1) + pad2(n.getDate()) + 'h06';
+  if (h < 18) return 'd' + n.getFullYear() + pad2(n.getMonth()+1) + pad2(n.getDate()) + 'h12';
+  return 'd' + n.getFullYear() + pad2(n.getMonth()+1) + pad2(n.getDate()) + 'h18';
+}
+
+// ==================== 中超其他球队新闻渲染 ====================
+function renderCslOtherTeams(news) {
+  document.getElementById('cslOtherTeamsList').innerHTML = news.map(function(item) {
+    return '<div class="news-item">'
+      + '<div class="news-item-row">'
+      + '<div class="news-body">'
+      + '<div class="news-title">【' + (item.team || '中超') + '】' + item.title + '</div>'
+      + '<div class="news-footer"><span class="news-source">' + item.source + '</span></div>'
+      + (item.summary ? '<div class="news-summary">' + item.summary + '</div>' : '')
+      + '</div>'
+      + '</div>'
+      + '</div>';
+  }).join('');
+}
+// Matches
 // Matches
 function renderMatches(matches) {
   document.getElementById('henanMatchList').innerHTML = matches.map((m, idx) => {
@@ -1709,6 +1840,11 @@ function renderMatches(matches) {
     const title = isHome
       ? '河南仰韶彩陶坊 vs ' + m.opponent
       : m.opponent + ' vs 河南仰韶彩陶坊';
+    // 渲染时直接读取 localStorage，避免刷新后状态回退
+    const subKey = 'sub_' + m.date.replace(/\s/g, '_') + '_' + m.opponent;
+    const isSub = localStorage.getItem(subKey) === '1';
+    const subClass = isSub ? ' match-subscribe subscribed' : ' match-subscribe';
+    const subTitle = isSub ? '已关注，赛前30分钟将推送提醒' : '关注比赛，赛前30分钟推送提醒';
     return `
     <div class="match-item">
       <span class="match-num">${idx + 1}</span>
@@ -1720,7 +1856,7 @@ function renderMatches(matches) {
         <div class="match-sub">${m.date} · ${m.league}</div>
         <div class="match-sub" style="margin-top:1px;">${m.venue}</div>
       </div>
-      <button class="match-subscribe" onclick="subscribeMatch('${m.date.replace(/'/g, "\\'")}','${m.opponent.replace(/'/g, "\\'")}')" title="关注比赛，赛前30分钟推送提醒">🔔</button>
+      <button class="${subClass}" onclick="subscribeMatch('${m.date.replace(/'/g, "\\'")}','${m.opponent.replace(/'/g, "\\'")}')" title="${subTitle}">🔔</button>
     </div>`;
   }).join('');
 }
@@ -1994,7 +2130,7 @@ function refreshAll() {
   var stockBtn = document.querySelector('#stockLoadMore .btn-load-more');
   if (stockBtn) stockBtn.innerHTML = '更多股市新闻 ▼ (' + Math.ceil(mockStockNewsExtra.length / BATCH_SIZE) + '页)';
   renderRanking('entRankingContainer', mockMovieRanking);
-  renderNewsList('entNewsList', mockEntertainment);
+  renderNewsList('entNewsList', getShuffledNews('entertainment', mockEntertainment, mockEntertainmentExtra));
   entNewsPage = 0;
   document.getElementById('entLoadMore').style.display = 'block';
   var entBtn = document.querySelector('#entLoadMore .btn-load-more');
@@ -2003,6 +2139,7 @@ function refreshAll() {
   renderPastMatches();
   renderCslStandings(cslStandings);
   renderHenanNews(mockHenanNews);
+  renderCslOtherTeams(mockCslOtherTeams);
   updateMarketStatus();
   updateTimeDisplay();
   refreshStockData().catch(() => {});
@@ -2011,7 +2148,8 @@ function refreshAll() {
 
 function loadAllData() {
   loadAuthoritativeNews();
-  renderNewsList('hotNewsList', mockHotNewsDomestic);
+  // 新闻洗牌：每6小时重排一次，热度新闻前置
+  renderNewsList('hotNewsList', getShuffledNews('hotnews', mockHotNewsDomestic, mockHotNewsDomesticExtra));
   hotNewsActiveTab = 'domestic';
   hotNewsPageDomestic = 0;
   hotNewsPageInternational = 0;
@@ -2024,7 +2162,7 @@ function loadAllData() {
   var stockBtn = document.querySelector('#stockLoadMore .btn-load-more');
   if (stockBtn) stockBtn.innerHTML = '更多股市新闻 ▼ (' + Math.ceil(mockStockNewsExtra.length / BATCH_SIZE) + '页)';
   renderRanking('entRankingContainer', mockMovieRanking);
-  renderNewsList('entNewsList', mockEntertainment);
+  renderNewsList('entNewsList', getShuffledNews('entertainment', mockEntertainment, mockEntertainmentExtra));
   entNewsPage = 0;
   document.getElementById('entLoadMore').style.display = 'block';
   var entBtn = document.querySelector('#entLoadMore .btn-load-more');
@@ -2033,6 +2171,7 @@ function loadAllData() {
   renderPastMatches();
   renderCslStandings(cslStandings);
   renderHenanNews(mockHenanNews);
+  renderCslOtherTeams(mockCslOtherTeams);
   updateMarketStatus();
   refreshStockData().catch(() => {});
 }
@@ -2179,6 +2318,7 @@ function getTodayMatch() {
 }
 
 function restoreSubscriptions() {
+  // 渲染时已直接读取 localStorage，此函数保留作兜底
   document.querySelectorAll('.match-subscribe').forEach(btn => {
     const onclick = btn.getAttribute('onclick') || '';
     const args = onclick.match(/subscribeMatch\('([^']+)','([^']+)'\)/);
