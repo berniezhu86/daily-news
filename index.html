@@ -333,6 +333,31 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 .result-loss { background:rgba(48,209,88,0.12); color:#30d158; }
 .result-draw { background:rgba(142,142,147,0.12); color:#8e8e93; }
 
+/* ===== PULL-TO-REFRESH ===== */
+.pull-indicator {
+  position:fixed; top:0; left:0; right:0; z-index:999;
+  display:flex; justify-content:center;
+  transform:translateY(-100%);
+  transition:transform 0.25s ease;
+  pointer-events:none;
+}
+.pull-indicator.show { transform:translateY(0); }
+.pull-indicator .pull-inner {
+  display:flex; align-items:center; gap:8px;
+  padding:8px 20px; margin-top:6px;
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:20px; box-shadow:var(--shadow-sm);
+  font-size:13px; font-weight:600; color:var(--text2);
+}
+.pull-icon {
+  font-size:14px; transition:transform 0.25s ease; display:inline-block;
+}
+.pull-icon.flip { transform:rotate(180deg); }
+.pull-icon.spin { animation:pullSpin 0.8s linear infinite; }
+@keyframes pullSpin { to { transform:rotate(360deg); } }
+.pull-indicator.releasing .pull-inner { color:var(--blue); border-color:var(--blue); }
+.pull-indicator.refreshing .pull-inner { color:var(--blue); border-color:var(--blue); }
+
 /* ===== SUBSCRIBE MODAL ===== */
 .sub-modal-overlay {
   position:fixed; inset:0; z-index:1000;
@@ -408,6 +433,14 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 </style>
 </head>
 <body>
+
+<!-- Pull-to-refresh indicator -->
+<div id="pullIndicator" class="pull-indicator">
+  <div class="pull-inner">
+    <span class="pull-icon" id="pullIcon">⬇</span>
+    <span class="pull-text" id="pullText">下拉刷新</span>
+  </div>
+</div>
 
 <!-- Top Bar -->
 <header class="topbar">
@@ -1815,6 +1848,86 @@ console.log('每日简讯 2026-06-25 更新完成');
   document.addEventListener('wheel',function(e){if(e.ctrlKey||e.metaKey)e.preventDefault();},{passive:false});
   document.addEventListener('keydown',function(e){if((e.ctrlKey||e.metaKey)&&(e.key==='+'||e.key==='-'||e.key==='0'))e.preventDefault();});
 }();
+
+// ===== Pull-to-Refresh =====
+(function(){
+  var el = document.getElementById('pullIndicator');
+  var icon = document.getElementById('pullIcon');
+  var text = document.getElementById('pullText');
+  var startY = 0;
+  var pulling = false;
+  var refreshing = false;
+  var overThreshold = false;
+  var threshold = 60; // px to trigger refresh
+
+  function reset() {
+    el.classList.remove('show','releasing','refreshing');
+    icon.classList.remove('flip','spin');
+    icon.textContent = '\u2B07'; // ⬇
+    text.textContent = '\u4E0B\u62C9\u5237\u65B0'; // 下拉刷新
+    pulling = false;
+    refreshing = false;
+    overThreshold = false;
+  }
+
+  document.addEventListener('touchstart', function(e) {
+    if (refreshing) return;
+    if (window.scrollY !== 0) return;
+    startY = e.touches[0].clientY;
+    pulling = true;
+    overThreshold = false;
+  }, {passive: true});
+
+  document.addEventListener('touchmove', function(e) {
+    if (!pulling || refreshing) return;
+    var deltaY = e.touches[0].clientY - startY;
+    if (deltaY <= 0) { el.classList.remove('show','releasing'); return; }
+    e.preventDefault(); // block native pull-to-refresh
+    if (deltaY > 10) el.classList.add('show');
+    if (deltaY > threshold) {
+      if (!overThreshold) {
+        overThreshold = true;
+        el.classList.add('releasing');
+        icon.classList.add('flip');
+        text.textContent = '\u91CA\u653E\u5237\u65B0'; // 释放刷新
+      }
+    } else {
+      if (overThreshold) {
+        overThreshold = false;
+        el.classList.remove('releasing');
+        icon.classList.remove('flip');
+        text.textContent = '\u4E0B\u62C9\u5237\u65B0'; // 下拉刷新
+      }
+    }
+  }, {passive: false});
+
+  document.addEventListener('touchend', function() {
+    if (!pulling || refreshing) return;
+    pulling = false;
+    if (overThreshold) {
+      // Trigger refresh
+      refreshing = true;
+      el.classList.remove('releasing');
+      el.classList.add('refreshing','show');
+      icon.classList.remove('flip');
+      icon.classList.add('spin');
+      icon.textContent = '\u27F3'; // ⟳
+      text.textContent = '\u6B63\u5728\u5237\u65B0\u2026'; // 正在刷新…
+      refreshAll();
+      setTimeout(function() {
+        el.classList.remove('show','refreshing');
+        icon.classList.remove('spin');
+        icon.textContent = '\u2705'; // ✅
+        text.textContent = '\u5237\u65B0\u5B8C\u6210'; // 刷新完成
+        setTimeout(reset, 1200);
+      }, 1000);
+    } else {
+      el.classList.remove('show','releasing');
+      icon.classList.remove('flip');
+      setTimeout(function() { text.textContent = '\u4E0B\u62C9\u5237\u65B0'; }, 300);
+    }
+  });
+})();
 </script>
 </body>
 </html>
