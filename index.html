@@ -51,6 +51,9 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 }
 .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:15px; letter-spacing:-0.01em; flex-shrink:0; }
 .brand-icon { width:28px; height:28px; border-radius:7px; object-fit:cover; flex-shrink:0; }
+.brand-text { display:flex; flex-direction:column; line-height:1.3; }
+.brand-name { font-size:15px; font-weight:700; color:var(--text); }
+.brand-version { font-size:9px; font-weight:500; color:var(--text4); letter-spacing:0.02em; }
 /* Date + Lunar in top bar */
 .topbar-date {
   display:flex; flex-direction:column; align-items:center;
@@ -387,6 +390,8 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
   .topbar-inner { padding:0 12px; gap:8px; }
   .brand { font-size:14px; gap:6px; }
   .brand-icon { width:24px; height:24px; }
+  .brand-name { font-size:13px; }
+  .brand-version { font-size:8px; }
   .topbar-date { padding:3px 10px; }
   .topbar-date .d-date { font-size:13px; }
   .topbar-date .d-week { font-size:10px; padding:1px 5px; }
@@ -416,7 +421,10 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
   <div class="topbar-inner">
     <div class="brand">
       <img src="images/icon.jpg" alt="" class="brand-icon">
-      每日简讯
+      <div class="brand-text">
+        <span class="brand-name">每日简讯</span>
+        <span class="brand-version" id="brandVersion">20260625v4</span>
+      </div>
     </div>
     <div class="topbar-date" id="dateCard">
       <div class="d-row">
@@ -1490,6 +1498,22 @@ function updateTimeDisplay() {
   const timeStr = now.toLocaleString('zh-CN', { hour:'2-digit', minute:'2-digit' });
   const lu = document.getElementById('lastUpdateTime');
   if (lu) lu.textContent = timeStr;
+  updateVersionBadge();
+}
+
+function updateVersionBadge() {
+  const now = new Date();
+  const y = now.getFullYear();
+  const m = String(now.getMonth() + 1).padStart(2, '0');
+  const d = String(now.getDate()).padStart(2, '0');
+  const h = now.getHours();
+  let slot;
+  if (h >= 18) slot = 'v4';
+  else if (h >= 12) slot = 'v3';
+  else if (h >= 6) slot = 'v2';
+  else slot = 'v1';
+  const el = document.getElementById('brandVersion');
+  if (el) el.textContent = y + m + d + slot;
 }
 
 /* ==================== REFRESH ==================== */
@@ -1648,19 +1672,15 @@ scheduleStockRefresh();
 // 策略：记录上次更新的"日期+时段"，每次打开/恢复焦点时检查是否需要更新
 // ============================================================
 
-// 获取当前时段标识：today-9（今天9点档）或 today-18（今天18点档）
+// 获取当前时段标识：today-0(v1) / today-6(v2) / today-12(v3) / today-18(v4)
 function getTargetKey() {
   const now = new Date();
   const today = now.toISOString().split('T')[0]; // "2026-06-25"
   const h = now.getHours();
-  if (h >= 18) return today + '-18';      // 18:00 及之后 → 今天18点档
-  if (h >= 9)  return today + '-9';       // 9:00-17:59 → 今天9点档
-  return yesterday(today) + '-18';          // 0:00-8:59 → 昨天18点档
-}
-function yesterday(iso) {
-  const d = new Date(iso);
-  d.setDate(d.getDate() - 1);
-  return d.toISOString().split('T')[0];
+  if (h >= 18) return today + '-18';       // 18:00-23:59 → v4 (今天18点档)
+  if (h >= 12) return today + '-12';       // 12:00-17:59 → v3 (今天12点档)
+  if (h >= 6)  return today + '-6';        // 6:00-11:59  → v2 (今天6点档)
+  return today + '-0';                      // 0:00-5:59   → v1 (今天0点档)
 }
 
 // 从 localStorage 读取已更新的时段列表
@@ -1672,8 +1692,8 @@ function markUpdated(key) {
   const keys = getUpdatedKeys();
   if (!keys.includes(key)) {
     keys.push(key);
-    // 只保留最近 7 天，防止无限增长
-    if (keys.length > 14) keys.splice(0, keys.length - 14);
+    // 只保留最近 7 天（7天 × 4时段 = 28条），防止无限增长
+    if (keys.length > 28) keys.splice(0, keys.length - 28);
     localStorage.setItem('dailyRefreshed', JSON.stringify(keys));
   }
 }
@@ -1723,7 +1743,7 @@ function scheduleExactCheck() {
 }
 scheduleExactCheck();
 
-console.log('✅ 定时更新机制已启动，目标时段：' + getTargetKey());
+console.log('✅ 定时更新机制已启动，4时段更新：0/6/12/18点，当前时段：' + getTargetKey());
 
 // Service worker
 if ('serviceWorker' in navigator) {
