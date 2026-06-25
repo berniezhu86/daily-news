@@ -315,6 +315,11 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
   text-decoration:none; display:inline-flex; align-items:center; gap:3px;
 }
 .match-remind:hover { background:var(--blue); color:#fff; }
+.match-item.past { opacity:0.75; background:var(--surface1); }
+.match-result { font-size:12px; padding:2px 8px; border-radius:10px; font-weight:700; flex-shrink:0; }
+.result-win  { background:rgba(255,69,58,0.12); color:#ff453a; }
+.result-loss { background:rgba(48,209,88,0.12); color:#30d158; }
+.result-draw { background:rgba(142,142,147,0.12); color:#8e8e93; }
 
 /* ===== SECTION DIVIDER ===== */
 .section-label { font-size:12px; font-weight:600; color:var(--text3); letter-spacing:0.04em; text-transform:uppercase; margin:8px 0 10px; padding:0 2px; }
@@ -487,9 +492,16 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
     <div class="card">
       <div class="card-header">
         <div class="card-title"><span class="card-title-icon">📅</span>近期赛程</div>
-        <div class="card-meta">球迷屋 · 搜狐体育</div>
+        <div class="card-meta">第16-30轮 · 球迷屋 · 搜狐体育</div>
       </div>
       <div class="match-list" id="henanMatchList"></div>
+    </div>
+    <div class="card">
+      <div class="card-header" onclick="togglePastMatches()" style="cursor:pointer;user-select:none;">
+        <div class="card-title"><span class="card-title-icon">📋</span>历史战绩（第1-15轮）</div>
+        <div class="card-meta" id="pastMatchToggle">展开 ▼</div>
+      </div>
+      <div class="match-list" id="henanPastMatchList" style="display:none;"></div>
     </div>
     <div class="card">
       <div class="card-header">
@@ -866,12 +878,43 @@ function renderCslStandings(data) {
     `<thead><tr><th>#</th><th>球队</th><th>场</th><th>胜-平-负</th><th>进:失</th><th>积分</th></tr></thead>` + '<tbody>' + tbody + '</tbody>';
 }
 
+// === 河南仰韶彩陶坊 2026赛季 已完赛（第1-15轮） ===
+const mockPastMatches = [
+  {date:"3月7日 19:35",  opponent:"上海海港",   venue:"客场·上汽浦东足球场",  league:"中超联赛第1轮",   result:"2-1 胜", isHome:false},
+  {date:"3月15日 15:30", opponent:"云南玉昆",   venue:"主场·航海体育场",      league:"中超联赛第2轮",   result:"2-1 胜", isHome:true},
+  {date:"3月21日 19:00", opponent:"武汉三镇",   venue:"主场·航海体育场",      league:"中超联赛第3轮",   result:"1-1 平", isHome:true},
+  {date:"4月4日 15:30",  opponent:"青岛海牛",   venue:"客场·青春足球场",      league:"中超联赛第4轮",   result:"0-1 负", isHome:false},
+  {date:"4月11日 19:35", opponent:"山东泰山",   venue:"主场·航海体育场",      league:"中超联赛第5轮",   result:"0-1 负", isHome:true},
+  {date:"4月18日 19:00", opponent:"大连英博",   venue:"客场·梭鱼湾足球场",    league:"中超联赛第6轮",   result:"1-2 负", isHome:false},
+  {date:"4月22日 19:35", opponent:"青岛西海岸", venue:"客场·西海岸大学城体育场",league:"中超联赛第7轮",   result:"0-0 平", isHome:false},
+  {date:"4月26日 20:00", opponent:"上海申花",   venue:"主场·航海体育场",      league:"中超联赛第8轮",   result:"0-3 负", isHome:true},
+  {date:"5月1日 19:00",  opponent:"辽宁铁人",   venue:"主场·航海体育场",      league:"中超联赛第9轮",   result:"4-0 胜", isHome:true},
+  {date:"5月5日 20:00",  opponent:"重庆铜梁龙", venue:"客场·铜梁龙体育场",    league:"中超联赛第10轮",  result:"1-1 平", isHome:false},
+  {date:"5月9日 20:00",  opponent:"成都蓉城",   venue:"客场·凤凰山体育公园",  league:"中超联赛第11轮",  result:"0-3 负", isHome:false},
+  {date:"5月15日 19:35", opponent:"深圳新鹏城", venue:"主场·航海体育场",      league:"中超联赛第12轮",  result:"1-0 胜", isHome:true},
+  {date:"5月19日 19:35", opponent:"天津津门虎", venue:"客场·泰达足球场",      league:"中超联赛第13轮",  result:"2-1 胜", isHome:false},
+  {date:"5月23日 19:35", opponent:"北京国安",   venue:"客场·工人体育场",      league:"中超联赛第14轮",  result:"2-1 胜", isHome:false},
+  {date:"5月30日 19:00", opponent:"浙江队",     venue:"主场·航海体育场",      league:"中超联赛第15轮",  result:"0-2 负", isHome:true},
+];
+
+// === 河南仰韶彩陶坊 2026赛季 剩余赛程（第16-30轮） ===
 const mockMatches = [
-  {date:"6月27日 19:35", opponent:"上海海港", venue:"主场·航海体育场", league:"中超联赛第16轮" },
-  {date:"7月3日 20:00", opponent:"云南玉昆", venue:"客场·玉溪高原体育中心", league:"中超联赛第17轮" },
-  {date:"7月11日 19:00", opponent:"武汉三镇", venue:"客场·武汉体育中心", league:"中超联赛第18轮" },
-  {date:"7月17日 19:35", opponent:"青岛海牛", venue:"主场·航海体育场", league:"中超联赛第19轮" },
-  {date:"7月26日 19:35", opponent:"山东泰山", venue:"客场·济南奥体中心", league:"中超联赛第20轮" }
+  {date:"6月27日 19:35", opponent:"上海海港",   venue:"主场·航海体育场",      league:"中超联赛第16轮" },
+  {date:"7月3日 20:00",  opponent:"云南玉昆",   venue:"客场·玉溪高原体育中心",league:"中超联赛第17轮" },
+  {date:"7月11日 19:00", opponent:"武汉三镇",   venue:"客场·武汉体育中心",    league:"中超联赛第18轮" },
+  {date:"7月17日 19:35", opponent:"青岛海牛",   venue:"主场·航海体育场",      league:"中超联赛第19轮" },
+  {date:"7月21日 15:00", opponent:"大连英博",   venue:"主场·航海体育场",      league:"足协杯 1/8决赛" },
+  {date:"7月26日 19:35", opponent:"山东泰山",   venue:"客场·济南奥体中心",    league:"中超联赛第20轮" },
+  {date:"7月31日 19:35", opponent:"大连英博",   venue:"主场·航海体育场",      league:"中超联赛第21轮" },
+  {date:"8月9日 19:00",  opponent:"青岛西海岸", venue:"主场·航海体育场",      league:"中超联赛第22轮" },
+  {date:"8月15日 20:00", opponent:"上海申花",   venue:"客场·上海体育场",      league:"中超联赛第23轮" },
+  {date:"8月23日 19:00", opponent:"辽宁铁人",   venue:"客场·沈阳奥体中心",    league:"中超联赛第24轮" },
+  {date:"8月29日 20:00", opponent:"重庆铜梁龙", venue:"主场·航海体育场",      league:"中超联赛第25轮" },
+  {date:"9月6日 19:35",  opponent:"成都蓉城",   venue:"主场·航海体育场",      league:"中超联赛第26轮" },
+  {date:"10月9日 19:35", opponent:"深圳新鹏城", venue:"客场·宝安体育场",      league:"中超联赛第27轮" },
+  {date:"10月16日 19:35",opponent:"天津津门虎", venue:"主场·航海体育场",      league:"中超联赛第28轮" },
+  {date:"10月24日 15:30",opponent:"北京国安",   venue:"主场·航海体育场",      league:"中超联赛第29轮" },
+  {date:"11月8日 15:30", opponent:"浙江队",     venue:"客场·黄龙体育中心",    league:"中超联赛第30轮" },
 ];
 
 const mockHenanNews = [
@@ -1152,6 +1195,40 @@ function renderMatches(matches) {
       <button class="match-remind" onclick="addToCalendar('${m.date.replace(/'/g, "\\'")}','${m.opponent.replace(/'/g, "\\'")}',${isHome},'${m.venue.replace(/'/g, "\\'")}','${m.league.replace(/'/g, "\\'")}')">📅 日历</button>
     </div>`;
   }).join('');
+}
+
+function renderPastMatches() {
+  document.getElementById('henanPastMatchList').innerHTML = mockPastMatches.map((m, idx) => {
+    const resultClass = m.result.includes('胜') ? 'result-win' : (m.result.includes('负') ? 'result-loss' : 'result-draw');
+    const title = m.isHome
+      ? '河南仰韶彩陶坊 vs ' + m.opponent
+      : m.opponent + ' vs 河南仰韶彩陶坊';
+    return `
+    <div class="match-item past">
+      <span class="match-num">${idx + 1}</span>
+      <div class="match-body">
+        <div class="match-title">
+          <span>${title}</span>
+          <span class="match-badge">${m.isHome ? '主场' : '客场'}</span>
+          <span class="match-result ${resultClass}">${m.result}</span>
+        </div>
+        <div class="match-sub">${m.date} · ${m.venue} · ${m.league}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function togglePastMatches() {
+  const list = document.getElementById('henanPastMatchList');
+  const toggle = document.getElementById('pastMatchToggle');
+  if (list.style.display === 'none') {
+    list.style.display = 'block';
+    toggle.textContent = '收起 ▲';
+    if (!list.innerHTML) renderPastMatches();
+  } else {
+    list.style.display = 'none';
+    toggle.textContent = '展开 ▼';
+  }
 }
 
 function renderHenanNews(news) {
