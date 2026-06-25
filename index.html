@@ -33,7 +33,7 @@
   --tab-h: 56px;
 }
 *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
-html { font-size:16px; -webkit-text-size-adjust:100%; }
+html { font-size:16px; -webkit-text-size-adjust:100%; touch-action:manipulation; -ms-touch-action:manipulation; }
 body { font-family:var(--font); background:var(--bg); color:var(--text1); -webkit-font-smoothing:antialiased; min-height:100vh; }
 
 /* ===== TOP BAR ===== */
@@ -1623,6 +1623,23 @@ function renderWeather(data) {
 }
 
 console.log('每日简讯 2026-06-25 更新完成');
+
+// ===== 禁止手动缩放 =====
+!function(){
+  var t=0;
+  // 拦截双指缩放 (iOS Safari)
+  document.addEventListener('gesturestart',function(e){e.preventDefault();});
+  document.addEventListener('gesturechange',function(e){e.preventDefault();});
+  document.addEventListener('gestureend',function(e){e.preventDefault();});
+  // 多指触摸阻止缩放
+  document.addEventListener('touchstart',function(e){t=e.touches.length;});
+  document.addEventListener('touchmove',function(e){if(e.touches.length>1||e.scale&&e.scale!==1){e.preventDefault();}},{passive:false});
+  // 双击放大阻止
+  document.addEventListener('dblclick',function(e){if(window.innerWidth<1024)e.preventDefault();});
+  // Ctrl+滚轮 / Cmd+ +/- 阻止
+  document.addEventListener('wheel',function(e){if(e.ctrlKey||e.metaKey)e.preventDefault();},{passive:false});
+  document.addEventListener('keydown',function(e){if((e.ctrlKey||e.metaKey)&&(e.key==='+'||e.key==='-'||e.key==='0'))e.preventDefault();});
+}();
 </script>
 </body>
 </html>
