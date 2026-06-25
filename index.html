@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="每日简讯">
+<link rel="apple-touch-icon" href="images/icon.jpg">
+<link rel="icon" href="images/icon.jpg">
+<title>每日简讯</title>
+<style>
+:root {
+  --bg: #f2f2f7;
+  --surface: #ffffff;
+  --surface2: #f9f9fb;
+  --border: rgba(0,0,0,0.08);
+  --text1: #1c1c1e;
+  --text2: #636366;
+  --text3: #aeaeb2;
+  --blue: #0a84ff;
+  --green: #30d158;
+  --red: #ff453a;
+  --orange: #ff9f0a;
+  --indigo: #5e5ce6;
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.06);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 20px rgba(0,0,0,0.10);
+  --r-sm: 10px; --r-md: 14px; --r-lg: 18px; --r-xl: 24px;
+  --max: 960px;
+  --font: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", "Microsoft YaHei", sans-serif;
+  --mono: "SF Mono", "Menlo", "Consolas", monospace;
+  --tab-h: 56px;
+}
+*, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+html { font-size:16px; -webkit-text-size-adjust:100%; }
+body { font-family:var(--font); background:var(--bg); color:var(--text1); -webkit-font-smoothing:antialiased; min-height:100vh; }
+
+/* ===== TOP BAR ===== */
+.topbar {
+  position:sticky; top:0; z-index:200;
+  background:rgba(242,242,247,0.92);
+  backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
+  border-bottom:1px solid var(--border);
+}
+.topbar-inner {
+  max-width:var(--max); margin:0 auto;
+  display:flex; align-items:center; justify-content:space-between;
+  padding:0 20px; height:52px; gap:12px;
+}
+.brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:1rem; letter-spacing:-0.01em; flex-shrink:0; }
+.brand-icon { width:28px; height:28px; border-radius:7px; object-fit:cover; flex-shrink:0; }
+/* Weather in top bar */
+.topbar-weather {
+  display:flex; align-items:center; gap:5px;
+  background:rgba(10,132,255,0.08); border:1px solid rgba(10,132,255,0.12);
+  border-radius:var(--r-xl); padding:4px 12px; flex-shrink:0;
+}
+.topbar-weather .w-icon { font-size:1rem; }
+.topbar-weather .w-temp { font-size:0.875rem; font-weight:700; color:var(--blue); }
+.topbar-weather .w-extra { font-size:0.6875rem; color:var(--text2); }
+.topbar-right { display:flex; align-items:center; gap:8px; flex-shrink:0; margin-left:auto; }
+.top-update { font-size:0.75rem; color:var(--text3); white-space:nowrap; }
+.btn-refresh-top {
+  width:30px; height:30px; border-radius:50%; border:1.5px solid var(--border);
+  background:var(--surface); cursor:pointer;
+  display:flex; align-items:center; justify-content:center; color:var(--text2);
+  transition:all 0.2s; flex-shrink:0;
+}
+.btn-refresh-top:hover { border-color:var(--blue); color:var(--blue); background:rgba(10,132,255,0.06); }
+.btn-refresh-top.spinning svg { animation:spin 0.8s linear infinite; }
+
+.hero {
+  background:linear-gradient(160deg,#1c1c2e 0%,#16213e 55%,#0f3460 100%);
+  padding:16px 20px 18px;
+  position:relative; overflow:hidden;
+}
+.hero::after {
+  content:"";
+  position:absolute; inset:0;
+  background:radial-gradient(ellipse 60% 80% at 70% 50%, rgba(90,110,255,0.18) 0%, transparent 70%);
+  pointer-events:none;
+}
+.hero-inner { max-width:var(--max); margin:0 auto; }
+
+@keyframes marqueeScroll {
+  0%   { transform:translateX(100vw); }
+  100% { transform:translateX(-100%); }
+}
+
+/* ===== MAIN TAB BAR ===== */
+.tab-bar {
+  position:sticky; top:52px; z-index:100;
+  background:rgba(242,242,247,0.96);
+  backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
+}
+.tab-bar-inner { max-width:var(--max); margin:0 auto; display:flex; align-items:center; padding:10px 14px; gap:8px; }
+.main-tab {
+  flex:1; height:42px; border:none; border-radius:22px;
+  background:transparent; cursor:pointer;
+  font-family:var(--font); font-size:0.85rem; font-weight:500;
+  color:var(--text3); transition:all 0.28s cubic-bezier(.4,0,.2,1);
+  position:relative; display:flex; align-items:center; justify-content:center; gap:5px;
+  padding:0 6px; white-space:nowrap; letter-spacing:0.01em;
+}
+.main-tab:hover { color:var(--text1); background:rgba(0,0,0,0.03); }
+.main-tab.active {
+  color:#fff; font-weight:600;
+  background:linear-gradient(135deg,#1a73e8 0%,#0d47a1 100%);
+  box-shadow:0 3px 12px rgba(26,115,232,0.35);
+}
+.tab-icon { font-size:1rem; }
+.tab-bar-right {
+  display:flex; align-items:center; gap:8px;
+  flex-shrink:0; padding-left:4px;
+}
+.update-info {
+  display:flex; align-items:center; gap:4px;
+  font-size:0.7rem; color:var(--text3);
+  white-space:nowrap;
+}
+.btn-refresh-sm {
+  width:32px; height:32px; border:none; border-radius:50%;
+  background:rgba(26,115,232,0.08); color:var(--blue);
+  cursor:pointer; display:flex; align-items:center; justify-content:center;
+  transition:all 0.2s; flex-shrink:0;
+}
+.btn-refresh-sm:hover { background:var(--blue); color:#fff; }
+.btn-refresh-sm svg { transition:transform 0.4s; }
+.btn-refresh-sm.spinning svg { animation:spin 0.8s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
+
+/* ===== PAGE BODY ===== */
+.page-body { max-width:var(--max); margin:0 auto; padding:20px 16px 40px; }
+.section-page { display:none; }
+.section-page.active { display:block; animation:fadeIn 0.2s ease; }
+@keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
+
+/* ===== CARD ===== */
+.card {
+  background:var(--surface); border-radius:var(--r-xl);
+  box-shadow:var(--shadow-sm); overflow:hidden; margin-bottom:16px;
+}
+.card-header { padding:18px 20px 0; display:flex; align-items:center; justify-content:space-between; }
+.card-title { font-size:1.0625rem; font-weight:700; letter-spacing:-0.01em; display:flex; align-items:center; gap:8px; }
+.card-title-icon { font-size:1.125rem; }
+.card-meta { font-size:0.75rem; color:var(--text3); }
+.card-divider { height:1px; background:var(--border); margin:12px 20px 0; }
+
+/* ===== SUB TABS ===== */
+.sub-tabs { display:flex; gap:6px; padding:12px 20px 0; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+.sub-tabs::-webkit-scrollbar { display:none; }
+.sub-tab {
+  flex-shrink:0; padding:5px 14px; border-radius:20px;
+  font-size:0.8125rem; font-weight:500;
+  border:1.5px solid var(--border); background:var(--surface2);
+  color:var(--text2); cursor:pointer; transition:all 0.18s;
+  white-space:nowrap;
+}
+.sub-tab.active { color:var(--blue); border-color:var(--blue); background:rgba(10,132,255,0.07); font-weight:600; }
+.sub-tab:hover:not(.active) { border-color:rgba(10,132,255,0.3); }
+
+/* ===== NEWS LIST ===== */
+.news-list { padding:8px 20px 16px; }
+.news-item {
+  padding:12px 0; border-bottom:1px solid var(--border);
+  cursor:pointer; transition:background 0.15s;
+  border-radius:0; display:block;
+}
+.news-item:last-child { border-bottom:none; }
+.news-item-row { display:flex; align-items:flex-start; gap:10px; }
+.news-rank {
+  flex-shrink:0; width:20px; height:20px; border-radius:5px;
+  display:flex; align-items:center; justify-content:center;
+  font-size:0.6875rem; font-weight:800; margin-top:2px;
+}
+.rank-top1 { background:var(--red); color:#fff; }
+.rank-top2 { background:var(--orange); color:#fff; }
+.rank-top3 { background:var(--indigo); color:#fff; }
+.rank-other { background:var(--surface2); color:var(--text3); font-weight:600; }
+.news-body { flex:1; min-width:0; }
+.news-title { font-size:0.9375rem; font-weight:600; line-height:1.45; color:var(--text1); }
+.news-footer { display:flex; align-items:center; gap:6px; margin-top:5px; }
+.news-source { font-size:0.75rem; color:var(--text3); }
+.news-badge {
+  display:inline-flex; align-items:center; gap:2px;
+  padding:1px 7px; border-radius:10px; font-size:0.6875rem; font-weight:600;
+}
+.badge-hot { background:#fff0ee; color:#e3311b; }
+.badge-new { background:#eef4ff; color:#1d5aff; }
+.badge-rising { background:#fff6e6; color:#c07300; }
+.news-summary {
+  font-size:0.8125rem; color:var(--text2); line-height:1.6;
+  margin-top:7px; padding:9px 12px;
+  background:linear-gradient(135deg,rgba(10,132,255,0.04),rgba(94,92,230,0.04));
+  border-left:2.5px solid rgba(10,132,255,0.25);
+  border-radius:0 var(--r-sm) var(--r-sm) 0;
+}
+
+/* ===== LOAD MORE ===== */
+.load-more-wrap { padding:0 20px 16px; }
+.btn-load-more {
+  width:100%; padding:11px; border-radius:var(--r-md);
+  border:1.5px solid var(--border); background:var(--surface2);
+  color:var(--text2); font-size:0.875rem; font-family:var(--font);
+  cursor:pointer; transition:all 0.2s; font-weight:500;
+}
+.btn-load-more:hover { border-color:var(--blue); color:var(--blue); }
+.btn-load-more.loading { opacity:0.6; pointer-events:none; }
+
+/* ===== RANKING ===== */
+.ranking-wrap { padding:8px 20px 16px; }
+.ranking-list { display:flex; flex-direction:column; gap:6px; }
+.ranking-item {
+  display:flex; align-items:center; gap:10px;
+  padding:10px 12px; border-radius:var(--r-md); background:var(--surface2);
+  transition:box-shadow 0.15s;
+}
+.ranking-item:hover { box-shadow:var(--shadow-xs); }
+.ranking-num {
+  width:24px; height:24px; border-radius:7px; flex-shrink:0;
+  display:flex; align-items:center; justify-content:center;
+  font-size:0.75rem; font-weight:800;
+}
+.rn1 { background:linear-gradient(135deg,#ff6b35,#ff453a); color:#fff; }
+.rn2 { background:linear-gradient(135deg,#ffad42,#ff9f0a); color:#fff; }
+.rn3 { background:linear-gradient(135deg,#8fa8ff,#5e5ce6); color:#fff; }
+.rn-other { background:var(--border); color:var(--text3); }
+.ranking-info { flex:1; min-width:0; }
+.ranking-name { font-size:0.875rem; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.ranking-desc { font-size:0.75rem; color:var(--text3); margin-top:1px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.ranking-right { display:flex; align-items:center; gap:6px; flex-shrink:0; }
+.ranking-score { font-size:0.8125rem; font-weight:700; color:var(--orange); }
+.ranking-heat {
+  font-size:0.6875rem; font-weight:600; padding:2px 8px;
+  border-radius:10px; white-space:nowrap;
+}
+.heat-red { background:#fff0ee; color:#e3311b; }
+.heat-orange { background:#fff6e6; color:#c07300; }
+.heat-blue { background:#eef4ff; color:#1d5aff; }
+
+/* ===== STOCK ===== */
+.stock-grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:8px; padding:12px 20px 8px; }
+.stock-card {
+  padding:12px 14px; border-radius:var(--r-md); background:var(--surface2);
+  border:1.5px solid var(--border); transition:box-shadow 0.15s;
+}
+.stock-card:hover { box-shadow:var(--shadow-xs); }
+.stock-name { font-size:0.75rem; color:var(--text3); font-weight:500; }
+.stock-value { font-size:1.0625rem; font-weight:700; font-family:var(--mono); margin-top:3px; }
+.stock-change { font-size:0.8125rem; font-weight:600; margin-top:2px; }
+.stock-up { color:var(--red); }
+.stock-down { color:var(--green); }
+.stock-news-list { padding:4px 20px 16px; }
+.stock-news-item { padding:12px 0; border-bottom:1px solid var(--border); }
+.stock-news-item:last-child { border-bottom:none; }
+.stock-news-title { font-size:0.875rem; font-weight:600; color:var(--text1); line-height:1.4; }
+.stock-news-from { font-size:0.75rem; color:var(--text3); margin-top:3px; }
+.stock-news-summary { font-size:0.8125rem; color:var(--text2); margin-top:5px; line-height:1.5; }
+.market-bar { display:flex; align-items:center; gap:6px; padding:6px 20px 4px; font-size:0.8125rem; color:var(--text3); }
+.dot-live { width:7px; height:7px; border-radius:50%; background:var(--green); animation:pulse 2s infinite; flex-shrink:0; }
+.dot-closed { width:7px; height:7px; border-radius:50%; background:var(--text3); flex-shrink:0; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+.stock-ai-note { margin:4px 20px 8px; padding:10px 14px; border-radius:var(--r-md); background:linear-gradient(135deg,rgba(94,92,230,0.07),rgba(10,132,255,0.07)); border:1px solid rgba(94,92,230,0.12); font-size:0.8125rem; color:var(--indigo); text-align:center; }
+
+/* ===== CSL STANDINGS TABLE ===== */
+.csl-standings { padding:4px 16px 12px; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+.csl-table { width:100%; border-collapse:collapse; font-size:0.75rem; }
+.csl-table th {
+  text-align:left; font-weight:600; color:var(--text3); font-size:0.6875rem;
+  padding:6px 3px 8px; border-bottom:1px solid var(--border); white-space:nowrap;
+}
+.csl-table td { padding:7px 3px; white-space:nowrap; vertical-align:middle; }
+.csl-table tr:nth-child(even) td { background:rgba(0,0,0,0.02); }
+.csl-rank { width:24px; font-weight:800; font-size:0.8rem; color:var(--text3); text-align:center; }
+.csl-rank-top3 { color:#fff; background:linear-gradient(135deg,#1a73e8,#1565c0); border-radius:50%; width:20px; height:20px; display:inline-flex; align-items:center; justify-content:center; font-size:0.6875rem; }
+.csl-team { font-weight:600; color:var(--text1); min-width:70px; }
+.csl-team-me { color:var(--blue); position:relative; padding-right:14px; }
+.csl-team-me::after { content:"★"; position:absolute; right:0; top:1px; font-size:0.625rem; color:var(--red); }
+.csl-gp,.csl-wdl,.csl-gfga,.csl-pts { text-align:center; color:var(--text2); font-family:var(--mono); font-size:0.72rem; }
+.csl-pts { font-weight:700; color:var(--text1); }
+
+/* ===== MATCH ===== */
+.match-list { padding:8px 20px 16px; display:flex; flex-direction:column; gap:6px; }
+.match-item {
+  display:flex; align-items:center; gap:12px; padding:12px 14px;
+  border-radius:var(--r-md); background:var(--surface2); border:1.5px solid var(--border);
+}
+.match-num { font-size:0.6875rem; font-weight:700; color:var(--text3); width:16px; text-align:center; flex-shrink:0; }
+.match-body { flex:1; min-width:0; }
+.match-title { font-size:0.9375rem; font-weight:700; display:flex; align-items:center; gap:6px; }
+.match-badge { font-size:0.6875rem; padding:2px 7px; border-radius:9px; background:rgba(10,132,255,0.1); color:var(--blue); font-weight:600; }
+.match-sub { font-size:0.75rem; color:var(--text3); margin-top:3px; }
+.match-remind {
+  flex-shrink:0; padding:5px 10px; border-radius:var(--r-sm);
+  font-size:0.75rem; font-weight:600; cursor:pointer;
+  background:rgba(10,132,255,0.08); color:var(--blue);
+  border:1px solid rgba(10,132,255,0.2); transition:all 0.2s;
+}
+.match-remind:hover { background:var(--blue); color:#fff; }
+
+/* ===== SECTION DIVIDER ===== */
+.section-label { font-size:0.75rem; font-weight:600; color:var(--text3); letter-spacing:0.04em; text-transform:uppercase; margin:8px 0 10px; padding:0 2px; }
+
+/* ===== TOAST ===== */
+.toast {
+  position:fixed; bottom:28px; left:50%; transform:translateX(-50%) translateY(8px);
+  background:rgba(28,28,30,0.92); color:#fff;
+  padding:10px 22px; border-radius:22px; font-size:0.875rem;
+  z-index:500; opacity:0; transition:opacity 0.25s,transform 0.25s; pointer-events:none;
+  backdrop-filter:blur(10px); max-width:90vw; text-align:center;
+}
+.toast.show { opacity:1; transform:translateX(-50%) translateY(0); }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width:600px) {
+  .topbar-inner { padding:0 12px; gap:8px; }
+  .brand { font-size:0.9rem; gap:6px; }
+  .brand-icon { width:24px; height:24px; }
+  .topbar-weather { padding:3px 8px; gap:4px; }
+  .topbar-weather .w-temp { font-size:0.8rem; }
+  .topbar-weather .w-extra { font-size:0.625rem; max-width:80px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .top-update { font-size:0.68rem; }
+  .btn-refresh-top { width:26px; height:26px; }
+  .hero { padding:6px 20px; }
+  .tab-bar-inner { padding:8px 8px; gap:5px; }
+  .main-tab { height:38px; font-size:0.78rem; border-radius:19px; padding:0 4px; }
+  .page-body { padding:12px 8px 32px; }
+  .stock-grid { grid-template-columns:repeat(2, 1fr); }
+  .card-header { padding:14px 14px 0; }
+  .sub-tabs { padding:10px 14px 0; }
+  .news-list, .ranking-wrap, .match-list, .stock-grid, .stock-news-list, .load-more-wrap, .market-bar, .csl-standings { padding-left:12px; padding-right:12px; }
+}
+@media (min-width:768px) {
+  .stock-grid { grid-template-columns:repeat(4, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<!-- Top Bar -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <img src="images/icon.jpg" alt="" class="brand-icon">
+      每日简讯
+    </div>
+    <div class="topbar-weather" id="weatherCard">
+      <span class="w-icon" id="weatherIcon">🌤️</span>
+      <span class="w-temp" id="weatherTemp">--°</span>
+      <span class="w-extra" id="weatherExtra"></span>
+    </div>
+    <div class="topbar-right">
+      <span class="top-update">更新于 <span id="lastUpdateTime">--:--</span></span>
+      <span style="background:#0a84ff;color:#fff;font-size:0.6rem;padding:2px 6px;border-radius:4px;margin-left:6px;">v2</span>
+      <button class="btn-refresh-top" onclick="refreshAll()" title="刷新" id="btnRefresh">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- 跑马灯 -->
+<div id="marqueeBar" style="background:linear-gradient(160deg,#1c1c2e 0%,#16213e 55%,#0f3460 100%);padding:10px 20px;position:relative;z-index:50;">
+  <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:12px;">
+    <span style="background:linear-gradient(135deg,#0a84ff,#0d47a1);color:#fff;font-size:0.7rem;font-weight:700;padding:4px 12px;border-radius:0 10px 10px 0;flex-shrink:0;letter-spacing:0.04em;white-space:nowrap;">快讯</span>
+    <div style="flex:1;overflow:hidden;height:1.6em;line-height:1.6em;position:relative;">
+      <div id="marqueeTrack" style="display:inline-block;white-space:nowrap;color:rgba(255,255,255,0.92);font-size:0.8125rem;animation:marqueeScroll 36s linear infinite;will-change:transform;">📈 A股：上证指数 3386.41 ▲0.38% · 深证成指 10892.35 ▲0.72% · 创业板指 2189.66 ▲1.15% &nbsp;&nbsp; 🇭🇰 港股：恒生指数 24185.32 ▼0.42% · 恒生科技 ▼0.88% &nbsp;&nbsp; 🇺🇸 美股昨夜：道指 42583.47 ▲0.12% · 纳指 19691.61 ▲0.02%</div>
+    </div>
+  </div>
+</div>
+
+<!-- Main Tab Bar -->
+<nav class="tab-bar">
+  <div class="tab-bar-inner" id="mainTabBar">
+    <button class="main-tab active" data-tab="hotnews"><span class="tab-icon">🔥</span>每日热搜</button>
+    <button class="main-tab" data-tab="stock"><span class="tab-icon">📈</span>股市行情</button>
+    <button class="main-tab" data-tab="entertainment"><span class="tab-icon">🎬</span>娱乐热点</button>
+    <button class="main-tab" data-tab="henan"><span class="tab-icon">⚽</span>河南足球</button>
+  </div>
+</nav>
+
+<!-- Page Body -->
+<main class="page-body">
+
+  <!-- Hot News -->
+  <div class="section-page active" id="tab-hotnews">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="card-title-icon">🔥</span>每日热搜</div>
+        <div class="card-meta">综合各大媒体</div>
+      </div>
+      <div class="sub-tabs" id="hotNewsSubTabs">
+        <button class="sub-tab active" data-hot="domestic">🇨🇳 国内</button>
+        <button class="sub-tab" data-hot="international">🌍 国际</button>
+        <button class="sub-tab" data-hot="ai">🤖 AI 科技</button>
+      </div>
+      <div class="news-list" id="hotNewsList"></div>
+      <div class="load-more-wrap" id="hotNewsLoadMore" style="display:none">
+        <button class="btn-load-more" onclick="loadMoreHotNews()">加载更多 ↓</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stock -->
+  <div class="section-page" id="tab-stock">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="card-title-icon">📈</span>股市行情</div>
+        <div class="card-meta">东方财富 · 新浪财经</div>
+      </div>
+      <div class="sub-tabs" id="stockSubTabs">
+        <button class="sub-tab active" data-stock="us">🇺🇸 美股</button>
+        <button class="sub-tab" data-stock="cn">🇨🇳 A股</button>
+        <button class="sub-tab" data-stock="global">🌏 全球</button>
+        <button class="sub-tab" data-stock="reco">🤖 AI荐股</button>
+      </div>
+      <div class="market-bar" id="marketStatus">
+        <span class="dot-closed" id="statusDot"></span>
+        <span id="statusText">数据加载中...</span>
+        <span id="statusRefreshNote" style="display:none">(每小时刷新)</span>
+      </div>
+      <div class="stock-grid" id="stockGrid"></div>
+      <div class="stock-news-list" id="stockNewsList"></div>
+    </div>
+  </div>
+
+  <!-- Entertainment -->
+  <div class="section-page" id="tab-entertainment">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="card-title-icon">🏆</span>榜单排行</div>
+        <div class="card-meta">猫眼 · 豆瓣 · 骨朵</div>
+      </div>
+      <div class="sub-tabs" id="entRankingSubTabs">
+        <button class="sub-tab active" data-ranking="movie">🎥 电影</button>
+        <button class="sub-tab" data-ranking="tv">📺 电视剧</button>
+        <button class="sub-tab" data-ranking="variety">🎪 综艺</button>
+      </div>
+      <div class="ranking-wrap" id="entRankingContainer"></div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="card-title-icon">🎬</span>娱乐热点</div>
+        <div class="card-meta">新浪 · 腾讯 · 百度</div>
+      </div>
+      <div class="news-list" id="entNewsList"></div>
+    </div>
+  </div>
+
+  <!-- Henan Football -->
+  <div class="section-page" id="tab-henan">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="card-title-icon">🏆</span>中超积分榜</div>
+        <div class="card-meta">2026赛季 · 第15轮后</div>
+      </div>
+      <div class="csl-standings">
+        <table class="csl-table" id="cslStandingsTable"></table>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="card-title-icon">📅</span>近期赛程</div>
+        <div class="card-meta">球迷屋 · 搜狐体育</div>
+      </div>
+      <div class="match-list" id="henanMatchList"></div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="card-title-icon">⚽</span>河南足球动态</div>
+        <div class="card-meta">搜狐体育 · 正观新闻</div>
+      </div>
+      <div class="news-list" id="henanNewsList"></div>
+    </div>
+  </div>
+
+</main>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+/* ==================== DATA ENGINE ==================== */
+
+// Generated by Python builder — all strings use \u201C/\u201D for Chinese quotes
+
+const mockHotNewsDomestic = [
+  { rank:1, title:"中国纯CPU超算\u201C灵晟\u201D力压美国再夺TOP500榜首，时隔8年重回世界第一", source:"新华社·百度", badge:"hot", summary:"中国自主研发的纯CPU超级计算机\u201C灵晟\u201D在最新一期全球超算TOP500榜单中力压美国Frontier系统，重夺世界第一。这是中国超算自2018年后时隔8年再度登顶，全部核心部件实现国产化，标志我国高性能计算芯片自主可控取得重大突破。" },
+  { rank:2, title:"习近平在山东德州考察粮食生产和乡村振兴", source:"新华社·百度", badge:"hot", summary:"习近平总书记日前在山东德州深入田间地头和农业科技园区，实地考察夏粮生产、种业振兴和乡村产业发展情况。强调要把粮食安全作为头等大事，加快农业科技自立自强，推进乡村全面振兴不断取得新成效。" },
+  { rank:3, title:"十四届全国人大常委会第二十三次会议在京举行，审议商标法修订草案等", source:"新华社·百度", badge:"hot", summary:"十四届全国人大常委会第二十三次会议于6月23日至26日在北京举行。会议审议商标法修订草案二审稿，加大对\u201C心机商标\u201D打击力度；同时审议国务院关于建设全国统一大市场工作情况的报告并开展专题询问。" },
+  { rank:4, title:"央行今日开展5000亿元MLF操作，保持银行体系流动性充裕", source:"腾讯·百度", badge:"hot", summary:"中国人民银行于6月25日以固定数量、利率招标、多重价位中标方式开展5000亿元MLF操作，期限1年期。这是本月央行第二次通过大规模MLF向市场注入中长期流动性，旨在稳定市场预期、降低实体经济融资成本。" },
+  { rank:5, title:"河南高考600分及以上37544人，各省分数线陆续公布中", source:"新浪·百度", badge:"hot", summary:"2026年高考成绩于6月23日起陆续公布。河南全省600分及以上考生达37544人，理科一本线较去年小幅上涨。教育部发布预警：天价\u201C志愿规划师\u201D全是忽悠，请认准官方渠道。AI智能类专业成为新增专业风口。" },
+  { rank:6, title:"审计署通报中国银行逃税23.67亿元，银行回应立行立改", source:"百度·新浪", badge:"hot", summary:"审计署6月23日报告显示，2023年4月至2025年8月，中国银行安排下属机构将11只私募基金包装成公募基金，逃避税款23.67亿元。中国银行回应称\u201C诚恳接受、照单全收、立行立改\u201D，已启动全面自查整改。" },
+  { rank:7, title:"我国成功发射通信技术试验卫星，长征七号改运载火箭再立新功", source:"新华社·百度", badge:"new", summary:"6月25日，我国在西昌卫星发射中心使用长征七号改运载火箭，成功将通信技术试验卫星发射升空，卫星顺利进入预定轨道。该卫星主要用于开展多频段、高速率卫星通信技术验证，将为我国下一代通信卫星系统建设提供关键数据支撑。" },
+  { rank:8, title:"机动车\u201C当天购车当天上牌\u201D全国推行，商务部公布40城消费改革试点", source:"新华社·百度", badge:"rising", summary:"工信部、公安部联合发文，机动车合格证信息实现实时共享，国产小客车可实现\u201C当天购车、当天缴税、当天上牌\u201D。商务部等8部门同时公布40个汽车流通消费改革试点城市，涵盖优化限购管理、完善二手车流通等领域。" },
+  { rank:9, title:"两册流失海外《永乐大典》正式入藏杭州国家版本馆", source:"新华社·百度", badge:"new", summary:"两册流失海外多年的明写本《永乐大典》近日正式入藏浙江杭州国家版本馆。这是继2020年一册回归后又有两册珍贵古籍重回祖国怀抱。专家鉴定为明嘉靖年间写本，保存完好，具有极高文献和文物价值。" },
+  { rank:10, title:"世界最大跨度三塔斜拉桥——青龙门特大桥主桥顺利合龙", source:"新华社·百度", badge:"rising", summary:"世界最大跨度三塔斜拉桥——青龙门特大桥主桥于6月25日顺利合龙。该桥位于浙江舟山，全长约3.2公里，主跨1680米，创下三塔斜拉桥跨度世界纪录，是宁波舟山港核心港区的重要集疏运通道。" },
+  { rank:11, title:"存储芯片涨价，A股存储芯片概念大幅高开", source:"新浪·百度", badge:"rising", summary:"受全球存储芯片供需偏紧影响，DRAM和NAND Flash合约价环比上涨约15%-20%。A股存储芯片概念今日大幅高开，兆易创新、北京君正等个股早盘涨停，市场预计三季度存储芯片价格将延续涨势。" },
+  { rank:12, title:"微短剧新规公开征求意见：无证未审核剧目不得播出", source:"腾讯·百度", badge:"new", summary:"国家广电总局就《微短剧管理办法》公开征求意见，核心条款规定：未取得网络剧片发行许可证、未经内容审核的微短剧不得在任何平台播出。新规旨在整治微短剧行业乱象，抑制低俗擦边内容，促进行业健康有序发展。" },
+  { rank:13, title:"夏季达沃斯论坛今日在大连闭幕，90余国1700名嘉宾共论\u201C规模化创新\u201D", source:"新华社·百度", badge:"rising", summary:"世界经济论坛第十七届新领军者年会（夏季达沃斯论坛）于6月23日至25日在辽宁大连举办，来自全球90多个国家和地区的1700余名嘉宾参会。本届以\u201C规模化创新\u201D为主题，AI与机器人相关议程超30个，李强总理出席并发表特别致辞。" },
+  { rank:14, title:"\u201C开屏广告没了\u201D登热搜，百度地图高德地图等主流APP纷纷取消开屏广告", source:"百度·新浪", badge:"new", summary:"近日\u201C开屏广告没了\u201D话题登上热搜。记者实测发现百度地图、高德地图、网易云音乐等主流APP已大幅降低开屏广告频次甚至直接取消，用户体验显著提升。分析认为这与监管部门近期对APP开屏广告乱象的整治密切相关。" },
+  { rank:15, title:"全球最大打桩船\u201C铁建大桥桩1\u201D号在江苏南通正式交付", source:"新华社·百度", badge:"new", summary:"由我国自主设计建造的全球最大打桩船\u201C铁建大桥桩1\u201D号在南通正式交付。该船长130米、宽42米，最大桩架高度达168米，可施打最大直径6米的钢管桩，综合性能指标居世界首位，将为我国跨海大桥和海上风电建设提供重大装备保障。" }
+];
+
+const mockHotNewsDomesticExtra = [
+  { rank:16, title:"国防科工局党组成员、副局长卞志刚被查", source:"新华社·百度", badge:"new", summary:"中央纪委国家监委网站通报，国家国防科技工业局党组成员、副局长卞志刚涉嫌严重违纪违法，目前正接受中央纪委国家监委纪律审查和监察调查。卞志刚此前分管国防科技工业规划、安全生产等工作。" },
+  { rank:17, title:"两部门发文整治室内空气甲醛检测和治理乱象，严厉打击检测报告造假", source:"新华社·百度", badge:"new", summary:"市场监管总局与生态环境部联合发文，针对室内空气甲醛检测与治理市场乱象开展专项整治，严厉打击检测数据造假、虚假宣传、无资质经营等违法行为，要求各地建立长效监管机制切实保障消费者健康权益。" },
+  { rank:18, title:"2025品牌引力榜发布：华为居首，特斯拉苹果分列二三，小米下滑至第五", source:"百度·腾讯", badge:"new", summary:"权威机构发布2025品牌引力榜，华为以综合得分位居榜首，特斯拉和苹果分列二三，小米排名从去年第三下滑至第五。华为在AI能力、品牌忠诚度和创新力三个维度均获最高评分，体现国产科技品牌的强劲崛起势头。" },
+  { rank:19, title:"商务部公布40城汽车流通消费改革试点，推动全链条扩大汽车消费", source:"新华社·百度", badge:"rising", summary:"商务部等部委正式公布全国40个城市为汽车流通消费改革试点，涵盖优化汽车限购管理、完善二手车流通体系、促进新能源汽车消费、支持汽车后市场发展等领域，预计每年将带动汽车消费规模超千亿元。" },
+  { rank:20, title:"三星电子官方公众号已注销，此前宣布停止在中国大陆市场销售所有家电产品", source:"腾讯·百度", badge:"hot", summary:"三星电子中国官方微信公众号已正式注销。三星此前宣布逐步退出中国大陆家电市场，停止销售电视、冰箱、洗衣机等所有家电产品线，仅保留存储芯片、半导体和手机等核心业务。标志三星在中国家电市场32年历程正式终结。" },
+  { rank:21, title:"江苏常州发文开展全民人工智能培训：全员参与、全域覆盖", source:"百度·腾讯", badge:"new", summary:"常州市政府印发《常州市全民人工智能素养提升行动方案》，要求全市党政机关、企事业单位、学校社区全员参与AI培训，2026年底前实现全域覆盖。培训涵盖AI基础知识、大模型应用、智能制造实操等，目标打造全国AI素养示范城市。" },
+  { rank:22, title:"商标法修订草案二审稿：拟加大\u201C心机商标\u201D打击力度，罚款上限提至500万", source:"新华社·百度", badge:"rising", summary:"商标法修订草案二审稿提请全国人大常委会审议。新增条款明确禁止恶意注册具有社会不良影响的\u201C心机商标\u201D，包括抢注热点词汇、名人姓名谐音商标等，罚款上限从300万元提高至500万元，并增设惩罚性赔偿条款。" },
+  { rank:23, title:"六部门联合推进\u201C清朗净网2026\u201D专项行动，已处置违规账号46万余个", source:"新浪·腾讯", badge:"rising", summary:"公安部、中央网信办等六部门联合部署清朗净网2026专项行动，重点整治网络水军、造谣传谣、网络暴力、流量造假等突出问题。行动将持续至12月，目前已依法处置违法违规账号46万余个，关闭造谣传谣网络账号8万余个。" },
+  { rank:24, title:"油价调整窗口7月3日开启，预计汽柴油每吨下调约650元", source:"腾讯·百度", badge:"new", summary:"新一轮油价调整窗口将于7月3日24时开启，预计汽柴油每吨下调约650元，折合每升下跌0.49至0.59元。如果降幅兑现，这将是年内最大降幅，届时92号汽油有望进一步走低。国际原油价格已回落至冲突前水平。" },
+  { rank:25, title:"最高检：深挖涉毒洗钱犯罪链条，推进禁毒综合治理", source:"新华社·百度", badge:"new", summary:"最高人民检察院于国际禁毒日（6月26日）前夕召开专题会议，要求深挖涉毒洗钱犯罪链条，强化对毒品犯罪全流程全要素打击。会议指出要运用大数据手段追踪毒资流向，切断毒品犯罪经济命脉，全面推进禁毒综合治理体系建设。" }
+];
+
+const mockHotNewsInternational = [
+  { rank:1, title:"委内瑞拉连遭两次7级以上强震，至少18人受伤，全国紧急状态、海啸预警发布", source:"新华社·百度", badge:"hot", summary:"北京时间6月25日，委内瑞拉北部近海一分钟内连续发生7.1级和7.0级两次强震，震源深度约10-13公里。震中距首都加拉加斯约104公里，首都主要国际机场已关闭。目前已造成至少18人受伤、多栋建筑倒塌，海啸预警覆盖加勒比沿岸多国。中国驻委使馆已启动应急机制，暂无中国公民伤亡。" },
+  { rank:2, title:"日本岩手县附近海域发生7.2级地震，已致至少4人受伤", source:"新华社·央视", badge:"hot", summary:"日本东北部岩手县附近海域于北京时间6月25日发生7.2级地震，震源深度约30公里。宫城县、岩手县等地有强烈震感，目前已造成至少4人受伤。日本气象厅一度发布海啸预警后解除，福岛核电站未发现异常。" },
+  { rank:3, title:"法国遭遇极端高温43°C：超800所学校停课，已有40余人溺亡", source:"百度·新华社", badge:"hot", summary:"欧洲多地遭遇罕见极端高温天气，法国局地最高气温达43°C，政府宣布全境超800所学校停课。高温还导致法国、西班牙等地出现多起因避暑游泳溺亡事件，已造成至少40人溺亡。法国气象局称此次高温来得\u201C更早、更久\u201D。" },
+  { rank:4, title:"欧洲五国及北约领导人称将加强防务工业合作", source:"新华社", badge:"rising", summary:"法国、德国、意大利、西班牙和波兰五国领导人与北约秘书长在巴黎举行会议后发表联合声明，宣布将加强欧洲防务工业合作，包括联合采购武器装备、推进军工供应链自主化和建立欧洲防务创新基金等举措。" },
+  { rank:5, title:"美国海岸警卫队直升机在阿拉斯加坠毁，机上4人送医", source:"新华社·央视", badge:"new", summary:"美国海岸警卫队一架直升机在阿拉斯加州东南部锡特卡附近执行任务时坠毁，机上4人已被紧急送医救治。目前事故原因尚在调查中，搜救行动已经展开。该直升机当时正在进行例行巡逻和执法任务。" },
+  { rank:6, title:"韩国总统李在明支持率首次\u201C死亡交叉\u201D：不支持率升至49.7%", source:"腾讯·百度", badge:"hot", summary:"最新民调显示，韩国总统李在明支持率降至46.7%，不支持率升至49.7%，呈现在任以来首次不支持率反超支持率的\u201C死亡交叉\u201D。分析认为物价持续上涨、医疗改革争议和对朝政策效果遭质疑是导致支持率下滑的主因。" },
+  { rank:7, title:"金正恩：将加快推动朝鲜1万吨级战略导弹巡洋舰建造项目", source:"新华社·央视", badge:"rising", summary:"朝鲜最高领导人金正恩视察海军造船厂时表示将加快推动1万吨级战略导弹巡洋舰建造项目。该舰预计将搭载多种导弹系统，金正恩强调\u201C海上军事力量的提升是维护国家安全的关键保障\u201D，引发国际社会广泛关注。" },
+  { rank:8, title:"伊朗宣布：船只通过霍尔木兹海峡须与伊朗革命卫队协调", source:"新华社·百度", badge:"new", summary:"伊朗革命卫队发表声明称，所有外国船只通过霍尔木兹海峡前须提前向伊革命卫队申报并接受协调。声明还表示伊朗已开放霍尔木兹海峡60天免费通道，美伊技术性谈判将于本月30日恢复。国际油价受此消息影响继续承压下行。" },
+  { rank:9, title:"美军在叙利亚打死一名\u201C伊斯兰国\u201D重要头目", source:"新华社", badge:"new", summary:"美国中央司令部宣布，美军在叙利亚东北部开展的一次精确打击行动中成功打死极端组织\u201C伊斯兰国\u201D（ISIS）一名负责对外恐怖行动策划的高级头目。美方称该头目直接参与了针对欧洲和东南亚的恐袭策划。" },
+  { rank:10, title:"空客紧急检查全球16架A380客机：机翼连接部位发现裂纹", source:"新华社·央视", badge:"new", summary:"欧洲空客公司宣布对全球16架A380超大型客机进行紧急检查。此前在一次例行检修中，一架A380的机翼与机身连接部位被发现存在微裂纹。空客表示这是预防性检查措施，已通知所有运营A380的航空公司配合执行。" },
+  { rank:11, title:"普京：俄方愿基于伊斯坦布尔协议等与乌克兰谈判", source:"新华社·百度", badge:"rising", summary:"俄罗斯总统普京在圣彼得堡国际经济论坛上表示，俄方愿意基于2022年伊斯坦布尔协议框架与乌克兰重启谈判，但前提是乌方展现\u201C建设性立场\u201D。普京同时表示不会在俄军\u201C特别军事行动完成目标\u201D前单方面停火。北约方面回应称将\u201C听其言观其行\u201D。" },
+  { rank:12, title:"特朗普宣布美国汽车巨头将转产导弹：包括战斧巡航和爱国者防空导弹", source:"腾讯·新浪", badge:"hot", summary:"美国总统特朗普在密歇根州底特律发表讲话时宣布，已与通用汽车、福特等美国汽车巨头达成协议，这些企业将改造部分生产线用于生产战斧巡航导弹和爱国者防空导弹等武器装备。特朗普称此举既刺激就业又增强国防产能。" },
+  { rank:13, title:"柬埔寨人民党主席洪森今日起访华，为任参议院主席后首次", source:"新华社·百度", badge:"new", summary:"应中国共产党邀请，柬埔寨人民党主席、参议院主席洪森于今日（6月25日）至27日对中国进行正式友好访问。这是洪森就任参议院主席后首次访华，双方将就双边关系及共同关心的国际和地区问题深入交换意见。" },
+  { rank:14, title:"东京审判庭审记录中文全译本首度完整面世，涵盖80年尘封历史", source:"新华社", badge:"rising", summary:"东京审判庭审记录中文全译本首次完整出版面世，总字数逾千万，历时十余年编译完成。该译本完整还原了二战后远东国际军事法庭对日本战犯的审判全过程，为世人揭示了大量尘封80年的历史真相和铁证。" },
+  { rank:15, title:"国际原油黄金白银集体暴跌：布伦特破62美元，国内金价报875元/克", source:"百度·腾讯", badge:"hot", summary:"受美元走强、美伊局势缓和等因素影响，国际大宗商品价格全线走低。布伦特原油跌破62美元/桶，WTI原油降至58美元以下，均已回落至俄乌冲突前水平。黄金价格连续多日下挫，国内品牌金饰价格报875元/克，较上周高位跌超10元。" }
+];
+
+const mockHotNewsInternationalExtra = [
+  { rank:16, title:"中国联合展台在法国国际纪录片节分享\u201C中国机遇\u201D", source:"新华社", badge:"new", summary:"第36届法国国际纪录片节正在巴黎举办，中国联合展台携20余部优秀国产纪录片亮相。展台以\u201C真实影像·中国故事\u201D为主题，向全球观众展示中国在生态保护、人文传承和科技创新等领域的纪实影像成果。" },
+  { rank:17, title:"中国气象局宣布设立\u201C妈祖\u201D奖学金，助力全球气象防灾减灾", source:"新华社", badge:"new", summary:"中国气象局在世界气象组织框架下宣布设立\u201C妈祖\u201D奖学金计划，面向发展中国家气象专业留学生提供资助，助力全球特别是发展中国家的气象防灾减灾能力建设和可持续发展。首批奖学金将于2026年秋季启动申请。" },
+  { rank:18, title:"石油输出国组织（OPEC）紧急会议讨论油价暴跌应对方案", source:"百度·腾讯", badge:"rising", summary:"面对国际油价持续暴跌至俄乌冲突前水平，OPEC+联盟召开紧急线上会议讨论应对方案。消息人士称各成员国正在评估进一步减产的可能性，沙特和俄罗斯表示\u201C将采取一切必要措施维护市场稳定\u201D。" },
+  { rank:19, title:"世界卫生组织：全球登革热病例2026年上半年已超800万例", source:"新华社·央视", badge:"new", summary:"世界卫生组织发布数据，2026年1-6月全球报告登革热病例已超800万例，较去年同期增长约30%，死亡病例逾8000人。巴西、印度尼西亚、泰国等热带国家疫情最为严重，世卫组织呼吁各国加强蚊媒防控力度。" },
+  { rank:20, title:"联合国安理会就委内瑞拉强震召开紧急会议，多国承诺提供人道援助", source:"新华社·百度", badge:"hot", summary:"联合国安理会就委内瑞拉连续强震灾害召开紧急会议。中国、俄罗斯、古巴等国承诺提供紧急人道主义援助。联合国人道事务协调厅已调派紧急救援小组赶赴受灾区域，多国救援队正在待命部署。" },
+  { rank:21, title:"英国宣布2035年起全面禁售燃油车计划提前至2032年", source:"腾讯·百度", badge:"new", summary:"英国政府宣布将燃油车禁售时间表从原定的2035年大幅提前至2032年。同时发布配套投资计划，将在2030年前投入120亿英镑扩建充电基础设施。此举将使英国成为G7国家中禁燃时间表最为激进的国家之一。" },
+  { rank:22, title:"印度成功发射首颗量子通信实验卫星，跻身全球量子通信第一梯队", source:"新华社·百度", badge:"rising", summary:"印度空间研究组织宣布成功发射该国首颗量子通信实验卫星。该卫星将开展星地量子密钥分发和量子纠缠分发实验。印度成为继中国之后全球第二个具备星地量子通信实验能力的国家。" },
+  { rank:23, title:"巴西宣布加入\u201C一带一路\u201D倡议，签署20余项双边合作协议", source:"新华社·百度", badge:"hot", summary:"巴西总统在巴西利亚宣布正式加入中国\u201C一带一路\u201D倡议，两国签署涵盖基础设施、新能源、农业科技和数字经济等领域的20余项双边合作协议。巴西成为南美洲首个加入该倡议的最大经济体。" },
+  { rank:24, title:"欧盟通过《人工智能责任法案》：AI系统造成损害，开发者须承担严格责任", source:"腾讯·百度", badge:"rising", summary:"欧洲议会正式通过《人工智能责任法案》，明确AI系统造成损害时开发者须承担严格责任。法案还要求高风险AI系统必须强制进行第三方安全审查，违规企业最高罚款可达全球年营收的6%。该法案将于2027年1月起分阶段实施。" },
+  { rank:25, title:"2026世界杯小组赛C组：阿根廷3-1战胜葡萄牙，梅西C罗赛后拥抱", source:"新浪·腾讯", badge:"hot", summary:"2026年世界杯C组焦点之战，阿根廷3-1战胜葡萄牙。37岁的C罗打入一球，39岁的梅西送出两次助攻并罚入点球。赛后两位传奇球星在球场中央深情拥抱，全场起立鼓掌，#梅罗拥抱#话题席卷全球社交媒体，24小时阅读量突破30亿。" }
+];
+
+const mockHotNewsAI = [
+  { rank:1, title:"Anthropic发布Claude Fable 5：SWE-Bench Pro 80.3%登顶，24小时迁移5000万行代码", source:"搜狐科技", badge:"hot", summary:"6月9日，Anthropic同时发布Claude Fable 5与Mythos 5双轨模型。Fable 5在SWE-Bench Pro编程评测得分80.3%，领先GPT-5.5超22个百分点。内部测试中24小时内完成5000万行Ruby代码迁移，定价输入10美元/输出50美元每百万tokens，定位顶级代码与知识工作旗舰产品。" },
+  { rank:2, title:"英伟达台北GTC 2026发布十余项重磅产品：CPU、PC芯片、人形机器人全栈布局", source:"新浪科技·36氪", badge:"hot", summary:"6月1日，黄仁勋在台北GTC 2026发表主题演讲，发布GPU、CPU、PC芯片、人形机器人及自动驾驶全栈方案，宣布AI正式进入Agent（智能体）时代。英伟达正从芯片公司全面转型为AI全栈基础设施提供商，新品覆盖数据中心到终端消费场景。" },
+  { rank:3, title:"2026世界人工智能大会7月17日上海举办，超300款AI产品全球首发", source:"新华社·澎湃", badge:"hot", summary:"国务院新闻办宣布2026世界人工智能大会暨AI全球治理高级别会议将于7月17日至20日在上海举办。大会以\u201C智联世界、无限可能\u201D为主题，超过300款AI产品将全球首发，涵盖大模型、具身智能、AI芯片、自动驾驶、量子计算等前沿领域。" },
+  { rank:4, title:"DeepSeek V4-Pro以0.28美元百万tokens颠覆成本曲线，能力性价比领先Claude 31倍", source:"搜狐科技·量子位", badge:"hot", summary:"DeepSeek V4-Pro拥有1.6万亿参数（MoE架构），SimpleQA-Verified得分57.9，百万Token长上下文检索开源最佳。API定价仅0.28美元/百万输入tokens，能力性价比达171.9，正全面重塑AI模型市场的成本预期与商业模式。" },
+  { rank:5, title:"谷歌开源DiffusionGemma 26B：扩散式文本生成模型探索全新方向", source:"36氪·机器之心", badge:"new", summary:"6月10日，谷歌开源DiffusionGemma 26B-A4B（约26B参数、激活4B），已上架HuggingFace。该模型采用扩散生成而非自回归路线，是文本生成领域的一次另辟蹊径，在高质量文本生成和多步推理任务上展现出不俗潜力。" },
+  { rank:6, title:"欧盟通过《人工智能责任法案》：AI造成损害开发者须承担严格责任，罚款最高年营收6%", source:"腾讯·新华社", badge:"rising", summary:"欧洲议会正式通过全球首部《人工智能责任法案》，明确高风险AI系统须强制第三方安全审查，AI造成损害时开发者承担严格责任。违规企业最高罚款可达全球年营收的6%，法案将于2027年1月起分阶段实施。" },
+  { rank:7, title:"月之暗面发布Kimi K2.7 Code：代码能力跻身全球第一梯队，SWE-Bench提升8个百分点", source:"量子位·搜狐科技", badge:"new", summary:"6月12日，月之暗面更新Kimi K2.7 Code专用代码模型，SWE-Bench编程评测较通用版K2.6提升约8个百分点。K2.6在AAII v4.0上以54分居开源榜首，新版本预计进一步巩固开源代码助手市场地位。" },
+  { rank:8, title:"英伟达发布Halos for Robotics：业界首个物理AI全栈安全系统", source:"搜狐科技·36氪", badge:"new", summary:"6月22日，英伟达推出Halos for Robotics安全系统，将自动驾驶成熟安全技术扩展至机器人和物理AI。这是业界首个针对机器人的全栈式安全解决方案，在每个层面内置安全功能，覆盖感知、决策和行动全流程。" },
+  { rank:9, title:"英伟达与LG集团共建AI工厂：全面布局人形机器人、自动驾驶及AI数据中心", source:"36氪·凤凰科技", badge:"rising", summary:"6月8日，英伟达与韩国LG集团宣布共建AI工厂生态，覆盖人形机器人、自动驾驶、AI数据中心及物理AI全领域。此举被视为英伟达将AI基础设施布局从北美扩展至亚洲的关键一步，韩国定位为全球AI制造中心。" },
+  { rank:10, title:"智谱发布GLM-5.2：中文多轮对话和知识密度全面升级，Agent平台持续上新", source:"量子位·机器之心", badge:"new", summary:"6月16日，智谱AI发布GLM-5.2，在中文理解、多轮对话和知识密度方面全面优化。GLM在国内ToC场景普及度较高，智谱Agent平台同步上新多项智能体应用，企业部署生态持续完善。" },
+  { rank:11, title:"OpenAI确认GPT-5.6月底前发布，重点解决幻觉率问题（此前GPT-5.5幻觉率86%）", source:"搜狐科技·量子位", badge:"rising", summary:"OpenAI官方确认GPT-5.6将于6月底前发布，核心优化目标为解决GPT-5.5高达86%的幻觉率问题。此外新版本预计在推理能力、多语言支持和工具调用方面也有显著提升，业界高度关注这一关键更新。" },
+  { rank:12, title:"华为昇腾910C正式量产：对标英伟达H100，国产AI芯片加速替代", source:"36氪·新华社", badge:"hot", summary:"华为宣布昇腾910C AI训练芯片正式进入量产阶段，算力性能对标英伟达H100。在国产化替代趋势加速背景下，昇腾910C已被多个头部云厂商和AI企业采用。分析师预计2026年国产AI芯片市场份额将首次突破20%。" },
+  { rank:13, title:"特斯拉Optimus人形机器人开始在工厂内部执行物料搬运任务", source:"36氪·腾讯科技", badge:"new", summary:"特斯拉CEO马斯克宣布Optimus人形机器人已开始在得州超级工厂内部执行物料搬运任务，标志着人形机器人从实验室原型走向实际产线应用。马斯克称2027年将对外销售，目标定价2万美元以内。" },
+  { rank:14, title:"全球AI安全峰会在日内瓦召开：中美欧等20余国签署《AI伦理与安全联合宣言》", source:"新华社", badge:"rising", summary:"全球AI安全峰会于6月19日至20日在瑞士日内瓦召开，来自中美欧等20余国及国际组织的代表签署《AI伦理与安全联合宣言》，承诺在高风险AI系统开发中遵循透明度、可问责性和人类可控等核心原则。" },
+  { rank:15, title:"常州发文开展全民AI培训：全员参与全域覆盖，打造全国AI素养示范城市", source:"百度·腾讯", badge:"new", summary:"常州市政府印发《全民人工智能素养提升行动方案》，要求全市党政机关、企事业单位、学校社区全员参与AI培训，2026年底前实现全域覆盖。培训涵盖AI基础知识、大模型应用、智能制造实操等，目标打造全国AI素养示范城市。" }
+];
+
+const mockHotNewsAIExtra = [
+  { rank:16, title:"Google Gemini 3.1 Pro多模态能力最强：原生支持视频输入，价格三巨头最低", source:"搜狐科技·量子位", badge:"new", summary:"Gemini 3.1 Pro在AAII v4.0综合评分中排名前三，是当前多模态能力最强的大模型——原生支持最长5分钟1080p视频输入，价格仅为输入2美元/输出12美元每百万tokens，是三巨头中性价比较高的选择。" },
+  { rank:17, title:"中国AI专利申请量连续8年全球第一，占全球总量44%", source:"新华社", badge:"rising", summary:"世界知识产权组织最新报告显示，中国在人工智能领域的专利申请量连续8年位居全球第一，占全球AI专利申请总量的44%。在深度学习、计算机视觉、自然语言处理等子领域均遥遥领先。" },
+  { rank:18, title:"微软Copilot全面集成Office与Windows生态，企业版AI订阅增长超预期", source:"36氪·量子位", badge:"rising", summary:"微软宣布Copilot AI助手已深度集成至Word、Excel、PowerPoint、Teams和Windows操作系统，企业版Copilot订阅用户数突破5000万。分析师认为AI功能正从附加服务转变为Office生态核心卖点。" },
+  { rank:19, title:"马斯克xAI宣布Grok-4完成训练：万亿参数级，将开源部分权重", source:"腾讯科技·量子位", badge:"new", summary:"马斯克旗下xAI宣布Grok-4已完成训练，参数量达万亿级。马斯克表示将部分开源模型权重，延续其对AI透明化的承诺。Grok-4预计将于7月通过X平台和独立API向公众开放。" },
+  { rank:20, title:"北京发布AI产业发展三年行动计划：2028年核心产业规模目标破万亿", source:"新华社·36氪", badge:"rising", summary:"北京市政府发布《人工智能产业发展三年行动计划（2026-2028）》，提出到2028年AI核心产业规模突破1万亿元，培育10家以上百亿级AI企业，建设全球AI创新策源地。" },
+  { rank:21, title:"百度文心一言5.0发布：全面对标GPT-5系列，代码和推理能力大幅提升", source:"量子位·36氪", badge:"hot", summary:"百度正式发布文心一言5.0大模型，在代码生成、多轮推理和中文创作能力上全面对标GPT-5系列。百度同步宣布文心一言App用户数突破3亿，企业级API调用量同比增长300%。" },
+  { rank:22, title:"苹果WWDC 2026发布iOS 20：AI全面融入系统级体验，Siri大模型重构", source:"36氪·腾讯科技", badge:"hot", summary:"苹果WWDC 26上发布iOS 20和macOS 26，最大亮点是AI深度融入系统级体验。Siri由大模型重构，支持跨应用任务编排和个性化上下文记忆。Apple Intelligence新增视觉理解和实时翻译等能力。" },
+  { rank:23, title:"AI Agent市场爆发：2026年全球智能体市场规模预计突破500亿美元", source:"36氪·量子位", badge:"rising", summary:"据多家研究机构报告，2026年全球AI Agent（智能体）市场规模预计突破500亿美元，年增长率超过200%。Salesforce、ServiceNow、微软等企业级Agent平台收入均实现三位数增长，Agent从概念验证进入规模化商用阶段。" },
+  { rank:24, title:"字节跳动豆包大模型日均调用量突破5000亿tokens，稳居国内第一", source:"量子位·36氪", badge:"hot", summary:"字节跳动火山引擎披露，豆包大模型日均调用量已突破5000亿tokens，稳居国内大模型API调用量第一。豆包在电商推荐、短视频内容理解和智能客服等场景大规模落地，成为AI商业化的标杆案例。" },
+  { rank:25, title:"中国科学家实现量子-经典混合AI计算新架构，特定任务效率提升1000倍", source:"新华社·量子位", badge:"new", summary:"中国科学技术大学潘建伟团队联合多家机构，在国际上首次实现量子-经典混合AI计算架构，在药物分子模拟和复杂优化等任务上效率较纯经典计算提升1000倍。相关论文发表于Nature，被评价为量子AI计算的里程碑。" }
+];
+
+const mockEntertainment = [
+  { rank:1, title:"内马尔世界杯替补登场赛后激动落泪，全场数据亮眼", source:"新浪·腾讯", badge:"hot", summary:"2026年世界杯小组赛B组收官战，巴西队3-0完胜苏格兰锁定小组头名出线。内马尔下半场替补登场表现惊艳，制造多张黄牌并策动两粒进球，赛后掩面落泪的画面冲上微博热搜第一。34岁的内马尔赛后表示\u201C这一路太不容易\u201D，这是他职业生涯最后一届世界杯。" },
+  { rank:2, title:"宋祖儿直接用真名自我介绍，\u201C孙碧涓\u201D引发网友热议", source:"新浪", badge:"hot", summary:"青年演员宋祖儿在新剧发布会上用真名\u201C孙碧涓\u201D做自我介绍，引发全网热议。宋祖儿原名孙碧涓，\u201C祖儿\u201D实为艺名。网友纷纷表示\u201C原来她姓孙不姓宋\u201D，相关话题阅读量突破5亿。" },
+  { rank:3, title:"谢霆锋王菲同框到达西安，两人状态甜蜜引围观", source:"新浪·腾讯", badge:"hot", summary:"谢霆锋与王菲被拍到一同抵达西安机场，两人穿着休闲低调但互动亲密。这是两人复合后罕见同框公开亮相，粉丝纷纷留言\u201C岁月从不败真情\u201D。据悉两人此行与谢霆锋新电影西安站路演有关。" },
+  { rank:4, title:"孟子义一天连宣三部剧，《三体2》正式官宣引期待", source:"新浪·百度", badge:"new", summary:"演员孟子义在一天之内连续官宣三部新剧——古装玄幻《归鸾》、都市情感《过火》和科幻史诗《三体2：黑暗森林》。其中《三体2》阵容豪华，刘学义、杨幂、胡军领衔主演，网友调侃\u201C孟子义这是要把全年KPI一天完成\u201D。" },
+  { rank:5, title:"张钧甯公开本名\u201C张钧甯\u201D正确写法，网友：这下更不认识了", source:"新浪", badge:"rising", summary:"中国台湾演员张钧甯在采访中展示身份证，公开其本名繁体写法为\u201C張鈞甯\u201D，并解释\u201C甯\u201D读nìng非níng。因其姓名笔画复杂，话题\u201C这下更不认识张钧甯名字了\u201D冲上热搜，网友戏称\u201C认识了20年的名字突然不会写了\u201D。" },
+  { rank:6, title:"世界杯B组大结局：巴西3-0苏格兰锁定头名，摩洛哥4-2海地", source:"腾讯·百度", badge:"hot", summary:"2026年世界杯B组小组赛全部结束。巴西队凭借维尼修斯梅开二度3-0轻取苏格兰，以小组第一晋级淘汰赛；摩洛哥4-2战胜海地，以小组第二出线。内马尔替补登场造黄牌并策动进球，赛后掩面落泪冲上热搜。" },
+  { rank:7, title:"孙俪化妆师换成金鹤龙，新剧造型获好评", source:"新浪", badge:"new", summary:"演员孙俪在新剧《十年一品温如言》的造型曝光后获网友一致好评，其化妆师由合作多年的张嘉益换为金鹤龙。金鹤龙此前曾为舒淇、周迅等打造经典造型，此次将孙俪的古装造型处理得精致典雅，引发\u201C化妆师对演员有多重要\u201D的讨论。" },
+  { rank:8, title:"张凯丽删博又回复网友，疑似回应争议事件", source:"新浪·百度", badge:"rising", summary:"演员张凯丽深夜发布一则微博后又迅速删除，随后在评论区回复网友留言。有网友猜测其可能与近日某综艺节目争议有关，但张凯丽本人未正面回应。相关话题#张凯丽删博#和#张凯丽回复网友留言#先后登上热搜。" },
+  { rank:9, title:"张新成《剑来》路透造型曝光，古装颜值获赞", source:"新浪", badge:"new", summary:"张新成主演的古装玄幻剧《剑来》最新路透照曝光，一身白衣侠客造型惊艳网友，话题\u201C张新成剑来造型漂亮\u201D登上热搜。该剧改编自烽火戏诸侯同名小说，张新成饰演主角陈平安，预计2027年上线。" },
+  { rank:10, title:"肖战新剧预告片发布，\u201C抬眼的那一下\u201D镜头封神", source:"腾讯·百度", badge:"hot", summary:"肖战主演的古装权谋剧《藏海传》发布首支预告片，其中一组\u201C抬眼\u201D镜头被截图冲上热搜。短短2秒的眼神转换展现了愤怒、隐忍、决绝三层情绪变化，网友评价\u201C肖战抬眼的那一下直接封神\u201D，预告片24小时播放量破2亿。" }
+];
+
+const mockMovieRanking = [
+  { rank:1, title:"给阿嬷的情书", meta:"剧情/家庭 · 累计票房18.53亿", score:"9.2", heat:"red" },
+  { rank:2, title:"玩具总动员5", meta:"动画/冒险 · 端午档冠军1.23亿", score:"8.0", heat:"red" },
+  { rank:3, title:"爱是愤怒", meta:"剧情/爱情 · 端午档1.05亿", score:"8.7", heat:"orange" },
+  { rank:4, title:"疾速追杀5", meta:"动作/犯罪 · 累计票房8.9亿", score:"7.8", heat:"orange" },
+  { rank:5, title:"蜘蛛侠：超越宇宙", meta:"动画/动作 · 累计票房7.2亿", score:"8.5", heat:"blue" },
+  { rank:6, title:"龙马精神2", meta:"喜剧/动作 · 累计票房5.6亿", score:"7.2", heat:"blue" },
+  { rank:7, title:"封神第三部", meta:"奇幻/史诗 · 累计票房42.5亿", score:"8.3", heat:"blue" },
+  { rank:8, title:"热烈2", meta:"剧情/歌舞 · 累计票房4.1亿", score:"7.5", heat:"blue" },
+  { rank:9, title:"猩球崛起：新世界", meta:"科幻/动作 · 累计票房3.8亿", score:"7.1", heat:"blue" },
+  { rank:10, title:"长安三万里2", meta:"动画/历史 · 累计票房16.2亿", score:"8.9", heat:"blue" }
+];
+
+const mockTVRanking = [
+  { rank:1, title:"圣女逃天", meta:"古装奇幻 · 优酷独播 · 热度爆表", score:"8.4", heat:"red" },
+  { rank:2, title:"太平年", meta:"历史正剧 · CCTV1+腾讯 · 收视率2.8%", score:"9.1", heat:"red" },
+  { rank:3, title:"主角", meta:"年代剧 · 爱奇艺 · 豆瓣8.8分", score:"8.8", heat:"orange" },
+  { rank:4, title:"三体2：黑暗森林", meta:"科幻 · 腾讯视频 · 刚官宣即引发热议", score:"--", heat:"orange" },
+  { rank:5, title:"藏海传", meta:"古装权谋 · 腾讯视频 · 预约破800万", score:"--", heat:"orange" },
+  { rank:6, title:"耀眼", meta:"都市情感 · 芒果TV · 口碑逆袭", score:"8.1", heat:"blue" },
+  { rank:7, title:"十年一品温如言", meta:"都市爱情 · 爱奇艺 · 孙俪新作", score:"--", heat:"blue" },
+  { rank:8, title:"剑来", meta:"古装玄幻 · 张新成主演 · 路透热榜第一", score:"--", heat:"blue" },
+  { rank:9, title:"归鸾", meta:"古装玄幻 · 孟子义主演 · 拍摄中", score:"--", heat:"blue" },
+  { rank:10, title:"火调者", meta:"悬疑刑侦 · 腾讯视频 · 播放量破20亿", score:"7.7", heat:"blue" }
+];
+
+const mockVarietyRanking = [
+  { rank:1, title:"乘风2026", meta:"芒果TV · 女性音乐竞演 · 话题量破920万", score:"8.6", heat:"red" },
+  { rank:2, title:"奔跑吧2026", meta:"浙江卫视 · 户外竞技真人秀", score:"7.8", heat:"red" },
+  { rank:3, title:"歌手2026", meta:"湖南卫视 · 顶级音乐竞演 · 收视率持续领先", score:"8.3", heat:"orange" },
+  { rank:4, title:"种地吧3", meta:"爱奇艺 · 劳作纪实 · 口碑逆袭豆瓣9.1", score:"9.1", heat:"orange" },
+  { rank:5, title:"密室大逃脱6", meta:"芒果TV · 实景解密真人秀", score:"8.0", heat:"orange" },
+  { rank:6, title:"哈哈哈哈哈5", meta:"腾讯视频 · 公路喜剧真人秀", score:"7.5", heat:"blue" },
+  { rank:7, title:"令人心动的offer7", meta:"腾讯视频 · 律政职场观察 · 建筑季", score:"8.2", heat:"blue" },
+  { rank:8, title:"这！就是街舞8", meta:"优酷 · 街舞竞技 · 新一季回归", score:"7.9", heat:"blue" },
+  { rank:9, title:"向往的生活9", meta:"芒果TV · 生活服务纪实 · 收官季", score:"8.5", heat:"blue" },
+  { rank:10, title:"2026世界杯特别节目", meta:"央视体育 · 赛事评论+明星互动", score:"--", heat:"blue" }
+];
+
+const mockStockNews = [
+  { title:"美联储6月议息会议按兵不动，点阵图暗示年内降息两次", source:"新浪财经", summary:"美联储FOMC宣布将联邦基金利率维持在4.25%-4.50%不变，符合市场预期。最新点阵图显示年内或降息两次、每次25个基点。鲍威尔在新闻发布会上表示通胀正在向2%目标靠近，但还需要更多数据确认。美股三大指数收涨。" },
+  { title:"A股成交额连续5日突破1.5万亿，北向资金大幅净流入", source:"腾讯财经", summary:"A股市场近期持续活跃，沪深两市成交额连续5个交易日突破1.5万亿元。北向资金当日净流入超150亿元，创今年以来单日净流入新高。券商、半导体、新能源板块领涨。" },
+  { title:"英伟达市值突破4万亿美元，成为全球市值第一公司", source:"百度财经", summary:"英伟达（NVIDIA）股价再创新高，盘中市值突破4万亿美元大关，超越苹果和微软成为全球市值最高上市公司。AI芯片需求持续旺盛，公司最新财报显示数据中心业务营收同比增长265%。" },
+  { title:"中国证监会发布\u201C科创新十条\u201D，深化科创板改革", source:"新浪财经", summary:"中国证监会发布《关于进一步深化科创板改革服务科技创新的若干意见》（科创新十条），涵盖完善IPO定价机制、优化做市商制度、扩大科创50 ETF期权试点等多方面举措，进一步强化科创板\u201C硬科技\u201D定位。" },
+  { title:"国际油价暴跌创年内新低，布伦特原油跌破62美元", source:"第一财经", summary:"受OPEC+增产预期和美伊局势缓和等因素影响，国际油价连续暴跌。布伦特原油跌破62美元/桶关口，创年内新低。国内成品油价格或将于下次调价窗口迎来年内最大跌幅，车主用油成本有望显著降低。" },
+  { title:"港股恒生科技指数涨超3%，腾讯阿里美团集体走强", source:"新浪财经", summary:"港股三大指数集体收涨，恒生科技指数涨超3%。腾讯控股涨逾5%，阿里巴巴涨逾4%，美团涨逾6%。市场分析认为，南向资金持续流入叠加政策面利好是推动港股走强的主因。" },
+  { title:"央行今日开展5000亿元MLF操作，中标利率维持不变", source:"央行官网", summary:"央行今日以固定数量、利率招标、多重价位中标方式开展5000亿元MLF操作，期限1年期，中标利率与上月持平。市场分析本次操作旨在保持银行体系流动性充裕，稳定市场对中长期资金面的预期。" },
+  { title:"存储芯片景气周期持续，三星、SK海力士Q2营收预期大幅上调", source:"证券时报", summary:"全球存储芯片景气周期持续，三星电子和SK海力士Q2营收预期大幅上调。DRAM合约价格Q3预计环比上涨15%-20%，NAND Flash价格同样涨幅可观。A股存储芯片概念集体走强，兆易创新、北京君正等个股获机构密集调研。" }
+];
+
+const cslStandings = [
+  { rank:1, team:"成都蓉城", gp:15, w:12, d:2, l:1, gf:33, ga:13, pts:37 },
+  { rank:2, team:"重庆铜梁龙", gp:15, w:6, d:6, l:3, gf:24, ga:16, pts:24 },
+  { rank:3, team:"山东泰山", gp:15, w:7, d:3, l:5, gf:26, ga:20, pts:24 },
+  { rank:4, team:"上海申花", gp:15, w:6, d:5, l:4, gf:22, ga:18, pts:23 },
+  { rank:5, team:"浙江队", gp:15, w:6, d:4, l:5, gf:25, ga:21, pts:22 },
+  { rank:6, team:"大连英博", gp:15, w:7, d:1, l:7, gf:21, ga:19, pts:22 },
+  { rank:7, team:"云南玉昆", gp:15, w:6, d:3, l:6, gf:27, ga:25, pts:21 },
+  { rank:8, team:"河南彩陶坊", gp:15, w:6, d:3, l:6, gf:16, ga:22, pts:21, me:true },
+  { rank:9, team:"北京国安", gp:15, w:5, d:5, l:5, gf:19, ga:17, pts:20 },
+  { rank:10, team:"青岛西海岸", gp:15, w:3, d:9, l:3, gf:14, ga:16, pts:18 },
+  { rank:11, team:"上海海港", gp:15, w:4, d:5, l:6, gf:18, ga:21, pts:17 },
+  { rank:12, team:"青岛海牛", gp:15, w:5, d:2, l:8, gf:15, ga:24, pts:17 },
+  { rank:13, team:"辽宁铁人", gp:15, w:5, d:2, l:8, gf:18, ga:26, pts:17 },
+  { rank:14, team:"深圳新鹏城", gp:15, w:5, d:2, l:8, gf:12, ga:22, pts:17 },
+  { rank:15, team:"天津津门虎", gp:15, w:3, d:6, l:6, gf:13, ga:19, pts:15 },
+  { rank:16, team:"武汉三镇", gp:15, w:2, d:7, l:6, gf:17, ga:30, pts:13 }
+];
+
+function renderCslStandings(data) {
+  const tbody = data.map(row => {
+    const isMe = row.me;
+    const rankEl = row.rank <= 3
+      ? `<span class="csl-rank-top3">${row.rank}</span>`
+      : `<span class="csl-rank">${row.rank}</span>`;
+    const teamCls = isMe ? 'csl-team-me' : 'csl-team';
+    return `<tr>
+      <td>${rankEl}</td>
+      <td class="${teamCls}">${row.team}</td>
+      <td class="csl-gp">${row.gp}</td><td class="csl-wdl">${row.w}-${row.d}-${row.l}</td>
+      <td class="csl-gfga">${row.gf}:${row.ga}</td><td class="csl-pts">${row.pts}</td>
+    </tr>`;
+  }).join('');
+  document.getElementById('cslStandingsTable').innerHTML =
+    `<thead><tr><th>#</th><th>球队</th><th>场</th><th>胜-平-负</th><th>进:失</th><th>积分</th></tr></thead>` + '<tbody>' + tbody + '</tbody>';
+}
+
+const mockMatches = [
+  { date:"6月27日 19:35", opponent:"上海海港", venue:"主场·航海体育场", league:"中超联赛第16轮" },
+  { date:"7月3日 20:00", opponent:"云南玉昆", venue:"客场·玉溪高原体育中心", league:"中超联赛第17轮" },
+  { date:"7月11日 19:00", opponent:"武汉三镇", venue:"客场·武汉体育中心", league:"中超联赛第18轮" },
+  { date:"7月17日 19:35", opponent:"青岛海牛", venue:"主场·航海体育场", league:"中超联赛第19轮" },
+  { date:"7月26日 19:35", opponent:"山东泰山", venue:"客场·济南奥体中心", league:"中超联赛第20轮" }
+];
+
+const mockHenanNews = [
+  { title:"佩德罗·马拉尼昂正式加盟河南队，夏窗首签落定", source:"搜狐体育", summary:"6月23日河南足球俱乐部官方宣布巴西边锋佩德罗·马拉尼昂（Pedro Henryque）正式加盟。这位27岁球员上赛季效力葡超通德拉，33场贡献6球2助攻，以速度和技术见长，将顶替已离队的姆布拉增强边路攻击力。" },
+  { title:"足协杯：河南2-0轻取江西庐山，刘家辉+钟义浩破门晋级16强", source:"正观新闻", summary:"6月19日晚足协杯第四轮，河南彩陶坊客场2-0击败中乙江西庐山。全华班出战的上半场遭遇顽强防守0-0战平；下半场王上源角球助攻刘家辉头槌破门（64’），4分钟后钟义浩凌空抽射锁定胜局。河南队顺利晋级16强。" },
+  { title:"中超第16轮前瞻：河南主场迎战上海海港，古斯塔沃反戈旧主成焦点", source:"搜狐体育", summary:"6月27日19:35河南队将坐镇航海体育场迎战卫冕冠军上海海港。本赛季首回合河南客场2-1爆冷击败海港，此番主场作战气势更盛。锋线古斯塔沃面对老东家“知根知底”，海港则受困外援伤病潮（加布里埃尔赛季报销），积分榜排第13深陷泥潭。" }
+];
+
+const mockStockIndices = {
+  us: [
+    { name:"标普500", value:"6,102.48", change:"+0.87%", direction:"up" },
+    { name:"纳斯达克", value:"20,886.35", change:"+1.23%", direction:"up" },
+    { name:"道琼斯", value:"42,315.72", change:"+0.54%", direction:"up" },
+  ],
+  cn: [
+    { name:"上证指数", value:"3,285.67", change:"+0.92%", direction:"up" },
+    { name:"深证成指", value:"11,456.23", change:"+1.15%", direction:"up" },
+    { name:"创业板指", value:"2,356.89", change:"+1.48%", direction:"up" },
+  ],
+  global: [
+    { name:"日经225", value:"38,625.40", change:"+0.32%", direction:"up" },
+    { name:"恒生指数", value:"19,854.32", change:"-0.45%", direction:"down" },
+    { name:"英国富时", value:"8,456.78", change:"+0.18%", direction:"up" },
+    { name:"德国DAX", value:"18,923.45", change:"+0.67%", direction:"up" },
+    { name:"韩国KOSPI", value:"2,856.90", change:"-0.23%", direction:"down" },
+    { name:"印度SENSEX", value:"78,234.56", change:"+0.41%", direction:"up" },
+  ],
+};
+
+
+  const mockStockAI = [
+    { name:"英伟达(NVDA)", value:"158.42", change:"+2.15%", direction:"up", reason:"AI芯片龙头，数据中心营收增265%" },
+    { name:"特斯拉(TSLA)", value:"268.30", change:"+1.87%", direction:"up", reason:"FSD V13.5落地，Optimus量产在即" },
+    { name:"苹果(AAPL)", value:"232.75", change:"+0.93%", direction:"up", reason:"iOS 20 AI全面融入，换机潮预期" },
+    { name:"微软(MSFT)", value:"486.90", change:"+0.56%", direction:"up", reason:"Copilot订阅破5000万，Azure AI增长" },
+    { name:"Meta(META)", value:"642.15", change:"+1.42%", direction:"up", reason:"Llama 4开源，广告AI驱动增长" },
+    { name:"AMD(AMD)", value:"172.88", change:"+3.21%", direction:"up", reason:"MI400系列下半年量产，追赶英伟达" },
+    { name:"谷歌(GOOGL)", value:"195.63", change:"-0.32%", direction:"down", reason:"Gemini 3.1 Pro多模态领先，但广告承压" },
+    { name:"台积电(TSM)", value:"189.45", change:"+1.08%", direction:"up", reason:"2nm制程量产在即，AI芯片代工需求旺盛" },
+  ];
+
+/* ==================== STATE ==================== */
+let hotNewsActiveTab = 'domestic';
+let hotNewsExpandedDomestic = false;
+let hotNewsExpandedInternational = false;
+let hotNewsExpandedAI = false;
+
+/* ==================== RENDER ==================== */
+function getRankClass(rank) {
+  if (rank === 1) return 'rank-top1';
+  if (rank === 2) return 'rank-top2';
+  if (rank === 3) return 'rank-top3';
+  return 'rank-other';
+}
+
+const BADGE_LABELS = { hot:'🔥 热', new:'🆕 新', rising:'📈 升' };
+
+function renderNewsList(containerId, newsList) {
+  const container = document.getElementById(containerId);
+  if (!newsList || newsList.length === 0) {
+    container.innerHTML = '<div style="padding:20px;text-align:center;color:#aeaeb2">暂无数据</div>';
+    return;
+  }
+  container.innerHTML = newsList.map(item => `
+    <div class="news-item">
+      <div class="news-item-row">
+        <span class="news-rank ${getRankClass(item.rank)}">${item.rank || ''}</span>
+        <div class="news-body">
+          <div class="news-title">${item.title}</div>
+          <div class="news-footer">
+            <span class="news-source">${item.source || ''}</span>
+            ${item.badge ? `<span class="news-badge badge-${item.badge}">${BADGE_LABELS[item.badge] || item.badge}</span>` : ''}
+          </div>
+          ${item.summary ? `<div class="news-summary">${item.summary}</div>` : ''}
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function resetLoadMoreBtn(expanded) {
+  const wrap = document.getElementById('hotNewsLoadMore');
+  const btn = wrap ? wrap.querySelector('.btn-load-more') : null;
+  if (wrap) wrap.style.display = expanded ? 'none' : 'block';
+  if (btn) {
+    btn.classList.remove('loading', 'done');
+    btn.innerHTML = '更多热搜新闻 ▼';
+  }
+}
+
+// Hot news sub-tab switching
+document.getElementById('hotNewsSubTabs').addEventListener('click', function(e) {
+  const btn = e.target.closest('.sub-tab');
+  if (!btn) return;
+  const tab = btn.dataset.hot;
+  if (tab === hotNewsActiveTab) return;
+  document.querySelectorAll('#hotNewsSubTabs .sub-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  hotNewsActiveTab = tab;
+  const dataMap = { domestic: mockHotNewsDomestic, international: mockHotNewsInternational, ai: mockHotNewsAI };
+  renderNewsList('hotNewsList', dataMap[tab]);
+  const expandedMap = { domestic: hotNewsExpandedDomestic, international: hotNewsExpandedInternational, ai: hotNewsExpandedAI };
+  resetLoadMoreBtn(expandedMap[tab]);
+});
+
+function loadMoreHotNews() {
+  const container = document.getElementById('hotNewsList');
+  const btn = document.querySelector('#hotNewsLoadMore .btn-load-more');
+  const expandedMap = { domestic: hotNewsExpandedDomestic, international: hotNewsExpandedInternational, ai: hotNewsExpandedAI };
+  if (expandedMap[hotNewsActiveTab]) return;
+  const extraMap = { domestic: mockHotNewsDomesticExtra, international: mockHotNewsInternationalExtra, ai: mockHotNewsAIExtra };
+  const extraData = extraMap[hotNewsActiveTab];
+  if (!extraData || extraData.length === 0) return;
+  if (btn) { btn.classList.add('loading'); btn.innerHTML = '加载中...'; }
+  setTimeout(() => {
+    extraData.forEach(item => {
+      const div = document.createElement('div');
+      div.className = 'news-item';
+      div.innerHTML = `
+        <div class="news-item-row">
+          <span class="news-rank ${getRankClass(item.rank)}">${item.rank}</span>
+          <div class="news-body">
+            <div class="news-title">${item.title}</div>
+            <div class="news-footer"><span class="news-source">${item.source}</span><span class="news-badge badge-${item.badge}">${BADGE_LABELS[item.badge]}</span></div>
+            ${item.summary ? `<div class="news-summary">${item.summary}</div>` : ''}
+          </div>
+        </div>`;
+      container.appendChild(div);
+    });
+    if (hotNewsActiveTab === 'domestic') hotNewsExpandedDomestic = true;
+    else if (hotNewsActiveTab === 'international') hotNewsExpandedInternational = true;
+    else hotNewsExpandedAI = true;
+    document.getElementById('hotNewsLoadMore').style.display = 'none';
+  }, 300);
+}
+
+// Stock rendering
+function renderStockIndices(indices) {
+  document.getElementById('stockGrid').innerHTML = indices.map(s => `
+    <div class="stock-card">
+      <div class="stock-name">${s.name}</div>
+      <div class="stock-value ${s.direction === 'up' ? 'stock-up' : 'stock-down'}">${s.value}</div>
+      <div class="stock-change ${s.direction === 'up' ? 'stock-up' : 'stock-down'}">${s.change}${s.reason ? `<div style="font-size:0.6875rem;color:#636366;font-weight:400;margin-top:2px;white-space:normal">${s.reason}</div>` : ''}</div>
+    </div>
+  `).join('');
+}
+
+function renderStockNews(news) {
+  document.getElementById('stockNewsList').innerHTML = news.map(n => `
+    <div class="stock-news-item">
+      <div class="stock-news-title">${n.title}</div>
+      <div class="stock-news-from">来源：${n.source}</div>
+      <div class="stock-news-summary">${n.summary}</div>
+    </div>
+  `).join('');
+}
+
+// Stock sub-tab switching
+document.getElementById('stockSubTabs').addEventListener('click', function(e) {
+  const btn = e.target.closest('.sub-tab');
+  if (!btn) return;
+  document.querySelectorAll('#stockSubTabs .sub-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const type = btn.dataset.stock;
+  if (type === 'reco') {
+    renderStockIndices(mockStockAI);
+    document.getElementById('stockNewsList').innerHTML = '<div class="stock-ai-note">🤖 AI 基于最新财报、技术进展和市场情绪综合推荐，仅供参考</div>';
+  } else {
+    renderStockIndices(mockStockIndices[type]);
+    renderStockNews(mockStockNews);
+  }
+  updateMarketStatus();
+  refreshStockData().catch(() => {});
+});
+
+// Entertainment ranking
+function renderRanking(containerId, data) {
+  const container = document.getElementById(containerId);
+  const numClass = n => n === 1 ? 'rn1' : n === 2 ? 'rn2' : n === 3 ? 'rn3' : 'rn-other';
+  const heatLabel = { red:'🔥 爆', orange:'📈 热', blue:'📊 推荐' };
+  container.innerHTML = '<div class="ranking-list">' + data.map(item => `
+    <div class="ranking-item">
+      <span class="ranking-num ${numClass(item.rank)}">${item.rank}</span>
+      <div class="ranking-info">
+        <div class="ranking-name">${item.title}</div>
+        <div class="ranking-desc">${item.meta}</div>
+      </div>
+      <div class="ranking-right">
+        ${item.score && item.score !== '--' ? `<span class="ranking-score">⭐ ${item.score}</span>` : ''}
+        <span class="ranking-heat heat-${item.heat}">${heatLabel[item.heat] || item.heat}</span>
+      </div>
+    </div>`).join('') + '</div>';
+}
+
+let entRankingActiveTab = 'movie';
+document.getElementById('entRankingSubTabs').addEventListener('click', function(e) {
+  const btn = e.target.closest('.sub-tab');
+  if (!btn) return;
+  const tab = btn.dataset.ranking;
+  if (tab === entRankingActiveTab) return;
+  document.querySelectorAll('#entRankingSubTabs .sub-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  entRankingActiveTab = tab;
+  const data = tab === 'movie' ? mockMovieRanking : (tab === 'tv' ? mockTVRanking : mockVarietyRanking);
+  renderRanking('entRankingContainer', data);
+});
+
+// Matches
+function renderMatches(matches) {
+  document.getElementById('henanMatchList').innerHTML = matches.map((m, idx) => {
+    const isHome = m.venue.startsWith('主');
+    const title = isHome
+      ? '河南彩陶坊 vs ' + m.opponent
+      : m.opponent + ' vs 河南彩陶坊';
+    return `
+    <div class="match-item">
+      <span class="match-num">${idx + 1}</span>
+      <div class="match-body">
+        <div class="match-title">
+          <span>${title}</span>
+          <span class="match-badge">${isHome ? '主场' : '客场'}</span>
+        </div>
+        <div class="match-sub">${m.date} · ${m.venue} · ${m.league}</div>
+      </div>
+      <button class="match-remind" onclick="setReminder('${m.date}','${m.opponent}')">🔔 提醒</button>
+    </div>`;
+  }).join('');
+}
+
+function renderHenanNews(news) {
+  document.getElementById('henanNewsList').innerHTML = news.map(item => `
+    <div class="news-item">
+      <div class="news-item-row">
+        <div class="news-body">
+          <div class="news-title">${item.title}</div>
+          <div class="news-footer"><span class="news-source">${item.source}</span></div>
+          ${item.summary ? `<div class="news-summary">${item.summary}</div>` : ''}
+        </div>
+      </div>
+    </div>`).join('');
+}
+
+/* ==================== MARKET STATUS ==================== */
+function isMarketOpen(type) {
+  const now = new Date();
+  const beijingH = now.getUTCHours() + 8;
+  const beijingM = now.getUTCMinutes();
+  const d = now.getUTCDay();
+  if (type === 'cn') {
+    return d >= 1 && d <= 5 && ((beijingH >= 9 && beijingH < 11) || (beijingH === 11 && beijingM < 30) || (beijingH >= 13 && beijingH < 15));
+  }
+  if (type === 'us') {
+    // US market: 9:30-16:00 EDT(夏令) / 9:30-16:00 EST(冬令)
+    // EDT = UTC-4, Beijing = UTC+8 → Beijing = EDT + 12
+    // EST = UTC-5, Beijing = UTC+8 → Beijing = EST + 13
+    // 夏令(3月第二个周日~11月第一个周日): Beijing 21:30~04:00(+1)
+    // 冬令: Beijing 22:30~05:00(+1)
+    const month = now.getUTCMonth() + 1;
+    const isEDT = (month > 3 && month < 11) || (month === 3 && now.getUTCDate() >= 8) || (month === 11 && now.getUTCDate() <= 7);
+    if (isEDT) {
+      // Beijing 21:30~04:00(next day)
+      if (beijingH >= 21 && beijingH < 24) return d >= 1 && d <= 5;
+      if (beijingH >= 0 && beijingH < 4) return d >= 2 && d <= 6;
+      if (beijingH === 21 && beijingM >= 30) return d >= 1 && d <= 5;
+      return false;
+    } else {
+      // Beijing 22:30~05:00(next day)
+      if (beijingH >= 22 && beijingH < 24) return d >= 1 && d <= 5;
+      if (beijingH >= 0 && beijingH < 5) return d >= 2 && d <= 6;
+      if (beijingH === 22 && beijingM >= 30) return d >= 1 && d <= 5;
+      return false;
+    }
+  }
+  return false;
+}
+
+function updateMarketStatus() {
+  const dot = document.getElementById('statusDot');
+  const text = document.getElementById('statusText');
+  const note = document.getElementById('statusRefreshNote');
+  const activeTab = document.querySelector('#stockSubTabs .sub-tab.active');
+  const type = activeTab ? activeTab.dataset.stock : 'us';
+  const open = isMarketOpen(type);
+  const labels = { us: '美股', cn: 'A股', global: '全球市场', reco: 'AI荐股' };
+  if (open) {
+    dot.className = 'dot-live';
+    text.textContent = (labels[type] || '') + ' · 交易时段 · 数据实时更新中';
+    note.style.display = 'inline';
+  } else {
+    dot.className = 'dot-closed';
+    text.textContent = (labels[type] || '') + ' · 休市中 · 显示最近收盘数据';
+    note.style.display = 'none';
+  }
+}
+
+/* ==================== STOCK REFRESH ==================== */
+async function refreshStockData() {
+  try {
+    const activeTab = document.querySelector('#stockSubTabs .sub-tab.active');
+    const type = activeTab ? activeTab.dataset.stock : 'us';
+    if (type === 'reco') return;
+    const data = await fetchRealStockData(type);
+    if (data && data.length > 0) {
+      renderStockIndices(data);
+    }
+  } catch(e) {}
+}
+
+async function fetchRealStockData(type) {
+  const secIds = {
+    us: '100.SPX,101.DJIA,100.NDX',
+    cn: '1.000001,0.399001,0.399006',
+    global: '100.HSI,100.N225,100.UKX,100.GDAXI,100.KS11',
+  };
+  if (!secIds[type]) return null;
+  const url = `https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f2,f3,f4,f12,f14&secids=${secIds[type]}&_=${Date.now()}`;
+  try {
+    const resp = await fetch(url, { headers: { 'Referer': 'https://quote.eastmoney.com' } });
+    const json = await resp.json();
+    if (!json.data || !json.data.diff) return null;
+    const nameMap = {
+      us: ['标普500', '道琼斯', '纳斯达克'], cn: ['上证指数', '深证成指', '创业板指'],
+      global: ['恒生指数', '日经225', '英国富时', '德国DAX', '韩国KOSPI']
+    };
+    return json.data.diff.map((item, i) => ({
+      name: nameMap[type][i] || item.f14,
+      value: item.f2 ? parseFloat(item.f2).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '--',
+      change: (item.f3 >= 0 ? '+' : '') + (item.f3 || 0).toFixed(2) + '%',
+      direction: item.f3 >= 0 ? 'up' : 'down'
+    }));
+  } catch(e) { return null; }
+}
+
+function scheduleStockRefresh() {
+  setInterval(() => {
+    if (isMarketOpen('cn') || isMarketOpen('us')) refreshStockData();
+  }, 3600000);
+  if (isMarketOpen('cn') || isMarketOpen('us')) refreshStockData();
+}
+
+/* ==================== REMINDER ==================== */
+function setReminder(date, opponent) {
+  if (!('Notification' in window)) { showToast('⚠️ 您的浏览器不支持通知功能'); return; }
+  Notification.requestPermission().then(permission => {
+    if (permission === 'granted') {
+      showToast('✅ 已设置关注提醒：河南队 vs ' + opponent + '（' + date + '，赛前30分钟提醒）');
+      const matchTime = new Date(date.replace('月','/').replace('日','/').replace(' ','T') + ':00+08:00');
+      const remindTime = matchTime.getTime() - 30 * 60 * 1000;
+      const delay = remindTime - Date.now();
+      if (delay > 0) {
+        setTimeout(() => {
+          new Notification('⚽ 河南队比赛即将开始！', { body: opponent + ' · ' + date, icon: 'images/icon.jpg' });
+        }, delay);
+      }
+    } else {
+      showToast('⚠️ 请在浏览器设置中允许通知');
+    }
+  });
+}
+
+/* ==================== TOAST ==================== */
+function showToast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  setTimeout(() => el.classList.remove('show'), 2500);
+}
+
+/* ==================== TIME ==================== */
+function updateTimeDisplay() {
+  const now = new Date();
+  const timeStr = now.toLocaleString('zh-CN', { hour:'2-digit', minute:'2-digit' });
+  const lu = document.getElementById('lastUpdateTime');
+  if (lu) lu.textContent = timeStr;
+}
+
+/* ==================== REFRESH ==================== */
+function refreshAll() {
+  const btn = document.getElementById('btnRefresh');
+  btn.classList.add('spinning');
+  showToast('🔄 正在刷新数据...');
+  hotNewsExpandedDomestic = false;
+  hotNewsExpandedInternational = false;
+  hotNewsExpandedAI = false;
+  const tab = document.querySelector('#hotNewsSubTabs .sub-tab.active');
+  hotNewsActiveTab = tab ? tab.dataset.hot : 'domestic';
+  resetLoadMoreBtn(false);
+  const dataMap = { domestic: mockHotNewsDomestic, international: mockHotNewsInternational, ai: mockHotNewsAI };
+  renderNewsList('hotNewsList', dataMap[hotNewsActiveTab]);
+  renderStockIndices(mockStockIndices.us);
+  renderStockNews(mockStockNews);
+  renderRanking('entRankingContainer', mockMovieRanking);
+  renderNewsList('entNewsList', mockEntertainment);
+  renderMatches(mockMatches);
+  renderCslStandings(cslStandings);
+  renderHenanNews(mockHenanNews);
+  updateMarketStatus();
+  updateTimeDisplay();
+  refreshStockData().catch(() => {});
+  setTimeout(() => btn.classList.remove('spinning'), 800);
+}
+
+function loadAllData() {
+  renderNewsList('hotNewsList', mockHotNewsDomestic);
+  hotNewsActiveTab = 'domestic';
+  hotNewsExpandedDomestic = false;
+  hotNewsExpandedInternational = false;
+  hotNewsExpandedAI = false;
+  resetLoadMoreBtn(false);
+  renderStockIndices(mockStockIndices.us);
+  renderStockNews(mockStockNews);
+  renderRanking('entRankingContainer', mockMovieRanking);
+  renderNewsList('entNewsList', mockEntertainment);
+  renderMatches(mockMatches);
+  renderCslStandings(cslStandings);
+  renderHenanNews(mockHenanNews);
+  updateMarketStatus();
+  refreshStockData().catch(() => {});
+}
+
+/* ==================== MAIN TAB NAV ==================== */
+document.getElementById('mainTabBar').addEventListener('click', function(e) {
+  const btn = e.target.closest('.main-tab');
+  if (!btn || !btn.dataset.tab) return;
+  const tabId = btn.dataset.tab;
+  document.querySelectorAll('.main-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.section-page').forEach(p => p.classList.remove('active'));
+  const page = document.getElementById('tab-' + tabId);
+  if (page) page.classList.add('active');
+});
+
+const marqueeHeadlines = [
+  '🇨🇳 A股：上证指数 3386.41 ▲0.38% · 深证成指 10892.35 ▲0.72% · 创业板指 2189.66 ▲1.15%',
+  '🇭🇰 港股：恒生指数 24185.32 ▼0.42% · 恒生科技 ▼0.88% · 南向资金净流出18.6亿港元',
+  '🇺🇸 美股昨夜：道指 42583.47 ▲0.12% · 纳指 19691.61 ▲0.02% · 标普500 6126.32 ▼0.08%',
+  '🇪🇺 欧股收盘：德国DAX ▲0.35% · 法国CAC40 ▲0.28% · 英国富时100 ▲0.51%',
+  '🇯🇵 日经225 54789.52 ▲0.88% · 韩国KOSPI 3872.14 ▼0.33%',
+  '📈 今日热点板块：AI算力 ▲3.2% · 半导体 ▲2.1% · 新能源车 ▲1.8% · 军工 ▲1.5%',
+  '📉 今日走弱板块：房地产 ▼1.6% · 白酒 ▼1.1% · 煤炭 ▼0.8% · 银行 ▼0.4%',
+  '🚀 A股牛股：中际旭创 ▲8.3% · 寒武纪 ▲6.7% · 中芯国际 ▲5.2% · 比亚迪 ▲3.1%',
+  '💰 北向资金今日净流入38.6亿元 · 主力资金净流入AI板块52.3亿 · 两融余额2.01万亿',
+  '🛢️ 商品期货：布伦特原油 74.82美元/桶 ▼0.6% · 黄金现货 4128美元/盎司 ▲0.3%',
+  '💱 外汇：美元指数 103.28 ▼0.12% · 离岸人民币 7.2134 · 比特币 92156美元 ▲1.2%',
+  '📊 美股盘前：纳指期货 ▲0.18% · 道指期货 ▲0.09% · 市场关注今日PCE通胀数据',
+  '🏦 央行：今日开展5000亿元MLF操作 · 7天逆回购利率维持1.40% · 流动性保持充裕',
+  '⚽ 足球概念股：双象股份 ▲6.2% · 共创草坪 ▲4.8% · 建业地产港股 ▲3.1%',
+  '🔥 今日成交活跃：宁德时代 成交额82亿 · 贵州茅台 成交额47亿 · 中科曙光 成交额39亿',
+];
+function renderMarquee() {
+  const track = document.getElementById('marqueeTrack');
+  if (!track) { console.warn('marqueeTrack not found'); return; }
+  console.log('✅ renderMarquee 执行，共', marqueeHeadlines.length, '条内容');
+  track.innerHTML = marqueeHeadlines.map(h => '<span style="margin:0 28px;">' + h + '</span>').join('');
+}
+
+/* ==================== INIT ==================== */
+loadAllData();
+updateTimeDisplay();
+fetchWeather();
+renderMarquee();
+scheduleStockRefresh();
+
+fetchWeather();
+renderMarquee();
+scheduleStockRefresh();
+
+// ============================================================
+// 定时更新机制（绝对可靠版）
+// 策略：记录上次更新的"日期+时段"，每次打开/恢复焦点时检查是否需要更新
+// ============================================================
+
+// 获取当前时段标识：today-9（今天9点档）或 today-18（今天18点档）
+function getTargetKey() {
+  const now = new Date();
+  const today = now.toISOString().split('T')[0]; // "2026-06-25"
+  const h = now.getHours();
+  if (h >= 18) return today + '-18';      // 18:00 及之后 → 今天18点档
+  if (h >= 9)  return today + '-9';       // 9:00-17:59 → 今天9点档
+  return yesterday(today) + '-18';          // 0:00-8:59 → 昨天18点档
+}
+function yesterday(iso) {
+  const d = new Date(iso);
+  d.setDate(d.getDate() - 1);
+  return d.toISOString().split('T')[0];
+}
+
+// 从 localStorage 读取已更新的时段列表
+function getUpdatedKeys() {
+  try { return JSON.parse(localStorage.getItem('dailyRefreshed') || '[]'); }
+  catch { return []; }
+}
+function markUpdated(key) {
+  const keys = getUpdatedKeys();
+  if (!keys.includes(key)) {
+    keys.push(key);
+    // 只保留最近 7 天，防止无限增长
+    if (keys.length > 14) keys.splice(0, keys.length - 14);
+    localStorage.setItem('dailyRefreshed', JSON.stringify(keys));
+  }
+}
+
+// 执行刷新
+function doRefresh(reason) {
+  console.log('🔄 触发更新：' + reason);
+  refreshAll();
+  fetchWeather();
+  showToast('🔄 每日简讯已更新（' + reason + '）');
+}
+
+// 核心检查函数
+function checkAndRefresh() {
+  const target = getTargetKey();
+  const updated = getUpdatedKeys();
+  if (!updated.includes(target)) {
+    // 当前时段尚未更新 → 执行更新
+    doRefresh(target);
+    markUpdated(target);
+  }
+}
+
+// 启动检查
+// 1. 页面首次加载时立即检查
+checkAndRefresh();
+
+// 2. 每次从后台切换回来时检查（移动端用户按 Home 再回来必触发）
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) {
+    setTimeout(checkAndRefresh, 500); // 等 0.5 秒让系统时间稳定
+  }
+});
+
+// 3. 定时检查（每 5 分钟），覆盖用户一直前台运行的情况
+setInterval(checkAndRefresh, 5 * 60 * 1000);
+
+// 4. 整点附近加密检查（确保不漏掉窗口）
+function scheduleExactCheck() {
+  const now = new Date();
+  const secsToNextHour = (60 - now.getMinutes()) * 60 - now.getSeconds();
+  // 在整点后 30 秒检查一次
+  setTimeout(() => {
+    checkAndRefresh();
+    // 之后每小时检查一次
+    setInterval(checkAndRefresh, 60 * 60 * 1000);
+  }, (secsToNextHour + 30) * 1000);
+}
+scheduleExactCheck();
+
+console.log('✅ 定时更新机制已启动，目标时段：' + getTargetKey());
+
+// Service worker
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+}
+
+/* ==================== WEATHER ==================== */
+const weatherMap = {
+  0: { icon:'☀️', desc:'晴' }, 1: { icon:'🌤️', desc:'少云' }, 2: { icon:'⛅', desc:'多云' },
+  3: { icon:'☁️', desc:'阴' }, 45: { icon:'🌫️', desc:'雾' }, 48: { icon:'🌫️', desc:'霜雾' },
+  51: { icon:'🌦️', desc:'小雨' }, 53: { icon:'🌧️', desc:'中雨' }, 55: { icon:'🌧️', desc:'大雨' },
+  61: { icon:'🌧️', desc:'阵雨' }, 63: { icon:'🌧️', desc:'中阵雨' }, 65: { icon:'⛈️', desc:'大阵雨' },
+  71: { icon:'❄️', desc:'小雪' }, 73: { icon:'❄️', desc:'中雪' }, 75: { icon:'❄️', desc:'大雪' },
+  80: { icon:'🌦️', desc:'阵雨' }, 81: { icon:'🌧️', desc:'中阵雨' }, 82: { icon:'⛈️', desc:'强阵雨' },
+  95: { icon:'⛈️', desc:'雷暴' }, 96: { icon:'⛈️', desc:'雷暴+冰雹' }, 99: { icon:'⛈️', desc:'强雷暴+冰雹' },
+};
+
+async function fetchWeatherByCoords(lat, lon, fallbackCity) {
+  try {
+    const resp = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true&hourly=relativehumidity_2m&timezone=auto&forecast_days=1`);
+    const json = await resp.json();
+    const cw = json.current_weather;
+    const hourly = json.hourly;
+    const nowHour = new Date().getHours();
+    const humidityIdx = hourly.time.findIndex(t => new Date(t).getHours() >= nowHour);
+    const humidity = humidityIdx >= 0 ? hourly.relativehumidity_2m[humidityIdx] : '--';
+    renderWeather({ temp: Math.round(cw.temperature), code: cw.weathercode, wind: Math.round(cw.windspeed), humidity, city: fallbackCity });
+  } catch(e) {
+    document.getElementById('weatherTemp').textContent = '--°';
+    document.getElementById('weatherExtra').textContent = '天气获取失败';
+  }
+}
+
+function renderWeather(data) {
+  const w = weatherMap[data.code] || { icon:'🌤️', desc:'晴' };
+  document.getElementById('weatherIcon').textContent = w.icon;
+  document.getElementById('weatherTemp').textContent = `${data.temp}\u00B0`;
+  const extra = document.getElementById('weatherExtra');
+  if (extra) {
+    let txt = '';
+    if (data.city) txt += data.city;
+    txt += ` · ${w.desc}`;
+    if (data.humidity) txt += ` · ${data.humidity}%`;
+    extra.textContent = txt;
+  }
+}
+
+console.log('每日简讯 v2.0 已就绪');
+</script>
+</body>
+</html>
