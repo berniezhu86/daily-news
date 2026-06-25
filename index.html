@@ -74,11 +74,14 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 .topbar-right-row { display:flex; align-items:center; gap:8px; }
 .top-update { font-size:12px; color:var(--text3); white-space:nowrap; }
 .btn-refresh-top {
-  width:30px; height:30px; border-radius:50%; border:1.5px solid var(--border);
+  display:inline-flex; align-items:center; gap:4px;
+  height:26px; padding:0 10px; border-radius:13px;
+  border:1.5px solid var(--border);
   background:var(--surface); cursor:pointer;
-  display:flex; align-items:center; justify-content:center; color:var(--text2);
-  transition:all 0.2s; flex-shrink:0;
+  font-size:11px; font-weight:600; color:var(--text2); letter-spacing:0.03em;
+  flex-shrink:0; transition:all 0.2s; white-space:nowrap;
 }
+.btn-refresh-top svg { flex-shrink:0; }
 .btn-refresh-top:hover { border-color:var(--blue); color:var(--blue); background:rgba(10,132,255,0.06); }
 .btn-refresh-top.spinning svg { animation:spin 0.8s linear infinite; }
 
@@ -470,8 +473,7 @@ body.care-mode .news-item { padding:18px 0; }
   .topbar-date .d-week { font-size:10px; padding:1px 5px; }
   .topbar-date .d-lunar { font-size:9px; }
   .top-update { font-size:11px; }
-  .btn-refresh-top { width:26px; height:26px; }
-  .btn-care { height:24px; padding:0 8px; font-size:10px; }
+  .btn-refresh-top, .btn-care { height:24px; padding:0 8px; font-size:10px; }
   .hero { padding:6px 20px; }
   .tab-bar-inner { padding:8px 8px; gap:4px; }
   .main-tab { height:38px; font-size:13px; border-radius:19px; padding:0 10px; }
@@ -522,7 +524,8 @@ body.care-mode .news-item { padding:18px 0; }
       <div class="topbar-right-row">
         <span class="top-update">更新于 <span id="lastUpdateTime">--:--</span></span>
         <button class="btn-refresh-top" onclick="refreshAll()" title="刷新" id="btnRefresh">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+        刷新
       </button>
       </div>
     </div>
