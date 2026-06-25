@@ -124,12 +124,20 @@ body.care-mode .news-item { padding:18px 0; }
 
 /* ===== MAIN TAB BAR ===== */
 .tab-bar {
-  position:sticky; top:0; z-index:200;
+  z-index:200;
   background:rgba(242,242,247,0.96);
   backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
   -webkit-text-size-adjust:100%; text-size-adjust:100%;
   border-bottom:1px solid var(--border);
 }
+/* JS 动态添加：菜单锁顶 */
+.tab-bar.stuck {
+  position:fixed; top:0; left:0; right:0;
+  box-shadow:0 2px 12px rgba(0,0,0,0.08);
+}
+/* 占位元素：防止 fixed 后内容跳动 */
+.tab-bar-placeholder { display:none; }
+.tab-bar-placeholder.active { display:block; }
 .tab-bar-inner {
   max-width:var(--max); margin:0 auto;
   display:flex; align-items:center; padding:10px 14px; gap:6px;
@@ -2249,6 +2257,61 @@ window.addEventListener('scroll', function() {
     autoLoadCount = 0;
   }
 }, { passive: true });
+
+// ============================================================
+// 菜单顶置锁定（JS 实现，100% 可靠）
+// 滚动超过 tab-bar 原始位置后自动锁在屏幕顶部
+// ============================================================
+(function() {
+  var tabBar = document.querySelector('.tab-bar');
+  if (!tabBar) return;
+
+  // 创建占位元素（当 tabBar 变为 fixed 时防止内容跳动）
+  var placeholder = document.createElement('div');
+  placeholder.className = 'tab-bar-placeholder';
+  tabBar.parentNode.insertBefore(placeholder, tabBar);
+
+  var tabBarTop = 0;      // tabBar 原始位置（距页面顶部）
+  var tabBarHeight = 0;   // tabBar 高度
+  var isStuck = false;
+
+  function recalc() {
+    // 计算 tabBar 在正常流中的 top 位置（含 pullIndicator + topbar + marqueeBar）
+    var rect = placeholder.getBoundingClientRect();
+    tabBarTop = rect.top + window.pageYOffset + 1; // +1px 容差，避免来回抖动
+    tabBarHeight = tabBar.offsetHeight;
+    placeholder.style.height = tabBarHeight + 'px';
+  }
+  recalc();
+  // 图片/异步内容加载后高度可能变化，延迟重新计算
+  setTimeout(recalc, 500);
+  setTimeout(recalc, 2000);
+
+  function onScroll() {
+    var scrollY = window.pageYOffset || document.documentElement.scrollTop;
+    var shouldStick = scrollY >= tabBarTop;
+
+    if (shouldStick && !isStuck) {
+      isStuck = true;
+      tabBar.classList.add('stuck');
+      placeholder.classList.add('active');
+    } else if (!shouldStick && isStuck) {
+      isStuck = false;
+      tabBar.classList.remove('stuck');
+      placeholder.classList.remove('active');
+    }
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', function() {
+    recalc();
+    onScroll();
+  }, { passive: true });
+
+  // 页面切换 tab 时可能改变内容高度，重新计算
+  var observer = new MutationObserver(function() { recalc(); });
+  observer.observe(document.querySelector('.page-body') || document.body, { childList: true, subtree: true, attributes: false });
+})();
 
 // ============================================================
 // 定时更新机制（绝对可靠版）
