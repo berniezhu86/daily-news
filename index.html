@@ -1671,6 +1671,9 @@ const marqueeHeadlines = [
 var authoritativeNews = [];
 var authLoadAttempted = false;
 
+// ★ 控制开关：设为 true 时启用权威发布Banner + 跑马灯权威标签
+var AUTH_FEATURE_ENABLED = false;
+
 function loadAuthoritativeNews() {
   if (authLoadAttempted) return;
   authLoadAttempted = true;
@@ -1680,8 +1683,10 @@ function loadAuthoritativeNews() {
       authoritativeNews = data.news || [];
       var tEl = document.getElementById('authUpdateTime');
       if (tEl) tEl.textContent = data.updated_display || '';
-      renderAuthBanner();
-      renderMarquee();
+      if (AUTH_FEATURE_ENABLED) {
+        renderAuthBanner();
+        renderMarquee();
+      }
     })
     .catch(function() {
       var banner = document.getElementById('authBanner');
@@ -1732,15 +1737,14 @@ function renderMarquee() {
       label.style.background = 'linear-gradient(135deg,#e65100,#ff6d00)';
     }
   } else {
-    // 非比赛日：权威要闻优先 + 常规财经快讯
+    // 非比赛日：权威要闻优先（仅 AUTH_FEATURE_ENABLED=true 时启用）+ 常规财经快讯
     var authHeadlines = [];
-    if (authoritativeNews && authoritativeNews.length > 0) {
+    if (AUTH_FEATURE_ENABLED && authoritativeNews && authoritativeNews.length > 0) {
       authHeadlines = authoritativeNews.slice(0, 3).map(function(item) {
         return '📡 ' + item.source + '：' + item.title;
       });
     }
     var allHeadlines = authHeadlines.concat(marqueeHeadlines);
-    console.log('✅ renderMarquee 执行，共', allHeadlines.length, '条内容（含权威要闻', authHeadlines.length, '条）');
     track.innerHTML = allHeadlines.map(function(h) {
       return '<span style="margin:0 28px;">' + h + '</span>';
     }).join('');
