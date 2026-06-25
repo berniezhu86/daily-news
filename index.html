@@ -1460,7 +1460,7 @@ function renderMarquee() {
 
   // 检查今天是否有河南队比赛
   // 🔧 TEST MODE: 6月27日实际无比赛数据？设为 false 恢复正常模式
-  const FORCE_TEST_MATCH = true; // ← 临时测试，测试完成后设为 false
+  const FORCE_TEST_MATCH = false; // ← 设为 true 可强制测试比赛日跑马灯效果
   const todayMatch = FORCE_TEST_MATCH ? mockMatches[0] : getTodayMatch();
 
   if (todayMatch) {
