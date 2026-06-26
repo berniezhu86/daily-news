@@ -475,9 +475,11 @@ body.care-mode .news-time { font-size:12px!important; }
 .match-subscribe {
   flex-shrink:0; width:32px; height:32px; border-radius:50%;
   font-size:14px; cursor:pointer; border:none;
-  background:rgba(255,149,0,0.1); color:#ff9500;
+  background:rgba(255,149,0,0.08); color:#ff9500;
   transition:all 0.2s; display:inline-flex; align-items:center; justify-content:center;
+  padding:0;
 }
+.match-subscribe svg { width:16px; height:16px; stroke:currentColor; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; flex-shrink:0; }
 .match-subscribe:hover { background:#ff9500; color:#fff; transform:scale(1.08); }
 .match-subscribe.subscribed { background:#ff9500; color:#fff; animation:pulseSub 2s ease infinite; }
 @keyframes pulseSub { 0%,100%{box-shadow:0 0 0 0 rgba(255,149,0,0.4)} 50%{box-shadow:0 0 0 6px rgba(255,149,0,0)} }
@@ -1236,7 +1238,7 @@ body.theme-dark .auth-banner {
   <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:12px;">
     <span id="marqueeLabel" style="background:linear-gradient(135deg,#0a84ff,#0d47a1);color:#fff;font-size:11px;font-weight:700;padding:4px 12px;border-radius:0 10px 10px 0;flex-shrink:0;letter-spacing:0.04em;white-space:nowrap;">快讯</span>
     <div style="flex:1;overflow:hidden;min-height:24px;line-height:24px;position:relative;">
-      <div id="marqueeTrack" style="display:inline-block;white-space:nowrap;color:rgba(255,255,255,0.92);font-size:13px;line-height:24px;animation:marqueeScroll 60s linear infinite;will-change:transform;">📈 A股：上证指数 3386.41 ▲0.38% · 深证成指 10892.35 ▲0.72% · 创业板指 2189.66 ▲1.15% &nbsp;&nbsp; 🇭🇰 港股：恒生指数 24185.32 ▼0.42% · 恒生科技 ▼0.88% &nbsp;&nbsp; 🇺🇸 美股昨夜：道指 42583.47 ▲0.12% · 纳指 19691.61 ▲0.02%</div>
+      <div id="marqueeTrack" style="display:inline-block;white-space:nowrap;color:rgba(255,255,255,0.92);font-size:13px;line-height:24px;animation:marqueeScroll 35s linear infinite;will-change:transform;">📈 A股：上证指数 3386.41 ▲0.38% · 深证成指 10892.35 ▲0.72% · 创业板指 2189.66 ▲1.15% &nbsp;&nbsp; 🇭🇰 港股：恒生指数 24185.32 ▼0.42% · 恒生科技 ▼0.88% &nbsp;&nbsp; 🇺🇸 美股昨夜：道指 42583.47 ▲0.12% · 纳指 19691.61 ▲0.02%</div>
     </div>
   </div>
 </div>
@@ -2662,7 +2664,7 @@ function renderMatches(matches) {
         <div class="match-sub">${m.date} · ${m.league}</div>
         <div class="match-sub" style="margin-top:1px;">${m.venue}</div>
       </div>
-      <button class="${subClass}" onclick="subscribeMatch('${m.date.replace(/'/g, "\\'")}','${m.opponent.replace(/'/g, "\\'")}')" title="${subTitle}">🔔</button>
+      <button class="${subClass}" onclick="subscribeMatch('${m.date.replace(/'/g, "\\'")}','${m.opponent.replace(/'/g, "\\'")}')" title="${subTitle}"><svg viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></button>
     </div>`;
   }).join('');
 }
@@ -3204,8 +3206,8 @@ function renderMarquee() {
     const vsText = (isHome ? '河南仰韶彩陶坊 vs ' : '') + todayMatch.opponent + (isHome ? '' : ' vs 河南仰韶彩陶坊');
     const matchMarquee = (window.marqueeDatePrefix||'') + '⚽ ' + todayMatch.league + ' · ' + vsText + ' · ' + todayMatch.date + ' · ' + todayMatch.venue;
     track.innerHTML = '<span style="margin:0 28px;">' + matchMarquee + '</span>';
-    // 比赛日跑马灯慢速，方便阅读
-    track.style.animationDuration = '90s';
+    // 比赛日跑马灯中速
+    track.style.animationDuration = '35s';
     if (label) {
       label.textContent = '⚽赛程';
       label.style.background = 'linear-gradient(135deg,#e65100,#ff6d00)';
@@ -3265,9 +3267,20 @@ function restoreSubscriptions() {
 /* ==================== 关怀版 ==================== */
 function toggleCareMode() {
   const btn = document.getElementById('btnCare');
-  const isCare = document.body.classList.toggle('care-mode');
+  var isCare;
+  if (document.body.classList.contains('care-mode')) {
+    document.body.classList.remove('care-mode');
+    isCare = false;
+  } else {
+    document.body.classList.add('care-mode');
+    isCare = true;
+  }
   if (btn) {
-    btn.classList.toggle('active', isCare);
+    if (isCare) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
     btn.title = isCare ? '关怀版已开启，点击恢复标准版' : '关怀版：大字体';
   }
   localStorage.setItem('care_mode', isCare ? '1' : '0');
