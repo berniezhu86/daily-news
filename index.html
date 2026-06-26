@@ -1268,7 +1268,7 @@ body.theme-dark .auth-banner {
       <div class="market-bar" id="marketStatus">
         <span class="dot-closed" id="statusDot"></span>
         <span id="statusText">数据加载中...</span>
-        <span class="stock-refresh-note" id="stockRefreshNote">📌 数据于每日收盘后更新</span>
+        <span class="stock-refresh-note" id="stockRefreshNote">📌 每小时更新一次</span>
       </div>
       <div class="stock-grid" id="stockGrid"></div>
       <div class="sector-prediction" id="sectorPrediction" style="display:none;"></div>
@@ -2725,7 +2725,13 @@ function updateMarketStatus() {
   const labels = { us: '美股', cn: 'A股', reco: 'AI荐股' };
   if (open) {
     dot.className = 'dot-live';
-    text.textContent = (labels[type] || '') + ' · 交易中 · 每小时更新一次';
+    if (lastStockUpdateTime) {
+      var h = lastStockUpdateTime.getHours().toString().padStart(2,'0');
+      var m = lastStockUpdateTime.getMinutes().toString().padStart(2,'0');
+      text.textContent = (labels[type] || '') + ' · 交易中 · 数据刷新于 ' + h + ':' + m;
+    } else {
+      text.textContent = (labels[type] || '') + ' · 交易中';
+    }
     if (note) note.style.display = 'block';
   } else {
     dot.className = 'dot-closed';
