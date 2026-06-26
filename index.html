@@ -41,27 +41,27 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
   background:rgba(242,242,247,0.98);
   border-bottom:1px solid var(--border);
   -webkit-text-size-adjust:none!important; text-size-adjust:none!important;
-  min-height:52px;
+  min-height:48px; overflow-x:auto; -webkit-overflow-scrolling:touch;
 }
 .topbar-inner {
   max-width:var(--max); margin:0 auto;
   display:flex; align-items:center; justify-content:space-between;
-  padding:7px 16px; min-height:52px; gap:8px;
-  width:100%; box-sizing:border-box;
+  padding:6px 12px; min-height:48px; gap:4px;
+  width:100%; box-sizing:border-box; min-width:0;
 }
-.brand { display:flex; align-items:center; gap:8px; font-weight:700; font-size:14px; letter-spacing:-0.01em; flex-shrink:0; }
-.brand-icon { width:26px; height:26px; border-radius:7px; object-fit:cover; flex-shrink:0; }
-.brand-text { display:flex; flex-direction:row; align-items:baseline; gap:6px; line-height:1.2; }
-.brand-name { font-size:14px; font-weight:700; color:var(--text); white-space:nowrap; }
+.brand { display:flex; align-items:center; gap:6px; font-weight:700; font-size:13px; letter-spacing:-0.01em; flex-shrink:0; }
+.brand-icon { width:24px; height:24px; border-radius:7px; object-fit:cover; flex-shrink:0; }
+.brand-text { display:flex; flex-direction:row; align-items:baseline; gap:5px; line-height:1.2; }
+.brand-name { font-size:13px; font-weight:700; color:var(--text); white-space:nowrap; }
 .brand-version { font-size:9px; font-weight:500; color:var(--text4); letter-spacing:0.02em; background:var(--surface2); padding:1px 5px; border-radius:3px; white-space:nowrap; flex-shrink:0; }
-.topbar-right { display:flex; align-items:center; gap:4px; flex-shrink:0; margin-left:auto; }
+.topbar-right { display:flex; align-items:center; gap:3px; flex-shrink:0; margin-left:auto; min-width:0; }
 .top-update { font-size:11px; color:var(--text3); white-space:nowrap; display:none; }
 .btn-refresh-top {
-  display:inline-flex; align-items:center; gap:3px;
-  height:28px; padding:0 8px; border-radius:14px;
+  display:inline-flex; align-items:center; gap:2px;
+  height:26px; padding:0 6px; border-radius:13px;
   border:1px solid var(--border);
   background:var(--surface); cursor:pointer;
-  font-size:11px; font-weight:600; color:var(--text2); letter-spacing:0.03em;
+  font-size:10px; font-weight:600; color:var(--text2); letter-spacing:0.03em;
   flex-shrink:0; transition:all 0.2s; white-space:nowrap;
 }
 .btn-refresh-top svg { flex-shrink:0; }
@@ -70,11 +70,11 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 
 /* 关怀版按钮 */
 .btn-care {
-  display:inline-flex; align-items:center; gap:3px;
-  height:28px; padding:0 8px; border-radius:14px;
+  display:inline-flex; align-items:center; gap:2px;
+  height:26px; padding:0 6px; border-radius:13px;
   border:1px solid var(--border);
   background:var(--surface); cursor:pointer;
-  font-size:11px; font-weight:600; color:var(--text2); letter-spacing:0.03em;
+  font-size:10px; font-weight:600; color:var(--text2); letter-spacing:0.03em;
   flex-shrink:0; transition:all 0.2s; white-space:nowrap;
 }
 .btn-care:hover { border-color:var(--orange); color:var(--orange); background:rgba(255,159,10,0.06); }
@@ -92,11 +92,11 @@ body.care-mode .news-item { padding:16px 0; }
 /* 顶部栏 — 全部锁死 */
 body.care-mode .topbar,
 body.care-mode .topbar * { -webkit-text-size-adjust:none!important; text-size-adjust:none!important; }
-body.care-mode .brand-name { font-size:14px!important; }
-body.care-mode .brand-version { font-size:9px!important; }
-body.care-mode .btn-refresh-top { font-size:11px!important; height:28px!important; padding:0 8px!important; }
-body.care-mode .btn-care { font-size:11px!important; height:28px!important; padding:0 8px!important; }
-body.care-mode .top-update { font-size:12px!important; }
+body.care-mode .brand-name { font-size:13px!important; max-height:none!important; }
+body.care-mode .brand-version { font-size:9px!important; max-height:none!important; }
+body.care-mode .btn-refresh-top { font-size:10px!important; height:26px!important; padding:0 6px!important; max-width:none!important; }
+body.care-mode .btn-care { font-size:10px!important; height:26px!important; padding:0 6px!important; max-width:none!important; }
+body.care-mode .top-update { font-size:11px!important; }
 
 /* 跑马灯 — 锁死 */
 body.care-mode #marqueeBar,
@@ -385,9 +385,15 @@ body.care-mode .news-time { font-size:12px!important; }
 
 .match-scroll {
   padding:6px 12px 12px; gap:4px;
-  max-height:420px; overflow-y:auto;
+  max-height:420px; overflow-y:auto; overflow-x:hidden;
   -webkit-overflow-scrolling:touch;
   scrollbar-width:thin; scrollbar-color:var(--border) var(--surface1);
+}
+/* 大字体下赛程卡片横向滚动 */
+@media (min-width:0) {
+  .match-scroll { overflow-x:auto; }
+  .match-list.match-scroll { display:flex; flex-direction:column; min-width:max-content; padding-left:12px; padding-right:12px; }
+  .match-item { min-width:280px; max-width:100%; box-sizing:border-box; }
 }
 
 /* ===== MATCH ===== */
@@ -519,13 +525,13 @@ body.care-mode .news-time { font-size:12px!important; }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width:600px) {
-  .topbar-inner { padding:6px 10px; gap:6px; }
-  .brand { font-size:13px; gap:5px; }
-  .brand-icon { width:24px; height:24px; }
-  .brand-name { font-size:13px; }
+  .topbar-inner { padding:5px 8px; gap:4px; min-height:44px; }
+  .brand { font-size:12px; gap:4px; }
+  .brand-icon { width:22px; height:22px; }
+  .brand-name { font-size:12px; }
   .brand-version { font-size:8px; padding:1px 4px; }
   .top-update { font-size:11px; display:none; }
-  .btn-refresh-top, .btn-care { height:26px; padding:0 7px; font-size:10px; gap:2px; }
+  .btn-refresh-top, .btn-care { height:24px; padding:0 6px; font-size:9px; gap:2px; }
   .hero { padding:6px 20px; }
   .tab-bar-inner { padding:8px 6px; gap:4px; }
   .main-tab { height:36px; font-size:12px; border-radius:18px; padding:0 4px; }
@@ -1463,13 +1469,35 @@ function renderGlobalClosing() {
     return;
   }
   wrap.style.display = 'block';
-  g.innerHTML = mockStockIndices.global.map(function(s) {
-    return '<div class="stock-card">'
-      + '<div class="stock-name">' + s.name + '</div>'
-      + '<div class="stock-value ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.value + '</div>'
-      + '<div class="stock-change ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.change + '</div>'
-      + '</div>';
-  }).join('');
+  // 尝试使用实时数据，失败则回退到静态数据
+  fetchGlobalStockData().then(function(realData) {
+    if (realData && realData.length > 0) {
+      g.innerHTML = realData.map(function(s) {
+        return '<div class="stock-card">'
+          + '<div class="stock-name">' + s.name + '</div>'
+          + '<div class="stock-value ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.value + '</div>'
+          + '<div class="stock-change ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.change + '</div>'
+          + '</div>';
+      }).join('');
+      return;
+    }
+    // 静态回退
+    g.innerHTML = mockStockIndices.global.map(function(s) {
+      return '<div class="stock-card">'
+        + '<div class="stock-name">' + s.name + '</div>'
+        + '<div class="stock-value ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.value + '</div>'
+        + '<div class="stock-change ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.change + '</div>'
+        + '</div>';
+    }).join('');
+  }).catch(function() {
+    g.innerHTML = mockStockIndices.global.map(function(s) {
+      return '<div class="stock-card">'
+        + '<div class="stock-name">' + s.name + '</div>'
+        + '<div class="stock-value ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.value + '</div>'
+        + '<div class="stock-change ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.change + '</div>'
+        + '</div>';
+    }).join('');
+  });
 }
 
 function renderStockNews(news) {
@@ -1495,6 +1523,7 @@ document.getElementById('stockSubTabs').addEventListener('click', function(e) {
   } else {
     renderStockIndices(mockStockIndices[type]);
     renderStockNews(mockStockNews);
+    renderGlobalClosing();
   }
   updateMarketStatus();
   refreshStockData().catch(() => {});
@@ -1751,46 +1780,123 @@ function updateMarketStatus() {
 /* ==================== STOCK REFRESH ==================== */
 async function refreshStockData() {
   try {
-    const activeTab = document.querySelector('#stockSubTabs .sub-tab.active');
-    const type = activeTab ? activeTab.dataset.stock : 'us';
+    var activeTab = document.querySelector('#stockSubTabs .sub-tab.active');
+    var type = activeTab ? activeTab.dataset.stock : 'us';
     if (type === 'reco') return;
-    const data = await fetchRealStockData(type);
+    var data = await fetchRealStockData(type);
     if (data && data.length > 0) {
       renderStockIndices(data);
     }
+    // 同时更新全球收盘数据
+    renderGlobalClosing();
   } catch(e) {}
 }
 
 async function fetchRealStockData(type) {
+  // A股使用新浪JSONP接口（避开CORS），美股/港股使用东方财富
+  if (type === 'cn') return await fetchCnStockDataJSONP();
+  if (type === 'global') return await fetchGlobalStockData();
+  // 美股：东方财富API
   const secIds = {
     us: '100.SPX,101.DJIA,100.NDX',
-    cn: '1.000001,0.399001,0.399006',
     global: '100.HSI,100.N225,100.UKX,100.GDAXI,100.KS11',
   };
   if (!secIds[type]) return null;
-  const url = `https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f2,f3,f4,f12,f14&secids=${secIds[type]}&_=${Date.now()}`;
   try {
+    const url = 'https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f2,f3,f4,f12,f14&secids=' + secIds[type] + '&_=' + Date.now();
     const resp = await fetch(url, { headers: { 'Referer': 'https://quote.eastmoney.com' } });
     const json = await resp.json();
     if (!json.data || !json.data.diff) return null;
     const nameMap = {
-      us: ['标普500', '道琼斯', '纳斯达克'], cn: ['上证指数', '深证成指', '创业板指'],
+      us: ['标普500', '道琼斯', '纳斯达克'],
       global: ['恒生指数', '日经225', '英国富时', '德国DAX', '韩国KOSPI']
     };
-    return json.data.diff.map((item, i) => ({
-      name: nameMap[type][i] || item.f14,
-      value: item.f2 ? parseFloat(item.f2).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '--',
-      change: (item.f3 >= 0 ? '+' : '') + (item.f3 || 0).toFixed(2) + '%',
-      direction: item.f3 >= 0 ? 'up' : 'down'
-    }));
+    return json.data.diff.map(function(item, i) {
+      return {
+        name: nameMap[type][i] || item.f14,
+        value: item.f2 ? parseFloat(item.f2).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '--',
+        change: (item.f3 >= 0 ? '+' : '') + (item.f3 || 0).toFixed(2) + '%',
+        direction: item.f3 >= 0 ? 'up' : 'down'
+      };
+    });
   } catch(e) { return null; }
 }
 
+// 新浪JSONP方式获取A股实时数据（避开CORS）
+function fetchCnStockDataJSONP() {
+  return new Promise(function(resolve) {
+    var symbols = 's_sh000001,s_sz399001,s_sz399006,s_sh000300';
+    var scriptId = '_sina_stock_script';
+    var old = document.getElementById(scriptId);
+    if (old) old.remove();
+
+    var script = document.createElement('script');
+    script.id = scriptId;
+    script.src = 'https://hq.sinajs.cn/list=' + symbols;
+    script.onload = function() {
+      try {
+        var result = [];
+        var mappings = [
+          { key: 'hq_str_s_sh000001', name: '上证指数' },
+          { key: 'hq_str_s_sz399001', name: '深证成指' },
+          { key: 'hq_str_s_sz399006', name: '创业板指' },
+          { key: 'hq_str_s_sh000300', name: '沪深300' }
+        ];
+        for (var i = 0; i < mappings.length; i++) {
+          var raw = window[mappings[i].key];
+          if (raw) {
+            var p = raw.split(',');
+            if (p.length >= 4) {
+              var chg = parseFloat(p[3]);
+              result.push({
+                name: mappings[i].name,
+                value: parseFloat(p[1]).toFixed(2),
+                change: (chg >= 0 ? '+' : '') + chg.toFixed(2) + '%',
+                direction: chg >= 0 ? 'up' : 'down'
+              });
+            }
+          }
+        }
+        resolve(result);
+      } catch(e) { resolve(null); }
+      finally { if (script.parentNode) script.remove(); }
+    };
+    script.onerror = function() { resolve(null); };
+    document.head.appendChild(script);
+  });
+}
+
+// 港股+全球市场（东方财富）
+async function fetchGlobalStockData() {
+  try {
+    var url = 'https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f2,f3,f4,f12,f14&secids=100.HSI,100.N225,100.UKX,100.GDAXI,100.KS11,100.SENSEX&_=' + Date.now();
+    var resp = await fetch(url, { headers: { 'Referer': 'https://quote.eastmoney.com' } });
+    var json = await resp.json();
+    if (!json.data || !json.data.diff) return null;
+    var gnames = ['恒生指数','日经225','英国富时','德国DAX','韩国KOSPI','印度SENSEX'];
+    return json.data.diff.map(function(item, i) {
+      return {
+        name: gnames[i] || item.f14,
+        value: item.f2 ? parseFloat(item.f2).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}) : '--',
+        change: (item.f3>=0?'+':'')+(item.f3||0).toFixed(2)+'%',
+        direction: item.f3>=0?'up':'down'
+      };
+    });
+  } catch(e){ return null; }
+}
+
 function scheduleStockRefresh() {
-  setInterval(() => {
-    if (isMarketOpen('cn') || isMarketOpen('us')) refreshStockData();
-  }, 3600000);
-  if (isMarketOpen('cn') || isMarketOpen('us')) refreshStockData();
+  // 每3分钟自动刷新（交易时间内）
+  setInterval(function() {
+    if (isMarketOpen('cn') || isMarketOpen('us')) {
+      refreshStockData().catch(function(){});
+      fetchMarqueeStockData();
+    }
+  }, 180000);
+  // 首次立即刷新
+  if (isMarketOpen('cn') || isMarketOpen('us')) {
+    refreshStockData().catch(function(){});
+  }
 }
 
 /* ==================== SUBSCRIBE MATCH ==================== */
