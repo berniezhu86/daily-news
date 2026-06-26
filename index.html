@@ -33,19 +33,20 @@
   --tab-h: 56px;
 }
 *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
-html { font-size:16px; -webkit-text-size-adjust:100%; text-size-adjust:100%; touch-action:manipulation; -ms-touch-action:manipulation; overflow-x:hidden; }
-body { font-family:var(--font); background:var(--bg); color:var(--text1); -webkit-font-smoothing:antialiased; min-height:100vh; overflow-x:hidden; font-size:16px; }
+html { font-size:16px; -webkit-text-size-adjust:none!important; text-size-adjust:none!important; touch-action:manipulation; -ms-touch-action:manipulation; overflow-x:hidden; }
+body { font-family:var(--font); background:var(--bg); color:var(--text1); -webkit-font-smoothing:antialiased; min-height:100vh; overflow-x:hidden; font-size:16px; -webkit-text-size-adjust:none!important; text-size-adjust:none!important; }
 
 /* ===== TOP BAR ===== */
 .topbar {
   background:rgba(242,242,247,0.98);
   border-bottom:1px solid var(--border);
-  -webkit-text-size-adjust:none; text-size-adjust:none;
+  -webkit-text-size-adjust:none!important; text-size-adjust:none!important;
+  overflow:hidden; min-height:56px;
 }
 .topbar-inner {
   max-width:var(--max); margin:0 auto;
   display:flex; align-items:center; justify-content:space-between;
-  padding:0 20px; height:52px; gap:12px;
+  padding:8px 20px; min-height:56px; gap:12px;
 }
 .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:15px; letter-spacing:-0.01em; flex-shrink:0; }
 .brand-icon { width:28px; height:28px; border-radius:7px; object-fit:cover; flex-shrink:0; }
@@ -609,7 +610,7 @@ body.care-mode .news-time { font-size:12px!important; }
 </header>
 
 <!-- 跑马灯 -->
-<div id="marqueeBar" style="background:linear-gradient(160deg,#1c1c2e 0%,#16213e 55%,#0f3460 100%);padding:10px 20px;position:relative;z-index:50;-webkit-text-size-adjust:none;text-size-adjust:none;">
+<div id="marqueeBar" style="background:linear-gradient(160deg,#1c1c2e 0%,#16213e 55%,#0f3460 100%);padding:8px 20px;position:relative;z-index:50;-webkit-text-size-adjust:none!important;text-size-adjust:none!important;overflow:hidden;min-height:40px;">
   <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:12px;">
     <span id="marqueeLabel" style="background:linear-gradient(135deg,#0a84ff,#0d47a1);color:#fff;font-size:11px;font-weight:700;padding:4px 12px;border-radius:0 10px 10px 0;flex-shrink:0;letter-spacing:0.04em;white-space:nowrap;">快讯</span>
     <div style="flex:1;overflow:hidden;min-height:24px;line-height:24px;position:relative;">
