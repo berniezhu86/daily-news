@@ -115,7 +115,8 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
   flex-shrink:0; transition:all 0.2s; white-space:nowrap;
 }
 .btn-care:hover { border-color:var(--orange); color:var(--orange); background:rgba(255,159,10,0.06); }
-.btn-care.active { border-color:var(--orange); color:var(--orange); background:linear-gradient(135deg,rgba(255,159,10,0.12),rgba(255,69,58,0.06)); }
+.btn-care.active { border-color:var(--orange) !important; color:var(--orange) !important; background:linear-gradient(135deg,rgba(255,159,10,0.12),rgba(255,69,58,0.06)) !important; }
+.btn-care:not(.active) { border-color:var(--border) !important; color:var(--text2) !important; background:var(--surface) !important; }
 .btn-care svg { flex-shrink:0; }
 
 /* ===== 关怀版：只放大新闻正文，其他固定UI元素强制锁死字体大小 ===== */
@@ -531,7 +532,7 @@ body.care-mode .news-time { font-size:12px!important; }
 .sub-modal-overlay.show .sub-modal { transform:scale(1) translateY(0); }
 .sub-modal-icon { font-size:48px; line-height:1; margin-bottom:12px; display:block; }
 .sub-modal-title { font-size:19px; font-weight:800; color:var(--text); margin-bottom:8px; }
-.sub-modal-desc { font-size:14px; color:var(--text3); line-height:1.6; margin-bottom:20px; padding:0 4px; }
+.sub-modal-desc { font-size:14px; color:var(--text2); line-height:1.65; margin-bottom:20px; padding:0 4px; }
 .sub-modal-btn {
   display:inline-flex; align-items:center; gap:6px;
   padding:11px 36px; border-radius:24px; border:none;
@@ -3278,8 +3279,13 @@ function toggleCareMode() {
   if (btn) {
     if (isCare) {
       btn.classList.add('active');
+      btn.style.borderColor = '';
+      btn.style.color = '';
+      btn.style.background = '';
     } else {
       btn.classList.remove('active');
+      // 强制重置为默认样式，避免残留
+      btn.style.cssText = '';
     }
     btn.title = isCare ? '关怀版已开启，点击恢复标准版' : '关怀版：大字体';
   }
