@@ -541,6 +541,33 @@ body.care-mode .news-time { font-size:12px!important; }
   .main-tab { font-size:15px; padding:0 16px; }
   .sub-tab { font-size:13px; padding:6px 16px; }
 }
+/* 品牌区域美化 */
+.brand-text {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 8px;
+  line-height: 1;
+}
+.brand-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+.brand-version {
+  font-size: 9px;
+  font-weight: 500;
+  color: var(--text4);
+  letter-spacing: 0.02em;
+  background: var(--surface2);
+  padding: 1px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+body.care-mode .brand-text { flex-direction: row !important; gap: 6px; }
+body.care-mode .brand-name { font-size: 15px !important; }
+body.care-mode .brand-version { font-size: 9px !important; padding: 1px 5px; }
 </style>
 </head>
 <body>
@@ -577,6 +604,7 @@ body.care-mode .news-time { font-size:12px!important; }
     </div>
   </div>
 </header>
+
 
 <!-- 跑马灯 -->
 <div id="marqueeBar" style="background:linear-gradient(160deg,#1c1c2e 0%,#16213e 55%,#0f3460 100%);padding:8px 20px;position:relative;z-index:50;-webkit-text-size-adjust:none!important;text-size-adjust:none!important;overflow:hidden;min-height:40px;">
@@ -1984,7 +2012,7 @@ document.getElementById('mainTabBar').addEventListener('click', function(e) {
   if (page) page.classList.add('active');
 });
 
-const marqueeHeadlines = [
+var marqueeHeadlines = [
   '🇨🇳 A股：上证指数 3386.41 ▲0.38% · 深证成指 10892.35 ▲0.72% · 创业板指 2189.66 ▲1.15%',
   '🇭🇰 港股：恒生指数 24185.32 ▼0.42% · 恒生科技 ▼0.88% · 南向资金净流出18.6亿港元',
   '🇺🇸 美股昨夜：道指 42583.47 ▲0.12% · 纳指 19691.61 ▲0.02% · 标普500 6126.32 ▼0.08%',
@@ -2059,6 +2087,17 @@ function renderMarquee() {
   const track = document.getElementById('marqueeTrack');
   const label = document.getElementById('marqueeLabel');
   if (!track) { console.warn('marqueeTrack not found'); return; }
+
+  // 确保日期前缀已初始化（updateDateDisplay 在 IIFE 中定义，INIT 时可能尚未执行）
+  if (!window.marqueeDatePrefix && typeof updateDateDisplay === 'function') {
+    try { updateDateDisplay(); } catch(e) { /* 忽略，降级处理 */ }
+  }
+  // 降级：如仍为空，使用简易日期
+  if (!window.marqueeDatePrefix) {
+    var now=new Date(), y=now.getFullYear(), m=now.getMonth()+1, d=now.getDate();
+    var wd=['日','一','二','三','四','五','六'][now.getDay()];
+    window.marqueeDatePrefix = '📅 ' + y+'年'+m+'月'+d+'日 · 周'+wd + '　　';
+  }
 
   // 检查今天是否有河南队比赛
   // 🔧 TEST MODE: 6月27日实际无比赛数据？设为 false 恢复正常模式
@@ -2148,11 +2187,90 @@ function toggleCareMode() {
   }
 })();
 
+/* ==================== 跑马灯实时数据刷新 ==================== */
+var _marqueeRealtimeTimer = null;
+
+function fetchMarqueeStockData() {
+  // 新浪财经实时行情接口（A股指数）
+  // 返回格式：var hq_str_s_sh000001="上证指数,3386.41,12.34,0.37";
+  var url = 'https://hq.sinajs.cn/list=s_sh000001,s_sz399001,s_sz399006,s_sh000300';
+  fetch(url, { mode: 'cors' })
+    .then(function(r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.text();
+    })
+    .then(function(text) {
+      var headlines = [];
+      // 解析上证指数
+      var m1 = text.match(/hq_str_s_sh000001="([^"]+)"/);
+      if (m1) {
+        var p = m1[1].split(',');
+        if (p.length >= 4) {
+          var arrow = parseFloat(p[2]) >= 0 ? '▲' : '▼';
+          headlines.push('📈 上证指数 ' + p[1] + ' ' + arrow + parseFloat(p[3]).toFixed(2) + '%');
+        }
+      }
+      // 解析深证成指
+      var m2 = text.match(/hq_str_s_sz399001="([^"]+)"/);
+      if (m2) {
+        var p = m2[1].split(',');
+        if (p.length >= 4) {
+          var arrow = parseFloat(p[2]) >= 0 ? '▲' : '▼';
+          headlines.push('📈 深证成指 ' + p[1] + ' ' + arrow + parseFloat(p[3]).toFixed(2) + '%');
+        }
+      }
+      // 解析创业板指
+      var m3 = text.match(/hq_str_s_sz399006="([^"]+)"/);
+      if (m3) {
+        var p = m3[1].split(',');
+        if (p.length >= 4) {
+          var arrow = parseFloat(p[2]) >= 0 ? '▲' : '▼';
+          headlines.push('📈 创业板指 ' + p[1] + ' ' + arrow + parseFloat(p[3]).toFixed(2) + '%');
+        }
+      }
+      // 解析沪深300
+      var m4 = text.match(/hq_str_s_sh000300="([^"]+)"/);
+      if (m4) {
+        var p = m4[1].split(',');
+        if (p.length >= 4) {
+          var arrow = parseFloat(p[2]) >= 0 ? '▲' : '▼';
+          headlines.push('📈 沪深300 ' + p[1] + ' ' + arrow + parseFloat(p[3]).toFixed(2) + '%');
+        }
+      }
+
+      if (headlines.length > 0) {
+        // 保留非股票类快讯，替换股票类
+        var nonStock = [];
+        for (var i = 0; i < marqueeHeadlines.length; i++) {
+          if (marqueeHeadlines[i].indexOf('📈') !== 0 && marqueeHeadlines[i].indexOf('📉') !== 0) {
+            nonStock.push(marqueeHeadlines[i]);
+          }
+        }
+        marqueeHeadlines = headlines.concat(nonStock);
+        console.log('✅ 跑马灯股票数据已更新', headlines);
+        renderMarquee();
+      }
+    })
+    .catch(function(err) {
+      console.warn('跑马灯股票数据获取失败（可能是 CORS 限制），保留静态数据', err.message);
+    });
+}
+
+function startMarqueeRealtime() {
+  fetchMarqueeStockData();
+  if (_marqueeRealtimeTimer) clearInterval(_marqueeRealtimeTimer);
+  // 每2分钟刷新一次
+  _marqueeRealtimeTimer = setInterval(fetchMarqueeStockData, 2 * 60 * 1000);
+}
+
 /* ==================== INIT ==================== */
-// ★ 先更新日期，再渲染跑马灯（日期信息在跑马灯内显示）
-updateDateDisplay();
+// 注意：updateDateDisplay() 在下方 DATE & LUNAR IIFE 中定义并调用，
+// 此处无需重复调用，避免执行顺序问题
 // ★ 跑马灯最先渲染（不受后续 loadAllData 异常影响）
+// renderMarquee 内部会自动初始化日期前缀（如尚未初始化）
 renderMarquee();
+// 启动跑马灯实时数据刷新（股市行情 + 重大新闻）
+startMarqueeRealtime();
 // 兜底：确保即使上述渲染因某种原因失败，1秒后重试
 setTimeout(function() {
   var track = document.getElementById('marqueeTrack');
