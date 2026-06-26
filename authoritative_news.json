@@ -1,8 +1,22 @@
 {
-  "updated": "2026-06-26T22:22:01.409207+08:00",
-  "updated_display": "06月26日 22:22",
-  "count": 13,
+  "updated": "2026-06-27T00:18:44.818+08:00",
+  "updated_display": "06月27日 00:18",
+  "count": 17,
   "news": [
+    {
+      "title": "国防部：福建舰航经台湾海峡今后还会继续组织",
+      "url": "http://www.mod.gov.cn/gfbw/sy/tt_214026/16469689.html",
+      "source": "国防部",
+      "date": "2026-06-25",
+      "summary": "6月25日国防部例行记者会：新闻发言人张晓刚回应福建舰航经台湾海峡表示今后还会继续组织，并就日方炒作中国国防开支、美日军演等答记者问"
+    },
+    {
+      "title": "外交部：中方将向委内瑞拉提供紧急人道主义援助",
+      "url": "https://www.mfa.gov.cn/fyrbt_673021/202606/t20260626_11953047.shtml",
+      "source": "外交部",
+      "date": "2026-06-26",
+      "summary": "6月26日外交部发言人郭嘉昆主持例行记者会：委内瑞拉地震已确认2名中国公民遇难，中国政府和红十字会将分别向委提供紧急人道主义援助"
+    },
     {
       "title": "习近平会见柬埔寨人民党主席、参议院主席洪森",
       "url": "https://www.news.cn/politics/leaders/20260626/2bcaf47e757a44039df241bcab9373a9/c.html",
@@ -12,6 +26,12 @@
     {
       "title": "习近平会见孟加拉国总理塔里克",
       "url": "https://www.news.cn/politics/leaders/20260626/36ec9d5327b944ac8907b125ec4e4b96/c.html",
+      "source": "新华社",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "习近平总书记关切事｜碱滩生沃野",
+      "url": "https://www.news.cn/politics/leaders/20260626/55aca915e6ee4a7a97b418e1bd90cb10/c.html",
       "source": "新华社",
       "date": "2026-06-26"
     },
@@ -40,26 +60,20 @@
       "date": "2026-06-26"
     },
     {
-      "title": "国新办发布会聚焦“十五五”加快新型能源体系建设",
-      "url": "https://www.news.cn/politics/20260626/11ac8b742c744e01a70fa3ac22950c56/c.html",
+      "title": "丁薛祥在新疆调研：突出优势特色培育壮大新动能",
+      "url": "https://www.news.cn/politics/leaders/20260626/71df73cecb0046c6a6b0d4b2736750d8/c.html",
+      "source": "新华社",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "新华社国家高端智库发布“购在中国”报告",
+      "url": "https://www.news.cn/20260626/0a065fe322c7483d8e0462a010e96aa0/c.html",
       "source": "新华社",
       "date": "2026-06-26"
     },
     {
       "title": "中方将向委内瑞拉提供紧急人道主义援助",
       "url": "https://www.news.cn/world/20260626/6ae9909a525e4931a7fff72acbc9e9d1/c.html",
-      "source": "新华社",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "外交部：希望日本为政者倾听正视日本经济界声音",
-      "url": "https://www.news.cn/world/20260626/bf9cb1cad0d24cbbaf3ed238561999dc/c.html",
-      "source": "新华社",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "谌贻琴向上海合作组织妇女论坛开幕式发表视频致辞",
-      "url": "https://www.news.cn/world/20260626/cdf7d790948f49f784b4d7b62d125d17/c.html",
       "source": "新华社",
       "date": "2026-06-26"
     },
@@ -72,6 +86,18 @@
     {
       "title": "习近平就委内瑞拉发生强烈地震向罗德里格斯致慰问电",
       "url": "http://politics.people.com.cn/n1/2026/0626/c1024-40748451.html",
+      "source": "人民日报",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "丁薛祥在新疆调研:突出优势特色培育壮大新动能",
+      "url": "http://politics.people.com.cn/n1/2026/0626/c1024-40748510.html",
+      "source": "人民日报",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "王毅会见柬埔寨副首相兼外交大臣布拉索昆和副首相孙占托",
+      "url": "http://politics.people.com.cn/n1/2026/0626/c1001-40748523.html",
       "source": "人民日报",
       "date": "2026-06-26"
     },
