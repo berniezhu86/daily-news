@@ -772,7 +772,7 @@ body.care-mode .exclusive-news-summary { font-size:14px!important; }
 .theme-default { background:linear-gradient(135deg,#f2f2f7 0%,#e5e5ea 100%); }
 .theme-dark-option { background:linear-gradient(135deg,#2c2c2e 0%,#1c1c1e 100%); }
 .theme-glass-option {
-  background:linear-gradient(135deg,#e8eaf0 0%,#d0d5e8 50%,#c8d0e8 100%);
+  background:linear-gradient(135deg,#f0f1f5 0%,#e8e9ef 50%,#e2e4ec 100%);
   position:relative;
 }
 .theme-glass-option::before {
@@ -812,13 +812,13 @@ body.theme-glass {
   --shadow-xs: 0 1px 4px rgba(0,0,0,0.03);
   --shadow-sm: 0 2px 12px rgba(0,0,0,0.04);
   --shadow-md: 0 4px 24px rgba(0,0,0,0.05);
-  background: linear-gradient(180deg, #e8ecf4 0%, #dde6f5 30%, #e2e9f7 60%, #eceef6 100%) fixed;
+  background: linear-gradient(180deg, #f0f1f5 0%, #ebebf0 40%, #f2f2f7 100%) fixed;
 }
 body.theme-glass::before {
   content:""; position:fixed; inset:0;
   background:
-    radial-gradient(ellipse 70% 50% at 15% 15%, rgba(170,185,235,0.28) 0%, transparent 75%),
-    radial-gradient(ellipse 50% 60% at 85% 80%, rgba(190,205,245,0.22) 0%, transparent 75%);
+    radial-gradient(ellipse 60% 45% at 12% 12%, rgba(200,200,210,0.20) 0%, transparent 75%),
+    radial-gradient(ellipse 50% 55% at 88% 78%, rgba(210,208,220,0.16) 0%, transparent 75%);
   pointer-events:none; z-index:-1;
 }
 /* 毛玻璃：顶部栏 */
@@ -975,6 +975,7 @@ body.theme-dark {
   --shadow-md: 0 4px 24px rgba(0,0,0,0.6);
   background:#1c1c1e;
 }
+html.theme-dark { background:#1c1c1e; }
 body.theme-dark .topbar {
   background:rgba(28,28,30,0.92);
   backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
@@ -998,14 +999,14 @@ body.theme-dark .news-item {
   border-bottom-color:rgba(255,255,255,0.06);
 }
 body.theme-dark .bottom-nav-wrapper {
-  background:linear-gradient(180deg, transparent 0%, rgba(28,28,30,0.9) 30%);
+  background:linear-gradient(180deg, transparent 0%, #1c1c1e 30%);
 }
 body.theme-dark .bottom-nav {
   background:rgba(44,44,46,0.88);
   backdrop-filter:blur(28px) saturate(180%);
   -webkit-backdrop-filter:blur(28px) saturate(180%);
   border:1px solid rgba(255,255,255,0.08);
-  box-shadow:0 -1px 0 rgba(255,255,255,0.04), 0 -12px 40px rgba(0,0,0,0.5);
+  box-shadow:0 -1px 0 rgba(0,0,0,0.3), 0 -12px 40px rgba(0,0,0,0.5);
 }
 body.theme-dark .main-tab {
   color:var(--text3);
@@ -3157,6 +3158,7 @@ function setTheme(theme) {
   document.getElementById('themeDefault').classList.toggle('active', theme === 'default');
   document.getElementById('themeGlass').classList.toggle('active', theme === 'glass');
   document.getElementById('themeDark').classList.toggle('active', theme === 'dark');
+  document.documentElement.classList.toggle('theme-dark', theme === 'dark');
   document.body.classList.toggle('theme-glass', theme === 'glass');
   document.body.classList.toggle('theme-dark', theme === 'dark');
   localStorage.setItem(THEME_KEY, theme);
@@ -3193,6 +3195,7 @@ function toggleExclusiveNotify() {
   if (theme === 'glass') {
     document.body.classList.add('theme-glass');
   } else if (theme === 'dark') {
+    document.documentElement.classList.add('theme-dark');
     document.body.classList.add('theme-dark');
   }
 })();
