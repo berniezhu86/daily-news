@@ -1,35 +1,53 @@
 {
-  "updated": "2026-06-26T08:56:59.125121+08:00",
-  "updated_display": "06月26日 08:56",
-  "count": 19,
+  "updated": "2026-06-26T10:47:35.810566+08:00",
+  "updated_display": "06月26日 10:47",
+  "count": 15,
   "news": [
     {
-      "title": "委请求国际社会派专业救援力量",
+      "title": "习近平会见孟加拉国总理塔里克",
+      "url": "https://www.news.cn/politics/leaders/20260626/05408ed2d0d141b6afd7d2564decfdbc/c.html",
+      "source": "新华社",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "6月26日，国家主席习近平在北京会见孟加拉国总理塔里克",
+      "url": "https://www.news.cn/politics/leaders/20260626/05408ed2d0d141b6afd7d2564decfdbc/c.html",
+      "source": "新华社",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "孟加拉国总理塔里克向人民英雄纪念碑敬献花圈",
+      "url": "https://www.news.cn/world/20260626/8455569a32d4414c98419673979e6808/c.html",
+      "source": "新华社",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "国际禁毒日丨这些不是药，是毒品",
+      "url": "https://www.news.cn/legal/20260626/d099495b84fe43bbb9f69dfd8e386bac/c.html",
+      "source": "新华社",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "两部门就养老服务师职业资格制度出台暂行规定",
+      "url": "https://www.news.cn/politics/20260626/e036f6db014447a2a48fb5693ec94b8d/c.html",
+      "source": "新华社",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "中国移动联合产业伙伴发布通信智能体协同开源项目OpenAN",
+      "url": "https://www.news.cn/info/20260626/4a99523b493c415a800955f0db271e56/c.html",
+      "source": "新华社",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "委请求国际社会派遣专业救援力量",
       "url": "https://www.news.cn/world/20260626/098104bf254c40d1bbe0fdb888862b8b/c.html",
       "source": "新华社",
       "date": "2026-06-26"
     },
     {
-      "title": "美最高法院裁决支持特朗普强硬移民政策",
-      "url": "https://www.news.cn/world/20260626/daae4bbf270f4b9f9b501a4fc9356542/c.html",
-      "source": "新华社",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "“在党的领导下把家园建设得越来越美”——习近平总书记在山东德州考察纪实",
-      "url": "https://www.news.cn/politics/leaders/20260625/e136ed2557b04e26b5a2d0a94bd266f4/c.html",
-      "source": "新华社",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "学习进行时丨感悟总书记的“三农情怀”",
+      "title": "感悟总书记的“三农情怀”",
       "url": "https://www.news.cn/politics/xxjxs/20260625/c005d90878324e71b4002df6ea4b8e0d/c.html",
-      "source": "新华社",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "循着总书记的脚步，走进六月的田野",
-      "url": "https://www.news.cn/politics/leaders/20260625/9e9edaf6034c422da44c4309061f4857/c.html",
       "source": "新华社",
       "date": "2026-06-25"
     },
@@ -46,50 +64,14 @@
       "date": "2026-06-25"
     },
     {
-      "title": "李强同孟加拉国总理塔里克会谈",
-      "url": "https://www.news.cn/politics/leaders/20260625/6cb62d70742f4c2eae949b066651514b/c.html",
-      "source": "新华社",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "十四届全国人大常委会举行第六十九次委员长会议 赵乐际主持",
-      "url": "https://www.news.cn/politics/leaders/20260625/4a71c94b1a584c3f8c21b5e83b874cc9/c.html",
-      "source": "新华社",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "丁薛祥出席第九届中国－亚欧博览会开幕式并会见与会外国政要",
-      "url": "https://www.news.cn/politics/leaders/20260625/105f224490544c66af3ce1397dfaad5b/c.html",
-      "source": "新华社",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "习近平总书记山东德州考察重要讲话激励广大干部群众坚定信心、实干笃行",
-      "url": "http://politics.people.com.cn/n1/2026/0626/c461001-40747658.html",
+      "title": "跟总书记看一块土地“三本账”",
+      "url": "http://politics.people.com.cn/n1/2026/0626/c461001-40748109.html",
       "source": "人民日报",
       "date": "2026-06-26"
     },
     {
-      "title": "跟随总书记到田间地头,看农业农村现代化新画卷",
-      "url": "http://politics.people.com.cn/n1/2026/0625/c461001-40747637.html",
-      "source": "人民日报",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "一见·粮食“饭碗”，总书记为何始终牵挂",
-      "url": "http://politics.people.com.cn/n1/2026/0625/c461001-40746928.html",
-      "source": "人民日报",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "赵乐际主持十四届全国人大常委会第六十九次委员长会议",
-      "url": "http://politics.people.com.cn/n1/2026/0626/c1024-40747661.html",
-      "source": "人民日报",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "丁薛祥出席第九届中国－亚欧博览会开幕式",
-      "url": "http://politics.people.com.cn/n1/2026/0626/c1024-40747662.html",
+      "title": "“三夏”时节，总书记田间地头话农桑",
+      "url": "http://politics.people.com.cn/n1/2026/0626/c461001-40748079.html",
       "source": "人民日报",
       "date": "2026-06-26"
     },
@@ -100,22 +82,16 @@
       "date": "2026-06-26"
     },
     {
-      "title": "中国气象学家许健民获国际气象组织奖",
-      "url": "https://world.people.com.cn/n1/2026/0625/c1002-40747010.html",
+      "title": "仲夏的滨城大连，海风和煦，繁花缀岸。2026世界经济论坛第十七届新领军者年会在这里如期举办。大连国际会议中心，成为全球90多个国家和地区的1700余位政商学界领军人物与行业精英的汇聚地，他们在这里的每一次握手、每一场讨论、每一阵掌声，都在酝酿辽宁对接未来产业的全新机遇……",
+      "url": "http://ln.people.com.cn/n2/2026/0625/c378489-41620825.html",
       "source": "人民日报",
       "date": "2026-06-25"
     },
     {
-      "title": "第九届中国—亚欧博览会开幕",
-      "url": "http://xj.people.com.cn/n2/2026/0625/c186332-41620788.html",
+      "title": "“跟着总书记学党史数据库”正式上线",
+      "url": "http://cpc.people.com.cn/n1/2022/0720/c64387-32480412.html",
       "source": "人民日报",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "25日，以“丝路新机遇 亚欧新活力”为主题的第九届中国—亚欧博览会在乌鲁木齐开幕。本届博览会辐射范围与参与热度再创新高。49个国家和地区、国际组织参加，27个国家和地区参展并独立设馆，阿联酋、韩国、俄罗斯、泰国首次设馆。国内31个省区市、新疆生产建设兵团及新疆14个地州市的企业报名参展，24个省区市与港澳地区设立投资合作展区。3000余家境内外企业和机构参展。",
-      "url": "http://xj.people.com.cn/n2/2026/0625/c186332-41620788.html",
-      "source": "人民日报",
-      "date": "2026-06-25"
+      "date": "2022-07-20"
     }
   ]
 }
