@@ -568,35 +568,68 @@ body.care-mode .news-time { font-size:12px!important; }
   .sub-tab { font-size:13px; padding:6px 16px; }
 }
 
-/* ===== BOTTOM NAV ===== */
-.bottom-nav {
+/* ===== BOTTOM NAV — Floating Glass Capsule ===== */
+.bottom-nav-wrapper {
   position:fixed; bottom:0; left:0; right:0; z-index:1000;
-  background:rgba(249,249,252,0.94);
-  backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
-  border-top:1px solid var(--border);
+  pointer-events:none; padding:0 12px;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+.bottom-nav {
+  pointer-events:auto;
+  background:rgba(249,249,252,0.88);
+  backdrop-filter:blur(28px) saturate(180%);
+  -webkit-backdrop-filter:blur(28px) saturate(180%);
+  border:1px solid rgba(0,0,0,0.06);
+  box-shadow:0 -1px 0 rgba(0,0,0,0.04), 0 -8px 32px rgba(0,0,0,0.06);
   display:flex; align-items:center; justify-content:space-around;
-  padding:4px 0 calc(4px + env(safe-area-inset-bottom));
+  padding:6px 4px 4px;
+  margin:8px 4px;
+  border-radius:20px;
   -webkit-tap-highlight-color:transparent;
   -webkit-text-size-adjust:none; text-size-adjust:none;
+  transition:none;
 }
 .bottom-nav-btn {
-  flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
-  gap:2px; padding:6px 4px 4px; border:none; background:none; cursor:pointer;
-  color:var(--text3); font-size:10px; font-weight:500; transition:all 0.18s;
+  flex:1; min-width:0;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:1px; padding:5px 8px 5px; border:none; background:none; cursor:pointer;
+  color:var(--text3); font-size:10px; font-weight:500;
+  transition:none;
   -webkit-tap-highlight-color:transparent;
+  border-radius:14px; position:relative;
 }
-.bottom-nav-btn .bn-icon { font-size:20px; line-height:1; transition:all 0.18s; }
+.bottom-nav-btn .bn-icon {
+  display:flex; align-items:center; justify-content:center;
+  width:28px; height:28px; transition:none;
+}
+.bottom-nav-btn .bn-icon svg {
+  width:22px; height:22px; transition:none;
+  stroke:var(--text3); stroke-width:1.6; fill:none; stroke-linecap:round; stroke-linejoin:round;
+}
 .bottom-nav-btn.active { color:var(--blue); font-weight:600; }
-.bottom-nav-btn.active .bn-icon { transform:scale(1.1); }
-.bottom-nav-btn:active:not(.active) { opacity:0.6; }
+.bottom-nav-btn.active .bn-icon svg { stroke:var(--blue); }
+.bottom-nav-btn.active::before {
+  content:''; position:absolute; inset:2px 6px; border-radius:12px;
+  background:rgba(10,132,255,0.1);
+  z-index:-1;
+}
+.bottom-nav-btn .badge-dot {
+  position:absolute; top:2px; right:50%; margin-right:-16px;
+  width:6px; height:6px; border-radius:50%;
+  background:var(--red);
+  display:none;
+}
+.bottom-nav-btn .badge-dot.show { display:block; }
 /* 关怀版 */
-body.care-mode .bottom-nav { padding:4px 0 calc(4px + env(safe-area-inset-bottom))!important; }
-body.care-mode .bottom-nav-btn { font-size:12px!important; }
-body.care-mode .bottom-nav-btn .bn-icon { font-size:22px!important; }
+body.care-mode .bottom-nav-wrapper { padding:0 8px; }
+body.care-mode .bottom-nav { padding:8px 6px 6px; border-radius:24px; margin:6px 2px; }
+body.care-mode .bottom-nav-btn { font-size:12px!important; padding:6px 8px 6px; border-radius:16px; }
+body.care-mode .bottom-nav-btn .bn-icon { width:32px; height:32px; }
+body.care-mode .bottom-nav-btn .bn-icon svg { width:26px; height:26px; }
 
 /* Bottom nav spacing — push page-body up */
-.page-body.has-bottom-nav { padding-bottom:90px; }
-body.care-mode .page-body.has-bottom-nav { padding-bottom:100px; }
+.page-body.has-bottom-nav { padding-bottom:110px; }
+body.care-mode .page-body.has-bottom-nav { padding-bottom:120px; }
 
 /* ===== 专属页 ===== */
 .exclusive-hero {
@@ -758,9 +791,11 @@ body.theme-glass .card {
   box-shadow:0 2px 16px rgba(0,0,0,0.04);
 }
 body.theme-glass .bottom-nav {
-  background:rgba(255,255,255,0.5);
-  backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
-  border-top:1px solid rgba(0,0,0,0.05);
+  background:rgba(255,255,255,0.55);
+  backdrop-filter:blur(36px) saturate(200%);
+  -webkit-backdrop-filter:blur(36px) saturate(200%);
+  border:1px solid rgba(255,255,255,0.5);
+  box-shadow:0 -1px 0 rgba(255,255,255,0.3), 0 -12px 40px rgba(0,0,0,0.08);
 }
 body.theme-glass .main-tab.active {
   background:rgba(10,132,255,0.12);
@@ -1073,20 +1108,25 @@ body.theme-glass .settings-card {
 </div>
 
 <!-- Bottom Navigation -->
+<div class="bottom-nav-wrapper">
 <nav class="bottom-nav" id="bottomNav">
   <button class="bottom-nav-btn active" data-page="home" id="bnHome">
-    <span class="bn-icon">🏠</span>
+    <span class="bn-icon"><svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V9.5z"/></svg></span>
     <span>首页</span>
+    <span class="badge-dot" id="badgeHome"></span>
   </button>
   <button class="bottom-nav-btn" data-page="exclusive" id="bnExclusive">
-    <span class="bn-icon">⭐</span>
+    <span class="bn-icon"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg></span>
     <span>专属</span>
+    <span class="badge-dot" id="badgeExclusive"></span>
   </button>
   <button class="bottom-nav-btn" data-page="settings" id="bnSettings">
-    <span class="bn-icon">⚙️</span>
+    <span class="bn-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span>
     <span>设置</span>
+    <span class="badge-dot" id="badgeSettings"></span>
   </button>
 </nav>
+</div>
 
 <script>
 /* ==================== DATA ENGINE ==================== */
