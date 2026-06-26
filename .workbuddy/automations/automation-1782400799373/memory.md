@@ -69,4 +69,11 @@
 - 新增：外交部 委内瑞拉地震人道主义援助、国防部 福建舰航经台湾海峡
 - Git 提交：8661318，已推送至 main 分支
 - 变更：authoritative_news.json + index.html，3 处文件修改
-- 备注：首次提交意外包含6个untracked文件（auto_update_news.py等），已 soft reset 修正重新提交
+
+## 2026-06-27 02:14
+- 状态：成功
+- 采集结果：新华网 10 条 + 人民网 10 条，去重后共 15 条权威要闻
+- WebSearch 补充：未找到最近6小时内符合标准的重大外交部/国防部新闻，未新增
+- Git 提交：3627263，已推送至 main 分支
+- 变更：authoritative_news.json，9 处插入、23 处删除
+- 备注：仅提交脚本更新的 authoritative_news.json，未纳入其他 untracked 文件
