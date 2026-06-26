@@ -3437,9 +3437,10 @@ function setTheme(theme) {
   document.getElementById('themeAuto').classList.toggle('active', theme === 'auto');
 
   // 如果选择自动，根据系统主题设置实际主题
+  // 浅色模式 → 毛玻璃主题（glass），深色模式 → 深灰色主题（dark）
   var actualTheme = theme;
   if (theme === 'auto') {
-    actualTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default';
+    actualTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'glass';
   }
 
   var htmlEl = document.documentElement;
@@ -3464,7 +3465,8 @@ function setupAutoThemeListener() {
   mq.addEventListener('change', function(e) {
     var theme = localStorage.getItem(THEME_KEY) || 'default';
     if (theme === 'auto') {
-      var actualTheme = e.matches ? 'dark' : 'default';
+      // 浅色模式 → 毛玻璃主题（glass），深色模式 → 深灰色主题（dark）
+      var actualTheme = e.matches ? 'dark' : 'glass';
       var htmlEl = document.documentElement;
       htmlEl.classList.toggle('theme-glass', actualTheme === 'glass');
       htmlEl.classList.toggle('theme-dark', actualTheme === 'dark');
@@ -3510,7 +3512,8 @@ function toggleExclusiveNotify() {
   var theme = localStorage.getItem(THEME_KEY) || 'default';
   var actualTheme = theme;
   if (theme === 'auto') {
-    actualTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default';
+    // 浅色模式 → 毛玻璃主题（glass），深色模式 → 深灰色主题（dark）
+    actualTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'glass';
   }
   var htmlEl = document.documentElement;
   if (actualTheme === 'glass') {
