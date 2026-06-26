@@ -796,8 +796,26 @@ body.care-mode .exclusive-news-summary { font-size:14px!important; }
   font-size:10px; font-weight:800; color:#fff;
   text-shadow:0 1px 2px rgba(0,0,0,0.3);
 }
+.theme-auto-option.active::after {
+  color:#0a84ff; text-shadow:none;
+}
 .theme-default { background:linear-gradient(135deg,#f2f2f7 0%,#e5e5ea 100%); }
 .theme-dark-option { background:linear-gradient(135deg,#2c2c2e 0%,#1c1c1e 100%); }
+.theme-auto-option {
+  background: linear-gradient(135deg, #f2f2f7 0%, #f2f2f7 50%, #1c1c1e 50%, #1c1c1e 100%);
+  position: relative;
+}
+.theme-auto-option::after {
+  content: "A";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
 .theme-glass-option {
   background:linear-gradient(135deg,#f0f1f5 0%,#e8e9ef 50%,#e2e4ec 100%);
   position:relative;
@@ -1391,6 +1409,7 @@ body.theme-dark .auth-banner {
             <div class="theme-option theme-default" id="themeDefault" onclick="setTheme('default')" title="默认主题"></div>
             <div class="theme-option theme-glass-option" id="themeGlass" onclick="setTheme('glass')" title="毛玻璃主题"></div>
             <div class="theme-option theme-dark-option" id="themeDark" onclick="setTheme('dark')" title="深灰色主题"></div>
+            <div class="theme-option theme-auto-option" id="themeAuto" onclick="setTheme('auto')" title="自动切换"></div>
           </div>
         </div>
         <div class="settings-row">
@@ -3415,18 +3434,50 @@ function setTheme(theme) {
   document.getElementById('themeDefault').classList.toggle('active', theme === 'default');
   document.getElementById('themeGlass').classList.toggle('active', theme === 'glass');
   document.getElementById('themeDark').classList.toggle('active', theme === 'dark');
+  document.getElementById('themeAuto').classList.toggle('active', theme === 'auto');
+
+  // 如果选择自动，根据系统主题设置实际主题
+  var actualTheme = theme;
+  if (theme === 'auto') {
+    actualTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default';
+  }
+
   var htmlEl = document.documentElement;
-  htmlEl.classList.toggle('theme-glass', theme === 'glass');
-  htmlEl.classList.toggle('theme-dark', theme === 'dark');
-  document.body.classList.toggle('theme-glass', theme === 'glass');
-  document.body.classList.toggle('theme-dark', theme === 'dark');
+  htmlEl.classList.toggle('theme-glass', actualTheme === 'glass');
+  htmlEl.classList.toggle('theme-dark', actualTheme === 'dark');
+  document.body.classList.toggle('theme-glass', actualTheme === 'glass');
+  document.body.classList.toggle('theme-dark', actualTheme === 'dark');
+
   // 更新主题色（影响浏览器状态栏/地址栏颜色）
   var tc = document.querySelector('meta[name="theme-color"]');
   if (tc) {
     var colors = { default:'#f2f2f7', glass:'#f0f1f5', dark:'#1c1c1e' };
-    tc.setAttribute('content', colors[theme] || colors.default);
+    tc.setAttribute('content', colors[actualTheme] || colors.default);
   }
+
   localStorage.setItem(THEME_KEY, theme);
+}
+
+// 监听系统主题变化（仅当主题为 auto 时）
+function setupAutoThemeListener() {
+  var mq = window.matchMedia('(prefers-color-scheme: dark)');
+  mq.addEventListener('change', function(e) {
+    var theme = localStorage.getItem(THEME_KEY) || 'default';
+    if (theme === 'auto') {
+      var actualTheme = e.matches ? 'dark' : 'default';
+      var htmlEl = document.documentElement;
+      htmlEl.classList.toggle('theme-glass', actualTheme === 'glass');
+      htmlEl.classList.toggle('theme-dark', actualTheme === 'dark');
+      document.body.classList.toggle('theme-glass', actualTheme === 'glass');
+      document.body.classList.toggle('theme-dark', actualTheme === 'dark');
+
+      var tc = document.querySelector('meta[name="theme-color"]');
+      if (tc) {
+        var colors = { default:'#f2f2f7', glass:'#f0f1f5', dark:'#1c1c1e' };
+        tc.setAttribute('content', colors[actualTheme] || colors.default);
+      }
+    }
+  });
 }
 
 function togglePushNotify() {
@@ -3457,11 +3508,15 @@ function toggleExclusiveNotify() {
 // 初始化主题
 (function() {
   var theme = localStorage.getItem(THEME_KEY) || 'default';
+  var actualTheme = theme;
+  if (theme === 'auto') {
+    actualTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default';
+  }
   var htmlEl = document.documentElement;
-  if (theme === 'glass') {
+  if (actualTheme === 'glass') {
     htmlEl.classList.add('theme-glass');
     document.body.classList.add('theme-glass');
-  } else if (theme === 'dark') {
+  } else if (actualTheme === 'dark') {
     htmlEl.classList.add('theme-dark');
     document.body.classList.add('theme-dark');
   }
@@ -3469,8 +3524,21 @@ function toggleExclusiveNotify() {
   var tc = document.querySelector('meta[name="theme-color"]');
   if (tc) {
     var colors = { default:'#f2f2f7', glass:'#f0f1f5', dark:'#1c1c1e' };
-    tc.setAttribute('content', colors[theme] || colors.default);
+    tc.setAttribute('content', colors[actualTheme] || colors.default);
   }
+
+  // 设置主题选项的 active 状态
+  var defaultBtn = document.getElementById('themeDefault');
+  var glassBtn = document.getElementById('themeGlass');
+  var darkBtn = document.getElementById('themeDark');
+  var autoBtn = document.getElementById('themeAuto');
+  if (defaultBtn) defaultBtn.classList.toggle('active', theme === 'default');
+  if (glassBtn) glassBtn.classList.toggle('active', theme === 'glass');
+  if (darkBtn) darkBtn.classList.toggle('active', theme === 'dark');
+  if (autoBtn) autoBtn.classList.toggle('active', theme === 'auto');
+
+  // 启动自动主题监听
+  setupAutoThemeListener();
 })();
 
 /* ==================== 跑马灯实时数据刷新 ==================== */
