@@ -111,8 +111,8 @@ body.care-mode .tab-bar-inner { padding:8px 10px!important; gap:3px!important; o
 body.care-mode .update-info { font-size:11px!important; }
 
 /* 子Tab（国内/国际/AI科技）— 锁死 */
-body.care-mode .sub-tabs { padding:12px 20px 0!important; gap:6px!important; }
-body.care-mode .sub-tab { font-size:12px!important; padding:5px 12px!important; border-radius:16px!important; }
+body.care-mode .sub-tabs { padding:14px 20px 0!important; gap:6px!important; }
+body.care-mode .sub-tab { font-size:12px!important; padding:7px 14px!important; border-radius:16px!important; }
 
 /* 卡片标题和元信息 — 锁死 */
 body.care-mode .card-title { font-size:17px!important; }
@@ -142,41 +142,44 @@ body.care-mode .news-time { font-size:12px!important; }
 }
 
 /* ===== MAIN TAB BAR ===== */
+/* ===== 主菜单 TAB BAR — 毛玻璃胶囊 ===== */
 .tab-bar {
   z-index:200;
-  background:rgba(242,242,247,0.96);
-  backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
+  background:rgba(242,242,247,0.88);
+  backdrop-filter:blur(28px) saturate(180%);
+  -webkit-backdrop-filter:blur(28px) saturate(180%);
   -webkit-text-size-adjust:none; text-size-adjust:none;
-  border-bottom:1px solid var(--border);
+  border-bottom:1px solid rgba(0,0,0,0.06);
+  box-shadow:0 1px 0 rgba(0,0,0,0.02), 0 4px 20px rgba(0,0,0,0.04);
 }
 /* JS 动态添加：菜单锁顶 */
 .tab-bar.stuck {
   position:fixed; top:0; left:0; right:0;
-  box-shadow:0 2px 12px rgba(0,0,0,0.08);
+  box-shadow:0 2px 24px rgba(0,0,0,0.1);
 }
 /* 占位元素：防止 fixed 后内容跳动 */
 .tab-bar-placeholder { display:none; }
 .tab-bar-placeholder.active { display:block; }
 .tab-bar-inner {
   max-width:var(--max); margin:0 auto;
-  display:flex; align-items:center; padding:8px 12px; gap:4px;
+  display:flex; align-items:center; padding:8px 12px; gap:6px;
   overflow-x:auto; -webkit-overflow-scrolling:touch;
   scrollbar-width:none; -ms-overflow-style:none;
 }
 .tab-bar-inner::-webkit-scrollbar { display:none; }
 .main-tab {
-  flex:1 1 0; min-width:0; height:42px; border:none; border-radius:22px;
+  flex:1 1 0; min-width:0; height:40px; border:none; border-radius:20px;
   background:transparent; cursor:pointer;
   font-family:var(--font); font-size:14px; font-weight:500;
-  color:var(--text3); transition:all 0.28s cubic-bezier(.4,0,.2,1);
+  color:var(--text3); transition:none;
   position:relative; display:flex; align-items:center; justify-content:center;
   padding:0 8px; white-space:nowrap; letter-spacing:0.01em;
 }
-.main-tab:hover { color:var(--text1); background:rgba(0,0,0,0.03); }
+.main-tab:active:not(.active) { background:rgba(0,0,0,0.04); }
 .main-tab.active {
-  color:#fff; font-weight:600;
-  background:linear-gradient(135deg,#1a73e8 0%,#0d47a1 100%);
-  box-shadow:0 3px 12px rgba(26,115,232,0.35);
+  color:var(--blue); font-weight:600;
+  background:rgba(10,132,255,0.1);
+  box-shadow:none;
 }
 .tab-bar-right {
   display:flex; align-items:center; gap:8px;
@@ -217,17 +220,17 @@ body.care-mode .news-time { font-size:12px!important; }
 .card-meta { font-size:12px; color:var(--text3); }
 .card-divider { height:1px; background:var(--border); margin:12px 20px 0; }
 
-/* ===== SUB TABS ===== */
-.sub-tabs { display:flex; gap:6px; padding:12px 20px 0; flex-wrap:wrap; }
+/* ===== SUB TABS — 毛玻璃胶囊 ===== */
+.sub-tabs { display:flex; gap:6px; padding:14px 20px 0; flex-wrap:wrap; }
 .sub-tab {
-  flex:1 1 auto; min-width:0; padding:6px 10px; border-radius:20px;
+  flex:1 1 auto; min-width:0; padding:7px 12px; border-radius:16px;
   font-size:12px; font-weight:500;
-  border:1.5px solid var(--border); background:var(--surface2);
-  color:var(--text2); cursor:pointer; transition:all 0.18s;
+  border:none; background:rgba(0,0,0,0.04);
+  color:var(--text2); cursor:pointer; transition:none;
   white-space:nowrap; text-align:center;
 }
-.sub-tab.active { color:var(--blue); border-color:var(--blue); background:rgba(10,132,255,0.07); font-weight:600; }
-.sub-tab:hover:not(.active) { border-color:rgba(10,132,255,0.3); }
+.sub-tab:active:not(.active) { background:rgba(0,0,0,0.08); }
+.sub-tab.active { color:var(--blue); background:rgba(10,132,255,0.1); font-weight:600; }
 
 /* ===== NEWS LIST ===== */
 .news-list { padding:8px 20px 16px; }
@@ -552,13 +555,13 @@ body.care-mode .news-time { font-size:12px!important; }
   .top-update { font-size:11px; display:none; }
   .btn-refresh-top, .btn-care { height:24px; padding:0 6px; font-size:9px; gap:2px; }
   .hero { padding:6px 20px; }
-  .tab-bar-inner { padding:8px 6px; gap:4px; }
-  .main-tab { height:36px; font-size:12px; border-radius:18px; padding:0 4px; }
+  .tab-bar-inner { padding:8px 8px; gap:4px; }
+  .main-tab { height:36px; font-size:12px; border-radius:18px; padding:0 6px; }
   .page-body { padding:12px 8px 32px; }
   .stock-grid { grid-template-columns:repeat(2, 1fr); }
   .card-header { padding:14px 14px 0; }
-  .sub-tabs { padding:10px 12px 0; gap:4px; }
-  .sub-tab { padding:5px 8px; font-size:11px; }
+  .sub-tabs { padding:12px 12px 0; gap:4px; }
+  .sub-tab { padding:6px 10px; font-size:11px; }
   .news-list, .ranking-wrap, .match-list, .stock-grid, .stock-news-list, .load-more-wrap, .market-bar, .csl-standings, .global-closing { padding-left:12px; padding-right:12px; }
   .match-scroll { max-height:none; }
 }
@@ -781,8 +784,10 @@ body.theme-glass .topbar {
   backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
 }
 body.theme-glass .tab-bar {
-  background:rgba(255,255,255,0.4);
-  backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
+  background:rgba(255,255,255,0.45);
+  backdrop-filter:blur(36px) saturate(200%);
+  -webkit-backdrop-filter:blur(36px) saturate(200%);
+  border-bottom:1px solid rgba(255,255,255,0.4);
 }
 body.theme-glass .card {
   background:rgba(255,255,255,0.5);
@@ -798,12 +803,13 @@ body.theme-glass .bottom-nav {
   box-shadow:0 -1px 0 rgba(255,255,255,0.3), 0 -12px 40px rgba(0,0,0,0.08);
 }
 body.theme-glass .main-tab.active {
-  background:rgba(10,132,255,0.12);
-  color:var(--blue);
-  box-shadow:none;
+  background:rgba(10,132,255,0.14);
+}
+body.theme-glass .sub-tab {
+  background:rgba(0,0,0,0.03);
 }
 body.theme-glass .sub-tab.active {
-  background:rgba(10,132,255,0.08);
+  background:rgba(10,132,255,0.12);
 }
 body.theme-glass .marquee-bar {
   background:rgba(255,255,255,0.4);
