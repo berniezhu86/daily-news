@@ -107,8 +107,8 @@ body.care-mode #marqueeTrack * { -webkit-text-size-adjust:none!important; text-s
 /* 主Tab栏（每日热搜/股市行情...）— 锁死 */
 body.care-mode .tab-bar,
 body.care-mode .tab-bar * { -webkit-text-size-adjust:none!important; text-size-adjust:none!important; }
-body.care-mode .main-tab { font-size:14px!important; height:42px!important; padding:0 8px!important; border-radius:22px!important; letter-spacing:0.01em!important; }
-body.care-mode .tab-bar-inner { padding:10px 14px!important; gap:6px!important; }
+body.care-mode .main-tab { font-size:12px!important; height:34px!important; padding:0 4px!important; border-radius:17px!important; letter-spacing:0!important; flex-shrink:0; }
+body.care-mode .tab-bar-inner { padding:8px 10px!important; gap:3px!important; overflow-x:auto!important; }
 body.care-mode .update-info { font-size:11px!important; }
 
 /* 子Tab（国内/国际/AI科技）— 锁死 */
@@ -160,8 +160,11 @@ body.care-mode .news-time { font-size:12px!important; }
 .tab-bar-placeholder.active { display:block; }
 .tab-bar-inner {
   max-width:var(--max); margin:0 auto;
-  display:flex; align-items:center; padding:10px 14px; gap:6px;
+  display:flex; align-items:center; padding:8px 12px; gap:4px;
+  overflow-x:auto; -webkit-overflow-scrolling:touch;
+  scrollbar-width:none; -ms-overflow-style:none;
 }
+.tab-bar-inner::-webkit-scrollbar { display:none; }
 .main-tab {
   flex:1 1 0; min-width:0; height:42px; border:none; border-radius:22px;
   background:transparent; cursor:pointer;
@@ -208,6 +211,8 @@ body.care-mode .news-time { font-size:12px!important; }
   box-shadow:var(--shadow-sm); overflow:hidden; margin-bottom:16px;
 }
 .card-header { padding:18px 20px 0; display:flex; align-items:center; justify-content:space-between; }
+.card-header-stacked { flex-direction:column; align-items:flex-start; gap:4px; }
+.card-header-stacked .card-meta { align-self:flex-start; }
 .card-title { font-size:17px; font-weight:700; letter-spacing:-0.01em; display:flex; align-items:center; gap:8px; }
 .card-title-icon { font-size:18px; }
 .card-meta { font-size:12px; color:var(--text3); }
@@ -716,7 +721,7 @@ body.care-mode .news-time { font-size:12px!important; }
       <div class="match-list match-scroll" id="henanPastMatchList"></div>
     </div>
     <div class="card">
-      <div class="card-header">
+      <div class="card-header card-header-stacked">
         <div class="card-title"><span class="card-title-icon">⚽</span>河南足球动态</div>
         <div class="card-meta">搜狐体育 · 正观新闻</div>
       </div>
@@ -724,7 +729,7 @@ body.care-mode .news-time { font-size:12px!important; }
     </div>
     <!-- 中超其他球队动态 -->
     <div class="card" id="cslOtherTeamsCard">
-      <div class="card-header">
+      <div class="card-header card-header-stacked">
         <div class="card-title"><span class="card-title-icon">⚽</span>中超其他球队动态</div>
         <div class="card-meta">新浪体育 · 搜狐体育 · 腾讯体育</div>
       </div>
