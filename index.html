@@ -2124,9 +2124,9 @@ const mockCslOtherTeams = [
 
 const mockStockIndices = {
   us: [
-    { name:"标普500", value:"7,357.49", change:"-0.01%", direction:"down" },
-    { name:"道琼斯", value:"51,920.62", change:"+0.14%", direction:"up" },
-    { name:"纳斯达克", value:"25,358.60", change:"-0.46%", direction:"down" },
+    { name:"标普500", value:"7,369.46", change:"+0.16%", direction:"up" },
+    { name:"道琼斯", value:"51,959.42", change:"+0.07%", direction:"up" },
+    { name:"纳斯达克", value:"25,383.90", change:"+0.10%", direction:"up" },
   ],
   cn: [
     { name:"上证指数", value:"4,027.26", change:"-2.26%", direction:"down" },
@@ -2135,10 +2135,10 @@ const mockStockIndices = {
     { name:"沪深300", value:"4,868.22", change:"-3.03%", direction:"down" },
   ],
   global: [
-    { name:"日经225", value:"69,360.88", change:"-4.15%", direction:"down" },
     { name:"恒生指数", value:"22,671.86", change:"-1.76%", direction:"down" },
-    { name:"英国富时", value:"10,465.53", change:"-0.61%", direction:"down" },
-    { name:"德国DAX", value:"24,781.06", change:"-0.86%", direction:"down" },
+    { name:"日经225", value:"69,360.88", change:"-4.15%", direction:"down" },
+    { name:"英国富时", value:"10,508.02", change:"-0.21%", direction:"down" },
+    { name:"德国DAX", value:"24,671.22", change:"-1.29%", direction:"down" },
     { name:"韩国KOSPI", value:"8,411.21", change:"-5.81%", direction:"down" },
     { name:"印度SENSEX", value:"77,100.47", change:"+0.14%", direction:"up" },
   ],
@@ -2659,32 +2659,37 @@ function renderHenanNews(news) {
 
 /* ==================== MARKET STATUS ==================== */
 function isMarketOpen(type) {
+  // 用 toLocaleString 获取北京时间，避免 UTC 偏移计算错误
   const now = new Date();
-  const beijingH = now.getUTCHours() + 8;
-  const beijingM = now.getUTCMinutes();
-  const d = now.getUTCDay();
+  const beijingStr = now.toLocaleString('en-US', { timeZone: 'Asia/Shanghai' });
+  const beijingDate = new Date(beijingStr);
+  const beijingH = beijingDate.getHours();
+  const beijingM = beijingDate.getMinutes();
+  const d = beijingDate.getDay(); // 0=周日, 1=周一, ..., 6=周六
   if (type === 'cn') {
     return d >= 1 && d <= 5 && ((beijingH >= 9 && beijingH < 11) || (beijingH === 11 && beijingM < 30) || (beijingH >= 13 && beijingH < 15));
   }
   if (type === 'us') {
-    // US market: 9:30-16:00 EDT(夏令) / 9:30-16:00 EST(冬令)
-    // EDT = UTC-4, Beijing = UTC+8 → Beijing = EDT + 12
-    // EST = UTC-5, Beijing = UTC+8 → Beijing = EST + 13
-    // 夏令(3月第二个周日~11月第一个周日): Beijing 21:30~04:00(+1)
-    // 冬令: Beijing 22:30~05:00(+1)
-    const month = now.getUTCMonth() + 1;
-    const isEDT = (month > 3 && month < 11) || (month === 3 && now.getUTCDate() >= 8) || (month === 11 && now.getUTCDate() <= 7);
+    // 美股交易时间（北京时间）：
+    // 夏令时(3月第二个周日~11月第一个周日): 21:30~次日04:00
+    // 冬令时: 22:30~次日05:00
+    const month = beijingDate.getMonth() + 1;
+    const day = beijingDate.getDate();
+    // 夏令时粗略判断：3月~10月（美国实际是3月第二个周日~11月第一个周日，这里用月份做近似）
+    const isEDT = (month > 3 && month < 11) || (month === 3 && day >= 8) || (month === 11 && day <= 7);
     if (isEDT) {
-      // Beijing 21:30~04:00(next day)
-      if (beijingH >= 21 && beijingH < 24) return d >= 1 && d <= 5;
-      if (beijingH >= 0 && beijingH < 4) return d >= 2 && d <= 6;
-      if (beijingH === 21 && beijingM >= 30) return d >= 1 && d <= 5;
+      // 北京时间为 21:30~24:00 或 00:00~04:00
+      if (beijingH >= 21 || beijingH < 4) {
+        // 21:00~21:30 之间不算开盘，需判断分钟
+        if (beijingH === 21 && beijingM < 30) return false;
+        return true;
+      }
       return false;
     } else {
-      // Beijing 22:30~05:00(next day)
-      if (beijingH >= 22 && beijingH < 24) return d >= 1 && d <= 5;
-      if (beijingH >= 0 && beijingH < 5) return d >= 2 && d <= 6;
-      if (beijingH === 22 && beijingM >= 30) return d >= 1 && d <= 5;
+      if (beijingH >= 22 || beijingH < 5) {
+        if (beijingH === 22 && beijingM < 30) return false;
+        return true;
+      }
       return false;
     }
   }
