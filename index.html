@@ -38,12 +38,20 @@ html { font-size:16px; -webkit-text-size-adjust:none!important; text-size-adjust
 body { font-family:var(--font); background:var(--bg); color:var(--text1); -webkit-font-smoothing:antialiased; min-height:100vh; min-height:100dvh; overflow-x:hidden; font-size:16px; -webkit-text-size-adjust:none!important; text-size-adjust:none!important; }
 
 /* ===== TOP BAR ===== */
+/* 吸顶头部容器（含顶部栏+跑马灯，覆盖状态栏区域） */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 300;
+  padding-top: env(safe-area-inset-top);
+  background: rgba(242,242,247,0.98);
+  border-bottom: 1px solid var(--border);
+}
 .topbar {
-  background:rgba(242,242,247,0.98);
-  border-bottom:1px solid var(--border);
+  background:transparent;
+  border-bottom:none;
   -webkit-text-size-adjust:none!important; text-size-adjust:none!important;
   min-height:48px; overflow-x:auto; -webkit-overflow-scrolling:touch;
-  padding-top:env(safe-area-inset-top);
 }
 .topbar-inner {
   max-width:var(--max); margin:0 auto;
@@ -153,11 +161,13 @@ body.care-mode .news-time { font-size:12px!important; }
   -webkit-text-size-adjust:none; text-size-adjust:none;
   border-bottom:1px solid rgba(0,0,0,0.06);
   box-shadow:0 1px 0 rgba(0,0,0,0.02), 0 4px 20px rgba(0,0,0,0.04);
+  /* CSS sticky：紧跟在 app-header（含 safe-area）下方 */
+  position: sticky;
+  top: env(safe-area-inset-top);
 }
-/* JS 动态添加：菜单锁顶 */
+/* 吸顶后增强阴影 */
 .tab-bar.stuck {
-  position:fixed; top:0; left:0; right:0;
-  box-shadow:0 2px 24px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 24px rgba(0,0,0,0.10);
 }
 /* 占位元素：防止 fixed 后内容跳动 */
 .tab-bar-placeholder { display:none; }
@@ -825,11 +835,14 @@ body.theme-glass::before {
   pointer-events:none; z-index:-1;
 }
 /* 毛玻璃：顶部栏 */
-body.theme-glass .topbar {
-  background: rgba(255,255,255,0.35);
+/* 毛玻璃：吸顶头部容器 */
+body.theme-glass .app-header {
+  background: rgba(255,255,255,0.42);
   backdrop-filter: blur(26px) saturate(180%);
   -webkit-backdrop-filter: blur(26px) saturate(180%);
-  border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+body.theme-glass .topbar {
+  background: transparent;
 }
 /* 毛玻璃：主Tab栏 */
 body.theme-glass .tab-bar {
@@ -979,10 +992,15 @@ body.theme-dark {
   background:#1c1c1e;
 }
 html.theme-dark { background:#1c1c1e; }
+/* 暗黑：吸顶头部容器 */
+body.theme-dark .app-header {
+  background: rgba(28,28,30,0.95);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+}
 body.theme-dark .topbar {
-  background:rgba(28,28,30,0.92);
-  backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
-  border-bottom:1px solid rgba(255,255,255,0.08);
+  background: transparent;
+  border-bottom:none;
 }
 body.theme-dark .tab-bar {
   background:rgba(44,44,46,0.85);
@@ -1140,6 +1158,9 @@ body.theme-dark .auth-banner {
   </div>
 </div>
 
+<!-- App Header (sticky, 覆盖状态栏) -->
+<div class="app-header">
+
 <!-- Top Bar -->
 <header class="topbar">
   <div class="topbar-inner">
@@ -1175,6 +1196,8 @@ body.theme-dark .auth-banner {
     </div>
   </div>
 </div>
+
+</div><!-- /.app-header -->
 
 <!-- Main Tab Bar -->
 <nav class="tab-bar">
@@ -3332,57 +3355,36 @@ window.addEventListener('scroll', function() {
 
 // ============================================================
 // 菜单顶置锁定（JS 实现，100% 可靠）
-// 滚动超过 tab-bar 原始位置后自动锁在屏幕顶部
+// ============================================================
+// Tab 菜单滚动吸顶阴影效果（CSS sticky 处理定位，JS 只加阴影）
 // ============================================================
 (function() {
   var tabBar = document.querySelector('.tab-bar');
   if (!tabBar) return;
 
-  // 创建占位元素（当 tabBar 变为 fixed 时防止内容跳动）
-  var placeholder = document.createElement('div');
-  placeholder.className = 'tab-bar-placeholder';
-  tabBar.parentNode.insertBefore(placeholder, tabBar);
-
-  var tabBarTop = 0;      // tabBar 原始位置（距页面顶部）
-  var tabBarHeight = 0;   // tabBar 高度
   var isStuck = false;
-
-  function recalc() {
-    // 计算 tabBar 在正常流中的 top 位置（含 pullIndicator + topbar + marqueeBar）
-    var rect = placeholder.getBoundingClientRect();
-    tabBarTop = rect.top + window.pageYOffset + 1; // +1px 容差，避免来回抖动
-    tabBarHeight = tabBar.offsetHeight;
-    placeholder.style.height = tabBarHeight + 'px';
+  // 计算 tab-bar 的 sticky 触发阈值（app-header 高度）
+  function getHeaderHeight() {
+    var header = document.querySelector('.app-header');
+    return header ? header.offsetHeight : 0;
   }
-  recalc();
-  // 图片/异步内容加载后高度可能变化，延迟重新计算
-  setTimeout(recalc, 500);
-  setTimeout(recalc, 2000);
 
   function onScroll() {
     var scrollY = window.pageYOffset || document.documentElement.scrollTop;
-    var shouldStick = scrollY >= tabBarTop;
+    var headerH = getHeaderHeight();
+    var shouldStick = scrollY >= headerH;
 
     if (shouldStick && !isStuck) {
       isStuck = true;
       tabBar.classList.add('stuck');
-      placeholder.classList.add('active');
     } else if (!shouldStick && isStuck) {
       isStuck = false;
       tabBar.classList.remove('stuck');
-      placeholder.classList.remove('active');
     }
   }
 
   window.addEventListener('scroll', onScroll, { passive: true });
-  window.addEventListener('resize', function() {
-    recalc();
-    onScroll();
-  }, { passive: true });
-
-  // 页面切换 tab 时可能改变内容高度，重新计算
-  var observer = new MutationObserver(function() { recalc(); });
-  observer.observe(document.querySelector('.page-body') || document.body, { childList: true, subtree: true, attributes: false });
+  window.addEventListener('resize', onScroll, { passive: true });
 })();
 
 // ============================================================
