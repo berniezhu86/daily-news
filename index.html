@@ -2725,7 +2725,7 @@ function updateMarketStatus() {
   const labels = { us: '美股', cn: 'A股', reco: 'AI荐股' };
   if (open) {
     dot.className = 'dot-live';
-    text.textContent = (labels[type] || '') + ' · 交易中 · 收盘后自动更新数据';
+    text.textContent = (labels[type] || '') + ' · 交易中 · 每小时更新一次';
     if (note) note.style.display = 'block';
   } else {
     dot.className = 'dot-closed';
