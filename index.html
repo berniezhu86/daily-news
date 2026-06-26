@@ -352,8 +352,7 @@ body.care-mode .news-time { font-size:12px!important; }
 .csl-rank { width:24px; font-weight:800; font-size:13px; color:var(--text3); text-align:center; }
 .csl-rank-top3 { color:#fff; background:linear-gradient(135deg,#1a73e8,#1565c0); border-radius:50%; width:20px; height:20px; display:inline-flex; align-items:center; justify-content:center; font-size:11px; }
 .csl-team { font-weight:600; color:var(--text1); min-width:70px; }
-.csl-team-me { color:var(--blue); position:relative; padding-right:14px; }
-.csl-team-me::after { content:"★"; position:absolute; right:0; top:1px; font-size:10px; color:var(--red); }
+.csl-team-me { color:var(--red); font-weight:700; }
 .csl-gp,.csl-wdl,.csl-gfga,.csl-pts { text-align:center; color:var(--text2); font-family:var(--mono); font-size:12px; }
 .csl-pts { font-weight:700; color:var(--text1); }
 
@@ -1222,22 +1221,23 @@ const mockCslOtherTeams = [
 
 const mockStockIndices = {
   us: [
-    { name:"标普500", value:"6,102.48", change:"+0.87%", direction:"up" },
-    { name:"纳斯达克", value:"20,886.35", change:"+1.23%", direction:"up" },
-    { name:"道琼斯", value:"42,315.72", change:"+0.54%", direction:"up" },
+    { name:"标普500", value:"7,357.49", change:"-0.01%", direction:"down" },
+    { name:"道琼斯", value:"51,920.62", change:"+0.14%", direction:"up" },
+    { name:"纳斯达克", value:"25,358.60", change:"-0.46%", direction:"down" },
   ],
   cn: [
-    { name:"上证指数", value:"3,285.67", change:"+0.92%", direction:"up" },
-    { name:"深证成指", value:"11,456.23", change:"+1.15%", direction:"up" },
-    { name:"创业板指", value:"2,356.89", change:"+1.48%", direction:"up" },
+    { name:"上证指数", value:"4,027.26", change:"-2.26%", direction:"down" },
+    { name:"深证成指", value:"15,782.22", change:"-3.44%", direction:"down" },
+    { name:"创业板指", value:"4,194.21", change:"-4.07%", direction:"down" },
+    { name:"沪深300", value:"4,868.22", change:"-3.03%", direction:"down" },
   ],
   global: [
-    { name:"日经225", value:"38,625.40", change:"+0.32%", direction:"up" },
-    { name:"恒生指数", value:"19,854.32", change:"-0.45%", direction:"down" },
-    { name:"英国富时", value:"8,456.78", change:"+0.18%", direction:"up" },
-    { name:"德国DAX", value:"18,923.45", change:"+0.67%", direction:"up" },
-    { name:"韩国KOSPI", value:"2,856.90", change:"-0.23%", direction:"down" },
-    { name:"印度SENSEX", value:"78,234.56", change:"+0.41%", direction:"up" },
+    { name:"日经225", value:"69,360.88", change:"-4.15%", direction:"down" },
+    { name:"恒生指数", value:"22,671.86", change:"-1.76%", direction:"down" },
+    { name:"英国富时", value:"10,465.53", change:"-0.61%", direction:"down" },
+    { name:"德国DAX", value:"24,781.06", change:"-0.86%", direction:"down" },
+    { name:"韩国KOSPI", value:"8,411.21", change:"-5.81%", direction:"down" },
+    { name:"印度SENSEX", value:"77,100.47", change:"+0.14%", direction:"up" },
   ],
 };
 
@@ -1463,18 +1463,18 @@ function renderStockIndices(indices) {
 function renderGlobalClosing() {
   var g = document.getElementById('globalGrid');
   var wrap = document.getElementById('globalClosing');
-  if (!g || !wrap) return;
+  if (!g || !wrap) return Promise.resolve();
   var activeTab = document.querySelector('#stockSubTabs .sub-tab.active');
   var type = activeTab ? activeTab.dataset.stock : 'us';
   // 美股/A股 tab 下展示全球收盘；AI荐股 tab 下隐藏
   if (type === 'reco') {
     wrap.style.display = 'none';
-    return;
+    return Promise.resolve();
   }
   wrap.style.display = 'block';
-  // 尝试使用实时数据，失败则回退到静态数据
-  fetchGlobalStockData().then(function(realData) {
-    if (realData && realData.length > 0) {
+  // 尝试使用实时数据（已通过 validateStockData 验证），失败则回退到静态数据
+  return fetchGlobalStockData().then(function(realData) {
+    if (realData && realData.length === 6) {
       g.innerHTML = realData.map(function(s) {
         return '<div class="stock-card">'
           + '<div class="stock-name">' + s.name + '</div>'
@@ -1484,23 +1484,18 @@ function renderGlobalClosing() {
       }).join('');
       return;
     }
-    // 静态回退
-    g.innerHTML = mockStockIndices.global.map(function(s) {
-      return '<div class="stock-card">'
-        + '<div class="stock-name">' + s.name + '</div>'
-        + '<div class="stock-value ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.value + '</div>'
-        + '<div class="stock-change ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.change + '</div>'
-        + '</div>';
-    }).join('');
-  }).catch(function() {
-    g.innerHTML = mockStockIndices.global.map(function(s) {
-      return '<div class="stock-card">'
-        + '<div class="stock-name">' + s.name + '</div>'
-        + '<div class="stock-value ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.value + '</div>'
-        + '<div class="stock-change ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.change + '</div>'
-        + '</div>';
-    }).join('');
-  });
+    renderGlobalStatic(g);
+  }).catch(function() { renderGlobalStatic(g); });
+}
+
+function renderGlobalStatic(g) {
+  g.innerHTML = mockStockIndices.global.map(function(s) {
+    return '<div class="stock-card">'
+      + '<div class="stock-name">' + s.name + '</div>'
+      + '<div class="stock-value ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.value + '</div>'
+      + '<div class="stock-change ' + (s.direction === 'up' ? 'stock-up' : 'stock-down') + '">' + s.change + '</div>'
+      + '</div>';
+  }).join('');
 }
 
 function renderStockNews(news) {
@@ -1761,6 +1756,8 @@ function isMarketOpen(type) {
   return false;
 }
 
+var lastStockUpdateTime = null;  // 记录上次成功更新数据的时间
+
 function updateMarketStatus() {
   const dot = document.getElementById('statusDot');
   const text = document.getElementById('statusText');
@@ -1771,11 +1768,17 @@ function updateMarketStatus() {
   const labels = { us: '美股', cn: 'A股', reco: 'AI荐股' };
   if (open) {
     dot.className = 'dot-live';
-    text.textContent = (labels[type] || '') + ' · 交易时段 · 数据实时更新中';
+    text.textContent = (labels[type] || '') + ' · 交易时段 · 每3分钟自动刷新';
     note.style.display = 'inline';
   } else {
     dot.className = 'dot-closed';
-    text.textContent = (labels[type] || '') + ' · 休市中 · 显示最近收盘数据';
+    if (lastStockUpdateTime) {
+      var h = lastStockUpdateTime.getHours().toString().padStart(2,'0');
+      var m = lastStockUpdateTime.getMinutes().toString().padStart(2,'0');
+      text.textContent = (labels[type] || '') + ' · 休市中 · 数据刷新于 ' + h + ':' + m;
+    } else {
+      text.textContent = (labels[type] || '') + ' · 休市中 · 显示最近收盘数据';
+    }
     note.style.display = 'none';
   }
 }
@@ -1789,100 +1792,79 @@ async function refreshStockData() {
     var data = await fetchRealStockData(type);
     if (data && data.length > 0) {
       renderStockIndices(data);
+      lastStockUpdateTime = new Date();
     }
     // 同时更新全球收盘数据
-    renderGlobalClosing();
+    renderGlobalClosing().then(function() { lastStockUpdateTime = new Date(); }).catch(function(){});
   } catch(e) {}
 }
 
+// 验证函数：检查 API 返回的数据是否完整且合理
+function validateStockData(diff, expectedCount, validators) {
+  if (!diff || diff.length !== expectedCount) return false;
+  for (var i = 0; i < diff.length; i++) {
+    var f2 = parseFloat(diff[i].f2);
+    if (isNaN(f2) || f2 <= 0) return false;
+    if (validators && validators[i]) {
+      var v = validators[i];
+      if (f2 < v[0] || f2 > v[1]) return false;
+    }
+  }
+  return true;
+}
+
+// 美股合理范围（防止东财 API 返回期货等错误数据）
+var US_VALIDATORS = [[4000,10000], [30000,60000], [15000,30000]];  // 标普/道琼斯/纳斯达克
+var CN_VALIDATORS = [[2500,6000], [8000,25000], [2000,8000], [3000,7000]];  // 上证/深证/创业板/沪深300
+var GLOBAL_VALIDATORS = [[10000,40000], [20000,80000], [5000,15000], [10000,30000], [2000,10000], [40000,90000]];  // 恒生/日经/富时/DAX/KOSPI/SENSEX
+
 async function fetchRealStockData(type) {
-  // A股使用新浪JSONP接口（避开CORS），美股/港股使用东方财富
-  if (type === 'cn') return await fetchCnStockDataJSONP();
   if (type === 'global') return await fetchGlobalStockData();
-  // 美股：东方财富API
-  const secIds = {
-    us: '100.SPX,101.DJIA,100.NDX',
-    global: '100.HSI,100.N225,100.UKX,100.GDAXI,100.KS11',
+  var configs = {
+    cn:     { ids:'1.000001,0.399001,0.399006,1.000300', names:['上证指数','深证成指','创业板指','沪深300'], exp:4, v:CN_VALIDATORS },
+    us:     { ids:'100.SPX,100.DJIA,100.NDX',           names:['标普500','道琼斯','纳斯达克'],                 exp:3, v:US_VALIDATORS },
   };
-  if (!secIds[type]) return null;
+  var cfg = configs[type];
+  if (!cfg) return null;
   try {
-    const url = 'https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f2,f3,f4,f12,f14&secids=' + secIds[type] + '&_=' + Date.now();
-    const resp = await fetch(url, { headers: { 'Referer': 'https://quote.eastmoney.com' } });
-    const json = await resp.json();
+    var url = 'https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f2,f3,f4,f12,f14&secids=' + cfg.ids + '&_=' + Date.now();
+    var resp = await fetch(url, { headers: { 'Referer': 'https://quote.eastmoney.com' } });
+    var json = await resp.json();
     if (!json.data || !json.data.diff) return null;
-    const nameMap = {
-      us: ['标普500', '道琼斯', '纳斯达克'],
-      global: ['恒生指数', '日经225', '英国富时', '德国DAX', '韩国KOSPI']
-    };
+    // ⚠️ 严格验证：数量必须完整，数值必须在合理范围内
+    if (!validateStockData(json.data.diff, cfg.exp, cfg.v)) {
+      console.warn('fetchRealStockData(' + type + ') 数据验证失败，回退到静态数据');
+      return null;
+    }
     return json.data.diff.map(function(item, i) {
       return {
-        name: nameMap[type][i] || item.f14,
-        value: item.f2 ? parseFloat(item.f2).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '--',
-        change: (item.f3 >= 0 ? '+' : '') + (item.f3 || 0).toFixed(2) + '%',
-        direction: item.f3 >= 0 ? 'up' : 'down'
+        name: cfg.names[i] || item.f14,
+        value: parseFloat(item.f2).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+        change: (item.f3 >= 0 ? '+' : '') + (parseFloat(item.f3) || 0).toFixed(2) + '%',
+        direction: (parseFloat(item.f3) || 0) >= 0 ? 'up' : 'down'
       };
     });
   } catch(e) { return null; }
 }
 
-// 新浪JSONP方式获取A股实时数据（避开CORS）
-function fetchCnStockDataJSONP() {
-  return new Promise(function(resolve) {
-    var symbols = 's_sh000001,s_sz399001,s_sz399006,s_sh000300';
-    var scriptId = '_sina_stock_script';
-    var old = document.getElementById(scriptId);
-    if (old) old.remove();
-
-    var script = document.createElement('script');
-    script.id = scriptId;
-    script.src = 'https://hq.sinajs.cn/list=' + symbols;
-    script.onload = function() {
-      try {
-        var result = [];
-        var mappings = [
-          { key: 'hq_str_s_sh000001', name: '上证指数' },
-          { key: 'hq_str_s_sz399001', name: '深证成指' },
-          { key: 'hq_str_s_sz399006', name: '创业板指' },
-          { key: 'hq_str_s_sh000300', name: '沪深300' }
-        ];
-        for (var i = 0; i < mappings.length; i++) {
-          var raw = window[mappings[i].key];
-          if (raw) {
-            var p = raw.split(',');
-            if (p.length >= 4) {
-              var chg = parseFloat(p[3]);
-              result.push({
-                name: mappings[i].name,
-                value: parseFloat(p[1]).toFixed(2),
-                change: (chg >= 0 ? '+' : '') + chg.toFixed(2) + '%',
-                direction: chg >= 0 ? 'up' : 'down'
-              });
-            }
-          }
-        }
-        resolve(result);
-      } catch(e) { resolve(null); }
-      finally { if (script.parentNode) script.remove(); }
-    };
-    script.onerror = function() { resolve(null); };
-    document.head.appendChild(script);
-  });
-}
-
 // 港股+全球市场（东方财富）
 async function fetchGlobalStockData() {
   try {
-    var url = 'https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f2,f3,f4,f12,f14&secids=100.HSI,100.N225,100.UKX,100.GDAXI,100.KS11,100.SENSEX&_=' + Date.now();
+    var url = 'https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f2,f3,f4,f12,f14&secids=100.HSI,100.N225,100.FTSE,100.GDAXI,100.KS11,100.SENSEX&_=' + Date.now();
     var resp = await fetch(url, { headers: { 'Referer': 'https://quote.eastmoney.com' } });
     var json = await resp.json();
     if (!json.data || !json.data.diff) return null;
+    if (!validateStockData(json.data.diff, 6, GLOBAL_VALIDATORS)) {
+      console.warn('fetchGlobalStockData 数据验证失败，回退到静态数据');
+      return null;
+    }
     var gnames = ['恒生指数','日经225','英国富时','德国DAX','韩国KOSPI','印度SENSEX'];
     return json.data.diff.map(function(item, i) {
       return {
         name: gnames[i] || item.f14,
-        value: item.f2 ? parseFloat(item.f2).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}) : '--',
-        change: (item.f3>=0?'+':'')+(item.f3||0).toFixed(2)+'%',
-        direction: item.f3>=0?'up':'down'
+        value: parseFloat(item.f2).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}),
+        change: (parseFloat(item.f3)>=0?'+':'')+(parseFloat(item.f3)||0).toFixed(2)+'%',
+        direction: (parseFloat(item.f3)||0)>=0?'up':'down'
       };
     });
   } catch(e){ return null; }
@@ -2274,58 +2256,20 @@ function toggleCareMode() {
 var _marqueeRealtimeTimer = null;
 
 function fetchMarqueeStockData() {
-  // 使用 JSONP 方式调用新浪财经实时行情接口，避开 CORS 限制
-  // 接口返回：var hq_str_s_sh000001="上证指数,3386.41,12.34,0.37";
-  var symbols = 's_sh000001,s_sz399001,s_sz399006,s_sh000300';
-  var url = 'https://hq.sinajs.cn/list=' + symbols;
-  var scriptId = '_sina_mq_script';
-
-  // 移除旧 script（避免重复加载）
-  var old = document.getElementById(scriptId);
-  if (old) old.remove();
-
-  var script = document.createElement('script');
-  script.id = scriptId;
-  script.src = url;
-  script.onload = function() {
-    try {
+  // 使用东方财富API获取A股实时行情（新浪JSONP已被屏蔽，需Referer）
+  var url = 'https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f2,f3,f4,f12,f14&secids=1.000001,0.399001,0.399006,1.000300&_=' + Date.now();
+  fetch(url, { headers: { 'Referer': 'https://quote.eastmoney.com' } })
+    .then(function(resp) { return resp.json(); })
+    .then(function(json) {
+      if (!json.data || !json.data.diff) return;
       var headlines = [];
-      // 上证指数
-      var r1 = window.hq_str_s_sh000001;
-      if (r1) {
-        var p = r1.split(',');
-        if (p.length >= 4) {
-          var arrow = parseFloat(p[2]) >= 0 ? '▲' : '▼';
-          headlines.push('📈 上证指数 ' + p[1] + ' ' + arrow + parseFloat(p[3]).toFixed(2) + '%');
-        }
-      }
-      // 深证成指
-      var r2 = window.hq_str_s_sz399001;
-      if (r2) {
-        var p = r2.split(',');
-        if (p.length >= 4) {
-          var arrow = parseFloat(p[2]) >= 0 ? '▲' : '▼';
-          headlines.push('📈 深证成指 ' + p[1] + ' ' + arrow + parseFloat(p[3]).toFixed(2) + '%');
-        }
-      }
-      // 创业板指
-      var r3 = window.hq_str_s_sz399006;
-      if (r3) {
-        var p = r3.split(',');
-        if (p.length >= 4) {
-          var arrow = parseFloat(p[2]) >= 0 ? '▲' : '▼';
-          headlines.push('📈 创业板指 ' + p[1] + ' ' + arrow + parseFloat(p[3]).toFixed(2) + '%');
-        }
-      }
-      // 沪深300
-      var r4 = window.hq_str_s_sh000300;
-      if (r4) {
-        var p = r4.split(',');
-        if (p.length >= 4) {
-          var arrow = parseFloat(p[2]) >= 0 ? '▲' : '▼';
-          headlines.push('📈 沪深300 ' + p[1] + ' ' + arrow + parseFloat(p[3]).toFixed(2) + '%');
-        }
-      }
+      var names = ['上证指数', '深证成指', '创业板指', '沪深300'];
+      json.data.diff.forEach(function(item, i) {
+        var arrow = item.f3 >= 0 ? '▲' : '▼';
+        var val = item.f2 ? parseFloat(item.f2).toFixed(2) : '--';
+        var chg = (item.f3 || 0).toFixed(2);
+        headlines.push('📈 ' + (names[i] || item.f14) + ' ' + val + ' ' + arrow + chg + '%');
+      });
 
       if (headlines.length > 0) {
         // 保留非股票类快讯，替换股票类
@@ -2339,17 +2283,9 @@ function fetchMarqueeStockData() {
         console.log('✅ 跑马灯股票数据已更新', headlines);
         renderMarquee();
       }
-    } catch(e) {
-      console.warn('fetchMarqueeStockData 解析失败:', e.message);
-    }
-    // 清理：移除 script 标签
-    var s = document.getElementById(scriptId);
-    if (s) s.remove();
-  };
-  script.onerror = function() {
-    console.warn('跑马灯股票数据获取失败（网络或接口异常），保留静态数据');
-  };
-  document.head.appendChild(script);
+    }).catch(function(e) {
+      console.warn('跑马灯股票数据获取失败（网络或接口异常），保留静态数据');
+    });
 }
 
 function startMarqueeRealtime() {
