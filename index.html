@@ -53,7 +53,7 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 .brand-icon { width:24px; height:24px; border-radius:7px; object-fit:cover; flex-shrink:0; }
 .brand-text { display:flex; flex-direction:column; align-items:flex-start; gap:0; line-height:1.15; }
 .brand-name { font-size:13px; font-weight:700; color:var(--text); white-space:nowrap; line-height:1.3; }
-.brand-version { font-size:9px; font-weight:500; color:var(--text4); letter-spacing:0.02em; background:var(--surface2); padding:1px 5px; border-radius:3px; white-space:nowrap; flex-shrink:0; display:inline-block; line-height:1.4; }
+.brand-version { display:none; }
 .topbar-right { display:flex; align-items:center; gap:3px; flex-shrink:0; margin-left:auto; min-width:0; }
 .top-update { font-size:11px; color:var(--text3); white-space:nowrap; display:none; }
 .btn-refresh-top {
@@ -94,7 +94,6 @@ body.care-mode .topbar,
 body.care-mode .topbar * { -webkit-text-size-adjust:none!important; text-size-adjust:none!important; }
 body.care-mode .brand-text { flex-direction:column !important; align-items:flex-start !important; gap:0 !important; }
 body.care-mode .brand-name { font-size:13px!important; max-height:none!important; line-height:1.3!important; }
-body.care-mode .brand-version { font-size:9px!important; max-height:none!important; }
 body.care-mode .btn-refresh-top { font-size:10px!important; height:26px!important; padding:0 6px!important; max-width:none!important; }
 body.care-mode .btn-care { font-size:10px!important; height:26px!important; padding:0 6px!important; max-width:none!important; }
 body.care-mode .top-update { font-size:11px!important; }
@@ -568,6 +567,218 @@ body.care-mode .news-time { font-size:12px!important; }
   .main-tab { font-size:15px; padding:0 16px; }
   .sub-tab { font-size:13px; padding:6px 16px; }
 }
+
+/* ===== BOTTOM NAV ===== */
+.bottom-nav {
+  position:fixed; bottom:0; left:0; right:0; z-index:1000;
+  background:rgba(249,249,252,0.94);
+  backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
+  border-top:1px solid var(--border);
+  display:flex; align-items:center; justify-content:space-around;
+  padding:4px 0 calc(4px + env(safe-area-inset-bottom));
+  -webkit-tap-highlight-color:transparent;
+  -webkit-text-size-adjust:none; text-size-adjust:none;
+}
+.bottom-nav-btn {
+  flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:2px; padding:6px 4px 4px; border:none; background:none; cursor:pointer;
+  color:var(--text3); font-size:10px; font-weight:500; transition:all 0.18s;
+  -webkit-tap-highlight-color:transparent;
+}
+.bottom-nav-btn .bn-icon { font-size:20px; line-height:1; transition:all 0.18s; }
+.bottom-nav-btn.active { color:var(--blue); font-weight:600; }
+.bottom-nav-btn.active .bn-icon { transform:scale(1.1); }
+.bottom-nav-btn:active:not(.active) { opacity:0.6; }
+/* 关怀版 */
+body.care-mode .bottom-nav { padding:4px 0 calc(4px + env(safe-area-inset-bottom))!important; }
+body.care-mode .bottom-nav-btn { font-size:12px!important; }
+body.care-mode .bottom-nav-btn .bn-icon { font-size:22px!important; }
+
+/* Bottom nav spacing — push page-body up */
+.page-body.has-bottom-nav { padding-bottom:90px; }
+body.care-mode .page-body.has-bottom-nav { padding-bottom:100px; }
+
+/* ===== 专属页 ===== */
+.exclusive-hero {
+  background:linear-gradient(135deg,#5e5ce6 0%,#0a84ff 100%);
+  border-radius:var(--r-lg); padding:20px; margin-bottom:16px; color:#fff;
+}
+.exclusive-hero h3 { font-size:16px; font-weight:700; margin-bottom:4px; }
+.exclusive-hero p { font-size:12px; opacity:0.85; margin-bottom:12px; }
+.exclusive-input-row { display:flex; gap:8px; }
+.exclusive-input {
+  flex:1; border:none; border-radius:12px; padding:10px 14px;
+  font-size:14px; font-family:var(--font); outline:none;
+  background:rgba(255,255,255,0.18); color:#fff; min-width:0;
+}
+.exclusive-input::placeholder { color:rgba(255,255,255,0.5); }
+.exclusive-input:focus { background:rgba(255,255,255,0.25); }
+.btn-exclusive-add {
+  flex-shrink:0; border:none; border-radius:12px; padding:10px 18px;
+  font-size:14px; font-weight:600; cursor:pointer;
+  background:rgba(255,255,255,0.22); color:#fff;
+  transition:all 0.18s; white-space:nowrap;
+}
+.btn-exclusive-add:hover { background:rgba(255,255,255,0.32); }
+.btn-exclusive-add:active { transform:scale(0.96); }
+
+.interest-tags { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px; }
+.interest-tag {
+  display:inline-flex; align-items:center; gap:4px;
+  padding:6px 12px; border-radius:20px; font-size:13px; font-weight:500;
+  background:var(--surface); border:1px solid var(--border);
+  color:var(--text1); transition:all 0.18s;
+}
+.interest-tag .tag-remove {
+  width:18px; height:18px; border-radius:50%; border:none;
+  background:var(--surface2); color:var(--text3); cursor:pointer;
+  font-size:12px; display:flex; align-items:center; justify-content:center;
+  transition:all 0.15s; line-height:1;
+}
+.interest-tag .tag-remove:hover { background:var(--red); color:#fff; }
+
+.exclusive-empty {
+  text-align:center; padding:40px 20px; color:var(--text3);
+}
+.exclusive-empty .empty-icon { font-size:40px; margin-bottom:8px; }
+.exclusive-empty .empty-text { font-size:14px; }
+
+/* 专属新闻列表 */
+.exclusive-news-item {
+  display:flex; flex-direction:column; gap:4px;
+  padding:14px 0; border-bottom:1px solid var(--border);
+}
+.exclusive-news-title { font-size:15px; font-weight:600; color:var(--text1); line-height:1.4; }
+.exclusive-news-summary { font-size:13px; color:var(--text2); line-height:1.5; }
+.exclusive-news-meta { font-size:11px; color:var(--text3); display:flex; gap:8px; }
+
+/* 关怀版 */
+body.care-mode .exclusive-hero h3 { font-size:18px!important; }
+body.care-mode .exclusive-hero p { font-size:14px!important; }
+body.care-mode .exclusive-input { font-size:16px!important; padding:12px 16px!important; }
+body.care-mode .btn-exclusive-add { font-size:16px!important; padding:12px 20px!important; }
+body.care-mode .interest-tag { font-size:15px!important; padding:8px 16px!important; }
+body.care-mode .exclusive-news-title { font-size:17px!important; }
+body.care-mode .exclusive-news-summary { font-size:14px!important; }
+
+/* ===== 设置页 ===== */
+.settings-section { margin-bottom:20px; }
+.settings-label { font-size:11px; font-weight:600; color:var(--text3); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:8px; padding-left:4px; }
+.settings-card {
+  background:var(--surface); border-radius:var(--r-lg);
+  box-shadow:var(--shadow-xs); overflow:hidden;
+}
+.settings-row {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:16px 20px; gap:12px;
+}
+.settings-row + .settings-row { border-top:1px solid var(--border); }
+.settings-row-left { display:flex; flex-direction:column; gap:2px; min-width:0; }
+.settings-row-title { font-size:15px; font-weight:600; color:var(--text1); }
+.settings-row-desc { font-size:12px; color:var(--text3); }
+
+/* Theme selector */
+.theme-options { display:flex; gap:6px; }
+.theme-option {
+  width:44px; height:44px; border-radius:12px; border:2px solid var(--border);
+  cursor:pointer; transition:all 0.2s; overflow:hidden; position:relative;
+}
+.theme-option.active { border-color:var(--blue); box-shadow:0 0 0 3px rgba(10,132,255,0.18); }
+.theme-option.active::after {
+  content:"✓"; position:absolute; top:2px; right:4px;
+  font-size:10px; font-weight:800; color:#fff;
+  text-shadow:0 1px 2px rgba(0,0,0,0.3);
+}
+.theme-default { background:linear-gradient(135deg,#f2f2f7 0%,#e5e5ea 100%); }
+.theme-glass { background:linear-gradient(135deg,#e8eaf0 0%,#cad5e8 60%,#dce4f2 100%); position:relative; }
+.theme-glass::before {
+  content:""; position:absolute; top:4px; left:4px; right:4px; bottom:4px;
+  border-radius:6px; background:rgba(255,255,255,0.35);
+  backdrop-filter:blur(4px); -webkit-backdrop-filter:blur(4px);
+}
+
+/* Toggle switch */
+.toggle-switch {
+  position:relative; width:51px; height:31px; flex-shrink:0;
+  border-radius:16px; background:var(--border); cursor:pointer;
+  transition:background 0.25s; border:none; padding:0;
+}
+.toggle-switch.on { background:var(--green); }
+.toggle-switch::after {
+  content:""; position:absolute; top:2px; left:2px;
+  width:27px; height:27px; border-radius:50%; background:#fff;
+  box-shadow:0 2px 4px rgba(0,0,0,0.15); transition:transform 0.25s;
+}
+.toggle-switch.on::after { transform:translateX(20px); }
+
+/* 设置页版本号 */
+.settings-version { text-align:center; padding:16px 0; font-size:12px; color:var(--text4); }
+
+/* 关怀版覆盖 */
+body.care-mode .settings-row-title { font-size:17px!important; }
+body.care-mode .settings-row-desc { font-size:13px!important; }
+body.care-mode .theme-option { width:52px!important; height:52px!important; }
+body.care-mode .toggle-switch { width:56px!important; height:36px!important; }
+body.care-mode .toggle-switch::after { width:32px!important; height:32px!important; }
+body.care-mode .toggle-switch.on::after { transform:translateX(20px)!important; }
+
+/* ===== 毛玻璃主题 (Frosted Glass) ===== */
+body.theme-glass {
+  --bg: transparent;
+  --surface: rgba(255,255,255,0.55);
+  --surface2: rgba(255,255,255,0.35);
+  --border: rgba(0,0,0,0.06);
+  --text1: #1c1c1e;
+  --text2: #555558;
+  --text3: #8e8e93;
+  --text4: #aeaeb2;
+  --shadow-xs: 0 1px 3px rgba(0,0,0,0.04);
+  --shadow-sm: 0 2px 12px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 24px rgba(0,0,0,0.06);
+  background:linear-gradient(180deg,#e8eaf0 0%,#dce4f2 30%,#e8edf5 60%,#f0f2f8 100%) fixed;
+}
+body.theme-glass::before {
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:-1;
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 20%, rgba(120,140,220,0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 50% at 80% 70%, rgba(160,180,240,0.1) 0%, transparent 60%);
+}
+body.theme-glass .topbar {
+  background:rgba(255,255,255,0.45);
+  backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
+}
+body.theme-glass .tab-bar {
+  background:rgba(255,255,255,0.4);
+  backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
+}
+body.theme-glass .card {
+  background:rgba(255,255,255,0.5);
+  backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px);
+  border:1px solid rgba(255,255,255,0.6);
+  box-shadow:0 2px 16px rgba(0,0,0,0.04);
+}
+body.theme-glass .bottom-nav {
+  background:rgba(255,255,255,0.5);
+  backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
+  border-top:1px solid rgba(0,0,0,0.05);
+}
+body.theme-glass .main-tab.active {
+  background:rgba(10,132,255,0.12);
+  color:var(--blue);
+  box-shadow:none;
+}
+body.theme-glass .sub-tab.active {
+  background:rgba(10,132,255,0.08);
+}
+body.theme-glass .marquee-bar {
+  background:rgba(255,255,255,0.4);
+  backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px);
+}
+body.theme-glass .settings-card {
+  background:rgba(255,255,255,0.5);
+  backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px);
+  border:1px solid rgba(255,255,255,0.6);
+}
 </style>
 </head>
 <body>
@@ -755,6 +966,96 @@ body.care-mode .news-time { font-size:12px!important; }
     </div>
   </div>
 
+  <!-- 专属页 -->
+  <div class="section-page" id="tab-exclusive">
+    <div class="exclusive-hero">
+      <h3>🎯 专属新闻定制</h3>
+      <p>输入你关注的主题（明星、球队、行业…），我们将在3小时内为你收集相关新闻，并按每日更新时间持续更新。</p>
+      <div class="exclusive-input-row">
+        <input type="text" class="exclusive-input" id="exclusiveInput" placeholder="例如：刘德华、河南足球、AI芯片…" maxlength="50">
+        <button class="btn-exclusive-add" id="btnExclusiveAdd" onclick="addInterest()">添加</button>
+      </div>
+    </div>
+    <div class="interest-tags" id="interestTags"></div>
+    <div class="card" id="exclusiveNewsCard">
+      <div class="card-header">
+        <div class="card-title">📰 专属新闻</div>
+        <div class="card-meta" id="exclusiveUpdateMeta"></div>
+      </div>
+      <div class="news-list" id="exclusiveNewsList">
+        <div class="exclusive-empty">
+          <div class="empty-icon">📭</div>
+          <div class="empty-text">添加关注主题后，相关新闻将在这里显示</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 设置页 -->
+  <div class="section-page" id="tab-settings">
+    <div class="settings-section">
+      <div class="settings-label">外观</div>
+      <div class="settings-card">
+        <div class="settings-row">
+          <div class="settings-row-left">
+            <span class="settings-row-title">主题</span>
+            <span class="settings-row-desc">选择你喜欢的视觉风格</span>
+          </div>
+          <div class="theme-options">
+            <div class="theme-option theme-default active" id="themeDefault" onclick="setTheme('default')" title="默认主题"></div>
+            <div class="theme-option theme-glass" id="themeGlass" onclick="setTheme('glass')" title="毛玻璃主题"></div>
+          </div>
+        </div>
+        <div class="settings-row">
+          <div class="settings-row-left">
+            <span class="settings-row-title">关怀版</span>
+            <span class="settings-row-desc">放大字体，更适合阅读</span>
+          </div>
+          <button class="toggle-switch" id="toggleCareMode" onclick="toggleCareMode()"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="settings-section">
+      <div class="settings-label">通知</div>
+      <div class="settings-card">
+        <div class="settings-row">
+          <div class="settings-row-left">
+            <span class="settings-row-title">消息推送</span>
+            <span class="settings-row-desc">接收比赛提醒、突发新闻推送</span>
+          </div>
+          <button class="toggle-switch" id="togglePushNotify" onclick="togglePushNotify()"></button>
+        </div>
+        <div class="settings-row">
+          <div class="settings-row-left">
+            <span class="settings-row-title">专属新闻更新通知</span>
+            <span class="settings-row-desc">关注主题有新内容时提醒</span>
+          </div>
+          <button class="toggle-switch" id="toggleExclusiveNotify" onclick="toggleExclusiveNotify()"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="settings-section">
+      <div class="settings-label">关于</div>
+      <div class="settings-card">
+        <div class="settings-row">
+          <div class="settings-row-left">
+            <span class="settings-row-title">当前版本</span>
+            <span class="settings-row-desc" id="settingsVersion">20260625v4</span>
+          </div>
+        </div>
+        <div class="settings-row">
+          <div class="settings-row-left">
+            <span class="settings-row-title">数据更新频率</span>
+            <span class="settings-row-desc">每日 0:00 / 6:00 / 12:00 / 18:00 更新</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="settings-version" id="settingsVersionFooter">臻宝每日简讯 · 用心为你筛选每一天</div>
+  </div>
+
 </main>
 
 <!-- Toast -->
@@ -770,6 +1071,22 @@ body.care-mode .news-time { font-size:12px!important; }
     <button class="sub-modal-skip" onclick="dismissSubModal()">暂不开启</button>
   </div>
 </div>
+
+<!-- Bottom Navigation -->
+<nav class="bottom-nav" id="bottomNav">
+  <button class="bottom-nav-btn active" data-page="home" id="bnHome">
+    <span class="bn-icon">🏠</span>
+    <span>首页</span>
+  </button>
+  <button class="bottom-nav-btn" data-page="exclusive" id="bnExclusive">
+    <span class="bn-icon">⭐</span>
+    <span>专属</span>
+  </button>
+  <button class="bottom-nav-btn" data-page="settings" id="bnSettings">
+    <span class="bn-icon">⚙️</span>
+    <span>设置</span>
+  </button>
+</nav>
 
 <script>
 /* ==================== DATA ENGINE ==================== */
@@ -2054,6 +2371,9 @@ function updateVersionBadge() {
   else slot = 'v1';
   const el = document.getElementById('brandVersion');
   if (el) el.textContent = y + m + d + slot;
+  // 同步设置页版本号
+  var sv = document.getElementById('settingsVersion');
+  if (sv) sv.textContent = y + m + d + slot;
 }
 
 /* ==================== REFRESH ==================== */
@@ -2302,6 +2622,11 @@ function toggleCareMode() {
     btn.title = isCare ? '关怀版已开启，点击恢复标准版' : '关怀版：大字体';
   }
   localStorage.setItem('care_mode', isCare ? '1' : '0');
+  // 同步设置页的开关
+  var toggle = document.getElementById('toggleCareMode');
+  if (toggle) {
+    if (isCare) toggle.classList.add('on'); else toggle.classList.remove('on');
+  }
 }
 // 恢复关怀版状态
 (function() {
@@ -2309,6 +2634,214 @@ function toggleCareMode() {
     document.body.classList.add('care-mode');
     var btn = document.getElementById('btnCare');
     if (btn) { btn.classList.add('active'); btn.title = '关怀版已开启，点击恢复标准版'; }
+    var toggle = document.getElementById('toggleCareMode');
+    if (toggle) toggle.classList.add('on');
+  }
+})();
+
+/* ==================== BOTTOM NAV ==================== */
+(function() {
+  var nav = document.getElementById('bottomNav');
+  if (!nav) return;
+  // 给 page-body 加底部间距
+  document.querySelector('.page-body').classList.add('has-bottom-nav');
+
+  nav.addEventListener('click', function(e) {
+    var btn = e.target.closest('.bottom-nav-btn');
+    if (!btn || !btn.dataset.page) return;
+    var page = btn.dataset.page;
+
+    // 更新底部导航激活状态
+    document.querySelectorAll('.bottom-nav-btn').forEach(function(b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+
+    if (page === 'home') {
+      // 显示主 tab 内容和 tab-bar
+      document.querySelector('.tab-bar').style.display = '';
+      hideAllMainPanels(); // hide exclusive + settings panels
+      // 恢复之前选中的主 tab
+      var activeMain = document.querySelector('.main-tab.active');
+      if (activeMain && activeMain.dataset.tab) {
+        showMainPanel(activeMain.dataset.tab);
+      } else {
+        showMainPanel('hotnews');
+      }
+    } else if (page === 'exclusive') {
+      // 隐藏主 tab-bar 和所有主面板
+      document.querySelector('.tab-bar').style.display = 'none';
+      hideAllMainPanels();
+      document.getElementById('tab-exclusive').classList.add('active');
+      renderExclusivePage();
+    } else if (page === 'settings') {
+      // 隐藏主 tab-bar 和所有主面板
+      document.querySelector('.tab-bar').style.display = 'none';
+      hideAllMainPanels();
+      document.getElementById('tab-settings').classList.add('active');
+      renderSettingsPage();
+    }
+  });
+
+  function hideAllMainPanels() {
+    document.querySelectorAll('.section-page').forEach(function(p) { p.classList.remove('active'); });
+  }
+
+  function showMainPanel(tabId) {
+    var panel = document.getElementById('tab-' + tabId);
+    if (panel) panel.classList.add('active');
+  }
+})();
+
+/* ==================== 专属页 ==================== */
+var EXCLUSIVE_STORAGE_KEY = 'exclusive_interests';
+var EXCLUSIVE_NEWS_KEY = 'exclusive_news';
+
+function getInterests() {
+  try { return JSON.parse(localStorage.getItem(EXCLUSIVE_STORAGE_KEY) || '[]'); } catch(e) { return []; }
+}
+function saveInterests(arr) {
+  localStorage.setItem(EXCLUSIVE_STORAGE_KEY, JSON.stringify(arr));
+}
+
+function addInterest() {
+  var input = document.getElementById('exclusiveInput');
+  if (!input) return;
+  var val = input.value.trim();
+  if (!val) return;
+  if (val.length > 50) { alert('最多输入50个字符'); return; }
+  var interests = getInterests();
+  if (interests.indexOf(val) !== -1) { alert('该主题已添加'); return; }
+  if (interests.length >= 10) { alert('最多添加10个关注主题'); return; }
+  interests.push(val);
+  saveInterests(interests);
+  input.value = '';
+  renderExclusivePage();
+}
+
+function removeInterest(idx) {
+  var interests = getInterests();
+  interests.splice(idx, 1);
+  saveInterests(interests);
+  renderExclusivePage();
+}
+
+function renderExclusivePage() {
+  var interests = getInterests();
+  var tagsEl = document.getElementById('interestTags');
+  var newsList = document.getElementById('exclusiveNewsList');
+  var meta = document.getElementById('exclusiveUpdateMeta');
+
+  // 渲染标签
+  if (tagsEl) {
+    if (interests.length === 0) {
+      tagsEl.innerHTML = '';
+    } else {
+      tagsEl.innerHTML = interests.map(function(item, i) {
+        return '<span class="interest-tag">' + item + '<button class="tag-remove" onclick="removeInterest(' + i + ')">✕</button></span>';
+      }).join('');
+    }
+  }
+
+  // 渲染新闻
+  if (newsList) {
+    if (interests.length === 0) {
+      newsList.innerHTML = '<div class="exclusive-empty"><div class="empty-icon">📭</div><div class="empty-text">添加关注主题后，相关新闻将在这里显示</div></div>';
+    } else {
+      var news = getExclusiveNews();
+      if (meta) {
+        var now = new Date();
+        var h = now.getHours().toString().padStart(2,'0');
+        var m = now.getMinutes().toString().padStart(2,'0');
+        meta.textContent = '共 ' + news.length + ' 条 · ' + h + ':' + m + ' 更新';
+      }
+      if (news.length === 0) {
+        newsList.innerHTML = '<div class="exclusive-empty"><div class="empty-icon">⏳</div><div class="empty-text">正在为你搜集相关新闻，预计3小时内送达…</div></div>';
+      } else {
+        newsList.innerHTML = news.map(function(n) {
+          return '<div class="exclusive-news-item">'
+            + '<div class="exclusive-news-title">' + n.title + '</div>'
+            + '<div class="exclusive-news-summary">' + n.summary + '</div>'
+            + '<div class="exclusive-news-meta"><span>' + n.source + '</span><span>' + n.time + '</span><span>匹配：' + n.matchTag + '</span></div>'
+            + '</div>';
+        }).join('');
+      }
+    }
+  }
+}
+
+function getExclusiveNews() {
+  try { return JSON.parse(localStorage.getItem(EXCLUSIVE_NEWS_KEY) || '[]'); } catch(e) { return []; }
+}
+
+/* ==================== 设置页 ==================== */
+var THEME_KEY = 'site_theme';
+
+function renderSettingsPage() {
+  // 同步版本号
+  var versionEl = document.getElementById('brandVersion');
+  var settingsVer = document.getElementById('settingsVersion');
+  if (versionEl && settingsVer) {
+    settingsVer.textContent = versionEl.textContent;
+  }
+
+  // 同步主题选择
+  var currentTheme = localStorage.getItem(THEME_KEY) || 'default';
+  document.getElementById('themeDefault').classList.toggle('active', currentTheme === 'default');
+  document.getElementById('themeGlass').classList.toggle('active', currentTheme !== 'default');
+
+  // 同步推送开关
+  var pushNotify = document.getElementById('togglePushNotify');
+  if (pushNotify) {
+    var pushOn = localStorage.getItem('push_notify') === '1';
+    pushNotify.classList.toggle('on', pushOn);
+  }
+  var exclNotify = document.getElementById('toggleExclusiveNotify');
+  if (exclNotify) {
+    var exclOn = localStorage.getItem('exclusive_notify') === '1';
+    exclNotify.classList.toggle('on', exclOn);
+  }
+}
+
+function setTheme(theme) {
+  document.getElementById('themeDefault').classList.toggle('active', theme === 'default');
+  document.getElementById('themeGlass').classList.toggle('active', theme !== 'default');
+  if (theme === 'glass') {
+    document.body.classList.add('theme-glass');
+  } else {
+    document.body.classList.remove('theme-glass');
+  }
+  localStorage.setItem(THEME_KEY, theme);
+}
+
+function togglePushNotify() {
+  var btn = document.getElementById('togglePushNotify');
+  var current = localStorage.getItem('push_notify') === '1';
+  var next = !current;
+  localStorage.setItem('push_notify', next ? '1' : '0');
+  if (btn) btn.classList.toggle('on', next);
+
+  // 如果开启，请求通知权限
+  if (next && 'Notification' in window && Notification.permission === 'default') {
+    Notification.requestPermission();
+  }
+}
+
+function toggleExclusiveNotify() {
+  var btn = document.getElementById('toggleExclusiveNotify');
+  var current = localStorage.getItem('exclusive_notify') === '1';
+  var next = !current;
+  localStorage.setItem('exclusive_notify', next ? '1' : '0');
+  if (btn) btn.classList.toggle('on', next);
+
+  if (next && 'Notification' in window && Notification.permission === 'default') {
+    Notification.requestPermission();
+  }
+}
+
+// 初始化主题
+(function() {
+  var theme = localStorage.getItem(THEME_KEY) || 'default';
+  if (theme === 'glass') {
+    document.body.classList.add('theme-glass');
   }
 })();
 
