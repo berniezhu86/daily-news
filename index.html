@@ -2191,47 +2191,53 @@ function toggleCareMode() {
 var _marqueeRealtimeTimer = null;
 
 function fetchMarqueeStockData() {
-  // 新浪财经实时行情接口（A股指数）
-  // 返回格式：var hq_str_s_sh000001="上证指数,3386.41,12.34,0.37";
-  var url = 'https://hq.sinajs.cn/list=s_sh000001,s_sz399001,s_sz399006,s_sh000300';
-  fetch(url, { mode: 'cors' })
-    .then(function(r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.text();
-    })
-    .then(function(text) {
+  // 使用 JSONP 方式调用新浪财经实时行情接口，避开 CORS 限制
+  // 接口返回：var hq_str_s_sh000001="上证指数,3386.41,12.34,0.37";
+  var symbols = 's_sh000001,s_sz399001,s_sz399006,s_sh000300';
+  var url = 'https://hq.sinajs.cn/list=' + symbols;
+  var scriptId = '_sina_mq_script';
+
+  // 移除旧 script（避免重复加载）
+  var old = document.getElementById(scriptId);
+  if (old) old.remove();
+
+  var script = document.createElement('script');
+  script.id = scriptId;
+  script.src = url;
+  script.onload = function() {
+    try {
       var headlines = [];
-      // 解析上证指数
-      var m1 = text.match(/hq_str_s_sh000001="([^"]+)"/);
-      if (m1) {
-        var p = m1[1].split(',');
+      // 上证指数
+      var r1 = window.hq_str_s_sh000001;
+      if (r1) {
+        var p = r1.split(',');
         if (p.length >= 4) {
           var arrow = parseFloat(p[2]) >= 0 ? '▲' : '▼';
           headlines.push('📈 上证指数 ' + p[1] + ' ' + arrow + parseFloat(p[3]).toFixed(2) + '%');
         }
       }
-      // 解析深证成指
-      var m2 = text.match(/hq_str_s_sz399001="([^"]+)"/);
-      if (m2) {
-        var p = m2[1].split(',');
+      // 深证成指
+      var r2 = window.hq_str_s_sz399001;
+      if (r2) {
+        var p = r2.split(',');
         if (p.length >= 4) {
           var arrow = parseFloat(p[2]) >= 0 ? '▲' : '▼';
           headlines.push('📈 深证成指 ' + p[1] + ' ' + arrow + parseFloat(p[3]).toFixed(2) + '%');
         }
       }
-      // 解析创业板指
-      var m3 = text.match(/hq_str_s_sz399006="([^"]+)"/);
-      if (m3) {
-        var p = m3[1].split(',');
+      // 创业板指
+      var r3 = window.hq_str_s_sz399006;
+      if (r3) {
+        var p = r3.split(',');
         if (p.length >= 4) {
           var arrow = parseFloat(p[2]) >= 0 ? '▲' : '▼';
           headlines.push('📈 创业板指 ' + p[1] + ' ' + arrow + parseFloat(p[3]).toFixed(2) + '%');
         }
       }
-      // 解析沪深300
-      var m4 = text.match(/hq_str_s_sh000300="([^"]+)"/);
-      if (m4) {
-        var p = m4[1].split(',');
+      // 沪深300
+      var r4 = window.hq_str_s_sh000300;
+      if (r4) {
+        var p = r4.split(',');
         if (p.length >= 4) {
           var arrow = parseFloat(p[2]) >= 0 ? '▲' : '▼';
           headlines.push('📈 沪深300 ' + p[1] + ' ' + arrow + parseFloat(p[3]).toFixed(2) + '%');
@@ -2250,10 +2256,17 @@ function fetchMarqueeStockData() {
         console.log('✅ 跑马灯股票数据已更新', headlines);
         renderMarquee();
       }
-    })
-    .catch(function(err) {
-      console.warn('跑马灯股票数据获取失败（可能是 CORS 限制），保留静态数据', err.message);
-    });
+    } catch(e) {
+      console.warn('fetchMarqueeStockData 解析失败:', e.message);
+    }
+    // 清理：移除 script 标签
+    var s = document.getElementById(scriptId);
+    if (s) s.remove();
+  };
+  script.onerror = function() {
+    console.warn('跑马灯股票数据获取失败（网络或接口异常），保留静态数据');
+  };
+  document.head.appendChild(script);
 }
 
 function startMarqueeRealtime() {
