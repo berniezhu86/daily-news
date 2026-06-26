@@ -339,6 +339,24 @@ body.care-mode .news-time { font-size:12px!important; }
 .global-closing-title { font-size:12px; font-weight:600; color:var(--text3); margin-bottom:10px; display:flex; align-items:center; gap:4px; }
 .global-closing .stock-grid { padding-top:0; }
 .stock-ai-note { margin:4px 20px 8px; padding:10px 14px; border-radius:var(--r-md); background:linear-gradient(135deg,rgba(94,92,230,0.07),rgba(10,132,255,0.07)); border:1px solid rgba(94,92,230,0.12); font-size:13px; color:var(--indigo); text-align:center; }
+.stock-refresh-note { font-size:11px; color:var(--text3); margin-left:auto; white-space:nowrap; }
+
+/* 板块预测 */
+.sector-prediction { margin:12px 20px 8px; }
+.sector-prediction-title { font-size:13px; font-weight:700; color:var(--text1); margin-bottom:10px; display:flex; align-items:center; gap:4px; }
+.sector-list { display:flex; flex-direction:column; gap:8px; }
+.sector-item { display:flex; align-items:center; gap:10px; padding:10px 12px; border-radius:var(--r-md); border:1px solid var(--border); background:var(--surface1); }
+.sector-rank { width:22px; height:22px; border-radius:6px; display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:800; color:#fff; flex-shrink:0; }
+.sector-rank.r1 { background:linear-gradient(135deg,#ff6b35,#ff3b30); }
+.sector-rank.r2 { background:linear-gradient(135deg,#ff9500,#ff6b35); }
+.sector-rank.r3 { background:linear-gradient(135deg,#f9a825,#ff9500); }
+.sector-rank.rn { background:#8e8e93; }
+.sector-name { font-weight:600; font-size:13px; color:var(--text1); min-width:60px; flex-shrink:0; }
+.sector-reason { font-size:11px; color:var(--text3); line-height:1.5; }
+.sector-tag { display:inline-block; padding:1px 6px; border-radius:3px; font-size:10px; font-weight:600; margin-left:4px; flex-shrink:0; }
+.sector-tag.bull { background:rgba(255,59,48,0.12); color:var(--red); }
+.sector-tag.watch { background:rgba(255,149,0,0.12); color:#ff9500; }
+.sector-tag.steady { background:rgba(10,132,255,0.12); color:var(--blue); }
 
 /* ===== CSL STANDINGS TABLE ===== */
 .csl-standings { padding:4px 16px 12px; overflow-x:auto; -webkit-overflow-scrolling:touch; }
@@ -653,9 +671,10 @@ body.care-mode .news-time { font-size:12px!important; }
       <div class="market-bar" id="marketStatus">
         <span class="dot-closed" id="statusDot"></span>
         <span id="statusText">数据加载中...</span>
-        <span id="statusRefreshNote" style="display:none">(每小时刷新)</span>
+        <span class="stock-refresh-note" id="stockRefreshNote">📌 数据于每日收盘后更新（A股 11:30 / 15:00）</span>
       </div>
       <div class="stock-grid" id="stockGrid"></div>
+      <div class="sector-prediction" id="sectorPrediction" style="display:none;"></div>
       <div class="global-closing" id="globalClosing" style="display:none;">
         <div class="global-closing-title">🌏 全球市场 · 最近收盘数据</div>
         <div class="stock-grid" id="globalGrid"></div>
@@ -1253,6 +1272,36 @@ const mockStockIndices = {
     { name:"台积电(TSM)", value:"189.45", change:"+1.08%", direction:"up", reason:"2nm制程量产在即，AI芯片代工需求旺盛" },
   ];
 
+  // 板块预测（基于今日盘面与最新数据）
+  const mockSectorPrediction = [
+    { rank:1, name:"半导体", tag:"强势", tagClass:"bull", reason:"费城半导体指数再创新高，台积电2nm量产预期催化，国内先进封装产能持续扩张，AI芯片需求确定性最强" },
+    { rank:2, name:"AI算力", tag:"强势", tagClass:"bull", reason:"英伟达H200供不应求，国内算力租赁价格坚挺，光模块800G向1.6T升级周期开启，龙头厂商订单能见度至2027年" },
+    { rank:3, name:"新能源车", tag:"关注", tagClass:"watch", reason:"特斯拉Optimus量产催化智能化估值重塑，比亚迪海外出口连续3月创新高，智能驾驶渗透率加速提升带动产业链" },
+    { rank:4, name:"消费电子", tag:"关注", tagClass:"watch", reason:"苹果WWDC后换机周期预期升温，华为折叠屏份额破40%，AI手机/PC落地驱动上游零部件备货潮" },
+    { rank:5, name:"创新药", tag:"稳健", tagClass:"steady", reason:"美联储降息预期利好生物科技估值修复，国内多个ADC管线进入临床III期，创新药出海BD交易单笔金额屡破纪录" },
+    { rank:6, name:"低空经济", tag:"关注", tagClass:"watch", reason:"多地密集出台空域开放细则，eVTOL适航审定加速，产业链从概念进入订单落地阶段，飞行器+空管系统双线受益" },
+    { rank:7, name:"有色/黄金", tag:"稳健", tagClass:"steady", reason:"全球央行购金需求持续，铜铝库存低位+供给约束下价格有支撑，海外制造业PMI回升驱动工业金属需求" },
+    { rank:8, name:"电力/储能", tag:"稳健", tagClass:"steady", reason:"夏季用电高峰叠加AI数据中心电力需求，储能项目开工量同比增40%，电力市场化改革释放价格弹性" },
+  ];
+
+function renderSectorPrediction() {
+  const el = document.getElementById('sectorPrediction');
+  if (!el) return;
+  el.style.display = 'block';
+  const rc = function(r) { return r === 1 ? 'r1' : r === 2 ? 'r2' : r === 3 ? 'r3' : 'rn'; };
+  el.innerHTML = '<div class="sector-prediction-title">📊 板块预测 · <span style="font-weight:400;font-size:11px;color:var(--text3)">基于今日盘面与最新数据</span></div>'
+    + '<div class="sector-list">'
+    + mockSectorPrediction.map(function(s) {
+        return '<div class="sector-item">'
+          + '<div class="sector-rank ' + rc(s.rank) + '">' + s.rank + '</div>'
+          + '<div class="sector-name">' + s.name + '</div>'
+          + '<span class="sector-tag ' + s.tagClass + '">' + s.tag + '</span>'
+          + '<div class="sector-reason">' + s.reason + '</div>'
+          + '</div>';
+      }).join('')
+    + '</div>';
+}
+
 /* ==================== STATE ==================== */
 let hotNewsActiveTab = 'domestic';
 // Pagination state: 0=first batch shown, 1=second batch, etc. Max 4 extra batches (80 more items).
@@ -1517,8 +1566,10 @@ document.getElementById('stockSubTabs').addEventListener('click', function(e) {
   const type = btn.dataset.stock;
   if (type === 'reco') {
     renderStockIndices(mockStockAI);
-    document.getElementById('stockNewsList').innerHTML = '<div class="stock-ai-note">🤖 AI 基于最新财报、技术进展和市场情绪综合推荐，仅供参考</div>';
+    renderSectorPrediction();
+    document.getElementById('stockNewsList').innerHTML = '<div class="stock-ai-note">🤖 基于今日盘面与最新数据，AI 综合分析推荐，仅供参考</div>';
   } else {
+    document.getElementById('sectorPrediction').style.display = 'none';
     renderStockIndices(mockStockIndices[type]);
     renderStockNews(mockStockNews);
     renderGlobalClosing();
@@ -1761,15 +1812,15 @@ var lastStockUpdateTime = null;  // 记录上次成功更新数据的时间
 function updateMarketStatus() {
   const dot = document.getElementById('statusDot');
   const text = document.getElementById('statusText');
-  const note = document.getElementById('statusRefreshNote');
+  const note = document.getElementById('stockRefreshNote');
   const activeTab = document.querySelector('#stockSubTabs .sub-tab.active');
   const type = activeTab ? activeTab.dataset.stock : 'us';
   const open = isMarketOpen(type);
   const labels = { us: '美股', cn: 'A股', reco: 'AI荐股' };
   if (open) {
     dot.className = 'dot-live';
-    text.textContent = (labels[type] || '') + ' · 交易时段 · 每3分钟自动刷新';
-    note.style.display = 'inline';
+    text.textContent = (labels[type] || '') + ' · 交易中 · 收盘后自动更新数据';
+    if (note) note.style.display = 'inline';
   } else {
     dot.className = 'dot-closed';
     if (lastStockUpdateTime) {
@@ -1779,7 +1830,7 @@ function updateMarketStatus() {
     } else {
       text.textContent = (labels[type] || '') + ' · 休市中 · 显示最近收盘数据';
     }
-    note.style.display = 'none';
+    if (note) note.style.display = 'inline';
   }
 }
 
@@ -1871,17 +1922,26 @@ async function fetchGlobalStockData() {
 }
 
 function scheduleStockRefresh() {
-  // 每3分钟自动刷新（交易时间内）
-  setInterval(function() {
-    if (isMarketOpen('cn') || isMarketOpen('us')) {
+  // 每天在收盘后各刷新一次：A股午盘 11:30 后、A股收盘 15:00 后
+  // 美股收盘时间（北京时间次日凌晨），在页面初始化时处理
+  function tryRefresh() {
+    var now = new Date();
+    var h = now.getUTCHours() + 8;
+    // A股午盘收盘后（11:30-11:59）或 A股收盘后（15:00-17:59）
+    var isMorningClose = (h >= 11 && h < 12 && now.getUTCMinutes() >= 30) || (h === 12);
+    var isAfternoonClose = h >= 15 && h < 18;
+    if (isMorningClose || isAfternoonClose) {
       refreshStockData().catch(function(){});
-      fetchMarqueeStockData();
     }
-  }, 180000);
-  // 首次立即刷新
-  if (isMarketOpen('cn') || isMarketOpen('us')) {
-    refreshStockData().catch(function(){});
+    // 美股交易时段也尝试刷新
+    if (isMarketOpen('us')) {
+      refreshStockData().catch(function(){});
+    }
   }
+  // 每15分钟检查一次（替代原来的3分钟高频率轮询）
+  setInterval(tryRefresh, 900000);
+  // 首次加载时尝试刷新
+  tryRefresh();
 }
 
 /* ==================== SUBSCRIBE MATCH ==================== */
