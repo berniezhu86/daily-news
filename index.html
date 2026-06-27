@@ -3571,18 +3571,9 @@ function addInterest() {
     saveUsers();
     setCurrentUser(u);
     input.value = '';
-    // 提示横幅：通知 Marvis 更新新闻
-    var banner = document.createElement('div');
-    banner.style.cssText = 'background:linear-gradient(135deg,#3b82f6,#2563eb);color:#fff;padding:12px 16px;border-radius:12px;margin-top:12px;display:flex;align-items:center;justify-content:space-between;font-size:13px;animation:bannerSlideIn 0.3s ease';
-    banner.innerHTML = '<span>兴趣词已保存，需要立即搜索新闻？</span><button style="background:#fff;color:#2563eb;border:none;border-radius:8px;padding:6px 14px;font-size:12px;font-weight:600;cursor:pointer">通知 Marvis</button>';
-    banner.querySelector('button').onclick = function() {
-      banner.textContent = '已发送通知，新闻即将更新...';
-      banner.style.justifyContent = 'center';
-      setTimeout(function() { banner.remove(); }, 3000);
+    showNotifyModal('兴趣词已保存', '需要立即搜索相关新闻吗？', function() {
       try { window.open('marvis://chat?text=更新专属新闻','_blank'); } catch(e) {}
-    };
-    input.parentNode.insertBefore(banner, input.nextSibling);
-    setTimeout(function() { if (banner.parentNode) banner.remove(); }, 8000);
+    });
     renderAccountUI();
     renderExclusivePage();
     return;
@@ -3605,22 +3596,39 @@ function addInterest() {
   interests.push(val);
   saveInterests(interests);
   input.value = '';
-  // 提示横幅：通知 Marvis 更新新闻
-  var banner = document.createElement('div');
-  banner.style.cssText = 'background:linear-gradient(135deg,#3b82f6,#2563eb);color:#fff;padding:12px 16px;border-radius:12px;margin-top:12px;display:flex;align-items:center;justify-content:space-between;font-size:13px;animation:bannerSlideIn 0.3s ease';
-  banner.innerHTML = '<span>兴趣词已保存，需要立即搜索新闻？</span><button style="background:#fff;color:#2563eb;border:none;border-radius:8px;padding:6px 14px;font-size:12px;font-weight:600;cursor:pointer">通知 Marvis</button>';
-  banner.querySelector('button').onclick = function() {
-    banner.textContent = '已发送通知，新闻即将更新...';
-    banner.style.justifyContent = 'center';
-    setTimeout(function() { banner.remove(); }, 3000);
+  showNotifyModal('兴趣词已保存', '需要立即搜索相关新闻吗？', function() {
     try { window.open('marvis://chat?text=更新专属新闻','_blank'); } catch(e) {}
-  };
-  input.parentNode.insertBefore(banner, input.nextSibling);
-  setTimeout(function() { if (banner.parentNode) banner.remove(); }, 8000);
+  });
   renderExclusivePage();
 }
 
 var confirmCallback = null;
+var notifyCallback = null;
+
+function showNotifyModal(title, msg, callback) {
+  var el = document.getElementById('notifyModal');
+  document.getElementById('notifyTitle').textContent = title || '';
+  document.getElementById('notifyMsg').textContent = msg || '';
+  notifyCallback = callback;
+  el.style.display = 'flex';
+  requestAnimationFrame(function() {
+    requestAnimationFrame(function() {
+      el.classList.add('show');
+    });
+  });
+}
+
+function closeNotifyModal(action) {
+  var el = document.getElementById('notifyModal');
+  el.classList.remove('show');
+  setTimeout(function() {
+    el.style.display = 'none';
+    if (action && typeof notifyCallback === 'function') {
+      notifyCallback();
+    }
+    notifyCallback = null;
+  }, 250);
+}
 
 function showConfirmModal(title, msg, callback) {
   confirmCallback = callback;
@@ -4341,6 +4349,19 @@ console.log('每日简讯 2026-06-25 更新完成');
     <div class="modal-btns">
       <button class="btn btn-outline" onclick="closeConfirmModal(false)">取消</button>
       <button class="btn btn-primary" id="confirmOkBtn" onclick="closeConfirmModal(true)">确定</button>
+    </div>
+  </div>
+</div>
+
+<!-- 通知弹窗 -->
+<div class="modal-overlay" id="notifyModal">
+  <div class="modal-box" style="position:relative">
+    <span class="modal-close" onclick="closeNotifyModal(false)">×</span>
+    <div class="modal-title" id="notifyTitle">提示</div>
+    <div style="color:rgba(255,255,255,0.9);font-size:14px;text-align:center;margin-bottom:20px;line-height:1.5" id="notifyMsg"></div>
+    <div class="modal-btns">
+      <button class="btn btn-outline" onclick="closeNotifyModal(false)">稍后</button>
+      <button class="btn btn-primary" onclick="closeNotifyModal(true)">通知 Marvis</button>
     </div>
   </div>
 </div>
