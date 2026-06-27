@@ -3554,6 +3554,70 @@ function isSensitive(word) {
   return false;
 }
 
+// GitHub API 配置
+var GITHUB_TOKEN = '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';
+var GH_REPO = 'berniezhu86/daily-news';
+var GH_API = 'https://api.github.com/repos/' + GH_REPO;
+
+// 同步兴趣词到 GitHub 仓库
+function syncToGitHub(user, keyword, action, callback) {
+  // 1) 读取当前文件
+  fetch(GH_API + '/contents/exclusive_interests.json', {
+    headers: { 'Authorization': 'token ' + GITHUB_TOKEN }
+  })
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
+    var sha = data.sha;
+    var content = '';
+    try { content = decodeURIComponent(escape(atob(data.content))); } catch(e) { content = atob(data.content); }
+    var interests = {};
+    try { interests = JSON.parse(content); } catch(e) { interests = {}; }
+    
+    if (!interests[user]) interests[user] = [];
+    if (action === 'remove') {
+      interests[user] = interests[user].filter(function(k) { return k !== keyword; });
+    } else {
+      if (interests[user].indexOf(keyword) === -1) interests[user].push(keyword);
+    }
+    
+    var newContent = JSON.stringify(interests, null, 2);
+    var encoded = btoa(unescape(encodeURIComponent(newContent)));
+    
+    // 2) 写回文件
+    return fetch(GH_API + '/contents/exclusive_interests.json', {
+      method: 'PUT',
+      headers: {
+        'Authorization': 'token ' + GITHUB_TOKEN,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        message: user + ' ' + action + ' interest: ' + keyword,
+        content: encoded,
+        sha: sha
+      })
+    });
+  })
+  .then(function(r) { return r.json(); })
+  .then(function() {
+    // 3) 触发 workflow
+    return fetch(GH_API + '/actions/workflows/auto-news.yml/dispatches', {
+      method: 'POST',
+      headers: {
+        'Authorization': 'token ' + GITHUB_TOKEN,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ ref: 'main' })
+    });
+  })
+  .then(function() {
+    if (callback) callback(true);
+  })
+  .catch(function(err) {
+    console.error('[GitHub Sync]', err);
+    if (callback) callback(false);
+  });
+}
+
 function addInterest() {
   var u = getCurrentUser();
   if (u) {
@@ -3572,23 +3636,12 @@ function addInterest() {
     setCurrentUser(u);
     input.value = '';
     var currentInterest = word;
-    // 自动通知 Marvis 本地服务
-    var notifyUser = (currentUser && currentUser.nickname) || currentUser || '匿名用户';
-    fetch('http://127.0.0.1:9876/interest?user=' + encodeURIComponent(notifyUser) + '&keyword=' + encodeURIComponent(currentInterest))
-      .then(function(r) { return r.json(); })
-      .then(function(data) {
-        console.log('[Marvis] 兴趣词已同步:', data);
-      })
-      .catch(function(err) {
-        console.log('[Marvis] 本地服务未连接:', err);
-      });
-    showNotifyModal('兴趣词已保存', '需要立即搜索相关新闻吗？', function() {
-      var cmd = '更新专属: ' + currentInterest;
-      navigator.clipboard.writeText(cmd).then(function() {
-        showNotifyModal('已复制到剪贴板', '请按 Cmd+V 粘贴到 Marvis 对话中发送');
-      }).catch(function() {
-        showNotifyModal(cmd, '请手动输入发给 Marvis');
-      });
+    syncToGitHub((currentUser && currentUser.nickname) || '匿名用户', currentInterest, 'add', function(ok) {
+      if (ok) {
+        showNotifyModal('兴趣词已保存', 'GitHub Actions 正在搜索相关新闻\n约1分钟后刷新页面即可看到结果');
+      } else {
+        showNotifyModal('兴趣词已保存（本地）', '同步到服务器失败，请稍后重试');
+      }
     });
     renderAccountUI();
     renderExclusivePage();
@@ -3612,23 +3665,12 @@ function addInterest() {
   interests.push(val);
   saveInterests(interests);
   input.value = '';
-  // 自动通知 Marvis 本地服务
-  var notifyUser = '匿名用户';
-  fetch('http://127.0.0.1:9876/interest?user=' + encodeURIComponent(notifyUser) + '&keyword=' + encodeURIComponent(val))
-    .then(function(r) { return r.json(); })
-    .then(function(data) {
-      console.log('[Marvis] 兴趣词已同步:', data);
-    })
-    .catch(function(err) {
-      console.log('[Marvis] 本地服务未连接:', err);
-    });
-  showNotifyModal('兴趣词已保存', '需要立即搜索相关新闻吗？', function() {
-    var cmd = '更新专属: ' + val;
-    navigator.clipboard.writeText(cmd).then(function() {
-      showNotifyModal('已复制到剪贴板', '请按 Cmd+V 粘贴到 Marvis 对话中发送');
-    }).catch(function() {
-      showNotifyModal(cmd, '请手动输入发给 Marvis');
-    });
+  syncToGitHub('匿名用户', val, 'add', function(ok) {
+    if (ok) {
+      showNotifyModal('兴趣词已保存', 'GitHub Actions 正在搜索相关新闻\n约1分钟后刷新页面即可看到结果');
+    } else {
+      showNotifyModal('兴趣词已保存（本地）', '同步到服务器失败，请稍后重试');
+    }
   });
   renderExclusivePage();
 }
