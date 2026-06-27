@@ -2287,12 +2287,18 @@ function doRegister() {
   var pw = document.getElementById('loginPassword').value.trim();
   if (!nick || !pw) { msg('昵称和密码不能为空', 'error'); return; }
   if (allUsers[nick]) { msg('该昵称已存在，请直接登录', 'error'); return; }
-  allUsers[nick] = { password: pw, interests: [] };
-  saveUsers();
-  setCurrentUser({ nickname: nick, interests: [] });
-  msg('注册成功！', 'success');
-  renderAccountUI();
-  renderExclusivePage();
+
+  // 跨设备全局查重
+  msg('正在验证昵称唯一性...', '');
+  checkNicknameGlobal(nick, function(isTaken, errMsg) {
+    if (isTaken) { msg(errMsg, 'error'); return; }
+    allUsers[nick] = { password: pw, interests: [] };
+    saveUsers();
+    setCurrentUser({ nickname: nick, interests: [] });
+    msg('注册成功！', 'success');
+    renderAccountUI();
+    renderExclusivePage();
+  });
 }
 
 function doLogin() {
@@ -2349,15 +2355,21 @@ function modalRegister() {
   var pw = document.getElementById('modalPassword').value.trim();
   if (!nick || !pw) { modalMsg('昵称和密码不能为空', 'error'); return; }
   if (allUsers[nick]) { modalMsg('该昵称已存在，请直接登录', 'error'); return; }
-  allUsers[nick] = { password: pw, interests: [] };
-  saveUsers();
-  setCurrentUser({ nickname: nick, interests: [] });
-  modalMsg('注册成功！', 'success');
-  setTimeout(function() {
-    closeLoginModal();
-    renderAccountUI();
-    renderExclusiveNews();
-  }, 500);
+
+  // 跨设备全局查重
+  modalMsg('正在验证昵称唯一性...', '');
+  checkNicknameGlobal(nick, function(isTaken, errMsg) {
+    if (isTaken) { modalMsg(errMsg, 'error'); return; }
+    allUsers[nick] = { password: pw, interests: [] };
+    saveUsers();
+    setCurrentUser({ nickname: nick, interests: [] });
+    modalMsg('注册成功！', 'success');
+    setTimeout(function() {
+      closeLoginModal();
+      renderAccountUI();
+      renderExclusiveNews();
+    }, 500);
+  });
 }
 
 function modalLogin() {
@@ -3561,6 +3573,34 @@ function isSensitive(word) {
 var GITHUB_TOKEN = '__GITHUB_TOKEN__';
 var GH_REPO = 'berniezhu86/daily-news';
 var GH_API = 'https://api.github.com/repos/' + GH_REPO;
+
+// 全局用户名唯一性检查（跨设备去重）
+// 从 GitHub 拉取 exclusive_interests.json，检查昵称是否已被注册
+// callback(isTaken, errorMsg): isTaken=true 表示已被占用
+function checkNicknameGlobal(nick, callback) {
+  fetch(GH_API + '/contents/exclusive_interests.json', {
+    headers: { 'Authorization': 'token ' + GITHUB_TOKEN }
+  })
+  .then(function(r) {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  })
+  .then(function(data) {
+    var content = '';
+    try { content = decodeURIComponent(escape(atob(data.content))); } catch(e) { content = atob(data.content); }
+    var interests = {};
+    try { interests = JSON.parse(content); } catch(e) { interests = {}; }
+    if (interests.hasOwnProperty(nick)) {
+      callback(true, '该昵称已被其他设备注册，请更换昵称或直接登录');
+    } else {
+      callback(false, null);
+    }
+  })
+  .catch(function(err) {
+    console.warn('[全局查重] 网络异常，降级为本地检查:', err);
+    callback(false, null); // 网络故障时放行，避免阻塞注册
+  });
+}
 
 // 同步兴趣词到 GitHub 仓库
 function syncToGitHub(user, keyword, action, callback) {
