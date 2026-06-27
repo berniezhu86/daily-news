@@ -4,6 +4,7 @@
 import re
 import json
 import requests
+from urllib.parse import quote
 
 SOURCE_FILE = "/Users/bainian/Documents/软件测试/臻宝每日快讯_带摘要.html"
 OUTPUT_FILE = "/Users/bainian/WorkBuddy/2026-06-25-10-20-28/zhenbao-daily-news/extracted_news.json"
@@ -296,22 +297,79 @@ def main():
         print(f"Exclusive news saved to: {exclusive_file}")
 
 
-def search_interest_news(keyword, max_results=5):
-    """搜索兴趣词相关新闻"""
-    import re
+def search_interest_news(query, max_results=5):
+    """
+    Search for news about a given query using Baidu News (primary) + Sogou (fallback).
+    Returns list of {title, source, summary} dicts.
+    """
     results = []
+    search_url = f"https://www.baidu.com/s?tn=news&rtt=1&bsst=1&wd={quote(query)}"
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml',
+        'Accept-Language': 'zh-CN,zh;q=0.9',
+    }
     try:
-        url = f"https://html.duckduckgo.com/html/?q={requests.utils.quote(keyword + ' 新闻')}"
-        headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
-        resp = requests.get(url, headers=headers, timeout=10)
-        titles = re.findall(r'<a[^>]*class="result__a"[^>]*>(.*?)</a>', resp.text)
-        snippets = re.findall(r'<a[^>]*class="result__snippet"[^>]*>(.*?)</a>', resp.text)
-        for i in range(min(len(titles), max_results)):
-            title = re.sub(r'<[^>]+>', '', titles[i]).strip()
-            snippet = re.sub(r'<[^>]+>', '', snippets[i]).strip() if i < len(snippets) else ''
-            results.append({'title': title, 'summary': snippet[:120]})
+        resp = requests.get(search_url, headers=headers, timeout=15)
+        resp.encoding = 'utf-8'
+        html = resp.text
+        
+        # 百度新闻搜索结果：标题在 h3 > a 中
+        pattern = r'<h3[^>]*>\s*<a[^>]*href="([^"]*)"[^>]*>(.*?)</a>\s*</h3>'
+        matches = re.findall(pattern, html)
+        
+        for url, title in matches[:max_results]:
+            title = re.sub(r'<[^>]+>', '', title).strip()
+            if title and len(title) > 2:
+                results.append({
+                    'title': title,
+                    'source': '百度新闻',
+                    'summary': ''
+                })
+        
+        if not results:
+            print(f"  ⚠ Baidu pattern1 failed, trying pattern2...")
+            pattern2 = r'<a[^>]*href="([^"]*)"[^>]*class="[^"]*news-title[^"]*"[^>]*>(.*?)</a>'
+            matches2 = re.findall(pattern2, html)
+            for url, title in matches2[:max_results]:
+                title = re.sub(r'<[^>]+>', '', title).strip()
+                if title and len(title) > 2:
+                    results.append({'title': title, 'source': '百度新闻', 'summary': ''})
+    
     except Exception as e:
-        print(f"  搜索 '{keyword}' 失败: {e}")
+        print(f"  ⚠ Baidu search failed ({e}), falling back to Sogou...")
+    
+    # 百度失败或没结果，fallback 到搜狗
+    if not results:
+        results = search_sogou_news(query, max_results)
+    
+    return results
+
+
+def search_sogou_news(query, max_results=5):
+    """Sogou News fallback search."""
+    results = []
+    search_url = f"https://news.sogou.com/news?query={quote(query)}&sort=1"
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+        'Accept': 'text/html',
+        'Accept-Language': 'zh-CN,zh;q=0.9',
+    }
+    try:
+        resp = requests.get(search_url, headers=headers, timeout=15)
+        resp.encoding = 'utf-8'
+        html = resp.text
+        
+        # 搜狗新闻结果
+        pattern = r'<h3[^>]*>\s*<a[^>]*>(.*?)</a>\s*</h3>'
+        matches = re.findall(pattern, html)
+        for title in matches[:max_results]:
+            title = re.sub(r'<[^>]+>', '', title).strip()
+            if title and len(title) > 2:
+                results.append({'title': title, 'source': '搜狗新闻', 'summary': ''})
+    except Exception as e:
+        print(f"  ⚠ Sogou search also failed: {e}")
+    
     return results
 
 def generate_exclusive_news(sections):
@@ -339,45 +397,55 @@ def generate_exclusive_news(sections):
     # Build per-user exclusive news
     # user_interests format: {"爸爸": ["刘德华"], "妈妈": []}
     user_exclusive = {}
-    for username, interests in user_interests.items():
+    for user, interests in user_interests.items():
         if not interests:
-            user_exclusive[username] = []
-            print(f"  {username}: 0 interests, 0 matches")
+            user_exclusive[user] = []
+            print(f"  {user}: 0 interests, 0 matches")
             continue
-        matched = []
-        kw_match_count = {kw: 0 for kw in interests}
-        for item in all_news:
-            title = item.get('title', '')
-            summary = item.get('summary', '')
-            for kw in interests:
-                if kw in title or kw in summary:
-                    matched.append({
-                        'title': item['title'],
-                        'source': item['source'],
-                        'summary': item['summary'],
-                        'matchTag': kw,
-                        'time': '2026-06-26',
-                    })
-                    kw_match_count[kw] += 1
-                    break  # One match per item per user
+        user_news = []  # list of {title, source, summary, matchTag, time}
+        seen_titles = set()
         
-        # Supplement with web search for keywords with < 3 matches
         for kw in interests:
-            if kw_match_count[kw] < 3:
-                print(f"  🔍 Searching web for '{kw}' (only {kw_match_count[kw]} local matches)...")
+            kw_matched = []
+            # 1) 本地匹配
+            for item in all_news:
+                title_lower = item['title'].lower()
+                summary_lower = item['summary'].lower()
+                kw_lower = kw.lower()
+                if kw_lower in title_lower or kw_lower in summary_lower:
+                    key = (item['title'], item['source'])
+                    if key not in seen_titles:
+                        seen_titles.add(key)
+                        kw_matched.append(item)
+            
+            # 2) 不足 3 条，从网络搜索补充
+            if len(kw_matched) < 3:
+                print(f"  🔍 Searching web for '{kw}' (only {len(kw_matched)} local matches for {user})...")
                 web_results = search_interest_news(kw, max_results=5)
                 for r in web_results:
-                    matched.append({
-                        'title': r['title'],
-                        'source': '网络搜索',
-                        'summary': r['summary'],
-                        'matchTag': kw,
-                        'time': '2026-06-27',
-                    })
+                    if len(kw_matched) >= 3:
+                        break
+                    key = (r['title'], r['source'])
+                    if key not in seen_titles:
+                        seen_titles.add(key)
+                        kw_matched.append(r)
+            
+            # 取该兴趣词前 3 条
+            for item in kw_matched[:3]:
+                user_news.append({
+                    'title': item['title'],
+                    'source': item['source'],
+                    'summary': item['summary'],
+                    'matchTag': kw,
+                    'time': item.get('time', '2026-06-27'),
+                })
         
-        local_count = sum(kw_match_count.values())
-        user_exclusive[username] = matched[:10]  # Max 10 per user
-        print(f"  {username}: {len(interests)} interests, {len(matched[:10])} matches ({local_count} local + {len(matched[:10])-local_count} web)")
+        # 每个用户最多 10 条
+        if len(user_news) > 10:
+            user_news = user_news[:10]
+        
+        user_exclusive[user] = user_news
+        print(f"  {user}: {len(user_news)} exclusive news items generated")
     
     # Generate JS code
     lines = ["// === 按用户分组的专属新闻数组（由 extract_news.py 自动生成） ===", ""]
