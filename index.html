@@ -3762,11 +3762,15 @@ function renderExclusivePage() {
 
 function getExclusiveNews() {
   var u = getCurrentUser();
-  // 多用户：优先使用 extract_news.py 预生成的专属新闻数组
-  if (u && typeof userExclusiveNewsMap !== 'undefined' && userExclusiveNewsMap[u.nickname]) {
-    return userExclusiveNewsMap[u.nickname];
+  var mapKey = u ? u.nickname : '匿名用户';
+  
+  // 1. 优先使用 extract_news.py 预生成的专属新闻数组（所有模式）
+  if (typeof userExclusiveNewsMap !== 'undefined' && userExclusiveNewsMap[mapKey]) {
+    var arr = userExclusiveNewsMap[mapKey];
+    if (arr && arr.length > 0) return arr;
   }
-  // 多用户：退化为运行时从新闻源筛选
+  
+  // 2. 多用户模式：运行时按兴趣词从全量新闻筛选
   if (u && u.interests && u.interests.length > 0) {
     var allNews = [].concat(
       mockHotNewsDomesticExtra, mockHotNewsInternationalExtra, mockHotNewsAIExtra,
@@ -3778,21 +3782,23 @@ function getExclusiveNews() {
       });
     }).slice(0, 10);
   }
-  // 匿名模式：按兴趣词从全量新闻数组中筛选
+  
+  // 3. 匿名模式：运行时按兴趣词筛选
   var interests = getInterests();
   if (interests.length > 0) {
-    var allNews = [].concat(
+    var allNews2 = [].concat(
       mockHotNewsDomesticExtra, mockHotNewsInternationalExtra, mockHotNewsAIExtra,
       mockEntertainmentExtra, mockHenanNews, mockCslOtherTeams
     );
-    var matched = allNews.filter(function(n) {
+    var matched = allNews2.filter(function(n) {
       return interests.some(function(kw) {
         return (n.title && n.title.indexOf(kw) >= 0) || (n.summary && n.summary.indexOf(kw) >= 0);
       });
     }).slice(0, 10);
     if (matched.length > 0) return matched;
   }
-  // 退回静态数组
+  
+  // 4. 退路：静态数组或空
   if (typeof mockExclusiveNews !== 'undefined' && mockExclusiveNews.length > 0) return mockExclusiveNews;
   return [];
 }
