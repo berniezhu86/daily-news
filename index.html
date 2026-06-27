@@ -3572,7 +3572,11 @@ function addInterest() {
     setCurrentUser(u);
     input.value = '';
     showNotifyModal('兴趣词已保存', '需要立即搜索相关新闻吗？', function() {
-      try { window.open('marvis://chat?text=更新专属新闻','_blank'); } catch(e) {}
+      navigator.clipboard.writeText('更新专属新闻').then(function() {
+        showNotifyModal('已复制到剪贴板', '请按 Cmd+V 粘贴到 Marvis 对话中发送');
+      }).catch(function() {
+        showNotifyModal('更新专属新闻', '请手动输入这句话发给 Marvis');
+      });
     });
     renderAccountUI();
     renderExclusivePage();
@@ -3597,7 +3601,11 @@ function addInterest() {
   saveInterests(interests);
   input.value = '';
   showNotifyModal('兴趣词已保存', '需要立即搜索相关新闻吗？', function() {
-    try { window.open('marvis://chat?text=更新专属新闻','_blank'); } catch(e) {}
+    navigator.clipboard.writeText('更新专属新闻').then(function() {
+      showNotifyModal('已复制到剪贴板', '请按 Cmd+V 粘贴到 Marvis 对话中发送');
+    }).catch(function() {
+      showNotifyModal('更新专属新闻', '请手动输入这句话发给 Marvis');
+    });
   });
   renderExclusivePage();
 }
