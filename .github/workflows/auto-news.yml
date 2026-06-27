@@ -14,8 +14,6 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
-      - name: Inject Token for syncToGitHub function
-        run: sed -i "s/__GITHUB_TOKEN__/${{ secrets.GH_PAGES_TOKEN }}/g" index.html
       - run: python extract_news.py
       - run: python update_stock_data.py
       - run: |
