@@ -2540,8 +2540,8 @@ function loadMoreEntNews() {
           <div class="news-body">
             <div class="news-title">${item.title}</div>
             <div class="news-footer">
-              <span class="news-source">${item.source}</span>
-              <span class="news-badge badge-${item.badge}">${BADGE_LABELS[item.badge]}</span>
+              <span class="news-source">${item.source || ''}</span>
+              ${item.badge ? `<span class="news-badge badge-${item.badge}">${BADGE_LABELS[item.badge] || item.badge}</span>` : ''}
             </div>
             ${item.summary ? `<div class="news-summary">${item.summary}</div>` : ''}
           </div>
@@ -2590,7 +2590,10 @@ function loadMoreHotNews() {
           <span class="news-rank ${getRankClass(item.rank)}">${item.rank}</span>
           <div class="news-body">
             <div class="news-title">${item.title}</div>
-            <div class="news-footer"><span class="news-source">${item.source}</span><span class="news-badge badge-${item.badge}">${BADGE_LABELS[item.badge]}</span></div>
+            <div class="news-footer">
+              <span class="news-source">${item.source || ''}</span>
+              ${item.badge ? `<span class="news-badge badge-${item.badge}">${BADGE_LABELS[item.badge] || item.badge}</span>` : ''}
+            </div>
             ${item.summary ? `<div class="news-summary">${item.summary}</div>` : ''}
           </div>
         </div>`;
@@ -2818,7 +2821,7 @@ function renderCslOtherTeams(news) {
       + '<div class="news-item-row">'
       + '<div class="news-body">'
       + '<div class="news-title">【' + (item.team || '中超') + '】' + item.title + '</div>'
-      + '<div class="news-footer"><span class="news-source">' + item.source + '</span>' + (item.time ? '<span class="news-time">' + item.time + '</span>' : '') + '</div>'
+      + '<div class="news-footer"><span class="news-source">' + (item.source || '') + '</span>' + (item.time ? '<span class="news-time">' + item.time + '</span>' : '') + '</div>'
       + (item.summary ? '<div class="news-summary">' + item.summary + '</div>' : '')
       + '</div>'
       + '</div>'
@@ -3857,7 +3860,7 @@ function renderExclusivePage() {
           return '<div class="exclusive-news-item">'
             + '<div class="exclusive-news-title">' + n.title + '</div>'
             + '<div class="exclusive-news-summary">' + n.summary + '</div>'
-            + '<div class="exclusive-news-meta"><span>' + n.source + '</span><span>' + n.time + '</span><span>匹配：' + n.matchTag + '</span></div>'
+            + '<div class="exclusive-news-meta"><span>' + (n.source || '') + '</span><span>' + (n.time || '') + '</span><span>匹配：' + (n.matchTag || '') + '</span></div>'
             + '</div>';
         }).join('');
       }
