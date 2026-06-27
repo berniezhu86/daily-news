@@ -3544,12 +3544,14 @@ function saveInterests(arr) {
 function addInterest() {
   var u = getCurrentUser();
   if (u) {
-    // 多用户模式：从设置页账号卡片的输入框读取
-    var input = document.getElementById('newInterest');
+    // 多用户模式：从专属页输入框读取
+    var input = document.getElementById('exclusiveInput');
     if (!input) return;
     var word = input.value.trim();
     if (!word) return;
-    if (u.interests.indexOf(word) >= 0) { msg('该兴趣词已存在', 'error'); return; }
+    if (word.length > 50) { alert('最多输入50个字符'); return; }
+    if (u.interests.indexOf(word) >= 0) { alert('该主题已添加'); return; }
+    if (u.interests.length >= 10) { alert('最多添加10个关注主题'); return; }
     u.interests.push(word);
     allUsers[u.nickname].interests = u.interests;
     saveUsers();
