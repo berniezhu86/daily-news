@@ -6,6 +6,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -14,6 +15,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
+      - run: python generate_source_html.py
       - run: python extract_news.py
       - run: python update_stock_data.py
       - run: |
