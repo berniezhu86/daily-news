@@ -1458,7 +1458,7 @@ body.theme-dark .auth-banner {
         <div class="settings-row" id="accountLoggedIn" style="display:none">
           <div class="account-info">
             <div class="account-welcome">当前用户：<strong id="accountNickname"></strong></div>
-            <div class="account-interests-label">我的兴趣词</div>
+            <div class="account-interests-label">兴趣标签</div>
             <div class="account-tags" id="accountTags"></div>
             <button class="btn btn-outline" onclick="doLogout()" style="margin-top:12px;width:100%">退出登录</button>
           </div>
@@ -2374,14 +2374,16 @@ function modalLogin() {
 
 function removeAccountInterest(word) {
   if (!currentUser) return;
-  var idx = currentUser.interests.indexOf(word);
-  if (idx < 0) return;
-  currentUser.interests.splice(idx, 1);
-  allUsers[currentUser.nickname].interests = currentUser.interests;
-  saveUsers();
-  setCurrentUser(currentUser);
-  renderAccountUI();
-  renderExclusivePage();
+  showConfirmModal('删除确认', '确定删除兴趣标签「' + word + '」？', function() {
+    var idx = currentUser.interests.indexOf(word);
+    if (idx < 0) return;
+    currentUser.interests.splice(idx, 1);
+    allUsers[currentUser.nickname].interests = currentUser.interests;
+    saveUsers();
+    setCurrentUser(currentUser);
+    renderAccountUI();
+    renderExclusivePage();
+  });
 }
 
 function renderAccountUI() {
