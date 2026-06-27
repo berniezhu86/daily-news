@@ -10,7 +10,8 @@ import urllib.request
 import sys
 import os
 
-HTML_PATH = "/Users/bainian/WorkBuddy/2026-06-25-10-20-28/zhenbao-daily-news/index.html"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+HTML_PATH = os.path.join(SCRIPT_DIR, "index.html")
 
 APIS = {
     "cn": {
