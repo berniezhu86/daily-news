@@ -1181,6 +1181,28 @@ body.theme-dark .auth-banner {
   background:rgba(215,0,24,0.15);
   border:1px solid rgba(215,0,24,0.25);
 }
+
+/* ========== 账号管理样式 ========== */
+.login-form{display:flex;flex-direction:column;gap:8px;width:100%}
+.login-input{padding:10px 12px;border:1px solid var(--border);border-radius:10px;font-size:15px;background:var(--surface2);color:var(--text1);outline:none;width:100%;box-sizing:border-box}
+.login-input:focus{border-color:var(--blue)}
+.login-btns{display:flex;gap:8px}
+.login-btns .btn{flex:1}
+.login-hint{font-size:11px;color:var(--text3);text-align:center;margin-top:2px}
+.login-msg{font-size:12px;text-align:center;min-height:16px}
+.login-msg.error{color:var(--red)}
+.login-msg.success{color:var(--green)}
+.btn{padding:10px 16px;border-radius:10px;font-size:14px;font-weight:600;border:none;cursor:pointer}
+.btn-primary{background:var(--blue);color:#fff}
+.btn-outline{background:transparent;border:1px solid var(--border);color:var(--text1)}
+.account-info{display:flex;flex-direction:column;gap:8px;width:100%}
+.account-welcome{font-size:15px;color:var(--text1)}
+.account-interests-label{font-size:12px;color:var(--text3)}
+.account-tags{display:flex;flex-wrap:wrap;gap:6px}
+.account-tag{display:inline-flex;align-items:center;gap:4px;background:var(--surface2);border:1px solid var(--border);border-radius:14px;padding:4px 10px;font-size:13px;color:var(--text1)}
+.account-tag-remove{cursor:pointer;font-size:14px;color:var(--text3);line-height:1}
+.account-tag-remove:hover{color:var(--red)}
+.account-add{display:flex;gap:6px;align-items:center}
 </style>
 </head>
 <body>
@@ -1400,6 +1422,35 @@ body.theme-dark .auth-banner {
   <!-- 设置页 -->
   <div class="section-page" id="tab-settings">
     <div class="settings-section">
+      <!-- 账号管理 -->
+      <div class="settings-label">账号管理</div>
+      <div class="settings-card" id="accountCard">
+        <div class="settings-row" id="accountLoggedOut">
+          <div class="login-form">
+            <input type="text" id="loginNickname" placeholder="昵称" class="login-input">
+            <input type="password" id="loginPassword" placeholder="密码" class="login-input">
+            <div class="login-btns">
+              <button class="btn btn-primary" onclick="doRegister()">注册</button>
+              <button class="btn btn-outline" onclick="doLogin()">登录</button>
+            </div>
+            <div class="login-hint">注册后可定制专属新闻，每位家人独立管理</div>
+            <div class="login-msg" id="loginMsg"></div>
+          </div>
+        </div>
+        <div class="settings-row" id="accountLoggedIn" style="display:none">
+          <div class="account-info">
+            <div class="account-welcome">当前用户：<strong id="accountNickname"></strong></div>
+            <div class="account-interests-label">我的兴趣词</div>
+            <div class="account-tags" id="accountTags"></div>
+            <div class="account-add">
+              <input type="text" id="newInterest" placeholder="输入兴趣词" class="login-input" style="flex:1">
+              <button class="btn btn-primary" onclick="addInterest()">添加</button>
+            </div>
+            <button class="btn btn-outline" onclick="doLogout()" style="margin-top:12px;width:100%">退出登录</button>
+          </div>
+        </div>
+      </div>
+
       <div class="settings-label">外观</div>
       <div class="settings-card">
         <div class="settings-row">
