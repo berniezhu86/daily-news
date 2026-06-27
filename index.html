@@ -3572,6 +3572,16 @@ function addInterest() {
     setCurrentUser(u);
     input.value = '';
     var currentInterest = word;
+    // 自动通知 Marvis 本地服务
+    var notifyUser = currentUser || '匿名用户';
+    fetch('http://127.0.0.1:9876/interest?user=' + encodeURIComponent(notifyUser) + '&keyword=' + encodeURIComponent(currentInterest))
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        console.log('[Marvis] 兴趣词已同步:', data);
+      })
+      .catch(function(err) {
+        console.log('[Marvis] 本地服务未连接:', err);
+      });
     showNotifyModal('兴趣词已保存', '需要立即搜索相关新闻吗？', function() {
       var cmd = '更新专属: ' + currentInterest;
       navigator.clipboard.writeText(cmd).then(function() {
@@ -3602,6 +3612,16 @@ function addInterest() {
   interests.push(val);
   saveInterests(interests);
   input.value = '';
+  // 自动通知 Marvis 本地服务
+  var notifyUser = '匿名用户';
+  fetch('http://127.0.0.1:9876/interest?user=' + encodeURIComponent(notifyUser) + '&keyword=' + encodeURIComponent(val))
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      console.log('[Marvis] 兴趣词已同步:', data);
+    })
+    .catch(function(err) {
+      console.log('[Marvis] 本地服务未连接:', err);
+    });
   showNotifyModal('兴趣词已保存', '需要立即搜索相关新闻吗？', function() {
     var cmd = '更新专属: ' + val;
     navigator.clipboard.writeText(cmd).then(function() {
