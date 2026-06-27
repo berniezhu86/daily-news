@@ -1184,7 +1184,7 @@ body.theme-dark .auth-banner {
 
 /* ========== 账号管理样式 ========== */
 .login-form{display:flex;flex-direction:column;gap:8px;width:100%}
-.login-input{padding:10px 12px;border:1px solid var(--border);border-radius:10px;font-size:15px;background:var(--surface2);color:var(--text1);outline:none;width:100%;box-sizing:border-box}
+.login-input{padding:8px 10px;border:1px solid var(--border);border-radius:10px;font-size:14px;background:var(--surface2);color:var(--text1);outline:none;width:100%;box-sizing:border-box}
 .login-input:focus{border-color:var(--blue)}
 .login-btns{display:flex;gap:8px}
 .login-btns .btn{flex:1}
@@ -1192,7 +1192,7 @@ body.theme-dark .auth-banner {
 .login-msg{font-size:12px;text-align:center;min-height:16px}
 .login-msg.error{color:var(--red)}
 .login-msg.success{color:var(--green)}
-.btn{padding:10px 16px;border-radius:10px;font-size:14px;font-weight:600;border:none;cursor:pointer}
+.btn{padding:8px 12px;border-radius:10px;font-size:13px;font-weight:600;border:none;cursor:pointer}
 .btn-primary{background:var(--blue);color:#fff}
 .btn-outline{background:transparent;border:1px solid var(--border);color:var(--text1)}
 .account-info{display:flex;flex-direction:column;gap:8px;width:100%}
@@ -1433,7 +1433,7 @@ body.theme-dark .auth-banner {
               <button class="btn btn-primary" onclick="doRegister()">注册</button>
               <button class="btn btn-outline" onclick="doLogin()">登录</button>
             </div>
-            <div class="login-hint">注册后可定制专属新闻，每位家人独立管理</div>
+            <div class="login-hint">注册后可定制专属新闻</div>
             <div class="login-msg" id="loginMsg"></div>
           </div>
         </div>
@@ -1442,10 +1442,6 @@ body.theme-dark .auth-banner {
             <div class="account-welcome">当前用户：<strong id="accountNickname"></strong></div>
             <div class="account-interests-label">我的兴趣词</div>
             <div class="account-tags" id="accountTags"></div>
-            <div class="account-add">
-              <input type="text" id="newInterest" placeholder="输入兴趣词" class="login-input" style="flex:1">
-              <button class="btn btn-primary" onclick="addInterest()">添加</button>
-            </div>
             <button class="btn btn-outline" onclick="doLogout()" style="margin-top:12px;width:100%">退出登录</button>
           </div>
         </div>
@@ -3487,6 +3483,11 @@ function addInterest() {
     input.value = '';
     renderAccountUI();
     renderExclusivePage();
+    return;
+  }
+  // 检测多用户未登录状态
+  if (typeof allUsers !== 'undefined' && Object.keys(allUsers).length > 0) {
+    alert('请先在设置页注册或登录');
     return;
   }
   // 匿名模式：从专属页输入框读取
