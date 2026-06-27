@@ -1,7 +1,5 @@
 name: 自动更新新闻
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch:
 jobs:
   update:
