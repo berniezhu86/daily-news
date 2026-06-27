@@ -3548,7 +3548,7 @@ function addInterest() {
     return;
   }
   // 检测多用户未登录状态
-  if (typeof allUsers !== 'undefined' && Object.keys(allUsers).length > 0) {
+  if (typeof allUsers !== 'undefined') {
     showLoginModal();
     return;
   }
