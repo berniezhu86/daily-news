@@ -3541,6 +3541,16 @@ function saveInterests(arr) {
   localStorage.setItem(EXCLUSIVE_STORAGE_KEY, JSON.stringify(arr));
 }
 
+// 敏感词过滤
+var SENSITIVE_WORDS = ['反动','暴乱','色情','赌博','毒品','枪支','违禁','洗钱','诈骗','传销','邪教','恐怖','分裂','颠覆','嫖娼','卖淫','裸聊','黄色','涉黄','贩毒','制毒','吸毒','海洛因','冰毒','摇头丸','大麻','可卡因','赌场','博彩','六合彩','时时彩','百家乐','老虎机','高利贷','裸贷','枪支弹药','爆炸物','管制刀具'];
+function isSensitive(word) {
+  var w = word.toLowerCase();
+  for (var i = 0; i < SENSITIVE_WORDS.length; i++) {
+    if (w.indexOf(SENSITIVE_WORDS[i]) >= 0) return true;
+  }
+  return false;
+}
+
 function addInterest() {
   var u = getCurrentUser();
   if (u) {
@@ -3549,6 +3559,7 @@ function addInterest() {
     if (!input) return;
     var word = input.value.trim();
     if (!word) return;
+    if (isSensitive(word)) { alert('包含敏感词，无法添加'); return; }
     if (word.length > 50) { alert('最多输入50个字符'); return; }
     if (u.interests.indexOf(word) >= 0) { alert('该主题已添加'); return; }
     if (u.interests.length >= 10) { alert('最多添加10个关注主题'); return; }
@@ -3571,6 +3582,7 @@ function addInterest() {
   if (!input) return;
   var val = input.value.trim();
   if (!val) return;
+  if (isSensitive(val)) { alert('包含敏感词，无法添加'); return; }
   if (val.length > 50) { alert('最多输入50个字符'); return; }
   var interests = getInterests();
   if (interests.indexOf(val) !== -1) { alert('该主题已添加'); return; }
