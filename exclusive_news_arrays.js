@@ -1,12 +1,18 @@
 // === 按用户分组的专属新闻数组（由 extract_news.py 自动生成） ===
 
+const mockExclusiveNews_1111 = [
+  {title:"CBA", source:"百度新闻", summary:"", matchTag:"CBA", time:"2026-06-27"},
+  {title:"CBA季后赛对阵确定,12进8附加赛于10日开启", source:"百度新闻", summary:"", matchTag:"CBA", time:"2026-06-27"},
+  {title:"CBA总决赛首迎辽新大战 跨越3500公里的对决", source:"百度新闻", summary:"", matchTag:"CBA", time:"2026-06-27"},
+];
+
 const mockExclusiveNews_爸爸 = [
-  {title:"原来刘德华没撒谎!重情重义、虚心学习的向佐,证实了他当年评价", source:"搜狗新闻", summary:"", matchTag:"刘德华", time:"2026-06-27"},
-  {title:"陈敏儿追悼会举行!儿子泪崩,邓萃雯蔡少芬到场,刘德华送花圈", source:"搜狗新闻", summary:"", matchTag:"刘德华", time:"2026-06-27"},
-  {title:"刘德华威尼斯提前庆生 吃蛋糕舔手指开心不已", source:"搜狗新闻", summary:"", matchTag:"刘德华", time:"2026-06-27"},
-  {title:"CBA最新动态:广东宏远换帅在即,北京首钢遭遇重罚", source:"搜狗新闻", summary:"", matchTag:"CBA", time:"2026-06-27"},
-  {title:"CBA新动态!山东男篮砸钱引进国手后卫,朱俊龙签约顶薪上位", source:"搜狗新闻", summary:"", matchTag:"CBA", time:"2026-06-27"},
-  {title:"前CBA冠军教练李春江做世界杯比分分析,目前仍处于5年禁赛期", source:"搜狗新闻", summary:"", matchTag:"CBA", time:"2026-06-27"},
+  {title:"1905对话 | 是否会退休?63岁的刘德华回应了!", source:"百度新闻", summary:"", matchTag:"刘德华", time:"2026-06-27"},
+  {title:"刘德华,突发意外!", source:"百度新闻", summary:"", matchTag:"刘德华", time:"2026-06-27"},
+  {title:"刘德华马丽肖央领衔超30部新片空降!9月片单来了", source:"百度新闻", summary:"", matchTag:"刘德华", time:"2026-06-27"},
+  {title:"CBA", source:"百度新闻", summary:"", matchTag:"CBA", time:"2026-06-27"},
+  {title:"CBA季后赛对阵确定,12进8附加赛于10日开启", source:"百度新闻", summary:"", matchTag:"CBA", time:"2026-06-27"},
+  {title:"CBA总决赛首迎辽新大战 跨越3500公里的对决", source:"百度新闻", summary:"", matchTag:"CBA", time:"2026-06-27"},
 ];
 
 const mockExclusiveNews_妈妈 = [
@@ -14,6 +20,7 @@ const mockExclusiveNews_妈妈 = [
 
 // 用户专属新闻查找映射
 var userExclusiveNewsMap = {
+  "1111": mockExclusiveNews_1111,
   "爸爸": mockExclusiveNews_爸爸,
   "妈妈": mockExclusiveNews_妈妈,
 };
