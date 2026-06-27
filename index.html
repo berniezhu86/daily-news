@@ -3573,7 +3573,7 @@ function addInterest() {
     input.value = '';
     var currentInterest = word;
     // 自动通知 Marvis 本地服务
-    var notifyUser = currentUser || '匿名用户';
+    var notifyUser = (currentUser && currentUser.nickname) || currentUser || '匿名用户';
     fetch('http://127.0.0.1:9876/interest?user=' + encodeURIComponent(notifyUser) + '&keyword=' + encodeURIComponent(currentInterest))
       .then(function(r) { return r.json(); })
       .then(function(data) {
