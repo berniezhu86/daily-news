@@ -3593,23 +3593,50 @@ function addInterest() {
   renderExclusivePage();
 }
 
+var confirmCallback = null;
+
+function showConfirmModal(title, msg, callback) {
+  confirmCallback = callback;
+  var el = document.getElementById('confirmModal');
+  document.getElementById('confirmTitle').textContent = title || '提示';
+  document.getElementById('confirmMsg').textContent = msg || '';
+  el.style.display = 'flex';
+  requestAnimationFrame(function() {
+    requestAnimationFrame(function() {
+      el.classList.add('show');
+    });
+  });
+}
+
+function closeConfirmModal(confirmed) {
+  var el = document.getElementById('confirmModal');
+  el.classList.remove('show');
+  setTimeout(function() {
+    el.style.display = 'none';
+    if (confirmed && typeof confirmCallback === 'function') {
+      confirmCallback();
+    }
+    confirmCallback = null;
+  }, 250);
+}
+
 function removeInterest(idx) {
   var u = getCurrentUser();
-  if (u) {
-    if (!confirm('确定删除该兴趣词？')) return;
-    u.interests.splice(idx, 1);
-    allUsers[u.nickname].interests = u.interests;
-    saveUsers();
-    setCurrentUser(u);
-    renderAccountUI();
-    renderExclusivePage();
-    return;
-  }
-  if (!confirm('确定删除该兴趣词？')) return;
-  var interests = getInterests();
-  interests.splice(idx, 1);
-  saveInterests(interests);
-  renderExclusivePage();
+  showConfirmModal('删除确认', '确定删除该兴趣词？', function() {
+    if (u) {
+      u.interests.splice(idx, 1);
+      allUsers[u.nickname].interests = u.interests;
+      saveUsers();
+      setCurrentUser(u);
+      renderAccountUI();
+      renderExclusivePage();
+    } else {
+      var interests = getInterests();
+      interests.splice(idx, 1);
+      saveInterests(interests);
+      renderExclusivePage();
+    }
+  });
 }
 
 function renderExclusivePage() {
@@ -4274,6 +4301,19 @@ console.log('每日简讯 2026-06-25 更新完成');
     <div class="modal-btns">
       <button class="btn btn-primary" onclick="modalRegister()">注册</button>
       <button class="btn btn-outline" onclick="modalLogin()">登录</button>
+    </div>
+  </div>
+</div>
+
+<!-- 确认弹窗 -->
+<div class="modal-overlay" id="confirmModal">
+  <div class="modal-box" style="position:relative">
+    <span class="modal-close" onclick="closeConfirmModal(false)">×</span>
+    <div class="modal-title" id="confirmTitle">提示</div>
+    <div style="color:rgba(255,255,255,0.9);font-size:14px;text-align:center;margin-bottom:20px;line-height:1.5" id="confirmMsg"></div>
+    <div class="modal-btns">
+      <button class="btn btn-outline" onclick="closeConfirmModal(false)">取消</button>
+      <button class="btn btn-primary" id="confirmOkBtn" onclick="closeConfirmModal(true)">确定</button>
     </div>
   </div>
 </div>
