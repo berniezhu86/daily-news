@@ -48,6 +48,66 @@ def update_index_html(hot_news, entertainment, stock, henan, csl):
     
     print("更新完成")
 
+def increment_version():
+    """从 index.html 读取当前版本号并自动递增。
+    同一天内 vN → vN+1，跨天则重置为当天日期+v1。
+    同时更新 brandVersion / settingsVersion 两个 span 以及 stockDataUpdateTime。
+    """
+    index_path = '/Users/bainian/WorkBuddy/2026-06-25-10-20-28/zhenbao-daily-news/index.html'
+    with open(index_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # 提取当前版本号（格式：YYYYMMDDvN）
+    brand_match = re.search(r'<span class="brand-version" id="brandVersion">([^<]+)</span>', content)
+    if not brand_match:
+        print("❌ 未找到 brandVersion，跳过版本递增")
+        return
+
+    current_version = brand_match.group(1)
+    version_match = re.match(r'(\d{8})v(\d+)', current_version)
+    if not version_match:
+        print(f"❌ 版本号格式异常: {current_version}，跳过版本递增")
+        return
+
+    version_date = version_match.group(1)
+    version_num = int(version_match.group(2))
+    today = datetime.now().strftime("%Y%m%d")
+
+    if version_date == today:
+        new_version = f"{today}v{version_num + 1}"
+    else:
+        new_version = f"{today}v1"
+
+    # 更新 brandVersion
+    content = re.sub(
+        r'(<span class="brand-version" id="brandVersion">)[^<]+(</span>)',
+        rf'\g<1>{new_version}\g<2>',
+        content,
+        count=1
+    )
+
+    # 更新 settingsVersion
+    content = re.sub(
+        r'(<span class="settings-row-desc" id="settingsVersion">)[^<]+(</span>)',
+        rf'\g<1>{new_version}\g<2>',
+        content,
+        count=1
+    )
+
+    # 更新 stockDataUpdateTime
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
+    content = re.sub(
+        r'(const stockDataUpdateTime = ")[^"]+(")',
+        rf'\g<1>{now_str}\g<2>',
+        content,
+        count=1
+    )
+
+    with open(index_path, 'w', encoding='utf-8') as f:
+        f.write(content)
+
+    print(f"✅ 版本号已更新: {current_version} → {new_version}")
+
 def check_js_syntax():
     """检查 JS 语法是否正确"""
     print("=== 检查 JS 语法 ===")
@@ -84,6 +144,9 @@ def main():
     
     # 2. 更新 index.html
     update_index_html(hot_news, entertainment, stock, henan, csl)
+    
+    # 2.5. 版本号自动递增
+    increment_version()
     
     # 3. 检查 JS 语法
     if not check_js_syntax():
