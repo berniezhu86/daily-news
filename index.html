@@ -3596,6 +3596,7 @@ function addInterest() {
 function removeInterest(idx) {
   var u = getCurrentUser();
   if (u) {
+    if (!confirm('确定删除该兴趣词？')) return;
     u.interests.splice(idx, 1);
     allUsers[u.nickname].interests = u.interests;
     saveUsers();
@@ -3604,6 +3605,7 @@ function removeInterest(idx) {
     renderExclusivePage();
     return;
   }
+  if (!confirm('确定删除该兴趣词？')) return;
   var interests = getInterests();
   interests.splice(idx, 1);
   saveInterests(interests);
