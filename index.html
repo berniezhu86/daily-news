@@ -1495,6 +1495,7 @@ body.theme-dark .auth-banner {
 </nav>
 </div>
 
+<script src="exclusive_news_arrays.js"></script>
 <script>
 /* ==================== DATA ENGINE ==================== */
 
@@ -2184,6 +2185,104 @@ let entNewsPage = 0;
 const BATCH_SIZE = 20;
 const MAX_PAGES = 4; // 4 extra batches × 20 = 80 more items (total 100)
 
+
+// 账号管理
+var currentUser = null;
+var allUsers = {};
+
+function loadUsers() {
+  try { allUsers = JSON.parse(localStorage.getItem('dn_users') || '{}'); } catch(e) { allUsers = {}; }
+}
+
+function saveUsers() {
+  localStorage.setItem('dn_users', JSON.stringify(allUsers));
+}
+
+function getCurrentUser() {
+  try { currentUser = JSON.parse(localStorage.getItem('dn_current_user') || 'null'); } catch(e) { currentUser = null; }
+  return currentUser;
+}
+
+function setCurrentUser(user) {
+  currentUser = user;
+  localStorage.setItem('dn_current_user', JSON.stringify(user));
+}
+
+function msg(text, type) {
+  var el = document.getElementById('loginMsg');
+  if (!el) return;
+  el.textContent = text;
+  el.className = 'login-msg ' + (type || '');
+}
+
+function doRegister() {
+  loadUsers();
+  var nick = document.getElementById('loginNickname').value.trim();
+  var pw = document.getElementById('loginPassword').value.trim();
+  if (!nick || !pw) { msg('昵称和密码不能为空', 'error'); return; }
+  if (allUsers[nick]) { msg('该昵称已存在，请直接登录', 'error'); return; }
+  allUsers[nick] = { password: pw, interests: [] };
+  saveUsers();
+  setCurrentUser({ nickname: nick, interests: [] });
+  msg('注册成功！', 'success');
+  renderAccountUI();
+  renderExclusivePage();
+}
+
+function doLogin() {
+  loadUsers();
+  var nick = document.getElementById('loginNickname').value.trim();
+  var pw = document.getElementById('loginPassword').value.trim();
+  if (!nick || !pw) { msg('请输入昵称和密码', 'error'); return; }
+  if (!allUsers[nick]) { msg('该昵称未注册', 'error'); return; }
+  if (allUsers[nick].password !== pw) { msg('密码错误', 'error'); return; }
+  setCurrentUser({ nickname: nick, interests: allUsers[nick].interests });
+  msg('登录成功！', 'success');
+  renderAccountUI();
+  renderExclusivePage();
+}
+
+function doLogout() {
+  setCurrentUser(null);
+  msg('已退出登录', 'success');
+  document.getElementById('loginNickname').value = '';
+  document.getElementById('loginPassword').value = '';
+  renderAccountUI();
+  renderExclusivePage();
+}
+
+function removeAccountInterest(word) {
+  if (!currentUser) return;
+  var idx = currentUser.interests.indexOf(word);
+  if (idx < 0) return;
+  currentUser.interests.splice(idx, 1);
+  allUsers[currentUser.nickname].interests = currentUser.interests;
+  saveUsers();
+  setCurrentUser(currentUser);
+  renderAccountUI();
+  renderExclusivePage();
+}
+
+function renderAccountUI() {
+  var u = getCurrentUser();
+  var out = document.getElementById('accountLoggedOut');
+  var inEl = document.getElementById('accountLoggedIn');
+  if (!out || !inEl) return;
+  if (u) {
+    out.style.display = 'none';
+    inEl.style.display = '';
+    document.getElementById('accountNickname').textContent = u.nickname;
+    var tags = document.getElementById('accountTags');
+    if (tags) {
+      tags.innerHTML = u.interests.map(function(w) {
+        return '<span class="account-tag">' + w + '<span class="account-tag-remove" onclick="removeAccountInterest(\'' + w.replace(/'/g, "\\'") + '\')">×</span></span>';
+      }).join('');
+    }
+  } else {
+    out.style.display = '';
+    inEl.style.display = 'none';
+  }
+}
 
 /* ==================== RENDER ==================== */
 function getRankClass(rank) {
@@ -3305,13 +3404,41 @@ var EXCLUSIVE_STORAGE_KEY = 'exclusive_interests';
 var EXCLUSIVE_NEWS_KEY = 'exclusive_news';
 
 function getInterests() {
+  var u = getCurrentUser();
+  if (u) return u.interests || [];
   try { return JSON.parse(localStorage.getItem(EXCLUSIVE_STORAGE_KEY) || '[]'); } catch(e) { return []; }
 }
 function saveInterests(arr) {
+  var u = getCurrentUser();
+  if (u) {
+    u.interests = arr;
+    allUsers[u.nickname].interests = arr;
+    saveUsers();
+    setCurrentUser(u);
+    return;
+  }
   localStorage.setItem(EXCLUSIVE_STORAGE_KEY, JSON.stringify(arr));
 }
 
 function addInterest() {
+  var u = getCurrentUser();
+  if (u) {
+    // 多用户模式：从设置页账号卡片的输入框读取
+    var input = document.getElementById('newInterest');
+    if (!input) return;
+    var word = input.value.trim();
+    if (!word) return;
+    if (u.interests.indexOf(word) >= 0) { msg('该兴趣词已存在', 'error'); return; }
+    u.interests.push(word);
+    allUsers[u.nickname].interests = u.interests;
+    saveUsers();
+    setCurrentUser(u);
+    input.value = '';
+    renderAccountUI();
+    renderExclusivePage();
+    return;
+  }
+  // 匿名模式：从专属页输入框读取
   var input = document.getElementById('exclusiveInput');
   if (!input) return;
   var val = input.value.trim();
@@ -3327,6 +3454,16 @@ function addInterest() {
 }
 
 function removeInterest(idx) {
+  var u = getCurrentUser();
+  if (u) {
+    u.interests.splice(idx, 1);
+    allUsers[u.nickname].interests = u.interests;
+    saveUsers();
+    setCurrentUser(u);
+    renderAccountUI();
+    renderExclusivePage();
+    return;
+  }
   var interests = getInterests();
   interests.splice(idx, 1);
   saveInterests(interests);
@@ -3334,10 +3471,21 @@ function removeInterest(idx) {
 }
 
 function renderExclusivePage() {
+  var u = getCurrentUser();
   var interests = getInterests();
   var tagsEl = document.getElementById('interestTags');
   var newsList = document.getElementById('exclusiveNewsList');
   var meta = document.getElementById('exclusiveUpdateMeta');
+
+  // 未登录多用户：显示登录提示
+  if (!u && typeof allUsers !== 'undefined' && Object.keys(allUsers).length > 0 && !localStorage.getItem(EXCLUSIVE_STORAGE_KEY)) {
+    if (tagsEl) tagsEl.innerHTML = '';
+    if (newsList) {
+      newsList.innerHTML = '<div style="text-align:center;padding:40px 20px;color:var(--text3)"><div style="font-size:40px;margin-bottom:12px">🔒</div><div>请先在设置页注册登录<br>以定制您的专属新闻</div></div>';
+    }
+    if (meta) meta.textContent = '';
+    return;
+  }
 
   // 渲染标签
   if (tagsEl) {
@@ -3378,6 +3526,23 @@ function renderExclusivePage() {
 }
 
 function getExclusiveNews() {
+  var u = getCurrentUser();
+  // 多用户：优先使用 extract_news.py 预生成的专属新闻数组
+  if (u && typeof userExclusiveNewsMap !== 'undefined' && userExclusiveNewsMap[u.nickname]) {
+    return userExclusiveNewsMap[u.nickname];
+  }
+  // 多用户：退化为运行时从新闻源筛选
+  if (u && u.interests && u.interests.length > 0) {
+    var allNews = [].concat(
+      mockHotNewsDomesticExtra, mockHotNewsInternationalExtra, mockHotNewsAIExtra,
+      mockEntertainmentExtra, mockHenanNews, mockCslOtherTeams
+    );
+    return allNews.filter(function(n) {
+      return u.interests.some(function(kw) {
+        return (n.title && n.title.indexOf(kw) >= 0) || (n.summary && n.summary.indexOf(kw) >= 0);
+      });
+    }).slice(0, 10);
+  }
   // 优先使用 localStorage 中的数据（自动化更新后写入），其次用静态数组
   var stored = [];
   try { stored = JSON.parse(localStorage.getItem(EXCLUSIVE_NEWS_KEY) || '[]'); } catch(e) {}
@@ -3402,6 +3567,9 @@ function renderSettingsPage() {
   document.getElementById('themeDefault').classList.toggle('active', currentTheme === 'default');
   document.getElementById('themeGlass').classList.toggle('active', currentTheme === 'glass');
   document.getElementById('themeDark').classList.toggle('active', currentTheme === 'dark');
+
+  // 同步账号状态
+  renderAccountUI();
 
   // 同步推送开关
   var pushNotify = document.getElementById('togglePushNotify');
@@ -3581,6 +3749,12 @@ function startMarqueeRealtime() {
 renderMarquee();
 // 启动跑马灯实时数据刷新（股市行情 + 重大新闻）
 startMarqueeRealtime();
+
+// INIT: 多用户账号系统
+loadUsers();
+getCurrentUser();
+renderAccountUI();
+
 // 兜底：确保即使上述渲染因某种原因失败，1秒后重试
 setTimeout(function() {
   var track = document.getElementById('marqueeTrack');

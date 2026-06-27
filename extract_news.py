@@ -284,6 +284,88 @@ def main():
     print(f"  Entertainment: {len(sections.get('entertainment', []))} items")
     print(f"  Henan: {len(sections.get('henan', []))} items")
     print(f"  CSL: {len(sections.get('csl', []))} items")
+    
+    # Generate per-user exclusive news arrays
+    print("\n--- Exclusive News Generation ---")
+    exclusive_js = generate_exclusive_news(sections)
+    if exclusive_js:
+        exclusive_file = "/Users/bainian/WorkBuddy/2026-06-25-10-20-28/zhenbao-daily-news/exclusive_news_arrays.js"
+        with open(exclusive_file, 'w', encoding='utf-8') as f:
+            f.write(exclusive_js)
+        print(f"Exclusive news saved to: {exclusive_file}")
+
+
+def generate_exclusive_news(sections):
+    """Read exclusive_interests.json (multi-user format),
+    match news across all sections, and generate per-user JS arrays."""
+    interests_file = "/Users/bainian/WorkBuddy/2026-06-25-10-20-28/zhenbao-daily-news/exclusive_interests.json"
+    try:
+        with open(interests_file, 'r', encoding='utf-8') as f:
+            user_interests = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"  WARNING: Cannot read exclusive_interests.json: {e}")
+        return ""
+    
+    # Collect all news items from all sections
+    all_news = []
+    for section_id, items in sections.items():
+        for item in items:
+            item['_section'] = section_id
+            all_news.append(item)
+    
+    if not all_news:
+        print("  No news items to match against")
+        return ""
+    
+    # Build per-user exclusive news
+    # user_interests format: {"爸爸": ["刘德华"], "妈妈": []}
+    user_exclusive = {}
+    for username, interests in user_interests.items():
+        if not interests:
+            user_exclusive[username] = []
+            print(f"  {username}: 0 interests, 0 matches")
+            continue
+        matched = []
+        for item in all_news:
+            title = item.get('title', '')
+            summary = item.get('summary', '')
+            for kw in interests:
+                if kw in title or kw in summary:
+                    matched.append({
+                        'title': item['title'],
+                        'source': item['source'],
+                        'summary': item['summary'],
+                        'matchTag': kw,
+                        'time': '2026-06-26',
+                    })
+                    break  # One match per item per user
+        user_exclusive[username] = matched[:10]  # Max 10 per user
+        print(f"  {username}: {len(interests)} interests, {len(matched[:10])} matches")
+    
+    # Generate JS code
+    lines = ["// === 按用户分组的专属新闻数组（由 extract_news.py 自动生成） ===", ""]
+    
+    for username, news_list in user_exclusive.items():
+        safe_name = re.sub(r'[^a-zA-Z0-9_\u4e00-\u9fff]', '_', username)
+        lines.append(f"const mockExclusiveNews_{safe_name} = [")
+        for item in news_list:
+            title = item['title'].replace('"', '\\"')
+            summary = item['summary'].replace('"', '\\"')
+            source = item['source'].replace('"', '\\"')
+            match_tag = item['matchTag'].replace('"', '\\"')
+            lines.append(f'  {{title:"{title}", source:"{source}", summary:"{summary}", matchTag:"{match_tag}", time:"{item["time"]}"}},')
+        lines.append("];")
+        lines.append("")
+    
+    # Also generate a lookup map for index.html to use
+    lines.append("// 用户专属新闻查找映射")
+    lines.append("var userExclusiveNewsMap = {")
+    for username in user_exclusive.keys():
+        safe_name = re.sub(r'[^a-zA-Z0-9_\u4e00-\u9fff]', '_', username)
+        lines.append(f'  "{username}": mockExclusiveNews_{safe_name},')
+    lines.append("};")
+    
+    return "\n".join(lines)
 
 if __name__ == '__main__':
     main()
