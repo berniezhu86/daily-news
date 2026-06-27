@@ -234,6 +234,7 @@ body.care-mode .news-time { font-size:12px!important; }
 .section-page { display:none; }
 .section-page.active { display:block; animation:fadeIn 0.2s ease; }
 @keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
+@keyframes bannerSlideIn { from { opacity:0; transform:translateY(-4px); } to { opacity:1; transform:translateY(0); } }
 
 /* ===== CARD ===== */
 .card {
@@ -3570,6 +3571,18 @@ function addInterest() {
     saveUsers();
     setCurrentUser(u);
     input.value = '';
+    // 提示横幅：通知 Marvis 更新新闻
+    var banner = document.createElement('div');
+    banner.style.cssText = 'background:linear-gradient(135deg,#3b82f6,#2563eb);color:#fff;padding:12px 16px;border-radius:12px;margin-top:12px;display:flex;align-items:center;justify-content:space-between;font-size:13px;animation:bannerSlideIn 0.3s ease';
+    banner.innerHTML = '<span>兴趣词已保存，需要立即搜索新闻？</span><button style="background:#fff;color:#2563eb;border:none;border-radius:8px;padding:6px 14px;font-size:12px;font-weight:600;cursor:pointer">通知 Marvis</button>';
+    banner.querySelector('button').onclick = function() {
+      banner.textContent = '已发送通知，新闻即将更新...';
+      banner.style.justifyContent = 'center';
+      setTimeout(function() { banner.remove(); }, 3000);
+      try { window.open('marvis://chat?text=更新专属新闻','_blank'); } catch(e) {}
+    };
+    input.parentNode.insertBefore(banner, input.nextSibling);
+    setTimeout(function() { if (banner.parentNode) banner.remove(); }, 8000);
     renderAccountUI();
     renderExclusivePage();
     return;
@@ -3592,6 +3605,18 @@ function addInterest() {
   interests.push(val);
   saveInterests(interests);
   input.value = '';
+  // 提示横幅：通知 Marvis 更新新闻
+  var banner = document.createElement('div');
+  banner.style.cssText = 'background:linear-gradient(135deg,#3b82f6,#2563eb);color:#fff;padding:12px 16px;border-radius:12px;margin-top:12px;display:flex;align-items:center;justify-content:space-between;font-size:13px;animation:bannerSlideIn 0.3s ease';
+  banner.innerHTML = '<span>兴趣词已保存，需要立即搜索新闻？</span><button style="background:#fff;color:#2563eb;border:none;border-radius:8px;padding:6px 14px;font-size:12px;font-weight:600;cursor:pointer">通知 Marvis</button>';
+  banner.querySelector('button').onclick = function() {
+    banner.textContent = '已发送通知，新闻即将更新...';
+    banner.style.justifyContent = 'center';
+    setTimeout(function() { banner.remove(); }, 3000);
+    try { window.open('marvis://chat?text=更新专属新闻','_blank'); } catch(e) {}
+  };
+  input.parentNode.insertBefore(banner, input.nextSibling);
+  setTimeout(function() { if (banner.parentNode) banner.remove(); }, 8000);
   renderExclusivePage();
 }
 

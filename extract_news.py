@@ -3,6 +3,7 @@
 
 import re
 import json
+import requests
 
 SOURCE_FILE = "/Users/bainian/Documents/软件测试/臻宝每日快讯_带摘要.html"
 OUTPUT_FILE = "/Users/bainian/WorkBuddy/2026-06-25-10-20-28/zhenbao-daily-news/extracted_news.json"
@@ -295,6 +296,24 @@ def main():
         print(f"Exclusive news saved to: {exclusive_file}")
 
 
+def search_interest_news(keyword, max_results=5):
+    """搜索兴趣词相关新闻"""
+    import re
+    results = []
+    try:
+        url = f"https://html.duckduckgo.com/html/?q={requests.utils.quote(keyword + ' 新闻')}"
+        headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
+        resp = requests.get(url, headers=headers, timeout=10)
+        titles = re.findall(r'<a[^>]*class="result__a"[^>]*>(.*?)</a>', resp.text)
+        snippets = re.findall(r'<a[^>]*class="result__snippet"[^>]*>(.*?)</a>', resp.text)
+        for i in range(min(len(titles), max_results)):
+            title = re.sub(r'<[^>]+>', '', titles[i]).strip()
+            snippet = re.sub(r'<[^>]+>', '', snippets[i]).strip() if i < len(snippets) else ''
+            results.append({'title': title, 'summary': snippet[:120]})
+    except Exception as e:
+        print(f"  搜索 '{keyword}' 失败: {e}")
+    return results
+
 def generate_exclusive_news(sections):
     """Read exclusive_interests.json (multi-user format),
     match news across all sections, and generate per-user JS arrays."""
@@ -326,6 +345,7 @@ def generate_exclusive_news(sections):
             print(f"  {username}: 0 interests, 0 matches")
             continue
         matched = []
+        kw_match_count = {kw: 0 for kw in interests}
         for item in all_news:
             title = item.get('title', '')
             summary = item.get('summary', '')
@@ -338,9 +358,26 @@ def generate_exclusive_news(sections):
                         'matchTag': kw,
                         'time': '2026-06-26',
                     })
+                    kw_match_count[kw] += 1
                     break  # One match per item per user
+        
+        # Supplement with web search for keywords with < 3 matches
+        for kw in interests:
+            if kw_match_count[kw] < 3:
+                print(f"  🔍 Searching web for '{kw}' (only {kw_match_count[kw]} local matches)...")
+                web_results = search_interest_news(kw, max_results=5)
+                for r in web_results:
+                    matched.append({
+                        'title': r['title'],
+                        'source': '网络搜索',
+                        'summary': r['summary'],
+                        'matchTag': kw,
+                        'time': '2026-06-27',
+                    })
+        
+        local_count = sum(kw_match_count.values())
         user_exclusive[username] = matched[:10]  # Max 10 per user
-        print(f"  {username}: {len(interests)} interests, {len(matched[:10])} matches")
+        print(f"  {username}: {len(interests)} interests, {len(matched[:10])} matches ({local_count} local + {len(matched[:10])-local_count} web)")
     
     # Generate JS code
     lines = ["// === 按用户分组的专属新闻数组（由 extract_news.py 自动生成） ===", ""]
