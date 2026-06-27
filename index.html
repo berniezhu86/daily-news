@@ -2382,6 +2382,9 @@ function removeAccountInterest(word) {
     allUsers[currentUser.nickname].interests = currentUser.interests;
     saveUsers();
     setCurrentUser(currentUser);
+    // 清除预生成缓存，避免刷新页面后旧缓存复活
+    if (typeof userExclusiveNewsMap !== 'undefined') { delete userExclusiveNewsMap[currentUser.nickname]; }
+    localStorage.setItem('excl_snap_' + currentUser.nickname, JSON.stringify(currentUser.interests.slice().sort()));
     renderAccountUI();
     renderExclusivePage();
   });
@@ -3635,6 +3638,9 @@ function addInterest() {
     saveUsers();
     setCurrentUser(u);
     input.value = '';
+    // 清除预生成缓存 + 更新快照，避免旧缓存被复用
+    if (typeof userExclusiveNewsMap !== 'undefined') { delete userExclusiveNewsMap[u.nickname]; }
+    localStorage.setItem('excl_snap_' + u.nickname, JSON.stringify(u.interests.slice().sort()));
     var currentInterest = word;
     syncToGitHub((currentUser && currentUser.nickname) || '匿名用户', currentInterest, 'add', function(ok) {
       if (ok) {
@@ -3665,6 +3671,9 @@ function addInterest() {
   interests.push(val);
   saveInterests(interests);
   input.value = '';
+  // 清除预生成缓存 + 更新快照
+  if (typeof userExclusiveNewsMap !== 'undefined') { delete userExclusiveNewsMap['匿名用户']; }
+  localStorage.setItem('excl_snap_匿名用户', JSON.stringify(interests.slice().sort()));
   syncToGitHub('匿名用户', val, 'add', function(ok) {
     if (ok) {
       showNotifyModal('每日简讯正在定制属于您的新闻', '请 1 分钟后刷新页面查看');
@@ -3736,12 +3745,18 @@ function removeInterest(idx) {
       allUsers[u.nickname].interests = u.interests;
       saveUsers();
       setCurrentUser(u);
+      // 清除预生成缓存，避免刷新页面后旧缓存复活
+      if (typeof userExclusiveNewsMap !== 'undefined') { delete userExclusiveNewsMap[u.nickname]; }
+      // 更新快照使 getExclusiveNews() 能检测到变化
+      localStorage.setItem('excl_snap_' + u.nickname, JSON.stringify(u.interests.slice().sort()));
       renderAccountUI();
       renderExclusivePage();
     } else {
       var interests = getInterests();
       interests.splice(idx, 1);
       saveInterests(interests);
+      if (typeof userExclusiveNewsMap !== 'undefined') { delete userExclusiveNewsMap['匿名用户']; }
+      localStorage.setItem('excl_snap_匿名用户', JSON.stringify(interests.slice().sort()));
       renderExclusivePage();
     }
   });
@@ -3805,13 +3820,26 @@ function renderExclusivePage() {
 function getExclusiveNews() {
   var u = getCurrentUser();
   var mapKey = u ? u.nickname : '匿名用户';
-  
+  var interests = getInterests();
+
+  // 如果没有兴趣词，直接返回空（不回退到缓存或静态数组）
+  if (interests.length === 0) return [];
+
   // 1. 优先使用 extract_news.py 预生成的专属新闻数组（所有模式）
+  //    但需校验兴趣词快照是否一致：变化后清除缓存并走运行时筛选
   if (typeof userExclusiveNewsMap !== 'undefined' && userExclusiveNewsMap[mapKey]) {
-    var arr = userExclusiveNewsMap[mapKey];
-    if (arr && arr.length > 0) return arr;
+    var snapshotKey = 'excl_snap_' + mapKey;
+    var savedSnapshot = localStorage.getItem(snapshotKey);
+    var currentSnapshot = JSON.stringify(interests.slice().sort());
+    if (savedSnapshot === currentSnapshot) {
+      var arr = userExclusiveNewsMap[mapKey];
+      if (arr && arr.length > 0) return arr;
+    }
+    // 兴趣词已变化：清除预生成缓存 + 更新快照，后续走运行时筛选
+    delete userExclusiveNewsMap[mapKey];
+    localStorage.setItem(snapshotKey, currentSnapshot);
   }
-  
+
   // 2. 多用户模式：运行时按兴趣词从全量新闻筛选
   if (u && u.interests && u.interests.length > 0) {
     var allNews = [].concat(
@@ -3824,9 +3852,8 @@ function getExclusiveNews() {
       });
     }).slice(0, 10);
   }
-  
+
   // 3. 匿名模式：运行时按兴趣词筛选
-  var interests = getInterests();
   if (interests.length > 0) {
     var allNews2 = [].concat(
       mockHotNewsDomesticExtra, mockHotNewsInternationalExtra, mockHotNewsAIExtra,
@@ -3839,7 +3866,7 @@ function getExclusiveNews() {
     }).slice(0, 10);
     if (matched.length > 0) return matched;
   }
-  
+
   // 4. 退路：静态数组或空
   if (typeof mockExclusiveNews !== 'undefined' && mockExclusiveNews.length > 0) return mockExclusiveNews;
   return [];
