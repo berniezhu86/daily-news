@@ -3778,10 +3778,21 @@ function getExclusiveNews() {
       });
     }).slice(0, 10);
   }
-  // 优先使用 localStorage 中的数据（自动化更新后写入），其次用静态数组
-  var stored = [];
-  try { stored = JSON.parse(localStorage.getItem(EXCLUSIVE_NEWS_KEY) || '[]'); } catch(e) {}
-  if (stored && stored.length > 0) return stored;
+  // 匿名模式：按兴趣词从全量新闻数组中筛选
+  var interests = getInterests();
+  if (interests.length > 0) {
+    var allNews = [].concat(
+      mockHotNewsDomesticExtra, mockHotNewsInternationalExtra, mockHotNewsAIExtra,
+      mockEntertainmentExtra, mockHenanNews, mockCslOtherTeams
+    );
+    var matched = allNews.filter(function(n) {
+      return interests.some(function(kw) {
+        return (n.title && n.title.indexOf(kw) >= 0) || (n.summary && n.summary.indexOf(kw) >= 0);
+      });
+    }).slice(0, 10);
+    if (matched.length > 0) return matched;
+  }
+  // 退回静态数组
   if (typeof mockExclusiveNews !== 'undefined' && mockExclusiveNews.length > 0) return mockExclusiveNews;
   return [];
 }
