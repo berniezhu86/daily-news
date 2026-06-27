@@ -1205,15 +1205,17 @@ body.theme-dark .auth-banner {
 .account-add{display:flex;gap:6px;align-items:center}
 
 /* ========== 登录模态弹窗 ========== */
-.modal-overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:9999;justify-content:center;align-items:center}
-.modal-overlay.show{display:flex}
-.modal-box{background:var(--surface1);border-radius:16px;padding:24px;width:320px;max-width:90vw;box-shadow:0 8px 32px rgba(0,0,0,0.3)}
-.modal-title{font-size:17px;font-weight:700;color:var(--text1);margin-bottom:16px;text-align:center}
+.modal-overlay{display:flex;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:9999;justify-content:center;align-items:center;opacity:0;pointer-events:none;transition:opacity 0.25s ease;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.modal-overlay.show{opacity:1;pointer-events:auto}
+.modal-box{background:var(--surface1);border-radius:20px;padding:28px 24px 24px;width:320px;max-width:90vw;box-shadow:0 16px 48px rgba(0,0,0,0.4);transform:scale(0.9);transition:transform 0.25s ease}
+.modal-overlay.show .modal-box{transform:scale(1)}
+.modal-title{font-size:18px;font-weight:700;color:var(--text1);margin-bottom:20px;text-align:center}
 .modal-input{padding:10px 12px;border:1px solid var(--border);border-radius:10px;font-size:14px;background:var(--surface2);color:var(--text1);outline:none;width:100%;box-sizing:border-box;margin-bottom:10px}
+.modal-input::placeholder{color:#999}
 .modal-input:focus{border-color:var(--blue)}
 .modal-btns{display:flex;gap:8px;margin-top:4px}
 .modal-btns .btn{flex:1}
-.modal-close{position:absolute;top:8px;right:12px;font-size:20px;cursor:pointer;color:var(--text3)}
+.modal-close{position:absolute;top:12px;right:12px;width:32px;height:32px;display:flex;align-items:center;justify-content:center;background:var(--surface2);border-radius:50%;font-size:16px;cursor:pointer;color:var(--text3)}
 .modal-close:hover{color:var(--text1)}
 </style>
 </head>
@@ -2312,11 +2314,17 @@ function doLogout() {
 
 // ========== 登录模态弹窗逻辑 ==========
 function showLoginModal() {
-  document.getElementById('loginModal').classList.add('show');
   document.getElementById('modalNickname').value = '';
   document.getElementById('modalPassword').value = '';
   document.getElementById('modalMsg').textContent = '';
   document.getElementById('modalMsg').className = 'login-msg';
+  var overlay = document.getElementById('loginModal');
+  overlay.style.display = 'flex';
+  requestAnimationFrame(function() {
+    requestAnimationFrame(function() {
+      overlay.classList.add('show');
+    });
+  });
 }
 
 function closeLoginModal() {
