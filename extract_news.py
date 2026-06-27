@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """Extract news from source HTML and generate JS arrays for the project."""
 
+import os
 import re
 import json
 import requests
 from urllib.parse import quote
 
-SOURCE_FILE = "/Users/bainian/Documents/软件测试/臻宝每日快讯_带摘要.html"
-OUTPUT_FILE = "/Users/bainian/WorkBuddy/2026-06-25-10-20-28/zhenbao-daily-news/extracted_news.json"
+# Script's own directory (works both locally and in GitHub Actions)
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+SOURCE_FILE = os.path.join(SCRIPT_DIR, "臻宝每日快讯_带摘要.html")
+OUTPUT_FILE = os.path.join(SCRIPT_DIR, "extracted_news.json")
 
 def parse_source_html(filepath):
     """Parse the source HTML and extract news items by section."""
@@ -250,48 +254,53 @@ def generate_csl_js(items):
 
 def main():
     print("Parsing source HTML...")
-    sections = parse_source_html(SOURCE_FILE)
+    sections = {}
+    try:
+        sections = parse_source_html(SOURCE_FILE)
+    except FileNotFoundError:
+        print("Source HTML not found, skipping main news generation (GitHub Actions mode).")
     
-    print("\nGenerating JS arrays...")
+    if sections:
+        print("\nGenerating JS arrays...")
+        
+        # Generate each section
+        domestic_js = generate_domestic_js(sections.get('domestic', []))
+        international_js = generate_international_js(sections.get('international', []))
+        entertainment_js = generate_entertainment_js(sections.get('entertainment', []))
+        henan_js = generate_henan_js(sections.get('henan', []))
+        csl_js = generate_csl_js(sections.get('csl', []))
+        
+        # Save to JSON for inspection
+        output = {
+            'domestic': sections.get('domestic', []),
+            'international': sections.get('international', []),
+            'entertainment': sections.get('entertainment', []),
+            'henan': sections.get('henan', []),
+            'csl': sections.get('csl', []),
+        }
+        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+            json.dump(output, f, ensure_ascii=False, indent=2)
+        
+        # Save JS output
+        js_output = "\n\n".join([domestic_js, international_js, entertainment_js, henan_js, csl_js])
+        js_file = os.path.join(SCRIPT_DIR, "generated_news_arrays.js")
+        with open(js_file, 'w', encoding='utf-8') as f:
+            f.write(js_output)
+        
+        print(f"\nGenerated JS saved to: {js_file}")
+        print(f"JSON data saved to: {OUTPUT_FILE}")
+        print(f"\nCounts:")
+        print(f"  Domestic: {len(sections.get('domestic', []))} items")
+        print(f"  International: {len(sections.get('international', []))} items")
+        print(f"  Entertainment: {len(sections.get('entertainment', []))} items")
+        print(f"  Henan: {len(sections.get('henan', []))} items")
+        print(f"  CSL: {len(sections.get('csl', []))} items")
     
-    # Generate each section
-    domestic_js = generate_domestic_js(sections.get('domestic', []))
-    international_js = generate_international_js(sections.get('international', []))
-    entertainment_js = generate_entertainment_js(sections.get('entertainment', []))
-    henan_js = generate_henan_js(sections.get('henan', []))
-    csl_js = generate_csl_js(sections.get('csl', []))
-    
-    # Save to JSON for inspection
-    output = {
-        'domestic': sections.get('domestic', []),
-        'international': sections.get('international', []),
-        'entertainment': sections.get('entertainment', []),
-        'henan': sections.get('henan', []),
-        'csl': sections.get('csl', []),
-    }
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-    
-    # Save JS output
-    js_output = "\n\n".join([domestic_js, international_js, entertainment_js, henan_js, csl_js])
-    js_file = "/Users/bainian/WorkBuddy/2026-06-25-10-20-28/zhenbao-daily-news/generated_news_arrays.js"
-    with open(js_file, 'w', encoding='utf-8') as f:
-        f.write(js_output)
-    
-    print(f"\nGenerated JS saved to: {js_file}")
-    print(f"JSON data saved to: {OUTPUT_FILE}")
-    print(f"\nCounts:")
-    print(f"  Domestic: {len(sections.get('domestic', []))} items")
-    print(f"  International: {len(sections.get('international', []))} items")
-    print(f"  Entertainment: {len(sections.get('entertainment', []))} items")
-    print(f"  Henan: {len(sections.get('henan', []))} items")
-    print(f"  CSL: {len(sections.get('csl', []))} items")
-    
-    # Generate per-user exclusive news arrays
+    # Generate per-user exclusive news arrays (always run, even if source missing)
     print("\n--- Exclusive News Generation ---")
     exclusive_js = generate_exclusive_news(sections)
     if exclusive_js:
-        exclusive_file = "/Users/bainian/WorkBuddy/2026-06-25-10-20-28/zhenbao-daily-news/exclusive_news_arrays.js"
+        exclusive_file = os.path.join(SCRIPT_DIR, "exclusive_news_arrays.js")
         with open(exclusive_file, 'w', encoding='utf-8') as f:
             f.write(exclusive_js)
         print(f"Exclusive news saved to: {exclusive_file}")
@@ -375,7 +384,7 @@ def search_sogou_news(query, max_results=5):
 def generate_exclusive_news(sections):
     """Read exclusive_interests.json (multi-user format),
     match news across all sections, and generate per-user JS arrays."""
-    interests_file = "/Users/bainian/WorkBuddy/2026-06-25-10-20-28/zhenbao-daily-news/exclusive_interests.json"
+    interests_file = os.path.join(SCRIPT_DIR, "exclusive_interests.json")
     try:
         with open(interests_file, 'r', encoding='utf-8') as f:
             user_interests = json.load(f)

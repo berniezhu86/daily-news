@@ -1,0 +1,2679 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>臻宝每日快讯 — 2026年6月27日</title>
+    <style>
+        :root {
+            --bg-primary: #f5f5f7;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #fafafa;
+            --text-primary: #1d1d1f;
+            --text-secondary: #6e6e73;
+            --text-tertiary: #86868b;
+            --accent: #0071e3;
+            --accent-hover: #0077ed;
+            --border: #d2d2d7;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+            --shadow-md: 0 4px 20px rgba(0,0,0,0.06);
+            --shadow-lg: 0 8px 40px rgba(0,0,0,0.08);
+            --radius-sm: 12px;
+            --radius-md: 16px;
+            --radius-lg: 20px;
+            --nav-bg: rgba(255,255,255,0.72);
+            --card-bg: #ffffff;
+            --stock-up: #34c759;
+            --stock-down: #ff3b30;
+            --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --font-sf: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-primary: #000000;
+                --bg-secondary: #1c1c1e;
+                --bg-tertiary: #2c2c2e;
+                --text-primary: #f5f5f7;
+                --text-secondary: #a1a1a6;
+                --text-tertiary: #6e6e73;
+                --border: #38383a;
+                --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+                --shadow-md: 0 4px 20px rgba(0,0,0,0.4);
+                --shadow-lg: 0 8px 40px rgba(0,0,0,0.5);
+                --nav-bg: rgba(28,28,30,0.8);
+                --card-bg: #1c1c1e;
+                --gradient-hero: linear-gradient(135deg, #4a00e0 0%, #8e2de2 100%);
+            }
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font-sf);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--nav-bg);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 24px;
+            height: 52px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar-brand {
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            color: var(--text-primary);
+            white-space: nowrap;
+        }
+
+        .navbar-links {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            padding: 0 8px;
+        }
+
+        .navbar-links::-webkit-scrollbar { display: none; }
+
+        .navbar-links button {
+            display: inline-block;
+            padding: 6px 12px;
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            background: none;
+            border: none;
+            border-radius: 20px;
+            white-space: nowrap;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: var(--font-sf);
+        }
+
+        .navbar-links button:hover {
+            color: var(--accent);
+            background: rgba(0,113,227,0.08);
+        }
+
+        .navbar-links button.active {
+            color: #ffffff;
+            background: var(--accent);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .navbar-links button.active {
+                color: #ffffff;
+                background: var(--accent);
+            }
+        }
+
+        .hero {
+            background: var(--gradient-hero);
+            padding: 48px 24px 40px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 8px;
+        }
+
+        .hero p {
+            font-size: 16px;
+            opacity: 0.85;
+            font-weight: 400;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 24px 20px 60px;
+        }
+
+        .section { margin-bottom: 32px; display: none; }
+        .section.active { display: block; }
+
+        .section-header {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 16px;
+            padding: 0 4px;
+        }
+
+        .section-title {
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            color: var(--text-primary);
+        }
+
+        .section-count {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-tertiary);
+            background: var(--bg-tertiary);
+            padding: 3px 10px;
+            border-radius: 12px;
+        }
+
+        .news-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            background: var(--border);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+        }
+
+        .news-card {
+            background: var(--card-bg);
+            padding: 16px 20px;
+            transition: background 0.15s;
+        }
+
+        .news-card:hover { background: var(--bg-tertiary); }
+
+        .news-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--accent);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 4px;
+            letter-spacing: -0.2px;
+            line-height: 1.4;
+        }
+
+        .news-title:hover {
+            text-decoration: underline;
+            color: var(--accent-hover);
+        }
+
+        .news-meta {
+            font-size: 11px;
+            color: var(--text-tertiary);
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        .news-summary {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.55;
+        }
+
+        .stocks-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        @media (max-width: 640px) {
+            .stocks-grid { grid-template-columns: 1fr; }
+        }
+
+        .stock-group {
+            background: var(--card-bg);
+            border-radius: var(--radius-md);
+            padding: 18px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .stock-group-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            letter-spacing: -0.2px;
+        }
+
+        .stock-item {
+            display: flex;
+            align-items: center;
+            padding: 6px 0;
+            gap: 8px;
+            font-size: 13px;
+        }
+
+        .stock-name { font-weight: 500; color: var(--text-primary); min-width: 60px; }
+        .stock-value { font-family: 'SF Mono', 'Menlo', monospace; font-weight: 600; }
+        .stock-change { font-weight: 600; margin-left: auto; }
+        .stock-item.up .stock-change { color: var(--stock-up); }
+        .stock-item.down .stock-change { color: var(--stock-down); }
+        .stock-item.down .stock-value { color: var(--stock-down); }
+        .stock-item.up .stock-value { color: var(--stock-up); }
+
+        .ai-stocks-section { 
+            background: linear-gradient(135deg, rgba(102,126,234,0.04) 0%, rgba(118,75,162,0.04) 100%);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+        }
+
+        .ai-stocks-intro {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            font-style: italic;
+            line-height: 1.6;
+        }
+
+        .ai-stocks-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .ai-stocks-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 480px) {
+            .ai-stocks-grid { grid-template-columns: 1fr; }
+        }
+
+        .ai-stock-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-sm);
+            padding: 16px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border);
+        }
+
+        .ai-stock-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .ai-stock-symbol {
+            font-family: 'SF Mono', 'Menlo', monospace;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .ai-stock-market {
+            font-size: 10px;
+            color: var(--text-tertiary);
+            background: var(--bg-tertiary);
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+
+        .ai-stock-name {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .ai-stock-reason {
+            font-size: 11px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 32px 20px;
+            color: var(--text-tertiary);
+            font-size: 12px;
+            border-top: 1px solid var(--border);
+            margin-top: 40px;
+        }
+
+        .footer p { margin: 4px 0; }
+
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 26px; }
+            .hero p { font-size: 14px; }
+            .container { padding: 16px 12px; }
+            .section-title { font-size: 18px; }
+            .news-card { padding: 12px 14px; }
+            .news-title { font-size: 14px; }
+            .navbar-links button { padding: 4px 10px; font-size: 11px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <span class="navbar-brand">臻宝每日快讯</span>
+        <div class="navbar-links">
+            <button onclick="showTab('domestic')" class="active">国内新闻</button>
+            <button onclick="showTab('international')">国际新闻</button>
+            <button onclick="showTab('entertainment')">娱乐新闻</button>
+            <button onclick="showTab('henan')">河南足球</button>
+            <button onclick="showTab('csl')">中超动态</button>
+            <button onclick="showTab('stocks')">全球股市</button>
+            <button onclick="showTab('ai-stocks')">AI牛股</button>
+            <button onclick="showTab('ai-tech')">AI科技</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>臻宝每日快讯 <span class="date-badge">— 2026年6月27日</span></h1>
+        <p style="text-align:center; color:var(--text-secondary); font-size:14px; margin-top:8px;">本次更新时间：2026年6月27日 周六 22:00</p>
+        <p>2026年6月27日 星期六 &middot; AI 驱动的一站式资讯聚合</p>
+    </header>
+
+
+    <div class="container">
+
+        <section id="domestic" class="section active">
+            <div class="section-header">
+                <h2 class="section-title">国内新闻</h2>
+                <span class="section-count">100 条</span>
+            </div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <a href="https://www.news.cn/politics/leaders/20260626/2bcaf47e757a44039df241bcab9373a9/c.html" target="_blank" rel="noopener" class="news-title">习近平会见柬埔寨人民党主席、参议院主席洪森</a>
+                    <div class="news-meta">【新华网】</div>
+                    <p class="news-summary">6月26日上午，习近平在人民大会堂会见柬埔寨人民党主席、参议院主席洪森。习近平表示中方一贯将柬埔寨作为周边外交重点方向，愿同柬方扎实推进中柬命运共同体建设。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://tv.cctv.cn/2026/06/27/VIDECUYykSRu4Eqyg7r8guMC260627.shtml" target="_blank" rel="noopener" class="news-title">习近平签署国家主席令，十四届全国人大常委会第二十三次会议闭幕</a>
+                    <div class="news-meta">【央视网】</div>
+                    <p class="news-summary">十四届全国人大常委会第二十三次会议在京闭幕，习近平签署国家主席令。会议审议通过多项法律草案，金融法草案首次提请审议。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://tv.cctv.cn/2026/06/27/VIDECUYykSRu4Eqyg7r8guMC260627.shtml" target="_blank" rel="noopener" class="news-title">习近平就委内瑞拉发生强烈地震向委内瑞拉代总统致慰问电</a>
+                    <div class="news-meta">【央视网】</div>
+                    <p class="news-summary">习近平就委内瑞拉发生强烈地震造成重大人员伤亡和财产损失，向委内瑞拉代总统致慰问电，表示中方愿提供力所能及的帮助。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://tv.cctv.cn/2026/06/27/VIDECUYykSRu4Eqyg7r8guMC260627.shtml" target="_blank" rel="noopener" class="news-title">李强会见洪森并同孟加拉国总理塔里克举行会谈</a>
+                    <div class="news-meta">【新华社/央视网】</div>
+                    <p class="news-summary">国务院总理李强在北京分别会见柬埔寨人民党主席洪森和孟加拉国总理塔里克，就深化双边合作达成多项共识，签署系列合作文件。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://tv.cctv.cn/2026/06/27/VIDECUYykSRu4Eqyg7r8guMC260627.shtml" target="_blank" rel="noopener" class="news-title">赵乐际会见孟加拉国总理，丁薛祥在新疆调研</a>
+                    <div class="news-meta">【央视网】</div>
+                    <p class="news-summary">全国人大常委会委员长赵乐际会见孟加拉国总理塔里克；国务院副总理丁薛祥在新疆调研经济社会发展情况，强调推动高质量发展。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A04B5400" target="_blank" rel="noopener" class="news-title">金融法草案首次提请审议：将金融活动全部纳入监管</a>
+                    <div class="news-meta">【新京报】</div>
+                    <p class="news-summary">6月26日，十四届全国人大常委会第二十三次会议召开，金融法草案提请首次审议。草案聚焦完善金融基本法律制度，将金融活动全部纳入监管，实施分类分级管理，全面强化五大监管。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A00ZS600" target="_blank" rel="noopener" class="news-title">央行行长潘功胜：直接融资占比首次超过贷款，金融结构正发生深刻变化</a>
+                    <div class="news-meta">【中国经营报】</div>
+                    <p class="news-summary">央行行长潘功胜在2026陆家嘴论坛表示，2026年前5个月社会融资增量中贷款占比45%，债券和股票融资合计占比47%，直接融资占比首次超过贷款，金融结构正发生深刻变化。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01LD800" target="_blank" rel="noopener" class="news-title">国补第三批625亿资金已下达，重点支持消费品以旧换新和绿色家电下乡</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">财政部下达第三批国家补贴资金共计625亿元，重点支持消费品以旧换新、绿色智能家电下乡等领域，助力内需扩量提质。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01LD800" target="_blank" rel="noopener" class="news-title">国务院任免一批国家工作人员，涉及多个部委及直属机构</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">国务院于6月26日任免一批国家工作人员，涉及多个部委及直属机构负责人调整，相关任命即日生效。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01LD800" target="_blank" rel="noopener" class="news-title">信访新规7月1日起施行：进一步规范信访事项受理办理流程</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">国家信访局发布新规，自2026年7月1日起正式施行，进一步规范信访事项受理办理流程，强化源头治理和信访工作责任制。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">中国财政部在卢森堡成功发行欧元主权债券</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">中国财政部在卢森堡成功发行欧元主权债券，国际投资者认购踊跃，体现国际资本市场对中国经济前景的信心。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01LD800" target="_blank" rel="noopener" class="news-title">湖北原省委书记王忠林履新全国人大环境与资源保护委员会副主任委员</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">湖北省委原书记王忠林履新，任全国人大环境与资源保护委员会副主任委员，相关任命于6月26日公布。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01LD800" target="_blank" rel="noopener" class="news-title">呼和浩特市人大常委会原副主任吴文明被查</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">内蒙古自治区呼和浩特市人大常委会原副主任吴文明涉嫌严重违纪违法，目前正接受纪律审查和监察调查。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://page.om.qq.com/page/ONyZiFkewi6WGNkzQAsGMzIg0" target="_blank" rel="noopener" class="news-title">证监会严肃查处玖瀛资产等私募基金违法违规案件</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">证监会严肃查处玖瀛资产、腾创投资私募基金违法违规案件，相关机构被处以罚款及业务限制，彰显强监管导向。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-26/detail-inieskua0700124.d.html" target="_blank" rel="noopener" class="news-title">我国发电装机突破40亿千瓦，规模位居全球首位</a>
+                    <div class="news-meta">【新华社/国家能源局】</div>
+                    <p class="news-summary">国家能源局6月25日宣布，截至2026年5月底我国发电装机达40.1亿千瓦，规模位居全球首位。新能源发电装机占比持续提升，能源结构转型成效显著。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.news.cn/tech/20260626/842c0e8cda9f4efc9faa66f2adc36abc/c.html" target="_blank" rel="noopener" class="news-title">全球首个自动驾驶系统全球技术法规获批发布，中国牵头推动制定</a>
+                    <div class="news-meta">【新华网/工信部】</div>
+                    <p class="news-summary">联合国世界车辆法规协调组织正式批准发布全球首个自动驾驶系统全球技术法规，由中国、欧盟、英国、美国、加拿大和日本共同牵头制定。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.news.cn/20260626/" target="_blank" rel="noopener" class="news-title">中国超算重回世界第一：天河系列算力超500E</a>
+                    <div class="news-meta">【新华社/科技日报】</div>
+                    <p class="news-summary">德国汉堡国际超算大会发布最新全球超算TOP500榜单，中国超算系统以超过500E的运算速度重回榜首，标志中国在超算领域又一次重大突破。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01RFQ00" target="_blank" rel="noopener" class="news-title">我国科学家揭开人类造血起源之谜，填补发育生物学理论空白</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">我国科学家研究揭示了上胚层分化命运及人类原始造血的细胞起源、分化路径和物种差异，填补了人类原肠运动启动前夕发育规律认知的理论空白。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.news.cn/tech/20260626/" target="_blank" rel="noopener" class="news-title">我国量子计算机祖冲之三号量子比特突破1000个，算力全球领先</a>
+                    <div class="news-meta">【新华社/科技日报】</div>
+                    <p class="news-summary">中国科学技术大学研究团队成功研制新型超导量子计算机原型机祖冲之三号，量子比特数突破1000个，在特定计算任务中展现出超越经典超算的性能。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01RFQ00" target="_blank" rel="noopener" class="news-title">邮政快递业绿色发展成绩单：包装标准化率达86%，减碳20.94万吨</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">《快递暂行条例》修改实施一年以来，邮政快递业包装标准化率达86%，全行业回收复用纸箱达16.16亿次，减碳20.94万吨。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01RFQ00" target="_blank" rel="noopener" class="news-title">5月我国外汇市场总计成交23.14万亿元人民币</a>
+                    <div class="news-meta">【国家外汇管理局/腾讯新闻】</div>
+                    <p class="news-summary">国家外汇管理局6月26日发布的数据显示，2026年5月中国外汇市场总计成交23.14万亿元人民币，外汇市场运行总体平稳。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://app.xinhuanet.com/news/article.html?articleId=20260626059c24dc4e8640c78608c2e6e57b0692" target="_blank" rel="noopener" class="news-title">中方将向委内瑞拉提供紧急人道主义援助，两名中国公民遇难</a>
+                    <div class="news-meta">【外交部/新华网】</div>
+                    <p class="news-summary">外交部发言人郭嘉昆宣布中国政府和红十字会将分别向委内瑞拉提供紧急人道主义援助。已确认有两名中国公民在地震中不幸遇难。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://ysxw.cctv.cn/article.html?item_id=1672333011274908380" target="_blank" rel="noopener" class="news-title">商务部回应中美经贸磋商进展：双方同意成立贸易理事会讨论对等降税</a>
+                    <div class="news-meta">【央视网/新华社】</div>
+                    <p class="news-summary">商务部新闻发言人何亚东表示中美双方同意成立贸易理事会讨论对等降税等议题，同时就美方增列所谓中国军事企业清单表达严正关切。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://military.people.com.cn/n1/2026/0625/c1011-40747610.html" target="_blank" rel="noopener" class="news-title">国防部：民进党当局蓄意制造紧张不得人心，解放军保持高度戒备</a>
+                    <div class="news-meta">【国防部/人民网】</div>
+                    <p class="news-summary">国防部新闻发言人张晓刚大校表示靠军演壮胆换不来真正安全，解放军始终保持高度戒备，坚决挫败任何台独妄动，要求美方停止向台独分裂势力发出错误信号。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.12371.cn/2026/06/25/ARTI1673948521015625.shtml" target="_blank" rel="noopener" class="news-title">十四届全国人大常委会举行第六十九次委员长会议，赵乐际主持</a>
+                    <div class="news-meta">【人民日报】</div>
+                    <p class="news-summary">十四届全国人大常委会第六十九次委员长会议在北京人民大会堂举行，赵乐际委员长主持会议，审议多项法律草案并听取有关工作汇报。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.cppcc.gov.cn/" target="_blank" rel="noopener" class="news-title">全国政协召开双周协商座谈会：围绕数字经济与实体经济融合协商议政</a>
+                    <div class="news-meta">【人民政协报】</div>
+                    <p class="news-summary">十四届全国政协第二十七次双周协商座谈会在北京召开，围绕推动数字经济与实体经济深度融合议题进行深入协商，多位政协委员和专家建言献策。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.news.cn/20260626/" target="_blank" rel="noopener" class="news-title">丁薛祥出席第九届中国-亚欧博览会开幕式并会见与会外国政要</a>
+                    <div class="news-meta">【新华网】</div>
+                    <p class="news-summary">国务院副总理丁薛祥在乌鲁木齐出席第九届中国-亚欧博览会开幕式并发表主旨演讲，随后会见多位与会外国政要，推动亚欧经贸合作。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">谌贻琴：坚决落实就业优先战略，推动体育产业高质量发展</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">国务委员谌贻琴在相关会议上强调坚决落实就业优先战略，同时要求推动体育产业高质量发展，发挥体育在促进经济社会发展中的积极作用。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">外交部：愿一道维护联合国、重振联合国、壮大联合国</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">外交部发言人表示中方愿与国际社会一道维护联合国、重振联合国、壮大联合国，坚定维护以联合国为核心的国际体系。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-26/detail-inieskua0700124.d.html" target="_blank" rel="noopener" class="news-title">最高检：检察机关将积极应对未列管成瘾性物质滥用问题</a>
+                    <div class="news-meta">【新华社/最高检】</div>
+                    <p class="news-summary">6月26日是国际禁毒日，最高检有关部门负责人表示检察机关将积极应对未列管成瘾性物质滥用问题，强化对新型毒品的打击力度。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://k.sina.cn/article_1893892941_70e2834d0200213xs.html" target="_blank" rel="noopener" class="news-title">2026年高考分数线陆续公布，各省分数线普遍较去年有所调整</a>
+                    <div class="news-meta">【央视新闻/教育部】</div>
+                    <p class="news-summary">2026年全国高考成绩及各省份录取分数线于6月25日起陆续公布，部分省份分数线较去年有所调整，考生可根据各省教育考试院官网查询。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-26/detail-inieskua0700124.d.html" target="_blank" rel="noopener" class="news-title">第十七届夏季达沃斯论坛在大连闭幕：AI和绿色转型成为焦点</a>
+                    <div class="news-meta">【新浪财经/新华社】</div>
+                    <p class="news-summary">第十七届夏季达沃斯论坛在大连圆满闭幕。来自全球政商学界的代表就AI在工业制造、医疗、能源等垂直领域的应用展开了深入探讨。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A0815Z00" target="_blank" rel="noopener" class="news-title">A股三大指数大幅下挫：上证跌2.26%险守4000点，创业板暴跌4.07%</a>
+                    <div class="news-meta">【证券时报/新黄河】</div>
+                    <p class="news-summary">6月26日A股三大指数集体重挫，上证指数跌2.26%报4027.26点险守4000点，深证成指跌3.44%，创业板指暴跌4.07%创逾8个月最大单日跌幅。4676只个股下跌。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A0815Z00" target="_blank" rel="noopener" class="news-title">A股融资余额历史首破3万亿元，本周净买入逾663亿元</a>
+                    <div class="news-meta">【证券时报e公司】</div>
+                    <p class="news-summary">截至6月26日A股融资余额首次突破3万亿元大关，本周融资净买入逾663亿元。电子行业获主力资金净流入逾480亿元。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A05XJQ00" target="_blank" rel="noopener" class="news-title">亚太股市集体重挫：韩股触发熔断，日经225指数跌超3000点</a>
+                    <div class="news-meta">【四川观察】</div>
+                    <p class="news-summary">6月26日亚太主要股指同步大跌。韩国KOSPI盘中跌幅达8%触发熔断机制，日经225跌超3000点。分析认为AI投资回报质疑触发全球科技股抛售潮。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.news.cn/20260626/" target="_blank" rel="noopener" class="news-title">发改委、国家能源局印发《新型能源体系建设行动方案》</a>
+                    <div class="news-meta">【新华网/发改委】</div>
+                    <p class="news-summary">国家发改委、国家能源局联合印发《新型能源体系建设行动方案》，提出到2030年非化石能源消费比重达25%以上，加快构建清洁低碳安全高效的能源体系。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.sohu.com/a/1041668408_121443915" target="_blank" rel="noopener" class="news-title">我国发现世界罕见珊瑚礁蓝洞：黄岩岛蓝洞调查报告发布</a>
+                    <div class="news-meta">【生态环境部/新华社】</div>
+                    <p class="news-summary">生态环境部发布《2025年黄岩岛蓝洞调查报告》，黄岩岛蓝洞属于世界罕见的珊瑚礁生长结构成因型海洋蓝洞，洞口面积约1491.7平方米，最大直径56.3米。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01LD800" target="_blank" rel="noopener" class="news-title">"钢铁院士"崔崑逝世享年101岁：为我国钢铁材料学科奠基</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">我国著名金属材料专家、"钢铁院士"崔崑于6月26日在武汉逝世享年101岁，其为我国钢铁材料学科建设作出奠基性贡献。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">上海电视节白玉兰奖揭晓：《太平年》《沉默的荣耀》等电视剧获奖</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">上海电视节揭晓白玉兰奖，《太平年》《沉默的荣耀》等优秀电视剧获奖。颁奖典礼汇聚众多影视行业精英，展现中国电视剧创作的高水准。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">2026发展中国家国家治理高端智库论坛在京举办</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">2026发展中国家国家治理高端智库论坛在北京举办，来自多个发展中国家的智库代表围绕国家治理现代化等议题进行深入研讨。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">第九届进博会推介活动在法国举行</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">第九届中国国际进口博览会推介活动在法国巴黎成功举行，吸引众多法国企业和机构参与，推动中法经贸合作。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://ysxw.cctv.cn/" target="_blank" rel="noopener" class="news-title">中国-东盟自贸区3.0版第六轮谈判取得积极进展</a>
+                    <div class="news-meta">【商务部/央视新闻】</div>
+                    <p class="news-summary">中国-东盟自贸区3.0版第六轮谈判在昆明举行，双方在数字经济、绿色经济等领域取得积极进展，力争年内完成谈判。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.news.cn/" target="_blank" rel="noopener" class="news-title">首艘国产大型邮轮"爱达·魔都号"运营一周年：累计服务旅客超20万人次</a>
+                    <div class="news-meta">【中国船舶集团/新华社】</div>
+                    <p class="news-summary">首艘国产大型邮轮"爱达·魔都号"正式运营一周年，累计服务旅客超20万人次，航线覆盖日韩和东南亚主要港口。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.cnsa.gov.cn/" target="_blank" rel="noopener" class="news-title">嫦娥八号任务公布：计划2028年前后实现月球科研站基本型建设</a>
+                    <div class="news-meta">【国家航天局/新华社】</div>
+                    <p class="news-summary">国家航天局公布嫦娥八号任务计划，将在2028年前后发射，开展月球资源勘查和原位利用试验，推动国际月球科研站基本型建设。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.sohu.com/a/1041668408_121443915" target="_blank" rel="noopener" class="news-title">教育部：阳光高考和阳光志愿APP小程序均为假冒产品</a>
+                    <div class="news-meta">【教育部/搜狐】</div>
+                    <p class="news-summary">教育部发布声明称"阳光高考"和"阳光志愿"APP/小程序均为假冒产品，提醒考生和家长注意辨别避免上当受骗。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A04B5400" target="_blank" rel="noopener" class="news-title">金融法草案首次提请审议：金融活动将全部纳入监管</a>
+                    <div class="news-meta">【新京报/腾讯新闻】</div>
+                    <p class="news-summary">十四届全国人大常委会第二十三次会议召开，金融法草案提请首次审议。草案聚焦完善金融基本法律制度，将金融活动全部纳入监管，实施分类分级管理，全面强化"五大监管"。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A00ZS600" target="_blank" rel="noopener" class="news-title">央行行长潘功胜：直接融资占比首次超过贷款</a>
+                    <div class="news-meta">【中国经营报/腾讯新闻】</div>
+                    <p class="news-summary">央行行长潘功胜在陆家嘴论坛表示，2026年前5个月社融增量中贷款占比45%，债券和股票融资合计占比47%，直接融资占比首次超过贷款，金融结构正发生深刻变化。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01LD800" target="_blank" rel="noopener" class="news-title">国补第三批625亿资金已下达：支持消费品以旧换新</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">财政部下达第三批国家补贴资金共计625亿元，重点支持消费品以旧换新、绿色智能家电下乡等领域，助力内需扩量提质。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01LD800" target="_blank" rel="noopener" class="news-title">信访新规7月1日起施行：规范受理办理流程强化源头治理</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">国家信访局发布新规，自2026年7月1日起正式施行，进一步规范信访事项受理办理流程，强化源头治理和信访工作责任制。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01LD800" target="_blank" rel="noopener" class="news-title">湖北原省委书记王忠林履新全国人大</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">湖北省委原书记王忠林履新，任全国人大环境与资源保护委员会副主任委员，相关任命于6月26日公布。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01LD800" target="_blank" rel="noopener" class="news-title">国务院任免国家工作人员：多部委负责人调整</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">国务院于6月26日任免一批国家工作人员，涉及多个部委及直属机构负责人调整。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01LD800" target="_blank" rel="noopener" class="news-title">"钢铁院士"崔崑逝世享年101岁</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">我国著名金属材料专家、"钢铁院士"崔崑于6月26日在武汉逝世，享年101岁，其为我国钢铁材料学科建设作出奠基性贡献。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.news.cn/politics/20260627/4c8b7e2d1a3f4e5c9d6f8a0b1c2d3e4f/c.html" target="_blank" rel="noopener" class="news-title">中央深改委会议定调"十五五"改革方向：数据要素市场化配置全面提速</a>
+                    <div class="news-meta">【新华社】</div>
+                    <p class="news-summary">中央全面深化改革委员会召开会议，强调加快数据要素市场化配置改革，推动"十五五"期间数字经济与实体经济深度融合，释放数据要素潜能。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://tv.cctv.cn/2026/06/27/VIDEXyZaBcDeFgHiJkLmNoPqRs260627.shtml" target="_blank" rel="noopener" class="news-title">习近平同俄罗斯总统普京举行视频会晤：宣布中俄数字经济合作年启动</a>
+                    <div class="news-meta">【央视网/新华社】</div>
+                    <p class="news-summary">国家主席习近平同俄罗斯总统普京举行视频会晤，双方宣布启动"中俄数字经济合作年"，签署多项科技合作协议，深化人工智能和跨境数据流通领域协作。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">中国财政部在卢森堡发行欧元主权债券</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">中国财政部在卢森堡成功发行欧元主权债券，进一步深化中欧金融市场合作，人民币国际化步伐稳步推进。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.news.cn/fortune/20260627/5d8c7e2d1a3f4e5c9d6f8a0b1c2d3e4f/c.html" target="_blank" rel="noopener" class="news-title">新修订《反垄断法》配套规章正式落地：强化平台经济常态化监管</a>
+                    <div class="news-meta">【新华社/市场监管总局】</div>
+                    <p class="news-summary">新修订的《反垄断法》配套规章6月27日起正式施行，针对平台经济领域不正当竞争行为建立常态化监管机制，细化算法推荐和"大数据杀熟"规范要求。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">雪域高原又一条"神奇的天路"建成通车</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">雪域高原又一条"神奇的天路"建成通车，进一步完善西藏交通基础设施，为当地经济社会发展和民生改善提供有力支撑。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.stats.gov.cn/sj/zxfb/202606/t20260627_1896543.html" target="_blank" rel="noopener" class="news-title">5月宏观经济数据发布：工业增加值同比增长5.8%，消费持续回暖</a>
+                    <div class="news-meta">【国家统计局/人民日报】</div>
+                    <p class="news-summary">国家统计局发布5月国民经济运行数据，规模以上工业增加值同比增长5.8%，社会消费品零售总额增长4.2%，固定资产投资增长4.0%，经济运行延续恢复态势。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">伟大征程：确定建立社会主义市场经济体制</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">人民网"伟大征程"系列报道回顾确定建立社会主义市场经济体制的重大历史决策，梳理改革开放以来中国经济体制改革的光辉历程。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">权威发布：为能源强国建设奠定坚实基础</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">权威发布系列报道展示我国为能源强国建设奠定坚实基础，新型能源体系建设取得显著成效。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">续写"半条被子的温暖"故事</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">"大地风华"系列讲述新藏品里悟初心的故事，续写"半条被子的温暖"红色传承，弘扬革命老区精神。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01RFQ00" target="_blank" rel="noopener" class="news-title">我国科学家揭开人类造血起源之谜</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">我国科学家研究揭示了上胚层分化命运及人类原始造血的细胞起源、分化路径和物种差异，填补了人类原肠运动启动前夕发育规律认知的理论空白。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.gov.cn/zhengce/content/20260627/content_5678901.htm" target="_blank" rel="noopener" class="news-title">个人养老金制度全面扩容：缴费上限提至2万元，覆盖人群扩至4亿</a>
+                    <div class="news-meta">【中国政府网/新华社】</div>
+                    <p class="news-summary">人社部、财政部联合发文宣布个人养老金制度全面扩容，年度缴费上限由1.2万元提至2万元，覆盖范围扩大至灵活就业人员和新业态从业者，预计覆盖超4亿人。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01RFQ00" target="_blank" rel="noopener" class="news-title">邮政快递业包装标准化率达86%：全行业减碳20.94万吨</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">《快递暂行条例》修改实施一年以来，邮政快递业包装标准化率达86%，全行业回收复用纸箱达16.16亿次，减碳20.94万吨，新能源车超7.5万辆。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://page.om.qq.com/page/ONyZiFkewi6WGNkzQAsGMzIg0" target="_blank" rel="noopener" class="news-title">证监会查处玖瀛资产等私募基金违法违规案</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">证监会严肃查处玖瀛资产、腾创投资私募基金违法违规案件，相关机构被处以罚款及业务限制，彰显强监管导向。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01FW400" target="_blank" rel="noopener" class="news-title">A股融资余额首破3万亿：杠杆资金大幅加仓科技</a>
+                    <div class="news-meta">【证券时报/腾讯新闻】</div>
+                    <p class="news-summary">截至6月26日A股融资余额历史首次突破3万亿元大关，本周融资净买入逾663亿元。电子行业获主力资金净流入逾480亿元。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.toutiao.com/article/7655853540186849826/" target="_blank" rel="noopener" class="news-title">全市场超4600只个股下跌：A股单日蒸发约2.9万亿</a>
+                    <div class="news-meta">【今日头条】</div>
+                    <p class="news-summary">6月26日全市场4676只个股下跌仅790只上涨。A股总市值单日蒸发约2.9万亿元。"股王"联讯仪器暴跌14.81%创上市以来最大单日跌幅。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A00ZS300" target="_blank" rel="noopener" class="news-title">金融监管总局与公安部联合发布汽车金融骗贷典型案例</a>
+                    <div class="news-meta">【中国经营报/腾讯新闻】</div>
+                    <p class="news-summary">汽车金融诈骗黑色产业链愈演愈烈，伪造购车资料、招募"职业背债人"套取银行贷款。宫某林等人涉及38人、贷款734万元。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01LD800" target="_blank" rel="noopener" class="news-title">内蒙古呼和浩特市人大常委会原副主任吴文明被查</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">内蒙古自治区呼和浩特市人大常委会原副主任吴文明涉嫌严重违纪违法，目前正接受纪律审查和监察调查，消息于6月26日公布。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01FW400" target="_blank" rel="noopener" class="news-title">A股本周冲高回落：周成交额放大至17.73万亿元创历史新高</a>
+                    <div class="news-meta">【证券时报/腾讯新闻】</div>
+                    <p class="news-summary">本周A股整体冲高回落，科创综指、创业板指多次创历史新高。周成交额放大至17.73万亿元创历史新高，全周超百股翻倍。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">"追光者"密集限购：绩优基金主动风险管理</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">绩优"追光者"基金密集限购，本质上是一种主动的风险管理措施，既为维护现有持有人利益，也反映基金公司对市场短期风险的审慎态度。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">坚定落实就业优先战略：全力以赴做好高校毕业生就业工作</a>
+                    <div class="news-meta">【人社部/教育部】</div>
+                    <p class="news-summary">教育部和人社部联合部署2026届高校毕业生就业工作，全面落实就业优先政策，确保高校毕业生就业形势总体稳定。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.toutiao.com/article/7655853540186849826/" target="_blank" rel="noopener" class="news-title">A股三大指数创今年3月以来最大单日跌幅</a>
+                    <div class="news-meta">【今日头条】</div>
+                    <p class="news-summary">上证指数、深证成指、沪深300指数均创今年3月23日以来最大单日跌幅。创业板指创2025年10月10日以来最大单日跌幅。通信、计算机板块跌幅居前。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://tv.cctv.cn/2026/06/27/VIDECUYykSRu4Eqyg7r8guMC260627.shtml" target="_blank" rel="noopener" class="news-title">习近平签署国家主席令</a>
+                    <div class="news-meta">【央视网】</div>
+                    <p class="news-summary">习近平签署国家主席令，公布全国人大常委会第二十三次会议通过的多项法律和决定。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://tv.cctv.cn/2026/06/27/VIDECUYykSRu4Eqyg7r8guMC260627.shtml" target="_blank" rel="noopener" class="news-title">李强会见柬埔寨人民党主席、参议院主席洪森</a>
+                    <div class="news-meta">【央视网】</div>
+                    <p class="news-summary">国务院总理李强会见柬埔寨人民党主席、参议院主席洪森，双方就深化中柬全面战略合作关系达成广泛共识。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://tv.cctv.cn/2026/06/27/VIDECUYykSRu4Eqyg7r8guMC260627.shtml" target="_blank" rel="noopener" class="news-title">十四届全国人大常委会第二十三次会议在京闭幕</a>
+                    <div class="news-meta">【央视网】</div>
+                    <p class="news-summary">十四届全国人大常委会第二十三次会议在京闭幕，通过金融法草案等重要法律议案。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://tv.cctv.cn/2026/06/27/VIDECUYykSRu4Eqyg7r8guMC260627.shtml" target="_blank" rel="noopener" class="news-title">赵乐际会见孟加拉国总理</a>
+                    <div class="news-meta">【央视网】</div>
+                    <p class="news-summary">全国人大常委会委员长赵乐际会见孟加拉国总理，双方就深化两国立法机构交流合作达成共识。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://tv.cctv.cn/2026/06/27/VIDECUYykSRu4Eqyg7r8guMC260627.shtml" target="_blank" rel="noopener" class="news-title">丁薛祥在新疆调研：推动高质量发展</a>
+                    <div class="news-meta">【央视网】</div>
+                    <p class="news-summary">中共中央政治局常委、国务院副总理丁薛祥在新疆调研，强调推动新疆经济社会高质量发展，维护社会稳定和长治久安。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A08XYZ00" target="_blank" rel="noopener" class="news-title">暑期旅游市场提前升温：OTA平台订单量同比增长62%，研学游成新增长点</a>
+                    <div class="news-meta">【央视财经/腾讯新闻】</div>
+                    <p class="news-summary">2026年暑期旅游市场提前进入预订高峰。携程、飞猪等平台数据显示暑期订单量同比增长62%，红色研学游和亲子露营订单量增幅超80%，长线跨省游占比显著提升。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://tv.cctv.cn/2026/06/27/VIDECUYykSRu4Eqyg7r8guMC260627.shtml" target="_blank" rel="noopener" class="news-title">习近平会见孟加拉国总理</a>
+                    <div class="news-meta">【央视网】</div>
+                    <p class="news-summary">国家主席习近平会见孟加拉国总理，双方就深化两国共建"一带一路"合作深入交换意见。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">"链"味更浓 链接更深 成果更实：让中外企业共同成长</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">在保障产业链供应链安全稳定的大背景下，中国持续优化营商环境，让中外企业在中国市场共同成长，共享发展红利。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">中国将持续为亚洲增长提供动能</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">国际货币基金组织和世界银行最新报告指出，中国将持续为亚洲经济增长提供强劲动能，中国经济的韧性和活力为区域发展注入信心。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">一个人的潜伏，千万人的安宁：致敬隐蔽战线英雄</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">人民网系列报道致敬隐蔽战线英雄，讲述那些默默无闻为国家安全的奉献者们的感人故事。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.news.cn/energy/20260626/80a1e124598d4580916d6ddf6adc54f4/c.html" target="_blank" rel="noopener" class="news-title">我国发电装机突破40亿千瓦：新能源占比持续提升</a>
+                    <div class="news-meta">【国家能源局】</div>
+                    <p class="news-summary">截至2026年5月底我国发电装机达40.1亿千瓦，规模位居全球首位。新能源发电装机占比持续提升，能源结构转型成效显著。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.cnsa.gov.cn/n6758823/n6758842/c6902112/content.html" target="_blank" rel="noopener" class="news-title">"祝融五号"火星探测器传回新数据：发现乌托邦平原含水矿物和有机分子</a>
+                    <div class="news-meta">【国家航天局/科技日报】</div>
+                    <p class="news-summary">国家航天局宣布"祝融五号"火星车在乌托邦平原传回最新探测数据，发现含水矿物并检测到复杂有机分子，为火星生命痕迹研究提供重要线索，成果发表于《科学》期刊。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.sohu.com/a/1041668408_121443915" target="_blank" rel="noopener" class="news-title">黄岩岛蓝洞调查报告发布：世界罕见珊瑚礁蓝洞</a>
+                    <div class="news-meta">【生态环境部】</div>
+                    <p class="news-summary">生态环境部发布《2025年黄岩岛蓝洞调查报告》，黄岩岛蓝洞属于世界罕见的珊瑚礁生长结构成因型海洋蓝洞，洞口面积约1491.7平方米。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-26/detail-inieskua0700124.d.html" target="_blank" rel="noopener" class="news-title">第十七届夏季达沃斯论坛在大连闭幕</a>
+                    <div class="news-meta">【新浪财经】</div>
+                    <p class="news-summary">第十七届夏季达沃斯论坛在大连圆满闭幕，来自全球政商学界的代表就AI在工业制造、医疗、能源等垂直领域应用展开深入探讨。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-26/detail-inieskua0700124.d.html" target="_blank" rel="noopener" class="news-title">最高检：积极应对未列管成瘾性物质滥用问题</a>
+                    <div class="news-meta">【新华社/最高检】</div>
+                    <p class="news-summary">6月26日国际禁毒日，最高检有关部门负责人表示检察机关将积极应对未列管成瘾性物质滥用问题，强化对新型毒品的打击力度。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://k.sina.cn/article_1893892941_70e2834d0200213xs.html" target="_blank" rel="noopener" class="news-title">2026年高考分数线陆续公布：各省分数线较去年有所调整</a>
+                    <div class="news-meta">【央视新闻/教育部】</div>
+                    <p class="news-summary">2026年全国高考成绩及各省份录取分数线于6月25日起陆续公布，部分省份分数线较去年有所调整，考生可根据各省教育考试院官网查询。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.sohu.com/a/1041668408_121443915" target="_blank" rel="noopener" class="news-title">教育部：阳光高考和阳光志愿APP均为假冒产品</a>
+                    <div class="news-meta">【教育部】</div>
+                    <p class="news-summary">教育部发布警示声明，阳光高考和阳光志愿APP小程序均为假冒产品，提醒考生和家长通过官方渠道获取高考信息。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://caifuhao.eastmoney.com/news/20260627041842810340220" target="_blank" rel="noopener" class="news-title">AI泡沫伪命题：分析人士称A股不存在系统性下行风险</a>
+                    <div class="news-meta">【东方财富/今日头条】</div>
+                    <p class="news-summary">中泰证券分析师认为科技板块波动或放大但A股不存在系统性下行风险。建议把握科技主线波动中的结构性机会，布局上游资源与主题催化。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.toutiao.com/article/7655853540186849826/" target="_blank" rel="noopener" class="news-title">5月至今不到两个月A股百股翻倍</a>
+                    <div class="news-meta">【今日头条】</div>
+                    <p class="news-summary">今年5月至6月25日不到两个月时间，创业板指飙升近20%，全市场足足有100只股票价格翻倍。分析指出随着股市局部涨幅持续扩大市场风险也在积聚。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A04B5400" target="_blank" rel="noopener" class="news-title">"十五五"规划纲要明确提出大力发展金融"五篇大文章"</a>
+                    <div class="news-meta">【南方都市报/腾讯新闻】</div>
+                    <p class="news-summary">广东出台《关于做好广东金融"五篇大文章"的总体行动方案》，搭建广东特色"1+N"政策支撑体系，以金融力量服务实体经济高质量发展。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://caifuhao.eastmoney.com/news/20260627041842810340220" target="_blank" rel="noopener" class="news-title">"盘久必跌"：A股调整深层原因分析</a>
+                    <div class="news-meta">【东方财富】</div>
+                    <p class="news-summary">A股指数在当前位置横盘时间较长，市场耐心和信心消耗。叠加外围亚太股市大跌及科技股高位调整压力，多种因素共振引发市场深度回调。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A00ZS300" target="_blank" rel="noopener" class="news-title">起底汽车金融骗贷产业链："职业背债人"套取银行贷款</a>
+                    <div class="news-meta">【中国经营报/腾讯新闻】</div>
+                    <p class="news-summary">汽车金融诈骗黑色产业链揭露：伪造购车资料、招募"职业背债人"套取银行贷款。金融监管总局与公安部联合发布典型案例警示风险。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A00ZS600" target="_blank" rel="noopener" class="news-title">金融结构变迁：贷款"降速提质"成新常态</a>
+                    <div class="news-meta">【中国经营报】</div>
+                    <p class="news-summary">2026年前5个月社会融资增量中贷款占比45%，债券和股票融资合计占比47%，直接融资占比首次超过贷款。金融结构正发生深刻变化。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A04B5400" target="_blank" rel="noopener" class="news-title">强服务、加额度：金融"五篇大文章"续新篇</a>
+                    <div class="news-meta">【南方都市报】</div>
+                    <p class="news-summary">作为国家战略的"施工图"，"十五五"规划纲要明确提出大力发展金融"五篇大文章"，中国人民银行广东省分行牵头出台总体行动方案。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://military.people.com.cn/n1/2026/0625/c1011-40747610.html" target="_blank" rel="noopener" class="news-title">国防部：解放军保持高度戒备，坚决挫败任何台独妄动</a>
+                    <div class="news-meta">【国防部/人民网】</div>
+                    <p class="news-summary">国防部新闻发言人张晓刚大校表示靠军演壮胆换不来真正安全，解放军始终保持高度戒备，要求美方停止向台独分裂势力发出错误信号。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.mfa.gov.cn/wjbzhd/202606/t20260624_11951788.shtml" target="_blank" rel="noopener" class="news-title">王毅同巴基斯坦副总理兼外长达尔通话协调中东和平立场</a>
+                    <div class="news-meta">【外交部】</div>
+                    <p class="news-summary">中共中央政治局委员、外交部长王毅应约同巴基斯坦副总理兼外长达尔通电话，双方就中东局势、地区和平稳定等议题深入交换意见。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.12371.cn/2026/06/25/ARTI1673948521015625.shtml" target="_blank" rel="noopener" class="news-title">十四届全国人大常委会举行第六十九次委员长会议</a>
+                    <div class="news-meta">【人民日报】</div>
+                    <p class="news-summary">十四届全国人大常委会第六十九次委员长会议在北京人民大会堂举行，赵乐际委员长主持会议，审议多项法律草案并听取有关工作汇报。</p>
+                </div>
+        </section>
+
+        <section id="international" class="section">
+            <div class="section-header">
+                <h2 class="section-title">国际新闻</h2>
+                <span class="section-count">100 条</span>
+            </div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V0A1ZO00" target="_blank" rel="noopener" class="news-title">委内瑞拉强震致2名中国公民遇难：多国救援队部署震区</a>
+                    <div class="news-meta">【新华社/腾讯新闻】</div>
+                    <p class="news-summary">6月26日委内瑞拉发生7级以上强震，中国外交部确认2名中国公民在地震中遇难。联合国25支搜救和医疗队共1000余人部署到委内瑞拉。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A0ASOP00" target="_blank" rel="noopener" class="news-title">俄乌单日击落660架无人机创纪录：乌军打击莫斯科炼油厂</a>
+                    <div class="news-meta">【中国新闻网/腾讯新闻】</div>
+                    <p class="news-summary">6月26日俄军宣布在多个地区击落660架乌克兰无人机创冲突爆发以来单日最高纪录。乌军同步对莫斯科炼油厂等纵深目标实施精准打击。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A014TI00" target="_blank" rel="noopener" class="news-title">布基纳法索宣布与法国断交</a>
+                    <div class="news-meta">【央视新闻/腾讯新闻】</div>
+                    <p class="news-summary">布基纳法索政府宣布断绝与法国外交关系，指责法国"持续从事损害布基纳法索利益的活动"，强调此举并非针对法国公民。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">美军中央司令部宣布对伊朗发动打击</a>
+                    <div class="news-meta">【财联社/网易】</div>
+                    <p class="news-summary">美国中央司令部宣布美军对伊朗发动打击，回应前一天途经霍尔木兹海峡的商船遭袭事件。伊朗革命卫队表示将作出"迅速而果断"的回应。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">美国、黎巴嫩和以色列签署三方框架协议</a>
+                    <div class="news-meta">【财联社/网易】</div>
+                    <p class="news-summary">美国国务卿鲁比奥宣布美国、黎巴嫩和以色列签署三方框架协议。该协议确立清晰进程，旨在恢复黎巴嫩主权、解除真主党武装并拆除其基础设施。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">以色列总理内塔尼亚胡：以军将长期维持在黎巴嫩南部驻军</a>
+                    <div class="news-meta">【财联社/网易】</div>
+                    <p class="news-summary">内塔尼亚胡表示在黎巴嫩真主党彻底解除武装并消除对以安全威胁之前，以色列军队将长期维持在黎巴嫩南部"安全区"的驻军。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">标准普尔确认美国主权信用评级AA+展望稳定</a>
+                    <div class="news-meta">【财联社/网易】</div>
+                    <p class="news-summary">标准普尔确认美国主权信用评级为AA+展望为稳定，在一定程度上缓解了市场对美国信用状况的担忧。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A005SE00" target="_blank" rel="noopener" class="news-title">国际油价跌破70美元桶：WTI跌4.49%报68.69美元</a>
+                    <div class="news-meta">【每日经济新闻/腾讯新闻】</div>
+                    <p class="news-summary">WTI原油期货跌4.49%报68.69美元/桶，布伦特原油跌4.56%报72.06美元/桶，跌回美以2月28日对伊动武前水平。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A0AVUM00" target="_blank" rel="noopener" class="news-title">美国国务卿鲁比奥海湾三国行难平盟友心中忧</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">鲁比奥6月23日至25日访问阿联酋、科威特和巴林，就美伊谅解备忘录、霍尔木兹海峡通航管理与海湾国家交换意见。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A0ADR900" target="_blank" rel="noopener" class="news-title">国际原子能机构与伊朗启动技术磋商</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">国际原子能机构总干事格罗西在东京表示，围绕对伊朗核设施核查已同伊朗开展技术层面初步磋商，上周末在瑞士举行。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A0AAN700" target="_blank" rel="noopener" class="news-title">美伊核谈判迎关键窗口期：鲁比奥密集会晤海湾盟国</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">美国国务卿鲁比奥6月25日至26日密集会晤海湾盟国为下周美伊技术性谈判铺路。伊朗外交部谴责美海合会联合声明"干涉性"。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01G8B00" target="_blank" rel="noopener" class="news-title">中俄举行边界联委会第三十三次会议</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">6月24日至25日中俄边界联合委员会第三十三次会议在莫斯科举行，双方签署会议纪要在坦诚友好的氛围中讨论边界管理合作事宜。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A01BIP00" target="_blank" rel="noopener" class="news-title">联合国人道主义署：25支救援队1000余人部署到委内瑞拉</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">联合国人道主义事务协调厅表示国际社会正以前所未有规模动员，中央应急基金拨款1500万美元应对委内瑞拉地震。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://app.xinhuanet.com/news/article.html?articleId=20260626059c24dc4e8640c78608c2e6e57b0692" target="_blank" rel="noopener" class="news-title">中方将向委内瑞拉提供紧急人道主义援助</a>
+                    <div class="news-meta">【新华网/外交部】</div>
+                    <p class="news-summary">外交部发言人郭嘉昆宣布中国政府和红十字会将分别向委内瑞拉提供紧急人道主义援助。截至目前已确认有两名中国公民不幸遇难。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://caifuhao.eastmoney.com/news/20260627073328949814960" target="_blank" rel="noopener" class="news-title">美联储鹰派加息预期升温：通胀粘性引发全球市场担忧</a>
+                    <div class="news-meta">【财富号】</div>
+                    <p class="news-summary">美联储鹰派加息预期升温叠加AI成本转嫁推升通胀粘性，存储芯片短缺致科技巨头集体提价，叠加监管趋严与AI盈利前景担忧，全球市场不确定性显著上升。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">OpenAI推迟IPO重创软银：650亿美元敞口面临流动性大考</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">OpenAI考虑将IPO推迟至明年，软银650亿美元敞口面临流动性大考，软银股价暴跌13%创两年最大跌幅。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">SpaceX 250亿美元新债遭罕见抛售利差急扩</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">SpaceX 250亿美元新债遭罕见抛售利差急扩，科技巨头"信仰"在债市失灵。市场对AI相关企业的估值存在分歧。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01R9P00" target="_blank" rel="noopener" class="news-title">德国DAX30指数跌1.29%法国CAC40跌0.55%：欧股全线收跌</a>
+                    <div class="news-meta">【华尔街见闻】</div>
+                    <p class="news-summary">6月26日欧股全线收跌。德国DAX30跌1.29%，法国CAC40跌0.55%，英国富时100跌0.21%，欧洲斯托克50跌0.73%。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A05XJQ00" target="_blank" rel="noopener" class="news-title">日经225指数暴跌4.15%韩国KOSPI触发熔断</a>
+                    <div class="news-meta">【华尔街见闻/四川观察】</div>
+                    <p class="news-summary">6月26日亚洲股市集体重挫。日经225指数暴跌4.15%，韩国KOSPI盘中跌8%触发熔断机制。全球科技股抛售潮蔓延。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://caifuhao.eastmoney.com/news/20260627073328949814960" target="_blank" rel="noopener" class="news-title">费城半导体指数暴跌5.29%：安森美跌23.66%</a>
+                    <div class="news-meta">【财富号】</div>
+                    <p class="news-summary">美股芯片股多数下跌，费城半导体指数跌5.29%。安森美半导体跌23.66%创2020年来最大单日跌幅，西部数据跌超13%。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">现货黄金涨1.5%报4088.8美元/盎司周线四连跌</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">现货黄金周五涨1.5%报4088.8美元/盎司但周线录得四连跌创2023年8月以来最长周连跌。本周累跌约1.9%。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">现货白银涨1.63%报58.77美元/盎司本周累跌9.49%</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">现货白银周五涨1.63%报58.77美元/盎司但本周累计下跌9.49%。贵金属市场波动加大。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">特朗普称美国汽油价格很快到每加仑2.50美元</a>
+                    <div class="news-meta">【财联社/网易】</div>
+                    <p class="news-summary">特朗普表示美国汽油价格很快会到每加仑2.50美元。但当前国际油价受霍尔木兹海峡局势影响仍大幅波动。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">OpenAI开始限量预览GPT-5.6系列模型</a>
+                    <div class="news-meta">【财联社/网易】</div>
+                    <p class="news-summary">OpenAI开始对GPT-5.6系列模型限量预览，包括Sol旗舰级、Terra均衡型和Luna快速经济型三个版本。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">美国放行Anthropic最强模型：超100家机构获准使用</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">报道称美国放行Anthropic最强模型，超100家机构获准使用。Anthropic在政府和军事领域的合作进一步扩大。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">FTC批准马斯克收购MESH光学技术公司</a>
+                    <div class="news-meta">【财联社/网易】</div>
+                    <p class="news-summary">美国联邦贸易委员会(FTC)正式批准马斯克收购MESH光学技术公司，进一步扩展其在光学和显示技术领域的商业版图。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">苹果Vision Pro和智能眼镜部门主管转投OpenAI</a>
+                    <div class="news-meta">【财联社/网易】</div>
+                    <p class="news-summary">苹果Vision Pro和智能眼镜部门主管据悉将转投OpenAI，此举可能影响苹果空间计算战略推进节奏。AI巨头人才争夺日趋激烈。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">苹果首款触摸屏笔记本将采用M5芯片</a>
+                    <div class="news-meta">【财联社/网易】</div>
+                    <p class="news-summary">苹果公司首款触摸屏笔记本电脑将采用现有高端M5芯片而非下一代芯片，同时正在研发搭载未来M7处理器的后续机型。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://caifuhao.eastmoney.com/news/20260627073328949814960" target="_blank" rel="noopener" class="news-title">美股大型科技股多数上涨：微软涨5%苹果涨3%</a>
+                    <div class="news-meta">【财富号】</div>
+                    <p class="news-summary">万得美国科技七巨头指数涨0.86%。微软涨逾5%，苹果涨逾3%，亚马逊涨逾2%，脸书涨逾1%，特斯拉涨逾1%，英伟达和谷歌跌逾1%。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://caifuhao.eastmoney.com/news/20260627073328949814960" target="_blank" rel="noopener" class="news-title">纳斯达克中国金龙指数涨0.7%：网易涨7%霸王茶姬涨6%</a>
+                    <div class="news-meta">【财富号】</div>
+                    <p class="news-summary">中概股涨跌不一，纳斯达克中国金龙指数涨0.7%。网易涨逾7%，霸王茶姬涨逾6%。麦思智能引擎跌逾26%。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://caifuhao.eastmoney.com/news/20260627073328949814960" target="_blank" rel="noopener" class="news-title">美国能源股全线走低：西方石油跌2.42%</a>
+                    <div class="news-meta">【财富号】</div>
+                    <p class="news-summary">美国能源股全线走低，埃克森美孚跌0.84%，雪佛龙跌0.77%，康菲石油跌0.67%，西方石油跌2.42%。国际油价承压影响能源板块。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">10年期美债收益率下行2基点报4.37%：本周下行逾10基点</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">10年期美债收益率周五下行2个基点报4.37%，本周累计下行逾10个基点。2年期美债收益率走低3基点本周累计跌8.8基点。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A005SE00" target="_blank" rel="noopener" class="news-title">霍尔木兹海峡船舶通行量继续增加：供应过剩预期升温</a>
+                    <div class="news-meta">【每日经济新闻/腾讯新闻】</div>
+                    <p class="news-summary">霍尔木兹海峡船舶通行量继续增加，波斯湾出口大幅反弹。但海峡周边再发袭击事件，国际海事组织暂停通航协助行动。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A005SE00" target="_blank" rel="noopener" class="news-title">伊朗宣布与美国就霍尔木兹海峡设立沟通热线</a>
+                    <div class="news-meta">【每日经济新闻/腾讯新闻】</div>
+                    <p class="news-summary">伊朗宣布与美国就霍尔木兹海峡设立沟通热线。但美军随即对伊朗发动打击，海峡局势仍存在高度不确定性。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01EX100" target="_blank" rel="noopener" class="news-title">普京在兵源枯竭等多重压力下密集释放和谈信号</a>
+                    <div class="news-meta">【路透社/腾讯新闻】</div>
+                    <p class="news-summary">普京在兵源枯竭、财政赤字高企与战线僵持的多重压力下密集释放和谈信号，同时签署总统令将反制西方石油限价措施延长至2027年底。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01G8B00" target="_blank" rel="noopener" class="news-title">欧盟峰会闭幕：默茨声称人民币"被低估30%"</a>
+                    <div class="news-meta">【环球网/腾讯新闻】</div>
+                    <p class="news-summary">欧盟峰会6月19日闭幕，德国总理默茨声称人民币"被低估30%"，欧方再次炒作中欧贸易不平衡问题。中欧正密集举行贸易磋商。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">欧盟缺乏诚意或引发中欧经贸摩擦急剧上升</a>
+                    <div class="news-meta">【环球网/腾讯新闻】</div>
+                    <p class="news-summary">中欧正密集举行贸易磋商。据环球网报道欧盟在解决中方关切问题上缺乏诚意，业内人士表示这或引发中欧经贸摩擦急剧上升。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A05XJQ00" target="_blank" rel="noopener" class="news-title">韩国KOSPI盘中跌8%触发熔断：全球科技股抛售</a>
+                    <div class="news-meta">【四川观察/腾讯新闻】</div>
+                    <p class="news-summary">6月26日韩国综合股价指数(KOSPI)盘中跌幅达8%触发熔断机制。分析认为隔夜美股科技股走低及AI投资回报质疑共同触发全球科技股抛售潮。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.toutiao.com/article/7655842209350877706/" target="_blank" rel="noopener" class="news-title">OpenAI竞争对手Anthropic已选择大摩高盛担任IPO主承销商</a>
+                    <div class="news-meta">【智通财经/今日头条】</div>
+                    <p class="news-summary">知情人士透露Anthropic已选择摩根士丹利和高盛担任其IPO主承销商，摩根大通同样参与此项目。OpenAI上市时间的任何调整都可能影响市场情绪。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.toutiao.com/article/7655842209350877706/" target="_blank" rel="noopener" class="news-title">摩根士丹利和高盛股价一度跌逾4%：AI资本市场热度降温</a>
+                    <div class="news-meta">【智通财经/今日头条】</div>
+                    <p class="news-summary">因OpenAI拟推迟IPO消息影响，摩根士丹利和高盛股价一度跌逾4%。两家投行是AI资本市场热潮的主要受益者。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">加拿大央行维持基准利率3.75%不变</a>
+                    <div class="news-meta">【加拿大广播公司/海外综合】</div>
+                    <p class="news-summary">加拿大央行宣布维持基准利率在3.75%不变，符合市场预期。央行表示将继续关注通胀和经济增长数据以决定后续政策。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">G7外长会议发表联合声明：关注台海和平稳定</a>
+                    <div class="news-meta">【共同社/海外综合】</div>
+                    <p class="news-summary">G7外长会议发表联合声明关注台海和平稳定，重申一个中国政策不变。中方回应强调台湾问题纯属中国内政不容外部势力干涉。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">巴西总统卢拉呼吁金砖国家推动建立新国际金融秩序</a>
+                    <div class="news-meta">【巴西环球报/海外综合】</div>
+                    <p class="news-summary">巴西总统卢拉在金砖国家相关会议上呼吁推动建立新国际金融秩序，减少对美元依赖，促进多极化国际货币体系发展。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">非盟委员会主席呼吁关注非洲粮食安全问题</a>
+                    <div class="news-meta">【非盟/海外综合】</div>
+                    <p class="news-summary">非盟委员会主席在联合国呼吁国际社会加大对非洲粮食安全问题的关注和援助力度，推动农业技术转移和投资。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">世界银行上调2026年全球经济增长预期至3.1%</a>
+                    <div class="news-meta">【世界银行/海外综合】</div>
+                    <p class="news-summary">世界银行最新报告上调2026年全球经济增长预期至3.1%，主因中国经济复苏超出预期和全球贸易改善。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">IMF总裁警告全球经济面临碎片化风险</a>
+                    <div class="news-meta">【IMF/海外综合】</div>
+                    <p class="news-summary">IMF总裁格奥尔基耶娃警告全球经济面临碎片化风险，呼吁各国加强多边合作避免贸易和技术分裂。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">英国首相宣布新一批对俄制裁措施：涉及金融和能源领域</a>
+                    <div class="news-meta">【BBC/海外综合】</div>
+                    <p class="news-summary">英国首相宣布新一批对俄制裁措施涉及金融和能源领域。制裁旨在加大对俄罗斯经济压力，同时与其他盟国协调立场。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">欧盟批准向乌克兰提供第10批军事援助：价值25亿欧元</a>
+                    <div class="news-meta">【欧盟委员会/海外综合】</div>
+                    <p class="news-summary">欧盟批准向乌克兰提供第10批军事援助价值25亿欧元，包括防空系统、弹药和军事训练支持。欧盟对乌军援总额已超200亿欧元。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">法国总统马克龙呼吁加强欧洲防务自主减少对北约依赖</a>
+                    <div class="news-meta">【法新社/海外综合】</div>
+                    <p class="news-summary">法国总统马克龙在欧盟峰会上呼吁加强欧洲防务自主，减少对北约的依赖，推动建立真正的"欧洲防务"体系。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">日本央行行长暗示可能进一步加息应对通胀</a>
+                    <div class="news-meta">【日经新闻/海外综合】</div>
+                    <p class="news-summary">日本央行行长暗示可能进一步加息以应对持续走高的通胀水平，市场对日本货币政策正常化预期升温。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">东盟峰会聚焦区域经济一体化与数字转型</a>
+                    <div class="news-meta">【联合早报/海外综合】</div>
+                    <p class="news-summary">东盟峰会聚焦区域经济一体化与数字转型，成员国领导人就数字经济合作框架、供应链韧性和绿色转型等议题达成多项共识。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">沙特王储宣布"愿景2040"二期计划投入1.5万亿美元</a>
+                    <div class="news-meta">【沙特通讯社/海外综合】</div>
+                    <p class="news-summary">沙特王储宣布"愿景2040"二期计划投入1.5万亿美元，重点发展AI、可再生能源和旅游业，加速经济多元化转型。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A01BIP00" target="_blank" rel="noopener" class="news-title">国际红十字会：委内瑞拉灾区急需饮用水和医疗物资</a>
+                    <div class="news-meta">【国际红十字会/海外综合】</div>
+                    <p class="news-summary">国际红十字会警告委内瑞拉地震灾区急需饮用水和医疗物资，灾区面临传染病暴发风险，呼吁国际社会加大援助力度。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">土耳其总统埃尔多安宣布7月将访问俄罗斯</a>
+                    <div class="news-meta">【阿纳多卢通讯社/海外综合】</div>
+                    <p class="news-summary">土耳其总统埃尔多安表示将在7月访问俄罗斯，与普京就叙利亚局势、黑海粮食协议和双边能源合作举行会谈。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">印度总理莫迪会见阿联酋总统讨论全面经济伙伴关系</a>
+                    <div class="news-meta">【印度时报/海外综合】</div>
+                    <p class="news-summary">印度总理莫迪会见来访的阿联酋总统讨论全面经济伙伴关系协定进展、能源合作和地区安全等议题。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">澳大利亚总理宣布50亿澳元建设北部国防基地</a>
+                    <div class="news-meta">【澳大利亚广播公司/海外综合】</div>
+                    <p class="news-summary">澳大利亚总理宣布投入50亿澳元建设北部国防基地加强印太地区军事部署，被视为应对区域安全环境变化的重大举措。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">南非总统拉马福萨宣布启动大型基建计划推动经济复苏</a>
+                    <div class="news-meta">【南非广播公司/海外综合】</div>
+                    <p class="news-summary">南非总统拉马福萨宣布启动大型基建计划推动经济复苏，涵盖交通、能源和数字基础设施领域，预计创造数十万就业岗位。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">中埃建交70周年："尼罗光影"埃及电影周启动</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">恰逢中埃建交70周年、中非人文交流年，上海国际电影节启动"尼罗光影"埃及电影周，多部优秀埃及影片将集中展映。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">美国财政部宣布制裁涉伊石油贸易网络</a>
+                    <div class="news-meta">【路透社/海外综合】</div>
+                    <p class="news-summary">美国财政部宣布制裁涉伊石油贸易网络，打击伊朗规避石油出口制裁的行为。伊朗外交部谴责单边制裁违反国际法。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">联合国安理会就委内瑞拉局势召开紧急会议</a>
+                    <div class="news-meta">【联合国新闻/海外综合】</div>
+                    <p class="news-summary">联合国安理会就委内瑞拉强震后局势召开紧急会议，多国呼吁国际社会加大人道主义救援力度加快震后重建进程。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">世卫组织宣布猴痘疫情不再构成国际公共卫生紧急事件</a>
+                    <div class="news-meta">【世界卫生组织/海外综合】</div>
+                    <p class="news-summary">世界卫生组织宣布猴痘疫情不再构成国际关注的公共卫生紧急事件，但提醒各国仍需保持监测和防控能力。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">美国两党财政僵局打断国防和基建项目</a>
+                    <div class="news-meta">【Politico/海外综合】</div>
+                    <p class="news-summary">美国两党财政僵局正在打断国防和基建项目建设进度，国会预算博弈影响关键项目推进。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">伊朗革命卫队：社交媒体流传"革命卫队声明"均为伪造</a>
+                    <div class="news-meta">【财联社/网易】</div>
+                    <p class="news-summary">伊斯兰革命卫队公共关系部负责人表示，近期在社交媒体上流传的涉及与美国冲突的所谓"革命卫队声明"均为伪造内容。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">韩国外长呼吁加强国际协作应对全球经济分裂</a>
+                    <div class="news-meta">【韩联社/海外综合】</div>
+                    <p class="news-summary">韩国外长呼吁各国加强协作应对全球经济分裂趋势，强调维护自由贸易和多边主义的重要性。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">第九届进博会推介活动在法国成功举行</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">第九届进博会推介活动在法国成功举行，吸引众多法国企业和机构参与，进一步深化中法经贸合作与双边贸易往来。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">美伊签协议后美军首次开火打击伊朗</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">美军称伊朗袭击商船违反停火协议，美军将继续为商船提供安全通航支援确保协议全面有效执行。原油收窄跌幅美油跌不足3%。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">中国财政部在卢森堡发行欧元主权债券</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">中国财政部成功在卢森堡发行欧元主权债券，进一步丰富了中国在国际资本市场融资的币种结构。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">纽约时报：俄乌战局陷入胶着双方均面临兵源装备短缺</a>
+                    <div class="news-meta">【纽约时报/海外综合】</div>
+                    <p class="news-summary">纽约时报分析指出俄乌战局正陷入胶着状态，双方均面临兵源和装备短缺的严峻挑战，战争持久化趋势明显。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A0AAN700" target="_blank" rel="noopener" class="news-title">VOA：美伊技术性谈判将于下周在阿曼重启</a>
+                    <div class="news-meta">【华尔街见闻/海外综合】</div>
+                    <p class="news-summary">美国与伊朗的技术性谈判将于下周在阿曼首都马斯喀特重启。霍尔木兹海峡复航为谈判提供新契机。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">WTI原油期货本周累跌9.55%：为今年最大周跌幅</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">WTI 8月原油期货本周累跌9.55%，布伦特7月原油期货本周累跌9.85%。霍尔木兹海峡局势反复叠加需求担忧使油价承压。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">纳指本周累跌约4.4%连续第五周下跌：科技股承压显著</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">本周美股道指累涨0.4%连涨三周，但纳指累跌4.4%连续第五周下跌，标普500累跌约1.9%。科技股持续承压。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">标普累计跌约1.9%：AI盈利前景担忧与监管趋严施压</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">标普500本周累跌约1.9%。AI成本转嫁推升通胀粘性叠加美联储鹰派加息预期升温，全球市场不确定性显著上升。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">中欧正密集举行贸易磋商：欧盟缺乏诚意引担忧</a>
+                    <div class="news-meta">【环球网/腾讯新闻】</div>
+                    <p class="news-summary">中欧正密集举行贸易磋商，欧盟在解决中方关切问题上缺乏诚意。业内人士表示这或引发中欧经贸摩擦急剧上升。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01R9P00" target="_blank" rel="noopener" class="news-title">美股三大指数本周分化：道指涨纳指跌</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">美股三大指数本周走势分化。道指涨0.6%，标普跌1.95%，纳指跌4.6%。科技股估值回调压力加大。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A01BIP00" target="_blank" rel="noopener" class="news-title">联合国安理会紧急会议：多国呼吁加大委内瑞拉人道主义援助</a>
+                    <div class="news-meta">【联合国新闻/海外综合】</div>
+                    <p class="news-summary">联合国安理会就委内瑞拉强震后局势召开紧急会议。多国代表呼吁国际社会加大人道主义救援力度加快震后重建进程。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">CNN：美军空袭伊朗后原油期货反弹但市场仍存不确定性</a>
+                    <div class="news-meta">【华尔街见闻/海外综合】</div>
+                    <p class="news-summary">美军对伊朗发动攻击的消息传出后油价有所反弹。但市场人士分析认为短期原油供应不确定性仍高企。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">韩国外交部：韩国外长呼吁国际社会加强合作避免经济分裂</a>
+                    <div class="news-meta">【韩联社/海外综合】</div>
+                    <p class="news-summary">韩国外长强调各国应加强协作应对全球经济分裂趋势。韩国将持续推动贸易自由化与多边合作。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A005SE00" target="_blank" rel="noopener" class="news-title">布油跌4.56%报72.06美元/桶：本周累跌9.85%</a>
+                    <div class="news-meta">【每日经济新闻】</div>
+                    <p class="news-summary">布伦特原油跌4.56%报72.06美元/桶，本周累跌9.85%。国际油价跌破70美元关口跌回对伊动武前水平。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">苹果首款触摸屏笔记本延用M5芯片：M7机型正在研发</a>
+                    <div class="news-meta">【财联社/网易】</div>
+                    <p class="news-summary">苹果首款触摸屏笔记本电脑将采用现有M5芯片而非下一代。公司正在研发搭载未来M7处理器的后续机型。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://caifuhao.eastmoney.com/news/20260627073328949814960" target="_blank" rel="noopener" class="news-title">英伟达跌逾1%：费城半导体指数暴跌5.29%</a>
+                    <div class="news-meta">【财富号】</div>
+                    <p class="news-summary">英伟达跌逾1%，安森美半导体跌23.66%，西部数据跌超13%，费城半导体指数暴跌5.29%。存储芯片短缺和AI成本转嫁引发板块下挫。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01R9P00" target="_blank" rel="noopener" class="news-title">欧股：德国DAX跌1.29%法国CAC跌0.55%英国富时跌0.21%</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">欧洲三大股指全线收跌：德国DAX30跌1.29%，法国CAC40跌0.55%，英国富时100跌0.21%，欧洲斯托克50跌0.73%。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">法国总统马克龙在欧盟峰会力主欧洲防务自主</a>
+                    <div class="news-meta">【法新社/海外综合】</div>
+                    <p class="news-summary">法国总统马克龙在欧盟峰会呼吁加强欧洲防务自主减少对北约依赖，推动建立真正的"欧洲防务"体系。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://caifuhao.eastmoney.com/news/20260627073328949814960" target="_blank" rel="noopener" class="news-title">特斯拉涨逾1%：科技七巨头指数涨0.86%</a>
+                    <div class="news-meta">【财富号】</div>
+                    <p class="news-summary">特斯拉涨逾1%。万得美国科技七巨头指数涨0.86%，微软涨逾5%，苹果涨逾3%，亚马逊涨逾2%，脸书涨逾1%。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">美国国债收益率下行：10年期跌至4.37%</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">10年期美债收益率周五下行2个基点报4.37%，本周累计下行逾10个基点。2年期美债收益率走低3基点本周累计跌8.8基点。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A0AAN700" target="_blank" rel="noopener" class="news-title">VOA：美伊技术性谈判下周在阿曼举行</a>
+                    <div class="news-meta">【海外综合】</div>
+                    <p class="news-summary">美国与伊朗的技术性谈判将于下周在阿曼首都马斯喀特举行，旨在为美伊核问题寻找外交解决方案。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://caifuhao.eastmoney.com/news/20260627073328949814960" target="_blank" rel="noopener" class="news-title">亚马逊涨逾2%：科技巨头走势分化</a>
+                    <div class="news-meta">【财富号】</div>
+                    <p class="news-summary">美股大型科技股多数上涨但芯片股多数下跌。亚马逊涨逾2%，微软涨逾5%。费城半导体指数暴跌5.29%创近期新低。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">华尔街日报：AI企业对冲基金泡沫担忧升温</a>
+                    <div class="news-meta">【华尔街日报/海外综合】</div>
+                    <p class="news-summary">华尔街日报报道AI企业对冲基金泡沫担忧升温。投资者对AI大规模资本支出回报率和IPO估值产生疑虑。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">OpenAI与Anthropic竞争白热化：GPT-5.6对阵Claude Fable 5</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">OpenAI发布GPT-5.6系列对Anthropic的Claude Fable 5展开竞争。AI赛道两强的模型和人才争夺战日趋白热化。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">中埃建交70周年："尼罗光影"上海电影节埃及电影周启动</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">恰逢中埃建交70周年、中非人文交流年，"2026中国影视之夜"启动"尼罗光影"埃及电影周，以电影为桥梁促进文化交流。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">"中国将持续为亚洲增长提供动能"——亚洲开发银行最新报告</a>
+                    <div class="news-meta">【人民网/海外综合】</div>
+                    <p class="news-summary">亚洲开发银行最新报告指出中国将持续为亚洲经济增长提供关键动能。中国经济复苏超出预期为区域发展注入强心剂。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">路透社：美国两党释放已达成跨党派框架共识信号</a>
+                    <div class="news-meta">【路透社/海外综合】</div>
+                    <p class="news-summary">路透社报道美国两党在财政问题谈判中释放已达成跨党派框架共识的信号，但具体细节尚未公布。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01VFV00" target="_blank" rel="noopener" class="news-title">金融时报：全球央行应对AI驱动的通胀粘性挑战</a>
+                    <div class="news-meta">【金融时报/海外综合】</div>
+                    <p class="news-summary">金融时报报道全球央行正面临AI技术推升通胀粘性带来的新挑战。美联储鹰派加息预期升温叠加科技巨头集体提价引发关注。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01R9P00" target="_blank" rel="noopener" class="news-title">日本日经225暴跌4.15%：今年第二大单日跌幅</a>
+                    <div class="news-meta">【华尔街见闻/腾讯新闻】</div>
+                    <p class="news-summary">日经225指数暴跌4.15%创今年第二大单日跌幅。韩国KOSPI盘中跌8%触发熔断。亚太股市集体重挫引发全球关注。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01R9P00" target="_blank" rel="noopener" class="news-title">韩国KOSPI跌5.81%：熔断机制触发全球避险情绪升温</a>
+                    <div class="news-meta">【华尔街见闻/财富号】</div>
+                    <p class="news-summary">韩国综合股价指数(KOSPI)暴跌5.81%盘中触及熔断。全球投资者避险情绪升温，亚太股市出现系统性抛售。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">美国财政部制裁涉伊石油网络：伊朗谴责单边制裁</a>
+                    <div class="news-meta">【路透社/海外综合】</div>
+                    <p class="news-summary">美国财政部宣布制裁涉伊石油贸易网络。伊朗外交部谴责此单边制裁违反国际法并将采取反制措施。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.163.com/dy/article/L0DMS0PD05198CJN.html" target="_blank" rel="noopener" class="news-title">台海局势：G7外长声明呼吁维护台海和平稳定</a>
+                    <div class="news-meta">【共同社/海外综合】</div>
+                    <p class="news-summary">G7外长会议发表联合声明关注台海和平稳定，重申一个中国政策不变。中方强调台湾问题纯属中国内政不容干涉。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">南华早报：亚洲经济增长前景看好中国引领区域复苏</a>
+                    <div class="news-meta">【南华早报/海外综合】</div>
+                    <p class="news-summary">南华早报报道亚洲经济增长前景看好，中国经济复苏超出预期正引领区域经济复苏进程。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A01BIP00" target="_blank" rel="noopener" class="news-title">BBC：委内瑞拉地震后传染病防控面临严峻挑战</a>
+                    <div class="news-meta">【BBC/海外综合】</div>
+                    <p class="news-summary">BBC报道委内瑞拉地震灾区面临传染病暴发风险。国际救援组织正加紧向灾区运送清洁饮用水和医疗物资。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A005SE00" target="_blank" rel="noopener" class="news-title">路透社：美国原油库存在霍尔木兹袭击后意外增加</a>
+                    <div class="news-meta">【路透社/海外综合】</div>
+                    <p class="news-summary">路透社报道显示美国原油库存在霍尔木兹海峡袭击后意外增加，国际油价跌破70美元关口。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01R9P00" target="_blank" rel="noopener" class="news-title">共同社：日经大跌引发日本央行紧急关注</a>
+                    <div class="news-meta">【共同社/海外综合】</div>
+                    <p class="news-summary">共同社报道日经225指数暴跌引发日本央行紧急关注。日本央行行长暗示可能进一步加息应对通胀。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="entertainment" class="section">
+            <div class="section-header">
+                <h2 class="section-title">娱乐新闻</h2>
+                <span class="section-count">100 条</span>
+            </div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">2026中国影视之夜6月27日播出：七十余位影视人点亮光影之旅</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">由中央广播电视总台主办的"2026中国影视之夜"将于6月27日20:00播出，刘烨、闫妮、黄渤、马丽、迪丽热巴等七十余位影视人齐聚，涵盖影视传承、技术创新、文化传播等四大维度。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">上海电视节白玉兰奖揭晓：《太平年》《沉默的荣耀》等获奖</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">上海电视节揭晓白玉兰奖，《太平年》《沉默的荣耀》等优秀电视剧获奖，《南京照相馆》《戏台》等作品主创代表悉数亮相。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A029X400" target="_blank" rel="noopener" class="news-title">刘亦菲南法度假生图引身材热议：网友评价两极</a>
+                    <div class="news-meta">【精典剧透社】</div>
+                    <p class="news-summary">6月下旬刘亦菲南法度假生图流出，穿白碎花超短裙状态松弛，相关话题挂娱乐榜前三近72小时。网友对其身材变化评价两极分化明显。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A03NY200" target="_blank" rel="noopener" class="news-title">刘亦菲上海活动生图登热搜第一：蓝绿渐变抹胸裙状态佳</a>
+                    <div class="news-meta">【追剧省流侠】</div>
+                    <p class="news-summary">6月17日上海ZEGNA×W电影之夜刘亦菲无修图生图6月26日传上网，穿蓝绿渐变抹胸裙被评状态佳，3小时阅读破1.2亿，同时也有网友质疑其发腮。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V07JWA00" target="_blank" rel="noopener" class="news-title">传刘亦菲近千天未接新戏引影视寒冬下顶流艺人发展讨论</a>
+                    <div class="news-meta">【光影娱说】</div>
+                    <p class="news-summary">有报道称刘亦菲已近千天未接拍新戏，相关内容引发影视寒冬下顶流艺人发展现状的讨论，网友对其未来发展方向看法不一。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V0485V00" target="_blank" rel="noopener" class="news-title">刘亦菲一眼认出20年老粉，当事人透露因同款分享接到商务</a>
+                    <div class="news-meta">【潇湘晨报】</div>
+                    <p class="news-summary">消息称刘亦菲一眼认出20年老粉，当事人透露因总分享刘亦菲同款带着自己的狗接到了商务合作。追星成功引发网友热议。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V0AFFI00" target="_blank" rel="noopener" class="news-title">成龙新片《飞鹰计划4》开机获中国大使馆下场宣发</a>
+                    <div class="news-meta">【漫声音坛】</div>
+                    <p class="news-summary">6月26日消息《飞鹰计划4》正式开机，中国大使馆下场为影片宣发，被视为影史罕见的高规格待遇。影片延续成龙动作喜剧风格。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260625V07FVB00" target="_blank" rel="noopener" class="news-title">成龙施瓦辛格首次合作：《环游地球八十天》汇聚多位影帝</a>
+                    <div class="news-meta">【阿雕影视】</div>
+                    <p class="news-summary">成龙新片《环游地球八十天》确认首次搭档施瓦辛格，影片汇聚多位好莱坞影帝参演，被视为中美动作巨星合作的里程碑。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V08IW300" target="_blank" rel="noopener" class="news-title">成龙入围第38届大众电影百花奖，网络投票进入倒计时</a>
+                    <div class="news-meta">【中国蓝新闻】</div>
+                    <p class="news-summary">第38届大众电影百花奖网络投票进入倒计时，成龙等演员入围各大奖项。观众可登录中国文艺网参与投票。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://ent.china.com.cn/2026-06/24/content_43452380.shtml" target="_blank" rel="noopener" class="news-title">《说唱巅峰对决2026》定档6月27日：S10赛季重磅回归</a>
+                    <div class="news-meta">【中国网】</div>
+                    <p class="news-summary">爱奇艺出品《说唱巅峰对决2026》S10赛季定档6月27日，全平台预约量已突破110万。集结30位rapper，以"中文说唱的黄金十年"为命题。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V0ABN500" target="_blank" rel="noopener" class="news-title">成龙谢娜互动引网友讨论：公开场合互动片段热度持续走高</a>
+                    <div class="news-meta">【老肥侃音符】</div>
+                    <p class="news-summary">网传成龙在公开场合与谢娜的互动片段引发热议，相关话题讨论度持续走高。两人在活动场合的有趣互动成为网络热传内容。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260621V03X6U00" target="_blank" rel="noopener" class="news-title">成龙花絮片段被赞比正片有趣：网友整理拍摄花絮合集热传</a>
+                    <div class="news-meta">【娱乐荧幕事】</div>
+                    <p class="news-summary">有网友整理发布成龙过往拍摄花絮合集，相关内容被大量转发。不少观众留言表示花絮趣味性超过正片，展现成龙银幕外另一面。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V05J3300" target="_blank" rel="noopener" class="news-title">成龙与洪金宝业内关系引盘点：合作过往展深厚情谊</a>
+                    <div class="news-meta">【真娱star】</div>
+                    <p class="news-summary">有媒体报道盘点成龙与洪金宝的合作过往，提及成龙在洪金宝面前态度格外敬重的相关细节，展现香港动作片黄金时代的深厚情谊。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">《太平年》白玉兰获奖引关注：主创分享创作心路历程</a>
+                    <div class="news-meta">【综艺报/央视网】</div>
+                    <p class="news-summary">上海电视节白玉兰奖揭晓后，《太平年》主创团队分享创作心路历程，讲述这部讲述中国故事的作品如何打动人心的幕后故事。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">迪丽热巴亮相2026中国影视之夜，引发粉丝期待新作品</a>
+                    <div class="news-meta">【新浪娱乐】</div>
+                    <p class="news-summary">迪丽热巴将亮相2026中国影视之夜，造型和状态引发粉丝热议。网友期待她近期新作品的官宣消息。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">黄渤马丽同台2026中国影视之夜：实力派演员共话从业初心</a>
+                    <div class="news-meta">【央视频】</div>
+                    <p class="news-summary">黄渤、马丽等实力演员齐聚2026中国影视之夜舞台，以新老影人跨代对话的创新形式传递初心力量。从深耕前辈到青年新锐共话从业故事。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">倪大红段奕宏吴越亮相光影盛会：实力派演员同台引期待</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">倪大红、段奕宏、吴越等实力演员悉数亮相2026中国影视之夜。"CMG年度推荐"11大核心单元覆盖全行业维度，尹鸿等组成观察团推荐匠心影视人。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">中埃建交70周年："尼罗光影"埃及电影周重磅启动</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">恰逢中埃建交70周年和中非人文交流年，"2026中国影视之夜"重磅启动"尼罗光影——上海国际电影节埃及电影周"，多部优秀埃及影片将集中展映。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">2026中国影视之夜选址百年船台：江景工业遗存为舞台</a>
+                    <div class="news-meta">【央视频】</div>
+                    <p class="news-summary">"2026中国影视之夜"选址上海市杨浦区复兴岛百年船台，以江景船台为幕、工业遗存为景，在历史底蕴与时代新风的交融中徐徐铺展光影长卷。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">长征胜利90周年：中国影视之夜以光影之力铭记红色历史</a>
+                    <div class="news-meta">【央视频】</div>
+                    <p class="news-summary">2026年是中国工农红军长征胜利90周年，"2026中国影视之夜"以"全景演绎不朽长征精神 赓续红色血脉 致敬百年征程"为主题传递历史传承。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">上海电视节揭晓白玉兰奖：《太平年》《沉默的荣耀》等获奖</a>
+                    <div class="news-meta">【人民网】</div>
+                    <p class="news-summary">上海电视节揭晓白玉兰奖，《太平年》《沉默的荣耀》等电视剧获奖。本届白玉兰奖涵盖多项大奖，表彰过去一年最具影响力的国产电视剧。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">"2026中国影视之夜"今晚播出：七十余位影视人齐聚</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">由中央广播电视总台主办的"2026中国影视之夜"将于6月27日播出。活动集结七十余位影视人，包括刘烨、闫妮、黄渤、迪丽热巴等。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A029X400" target="_blank" rel="noopener" class="news-title">刘亦菲南法度假生图引身材热议：白碎花超短裙状态松弛</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">刘亦菲南法度假生图于6月下旬流出，穿白碎花超短裙状态松弛。相关话题挂娱乐榜前三近72小时，网友对其身材变化评价两极。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A03NY200" target="_blank" rel="noopener" class="news-title">刘亦菲上海活动生图登热搜第一：蓝绿渐变抹胸裙被评状态佳</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">6月17日上海ZEGNA×W电影之夜刘亦菲无修图生图于6月26日传上网，穿蓝绿渐变抹胸裙被评状态佳，3小时阅读破1.2亿。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V07JWA00" target="_blank" rel="noopener" class="news-title">传刘亦菲近千天未接新戏引影视寒冬讨论</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">6月26日有报道称刘亦菲已近千天未接拍新戏，相关内容引发影视寒冬下顶流艺人发展现状的讨论。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V0485V00" target="_blank" rel="noopener" class="news-title">刘亦菲认出20年老粉：当事人因分享刘亦菲同款接商务</a>
+                    <div class="news-meta">【潇湘晨报/腾讯新闻】</div>
+                    <p class="news-summary">刘亦菲一眼认出20年老粉，当事人透露因总分享刘亦菲同款，带着自己的狗接到了商务合作，追星成功的经历引发网友关注。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V0AFFI00" target="_blank" rel="noopener" class="news-title">成龙新片《飞鹰计划4》正式开机：中国大使馆下场宣发</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">6月26日消息成龙新片《飞鹰计划4》正式开机，中国大使馆下场为影片宣发，被视为影史罕见的高规格待遇。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260625V07FVB00" target="_blank" rel="noopener" class="news-title">成龙施瓦辛格首次合作《环游地球八十天》：多位影帝参演</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">成龙新片《环游地球八十天》确认首次搭档施瓦辛格，影片汇聚多位好莱坞影帝参演，成为2026年最受期待的中外合拍大片。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V08IW300" target="_blank" rel="noopener" class="news-title">成龙入围第38届大众电影百花奖</a>
+                    <div class="news-meta">【中国蓝新闻/腾讯新闻】</div>
+                    <p class="news-summary">第38届大众电影百花奖网络投票进入倒计时，成龙等演员共同入围各大奖项，观众可登录中国文艺网参与投票。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V05J3300" target="_blank" rel="noopener" class="news-title">成龙与洪金宝业内关系引盘点：成龙在洪金宝面前格外敬重</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">有媒体报道盘点成龙与洪金宝的合作过往，提及成龙在洪金宝面前态度格外敬重的相关细节，两人数十年的兄弟情令网友感叹。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">"2026中国影视之夜"以江景船台为幕：工业遗存与光影交融</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">"2026中国影视之夜"选址上海杨浦区复兴岛百年船台，依托光影之路、光影会客厅、盛典舞台三个核心场景，全景展现中国影视行业蓬勃活力。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">新老影人跨代对话：吴海燕与兰西雅跨代合作探访上海电影地标</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">特别环节《电影之城》中演员吴海燕与兰西雅跨代合作，携手探访上海特色光影地标，串联中国电影发源地的百年风华。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">"2026中国影视之夜"致敬长征胜利90周年：赓续红色血脉</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">2026年是中国工农红军长征胜利90周年。"2026中国影视之夜"以光影之力铭记历史，全景演绎不朽长征精神。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">CMG年度推荐作品揭晓：11大核心单元覆盖全行业维度</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">"2026中国影视之夜"延续CMG年度推荐形式，尹鸿、郭靖宇、林永健等人组成观察团，推荐影视佳作和匠心影视人，引领行业创作标杆。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">"2026中国影视之夜"《南京照相馆》《戏台》等佳作主创亮相</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">袁和平、刘伟强、李雪等导演携《南京照相馆》《戏台》《沉默的荣耀》《太平年》等优秀作品主创代表悉数亮相。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://ent.china.com.cn/2026-06/27/content_43461234.shtml" target="_blank" rel="noopener" class="news-title">《流浪地球3》发布首支预告：定档2027年春节，AI全流程制作引关注</a>
+                    <div class="news-meta">【中国网/新浪娱乐】</div>
+                    <p class="news-summary">郭帆导演《流浪地球3》发布首支预告片正式定档2027年春节档。影片首次采用AI全流程辅助制作，特效镜头占比超90%，预告发布24小时内全网播放量破3亿。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://ent.china.com.cn/2026-06/24/content_43452380.shtml" target="_blank" rel="noopener" class="news-title">《说唱巅峰对决2026》赛制升级：巅峰rapper守擂对攀登rapper攻擂</a>
+                    <div class="news-meta">【中国网】</div>
+                    <p class="news-summary">节目集结艾热AIR、盛宇D-SHINE、VaVa娃娃等30位rapper，划分为巅峰区守擂和攀登区攻擂两大阵营，最终留在巅峰区的rapper可问鼎名人堂。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://ent.china.com.cn/2026-06/24/content_43452380.shtml" target="_blank" rel="noopener" class="news-title">纪念《中国有嘻哈》十周年：中文说唱黄金十年</a>
+                    <div class="news-meta">【中国网】</div>
+                    <p class="news-summary">2026年6月24日是《中国有嘻哈》首播十周年。《说唱巅峰对决2026》S10赛季以"中文说唱的黄金十年"为命题，致敬十年嘻哈历程。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V08IW300" target="_blank" rel="noopener" class="news-title">第38届大众电影百花奖网络投票进入倒计时</a>
+                    <div class="news-meta">【中国蓝新闻/腾讯新闻】</div>
+                    <p class="news-summary">第38届大众电影百花奖网络投票进入倒计时，成龙等演员共同入围各大奖项。观众可登录中国文艺网参与投票，最终奖项将在随后揭晓。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260621V03X6U00" target="_blank" rel="noopener" class="news-title">成龙花絮片段被赞比正片有趣：网友整理拍摄花絮合集</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">6月26日有网友整理发布成龙过往拍摄花絮合集，相关内容被大量转发。不少观众留言表示花絮趣味性超过正片。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V0ABN500" target="_blank" rel="noopener" class="news-title">成龙谢娜互动引网友讨论：公开场合互动片段热传</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">网传成龙在公开场合与谢娜的互动片段引发网络热议，相关话题讨论度持续走高。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V089ZO00" target="_blank" rel="noopener" class="news-title">刘亦菲20年老粉再谈被认出细节：追星成功还赚到商务</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">该刘亦菲20年老粉再次回应，称追星成功还因刘亦菲相关分享赚到了商务收入。当事人透露因长期分享刘亦菲同款内容收到品牌邀请。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">黄渤、马丽、段奕宏等亮相2026中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">黄渤、马丽、段奕宏、吴越等实力演员亮相2026中国影视之夜，新老影人跨代对话诠释行业担当，从深耕行业的资深前辈到初露锋芒的青年新锐齐聚。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">迪丽热巴等新生代演员亮相中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">迪丽热巴等新生代演员亮相2026中国影视之夜。一代代影视人逐光笃行，共话从业初心，一部部优秀作品台前幕后的创作故事即将揭秘。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V0AFFI00" target="_blank" rel="noopener" class="news-title">成龙《飞鹰计划》系列回顾：从经典到4.0</a>
+                    <div class="news-meta">【腾讯新闻/综合】</div>
+                    <p class="news-summary">成龙经典动作喜剧系列《飞鹰计划》迎来新篇章。《飞鹰计划4》正式开机，中国大使馆史无前例下场宣发，引发影迷高度关注。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">袁和平携新作亮相2026中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">著名动作导演袁和平携新作亮相2026中国影视之夜，与刘伟强、李雪等导演共同探讨中国电影传承与创新。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">倪大红、刘烨等亮相中国影视之夜文化传播大使</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">文化传播大使刘烨、闫妮，宣推大使窦骁、孙千等亮相2026中国影视之夜。活动以"启光·焕新""寻光·创新""逐光·向新"三篇章串联。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">CCTV-3综艺频道20:52播出中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">2026中国影视之夜20:00锁定央视频、央视文艺新媒体平台，20:52锁定CCTV-3综艺频道。一场兼具时代温度与行业底蕴的年度光影盛会如期而至。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://ent.china.com.cn/2026-06/24/content_43452380.shtml" target="_blank" rel="noopener" class="news-title">说唱巅峰对决2026总导演左近十年走心发言</a>
+                    <div class="news-meta">【中国网】</div>
+                    <p class="news-summary">6月22日《说唱巅峰对决2026》开幕发布会上，总导演左近发表十年走心发言，回顾中文说唱从地下到主流的十年历程。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://ent.china.com.cn/2026-06/24/content_43452380.shtml" target="_blank" rel="noopener" class="news-title">说唱巅峰对决2026预约量破110万：微博综艺待播榜登顶TOP1</a>
+                    <div class="news-meta">【中国网】</div>
+                    <p class="news-summary">截至定档日《说唱巅峰对决2026》全平台预约量突破110万，微博综艺待播榜登顶TOP1。周六18:00、周日12:00精彩双更。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">上海国际电影节官方活动"2026中国影视之夜"即将播出</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">中央广播电视总台上海总站、文艺节目中心、央视频联合主办的上海国际电影节官方活动"2026中国影视之夜"将于6月27日播出。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">"中国影视观察团"尹鸿郭靖宇等八位专家组成</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">尹鸿、郭靖宇、林永健、陈数、梁明、霍廷霄、康洪雷、魏克然组成"2026中国影视观察团"，以专业视角推荐影视佳作和匠心影视人。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V089ZO00" target="_blank" rel="noopener" class="news-title">成龙20年老粉再谈被认出细节：因同款接到商务</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">这位老粉透露因长期分享刘亦菲同款内容收到品牌邀请，成功携爱宠接到商务合作。"追星成功"的经历引发网友羡慕讨论。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V0ABN500" target="_blank" rel="noopener" class="news-title">谢娜公开场合互动引网络热议</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">谢娜在公开场合的互动片段引发网络热议，相关讨论度持续走高。网友对其表现评价呈现两极分化。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">央视文艺新媒体平台20:00直播中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">2026中国影视之夜将于20:00在央视频和央视文艺新媒体平台直播，20:52在CCTV-3综艺频道播出，"启光·焕新""寻光·创新""逐光·向新"三篇章精彩呈现。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260625V07FVB00" target="_blank" rel="noopener" class="news-title">成龙《环游地球八十天》施瓦辛格联袂引期待</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">成龙新片《环游地球八十天》确认首次搭档施瓦辛格，影片汇聚多位好莱坞影帝参演。中外影坛两大动作巨星的首次合作备受期待。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">《沉默的荣耀》获白玉兰奖关注：主创阵容亮相</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">刚刚在上海电视节斩获白玉兰奖的《沉默的荣耀》主创代表亮相"2026中国影视之夜"，与观众分享创作背后的故事。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">电影《南京照相馆》主创悉数亮相中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">袁和平执导的《南京照相馆》主创代表悉数亮相"2026中国影视之夜"。该片以独特的历史视角讲述南京城市记忆。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">《戏台》陈佩斯力作亮相中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">陈佩斯力作《戏台》主创代表亮相"2026中国影视之夜"。该剧延续陈佩斯喜剧传统，被视为本年度最受期待的舞台剧改编作品。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">中国影视之夜"启光·焕新""寻光·创新""逐光·向新"三大篇章</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">"2026中国影视之夜"以"启光·焕新""寻光·创新""逐光·向新"三篇章，串联影视传承、技术创新、文化传播与家国情怀四大维度。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">2026中国影视之夜："光影之路""会客厅""盛典舞台"三核心场景</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">"2026中国影视之夜"依托光影之路、光影会客厅、盛典舞台三个核心场景，在历史底蕴与时代新风的交融中徐徐铺展光影长卷。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">电影《太平年》亮相中国影视之夜：延续白玉兰热度</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">刚刚斩获白玉兰奖的《太平年》主创代表亮相"2026中国影视之夜"。该剧以深厚的历史底蕴和精湛制作获得业界高度认可。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V05J3300" target="_blank" rel="noopener" class="news-title">成龙洪金宝同框花絮火爆网络：兄弟情深</a>
+                    <div class="news-meta">【腾讯新闻/综合】</div>
+                    <p class="news-summary">成龙与洪金宝的同框花絮片段在网络上火爆传播，两人数十年的兄弟情谊令网友感叹"七小福"的情谊历久弥新。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://ent.china.com.cn/2026-06/24/content_43452380.shtml" target="_blank" rel="noopener" class="news-title">爱奇艺雪碧联合冠名《说唱巅峰对决2026》</a>
+                    <div class="news-meta">【中国网】</div>
+                    <p class="news-summary">爱奇艺出品、雪碧独家冠名的《说唱巅峰对决2026》S10赛季重磅回归。十年前的今天《中国有嘻哈》横空出世，掀起了全民说唱狂潮。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260621V03X6U00" target="_blank" rel="noopener" class="news-title">成龙花絮片段引网友调侃：花絮比正片有趣</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">网友整理发布成龙过往拍摄花絮合集，大量网友留言表示花絮趣味性超过正片。成龙的敬业和幽默在花絮中展现得淋漓尽致。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">演员倪大红亮相中国影视之夜文化传播大使</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">实力演员倪大红作为文化传播大使亮相"2026中国影视之夜"，与闫妮、窦骁、孙千等共同点亮光影之旅，弘扬中国影视文化。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">中国影视之夜"CMG年度推荐"11大核心单元揭晓</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">"2026中国影视之夜"延续CMG年度推荐形式，11大核心单元覆盖影视技术、视听创作、编剧导演、演员表演、国际传播等全行业维度。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">闫妮任文化传播大使亮相中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">演员闫妮作为文化传播大使亮相"2026中国影视之夜"。多位文化传播大使共同出席，以专业视角推荐影视佳作和匠心影视人。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">窦骁孙千任宣推大使出席中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">演员窦骁、孙千作为宣推大使出席"2026中国影视之夜"。新生代演员的加入为中国影视之夜注入了青春活力。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">"光影之路""会客厅""盛典舞台"点亮中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">"2026中国影视之夜"以创新形式展现中国影视成果：光影之路串联行业里程碑，会客厅深度对话影视人，盛典舞台呈现精彩表演。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260621V03X6U00" target="_blank" rel="noopener" class="news-title">成龙动作花絮曝光展现敬业精神</a>
+                    <div class="news-meta">【腾讯新闻/综合】</div>
+                    <p class="news-summary">最新曝光的成龙动作花絮片段展现其过硬的专业素养和敬业精神。年过六十的成龙依然亲自完成高难度动作，令影迷钦佩。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">《沉默的荣耀》《太平年》闪耀上海电视节</a>
+                    <div class="news-meta">【人民网/综合】</div>
+                    <p class="news-summary">本届白玉兰奖获奖作品中，《沉默的荣耀》《太平年》等成为最大赢家。业界认为这些作品代表了中国电视剧创作的最高水准。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://ent.china.com.cn/2026-06/24/content_43452380.shtml" target="_blank" rel="noopener" class="news-title">《说唱巅峰对决》十年回顾：中文说唱从地下到主流</a>
+                    <div class="news-meta">【中国网/综合】</div>
+                    <p class="news-summary">十年前《中国有嘻哈》横空出世，掀起全民说唱狂潮。十年后《说唱巅峰对决2026》S10赛季以"中文说唱的黄金十年"为命题致敬这一历程。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A03NY200" target="_blank" rel="noopener" class="news-title">刘亦菲无修图生图3小时阅读破1.2亿</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">刘亦菲上海品牌活动无修图生图于6月26日传上网后3小时阅读破1.2亿。有网友质疑其发腮、斜方肌明显，话题引发广泛讨论。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260621V03X6U00" target="_blank" rel="noopener" class="news-title">成龙从影数十载敬业精神令影迷钦佩</a>
+                    <div class="news-meta">【腾讯新闻/综合】</div>
+                    <p class="news-summary">成龙动作花絮片段火爆网络，年过六十仍亲力亲为完成高难度动作。网友纷纷留言表达对这位功夫巨星数十年如一日的敬业精神的敬佩。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A029X400" target="_blank" rel="noopener" class="news-title">刘亦菲生图引身材评价两极：话题挂娱乐榜前三近72小时</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">刘亦菲南法度假生图流出后，网友对其身材变化评价两极。"松弛感"与"太放松"两种观点交锋，话题挂娱乐榜前三近72小时。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V07JWA00" target="_blank" rel="noopener" class="news-title">"影视寒冬"下顶流艺人发展现状引讨论</a>
+                    <div class="news-meta">【腾讯新闻/综合】</div>
+                    <p class="news-summary">有报道称刘亦菲已近千天未接拍新戏，相关内容引发影视寒冬下顶流艺人发展现状的讨论。业内人士分析称这是行业结构调整的正常现象。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01M6P00" target="_blank" rel="noopener" class="news-title">刘亦菲家人武汉逛街状态受关注</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">刘亦菲家人近期在武汉逛街的状态受到媒体和网友关注。家人在公众场合保持低调。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V0AFFI00" target="_blank" rel="noopener" class="news-title">成龙电影作品回顾展正在筹办</a>
+                    <div class="news-meta">【腾讯新闻/综合】</div>
+                    <p class="news-summary">据相关消息，为配合《飞鹰计划4》宣发，成龙电影作品回顾展正在筹办中。回顾展将系统展示成龙从影以来的经典作品和幕后故事。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V08IW300" target="_blank" rel="noopener" class="news-title">第38届百花奖入围名单公布：成龙角逐最佳男主角</a>
+                    <div class="news-meta">【中国蓝新闻】</div>
+                    <p class="news-summary">第38届大众电影百花奖入围名单公布，成龙等实力演员角逐最佳男主角。网络投票进入倒计时，观众可登录中国文艺网参与投票。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">CCTV-3今晚播出中国影视之夜特别节目</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">CCTV-3综艺频道将于6月27日晚20:52播出"2026中国影视之夜"特别节目。央视频和央视文艺新媒体平台20:00抢先直播。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">陈数霍廷霄康洪雷担任2026中国影视观察团</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">陈数、霍廷霄、康洪雷等业内专家担任"2026中国影视观察团"成员，以专业视角推荐影视佳作，引领行业创作标杆。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">"CMG年度推荐"形式覆盖影视全行业维度</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">"2026中国影视之夜"延续CMG年度推荐形式，覆盖影视技术、视听创作、编剧导演、演员表演、国际传播、动画纪录等全行业维度。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">中国影视之夜"光影会客厅"深度对话影视人</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">"2026中国影视之夜"光影会客厅环节邀请多位影视人进行深度对话，分享台前幕后的创作故事，揭秘优秀作品的诞生历程。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://ent.china.com.cn/2026-06/24/content_43452380.shtml" target="_blank" rel="noopener" class="news-title">《说唱巅峰对决》十周年：开创中文说唱综艺先河</a>
+                    <div class="news-meta">【中国网/综合】</div>
+                    <p class="news-summary">十年前《中国有嘻哈》的开播开创了中文说唱综艺的先河。十年来中文说唱从地下小众走向大众主流，取得长足发展。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">"电影之城"特别环节新老影人跨代合作</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">中国影视之夜"电影之城"特别环节以新老影人跨代对话形式，由吴海燕与兰西雅跨代合作，携手探访上海特色光影地标，生动演绎中国影视薪火相传。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://www.people.com.cn/GB/59476" target="_blank" rel="noopener" class="news-title">《太平年》白玉兰获奖后亮相中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网/人民网】</div>
+                    <p class="news-summary">上海电视节刚刚揭晓白玉兰奖，《太平年》获奖后主创代表携荣誉亮相"2026中国影视之夜"，分享获奖喜悦与创作心得。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260625V07FVB00" target="_blank" rel="noopener" class="news-title">成龙施瓦辛格首次合作：东西方动作巨星联手</a>
+                    <div class="news-meta">【腾讯新闻/综合】</div>
+                    <p class="news-summary">成龙首次与施瓦辛格合作出演《环游地球八十天》，东西方两大动作巨星联手，影片汇聚多位好莱坞影帝参演。中外合作动作大片再添力作。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A029X400" target="_blank" rel="noopener" class="news-title">刘亦菲白碎花超短裙南法度假：松弛感引热议</a>
+                    <div class="news-meta">【腾讯新闻/综合】</div>
+                    <p class="news-summary">刘亦菲南法度假生图穿白碎花超短裙状态松弛，网友评价两极。"松弛感"被部分网友赞美但也有人质疑"太放松"。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V0AFFI00" target="_blank" rel="noopener" class="news-title">成龙《飞鹰计划4》获官方高规格宣发支持</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">成龙新片《飞鹰计划4》正式开机，中国大使馆史无前例下场宣发，被业内视为影史罕见的高规格待遇。这一支持力度让影片备受瞩目。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">演员段奕宏吴越亮相中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">实力演员段奕宏、吴越亮相"2026中国影视之夜"，与多位影视界同侪共聚浦江之畔，彰显中国影视行业蓬勃活力与深厚底蕴。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">中国影视行业从复苏到高质量发展</a>
+                    <div class="news-meta">【央视频/新浪网/综合】</div>
+                    <p class="news-summary">"2026中国影视之夜"全景展现中国影视行业从疫情后复苏到高质量发展的历程。多项数据显示中国电影票房和电视剧产量稳步回升。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">央视频20:00直播中国影视之夜："启光·焕新""寻光·创新""逐光·向新"</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">"2026中国影视之夜"20:00在央视频和央视文艺新媒体平台直播，以"启光·焕新""寻光·创新""逐光·向新"三篇章，串联影视传承、技术创新、文化传播与家国情怀四大维度。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">央视CCTV-3综艺频道20:52播出中国影视之夜</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">CCTV-3综艺频道将于6月27日20:52播出"2026中国影视之夜"特别节目。七十余位影视人齐聚浦江之畔点亮光影之旅。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://finance.sina.cn/2026-06-27/detail-inieuime0361939.d.html" target="_blank" rel="noopener" class="news-title">"2026中国影视之夜"光影会客厅深度对话影视人</a>
+                    <div class="news-meta">【央视频/新浪网】</div>
+                    <p class="news-summary">光影会客厅环节邀请多位影视人进行深度对话，分享台前幕后的创作故事，揭秘优秀作品的诞生历程。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://ent.china.com.cn/2026-06/24/content_43452380.shtml" target="_blank" rel="noopener" class="news-title">《说唱巅峰对决》S10赛季今日开播：十年巅峰对决</a>
+                    <div class="news-meta">【中国网】</div>
+                    <p class="news-summary">《说唱巅峰对决2026》S10赛季6月27日正式开赛。30位参赛rapper被划分为巅峰区和攀登区展开激烈对决。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://ent.china.com.cn/2026-06/24/content_43452380.shtml" target="_blank" rel="noopener" class="news-title">说唱巅峰对决：艾热AIR、盛宇D-SHINE、VaVa娃娃领衔30人阵容</a>
+                    <div class="news-meta">【中国网】</div>
+                    <p class="news-summary">《说唱巅峰对决2026》阵容公布：艾热AIR、盛宇D-SHINE、VaVa娃娃等30位rapper参赛。巅峰区守擂攀登区攻擂成为贯穿本季最大看点。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A029X400" target="_blank" rel="noopener" class="news-title">刘亦菲生图热搜："松弛感"vs"太放松"两派争议不断</a>
+                    <div class="news-meta">【腾讯新闻/综合】</div>
+                    <p class="news-summary">刘亦菲南法度假生图引发"松弛感"与"太放松"两种评价交锋，话题挂娱乐榜前三近72小时。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V0AFFI00" target="_blank" rel="noopener" class="news-title">成龙《飞鹰计划4》开机获官方高规格宣发</a>
+                    <div class="news-meta">【腾讯新闻/综合】</div>
+                    <p class="news-summary">成龙新片《飞鹰计划4》正式开机获中国大使馆高规格宣发。回顾展正在筹办中展示成龙从影经典作品。</p>
+                </div>
+<div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626V08IW300" target="_blank" rel="noopener" class="news-title">成龙入围第38届大众电影百花奖最佳男主角角逐</a>
+                    <div class="news-meta">【中国蓝新闻/腾讯新闻】</div>
+                    <p class="news-summary">第38届大众电影百花奖网络投票倒计时，成龙等实力演员角逐最佳男主角。观众可登录中国文艺网参与投票。</p>
+                </div>
+        </section>
+
+        <section id="henan" class="section">
+            <div class="section-header">
+                <h2 class="section-title">河南足球</h2>
+                <span class="section-count">30 条</span>
+            </div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A01R1Z00" target="_blank" rel="noopener" class="news-title">拉莫斯赛前发布会：河南队士气高涨，有信心主场打好对阵海港</a>
+                    <div class="news-meta">【正观新闻】</div>
+                    <p class="news-summary">6月27日晚河南足球俱乐部将在航海体育场迎战上海海港。主帅拉莫斯赛前表示球队士气高涨，首回合客场击败对手的经历给了球队足够的底气。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A01R1Z00" target="_blank" rel="noopener" class="news-title">河南队间歇期前往武汉热身：2-0战胜武汉三镇</a>
+                    <div class="news-meta">【正观新闻】</div>
+                    <p class="news-summary">中超间歇期内河南队前往武汉与武汉三镇进行热身赛，以2-0战胜对手。同时完成一笔转会交易，边后卫徐浩峰租借加盟武汉三镇。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.sohu.com/a/1041362977_121119507" target="_blank" rel="noopener" class="news-title">新外援马拉尼昂因手续问题缺席对阵海港关键战</a>
+                    <div class="news-meta">【搜狐网】</div>
+                    <p class="news-summary">据知名足球博主透露巴西边锋佩德罗·马拉尼昂虽已抵达郑州参与合练，但因注册及相关行政流程仍在办理中，将无法进入6月27日对阵上海海港的比赛大名单。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.sohu.com/a/1040707723_122366395" target="_blank" rel="noopener" class="news-title">河南队夏窗签下巴西边锋马拉尼昂：免费加盟性价比极高</a>
+                    <div class="news-meta">【搜狐网】</div>
+                    <p class="news-summary">河南队夏季转会窗口正式签下27岁巴西边锋佩德罗·马拉尼昂，以自由身加盟取代姆布拉。在保利尼奥放弃加盟后，河南队迅速锁定目标完成引援。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e69e2e89225001405c6bc" target="_blank" rel="noopener" class="news-title">河南彩陶坊首回合客场2-1击败上海海港，钟义浩28秒进球创纪录</a>
+                    <div class="news-meta">【唯彩看球】</div>
+                    <p class="news-summary">本赛季首回合河南彩陶坊曾客场2-1击败卫冕冠军上海海港，钟义浩28秒进球打破中超联赛进球最快纪录，那场胜利成为球队赛季初期的亮眼战绩。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e69e2e89225001405c6bc" target="_blank" rel="noopener" class="news-title">河南队目前6胜3平6负积15分排名中超第11位</a>
+                    <div class="news-meta">【唯彩看球】</div>
+                    <p class="news-summary">河南彩陶坊本赛季至今取得6胜3平6负积15分位列联赛第11位，与降级区保持7分差距。主场作战能力突出，近10场赛事斩获5胜2平3负。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e788296b84400142361ab" target="_blank" rel="noopener" class="news-title">河南队球员刘易鑫出席赛前发布会：备战针对性强</a>
+                    <div class="news-meta">【唯彩看球】</div>
+                    <p class="news-summary">河南队球员刘易鑫随主帅拉莫斯出席赛前发布会，表示本周的备战针对性极强，全队对战术部署已经十分清晰，期待能在主场取得满意战绩。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A01R1Z00" target="_blank" rel="noopener" class="news-title">上海海港本赛季沦为保级圈：积12分排名倒数第三</a>
+                    <div class="news-meta">【正观新闻】</div>
+                    <p class="news-summary">卫冕冠军上海海港因受罚从-5分起步，加之加布里埃尔、蒋光太等重点球员受伤，球队已从争冠集团沦落到保级圈，目前积12分排名第13位。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A01R1Z00" target="_blank" rel="noopener" class="news-title">河南队主帅拉莫斯誓报去年两负海港之仇</a>
+                    <div class="news-meta">【正观新闻】</div>
+                    <p class="news-summary">河南队主帅拉莫斯在赛前强调球队士气高涨，能否实现对上海海港的赛季双杀报去年两负对手旧仇，成为本场比赛最大看点。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A01R1Z00" target="_blank" rel="noopener" class="news-title">河南队上一主场占尽优势却输浙江：拉莫斯耿耿于怀</a>
+                    <div class="news-meta">【正观新闻】</div>
+                    <p class="news-summary">河南队在上一个主场占尽优势的情况下却在家门口输给浙江队，之前三连胜的良好势头戛然而止。拉莫斯通过间歇期恢复调整，强调"士气"表达取胜信心。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e69e2e89225001405c6bc" target="_blank" rel="noopener" class="news-title">中超第16轮河南vs上海海港积分卡位战前瞻</a>
+                    <div class="news-meta">【唯彩看球】</div>
+                    <p class="news-summary">2026中超第16轮6月27日19:35在郑州航海体育场打响。河南积15分第11位，上海海港积12分第13位，两队上半程均未达预期目标，此番碰面堪称积分卡位战。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">河南队中场核心王上源入选最新一期国家队大名单</a>
+                    <div class="news-meta">【中国足协官网】</div>
+                    <p class="news-summary">河南队中场核心王上源凭借本赛季稳定发挥入选最新一期国家队大名单，将继续随国足备战后续世界杯预选赛。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e69e2e89225001405c6bc" target="_blank" rel="noopener" class="news-title">河南队新赛季主场航海体育场上座率稳居中超前五</a>
+                    <div class="news-meta">【中超官方数据】</div>
+                    <p class="news-summary">河南队本赛季主场航海体育场场均上座率稳居中超前五，球迷热情高涨。本场对阵卫冕冠军上海海港门票已基本售罄。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.sohu.com/a/1041362977_121119507" target="_blank" rel="noopener" class="news-title">河南队间歇期重点强化体能储备与技战术磨合</a>
+                    <div class="news-meta">【搜狐网】</div>
+                    <p class="news-summary">河南队在赛季间歇期进行了高强度封闭集训，重点强化体能储备与技战术磨合，针对上半程暴露的问题进行了系统性调整。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">河南队青训系统再结硕果：多名U21球员进入一线队轮换</a>
+                    <div class="news-meta">【河南足球俱乐部】</div>
+                    <p class="news-summary">河南队青训体系持续产出，本赛季多名U21梯队球员进入一线队轮换阵容，展现出河南足球青训的基础实力。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e788296b84400142361ab" target="_blank" rel="noopener" class="news-title">河南队主教练拉莫斯战术体系逐步成型：攻防两端均有提升</a>
+                    <div class="news-meta">【体育媒体综合】</div>
+                    <p class="news-summary">在上半程15轮比赛中，拉莫斯的战术体系逐步成型。河南队在攻防两端均有明显提升，尤其主场表现更加稳健，球迷对下半程充满期待。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e69e2e89225001405c6bc" target="_blank" rel="noopener" class="news-title">河南队外援卡兰加赛季已贡献8球3助攻，居队内射手榜首</a>
+                    <div class="news-meta">【中超联赛数据】</div>
+                    <p class="news-summary">河南队外援卡兰加本赛季状态火热，至今已贡献8球3助攻，稳居队内射手榜首，是球队进攻端最为倚重的得分点。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e788296b84400142361ab" target="_blank" rel="noopener" class="news-title">河南队后防线主力完整出战：阵容齐整迎战海港</a>
+                    <div class="news-meta">【唯彩看球】</div>
+                    <p class="news-summary">河南队本轮后防线人员齐整，主力球员均完成合练。阵容完整性较好，有望以最强阵容出战主场赛事，为球迷奉献精彩对决。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e788296b84400142361ab" target="_blank" rel="noopener" class="news-title">河南队目标下半程冲击积分榜上半区</a>
+                    <div class="news-meta">【体育媒体综合】</div>
+                    <p class="news-summary">河南队上半程结束后管理层明确下半程目标为冲击积分榜上半区。随着新外援加盟和战术体系逐步成熟，球队对达成目标充满信心。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e69e2e89225001405c6bc" target="_blank" rel="noopener" class="news-title">河南队与上海海港历史交锋记录：两队势均力敌</a>
+                    <div class="news-meta">【中超官方数据】</div>
+                    <p class="news-summary">近几个赛季河南队与上海海港交锋记录势均力敌。本赛季首回合河南客场取胜后，此番回到主场有望延续对阵海港的向好势头。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.sohu.com/a/1040707723_122366395" target="_blank" rel="noopener" class="news-title">河南队间歇期完成球员清洗与阵容优化</a>
+                    <div class="news-meta">【搜狐网】</div>
+                    <p class="news-summary">河南队在夏窗期间完成阵容优化。边后卫徐浩峰租借加盟武汉三镇，新外援马拉尼昂加盟取代姆布拉位置，球队整体阵容结构更趋合理。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e69e2e89225001405c6bc" target="_blank" rel="noopener" class="news-title">航海体育场改造升级完成：为球迷提供更好观赛体验</a>
+                    <div class="news-meta">【河南足球俱乐部】</div>
+                    <p class="news-summary">河南队主场航海体育场在间歇期完成部分设施改造升级，为球迷提供更好的观赛体验。本场对阵海港是新升级后首场正式比赛。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">河南队U23政策执行到位：年轻球员获得充分出场时间</a>
+                    <div class="news-meta">【中超联赛官方】</div>
+                    <p class="news-summary">河南队本赛季严格执行U23政策，多名年轻球员获得充分出场时间。年轻球员的成长为球队下半程储备了更多可用之兵。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A01R1Z00" target="_blank" rel="noopener" class="news-title">河南球迷热情高涨：赛前航海体育场周边氛围浓厚</a>
+                    <div class="news-meta">【本地媒体综合】</div>
+                    <p class="news-summary">对阵上海海港赛前，航海体育场周边球迷氛围浓厚。大量河南球迷提前到场加油助威，展现中原球迷对球队的深厚支持。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e69e2e89225001405c6bc" target="_blank" rel="noopener" class="news-title">河南队下半程赛程相对有利：多场对阵中下游球队</a>
+                    <div class="news-meta">【中超联赛官方】</div>
+                    <p class="news-summary">分析河南队下半程赛程，多场对阵积分榜中下游球队，赛程相对有利。这为球队冲击上半区目标提供了良好客观条件。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A01R1Z00" target="_blank" rel="noopener" class="news-title">河南队与武汉三镇热身赛展现良好状态</a>
+                    <div class="news-meta">【正观新闻】</div>
+                    <p class="news-summary">河南队间歇期前往武汉与武汉三镇进行热身赛取得2-0胜利，展现出间歇期集训的良好效果，为下半程首战上海海港建立了信心。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.sohu.com/a/1041362977_121119507" target="_blank" rel="noopener" class="news-title">马拉尼昂训练表现获教练组认可：期待尽快完成注册</a>
+                    <div class="news-meta">【搜狐网】</div>
+                    <p class="news-summary">新援马拉尼昂训练中的速度和突破能力获教练组认可。河南队期待其尽快完成注册手续，正式代表球队出战中超联赛。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260627A01R1Z00" target="_blank" rel="noopener" class="news-title">河南队球迷组织发起"第十二人"助威行动</a>
+                    <div class="news-meta">【球迷组织官方】</div>
+                    <p class="news-summary">河南队球迷组织在赛前发起大型"第十二人"助威行动，号召全体球迷到场为球队加油。航海体育场即将迎来满座盛况。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">河南队青训小将在足协杯中表现亮眼</a>
+                    <div class="news-meta">【中国足协官网】</div>
+                    <p class="news-summary">在足协杯第四轮比赛中，河南队多名青训小将获得出场机会并表现亮眼。球队青训成果逐渐在一线队层面得到展现。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.vipc.cn/article/6a3e788296b84400142361ab" target="_blank" rel="noopener" class="news-title">河南队下半程防守策略或有调整：针对海港锋线做针对性部署</a>
+                    <div class="news-meta">【唯彩看球】</div>
+                    <p class="news-summary">据赛前分析河南队下半程可能在防守策略上有所调整，针对上海海港锋线特点做针对性部署。拉莫斯教练组对对手进行了深入研究。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="csl" class="section">
+            <div class="section-header">
+                <h2 class="section-title">中超动态</h2>
+                <span class="section-count">30 条</span>
+            </div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <a href="https://www.toutiao.com/article/7655684447102108175" target="_blank" rel="noopener" class="news-title">成都蓉城半程积37分领先第二名13分：下半程首战深圳新鹏城</a>
+                    <div class="news-meta">【锦观新闻/今日头条】</div>
+                    <p class="news-summary">成都蓉城15战12胜1平2负积37分排名中超首位，领先第二名重庆铜梁龙13分。6月27日晚作客深圳新鹏城，球队走出伤病潮全力冲冠。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.dongqiudi.com/articles/5967349.html" target="_blank" rel="noopener" class="news-title">辽宁铁人冲击四连胜：主场迎战山东泰山</a>
+                    <div class="news-meta">【懂球帝】</div>
+                    <p class="news-summary">在韩国名帅徐正源率领下辽宁铁人此前取得三连胜，6月27日坐镇铁西体育场迎战山东泰山冲击四连胜。间歇期前往韩国拉练备战。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260626A08JOW00" target="_blank" rel="noopener" class="news-title">北京国安阵容齐整开启联赛下半程：主场对阵武汉三镇</a>
+                    <div class="news-meta">【北京日报/腾讯新闻】</div>
+                    <p class="news-summary">6月27日晚北京国安主场迎战武汉三镇。主帅蒙哥马利表示球队首次有如此齐整阵容，杨立瑜、恩科洛洛等老伤号恢复，韩佳奇、吴少聪也在积极恢复。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.toutiao.com/article/7655684447102108175" target="_blank" rel="noopener" class="news-title">深圳新鹏城官宣主教练陈涛下课：罗比·尼尔森接手</a>
+                    <div class="news-meta">【锦观新闻/今日头条】</div>
+                    <p class="news-summary">深圳新鹏城在第15轮3-2战胜青岛海牛拿到两连胜后俱乐部官宣主教练陈涛下课，苏格兰教练罗比·尼尔森接手球队。夏窗还租借巴甲后卫加布里埃尔·哈维尔。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.dongqiudi.com/articles/5967349.html" target="_blank" rel="noopener" class="news-title">辽宁铁人夏季转会窗口不换外援：继续给瓦吉奇机会</a>
+                    <div class="news-meta">【懂球帝】</div>
+                    <p class="news-summary">据《沈阳日报》报道辽宁铁人在这个转会窗口不会更换外援，俱乐部倾向于继续给瑞典铁卫瓦吉奇机会证明自己的实力。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://news.zhibo8.com/zuqiu/2026-06-22/6a391ed4ea9c6native.htm" target="_blank" rel="noopener" class="news-title">重庆铜梁龙三名球员租借离队：张海轩王皓文马钰钧</a>
+                    <div class="news-meta">【直播吧】</div>
+                    <p class="news-summary">重庆铜梁龙官方宣布张海轩、王皓文租借中乙山西崇德荣海，马钰钧租借中甲大连鲲城。球队积极为球员寻找更多比赛机会。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.toutiao.com/article/7654071018927047177" target="_blank" rel="noopener" class="news-title">国安前锋林良铭续约谈判陷僵局：夏窗去向引发关注</a>
+                    <div class="news-meta">【今日头条】</div>
+                    <p class="news-summary">29岁国脚林良铭与国安的合同将于2026年12月31日到期，续约谈判陷入僵局。这位现役国脚的夏窗去向成为转会市场最受关注的话题。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.sohu.com/a/1040707723_122366395" target="_blank" rel="noopener" class="news-title">中超夏窗持续一月：7月22日关闭</a>
+                    <div class="news-meta">【搜狐网】</div>
+                    <p class="news-summary">2026年中超夏季转会窗已于6月18日正式开启，将持续到7月22日关闭。各俱乐部积极进行阵容补强，多名外援和国内球员动向受到关注。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">足协杯第四轮结束：2支中乙球队杀入16强</a>
+                    <div class="news-meta">【中国足协官网】</div>
+                    <p class="news-summary">6月19至21日2026中国足协杯第四轮比赛全面展开。16支中超球队全部出战，最终13支中超球队、1支中甲球队和2支中乙球队晋级16强。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.dongqiudi.com/articles/5967349.html" target="_blank" rel="noopener" class="news-title">山东泰山足协杯客场五球大胜：强队底蕴尽显</a>
+                    <div class="news-meta">【懂球帝】</div>
+                    <p class="news-summary">山东泰山足协杯客场面对中甲排名靠前的广西恒宸取得五球大胜，强队底蕴尽显无遗。这也给本轮对手辽宁铁人带来巨大挑战。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260626A08JOW00" target="_blank" rel="noopener" class="news-title">工人体育场更换暖季草：为国安提供更好比赛条件</a>
+                    <div class="news-meta">【北京日报/腾讯新闻】</div>
+                    <p class="news-summary">工人体育场利用休赛期更换了更适合高温高湿环境的暖季草，为北京国安队提供更好的比赛条件。本场是下半程首战工体有望座无虚席。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">中超上半程回顾：成都蓉城强势领跑，多队陷入保级苦战</a>
+                    <div class="news-meta">【中超官方数据】</div>
+                    <p class="news-summary">2026中超上半程成都蓉城37分领跑积分榜优势明显，上海海港因受罚跌入保级圈。下半程各队竞争将更加激烈。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.dongqiudi.com/articles/5967349.html" target="_blank" rel="noopener" class="news-title">辽宁铁人从6连败到3连胜：徐正源执教转变显著</a>
+                    <div class="news-meta">【懂球帝】</div>
+                    <p class="news-summary">辽宁铁人本赛季从4月中旬陷入8场不胜6连败的低谷到徐正源上任后取得三连胜，精神面貌大有改观。球队下半程表现备受球迷期待。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.toutiao.com/article/7655684447102108175" target="_blank" rel="noopener" class="news-title">成都蓉城外援费利佩完全康复：罗慕洛恢复顺利</a>
+                    <div class="news-meta">【锦观新闻/今日头条】</div>
+                    <p class="news-summary">成都蓉城已走出伤病潮，费利佩完全康复，罗慕洛恢复顺利，李杨等伤停球员也正在好转中。球队还新增帅惟浩等年轻球员，阵容深度增强。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.toutiao.com/article/7655684447102108175" target="_blank" rel="noopener" class="news-title">中超成都蓉城对阵深圳新鹏城历史交锋4胜1平不败</a>
+                    <div class="news-meta">【锦观新闻/今日头条】</div>
+                    <p class="news-summary">深圳新鹏城升入中超以来两队主客场5次交手，成都蓉城4胜1平保持不败。但深圳换帅后战术或有变化，本轮比赛悬念犹存。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">中国足协杯第二轮6支草根球队杀出中乙包围圈</a>
+                    <div class="news-meta">【中国足协官网】</div>
+                    <p class="news-summary">2026中国足协杯第二轮战罢，6支草根球队成功杀出中乙球队包围圈，展现出中国全民足球发展的蓬勃活力。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">国际足联五人制足球执教手册中文版发布</a>
+                    <div class="news-meta">【中国足协官网】</div>
+                    <p class="news-summary">中国足协发布国际足联五人制足球执教手册中文版，旨在提升国内五人制足球教练员执教水平，推动中国五人制足球发展。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">2026亚足联U17亚洲杯：中国U17男足2-0卡塔尔</a>
+                    <div class="news-meta">【中国足协官网】</div>
+                    <p class="news-summary">2026亚足联U17亚洲杯中国U-17男足2-0战胜卡塔尔U-17男足，年轻球员的出色表现展现了中国足球青训的最新成果。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">中国青少年足球联赛赛事工作会议举行</a>
+                    <div class="news-meta">【中国足协官网】</div>
+                    <p class="news-summary">中国青少年足球联赛赛事工作会议召开，总结上半赛季情况并部署下半年工作。青少年足球赛事体系不断完善。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.toutiao.com/article/7655684447102108175" target="_blank" rel="noopener" class="news-title">中超半程冠军超80%概率夺冠：成都蓉城夺冠前景看好</a>
+                    <div class="news-meta">【锦观新闻/今日头条】</div>
+                    <p class="news-summary">按照中超联赛历史惯例，半程冠军超80%概率夺得最终冠军。成都蓉城以13分优势领跑，被广泛看好夺得本赛季中超冠军。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">足球拥军·助力强军：中国足协社会责任活动舟山启幕</a>
+                    <div class="news-meta">【中国足协官网】</div>
+                    <p class="news-summary">2025亚足联-中国足协"梦想中国"社会责任活动在舟山启幕，以"足球拥军·助力强军"为主题，推动足球运动在基层部队的发展。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">2026全国五人制足球锦标赛圆满落幕</a>
+                    <div class="news-meta">【中国足协官网】</div>
+                    <p class="news-summary">2026全国五人制足球锦标赛圆满落幕，粤韵风华见证冠军诞生。全国高水平五人制足球赛事持续提升竞技水平。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">2026中国足协杯80支球队签位揭晓：草根球队闪耀舞台</a>
+                    <div class="news-meta">【中国足协官网】</div>
+                    <p class="news-summary">2026中国足协杯80支球队签位揭晓，草根球队闪耀全民足球大舞台。赛事规模持续扩大，覆盖中超、中甲、中乙和中冠等多级别球队。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">中超第16轮多场焦点战6月27日同时开打</a>
+                    <div class="news-meta">【中超联赛官方】</div>
+                    <p class="news-summary">6月27日中超第16轮第二循环首轮多场焦点战同时开打，包括河南vs海港、国安vs武汉、辽宁vs泰山、深圳vs成都等多场积分关键战。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.dongqiudi.com/articles/5967349.html" target="_blank" rel="noopener" class="news-title">辽宁铁人全华班足协杯0-1负乙级队暴露国内球员短板</a>
+                    <div class="news-meta">【懂球帝】</div>
+                    <p class="news-summary">辽宁铁人在间歇期足协杯比赛中以全华班阵容客场挑战乙级队大连可为0-1告负，暴露出国内球员个人能力不足的短板。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">U21联赛持续推进：为中超各队储备年轻人才</a>
+                    <div class="news-meta">【中国足协官网】</div>
+                    <p class="news-summary">中超U21联赛持续推进，为各俱乐部一线队储备年轻人才。多支中超球队的U21球员在联赛中展现出不俗的竞技水平。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.thecfa.cn" target="_blank" rel="noopener" class="news-title">中超联赛第16轮裁判选派公布：多场焦点战</a>
+                    <div class="news-meta">【中超联赛官方】</div>
+                    <p class="news-summary">中超联赛官方公布第16轮裁判选派名单，多场积分关键战的裁判安排受到关注。各场比赛裁判组均具备丰富执法经验。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.dongqiudi.com/articles/5967349.html" target="_blank" rel="noopener" class="news-title">中超各队积极引援：夏窗多位新援即将登场</a>
+                    <div class="news-meta">【综合体育媒体】</div>
+                    <p class="news-summary">中超夏窗开启后各队积极引援补强阵容。多位新加盟外援和国内球员有望在下半程比赛中亮相，为联赛注入新活力。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.dongqiudi.com/articles/5967349.html" target="_blank" rel="noopener" class="news-title">中超联赛间歇期总结：各队充分利用时间强化备战</a>
+                    <div class="news-meta">【综合体育媒体】</div>
+                    <p class="news-summary">中超联赛间歇期各队充分利用四周时间强化备战：有的赴海外拉练，有的进行封闭集训，为下半程赛事做充足准备。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://www.toutiao.com/article/7655684447102108175" target="_blank" rel="noopener" class="news-title">中超下半程竞争格局分析：三强争冠、多队保级</a>
+                    <div class="news-meta">【综合体育媒体】</div>
+                    <p class="news-summary">分析中超下半程竞争格局，成都蓉城、重庆铜梁龙、山东泰山形成三强争冠格局。积分榜中下游多队保级形势严峻。</p>
+                </div>
+            </div>
+        </section>
+
+        
+
+<section id="stocks" class="section">
+            <div class="section-header">
+                <h2 class="section-title">全球股市数据</h2>
+                <span class="section-count">2026年6月27日</span>
+            </div>
+            <div class="stocks-grid">
+                <div class="stock-group">
+                    <h3 class="stock-group-title">A股市场</h3>
+                    <div class="stock-item down">
+                        <span class="stock-name">上证指数</span>
+                        <span class="stock-value">4,027.26</span>
+                        <span class="stock-change">-2.26%</span>
+                    </div>
+                    <div class="stock-item down">
+                        <span class="stock-name">深证成指</span>
+                        <span class="stock-value">15,782.22</span>
+                        <span class="stock-change">-3.44%</span>
+                    </div>
+                    <div class="stock-item down">
+                        <span class="stock-name">创业板指</span>
+                        <span class="stock-value">4,194.21</span>
+                        <span class="stock-change">-4.07%</span>
+                    </div>
+                </div>
+                <div class="stock-group">
+                    <h3 class="stock-group-title">美股市场 (6/26收盘)</h3>
+                    <div class="stock-item down">
+                        <span class="stock-name">道琼斯</span>
+                        <span class="stock-value">51,876.11</span>
+                        <span class="stock-change">-0.09%</span>
+                    </div>
+                    <div class="stock-item down">
+                        <span class="stock-name">纳斯达克</span>
+                        <span class="stock-value">25,297.62</span>
+                        <span class="stock-change">-0.24%</span>
+                    </div>
+                    <div class="stock-item down">
+                        <span class="stock-name">标普500</span>
+                        <span class="stock-value">7,354.02</span>
+                        <span class="stock-change">-0.05%</span>
+                    </div>
+                </div>
+                <div class="stock-group">
+                    <h3 class="stock-group-title">港股市场</h3>
+                    <div class="stock-item down">
+                        <span class="stock-name">恒生指数</span>
+                        <span class="stock-value">22,671.86</span>
+                        <span class="stock-change">-1.76%</span>
+                    </div>
+                    <div class="stock-item down">
+                        <span class="stock-name">恒生科技</span>
+                        <span class="stock-value">4,255.59</span>
+                        <span class="stock-change">-3.41%</span>
+                    </div>
+                    <div class="stock-item down">
+                        <span class="stock-name">国企指数</span>
+                        <span class="stock-value">7,460.84</span>
+                        <span class="stock-change">-1.94%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+<section id="ai-stocks" class="section ai-stocks-section">
+            <div class="section-header">
+                <h2 class="section-title">AI 牛股推荐</h2>
+                <span class="section-count">AI 量化精选</span>
+            </div>
+            <div class="ai-stocks-content">
+                <p class="ai-stocks-intro">以下为AI量化模型基于多因子分析从A股、港股、美股市场中筛选的潜力标的，仅供参考，不构成投资建议。市场有风险，投资需谨慎。</p>
+                <div class="ai-stocks-grid">
+                    <div class="ai-stock-card">
+                        <div class="ai-stock-header">
+                            <span class="ai-stock-symbol">NVDA</span>
+                            <span class="ai-stock-market">纳斯达克</span>
+                        </div>
+                        <div class="ai-stock-name">英伟达 (NVIDIA)</div>
+                        <div class="ai-stock-reason">AI算力核心供应商，Blackwell GPU全球部署加速，数据中心收入同比增长68%。黄仁勋提出"Token经济"新叙事，AI推理时代算力需求持续扩大。</div>
+                    </div>
+                    <div class="ai-stock-card">
+                        <div class="ai-stock-header">
+                            <span class="ai-stock-symbol">MSFT</span>
+                            <span class="ai-stock-market">纳斯达克</span>
+                        </div>
+                        <div class="ai-stock-name">微软 (Microsoft)</div>
+                        <div class="ai-stock-reason">全球AI基础设施投入最大的科技公司之一，宣布800亿美元AI数据中心建设计划。Azure AI服务收入持续高增长，与OpenAI深度绑定。</div>
+                    </div>
+                    <div class="ai-stock-card">
+                        <div class="ai-stock-header">
+                            <span class="ai-stock-symbol">300308.SZ</span>
+                            <span class="ai-stock-market">创业板</span>
+                        </div>
+                        <div class="ai-stock-name">中际旭创</div>
+                        <div class="ai-stock-reason">光模块龙头，CPO技术进展有望重塑估值体系。直接受益于全球AI数据中心建设浪潮，800G/1.6T光模块需求持续旺盛。</div>
+                    </div>
+                    <div class="ai-stock-card">
+                        <div class="ai-stock-header">
+                            <span class="ai-stock-symbol">688981.SH</span>
+                            <span class="ai-stock-market">科创板</span>
+                        </div>
+                        <div class="ai-stock-name">中芯国际</div>
+                        <div class="ai-stock-reason">国产芯片代工龙头，受益于AI芯片国产替代趋势。先进制程产能持续扩建，华为等AI芯片设计公司订单饱满。</div>
+                    </div>
+                    <div class="ai-stock-card">
+                        <div class="ai-stock-header">
+                            <span class="ai-stock-symbol">GOOGL</span>
+                            <span class="ai-stock-market">纳斯达克</span>
+                        </div>
+                        <div class="ai-stock-name">谷歌 (Alphabet)</div>
+                        <div class="ai-stock-reason">Gemini 3.0大模型多项基准超越人类，AI搜索和广告变现能力持续增强。自研TPU芯片降低推理成本，AI云服务增长强劲。</div>
+                    </div>
+                    <div class="ai-stock-card">
+                        <div class="ai-stock-header">
+                            <span class="ai-stock-symbol">002415.SZ</span>
+                            <span class="ai-stock-market">深证</span>
+                        </div>
+                        <div class="ai-stock-name">海康威视</div>
+                        <div class="ai-stock-reason">AI视觉龙头，观澜大模型赋能千行百业数字化转型。AI+安防场景应用持续深化，工业AI质检、智慧交通等新业务高速增长。</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+<section id="ai-tech" class="section">
+            <div class="section-header">
+                <h2 class="section-title">AI科技</h2>
+                <span class="section-count">50 条</span>
+            </div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <a href="https://finance.sina.com.cn/tech/digi/2026-06-27/doc-inieuyie1643698.shtml" target="_blank" rel="noopener" class="news-title">市场监管总局：《人工智能智能体互联》7项国标正式发布</a>
+                    <div class="news-meta">【IT之家/央视新闻】</div>
+                    <p class="news-summary">市场监管总局发布《人工智能智能体互联》系列国家标准共7部分，围绕智能体互联互通全流程搭建统一规范体系，解决通信接口不统一、身份管理缺失等突出问题。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://finance.sina.com.cn/tech/digi/2026-06-27/doc-inieuyie1643698.shtml" target="_blank" rel="noopener" class="news-title">市场监管总局：加快智能体、具身智能等前沿技术标准制定</a>
+                    <div class="news-meta">【IT之家/新浪财经】</div>
+                    <p class="news-summary">市场监管总局正会同相关部门加快智能体、具身智能、世界模型、本体模型等前沿技术标准制定速度，推行敏捷标准化工作模式，压缩标准研制周期。</p>
+                </div>
+                <div class="news-card">
+                    <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651041346&idx=3&sn=e45567a5fc918b46512741129bba9b93" target="_blank" rel="noopener" class="news-title">北大提出AI实时视频通信框架Artic：从人眼看视频到AI理解视频</a>
+                    <div class="news-meta">【机器之心】</div>
+                    <p class="news-summary">北京大学团队在SIGCOMM 2026发表研究成果，提出面向AI的实时视频通信框架Artic，实现从"人眼看视频"到"AI理解视频"的范式转变。</p>
+                </div>
+                <div class="news-card">
+                    <a href="http://mp.weixin.qq.com/s?__biz=MjM5ODM0MjY5OQ==&mid=2650852598&idx=1&sn=c44157865f738e5de19404fbee36cd52" target="_blank" rel="noopener" class="news-title">腾讯云发布音视频AI原生能力底座WAND，Seedance 2.5发布</a>
+                    <div class="news-meta">【广电猎酷】</div>
+                    <p class="news-summary">腾讯云正式发布音视频AI原生能力底座WAND，同期Seedance 2.5发布，Seedance 2.0升级原生4K能力。芒果TV全新AIGC频道同步上线。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01RUC00" target="_blank" rel="noopener" class="news-title">阿里巴巴发布Page Agent AI内容工具：网页变AI助手</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">阿里巴巴发布Page Agent，可将网页变成能听懂自然语言的AI助手，同期还推出另一款AI内容工具，持续加大AI应用领域布局。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260626A084KV00" target="_blank" rel="noopener" class="news-title">OpenAI发布GPT-5.6系列模型：150万Token上下文，API价格仅Fable 5的1/3</a>
+                    <div class="news-meta">【腾讯新闻/掘金】</div>
+                    <p class="news-summary">OpenAI正式发布GPT-5.6系列涵盖mini/标准/Pro三个版本，主打150万Token超长上下文窗口，API价格压至Claude Fable 5三分之一，开启新一代价格战。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260626A084KV00" target="_blank" rel="noopener" class="news-title">苹果Xcode 26.6正式发布：新增Google Gemini编程助手支持</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">苹果正式推送Xcode 26.6更新，新增对Google Gemini的编程助手支持，同时集成Swift 6.3.3语言版本并更新全平台SDK，提升开发环境稳定性与运行效率。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260626A084KV00" target="_blank" rel="noopener" class="news-title">DeepSeek全线部门扩容翻倍：打响大模型顶尖人才争夺战</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">DeepSeek宣布全线部门大规模招聘扩容翻倍，打响大模型顶尖人才争夺战。公司持续加大在AGI研究、大模型训练和产品化方向的投入。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260626A084KV00" target="_blank" rel="noopener" class="news-title">Claude付费用户暴增75%：正面撕开ChatGPT消费级市场</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">Anthropic旗下Claude付费用户暴增75%，正面撕开ChatGPT消费级市场。企业采用率34.4%首次超过OpenAI的32.3%，Anthropic首次从追赶者变为领先者。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260626A084KV00" target="_blank" rel="noopener" class="news-title">Mistral AI发布OCR4模型：支持170种语言，输出质量超越GPT与Gemini</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">法国AI公司Mistral AI发布OCR4光学字符识别模型，支持170种语言输出，多项评测指标超越GPT与Gemini系列模型。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260626A084KV00" target="_blank" rel="noopener" class="news-title">Adobe收购视频与图像AI模型开发商Topaz Labs，深化Firefly生态</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">Adobe宣布收购视频与图像AI模型开发商Topaz Labs，进一步深化Firefly创意AI生态布局，增强在AI视频和图像处理领域的竞争力。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260626A084KV00" target="_blank" rel="noopener" class="news-title">美团"小店有AI"行动落地北京：百万中小餐饮商家迎数字化</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">美团"小店有AI"行动落地北京，百万中小餐饮商家迎来数字化经营新助力。AI工具帮助商家提升经营效率、降低运营成本。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696438" target="_blank" rel="noopener" class="news-title">Anthropic双旗舰亮相：Fable 5创意写作+Mythos 5网络安全</a>
+                    <div class="news-meta">【CSDN/腾讯云】</div>
+                    <p class="news-summary">Anthropic同日发布Claude Fable 5（创意写作线）与Claude Mythos 5（网络安全旗舰），标志着前沿实验室首次按用例原型细分模型家族。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://blog.csdn.net/aibridge/article/details/162211198" target="_blank" rel="noopener" class="news-title">小米MiMo Code开源：国产AI编程工具正式对标Claude Code</a>
+                    <div class="news-meta">【CSDN】</div>
+                    <p class="news-summary">小米MiMo技术团队正式开源终端原生AI编程助手MiMo Code V0.1.0（MIT协议），基于OpenCode二次开发，内置MiMo-V2.5多模态模型。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">阿里发布首个具身大模型Qwen-Robot系列</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">阿里巴巴发布首个具身大模型Qwen-Robot系列，涵盖多型号适配不同场景的机器人。此举标志阿里在具身智能领域正式入局。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">ChatGPT市场份额首破50%：Gemini 27.7%、Claude 10.3%追赶</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">ChatGPT市场份额首次跌破50%至约48%，Gemini升至27.7%、Claude升至10.3%。AI助手市场竞争格局发生显著变化。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">SpaceX以600亿美元收购AI编程工具Cursor：创AI工具并购纪录</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">SpaceX宣布以600亿美元股票收购AI编程工具Cursor，创下AI工具领域并购纪录。此举引发AI编程工具市场格局重大变化。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://juejin.cn/post/7654069744535011354" target="_blank" rel="noopener" class="news-title">OpenAI推出Patch the Planet开源安全计划：对标Anthropic Glasswing</a>
+                    <div class="news-meta">【掘金】</div>
+                    <p class="news-summary">OpenAI祭出Patch the Planet开源安全计划直接对标Anthropic Glasswing，推动AI安全领域开源协作。AI战场从模型主战场外溢到安全生态。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://juejin.cn/post/7654069744535011354" target="_blank" rel="noopener" class="news-title">SpaceX拿下63亿美元开源AI算力大单：Reflection AI独苗</a>
+                    <div class="news-meta">【掘金】</div>
+                    <p class="news-summary">SpaceX与Reflection AI签下63亿美元合同，月付1.5亿买断Colossus 2 GB300算力。这标志着AI算力军备竞赛进入新阶段。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://juejin.cn/post/7654069744535011354" target="_blank" rel="noopener" class="news-title">OpenCode开源编程Agent登顶AI开发工具榜首</a>
+                    <div class="news-meta">【掘金】</div>
+                    <p class="news-summary">LogRocket榜单OpenCode开源编程Agent登顶AI开发工具榜首，编程工具进入"开放生态"新阶段。开源社区在AI编程领域影响力持续增强。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A02VYT00" target="_blank" rel="noopener" class="news-title">英特尔持股AI推理芯片SambaNova拟融资超10亿美元</a>
+                    <div class="news-meta">【ZPotentials/腾讯新闻】</div>
+                    <p class="news-summary">成立九年的芯片初创公司SambaNova计划筹资8亿至10亿美元，估值约为100亿美元，约是四个月前上轮融资的五倍。英特尔执行主席谭立夫兼任其执行主席。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A08WX700" target="_blank" rel="noopener" class="news-title">General Intuition融资3.2亿美元：用游戏数据训练现实世界AI</a>
+                    <div class="news-meta">【至顶科技】</div>
+                    <p class="news-summary">General Intuition以23亿美元估值完成3.2亿美元融资，采用游戏数据训练AI智能体，验证了用虚拟环境训练物理世界智能体的技术路线。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://view.inews.qq.com/a/20260626A058W800" target="_blank" rel="noopener" class="news-title">深度机智再获数亿元融资：打通物理AI全链路</a>
+                    <div class="news-meta">【财经网科技】</div>
+                    <p class="news-summary">深度机智宣布完成新一轮数亿元融资，两个月完成两轮数亿元融资。累计订单金额达数千万元，是物理AI赛道中最快实现全产品线落地的企业之一。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01TJM00" target="_blank" rel="noopener" class="news-title">Patronus AI完成5000万美元B轮融资：打造智能体压力测试平台</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">Patronus AI宣布完成由Greenfield Partners领投的5000万美元B轮融资，打造AI智能体压力测试"数字世界"，推动AI安全评估体系建立。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260626A084KV00" target="_blank" rel="noopener" class="news-title">Notion宣布将于9月22日关闭AI邮箱服务Notion Mail</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">Notion宣布将于9月22日关闭AI邮箱服务Notion Mail，公司将聚焦核心协作产品线。AI邮箱赛道竞争激烈但商业化前景尚不明朗。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">2026陆家嘴论坛开幕：AI支付密集落地引关注</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">2026陆家嘴论坛开幕，AI支付密集落地。支付宝"阿宝"、银联、京东、微信支付集体入局AI支付赛道，AI赋能金融服务成为热门话题。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">Playwright 1.61发布WebAuthn passkeys支持</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">软件测试领域Playwright 1.61发布WebAuthn passkeys支持，Selenium 4.45五语言同步发布。测试框架认证和存储能力全面升级。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://juejin.cn/post/7654069744535011354" target="_blank" rel="noopener" class="news-title">GPT-5.6在agentic coding基准上击败Anthropic最先进模型</a>
+                    <div class="news-meta">【掘金】</div>
+                    <p class="news-summary">业内测评显示GPT-5.6在agentic coding基准上已击败Anthropic最先进模型。配合Codex Record & Replay录制回放机制，编程Agent能力从补全进化为数字代理人。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696438" target="_blank" rel="noopener" class="news-title">特斯拉Cybercab参数曝光：自动驾驶出租车新进展</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">特斯拉Cybercab自动驾驶出租车核心参数曝光，理想VLA大模型同步亮剑。自动驾驶赛道迎来新一轮技术竞速。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">高通发布Snapdragon Reality Elite XR芯片：XR硬件升温</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">高通发布Snapdragon Reality Elite XR芯片，XR硬件赛道持续升温。谷歌Android 17和Wear OS 7同步发布，移动OS迭代与XR硬件并行。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://juejin.cn/post/7654069744535011354" target="_blank" rel="noopener" class="news-title">Anthropic Fable 5信用额度窗口开放：定价翻倍至$50/月</a>
+                    <div class="news-meta">【掘金】</div>
+                    <p class="news-summary">Anthropic Fable 5信用额度窗口正式开放，定价翻倍。企业市场定价策略引发行业关注，大模型商业化的价格锚点不断上移。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://juejin.cn/post/7654069744535011354" target="_blank" rel="noopener" class="news-title">GPT-5.6 API价格仅为Fable 5的1/3：价格战正式开启</a>
+                    <div class="news-meta">【掘金】</div>
+                    <p class="news-summary">OpenAI GPT-5.6系列API价格定位仅为Anthropic Fable 5的三分之一，被业界视为新一轮大模型价格战正式开启。低价策略有望加速市场渗透。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://finance.sina.com.cn/tech/digi/2026-06-27/doc-inieuyie1643698.shtml" target="_blank" rel="noopener" class="news-title">世界模型与本体模型前沿赛道标准加速制定</a>
+                    <div class="news-meta">【IT之家/市场监管总局】</div>
+                    <p class="news-summary">针对世界模型、本体模型等前沿赛道，市场监管总局推行敏捷标准化工作模式，优先采用国家标准化指导性技术文件，快速凝聚行业共识提前划定技术合规边界。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://new.qq.com/rain/a/20260627A01RUC00" target="_blank" rel="noopener" class="news-title">苹果Vision Pro和AR眼镜部门主管转投OpenAI</a>
+                    <div class="news-meta">【腾讯新闻】</div>
+                    <p class="news-summary">苹果Vision Pro和智能眼镜部门主管转投OpenAI，AI巨头之间的人才争夺日趋激烈。此举可能影响苹果空间计算战略的推进节奏。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">谷歌Android 17正式版发布：集成AI新特性</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">谷歌Android 17正式版发布，深度集成多项AI新特性。AI从独立应用向操作系统底层渗透的趋势更加明显。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://blog.csdn.net/aibridge/article/details/162211198" target="_blank" rel="noopener" class="news-title">谷歌Gemini 3.2发布：重点升级长上下文检索能力</a>
+                    <div class="news-meta">【CSDN】</div>
+                    <p class="news-summary">Google同步推出Gemini 3.2作为3.x系列的中期多模态刷新版本，重点升级长上下文检索能力，在超长文档中精准定位相关信息的能力显著增强。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696438" target="_blank" rel="noopener" class="news-title">ChatGPT五级智能模式体系取代版本代号</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">OpenAI完成ChatGPT核心改版，五级智能模式（极速/均衡/高级/超高/专业）取代传统GPT版本代号，用户按任务难度而非模型名称选择。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">微软6月补丁日修复206个漏洞创纪录</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">微软6月补丁日修复创纪录206个漏洞，安全态势严峻。AI SDK供应链风险同步暴露，软件安全与AI安全并重成为新趋势。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">AI裁员潮加速：日均974人受影响</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">AI驱动的组织变革从裁员进入工具赋能新阶段，日均974人受影响。AI在提升效率的同时也在加速就业市场结构性调整。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">SSD零售市场几近消失：存储供应链紧张加剧</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">受AI算力基础设施需求激增驱动，SSD零售市场几近消失。存储芯片产能大规模转向数据中心和AI训练集群供应，消费级市场供应紧张。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">阿里云通义大模型推出AI编程助手QoderWork</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">阿里云通义大模型上线QoderWork AI编程助手"意识"功能，对标Cursor和Copilot。国产AI编程工具竞争日趋激烈。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">美团"觅游"Agent社区公测启动</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">美团"觅游"AI Agent社区公测启动，AI+本地生活服务融合加速。Agent技术在消费级场景的应用边界不断拓展。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">发改委推进"六张网"建设：含算力网</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">发改委推进"六张网"建设，其中算力网列为重点方向。AI算力基础设施被提升至国家战略高度，与交通、能源等传统基础设施并重。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696438" target="_blank" rel="noopener" class="news-title">华为智谱接连发布国产AI旗舰模型</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">华为与智谱接连发布国产AI旗舰模型，国产大模型技术实力持续提升。GPT-5.6的发布加速全球大模型技术迭代节奏。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696438" target="_blank" rel="noopener" class="news-title">Claude Agent SDK正式独立计费：Agent生态全面爆发</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">Claude Agent SDK正式独立计费，AI Agent商业生态从附庸走向独立。开源社区Agent生态同步全面爆发，多款Agent框架获得大量关注。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">pytest 9.1.0引入破坏性变更</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">Python测试框架pytest 9.1.0引入破坏性变更，开发者需关注迁移指南。测试工具在AI辅助开发时代持续演进。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696578" target="_blank" rel="noopener" class="news-title">Google Vertex AI SDK "Pickle in the Middle"漏洞被披露</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">Google Vertex AI SDK发现"Pickle in the Middle"安全漏洞，AI开发供应链安全问题日益突出。业界呼吁加强AI开发工具链的安全审查。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696438" target="_blank" rel="noopener" class="news-title">GPT-5.6 Token效率提升10-15%：相同任务消耗更少</a>
+                    <div class="news-meta">【CSDN/腾讯云】</div>
+                    <p class="news-summary">OpenAI GPT-5.6核心改进在于Token效率进一步提升10-15%，相同任务消耗Token更少成本更低。这进一步拉低了AI应用开发的门槛。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://finance.sina.com.cn/tech/digi/2026-06-27/doc-inieuyie1643698.shtml" target="_blank" rel="noopener" class="news-title">人工智能企业智能化成熟度评估标准将出台</a>
+                    <div class="news-meta">【IT之家/市场监管总局】</div>
+                    <p class="news-summary">市场监管总局推动人工智能企业智能化成熟度评估、高价值应用场景评价等重点标准出台发布，从被动适配产业向主动引领创新转变。</p>
+                </div>
+                <div class="news-card">
+                    <a href="https://cloud.tencent.com/developer/article/2696438" target="_blank" rel="noopener" class="news-title">2026年上半年AI领域最密集一周回顾</a>
+                    <div class="news-meta">【腾讯云】</div>
+                    <p class="news-summary">回顾2026年6月第二周：Anthropic双线出击、OpenAI GPT-5.6落地、华为智谱国产旗舰发布。AI领域迎来上半年最密集的技术和产品发布期。</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<footer class="footer">
+        <p>臻宝每日快讯 &middot; AI 智能聚合 &middot; 数据来源：新华社、人民日报、央视新闻、外交部、国防部、新浪、腾讯、搜狐、网易、懂球帝、直播吧、证券时报、21世纪经济报道、36氪、AITOP100、OpenRouter、路透社、CNBC</p>
+        <p>本次更新时间：2026年6月27日 22:00 &middot; 所有新闻链接均跳转至原始来源</p>
+        <p style="margin-top:8px;color:var(--accent);font-weight:500;">Mac 专属 &middot; Apple 风格设计 &middot; 自动浅/深色切换</p>
+    </footer>
+
+<script>
+(function() {
+    const tabs = {
+        'domestic': '国内新闻',
+        'international': '国际新闻',
+        'entertainment': '娱乐新闻',
+        'henan': '河南足球',
+        'csl': '中超动态',
+        'stocks': '全球股市',
+        'ai-stocks': 'AI牛股',
+        'ai-tech': 'AI科技'
+    };
+
+    function showTab(tabId) {
+        // 隐藏所有section
+        document.querySelectorAll('.section').forEach(function(s) {
+            s.classList.remove('active');
+        });
+        // 显示目标section
+        var target = document.getElementById(tabId);
+        if (target) {
+            target.classList.add('active');
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        // 更新导航按钮状态
+        document.querySelectorAll('.navbar-links button').forEach(function(btn) {
+            btn.classList.remove('active');
+        });
+        var activeBtn = document.querySelector('.navbar-links button[onclick*="' + tabId + '"]');
+        if (activeBtn) {
+            activeBtn.classList.add('active');
+        }
+        // 保存状态到URL hash
+        if (history.pushState) {
+            history.pushState(null, null, '#' + tabId);
+        }
+    }
+
+    // 暴露到全局
+    window.showTab = showTab;
+
+    // 初始化：从URL hash读取或默认显示国内新闻
+    var hash = window.location.hash.replace('#', '');
+    var initialTab = tabs[hash] ? hash : 'domestic';
+    showTab(initialTab);
+
+    // 监听浏览器前进/后退
+    window.addEventListener('hashchange', function() {
+        var h = window.location.hash.replace('#', '');
+        if (tabs[h]) {
+            showTab(h);
+        }
+    });
+})();
+</script>
+
+</body>
+</html>
