@@ -2125,26 +2125,34 @@ const mockStockIndices = {
 
 
   const mockStockAI = [
-    { name:"英伟达(NVDA)", value:"162.85", change:"+3.82%", direction:"up", reason:"市值破4万亿全球第一，HBM AI芯片需求爆棚" },
-    { name:"美光科技(MU)", value:"135.20", change:"+13.20%", direction:"up", reason:"财报惊艳，AI存储需求爆发，盘后暴涨13%" },
-    { name:"特斯拉(TSLA)", value:"268.30", change:"+1.87%", direction:"up", reason:"Optimus开始在工厂执行物料搬运" },
-    { name:"苹果(AAPL)", value:"232.75", change:"+1.56%", direction:"up", reason:"WWDC发布全新Siri+AI整合" },
-    { name:"微软(MSFT)", value:"486.90", change:"+0.56%", direction:"up", reason:"Copilot企业版订阅破5000万" },
-    { name:"AMD(AMD)", value:"172.88", change:"+3.21%", direction:"up", reason:"MI400系列下半年量产，追赶英伟达" },
-    { name:"谷歌(GOOGL)", value:"195.63", change:"-0.32%", direction:"down", reason:"Gemini 3.1 Pro多模态领先，Brazos液冷亮相" },
-    { name:"台积电(TSM)", value:"189.45", change:"+1.08%", direction:"up", reason:"2nm制程量产在即，AI芯片代工需求旺盛" },
+    { name:"英伟达(NVDA)", value:"192.53", change:"-1.64%", direction:"down", reason:"芯片板块回调，H200仍供不应求，长期AI算力需求确定性强" },
+    { name:"美光科技(MU)", value:"1132.33", change:"-6.69%", direction:"down", reason:"财报超预期后获利回吐，AI存储需求强劲，HBM产能持续扩张" },
+    { name:"特斯拉(TSLA)", value:"379.71", change:"+1.22%", direction:"up", reason:"逆市上涨，Optimus机器人开始在工厂执行物料搬运任务" },
+    { name:"苹果(AAPL)", value:"283.78", change:"+3.14%", direction:"up", reason:"WWDC发布全新Siri+AI整合战略，市场看好AI驱动换机周期" },
+    { name:"微软(MSFT)", value:"372.97", change:"+5.71%", direction:"up", reason:"逆市大涨，Copilot企业版增长强劲，Azure AI云业务持续放量" },
+    { name:"AMD(AMD)", value:"521.58", change:"-2.06%", direction:"down", reason:"跟随芯片板块回调，MI400系列下半年量产预期不变" },
+    { name:"谷歌(GOOGL)", value:"337.39", change:"-1.84%", direction:"down", reason:"Gemini 3.1 Pro多模态领先，但核心人才流失引发市场担忧" },
+    { name:"台积电(TSM)", value:"432.35", change:"-0.61%", direction:"down", reason:"高位震荡，2nm制程量产在即，AI芯片代工需求旺盛，目标价看涨" },
+    { name:"中际旭创(300308)", value:"1253.89", change:"-5.25%", direction:"down", reason:"光模块龙头短期回调，1.6T产品出货放量，AI算力基建核心受益" },
+    { name:"北方华创(002371)", value:"813.37", change:"+1.93%", direction:"up", reason:"半导体设备龙头逆市抗跌，国产替代加速，订单能见度至2027年" },
+    { name:"科大讯飞(002230)", value:"39.12", change:"-6.14%", direction:"down", reason:"星火大模型持续迭代，AI+教育/医疗落地加速，短期跟随大盘调整" },
+    { name:"海康威视(002415)", value:"33.32", change:"-3.25%", direction:"down", reason:"AI安防龙头，大模型赋能视觉感知，智能物联场景持续拓展" },
+    { name:"紫光国微(002049)", value:"83.98", change:"-4.02%", direction:"down", reason:"特种IC+FPGA双轮驱动，AI推理芯片布局加速，深度受益国产替代" },
+    { name:"浪潮信息(000977)", value:"63.89", change:"-6.83%", direction:"down", reason:"AI服务器龙头，算力基建核心供应商，短期资金获利了结" },
+    { name:"宁德时代(300750)", value:"381.00", change:"-5.20%", direction:"down", reason:"半年结机构兑现+碳酸锂跌破15万，AI数据中心储能打开新增长极" },
+    { name:"景嘉微(300474)", value:"52.97", change:"-4.99%", direction:"down", reason:"国产GPU先锋，JM9系列适配AI推理，信创+算力双线驱动" },
   ];
 
   // 板块预测（基于今日盘面与最新数据）
   const mockSectorPrediction = [
-    { rank:1, name:"半导体", tag:"强势", tagClass:"bull", reason:"费城半导体指数再创新高，台积电2nm量产预期催化，国内先进封装产能持续扩张，AI芯片需求确定性最强" },
-    { rank:2, name:"AI算力", tag:"强势", tagClass:"bull", reason:"英伟达H200供不应求，国内算力租赁价格坚挺，光模块800G向1.6T升级周期开启，龙头厂商订单能见度至2027年" },
-    { rank:3, name:"新能源车", tag:"关注", tagClass:"watch", reason:"特斯拉Optimus量产催化智能化估值重塑，比亚迪海外出口连续3月创新高，智能驾驶渗透率加速提升带动产业链" },
-    { rank:4, name:"消费电子", tag:"关注", tagClass:"watch", reason:"苹果WWDC后换机周期预期升温，华为折叠屏份额破40%，AI手机/PC落地驱动上游零部件备货潮" },
-    { rank:5, name:"创新药", tag:"稳健", tagClass:"steady", reason:"美联储降息预期利好生物科技估值修复，国内多个ADC管线进入临床III期，创新药出海BD交易单笔金额屡破纪录" },
+    { rank:1, name:"半导体", tag:"强势", tagClass:"bull", reason:"费城半导体回调属短期获利了结，电子行业利润同比增103.9%验证基本面；台积电2nm量产催化，先进封装产能持续扩张，AI芯片需求确定性最强" },
+    { rank:2, name:"AI算力", tag:"强势", tagClass:"bull", reason:"光模块/服务器板块周五资金流出属高位兑现，800G→1.6T升级周期开启；工信部AI新基建政策加码，算力租赁价格坚挺，龙头订单能见度至2027年" },
+    { rank:3, name:"消费电子", tag:"关注", tagClass:"watch", reason:"苹果WWDC后AI手机换机周期预期升温，华为折叠屏份额破40%，AI PC落地驱动上游零部件备货潮，Q3旺季值得期待" },
+    { rank:4, name:"新能源车", tag:"关注", tagClass:"watch", reason:"碳酸锂跌破15万短期承压，半年结机构兑现；但比亚迪出口连续3月创新高，智能驾驶渗透率加速，特斯拉Optimus催化智能化估值重塑" },
+    { rank:5, name:"创新药", tag:"稳健", tagClass:"steady", reason:"美联储降息预期利好生物科技估值修复，国内多个ADC管线进入临床III期，创新药出海BD交易单笔金额屡破纪录，板块相对抗跌" },
     { rank:6, name:"低空经济", tag:"关注", tagClass:"watch", reason:"多地密集出台空域开放细则，eVTOL适航审定加速，产业链从概念进入订单落地阶段，飞行器+空管系统双线受益" },
     { rank:7, name:"有色/黄金", tag:"稳健", tagClass:"steady", reason:"全球央行购金需求持续，铜铝库存低位+供给约束下价格有支撑，海外制造业PMI回升驱动工业金属需求" },
-    { rank:8, name:"电力/储能", tag:"稳健", tagClass:"steady", reason:"夏季用电高峰叠加AI数据中心电力需求，储能项目开工量同比增40%，电力市场化改革释放价格弹性" },
+    { rank:8, name:"电力/储能", tag:"稳健", tagClass:"steady", reason:"夏季用电高峰+AI数据中心电力需求激增，储能项目开工量同比增40%，电力市场化改革释放价格弹性" },
   ];
 
 function renderSectorPrediction() {
