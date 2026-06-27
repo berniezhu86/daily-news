@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-06-27 12:51:40",
+  "generated_at": "2026-06-27 20:56:22",
   "users": {
     "1111": [
+      {
+        "title": "十二年轮回开启!CBA恢复升降级几成定局",
+        "source": "百度新闻",
+        "url": "http://news.cnhubei.com/content/2026-06/23/content_20048545.html",
+        "matchTag": "CBA"
+      },
       {
         "title": "CBA",
         "source": "百度新闻",
@@ -24,12 +30,6 @@
         "title": "CBA常规赛排名尘埃落定",
         "source": "百度新闻",
         "url": "https://www.sport.gov.cn/n20001280/n20067662/n20067613/c27615493/content.html",
-        "matchTag": "CBA"
-      },
-      {
-        "title": "CBA新赛季揭幕 飞虎将士再踏新征程",
-        "source": "百度新闻",
-        "url": "https://www.ts.cn/xwzx/tyxw/202310/t20231023_16831785.shtml",
         "matchTag": "CBA"
       },
       {
@@ -95,24 +95,6 @@
         "matchTag": "刘德华"
       },
       {
-        "title": "渝BA点燃城市激情 重庆大渡口绽放全民健身活力",
-        "source": "搜狗新闻",
-        "url": "https://difang.gmw.cn/cq/2026-06/24/content_38845465.htm",
-        "matchTag": "CBA"
-      },
-      {
-        "title": "媒体人:国王曾认真考察年轻国手王浩然 他一度进入次轮选秀名单",
-        "source": "搜狗新闻",
-        "url": "https://sports.sina.com.cn/basketball/nba/2026-06-25/doc-inierpqp7680860.shtml",
-        "matchTag": "CBA"
-      },
-      {
-        "title": "老熟人!媒体人:前CBA外援阿巴斯 将执教NBL球队上海玄鸟",
-        "source": "搜狗新闻",
-        "url": "https://sports.sina.com.cn/basketball/nba/2026-06-26/doc-inieszrv7314409.shtml",
-        "matchTag": "CBA"
-      },
-      {
         "title": "CBA最新动态:广东宏远换帅在即,北京首钢遭遇重罚",
         "source": "搜狗新闻",
         "url": "https://www.sohu.com/a/1042401792_121926715",
@@ -122,6 +104,24 @@
         "title": "CBA新动态!山东男篮砸钱引进国手后卫,朱俊龙签约顶薪上位",
         "source": "搜狗新闻",
         "url": "https://www.sohu.com/a/1042451735_122499149",
+        "matchTag": "CBA"
+      },
+      {
+        "title": "前CBA冠军教练李春江做世界杯比分分析,目前仍处于5年禁赛期",
+        "source": "搜狗新闻",
+        "url": "http://www.ppsport.com/article/news/2563763.html",
+        "matchTag": "CBA"
+      },
+      {
+        "title": "新浪CBA热点小时报丨2026年06月27日05时_今日实时CBA热点速递",
+        "source": "搜狗新闻",
+        "url": "https://k.sina.com.cn/article_7857201856_1d45362c001907ghd4.html",
+        "matchTag": "CBA"
+      },
+      {
+        "title": "CBA休赛期,广厦续约布朗后,再次瞄准NBA悍将,开启大外援计划!",
+        "source": "搜狗新闻",
+        "url": "https://new.qq.com/rain/a/20260621A06A9L00",
         "matchTag": "CBA"
       }
     ],
