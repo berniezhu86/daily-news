@@ -3638,7 +3638,7 @@ function addInterest() {
     var currentInterest = word;
     syncToGitHub((currentUser && currentUser.nickname) || '匿名用户', currentInterest, 'add', function(ok) {
       if (ok) {
-        showNotifyModal('兴趣词已保存', 'GitHub Actions 正在搜索相关新闻\n约1分钟后刷新页面即可看到结果');
+        showNotifyModal('每日简讯正在定制属于您的新闻', '请 1 分钟后刷新页面查看');
       } else {
         showNotifyModal('兴趣词已保存（本地）', '同步到服务器失败，请稍后重试');
       }
@@ -3667,7 +3667,7 @@ function addInterest() {
   input.value = '';
   syncToGitHub('匿名用户', val, 'add', function(ok) {
     if (ok) {
-      showNotifyModal('兴趣词已保存', 'GitHub Actions 正在搜索相关新闻\n约1分钟后刷新页面即可看到结果');
+      showNotifyModal('每日简讯正在定制属于您的新闻', '请 1 分钟后刷新页面查看');
     } else {
       showNotifyModal('兴趣词已保存（本地）', '同步到服务器失败，请稍后重试');
     }
@@ -4450,8 +4450,7 @@ console.log('每日简讯 2026-06-25 更新完成');
     <div class="modal-title" id="notifyTitle">提示</div>
     <div style="color:rgba(255,255,255,0.9);font-size:14px;text-align:center;margin-bottom:20px;line-height:1.5" id="notifyMsg"></div>
     <div class="modal-btns">
-      <button class="btn btn-outline" onclick="closeNotifyModal(false)">稍后</button>
-      <button class="btn btn-primary" onclick="closeNotifyModal(true)">通知 Marvis</button>
+      <button class="btn btn-primary" onclick="closeNotifyModal(false)">确定</button>
     </div>
   </div>
 </div>
