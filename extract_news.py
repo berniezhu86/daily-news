@@ -296,14 +296,14 @@ def main():
         print(f"  Henan: {len(sections.get('henan', []))} items")
         print(f"  CSL: {len(sections.get('csl', []))} items")
     
-    # Generate per-user exclusive news arrays (always run, even if source missing)
-    print("\n--- Exclusive News Generation ---")
-    exclusive_js = generate_exclusive_news(sections)
-    if exclusive_js:
-        exclusive_file = os.path.join(SCRIPT_DIR, "exclusive_news_arrays.js")
-        with open(exclusive_file, 'w', encoding='utf-8') as f:
-            f.write(exclusive_js)
-        print(f"Exclusive news saved to: {exclusive_file}")
+    # Generate per-user exclusive news pending list (raw search results for Marvis to review)
+    print("\n--- Exclusive News Search (raw candidates) ---")
+    pending = generate_pending_exclusive_news(sections)
+    if pending:
+        pending_file = os.path.join(SCRIPT_DIR, "pending_exclusive_news.json")
+        with open(pending_file, 'w', encoding='utf-8') as f:
+            json.dump(pending, f, ensure_ascii=False, indent=2)
+        print(f"Pending exclusive news saved to: {pending_file}")
 
 
 def search_interest_news(query, max_results=5):
@@ -333,6 +333,7 @@ def search_interest_news(query, max_results=5):
                 results.append({
                     'title': title,
                     'source': '百度新闻',
+                    'url': url,
                     'summary': ''
                 })
         
@@ -343,7 +344,7 @@ def search_interest_news(query, max_results=5):
             for url, title in matches2[:max_results]:
                 title = re.sub(r'<[^>]+>', '', title).strip()
                 if title and len(title) > 2:
-                    results.append({'title': title, 'source': '百度新闻', 'summary': ''})
+                    results.append({'title': title, 'source': '百度新闻', 'url': url, 'summary': ''})
     
     except Exception as e:
         print(f"  ⚠ Baidu search failed ({e}), falling back to Sogou...")
@@ -370,53 +371,56 @@ def search_sogou_news(query, max_results=5):
         html = resp.text
         
         # 搜狗新闻结果
-        pattern = r'<h3[^>]*>\s*<a[^>]*>(.*?)</a>\s*</h3>'
+        pattern = r'<h3[^>]*>\s*<a[^>]*href="([^"]*)"[^>]*>(.*?)</a>\s*</h3>'
         matches = re.findall(pattern, html)
-        for title in matches[:max_results]:
+        for url, title in matches[:max_results]:
             title = re.sub(r'<[^>]+>', '', title).strip()
             if title and len(title) > 2:
-                results.append({'title': title, 'source': '搜狗新闻', 'summary': ''})
+                results.append({'title': title, 'source': '搜狗新闻', 'url': url, 'summary': ''})
     except Exception as e:
         print(f"  ⚠ Sogou search also failed: {e}")
     
     return results
 
-def generate_exclusive_news(sections):
-    """Read exclusive_interests.json (multi-user format),
-    match news across all sections, and generate per-user JS arrays."""
+def generate_pending_exclusive_news(sections):
+    """Read exclusive_interests.json, search web for each interest,
+    and generate a pending JSON with raw candidates (including URLs).
+    This pending file will later be reviewed and enhanced by Marvis."""
     interests_file = os.path.join(SCRIPT_DIR, "exclusive_interests.json")
     try:
         with open(interests_file, 'r', encoding='utf-8') as f:
             user_interests = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(f"  WARNING: Cannot read exclusive_interests.json: {e}")
-        return ""
+        return None
     
-    # Collect all news items from all sections
+    # Collect local news for matching
     all_news = []
     for section_id, items in sections.items():
         for item in items:
             item['_section'] = section_id
             all_news.append(item)
     
-    if not all_news:
-        print("  No news items to match against")
-        return ""
+    pending = {
+        "generated_at": "",
+        "users": {}
+    }
     
-    # Build per-user exclusive news
-    # user_interests format: {"爸爸": ["刘德华"], "妈妈": []}
-    user_exclusive = {}
+    from datetime import datetime
+    pending["generated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
     for user, interests in user_interests.items():
         if not interests:
-            user_exclusive[user] = []
-            print(f"  {user}: 0 interests, 0 matches")
+            pending["users"][user] = []
             continue
-        user_news = []  # list of {title, source, summary, matchTag, time}
+        
+        user_candidates = []
         seen_titles = set()
         
         for kw in interests:
-            kw_matched = []
-            # 1) 本地匹配
+            kw_candidates = []
+            
+            # 1) Local match
             for item in all_news:
                 title_lower = item['title'].lower()
                 summary_lower = item['summary'].lower()
@@ -425,61 +429,36 @@ def generate_exclusive_news(sections):
                     key = (item['title'], item['source'])
                     if key not in seen_titles:
                         seen_titles.add(key)
-                        kw_matched.append(item)
+                        kw_candidates.append({
+                            "title": item['title'],
+                            "source": item['source'],
+                            "url": item.get('url', ''),
+                            "matchTag": kw,
+                        })
             
-            # 2) 不足 3 条，从网络搜索补充
-            if len(kw_matched) < 3:
-                print(f"  🔍 Searching web for '{kw}' (only {len(kw_matched)} local matches for {user})...")
-                web_results = search_interest_news(kw, max_results=5)
+            # 2) Web search supplement
+            if len(kw_candidates) < 5:
+                print(f"  🔍 Searching web for '{kw}' (only {len(kw_candidates)} local matches)...")
+                web_results = search_interest_news(kw, max_results=8)
                 for r in web_results:
-                    if len(kw_matched) >= 3:
+                    if len(kw_candidates) >= 5:
                         break
                     key = (r['title'], r['source'])
                     if key not in seen_titles:
                         seen_titles.add(key)
-                        kw_matched.append(r)
+                        kw_candidates.append({
+                            "title": r['title'],
+                            "source": r['source'],
+                            "url": r['url'],
+                            "matchTag": kw,
+                        })
             
-            # 取该兴趣词前 3 条
-            for item in kw_matched[:3]:
-                user_news.append({
-                    'title': item['title'],
-                    'source': item['source'],
-                    'summary': item['summary'],
-                    'matchTag': kw,
-                    'time': item.get('time', '2026-06-27'),
-                })
+            user_candidates.extend(kw_candidates[:5])
         
-        # 每个用户最多 10 条
-        if len(user_news) > 10:
-            user_news = user_news[:10]
-        
-        user_exclusive[user] = user_news
-        print(f"  {user}: {len(user_news)} exclusive news items generated")
+        pending["users"][user] = user_candidates[:15]
+        print(f"  {user}: {len(user_candidates[:15])} raw candidates generated")
     
-    # Generate JS code
-    lines = ["// === 按用户分组的专属新闻数组（由 extract_news.py 自动生成） ===", ""]
-    
-    for username, news_list in user_exclusive.items():
-        safe_name = re.sub(r'[^a-zA-Z0-9_\u4e00-\u9fff]', '_', username)
-        lines.append(f"const mockExclusiveNews_{safe_name} = [")
-        for item in news_list:
-            title = item['title'].replace('"', '\\"')
-            summary = item['summary'].replace('"', '\\"')
-            source = item['source'].replace('"', '\\"')
-            match_tag = item['matchTag'].replace('"', '\\"')
-            lines.append(f'  {{title:"{title}", source:"{source}", summary:"{summary}", matchTag:"{match_tag}", time:"{item["time"]}"}},')
-        lines.append("];")
-        lines.append("")
-    
-    # Also generate a lookup map for index.html to use
-    lines.append("// 用户专属新闻查找映射")
-    lines.append("var userExclusiveNewsMap = {")
-    for username in user_exclusive.keys():
-        safe_name = re.sub(r'[^a-zA-Z0-9_\u4e00-\u9fff]', '_', username)
-        lines.append(f'  "{username}": mockExclusiveNews_{safe_name},')
-    lines.append("};")
-    
-    return "\n".join(lines)
+    return pending
 
 if __name__ == '__main__':
     main()
