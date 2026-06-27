@@ -2763,8 +2763,16 @@ function getShuffledNews(key, arr, extraArr, pinHours) {
       if (isPinned) pinned.push(item);
       else normal.push(item);
     });
+    // pinned: 随机打乱（避免高频新闻视觉疲劳）
     shuffleArray(pinned);
-    shuffleArray(normal);
+    // normal: 按收录时间倒序排列（越新越靠前），同一天按热度降序
+    normal.sort(function(a, b) {
+      var ta = a.time || '';
+      var tb = b.time || '';
+      if (ta > tb) return -1;
+      if (ta < tb) return 1;
+      return (b.heat || 0) - (a.heat || 0);
+    });
     var result = pinned.concat(normal);
     // 持久化（存 rank 列表）
     var rankList = result.map(function(it) { return it.rank; });
