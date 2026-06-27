@@ -296,14 +296,9 @@ def main():
         print(f"  Henan: {len(sections.get('henan', []))} items")
         print(f"  CSL: {len(sections.get('csl', []))} items")
     
-    # Generate per-user exclusive news pending list (raw search results for Marvis to review)
-    print("\n--- Exclusive News Search (raw candidates) ---")
-    pending = generate_pending_exclusive_news(sections)
-    if pending:
-        pending_file = os.path.join(SCRIPT_DIR, "pending_exclusive_news.json")
-        with open(pending_file, 'w', encoding='utf-8') as f:
-            json.dump(pending, f, ensure_ascii=False, indent=2)
-        print(f"Pending exclusive news saved to: {pending_file}")
+    # Generate final exclusive news directly (fully automated, no Marvis review needed)
+    print("\n--- Exclusive News (fully automated) ---")
+    generate_final_exclusive_news(sections)
 
 
 def search_interest_news(query, max_results=5):
@@ -382,83 +377,346 @@ def search_sogou_news(query, max_results=5):
     
     return results
 
-def generate_pending_exclusive_news(sections):
-    """Read exclusive_interests.json, search web for each interest,
-    and generate a pending JSON with raw candidates (including URLs).
-    This pending file will later be reviewed and enhanced by Marvis."""
+# ===================== Exclusive News Automation =====================
+
+def is_recent_news(url, title):
+    """
+    Filter out old news. Returns False if the news is clearly old.
+    Check 1: URL contains old year path (2024, 2023, 2025 etc.)
+    Check 2: Title contains old date patterns
+    """
+    # Check URL for old year segments: /2023/ /2024/ /2025/
+    old_years_url = re.findall(r'/(20(1\d|2[0-5]))/', url)
+    if old_years_url:
+        return False
+
+    # Check title for old year patterns: 2024年, 2023年, etc.
+    old_years_title = re.findall(r'(20(1\d|2[0-5]))年', title)
+    if old_years_title:
+        return False
+
+    return True
+
+
+def is_irrelevant(title, kw):
+    """
+    Filter out obviously irrelevant content.
+    - Weather/calendar pages
+    - Pure navigation/index pages
+    - Titles that are just the keyword itself without context
+    """
+    title_clean = title.strip()
+
+    # Weather/calendar junk
+    if any(w in title_clean for w in ['天气预报', '天气日历', '天气查询', '7天天气', '15天天气', '40天天气']):
+        return True
+
+    # Pure navigation pages
+    if re.match(r'^[^\w]*$', title_clean):
+        return True
+
+    # Title is exactly the keyword or very generic match
+    if title_clean == kw:
+        return True
+
+    # Title too short / meaningless
+    if len(title_clean) < 4:
+        return True
+
+    # "热点小时报" type auto-generated aggregators
+    if '热点小时报' in title_clean or '热点速递' in title_clean:
+        return True
+
+    return False
+
+
+def compress_title(title, max_chars=30):
+    """
+    Compress Chinese title to max_chars Chinese characters.
+    Removes unnecessary modifiers and truncates if needed.
+    """
+    # Remove common redundant prefixes
+    prefixes = [
+        '独家', '重磅', '突发', '最新', '刚刚', '快讯', '原创',
+        '深度', '揭秘', '曝光', '实拍', '直击',
+    ]
+    for p in prefixes:
+        title = re.sub(rf'^【?{p}[：:]?】?\s*', '', title)
+        title = re.sub(rf'^\[?{p}\]?\s*', '', title)
+
+    # Remove source prefix patterns like "新浪CBA热点小时报丨..."
+    title = re.sub(r'^.*?热点小时报[丨|]\s*', '', title)
+
+    # Count actual visible characters (excluding HTML/markup)
+    clean = re.sub(r'<[^>]+>', '', title).strip()
+
+    if len(clean) <= max_chars:
+        return clean
+
+    # Truncate at last sentence boundary if possible
+    truncated = clean[:max_chars]
+    # Try to cut at punctuation
+    for sep in ['。', '，', '、', '！', '？', '；', '：']:
+        idx = truncated.rfind(sep)
+        if idx > max_chars // 2:
+            truncated = truncated[:idx + 1]
+            break
+
+    return truncated.strip()
+
+
+def fetch_article_summary(url):
+    """
+    Fetch article page and extract a 1-2 sentence summary.
+    Prioritizes meta description, then first meaningful paragraph.
+    """
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml',
+        'Accept-Language': 'zh-CN,zh;q=0.9',
+    }
+    try:
+        resp = requests.get(url, headers=headers, timeout=10)
+        resp.encoding = 'utf-8'
+        html = resp.text
+
+        # 1) Try meta description
+        meta_match = re.search(
+            r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)["\']',
+            html, re.IGNORECASE
+        )
+        if meta_match:
+            desc = meta_match.group(1).strip()
+            if len(desc) > 20:
+                return _trim_summary(desc)
+
+        # 2) Try og:description
+        og_match = re.search(
+            r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']',
+            html, re.IGNORECASE
+        )
+        if og_match:
+            desc = og_match.group(1).strip()
+            if len(desc) > 20:
+                return _trim_summary(desc)
+
+        # 3) Fallback: first substantial <p> text
+        p_matches = re.findall(r'<p[^>]*>(.*?)</p>', html, re.DOTALL)
+        for p_text in p_matches:
+            clean = re.sub(r'<[^>]+>', '', p_text).strip()
+            clean = re.sub(r'\s+', ' ', clean)
+            if len(clean) > 30:
+                return _trim_summary(clean)
+
+    except Exception:
+        pass
+
+    return ''
+
+
+def _trim_summary(text, max_chars=120):
+    """Trim summary to 1-2 sentences, max ~120 chars."""
+    # Decode HTML entities
+    text = text.replace('&quot;', '"').replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').replace('&nbsp;', ' ')
+    text = re.sub(r'\s+', ' ', text).strip()
+
+    # Cut at first 2 sentence boundaries
+    sentences = re.split(r'[。！？]', text)
+    if len(sentences) >= 2 and len(sentences[0]) > 10:
+        result = sentences[0].strip() + '。' + (sentences[1].strip() + '。' if len(sentences[1]) > 10 else '')
+    else:
+        result = text
+
+    if len(result) > max_chars:
+        result = result[:max_chars].rsplit('，', 1)[0] + '。'
+
+    return result.strip()
+
+
+def extract_url_date(url):
+    """
+    Try to extract date from URL for the 'time' field.
+    Format: YYYY-MM-DD
+    """
+    # Common URL date pattern: /2026/06/25/ or 2026-06-25
+    date_match = re.search(r'/(20\d{2})[/-](\d{2})[/-](\d{2})/', url)
+    if date_match:
+        return f"{date_match.group(1)}-{date_match.group(2)}-{date_match.group(3)}"
+
+    date_match = re.search(r'(20\d{2})[/-](\d{2})[/-](\d{2})', url)
+    if date_match:
+        return f"{date_match.group(1)}-{date_match.group(2)}-{date_match.group(3)}"
+
+    return None
+
+
+def generate_final_exclusive_news(sections):
+    """
+    Read exclusive_interests.json, search web for each interest,
+    apply automated filtering/refinement, and directly generate
+    exclusive_news_arrays.js (no manual review needed).
+    """
+    from datetime import datetime, timedelta
+
     interests_file = os.path.join(SCRIPT_DIR, "exclusive_interests.json")
     try:
         with open(interests_file, 'r', encoding='utf-8') as f:
             user_interests = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(f"  WARNING: Cannot read exclusive_interests.json: {e}")
-        return None
-    
+        return
+
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    one_week_ago = datetime.now() - timedelta(days=7)
+
     # Collect local news for matching
     all_news = []
     for section_id, items in sections.items():
         for item in items:
             item['_section'] = section_id
             all_news.append(item)
-    
-    pending = {
-        "generated_at": "",
-        "users": {}
-    }
-    
-    from datetime import datetime
-    pending["generated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
+
+    # Build per-user final results
+    user_news_map = {}  # user -> list of {title, source, summary, matchTag, time}
+    user_constants = {}  # user -> js const name
+
     for user, interests in user_interests.items():
         if not interests:
-            pending["users"][user] = []
+            user_news_map[user] = []
+            user_constants[user] = f"mockExclusiveNews_{user}"
             continue
-        
-        user_candidates = []
+
+        user_news = []
         seen_titles = set()
-        
+
         for kw in interests:
             kw_candidates = []
-            
+
             # 1) Local match
             for item in all_news:
                 title_lower = item['title'].lower()
                 summary_lower = item['summary'].lower()
                 kw_lower = kw.lower()
                 if kw_lower in title_lower or kw_lower in summary_lower:
-                    key = (item['title'], item['source'])
+                    key = item['title']
                     if key not in seen_titles:
                         seen_titles.add(key)
                         kw_candidates.append({
-                            "title": item['title'],
-                            "source": item['source'],
-                            "url": item.get('url', ''),
-                            "matchTag": kw,
+                            'title': item['title'],
+                            'source': item['source'],
+                            'url': item.get('url', ''),
+                            'raw_summary': item.get('summary', ''),
+                            'matchTag': kw,
                         })
-            
+
             # 2) Web search supplement
             if len(kw_candidates) < 5:
                 print(f"  🔍 Searching web for '{kw}' (only {len(kw_candidates)} local matches)...")
-                web_results = search_interest_news(kw, max_results=8)
+                web_results = search_interest_news(kw, max_results=10)
                 for r in web_results:
-                    if len(kw_candidates) >= 5:
+                    if len(kw_candidates) >= 8:
                         break
-                    key = (r['title'], r['source'])
+                    key = r['title']
                     if key not in seen_titles:
                         seen_titles.add(key)
                         kw_candidates.append({
-                            "title": r['title'],
-                            "source": r['source'],
-                            "url": r['url'],
-                            "matchTag": kw,
+                            'title': r['title'],
+                            'source': r['source'],
+                            'url': r['url'],
+                            'raw_summary': r.get('summary', ''),
+                            'matchTag': kw,
                         })
-            
-            user_candidates.extend(kw_candidates[:5])
-        
-        pending["users"][user] = user_candidates[:15]
-        print(f"  {user}: {len(user_candidates[:15])} raw candidates generated")
-    
-    return pending
+
+            # 3) Apply filtering rules
+            valid_count = 0
+            for c in kw_candidates:
+                if valid_count >= 5:
+                    break
+
+                url = c.get('url', '')
+                title = c['title']
+
+                # Filter: old news
+                if url and not is_recent_news(url, title):
+                    print(f"    ⏭ Skipped (old): {title[:40]}")
+                    continue
+
+                # Filter: irrelevant
+                if is_irrelevant(title, kw):
+                    print(f"    ⏭ Skipped (irrelevant): {title[:40]}")
+                    continue
+
+                # Compress title
+                compressed_title = compress_title(title)
+
+                # Generate summary: use local summary if available, else fetch
+                summary = c.get('raw_summary', '')
+                if not summary and url:
+                    print(f"    📄 Fetching summary for: {compressed_title[:40]}...")
+                    summary = fetch_article_summary(url)
+
+                # Extract time from URL, fallback to today
+                time_str = extract_url_date(url) or today_str
+
+                # Validate time is within the past week (if extractable)
+                if extract_url_date(url):
+                    try:
+                        article_date = datetime.strptime(time_str, "%Y-%m-%d")
+                        if article_date < one_week_ago:
+                            print(f"    ⏭ Skipped (date too old: {time_str}): {compressed_title[:40]}")
+                            continue
+                    except ValueError:
+                        pass
+
+                user_news.append({
+                    'title': compressed_title,
+                    'source': c['source'],
+                    'summary': summary,
+                    'matchTag': kw,
+                    'time': time_str,
+                })
+                valid_count += 1
+
+            if valid_count == 0:
+                print(f"    ⚠ No valid recent news for '{kw}', skipping.")
+
+        user_news_map[user] = user_news[:15]
+        user_constants[user] = f"mockExclusiveNews_{user}"
+        print(f"  {user}: {len(user_news[:15])} final news items")
+
+    # 4) Generate exclusive_news_arrays.js
+    lines = []
+    lines.append("// === 按用户分组的专属新闻数组（由 extract_news.py 自动化生成） ===\n")
+
+    for user in sorted(user_news_map.keys()):
+        news_list = user_news_map[user]
+        const_name = user_constants[user]
+        lines.append(f"const {const_name} = [")
+        for item in news_list:
+            title_esc = item['title'].replace('"', '\\"')
+            source_esc = item['source'].replace('"', '\\"')
+            summary_esc = item['summary'].replace('"', '\\"')
+            tag_esc = item['matchTag'].replace('"', '\\"')
+            time_esc = item['time']
+            lines.append(
+                f'  {{title:"{title_esc}", source:"{source_esc}", summary:"{summary_esc}", matchTag:"{tag_esc}", time:"{time_esc}"}},'
+            )
+        lines.append("];\n")
+
+    # Generate userExclusiveNewsMap
+    lines.append("// 用户专属新闻查找映射")
+    lines.append("var userExclusiveNewsMap = {")
+    for user in sorted(user_news_map.keys()):
+        lines.append(f'  "{user}": {user_constants[user]},')
+    lines.append("};")
+
+    js_content = '\n'.join(lines)
+
+    js_file = os.path.join(SCRIPT_DIR, "exclusive_news_arrays.js")
+    with open(js_file, 'w', encoding='utf-8') as f:
+        f.write(js_content)
+
+    print(f"\n  ✅ exclusive_news_arrays.js generated with {sum(len(v) for v in user_news_map.values())} total items")
 
 if __name__ == '__main__':
     main()
