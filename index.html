@@ -3571,11 +3571,13 @@ function addInterest() {
     saveUsers();
     setCurrentUser(u);
     input.value = '';
+    var currentInterest = word;
     showNotifyModal('兴趣词已保存', '需要立即搜索相关新闻吗？', function() {
-      navigator.clipboard.writeText('更新专属新闻').then(function() {
+      var cmd = '更新专属: ' + currentInterest;
+      navigator.clipboard.writeText(cmd).then(function() {
         showNotifyModal('已复制到剪贴板', '请按 Cmd+V 粘贴到 Marvis 对话中发送');
       }).catch(function() {
-        showNotifyModal('更新专属新闻', '请手动输入这句话发给 Marvis');
+        showNotifyModal(cmd, '请手动输入发给 Marvis');
       });
     });
     renderAccountUI();
@@ -3601,10 +3603,11 @@ function addInterest() {
   saveInterests(interests);
   input.value = '';
   showNotifyModal('兴趣词已保存', '需要立即搜索相关新闻吗？', function() {
-    navigator.clipboard.writeText('更新专属新闻').then(function() {
+    var cmd = '更新专属: ' + val;
+    navigator.clipboard.writeText(cmd).then(function() {
       showNotifyModal('已复制到剪贴板', '请按 Cmd+V 粘贴到 Marvis 对话中发送');
     }).catch(function() {
-      showNotifyModal('更新专属新闻', '请手动输入这句话发给 Marvis');
+      showNotifyModal(cmd, '请手动输入发给 Marvis');
     });
   });
   renderExclusivePage();
