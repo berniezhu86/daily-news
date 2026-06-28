@@ -1,8 +1,10 @@
 /**
  * extract_news.js - 从两个源 HTML 文件提取所有新闻，输出到 news_data.json
  * 
- * v2: 修复以下问题:
- *   - 修复 source_domestic.html 中嵌套div导致标题串联的bug
+ * v3: 修复以下问题:
+ *   - 【核心修复】parseDomesticFile 改用文本分割代替 DOM 遍历
+ *     原因: source_domestic.html 中 div 闭合不完整，cheerio 将后续所有
+ *     section 都解析为 #domestic 的子元素，导致分类串台
  *   - 过滤"动态更新"等占位符垃圾数据
  *   - 分离河南足球和其他中超球队新闻
  *   - 限制Extra数组最大40条
@@ -35,55 +37,70 @@ function isGarbage(title) {
 
 // ============================================================
 // 解析 source_domestic.html (div-based 结构)
-// v2: 使用 a > strong 作为主选择器，避免嵌套div问题
+// v3: 使用文本分割代替 DOM 遍历，避免 div 闭合不完整导致的分类串台
 // ============================================================
 function parseDomesticFile(html) {
-  const $ = cheerio.load(html);
+  // 用正则在原始文本中定位所有 section 起始标记
+  // 不依赖 cheerio 的 DOM 树（因为源 HTML 的 div 闭合不完整，
+  // cheerio 会把后续 section 全部嵌套到第一个 section 里）
+  const sectionPattern = /<div\s+id="([^"]+)"\s+class="section-block"\s*>/g;
+  const sectionMarkers = [];
+  let match;
+  while ((match = sectionPattern.exec(html)) !== null) {
+    sectionMarkers.push({
+      id: match[1],
+      contentStart: match.index + match[0].length,
+      fullMatchStart: match.index
+    });
+  }
+
   const sections = {};
 
-  // 获取所有 section-block div
-  $('div.section-block').each((i, elem) => {
-    const $section = $(elem);
-    const sectionId = $section.attr('id');
-    if (!sectionId) return;
+  for (let i = 0; i < sectionMarkers.length; i++) {
+    const section = sectionMarkers[i];
+    const nextMarker = sectionMarkers[i + 1];
+
+    // 当前 section 的 HTML 文本范围：从起始标记结束到下一个 section 起始标记
+    // （最后一个 section 到文件末尾）
+    const sectionEnd = nextMarker ? nextMarker.fullMatchStart : html.length;
+    const sectionHtml = html.substring(section.contentStart, sectionEnd);
+
+    // 用 cheerio 解析这段独立的 HTML 片段
+    const $ = cheerio.load('<div id="__root">' + sectionHtml + '</div>');
 
     const newsItems = [];
-    
-    // 用 a > strong 作为主选择器，每个 a 标签就是一条新闻
-    $section.find('a').each((j, aElem) => {
+
+    $('#__root').find('a').each((j, aElem) => {
       const $a = $(aElem);
       const $strong = $a.find('strong').first();
-      
+
       // 只处理包含 strong 标签的 a 标签（即新闻标题链接）
       if ($strong.length === 0) return;
-      
+
       const title = $strong.text().trim();
       if (!title || isGarbage(title)) return;
-      
+
       const url = $a.attr('href') || '';
-      
-      // 来源：a 标签后面的 span
+
+      // 来源：a 标签同级的 span
       const $parent = $a.parent();
       const sourceText = $parent.find('span[style*="color:#888"]').text();
       const sourceMatch = sourceText.match(/\[(.+?)\]/);
       const source = sourceMatch ? sourceMatch[1] : '';
-      
-      // 摘要：同一层级的 color:#6e6e73 div
-      // 向上找到最近的容器，然后查找摘要
+
+      // 摘要：最近的 background:#fff 容器中的 color:#6e6e73 div
       let summary = '';
       let $container = $a.closest('div[style*="background:#fff"]');
       if ($container.length === 0) {
-        // 如果找不到 background:#fff 容器，用 parent 的 parent
         $container = $a.parent().parent();
       }
       summary = $container.find('div[style*="color:#6e6e73"]').first().text().trim();
-      
-      // 如果摘要太长（可能串联了多条），只取第一条
+
+      // 摘要过长则截断
       if (summary.length > 200) {
-        // 可能串联了多条新闻的摘要，截取合理的长度
         summary = summary.substring(0, 150) + '...';
       }
-      
+
       newsItems.push({
         title: title,
         summary: summary,
@@ -93,12 +110,12 @@ function parseDomesticFile(html) {
         heat: 5
       });
     });
-    
+
     if (newsItems.length > 0) {
-      sections[sectionId] = newsItems;
+      sections[section.id] = newsItems;
     }
-  });
-  
+  }
+
   return sections;
 }
 
@@ -168,15 +185,16 @@ function parseInternationalFile(html) {
 
 // ============================================================
 // 去重：基于标题前30字符比对
+// 注意：不能用 URL 去重，因为源 HTML 中很多新闻共用同一个来源域名
+// （如 https://ysxw.cctv.cn），但它们是不同的新闻
 // ============================================================
 function deduplicate(items) {
   const seen = new Set();
   const result = [];
   for (const item of items) {
     const normalizedTitle = item.title.replace(/\s+/g, '').substring(0, 30);
-    const key = item.url && item.url.length > 10 ? item.url : normalizedTitle;
-    if (!seen.has(key)) {
-      seen.add(key);
+    if (!seen.has(normalizedTitle)) {
+      seen.add(normalizedTitle);
       result.push(item);
     }
   }
@@ -215,7 +233,7 @@ function filterCslOtherNews(items) {
 // 主函数
 // ============================================================
 function main() {
-  console.log('=== 新闻提取脚本 v2 启动 ===');
+  console.log('=== 新闻提取脚本 v3 启动 ===');
   
   const domesticPath = path.join(REPO_DIR, 'source_domestic.html');
   const internationalPath = path.join(REPO_DIR, 'source_international.html');
