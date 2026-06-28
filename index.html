@@ -359,7 +359,7 @@ body.care-mode .news-time { font-size:12px!important; }
 .heat-blue { background:#eef4ff; color:#1d5aff; }
 
 /* ===== STOCK ===== */
-.stock-grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:8px; padding:12px 20px 8px; }
+.stock-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:8px; padding:12px 20px 8px; }
 .stock-card {
   padding:12px 14px; border-radius:var(--r-md); background:var(--surface2);
   border:1.5px solid var(--border); transition:box-shadow 0.15s;
@@ -625,7 +625,7 @@ body.care-mode .news-time { font-size:12px!important; }
   .match-scroll { max-height:none; }
 }
 @media (min-width:768px) {
-  .stock-grid { grid-template-columns:repeat(4, 1fr); }
+  .stock-grid { grid-template-columns:repeat(auto-fill, minmax(160px, 1fr)); }
   .main-tab { font-size:15px; padding:0 16px; }
   .sub-tab { font-size:13px; padding:6px 16px; }
 }
