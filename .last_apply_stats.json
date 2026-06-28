@@ -1,0 +1,20 @@
+{
+  "applied_at": "2026-06-28T16:41:07.732Z",
+  "replaced_arrays": 13,
+  "not_found_arrays": 0,
+  "stats": {
+    "mockHotNewsDomestic": 20,
+    "mockHotNewsDomesticExtra": 158,
+    "mockHotNewsInternational": 20,
+    "mockHotNewsInternationalExtra": 92,
+    "mockHotNewsAI": 20,
+    "mockHotNewsAIExtra": 48,
+    "mockEntertainment": 20,
+    "mockEntertainmentExtra": 79,
+    "mockHenanNews": 72,
+    "mockCslOtherTeams": 62,
+    "mockStockNews": 20,
+    "mockStockNewsExtra": 16,
+    "mockStockAI": 10
+  }
+}
