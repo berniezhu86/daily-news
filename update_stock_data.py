@@ -9,6 +9,7 @@ import re
 import urllib.request
 import sys
 import os
+from datetime import datetime, timezone, timedelta
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 HTML_PATH = os.path.join(SCRIPT_DIR, "index.html")
@@ -174,6 +175,14 @@ def update_html(new_data):
 
     new_block = build_new_block(new_data)
     new_content = content[:start_idx] + new_block + content[end_idx + 1:]
+
+    beijing_now = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
+    new_content = re.sub(
+        r'(const stockDataUpdateTime = ")[^"]+(";)',
+        r'\g<1>' + beijing_now + r'\g<2>',
+        new_content,
+        count=1,
+    )
 
     with open(HTML_PATH, "w", encoding="utf-8") as f:
         f.write(new_content)

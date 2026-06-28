@@ -6,3 +6,5 @@ Icon?
 *.swp
 *.swo
 test-*.html
+__pycache__/
+*.pyc
