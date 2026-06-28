@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-06-28T15:43:02.447+08:00",
-  "run_id": "manual-1782661382447",
+  "updated_at": "2026-06-28T16:00:27.182+08:00",
+  "run_id": "manual-1782662427183",
   "status": "success",
   "summary": "News data updated",
   "sections": {
     "domestic": {
-      "fetched": 63,
-      "accepted": 63,
+      "fetched": 38,
+      "accepted": 38,
       "rejected": 0
     },
     "international": {
-      "fetched": 100,
-      "accepted": 100,
+      "fetched": 28,
+      "accepted": 28,
       "rejected": 0
     },
     "ai_tech": {
-      "fetched": 58,
-      "accepted": 58,
+      "fetched": 25,
+      "accepted": 25,
       "rejected": 0
     },
     "finance": {
@@ -25,13 +25,13 @@
       "rejected": 0
     },
     "football": {
-      "fetched": 30,
-      "accepted": 30,
+      "fetched": 8,
+      "accepted": 8,
       "rejected": 0
     },
     "entertainment": {
-      "fetched": 84,
-      "accepted": 84,
+      "fetched": 20,
+      "accepted": 20,
       "rejected": 0
     }
   },
@@ -39,6 +39,6 @@
     "index.html"
   ],
   "failed_sources": [],
-  "pushed_to_github": true,
-  "notes": "手动更新完成 - 已推送到 GitHub (commit bb438b7)"
+  "pushed_to_github": false,
+  "notes": "Git 提交或推送失败: Command failed: git push origin main\nfatal: unable to access 'https://github.com/berniezhu86/daily-news.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443 \n"
 }
