@@ -304,11 +304,14 @@ function main() {
   // 6. 中超其他球队 — 从合并后的足球新闻中排除河南
   result.mockCslOtherTeams = filterCslOtherNews(allFootball).slice(0, 20);
   
-  // 7. 财经新闻 (仅 international 文件的 stock section)
-  const stockNews = deduplicate(internationalSections['stock'] || []);
-  const stockSplit = splitMainAndExtra(stockNews);
-  result.mockStockNews = stockSplit.main;
-  result.mockStockNewsExtra = stockSplit.extra;
+  // 6.5. 财经新闻 (合并 domestic finance + international stock)
+  const financeNews = deduplicate([
+    ...(domesticSections['finance'] || []),
+    ...(internationalSections['stock'] || [])
+  ]);
+  const financeSplit = splitMainAndExtra(financeNews);
+  result.mockStockNews = financeSplit.main;
+  result.mockStockNewsExtra = financeSplit.extra;
   
   // 8. AI牛股推荐 (仅 domestic 文件的 ai_stock section)
   result.mockStockAI = deduplicate(domesticSections['ai_stock'] || []).slice(0, 10);
