@@ -1522,14 +1522,14 @@ body.theme-dark .auth-banner {
     <div class="card">
       <div class="card-header">
         <div class="card-title"><span class="card-title-icon">📅</span>河南队近期赛程</div>
-        <div class="card-meta">第16-30轮</div>
+        <div class="card-meta">第17-30轮</div>
       </div>
       <div class="match-list match-scroll" id="henanMatchList"></div>
     </div>
     <div class="card">
       <div class="card-header">
         <div class="card-title"><span class="card-title-icon">📋</span>河南队历史战绩</div>
-        <div class="card-meta">第1-15轮</div>
+        <div class="card-meta">第1-16轮</div>
       </div>
       <div class="match-list match-scroll" id="henanPastMatchList"></div>
     </div>
@@ -3498,22 +3498,22 @@ const mockStockNewsExtra = [
 
 
 const cslStandings = [
-  {rank:1, team:"成都蓉城", gp:15, w:12, d:1, l:2, gf:33, ga:13, pts:37 },
-  {rank:2, team:"重庆铜梁龙", gp:15, w:6, d:6, l:3, gf:19, ga:16, pts:24 },
-  {rank:3, team:"大连英博", gp:15, w:7, d:1, l:7, gf:21, ga:25, pts:22 },
-  {rank:4, team:"云南玉昆", gp:16, w:6, d:3, l:7, gf:29, ga:28, pts:21 },
-  {rank:5, team:"山东泰山", gp:15, w:7, d:3, l:5, gf:25, ga:25, pts:18 },
-  {rank:6, team:"青岛西海岸", gp:15, w:3, d:9, l:3, gf:17, ga:23, pts:18 },
-  {rank:7, team:"浙江队", gp:15, w:6, d:4, l:5, gf:20, ga:23, pts:17 },
-  {rank:8, team:"辽宁铁人", gp:15, w:5, d:2, l:8, gf:20, ga:23, pts:17 },
-  {rank:9, team:"深圳新鹏城", gp:15, w:5, d:2, l:8, gf:20, ga:25, pts:17 },
-  {rank:10, team:"北京国安", gp:15, w:5, d:5, l:5, gf:26, ga:23, pts:15 },
-  {rank:11, team:"河南仰韶彩陶坊", gp:15, w:6, d:3, l:6, gf:16, ga:18, pts:15, me:true },
-  {rank:12, team:"上海申花", gp:15, w:6, d:5, l:4, gf:29, ga:24, pts:13 },
-  {rank:13, team:"青岛海牛", gp:16, w:6, d:2, l:8, gf:26, ga:27, pts:13 },
-  {rank:14, team:"上海海港", gp:15, w:4, d:5, l:6, gf:23, ga:21, pts:12 },
-  {rank:15, team:"武汉三镇", gp:15, w:2, d:7, l:6, gf:22, ga:30, pts:8 },
-  {rank:16, team:"天津津门虎", gp:15, w:3, d:6, l:6, gf:19, ga:21, pts:5 }
+  {rank:1, team:"成都蓉城", gp:16, w:13, d:1, l:2, gf:36, ga:15, pts:40 },
+  {rank:2, team:"重庆铜梁龙", gp:16, w:7, d:6, l:3, gf:20, ga:16, pts:27 },
+  {rank:3, team:"大连英博", gp:16, w:7, d:1, l:8, gf:22, ga:29, pts:22 },
+  {rank:4, team:"山东泰山", gp:16, w:8, d:3, l:5, gf:30, ga:26, pts:21 },
+  {rank:5, team:"云南玉昆", gp:16, w:6, d:3, l:7, gf:29, ga:28, pts:21 },
+  {rank:6, team:"青岛西海岸", gp:16, w:4, d:9, l:3, gf:20, ga:24, pts:21 },
+  {rank:7, team:"北京国安", gp:16, w:6, d:5, l:5, gf:27, ga:23, pts:18 },
+  {rank:8, team:"浙江队", gp:16, w:6, d:4, l:6, gf:21, ga:26, pts:17 },
+  {rank:9, team:"深圳新鹏城", gp:16, w:5, d:2, l:9, gf:22, ga:28, pts:17 },
+  {rank:10, team:"辽宁铁人", gp:16, w:5, d:2, l:9, gf:21, ga:28, pts:17 },
+  {rank:11, team:"上海申花", gp:16, w:7, d:5, l:4, gf:33, ga:25, pts:16 },
+  {rank:12, team:"上海海港", gp:16, w:5, d:5, l:6, gf:25, ga:22, pts:15 },
+  {rank:13, team:"河南仰韶彩陶坊", gp:16, w:6, d:3, l:7, gf:17, ga:20, pts:15, me:true },
+  {rank:14, team:"青岛海牛", gp:16, w:6, d:2, l:8, gf:26, ga:27, pts:13 },
+  {rank:15, team:"武汉三镇", gp:16, w:2, d:7, l:7, gf:22, ga:31, pts:8 },
+  {rank:16, team:"天津津门虎", gp:16, w:3, d:6, l:7, gf:19, ga:22, pts:5 }
 ];
 
 function renderCslStandings(data) {
@@ -3534,7 +3534,7 @@ function renderCslStandings(data) {
     `<thead><tr><th>#</th><th>球队</th><th>场</th><th>胜-平-负</th><th>进:失</th><th>积分</th></tr></thead>` + '<tbody>' + tbody + '</tbody>';
 }
 
-// === 河南仰韶彩陶坊 2026赛季 已完赛（第1-15轮） ===
+// === 河南仰韶彩陶坊 2026赛季 已完赛（第1-16轮） ===
 const mockPastMatches = [
   {date:"3月7日 19:35",  opponent:"上海海港",   venue:"客场·上汽浦东足球场",  league:"中超联赛第1轮",   result:"2-1 胜", isHome:false},
   {date:"3月15日 15:30", opponent:"云南玉昆",   venue:"主场·航海体育场",      league:"中超联赛第2轮",   result:"2-1 胜", isHome:true},
@@ -3551,11 +3551,11 @@ const mockPastMatches = [
   {date:"5月19日 19:35", opponent:"天津津门虎", venue:"客场·泰达足球场",      league:"中超联赛第13轮",  result:"2-1 胜", isHome:false},
   {date:"5月23日 19:35", opponent:"北京国安",   venue:"客场·工人体育场",      league:"中超联赛第14轮",  result:"2-1 胜", isHome:false},
   {date:"5月30日 19:00", opponent:"浙江队",     venue:"主场·航海体育场",      league:"中超联赛第15轮",  result:"0-2 负", isHome:true},
+  {date:"6月27日 19:35", opponent:"上海海港",   venue:"主场·航海体育场",      league:"中超联赛第16轮",  result:"1-2 负", isHome:true},
 ];
 
-// === 河南仰韶彩陶坊 2026赛季 剩余赛程（第16-30轮） ===
+// === 河南仰韶彩陶坊 2026赛季 剩余赛程（第17-30轮） ===
 const mockMatches = [
-  {date:"6月27日 19:35", opponent:"上海海港",   venue:"主场·航海体育场",      league:"中超联赛第16轮" },
   {date:"7月3日 20:00",  opponent:"云南玉昆",   venue:"客场·玉溪高原体育中心",league:"中超联赛第17轮" },
   {date:"7月11日 19:00", opponent:"武汉三镇",   venue:"客场·武汉体育中心",    league:"中超联赛第18轮" },
   {date:"7月17日 19:35", opponent:"青岛海牛",   venue:"主场·航海体育场",      league:"中超联赛第19轮" },
