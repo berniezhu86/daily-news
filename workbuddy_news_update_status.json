@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28T16:00:27.182+08:00",
-  "run_id": "manual-1782662427183",
+  "updated_at": "2026-06-28T16:02:55.599+08:00",
+  "run_id": "manual-1782662575599",
   "status": "success",
   "summary": "News data updated",
   "sections": {
@@ -10,13 +10,13 @@
       "rejected": 0
     },
     "international": {
-      "fetched": 28,
-      "accepted": 28,
+      "fetched": 77,
+      "accepted": 77,
       "rejected": 0
     },
     "ai_tech": {
-      "fetched": 25,
-      "accepted": 25,
+      "fetched": 49,
+      "accepted": 49,
       "rejected": 0
     },
     "finance": {
@@ -39,6 +39,6 @@
     "index.html"
   ],
   "failed_sources": [],
-  "pushed_to_github": false,
-  "notes": "Git 提交或推送失败: Command failed: git push origin main\nfatal: unable to access 'https://github.com/berniezhu86/daily-news.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443 \n"
+  "pushed_to_github": true,
+  "notes": "足球数据更新：中超第16轮后积分榜（16队）、河南队第16轮赛果（1-2负上海海港）移入历史战绩、赛程更新为第17-30轮"
 }
