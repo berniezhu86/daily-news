@@ -250,7 +250,14 @@ function main() {
   for (const arrayName of ALLOWED_ARRAYS) {
     const items = sections[arrayName];
     if (!items || items.length === 0) {
-      console.log(`  SKIP: ${arrayName} (无数据)`);
+      // 没有新数据时清空数组，避免残留旧数据
+      const emptyResult = replaceArray(content, arrayName, '[]');
+      if (emptyResult.found) {
+        content = emptyResult.content;
+        console.log(`  CLEARED: ${arrayName} (无新数据，已清空旧数据)`);
+      } else {
+        console.log(`  SKIP: ${arrayName} (无数据且未找到数组)`);
+      }
       continue;
     }
     
