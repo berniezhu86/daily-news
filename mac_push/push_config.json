@@ -1,0 +1,12 @@
+{
+  "poll_seconds": 300,
+  "enabled": true,
+  "enabled_types": [
+    "high_politics",
+    "breaking",
+    "football",
+    "market"
+  ],
+  "max_normal_per_day": 5,
+  "app_name": "臻宝每日快讯"
+}

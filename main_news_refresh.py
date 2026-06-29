@@ -12,6 +12,7 @@ from __future__ import annotations
 import json
 import math
 import re
+import subprocess
 from datetime import datetime, timedelta
 from pathlib import Path
 from difflib import SequenceMatcher
@@ -391,6 +392,9 @@ def main() -> None:
     save_state(state, ordered_pool, now)
     report["changedArrays"] = changed
     REPORT_FILE.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    push_script = ROOT / "mac_push" / "generate_push_news.py"
+    if push_script.exists():
+        subprocess.run(["python3", str(push_script)], cwd=str(ROOT), check=False)
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
 

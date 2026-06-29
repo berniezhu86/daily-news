@@ -1,0 +1,111 @@
+{
+  "updated_at": "2026-06-30 00:37:25",
+  "source": "zhenbao-main-news",
+  "max_daily_normal": 5,
+  "items": [
+    {
+      "id": "20260629-domestic-https-view-inews-qq-com-a-20260629A0B3WL00-scene-news-skill",
+      "title": "国务院常务会议部署人工智能发展，强调推动 AI 与制造业、服务业深度融合",
+      "summary": "新华社解读6月29日国务院常务会议指出，人工智能是新一轮科技革命和产业变革的重要驱动力量。会议听取人工智能发展情况汇报，并围绕产业融合、应用落地和高质量发展作出针对性部署。",
+      "section": "国内",
+      "type": "high_politics",
+      "url": "https://view.inews.qq.com/a/20260629A0B3WL00?scene=news-skill",
+      "open_url": "index.html#hotnews",
+      "priority": "high",
+      "published_at": "2026-06-29 22:47:00",
+      "source": "新华社新闻",
+      "score": 32
+    },
+    {
+      "id": "20260629-domestic-https-view-inews-qq-com-a-20260629A0AWJ000-scene-news-skill",
+      "title": "国务院部署稳外贸举措，提出加大信贷、信保支持并扩大优质进口",
+      "summary": "6月29日召开的国务院常务会议研究当前外贸形势和贸易强国建设有关工作，并就保持外贸发展良好势头作出部署，包括加大信贷、信保等支持，扩大优质商品和服务进口，完善贸易支撑体系。",
+      "section": "国内",
+      "type": "high_politics",
+      "url": "https://view.inews.qq.com/a/20260629A0AWJ000?scene=news-skill",
+      "open_url": "index.html#hotnews",
+      "priority": "high",
+      "published_at": "2026-06-29 22:17:00",
+      "source": "新华社新闻",
+      "score": 32
+    },
+    {
+      "id": "20260629-domestic-https-view-inews-qq-com-a-20260629A0ARTQ00-scene-news-skill",
+      "title": "李强主持召开国务院常务会议，部署人工智能、外贸和“十五五”规划相关工作",
+      "summary": "国务院总理李强6月29日主持召开国务院常务会议，听取人工智能发展情况汇报，研究当前外贸形势和贸易强国建设有关工作，并审议通过《“十五五”碳达峰行动方案》和《国民健康“十五五”规划》…",
+      "section": "国内",
+      "type": "high_politics",
+      "url": "https://view.inews.qq.com/a/20260629A0ARTQ00?scene=news-skill",
+      "open_url": "index.html#hotnews",
+      "priority": "high",
+      "published_at": "2026-06-29 21:52:00",
+      "source": "新华社/国家税务总局",
+      "score": 32
+    },
+    {
+      "id": "20260629-international-https-view-inews-qq-com-a-20260629A04XV600-scene-news-skill",
+      "title": "超40℃！欧洲“炙烤模式”持续 中国空调成了抢手货",
+      "summary": "近日，欧洲多地遭遇持续高温天气，多地打破高温纪录，发布高温预警。高温天气下，中国制造的移动空调、电扇等纳凉产品销量激增，甚至“一机难求”。",
+      "section": "国际",
+      "type": "breaking",
+      "url": "https://view.inews.qq.com/a/20260629A04XV600?scene=news-skill",
+      "open_url": "index.html#hotnews",
+      "priority": "high",
+      "published_at": "2026-06-29 13:04:00",
+      "source": "央视新闻",
+      "score": 28
+    },
+    {
+      "id": "20260629-international-https-view-inews-qq-com-a-20260629A01V8N00-scene-news-skill",
+      "title": "国际新闻早知道丨美官员称美伊将于30日会谈 普京称考虑全面禁止柴油出口",
+      "summary": "○美伊将于30日在卡塔尔会谈○伊朗外长：管理和恢复霍尔木兹海峡交通是伊朗的责任○普京称考虑全面禁止柴油出口○委内瑞拉强震遇难人数升至1450人○德国连续三天刷新本国最高气温纪录美官…",
+      "section": "国际",
+      "type": "breaking",
+      "url": "https://view.inews.qq.com/a/20260629A01V8N00?scene=news-skill",
+      "open_url": "index.html#hotnews",
+      "priority": "high",
+      "published_at": "2026-06-29 06:12:00",
+      "source": "央视新闻",
+      "score": 28
+    },
+    {
+      "id": "20260629-stock-https-view-inews-qq-com-a-20260629A02SHK00-scene-news-skill",
+      "title": "国际市场黄金原油价格走向何方",
+      "summary": "近期国际市场上，原油和黄金价格出现同步下跌的局面，一度跌破关键整数关口。但26日在美伊重新爆发军事行动后，黄金原油价格有所反弹，未来走势值得关注。",
+      "section": "财经",
+      "type": "market",
+      "url": "https://view.inews.qq.com/a/20260629A02SHK00?scene=news-skill",
+      "open_url": "index.html#finance",
+      "priority": "normal",
+      "published_at": "2026-06-29 09:34:00",
+      "source": "央广网",
+      "score": 22
+    },
+    {
+      "id": "20260629-stock-https-view-inews-qq-com-a-20260629A09EWG00-scene-news-skill",
+      "title": "全球最火存储ETF首次纳入中国芯片龙头兆易创新",
+      "summary": "财联社6月29日电，全球首只内存领域主动管理型ETF——Roundhill Memory ETF（DRAM）近日进行调仓，首次将A股存储龙头兆易创新纳入投资组合，为第八大重仓股。业…",
+      "section": "财经",
+      "type": "market",
+      "url": "https://view.inews.qq.com/a/20260629A09EWG00?scene=news-skill",
+      "open_url": "index.html#finance",
+      "priority": "normal",
+      "published_at": "2026-06-29 19:39:00",
+      "source": "财联社",
+      "score": 20
+    },
+    {
+      "id": "20260630-henan-https-www-vipc-cn-article-6a3e69e2e89225001405c6bc",
+      "title": "河南彩陶坊首回合客场2-1击败上海海港，钟义浩28秒进球创纪录",
+      "summary": "本赛季首回合河南彩陶坊曾客场2-1击败卫冕冠军上海海港，钟义浩28秒进球打破中超联赛进球最快纪录，那场胜利成为球队赛季初期的亮眼战绩。",
+      "section": "足球",
+      "type": "football",
+      "url": "https://www.vipc.cn/article/6a3e69e2e89225001405c6bc",
+      "open_url": "index.html#football",
+      "priority": "normal",
+      "published_at": "2026-06-29 00:17:00",
+      "source": "唯彩看球",
+      "score": 20
+    }
+  ]
+}
