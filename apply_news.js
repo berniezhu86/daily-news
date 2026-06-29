@@ -81,9 +81,13 @@ function itemToCode(item) {
   // heat
   parts.push(`heat:${item.heat || 5}`);
   
-  // time
-  const time = item.time || new Date().toISOString().slice(0, 16).replace('T', ' ');
-  parts.push(`time:${JSON.stringify(time)}`);
+  // time — 格式化显示（如"6月29日 16:42"）
+  let timeStr = item.time || '';
+  if (!timeStr) {
+    const now = new Date();
+    timeStr = `${now.getMonth()+1}月${now.getDate()}日 ${now.getHours()}:${String(now.getMinutes()).padStart(2,'0')}`;
+  }
+  parts.push(`time:${JSON.stringify(timeStr)}`);
   
   // url
   parts.push(`url:${JSON.stringify(item.url || '')}`);

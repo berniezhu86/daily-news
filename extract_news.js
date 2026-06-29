@@ -1,14 +1,14 @@
 /**
- * extract_news.js - 从两个源 HTML 文件提取所有新闻，输出到 news_data.json
- * 
- * v3: 修复以下问题:
- *   - 【核心修复】parseDomesticFile 改用文本分割代替 DOM 遍历
- *     原因: source_domestic.html 中 div 闭合不完整，cheerio 将后续所有
- *     section 都解析为 #domestic 的子元素，导致分类串台
- *   - 过滤"动态更新"等占位符垃圾数据
- *   - 分离河南足球和其他中超球队新闻
- *   - 限制Extra数组最大40条
- *   - 更严格的去重（标题前30字符比对）
+ * extract_news.js v4 - 从新统一源文件提取新闻，输出到 news_data.json
+ *
+ * v4 重构 (2026-06-29):
+ *   - **源文件切换**：单一源文件 /Users/bainian/WorkBuddy/2026-06-28-16-31-12/outputs/news-daily-mrjb.html
+ *     替代了旧的 source_domestic.html + source_international.html
+ *   - **新 HTML 结构**：<section class="news-section" id="section-XXX">
+ *     → <div class="news-card"> → h3.card-title a[title] + p.card-summary + span.source-chip + span.card-time
+ *   - **时间过滤**：利用 card-time 的精确时间戳（"2026-06-29 16:42:09"）做 48 小时过滤
+ *   - **摘要清理**：去除截断标记、元数据前缀
+ *   - **足球和 AI 牛股**：通过关键词从各版块提取
  */
 
 const fs = require('fs');
@@ -18,43 +18,119 @@ const cheerio = require('/Users/bainian/.workbuddy/binaries/node/workspace/node_
 const REPO_DIR = __dirname;
 
 // ============================================================
+// 新源文件路径
 // ============================================================
-// 时效过滤：检查新闻是否为旧闻（>48小时）
+const SOURCE_FILE = '/Users/bainian/WorkBuddy/2026-06-28-16-31-12/outputs/news-daily-mrjb.html';
+
 // ============================================================
-function isOldNews(title, summary) {
+// 已知旧事件黑名单（保持 v3 的列表）
+// ============================================================
+const KNOWN_OLD_EVENTS = [
+  { pattern: '加快建设全国统一大市场.*审议通过', desc: '2022年4月旧闻' },
+  { pattern: '全面深化改革委员会.*全国统一大市场', desc: '2022年4月旧闻' },
+  { pattern: '民营经济促进法.*审议|审议.*民营经济促进法', desc: '民营经济促进法已于2025年4月通过，不再审议' },
+  { pattern: '全国人大常委会第十次会议.*民营经济', desc: '人大常委会第十次会议在2024年，民营经济法已通过' },
+  { pattern: '人大常委会.*6月29日.*民营经济', desc: '人大常委会第23次会议已于6月26日闭幕' },
+  { pattern: '长安十二时辰2.*杨幂|杨幂.*长安十二时辰2', desc: '假新闻：长安十二时辰2真实主演为杨紫/张晚意，非杨幂/雷佳音' },
+  { pattern: '长安十二时辰.*收视率破3', desc: '假新闻：长安十二时辰2实际定档4月10日，非近期开播' },
+  { pattern: '卡多索.*加盟.*签约', desc: '卡多索2025年2月租借加盟（冬窗），非夏窗转会' },
+  { pattern: '萨尔科.*河南.*主帅', desc: '萨尔科2024年已离开河南队，2025年6月起执教苏州东吴' },
+  { pattern: '萨尔科.*河内.*状态', desc: '萨尔科已非河南队主帅' },
+  { pattern: 'GPT-4\\.0|GPT-4o', desc: 'GPT-4o已发布多时' },
+];
+
+// ============================================================
+// 时效过滤
+// ============================================================
+function isOldNews(title, summary, cardTime) {
   const text = title + ' ' + (summary || '');
-  
-  // 查找标题或摘要中的所有日期
+
+  // === 第1层：已知旧事件黑名单 ===
+  for (const event of KNOWN_OLD_EVENTS) {
+    if (new RegExp(event.pattern).test(text)) {
+      return true;
+    }
+  }
+
+  // === 第2层：card-time 精确过滤（>48小时） ===
+  if (cardTime) {
+    const match = cardTime.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
+    if (match) {
+      const cardDate = new Date(
+        parseInt(match[1]), parseInt(match[2]) - 1, parseInt(match[3]),
+        parseInt(match[4]), parseInt(match[5])
+      );
+      const now = new Date();
+      const hoursDiff = (now - cardDate) / (1000 * 60 * 60);
+      if (hoursDiff > 48) return true;
+      // 如果 card-time 验证通过（≤48h），信任时间戳，跳过文本日期检测
+      return false;
+    }
+  }
+
+  // === 第3层：如果无 card-time，回退到文本日期检测 ===
   const dateMatches = text.match(/(\d+)月(\d+)日/g);
   if (dateMatches) {
     for (const dm of dateMatches) {
       const parts = dm.match(/(\d+)月(\d+)日/);
       const m = parseInt(parts[1]);
       const d = parseInt(parts[2]);
-      // 6月27日之前 → 超过48小时
       if (m === 6 && d < 27) return true;
-      // 5月及之前 → 肯定超过48小时
       if (m < 6) return true;
     }
   }
-  
+
   // 旧年份
-  if (/\b202[0-4]年\b/.test(text)) return true;
-  
-  // 模糊旧时间
+  if (/\b202[0-5]年\b/.test(text)) return true;
+
+  // 模糊旧时间词
   if (/去年|前年|数年前|几个月前/.test(text)) return true;
-  
+
   return false;
 }
 
-// 垃圾标题过滤：包含这些关键词的标题直接丢弃
 // ============================================================
-const GARBAGE_PATTERNS = [
-  '动态更新',
-  ' placeholder',
-  'TODO',
-  'test',
-];
+// 时间格式转换：2026-06-29 16:42:09 → 6月29日 16:42
+// ============================================================
+function formatTime(cardTime) {
+  if (!cardTime) return '';
+  const match = cardTime.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
+  if (!match) return cardTime;
+  const month = parseInt(match[2]);
+  const day = parseInt(match[3]);
+  const hour = parseInt(match[4]);
+  const minute = parseInt(match[5]);
+  return `${month}月${day}日 ${hour}:${String(minute).padStart(2,'0')}`;
+}
+
+// ============================================================
+// 摘要清理
+// ============================================================
+function cleanSummary(summary) {
+  if (!summary) return '';
+
+  // 去除 "本条新闻核心要点：" 等元数据前缀
+  summary = summary.replace(/^本条新闻核心要点[：:]\s*/g, '');
+  summary = summary.replace(/^核心要点[：:]\s*/g, '');
+
+  // 去除末尾的 "..."
+  summary = summary.replace(/\.{2,}$/g, '');
+
+  // 去除末尾不完整的半句话（以 "..." 后跟无意义文本）
+  summary = summary.replace(/[。！？\.!\?]\s*\.{2,}$/g, '。');
+
+  // 过长截断
+  if (summary.length > 200) {
+    summary = summary.substring(0, 180) + '...';
+  }
+
+  return summary.trim();
+}
+
+// ============================================================
+// 垃圾标题过滤
+// ============================================================
+const GARBAGE_PATTERNS = ['动态更新', ' placeholder', 'TODO', 'test'];
 
 function isGarbage(title) {
   if (!title || title.length < 8) return true;
@@ -65,178 +141,92 @@ function isGarbage(title) {
 }
 
 // ============================================================
-// 解析 source_domestic.html (div-based 结构)
-// v3: 使用文本分割代替 DOM 遍历，避免 div 闭合不完整导致的分类串台
+// 解析新源文件 (section-based 结构，cheerio 友好)
 // ============================================================
-function parseDomesticFile(html) {
-  // 用正则在原始文本中定位所有 section 起始标记
-  // 不依赖 cheerio 的 DOM 树（因为源 HTML 的 div 闭合不完整，
-  // cheerio 会把后续 section 全部嵌套到第一个 section 里）
-  // 兼容两种属性顺序: id="X" class="section-block" 和 class="section-block" id="X"
-  const sectionPattern = /<div\s+(?:id="([^"]+)"\s+class="section-block"|class="section-block"\s+id="([^"]+)")\s*>/g;
-  const sectionMarkers = [];
-  let match;
-  while ((match = sectionPattern.exec(html)) !== null) {
-    sectionMarkers.push({
-      id: match[1] || match[2],  // 兼容两种属性顺序
-      contentStart: match.index + match[0].length,
-      fullMatchStart: match.index
-    });
-  }
-
-  const sections = {};
-
-  for (let i = 0; i < sectionMarkers.length; i++) {
-    const section = sectionMarkers[i];
-    const nextMarker = sectionMarkers[i + 1];
-
-    // 当前 section 的 HTML 文本范围：从起始标记结束到下一个 section 起始标记
-    // （最后一个 section 到文件末尾）
-    const sectionEnd = nextMarker ? nextMarker.fullMatchStart : html.length;
-    const sectionHtml = html.substring(section.contentStart, sectionEnd);
-
-    // 用 cheerio 解析这段独立的 HTML 片段
-    const $ = cheerio.load('<div id="__root">' + sectionHtml + '</div>');
-
-    const newsItems = [];
-
-    $('#__root').find('a').each((j, aElem) => {
-      const $a = $(aElem);
-      const $strong = $a.find('strong').first();
-
-      // 只处理包含 strong 标签的 a 标签（即新闻标题链接）
-      if ($strong.length === 0) return;
-
-      const title = $strong.text().trim();
-      if (!title || isGarbage(title)) return;
-
-      const url = $a.attr('href') || '';
-
-      // 来源 + 摘要：都在 a 标签的父级元素中
-      const $parent = $a.parent();
-      
-      // 来源：找 color:#888 的 span
-      const sourceText = $parent.find('span[style*="color:#888"]').text();
-      const sourceMatch = sourceText.match(/\[(.+?)\]/);
-      const source = sourceMatch ? sourceMatch[1] : '';
-
-      // 摘要：在 a 标签的祖先元素 .news-card-body 中找
-      // 同时支持 class="news-summary" 和 style="color:#6e6e73" 两种格式
-      let summary = '';
-      const $cardBody = $a.closest('.news-card-body');
-      if ($cardBody.length > 0) {
-        summary = $cardBody.find('div.news-summary, div[style*="color:#6e6e73"]').first().text().trim();
-      }
-      // 如果找不到，回退到 a 标签的父级元素中找
-      if (!summary) {
-        const $parent = $a.parent();
-        summary = $parent.find('div.news-summary, div[style*="color:#6e6e73"]').first().text().trim();
-        if (!summary) {
-          summary = $parent.parent().find('div.news-summary, div[style*="color:#6e6e73"]').first().text().trim();
-        }
-      }
-
-      // 摘要过长则截断
-      if (summary.length > 200) {
-        summary = summary.substring(0, 150) + '...';
-      }
-
-      // 时效检查：过滤超过48小时的旧闻
-      if (isOldNews(title, summary)) {
-        return; // skip this item
-      }
-
-      newsItems.push({
-        title: title,
-        summary: summary,
-        source: source,
-        url: url,
-        time: '',
-        heat: 5
-      });
-    });
-
-    if (newsItems.length > 0) {
-      sections[section.id] = newsItems;
-    }
-  }
-
-  return sections;
-}
-
-// ============================================================
-// 解析 source_international.html (article-based 结构)
-// ============================================================
-function parseInternationalFile(html) {
+function parseNewsDailyFile(html) {
   const $ = cheerio.load(html);
   const sections = {};
 
-  $('section.section-block').each((i, elem) => {
+  $('section.news-section').each((i, elem) => {
     const $section = $(elem);
-    const sectionId = $section.attr('id');
-    if (!sectionId) return;
+    const sectionId = $section.attr('id') || '';
+    if (!sectionId.startsWith('section-')) return;
 
     const newsItems = [];
-    
-    $section.find('article.news-item').each((j, item) => {
-      const $item = $(item);
-      
-      const $link = $item.find('h3 a').first();
-      const title = $link.text().trim();
-      const url = $link.attr('href') || '';
-      
+
+    $section.find('.news-card').each((j, card) => {
+      const $card = $(card);
+
+      // 标题：h3.card-title > a[title]
+      const $link = $card.find('h3.card-title a').first();
+      const title = ($link.attr('title') || $link.text() || '').trim();
       if (!title || isGarbage(title)) return;
-      
-      const rawTitle = $item.find('.raw-title').text().trim();
-      const summary = $item.find('p').text().trim();
-      
-      const metaTexts = [];
-      $item.find('.meta span').each((k, span) => {
-        metaTexts.push($(span).text().trim());
-      });
-      
-      const source = metaTexts[0] || '';
-      
-      let time = '';
-      for (const t of metaTexts) {
-        const m = t.match(/发布：(.+)/);
-        if (m) { time = m[1]; break; }
-      }
-      
+
+      const url = $link.attr('href') || '';
+
+      // 摘要：p.card-summary
+      let summary = cleanSummary($card.find('p.card-summary').first().text().trim());
+
+      // 来源：span.source-chip
+      const source = $card.find('span.source-chip').first().text().trim();
+
+      // 时间：span.card-time
+      const cardTime = $card.find('span.card-time').first().text().trim();
+
+      // 时效检查
+      if (isOldNews(title, summary, cardTime)) return;
+
+      // 热度：基于时间新鲜度
       let heat = 5;
-      for (const t of metaTexts) {
-        const m = t.match(/热度：(\d+)/);
-        if (m) { heat = parseInt(m[1]); break; }
+      if (cardTime) {
+        const match = cardTime.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
+        if (match) {
+          const cardDate = new Date(
+            parseInt(match[1]), parseInt(match[2]) - 1, parseInt(match[3]),
+            parseInt(match[4]), parseInt(match[5])
+          );
+          const hoursAgo = (new Date() - cardDate) / (1000 * 60 * 60);
+          if (hoursAgo < 3) heat = 9;
+          else if (hoursAgo < 6) heat = 8;
+          else if (hoursAgo < 12) heat = 7;
+          else if (hoursAgo < 24) heat = 6;
+          else heat = 5;
+        }
       }
 
-      // 时效检查：过滤超过48小时的旧闻
-      if (isOldNews(title, summary)) {
-        return; // skip this item
-      }
-      
       newsItems.push({
         title: title,
         summary: summary,
         source: source,
         url: url,
-        time: time,
-        heat: heat,
-        rawTitle: rawTitle
+        time: formatTime(cardTime),
+        heat: heat
       });
     });
-    
+
     if (newsItems.length > 0) {
       sections[sectionId] = newsItems;
     }
   });
-  
+
   return sections;
 }
 
 // ============================================================
+// 获取所有新闻（跨版块合并）
+// ============================================================
+function getAllNews(sections) {
+  const all = [];
+  for (const [key, items] of Object.entries(sections)) {
+    for (const item of items) {
+      all.push({ ...item, _section: key });
+    }
+  }
+  return all;
+}
+
+// ============================================================
 // 去重：基于标题前30字符比对
-// 注意：不能用 URL 去重，因为源 HTML 中很多新闻共用同一个来源域名
-// （如 https://ysxw.cctv.cn），但它们是不同的新闻
 // ============================================================
 function deduplicate(items) {
   const seen = new Set();
@@ -253,7 +243,6 @@ function deduplicate(items) {
 
 // ============================================================
 // 拆分主数组和 Extra 数组
-// Extra 最大40条
 // ============================================================
 function splitMainAndExtra(items, mainCount = 20, extraMax = 40) {
   const main = items.slice(0, mainCount);
@@ -262,110 +251,175 @@ function splitMainAndExtra(items, mainCount = 20, extraMax = 40) {
 }
 
 // ============================================================
-// 河南足球新闻过滤：只保留标题含"河南"的
+// 足球新闻关键词过滤
 // ============================================================
-function filterHenanNews(items) {
-  return items.filter(item => {
-    const t = item.title;
-    return t.includes('河南') || t.includes('拉莫斯') || t.includes('航海体育场') || t.includes('彩陶坊');
-  });
+// 河南足球关键词 — 必须严格匹配，避免误匹配（如"布拉莫斯"匹配"拉莫斯"）
+const HENAN_KEYWORDS = ['河南队', '河南足球', '航海体育场', '彩陶坊', '河南建业'];
+const HENAN_BROAD_KEYWORDS = ['河南']; // 仅在摘要中有足球上下文时使用
+
+// 足球通用关键词 — 仅保留明确指足球的术语，避免歧义误匹配
+// "世预赛" 在篮球中也使用，"球场"可指网球场，"中超"可能出现在非足球文本中
+const FOOTBALL_KEYWORDS = [
+  '中超联赛', '中甲联赛',
+  '国足', '亚洲杯', '亚冠联赛',
+  '英超联赛', '西甲联赛', '意甲联赛', '德甲联赛', '法甲联赛', '欧冠联赛', '欧联杯',
+  '足球', '世界杯', '欧洲杯', '美洲杯',
+  '球衣', '球票',
+  '转会费', '租借加盟',
+];
+
+// 宽泛关键词 — 需要足球上下文验证
+const FOOTBALL_BROAD_KEYWORDS = [
+  '中超', '中甲', '亚冠', '世预赛',
+  '英超', '西甲', '意甲', '德甲', '法甲', '欧冠', '欧联',
+  '球场',
+];
+
+const FOOTBALL_CONTEXT_SIGNALS = ['足球', '球员', '球队', '俱乐部', '教练', '射手', '门将', '后卫', '前锋', '中场', '裁判', '罚球', '点球', '角球', '帽子戏法', '梅开二度', '乌龙球', '替补', '首发', '拉莫斯', '梅西', 'C罗', '姆巴佩', '哈兰德', '内马尔'];
+
+function isHenanNews(title, summary) {
+  const text = title + ' ' + (summary || '');
+  // 精确匹配
+  if (HENAN_KEYWORDS.some(kw => text.includes(kw))) return true;
+  // 宽泛匹配"河南"需有足球上下文
+  if (text.includes('河南')) {
+    if (FOOTBALL_CONTEXT_SIGNALS.some(s => text.includes(s))) return true;
+  }
+  return false;
 }
 
-// 中超其他球队新闻：排除河南相关
-function filterCslOtherNews(items) {
-  return items.filter(item => {
-    const t = item.title;
-    return !t.includes('河南') && !t.includes('拉莫斯') && !t.includes('航海体育场') && !t.includes('彩陶坊');
-  });
+function isFootballNews(title, summary) {
+  const text = title + ' ' + (summary || '');
+  // 精确足球关键词（完整联赛名称）
+  if (FOOTBALL_KEYWORDS.some(kw => text.includes(kw))) return true;
+  // 宽泛关键词需有足球上下文
+  const broadMatch = FOOTBALL_BROAD_KEYWORDS.find(kw => text.includes(kw));
+  if (broadMatch) {
+    if (FOOTBALL_CONTEXT_SIGNALS.some(s => text.includes(s))) return true;
+  }
+  return false;
 }
+
+// AI牛股关键词
+const AI_STOCK_KEYWORDS = [
+  '牛股', '涨停', '选股', '金股', '荐股', '风口', '龙头',
+  '暴涨', '翻倍', '抄底', '主升浪', '涨停板',
+];
+
+function isAIStockNews(title) {
+  const t = title;
+  return AI_STOCK_KEYWORDS.some(kw => t.includes(kw));
+}
+
+// ============================================================
+// 版块映射
+// ============================================================
+const SECTION_MAP = {
+  'section-国内新闻': 'domestic',
+  'section-国际新闻': 'international',
+  'section-财经新闻': 'finance',
+  'section-娱乐新闻': 'entertainment',
+  'section-AI科技新闻': 'ai_tech',
+};
 
 // ============================================================
 // 主函数
 // ============================================================
 function main() {
-  console.log('=== 新闻提取脚本 v3 启动 ===');
-  
-  const domesticPath = path.join(REPO_DIR, 'source_domestic.html');
-  const internationalPath = path.join(REPO_DIR, 'source_international.html');
-  
-  if (!fs.existsSync(domesticPath)) {
-    console.error('ERROR: source_domestic.html 不存在!');
+  console.log('=== 新闻提取脚本 v4 启动 ===');
+  console.log(`源文件: ${SOURCE_FILE}`);
+
+  if (!fs.existsSync(SOURCE_FILE)) {
+    console.error(`ERROR: 源文件不存在! ${SOURCE_FILE}`);
+    console.log('提示：AI日报自动化会在每日 5:00 和 17:00 生成此文件');
     process.exit(1);
   }
-  if (!fs.existsSync(internationalPath)) {
-    console.error('ERROR: source_international.html 不存在!');
-    process.exit(1);
+
+  const html = fs.readFileSync(SOURCE_FILE, 'utf-8');
+  console.log(`源文件大小: ${(html.length / 1024).toFixed(1)} KB`);
+
+  console.log('解析新闻日报文件...');
+  const sections = parseNewsDailyFile(html);
+  const allNews = getAllNews(sections);
+
+  // 统计各版块
+  for (const [key, items] of Object.entries(sections)) {
+    console.log(`  [${key}] ${items.length} 条`);
   }
-  
-  const domesticHtml = fs.readFileSync(domesticPath, 'utf-8');
-  const internationalHtml = fs.readFileSync(internationalPath, 'utf-8');
-  
-  console.log('解析 source_domestic.html ...');
-  const domesticSections = parseDomesticFile(domesticHtml);
-  Object.keys(domesticSections).forEach(k => {
-    console.log(`  [domestic] ${k}: ${domesticSections[k].length} 条`);
-  });
-  
-  console.log('解析 source_international.html ...');
-  const internationalSections = parseInternationalFile(internationalHtml);
-  Object.keys(internationalSections).forEach(k => {
-    console.log(`  [international] ${k}: ${internationalSections[k].length} 条`);
-  });
-  
-  const result = {};
-  
-  // 1. 国内新闻 (仅 domestic 文件)
-  const domesticNews = deduplicate(domesticSections['domestic'] || []);
-  const domesticSplit = splitMainAndExtra(domesticNews);
-  result.mockHotNewsDomestic = domesticSplit.main;
-  result.mockHotNewsDomesticExtra = domesticSplit.extra;
-  
-  // 2. 国际新闻 (两个文件合并)
-  const intlNews = deduplicate([
-    ...(domesticSections['international'] || []),
-    ...(internationalSections['international'] || [])
-  ]);
-  const intlSplit = splitMainAndExtra(intlNews);
-  result.mockHotNewsInternational = intlSplit.main;
-  result.mockHotNewsInternationalExtra = intlSplit.extra;
-  
-  // 3. AI科技 (两个文件合并: ai_tech + ai)
-  const aiNews = deduplicate([
-    ...(domesticSections['ai_tech'] || []),
-    ...(internationalSections['ai'] || [])
-  ]);
-  const aiSplit = splitMainAndExtra(aiNews);
-  result.mockHotNewsAI = aiSplit.main;
-  result.mockHotNewsAIExtra = aiSplit.extra;
-  
-  // 4. 娱乐新闻 (仅 domestic 文件)
-  const entNews = deduplicate(domesticSections['entertainment'] || []);
-  const entSplit = splitMainAndExtra(entNews);
-  result.mockEntertainment = entSplit.main;
-  result.mockEntertainmentExtra = entSplit.extra;
-  
-  // 5. 河南足球 — 从 henan_football 和 csl_other 合并后筛选
-  const allFootball = deduplicate([
-    ...(domesticSections['henan_football'] || []),
-    ...(domesticSections['csl_other'] || [])
-  ]);
-  result.mockHenanNews = filterHenanNews(allFootball).slice(0, 15);
-  
-  // 6. 中超其他球队 — 从合并后的足球新闻中排除河南
-  result.mockCslOtherTeams = filterCslOtherNews(allFootball).slice(0, 20);
-  
-  // 6.5. 财经新闻 (合并 domestic finance + international stock)
-  const financeNews = deduplicate([
-    ...(domesticSections['finance'] || []),
-    ...(internationalSections['stock'] || [])
-  ]);
-  const financeSplit = splitMainAndExtra(financeNews);
-  result.mockStockNews = financeSplit.main;
-  result.mockStockNewsExtra = financeSplit.extra;
-  
-  // 8. AI牛股推荐 (仅 domestic 文件的 ai_stock section)
-  result.mockStockAI = deduplicate(domesticSections['ai_stock'] || []).slice(0, 10);
-  
+  console.log(`  总计: ${allNews.length} 条`);
+
+  // ============================================================
+  // 映射到输出数组
+  // ============================================================
+
+  const getSection = (secId) => deduplicate(sections[secId] || []);
+
+  // 1. 国内新闻
+  const domesticNews = getSection('section-国内新闻');
+  const domSplit = splitMainAndExtra(domesticNews, 20, 80);
+  const mockHotNewsDomestic = domSplit.main;
+  const mockHotNewsDomesticExtra = domSplit.extra;
+
+  // 2. 国际新闻
+  const intlNews = getSection('section-国际新闻');
+  const intlSplit = splitMainAndExtra(intlNews, 20, 80);
+  const mockHotNewsInternational = intlSplit.main;
+  const mockHotNewsInternationalExtra = intlSplit.extra;
+
+  // 3. AI科技
+  const aiNews = getSection('section-AI科技新闻');
+  const aiSplit = splitMainAndExtra(aiNews, 20, 80);
+  const mockHotNewsAI = aiSplit.main;
+  const mockHotNewsAIExtra = aiSplit.extra;
+
+  // 4. 娱乐
+  const entNews = getSection('section-娱乐新闻');
+  const entSplit = splitMainAndExtra(entNews, 20, 80);
+  const mockEntertainment = entSplit.main;
+  const mockEntertainmentExtra = entSplit.extra;
+
+  // 5. 财经
+  const finNews = getSection('section-财经新闻');
+  const finSplit = splitMainAndExtra(finNews, 20, 80);
+  const mockStockNews = finSplit.main;
+  const mockStockNewsExtra = finSplit.extra;
+
+  // 6. 河南足球 — 直接从 section-河南足球俱乐部 提取（新源文件已有专版）
+  const henanNews = getSection('section-河南足球俱乐部');
+  const henanSplit = splitMainAndExtra(henanNews, 30, 100);
+  const mockHenanNews = henanSplit.main;
+
+  // 7. 中超其他球队 — 直接从 section-中超联赛动态 提取（新源文件已有专版）
+  const cslNews = getSection('section-中超联赛动态');
+  const cslSplit = splitMainAndExtra(cslNews, 30, 100);
+  const mockCslOtherTeams = cslSplit.main;
+
+  // 8. AI牛股推荐 — 从财经和AI版块提取（关键词筛选）
+  const aiStockPool = deduplicate(
+    allNews.filter(item =>
+      (item._section === 'section-财经新闻' || item._section === 'section-AI科技新闻') &&
+      isAIStockNews(item.title)
+    )
+  );
+  const mockStockAI = aiStockPool.slice(0, 30);
+
+  // 汇总
+  const result = {
+    mockHotNewsDomestic,
+    mockHotNewsDomesticExtra,
+    mockHotNewsInternational,
+    mockHotNewsInternationalExtra,
+    mockHotNewsAI,
+    mockHotNewsAIExtra,
+    mockEntertainment,
+    mockEntertainmentExtra,
+    mockHenanNews,
+    mockCslOtherTeams,
+    mockStockNews,
+    mockStockNewsExtra,
+    mockStockAI,
+  };
+
   // 输出统计
   console.log('\n=== 提取结果 ===');
   let total = 0;
@@ -374,17 +428,26 @@ function main() {
     total += items.length;
   }
   console.log(`  总计: ${total} 条`);
-  
+
+  // 特别提示
+  if (mockHenanNews.length < 5) {
+    console.warn('\n⚠️  河南足球新闻不足5条！新源文件不含足球专版，可能需单独补充。');
+  }
+  if (mockStockAI.length < 5) {
+    console.warn('⚠️  AI牛股推荐不足5条！新源文件不含荐股版块。');
+  }
+
   const output = {
     extracted_at: new Date().toISOString(),
+    source_file: SOURCE_FILE,
     total_items: total,
     sections: result
   };
-  
+
   const outputPath = path.join(REPO_DIR, 'news_data.json');
   fs.writeFileSync(outputPath, JSON.stringify(output, null, 2), 'utf-8');
   console.log(`\n已输出到: ${outputPath}`);
-  
+
   return output;
 }
 
