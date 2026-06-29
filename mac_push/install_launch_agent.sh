@@ -4,6 +4,7 @@ PROJECT_DIR="/Users/bainian/Workbuddy/2026-06-25-10-20-28/zhenbao-daily-news"
 PLIST="$HOME/Library/LaunchAgents/com.zhenbao.news.push.plist"
 PYTHON="/usr/bin/python3"
 mkdir -p "$HOME/Library/LaunchAgents"
+codesign --force --deep --sign - "$PROJECT_DIR/mac_push/MacNotifier.app" 2>/dev/null || true
 cat > "$PLIST" <<PLIST
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">

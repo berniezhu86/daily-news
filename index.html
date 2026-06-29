@@ -416,6 +416,15 @@ body.care-mode .news-time { font-size:12px!important; }
 .sector-tag.bull { background:rgba(255,59,48,0.12); color:var(--red); }
 .sector-tag.watch { background:rgba(255,149,0,0.12); color:#ff9500; }
 .sector-tag.steady { background:rgba(10,132,255,0.12); color:var(--blue); }
+.sector-item { flex-wrap:wrap; }
+.sector-main { display:flex; align-items:center; gap:10px; flex:1; min-width:0; }
+.sector-extra { display:flex; align-items:center; gap:8px; margin-top:6px; width:100%; padding-top:6px; border-top:1px dashed var(--border); }
+.sector-confidence { font-size:11px; font-weight:700; color:var(--indigo); white-space:nowrap; }
+.sector-confidence-bar { width:40px; height:4px; border-radius:2px; background:var(--border); overflow:hidden; flex-shrink:0; }
+.sector-confidence-fill { height:100%; border-radius:2px; background:var(--indigo); }
+.sector-stock { font-size:11px; color:var(--text2); white-space:nowrap; }
+.sector-stock b { color:var(--text1); font-weight:600; }
+.sector-target { font-size:10px; color:var(--text3); white-space:nowrap; margin-left:auto; }
 
 /* ===== CSL STANDINGS TABLE ===== */
 .csl-standings { padding:4px 16px 12px; overflow-x:auto; -webkit-overflow-scrolling:touch; }
@@ -2464,8 +2473,13 @@ const stockUpdatedAt = '6月29日 15:00'; // 行情数据更新时间
 
 
   const mockStockAI = [
-  {rank:1, title:"港股IPO周报：立讯精密等多家A股公司通过聆讯 芯碁微装挂牌首日翻倍", source:"财联社", summary:"财联社6月28日讯（编辑 冯轶）财联社为您带来每周港股新股资讯。据利弗莫尔证券显示，截至发稿，本周(6月22日-6月28日)有19家公司向港交所递表，另有14家公司通过聆讯，14家公司招股，及10只新股上市。", heat:5, time:"6月28日 19:13", url:"https://view.inews.qq.com/a/20260628A06XKW00?scene=news-skill"}
-];
+    {name:"中芯国际", score:85, value:"65.20", change:"+2.31%", direction:"up", rating:"偏强", reason:"先进制程扩产加速，国产替代逻辑强化；Q2产能利用率回升至85%以上，毛利率改善趋势明确"},
+    {name:"工业富联", score:78, value:"28.45", change:"-1.20%", direction:"down", rating:"观察", reason:"AI服务器订单饱满但通信设备板块回调，短期受板块情绪拖累；800G光模块出货量符合预期"},
+    {name:"长江电力", score:80, value:"29.10", change:"+0.52%", direction:"up", rating:"稳健", reason:"夏季用电高峰+来水偏丰，发电量同比增长；高股息率4.5%防御属性突出，机构配置意愿强"},
+    {name:"比亚迪", score:75, value:"285.30", change:"+1.58%", direction:"up", rating:"关注", reason:"新能源车下乡政策受益，出口连续创新高；碳酸锂价格低位缓解成本压力，Q3产销旺季可期"},
+    {name:"招商银行", score:72, value:"40.15", change:"+0.82%", direction:"up", rating:"关注", reason:"金融法草案审议+中长期资金入市政策催化，银行估值处于历史低位，修复空间较大"},
+    {name:"立讯精密", score:70, value:"42.30", change:"-0.35%", direction:"down", rating:"观察", reason:"苹果AI手机换机周期预期升温，Q3传统旺季备货启动；但消费电子板块整体偏弱，需观察订单兑现"},
+  ];
 
   // 板块预测（由规则评分引擎基于盘面、新闻热度、政策和产业趋势生成）
   const mockSectorPrediction = [
@@ -2484,14 +2498,22 @@ function renderSectorPrediction() {
   if (!el) return;
   el.style.display = 'block';
   const rc = function(r) { return r === 1 ? 'r1' : r === 2 ? 'r2' : r === 3 ? 'r3' : 'rn'; };
-  el.innerHTML = '<div class="sector-prediction-title">📊 板块预测 · <span style="font-weight:400;font-size:11px;color:var(--text3)">规则评分 · 交易时段每15分钟复核</span></div>'
+  el.innerHTML = '<div class="sector-prediction-title">📊 板块预测 · <span style="font-weight:400;font-size:11px;color:var(--text3)">规则评分 · 每日收盘后更新</span></div>'
     + '<div class="sector-list">'
     + mockSectorPrediction.map(function(s) {
         return '<div class="sector-item">'
+          + '<div class="sector-main">'
           + '<div class="sector-rank ' + rc(s.rank) + '">' + s.rank + '</div>'
           + '<div class="sector-name">' + s.name + '</div>'
           + '<span class="sector-tag ' + s.tagClass + '">' + s.tag + '</span>'
           + '<div class="sector-reason">' + s.reason + '</div>'
+          + '</div>'
+          + '<div class="sector-extra">'
+          + '<span class="sector-confidence">信心 ' + (s.confidence || 0) + '</span>'
+          + '<span class="sector-confidence-bar"><span class="sector-confidence-fill" style="width:' + (s.confidence || 0) + '%"></span></span>'
+          + '<span class="sector-stock">标的 <b>' + (s.stock || '—') + '</b></span>'
+          + '<span class="sector-target">' + (s.target || '') + '</span>'
+          + '</div>'
           + '</div>';
       }).join('')
     + '</div>';
@@ -3106,7 +3128,7 @@ function renderAiStockView() {
   if (loadMore) loadMore.style.display = 'none';
   var list = document.getElementById('stockNewsList');
   var updated = getAiPredictionTimeText();
-  list.innerHTML = '<div class="stock-ai-note">🤖 AI 观察池 · 单股每15分钟复核，板块每30分钟复核 · ' + updated + ' 更新</div>'
+  list.innerHTML = '<div class="stock-ai-note">🤖 AI 观察池 · 每日收盘后更新 · ' + updated + ' 更新</div>'
     + '<div class="ai-stock-panel">'
     + '<div class="ai-stock-section-title">单股观察<span>趋势评分 / 不是买卖建议</span></div>'
     + '<div class="ai-stock-grid">'
@@ -3353,7 +3375,7 @@ function updateMarketStatus() {
       marketBar.style.display = '';
       if (dot) dot.style.display = 'none';
       if (note) note.style.display = 'none';
-      if (text) { text.textContent = 'AI观察池 · 单股15分钟/板块30分钟复核'; text.style.fontSize = '12px'; }
+      if (text) { text.textContent = 'AI观察池 · 每日收盘后更新'; text.style.fontSize = '12px'; }
     }
     return;
   }
@@ -3364,7 +3386,7 @@ function updateMarketStatus() {
       marketBar.style.display = '';
       if (dot) dot.style.display = 'none';
       if (note) note.style.display = 'none';
-      if (text) { text.textContent = 'AI观察池 · 单股15分钟/板块30分钟复核'; text.style.fontSize = '12px'; }
+      if (text) { text.textContent = 'AI观察池 · 每日收盘后更新'; text.style.fontSize = '12px'; }
     }
     return;
   }

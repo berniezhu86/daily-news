@@ -29,3 +29,15 @@ sh mac_push/uninstall_launch_agent.sh
 ```
 
 后续如果做 Electron/Tauri 壳，可以保留 `latest_push_news.json` 和 `seen_push_ids.json` 的数据协议，把 `mac_notify_watcher.py` 替换为 App 内的 native notification 调用。
+
+## 如果通知没有显示
+
+本实现优先使用 `MacNotifier.app` 原生通知器。首次使用时，macOS 可能需要在系统设置中允许通知：
+
+`系统设置 -> 通知 -> 臻宝每日快讯通知`
+
+如果仍没有弹出，可先手动运行：
+
+```sh
+/Users/bainian/Workbuddy/2026-06-25-10-20-28/zhenbao-daily-news/mac_push/MacNotifier.app/Contents/MacOS/MacNotifier --title "臻宝每日快讯测试" --subtitle "原生通知器" --body "通知通道测试" --id "manual-test"
+```

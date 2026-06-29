@@ -36,9 +36,18 @@ def save_json(path: Path, data) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def notify(title: str, message: str, subtitle: str = "") -> None:
-    # osascript notifications work without extra packages and can later be replaced
-    # by Electron/Tauri native notification APIs.
+def notify(title: str, message: str, subtitle: str = "", item_id: str = "") -> None:
+    notifier = ROOT / "mac_push" / "MacNotifier.app" / "Contents" / "MacOS" / "MacNotifier"
+    if notifier.exists():
+        subprocess.run([
+            str(notifier),
+            "--title", title,
+            "--subtitle", subtitle,
+            "--body", message,
+            "--id", item_id or f"zhenbao-{int(time.time())}",
+        ], check=False)
+        return
+    # Fallback for environments where the app bundle has not been built yet.
     def esc(s: str) -> str:
         return s.replace('\\', '\\\\').replace('"', '\\"')
     script = f'display notification "{esc(message)}" with title "{esc(title)}"'
@@ -78,7 +87,7 @@ def process_once(config: dict) -> int:
         title = item.get("title", "新闻更新")
         message = item.get("summary") or item.get("source") or "有新的重要新闻"
         subtitle = f"{app_name} · {item.get('section', '')}"
-        notify(title, message, subtitle)
+        notify(title, message, subtitle, item_id)
         seen_ids.add(item_id)
         sent += 1
         if priority != "high":
