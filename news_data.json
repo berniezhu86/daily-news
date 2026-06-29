@@ -1,8 +1,418 @@
 {
-  "extracted_at": "2026-06-28T17:42:47.088Z",
-  "total_items": 252,
+  "extracted_at": "2026-06-29T02:30:05.945Z",
+  "total_items": 343,
   "sections": {
     "mockHotNewsDomestic": [
+      {
+        "title": "习近平主持召开中央全面深化改革委员会会议 强调加快构建全国统一大市场",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "李强在夏季达沃斯论坛致辞：中国将继续扩大高水平对外开放",
+        "summary": "",
+        "source": "",
+        "url": "https://www.people.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "全国人大常委会审议多部法律草案 民营经济促进法引关注",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "外交部：中方坚决反对任何国家干涉中国内政 台湾问题是红线",
+        "summary": "",
+        "source": "",
+        "url": "https://www.fmprc.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "工信部：上半年我国5G基站突破450万个 6G研发加速推进",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "国防部：中国第三艘航母福建舰完成首次远海训练",
+        "summary": "",
+        "source": "",
+        "url": "https://www.mod.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "公安部：开展夏季治安打击整治行动 严打电信网络诈骗",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "国家统计局：6月制造业PMI为50.2% 连续三个月位于扩张区间",
+        "summary": "",
+        "source": "",
+        "url": "https://www.stats.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "教育部：2026年高考录取分数线陆续公布 多地分数线稳中有升",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "国家卫健委：夏季传染病防控形势平稳 登革热疫情有效控制",
+        "summary": "",
+        "source": "",
+        "url": "https://www.nhc.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "交通运输部：端午节假期全国发送旅客1.8亿人次 同比增长12%",
+        "summary": "",
+        "source": "",
+        "url": "https://www.mot.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "住建部：上半年全国新开工改造老旧小区3.2万个 惠及560万户",
+        "summary": "",
+        "source": "",
+        "url": "https://www.mohurd.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "最高法发布反垄断民事诉讼司法解释 降低举证门槛",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "生态环境部：全国碳排放权交易市场扩围至钢铁、水泥行业",
+        "summary": "",
+        "source": "",
+        "url": "https://www.mee.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "农业农村部：全国夏粮收购进度超六成 小麦价格稳中略涨",
+        "summary": "",
+        "source": "",
+        "url": "https://www.moa.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "商务部：上半年全国实际使用外资同比增长8.3% 结构持续优化",
+        "summary": "",
+        "source": "",
+        "url": "https://www.mofcom.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "国家能源局：上半年可再生能源新增装机突破1亿千瓦",
+        "summary": "",
+        "source": "",
+        "url": "https://www.nea.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "证监会发布深化科创板改革8条措施 支持硬科技企业上市",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "文化和旅游部：上半年国内旅游收入突破4万亿元 同比增长15%",
+        "summary": "",
+        "source": "",
+        "url": "https://www.mct.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "公安部交管局：全国机动车保有量达4.6亿辆 新能源汽车占比突破12%",
+        "summary": "",
+        "source": "",
+        "url": "https://www.mps.gov.cn",
+        "time": "",
+        "heat": 5
+      }
+    ],
+    "mockHotNewsDomesticExtra": [
+      {
+        "title": "习近平会见柬埔寨人民党主席洪森：携手在变局中显担当守正道",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "第九届中国—亚欧博览会在乌鲁木齐举办 丝路新机遇亚欧新活力",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "大渡河双江口水电站首台机组并网发电 为双碳目标再添重要支撑",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "第39个国际禁毒日：防范青少年药物滥用 全社会筑牢禁毒防线",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "厦金大桥国产智能盾构换刀机器人正式投用 盾构施工智能化突破",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "超大型甲醇双燃料船“东方智慧”轮南通启航 投入国际航线运营",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "央行将于6月29日起增加隔夜逆回购操作品种 完善流动性调控工具箱",
+        "summary": "",
+        "source": "",
+        "url": "https://www.pbc.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "湖南犬木塘水库九龙岭隧洞全线贯通 系湖南最长输水隧洞",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中俄完成第11次联合空中战略巡航 在日本海东海空域展开",
+        "summary": "",
+        "source": "",
+        "url": "https://www.mod.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "居民医保财政补助标准连续10年提高 人均补助达724元",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "40城启动汽车流通消费改革试点 杭州等城市优化限购政策",
+        "summary": "",
+        "source": "",
+        "url": "https://www.people.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "机动车上牌实现合格证联网核查 国产小客车预查验全面落地",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "新型能源体系建设\"十五五\"规划印发 2030年新能源发电量占比达30%",
+        "summary": "",
+        "source": "",
+        "url": "https://www.people.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "五部门启动工业5G独立专网试点 助力制造业智能化升级",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "新一代国产航空遥感系统投入运行 基于新舟60平台打造",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "湖南推行\"以创代论\" 345名应届大学生凭创业成果毕业",
+        "summary": "",
+        "source": "",
+        "url": "https://www.people.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "2026国际陶艺学会大会在景德镇开幕 千年瓷都推动产业升级",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "西宁半程马拉松鸣枪起跑 12000名跑者挑战高原赛道",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "武汉端午龙舟邀请赛开赛 长江中游九城联动促协同发展",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "我国绿色发展成效显著 全社会绿电占比接近四成",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中央通报3起政绩观偏差问题 涉及南宁酒泉杭州三地",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "空军航空兵某团锻造制胜空天的铁翼鲲鹏",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中国音协舞协杂协选举产生新一届领导机构",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "2026年黄河三角洲自然保护区生态补水启动",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "香港回归29年 内地与香港贸易值年均增长6.7%",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "各地开展主题党日活动迎\"七一\" 庆祝建党105周年",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "1-5月全国农业保险已赔付370亿元 保障粮食安全",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "神舟二十三号乘组在轨满月 各项任务进展顺利",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "2026暑期档电影票房超15亿元 年度票房超172亿元",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "前5月社会物流总额146.6万亿元 同比增5.2%",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "算力产品加速出海 800G光模块出口暴涨百倍",
+        "summary": "",
+        "source": "",
+        "url": "https://www.people.com.cn",
+        "time": "",
+        "heat": 5
+      },
       {
         "title": "四川宜宾高县发生5.5级地震 暂无人员伤亡报告",
         "summary": "",
@@ -66,543 +476,495 @@
         "url": "https://www.gov.cn",
         "time": "",
         "heat": 5
-      },
-      {
-        "title": "全国40城启动汽车流通消费改革试点 杭州等城市优化限购",
-        "summary": "",
-        "source": "",
-        "url": "https://finance.sina.com.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "杭台高铁累计客流突破1亿人次 首条民营控股高铁交出亮眼成绩单",
-        "summary": "",
-        "source": "",
-        "url": "https://www.toutiao.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "美丽中国建设全民行动促进计划发布 明确15条举措",
-        "summary": "",
-        "source": "",
-        "url": "https://www.mee.gov.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "新修订商标法明年起施行 重拳整治恶意抢注等乱象",
-        "summary": "",
-        "source": "",
-        "url": "https://www.npc.gov.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "前5月我国机电产品出口7.58万亿元 连续15月刷新纪录",
-        "summary": "",
-        "source": "",
-        "url": "https://finance.sina.com.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "中央通报3起政绩观偏差问题 涉及南宁酒泉杭州萧山",
-        "summary": "",
-        "source": "",
-        "url": "https://www.ccdi.gov.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "广西凌云发生山体滑坡致5栋民房损毁 56名村民提前撤离",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "成都天府国际机场投运五周年 旅客吞吐量超2亿人次",
-        "summary": "",
-        "source": "",
-        "url": "https://www.sctv.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "湖南345名大学生凭创业成果替代论文顺利毕业 以创代论模式获推广",
-        "summary": "",
-        "source": "",
-        "url": "https://www.toutiao.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "2026国际陶艺学会大会在景德镇开幕 全球陶艺家参与交流",
-        "summary": "",
-        "source": "",
-        "url": "https://www.toutiao.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "第二批公募基金业绩比较基准调整开启 涉及上千只产品",
-        "summary": "",
-        "source": "",
-        "url": "https://wap.eastmoney.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "全国机动车上牌实现合格证联网核查 流程大幅简化",
-        "summary": "",
-        "source": "",
-        "url": "https://www.toutiao.com",
-        "time": "",
-        "heat": 5
-      }
-    ],
-    "mockHotNewsDomesticExtra": [
-      {
-        "title": "《快递暂行条例》修改实施一周年 绿色转型成效显著",
-        "summary": "",
-        "source": "",
-        "url": "https://www.gov.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "居民医保财政补助连续10年提高 今年人均达724元",
-        "summary": "",
-        "source": "",
-        "url": "https://www.toutiao.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "中俄空军完成第11次联合空中战略巡航 展示维护地区和平决心",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "我国人造太阳聚变堆超导磁体取得核心技术突破 100%国产化",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "西康高铁正式进入联调联试 西安至安康将缩至1小时内",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "中央社会工作部副部长贺志亮涉嫌严重违纪违法接受审查调查",
-        "summary": "",
-        "source": "",
-        "url": "https://www.ccdi.gov.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "神舟二十三号乘组在轨满一月 各项科学实验任务进展顺利",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "香港回归29周年 驻港部队军营开放组织飞行表演",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "2026年度电影总票房突破172亿元 《给阿嬷的情书》超19亿",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "王玉圣涉嫌严重违纪违法接受山西省纪委监委审查调查",
-        "summary": "",
-        "source": "",
-        "url": "https://www.ccdi.gov.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "中科院科研团队构建真菌王国数据库 免费开放识别毒蘑菇",
-        "summary": "",
-        "source": "",
-        "url": "https://www.cas.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "C909商用飞机运营十周年 已累计载客超3700万人次",
-        "summary": "",
-        "source": "",
-        "url": "https://finance.sina.com.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "湖南犬木塘水库九龙岭隧洞全线贯通 172项重大水利工程",
-        "summary": "",
-        "source": "",
-        "url": "https://www.toutiao.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "7月一批新规将施行 超龄劳动者权益保障等政策正式落地",
-        "summary": "",
-        "source": "",
-        "url": "https://www.sohu.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "灵晟超算登顶全球TOP500 时隔九年中国超算再排全球第一",
-        "summary": "",
-        "source": "",
-        "url": "https://finance.sina.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "新一代国产航空遥感系统正式投入运行 填补国内空白",
-        "summary": "",
-        "source": "",
-        "url": "https://www.toutiao.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "注册会计师法完成修改 着力解决审计造假突出问题",
-        "summary": "",
-        "source": "",
-        "url": "https://wap.eastmoney.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "盐城海事局发布航行警告 黄海南部部分海域实弹射击",
-        "summary": "",
-        "source": "",
-        "url": "https://www.sctv.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "前五月我国物流运行结构优化 社会物流总额达146.6万亿",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "湖南推行以创代论 345名大学生凭创业成果顺利毕业",
-        "summary": "",
-        "source": "",
-        "url": "https://www.toutiao.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "1-5月全国农业保险已赔付370亿元 有效保障农民利益",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "2026年黄河三角洲自然保护区生态补水正式启动",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "香港回归29年来内地与香港贸易值年均增长6.7%",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "2026暑期档电影票房破15亿元 近80部影片火热上映",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "空军航空兵某团运-20：锻造制胜空天的铁翼鲲鹏",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "中国音协舞协杂协选举产生新一届领导机构",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "前5月电子行业利润同比增长103.9% 高技术制造业引领",
-        "summary": "",
-        "source": "",
-        "url": "https://wap.eastmoney.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "美国设立军事协调小组协助落实美以黎三方框架协议",
-        "summary": "",
-        "source": "",
-        "url": "https://wap.eastmoney.com",
-        "time": "",
-        "heat": 5
       }
     ],
     "mockHotNewsInternational": [
       {
-        "title": "美伊有望达成协议 布伦特油价大幅下挫",
+        "title": "联合国安理会就中东局势召开紧急会议 多国呼吁立即停火",
         "summary": "",
         "source": "",
-        "url": "https://finance.sina.cn",
+        "url": "https://news.un.org",
         "time": "",
         "heat": 5
       },
       {
-        "title": "俄罗斯多地遭无人机袭击 莫斯科周边机场一度停运",
+        "title": "美国最高法院裁定限制联邦机构监管权力 震动全美政商界",
         "summary": "",
         "source": "",
-        "url": "https://www.sohu.com",
+        "url": "https://apnews.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "布基纳法索宣布即日起与法国断交",
+        "title": "欧盟与南方共同市场正式签署自由贸易协定 覆盖7.8亿人口",
         "summary": "",
         "source": "",
-        "url": "https://www.guancha.cn",
+        "url": "https://www.reuters.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "中国代表在联合国人权理事会揭批日本人权劣迹",
+        "title": "俄罗斯与朝鲜签署全面战略伙伴关系条约 深化军事合作",
         "summary": "",
         "source": "",
-        "url": "https://ysxw.cctv.cn",
+        "url": "https://www.bbc.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "美国众议院拨款委员会公布2027财年国防拨款法案草案",
+        "title": "法国国民议会选举首轮投票：极右翼国民联盟领跑 马克龙阵营遭重挫",
         "summary": "",
         "source": "",
-        "url": "https://www.chinaso.com",
+        "url": "https://www.afp.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "SpaceX上市首日收涨19% 市值突破万亿美元",
+        "title": "印度总理莫迪访问俄罗斯 双方签署能源和防务大单",
         "summary": "",
         "source": "",
-        "url": "https://top.baidu.com",
+        "url": "https://www.reuters.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "奥地利外长赖辛格访华 庆祝中奥建交55周年",
+        "title": "G7峰会闭幕：承诺向发展中国家提供6000亿美元基建投资",
         "summary": "",
         "source": "",
-        "url": "https://www.mfa.gov.cn",
+        "url": "https://www.cnbc.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "世界杯小组赛收官32强全部落位 淘汰赛6月29日打响",
+        "title": "朝鲜向日本海发射弹道导弹 韩日美紧急磋商应对",
         "summary": "",
         "source": "",
-        "url": "https://www.toutiao.com",
+        "url": "https://www.yna.co.kr",
         "time": "",
         "heat": 5
       },
       {
-        "title": "美伊冲突再升级 美军连续两天打击伊朗目标 伊朗回击美军基地",
+        "title": "德国经济第二季度环比增长0.3% 摆脱技术性衰退",
         "summary": "",
         "source": "",
-        "url": "https://ysxw.cctv.cn",
+        "url": "https://www.dw.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "国际金价半年内暴跌超1000美元 美联储政策预期施压",
+        "title": "英国大选：工党支持率领先保守党21个百分点 斯塔默有望入主唐宁街",
         "summary": "",
         "source": "",
-        "url": "https://view.inews.qq.com",
+        "url": "https://www.bbc.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "极端热浪席卷欧洲 多国刷新高温纪录 数百人死亡",
+        "title": "日本央行宣布加息至0.25% 日元汇率短线飙升2%",
         "summary": "",
         "source": "",
-        "url": "https://www.sohu.com",
+        "url": "https://www.nikkei.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "特朗普威胁对欧盟数字服务税国家征收100%报复性关税",
+        "title": "全球气温连续第13个月创历史新高 极端天气频发",
         "summary": "",
         "source": "",
-        "url": "https://www.toutiao.com",
+        "url": "https://www.theguardian.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "塞尔维亚总统武契奇宣布将在数周后辞职",
+        "title": "乌克兰总统泽连斯基访美 寻求获得远程打击武器",
         "summary": "",
         "source": "",
-        "url": "https://news.bjd.com.cn",
+        "url": "https://www.cnn.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "三星电子工会宣布无限期全面罢工 要求加薪8%",
+        "title": "沙特宣布不再续签石油美元协议 全球金融格局或生变",
         "summary": "",
         "source": "",
-        "url": "https://new.qq.com",
+        "url": "https://www.ft.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "英伟达市值突破4万亿美元 超越苹果成全球市值最高公司",
+        "title": "北约秘书长：北约成员国国防开支占GDP2%目标已成底线",
         "summary": "",
         "source": "",
-        "url": "https://new.qq.com",
+        "url": "https://www.nato.int",
         "time": "",
         "heat": 5
       },
       {
-        "title": "SpaceX星舰第六次试飞成功 完成轨道级飞行并安全返回",
+        "title": "澳大利亚总理阿尔巴尼斯访华 中澳关系加速回暖",
         "summary": "",
         "source": "",
-        "url": "https://www.163.com",
+        "url": "https://www.xinhuanet.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "英国国王首次公开纳税信息 一年缴税1290万英镑",
+        "title": "巴西总统卢拉宣布启动大规模基建计划 总投资额达2000亿美元",
         "summary": "",
         "source": "",
-        "url": "https://www.toutiao.com",
+        "url": "https://agenciabrasil.ebc.com.br",
         "time": "",
         "heat": 5
       },
       {
-        "title": "阿根廷3-1约旦全胜出线 梅西任意球破门创世界杯禁区外进球纪录",
+        "title": "土耳其总统埃尔多安访华 中土签署核能合作协议",
         "summary": "",
         "source": "",
-        "url": "https://www.toutiao.com",
+        "url": "https://www.xinhuanet.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "尼日利亚央行推出数字货币eNaira 2.0 新增离线支付功能",
+        "title": "加拿大野火肆虐 过火面积超千万公顷 空气质量恶化",
         "summary": "",
         "source": "",
-        "url": "https://www.news.cn",
+        "url": "https://www.cbc.ca",
         "time": "",
         "heat": 5
       },
       {
-        "title": "韩日防长在首尔会谈 同意深化AI等先进技术国防合作",
+        "title": "阿根廷参议院通过米莱经济改革法案 全国爆发大规模抗议",
         "summary": "",
         "source": "",
-        "url": "https://en.yna.co.kr",
+        "url": "https://www.reuters.com",
         "time": "",
         "heat": 5
       }
     ],
     "mockHotNewsInternationalExtra": [
       {
-        "title": "巴基斯坦卡拉奇汽车炸弹袭击 5名恐怖分子被击毙",
+        "title": "东南亚多国遭遇极端高温 菲律宾体感温度突破52℃",
         "summary": "",
         "source": "",
-        "url": "https://www.toutiao.com",
+        "url": "https://apnews.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "伊朗与阿联酋批准7月1日起恢复德黑兰至迪拜航线",
+        "title": "国际原子能机构：伊朗浓缩铀库存已达武器级水平的30倍",
         "summary": "",
         "source": "",
-        "url": "https://ysxw.cctv.cn",
+        "url": "https://www.iaea.org",
         "time": "",
         "heat": 5
       },
       {
-        "title": "委内瑞拉强震遇难人数升至1430人 8名中国公民确认遇难",
+        "title": "SpaceX星舰第五次试飞成功 首次实现完全可回收",
         "summary": "",
         "source": "",
-        "url": "https://ysxw.cctv.cn",
+        "url": "https://www.space.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "美军连续两天打击伊朗军事目标 伊朗威胁地狱式回击",
+        "title": "非洲联盟宣布启动非洲统一护照计划 2027年正式实施",
         "summary": "",
         "source": "",
-        "url": "https://ysxw.cctv.cn",
+        "url": "https://www.africanews.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "黎巴嫩真主党领导人拒绝承认美以黎三方框架协议",
+        "title": "世卫组织宣布Mpox疫情不再构成国际关注的突发公共卫生事件",
         "summary": "",
         "source": "",
-        "url": "https://www.toutiao.com",
+        "url": "https://www.who.int",
         "time": "",
         "heat": 5
       },
       {
-        "title": "以色列军方再度对黎巴嫩南部发动袭击 造成人员伤亡",
+        "title": "国际刑事法院对以色列和哈马斯领导人发出逮捕令",
         "summary": "",
         "source": "",
-        "url": "https://www.toutiao.com",
+        "url": "https://www.icc-cpi.int",
         "time": "",
         "heat": 5
       },
       {
-        "title": "欧洲极端热浪向东蔓延 多国刷新高温纪录 数百人死亡",
+        "title": "巴拿马运河水位回升 通行能力恢复至每日36艘",
+        "summary": "",
+        "source": "",
+        "url": "https://www.reuters.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "马来西亚宣布加入金砖国家 成为第九个正式成员国",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "墨西哥选出首位女总统 欣鲍姆以压倒性优势获胜",
+        "summary": "",
+        "source": "",
+        "url": "https://www.reuters.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "WHO：欧洲热浪已致超1300例超额死亡 1.91亿人面临35℃以上高温",
+        "summary": "",
+        "source": "",
+        "url": "https://www.163.com/game/article/DK3UFFO400318PFH_mobile.html",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "欧洲多国同日刷新高温纪录：波兰首破40℃ 德国41.7℃ 捷克41.1℃",
+        "summary": "",
+        "source": "",
+        "url": "https://www.163.com/game/article/DK3UFFO400318PFH_mobile.html",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "国际清算银行警告全球经济面临多重压力 AI热潮或难持续",
+        "summary": "",
+        "source": "",
+        "url": "https://cj.sina.com.cn/articles/view/2868676035/aafc85c302001rpss",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "自民党内部对华路线分歧公开化 石破茂等多名前首相批高市强硬政策",
+        "summary": "",
+        "source": "",
+        "url": "https://www.sohu.com/a/1042960859_122390055",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "专家：美军在南海\"自己加戏\"有违中美关系发展大方向",
+        "summary": "",
+        "source": "",
+        "url": "https://www.chinanews.com/gn/2026/06-28/10648796.shtml",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "乌克兰\"火烈鸟\"导弹打击俄伏尔加格勒军工厂 俄军大规模夜袭基辅",
+        "summary": "",
+        "source": "",
+        "url": "https://www.163.com/dy/article/L0IHMUC7055616X1.html",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "绍伊古向中方提两件事：金砖集体应对威胁机制与共同资源储备",
+        "summary": "",
+        "source": "",
+        "url": "https://www.sohu.com/a/1042959951_122679006",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "伊朗政坛曝出惊天内讧 最高领袖公开表达原则性不同意即批准备忘录",
+        "summary": "",
+        "source": "",
+        "url": "https://www.sohu.com/a/1042959585_122664140",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中国罕见谴责乌克兰 布良斯克大巴遭无人机袭击令孩子揪心",
+        "summary": "",
+        "source": "",
+        "url": "https://www.sohu.com/a/1042959618_122679218",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "巴基斯坦在阿富汗边境实施地面行动 击毙29名武装分子",
+        "summary": "",
+        "source": "",
+        "url": "https://m.gelonghui.com/live",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "以军摧毁黎真主党地下通道 发现数百件武器和火箭发射架",
+        "summary": "",
+        "source": "",
+        "url": "https://m.gelonghui.com/live",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "伊朗官员因近期袭击事件缺席美伊技术谈判 谈判进程陷入停滞",
+        "summary": "",
+        "source": "",
+        "url": "https://m.gelonghui.com/live",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "普京建议俄乌双方均停止打击对方领土纵深目标",
+        "summary": "",
+        "source": "",
+        "url": "https://m.gelonghui.com/live",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中美欧局势突变：欧盟对华新能源车调查延伸至插混车型",
+        "summary": "",
+        "source": "",
+        "url": "https://www.163.com/dy/article/L0I769FT0556124I.html",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "俄罗斯排除中美斡旋 俄乌和谈只认安克雷奇共识一条路",
+        "summary": "",
+        "source": "",
+        "url": "https://www.sohu.com/a/1042735708_122290832",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "巴基斯坦警方检查站遭手榴弹袭击 6人受伤",
+        "summary": "",
+        "source": "",
+        "url": "https://m.gelonghui.com/live",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "委内瑞拉强震遇难人数升至1430人 8名中国公民遇难",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "美军连续两天打击伊朗军事目标 双方围绕海峡控制权争端升级",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "特朗普威胁对欧洲数字税国家征收100%报复关税",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "岸田文雄卸任后首度发声：愿推动日中对话者越来越少",
+        "summary": "",
+        "source": "",
+        "url": "https://www.ifeng.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "美国肯塔基州发生洪灾进入紧急状态",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "意大利埃特纳火山喷发 警戒级别提升",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "霍尔木兹海峡货船遇袭 美方指控伊朗出手 油价随即飙升",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "2026世界杯小组赛收官 32强全部落位 伊朗韩国有喜有忧",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "美伊技术谈判有望下周在瑞士恢复 鲁比奥访科威特表态",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "黎巴嫩真主党领导人拒绝承认三方框架协议",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "伊朗驳斥美方\"同意最高级别核查\"说辞 双方各执一词",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "朝鲜最高人民会议通过多项法律修正案",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "日本被曝对辽宁舰编队近距离抵近 中方敦促日方谨言慎行",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "法国AI初创Mistral AI发布OCR4模型 覆盖170种语言",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      }
+    ],
+    "mockHotNewsAI": [
+      {
+        "title": "AI Engineer World's Fair 2026旧金山开幕 6000+工程师参会",
+        "summary": "",
+        "source": "",
+        "url": "https://www.tmtpost.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中国人工智能OPC产教融合座谈会6月29日杭州启幕",
         "summary": "",
         "source": "",
         "url": "https://www.sohu.com",
@@ -610,87 +972,39 @@
         "heat": 5
       },
       {
-        "title": "德国大众汽车计划全球裁员至多10万人 将关闭4家德国工厂",
+        "title": "2026现代能源经济思客会呼和浩特举行 聚焦数字技术与能源融合",
         "summary": "",
         "source": "",
-        "url": "https://www.toutiao.com",
+        "url": "https://www.nmg.xinhuanet.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "俄军向乌克兰境内发射8枚导弹和142架无人机 基辅多处起火",
+        "title": "国际量子人工智能与生命未来研讨会在亚洲大学举办",
         "summary": "",
         "source": "",
-        "url": "https://www.syd.com.cn",
+        "url": "https://quantum.asia.edu.tw",
         "time": "",
         "heat": 5
       },
       {
-        "title": "2026世界杯小组赛收官 32强全部落位 欧洲13队晋级",
+        "title": "Superhuman溢价收购AI文本检测独角兽GPTZero 打造真实性防线",
         "summary": "",
         "source": "",
-        "url": "https://www.toutiao.com",
+        "url": "https://36kr.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "巴基斯坦卡拉奇发生汽车炸弹袭击 5名恐怖分子被击毙",
+        "title": "大模型行业2026下半场：AI检测AI的绞肉机之战",
         "summary": "",
         "source": "",
-        "url": "https://www.toutiao.com",
+        "url": "https://36kr.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "阿根廷3-1击败约旦 梅西任意球破门创世界杯禁区外进球纪录",
-        "summary": "",
-        "source": "",
-        "url": "http://www.kenyastar.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "欧盟向委内瑞拉提供500万欧元紧急援助 启动民事保护机制",
-        "summary": "",
-        "source": "",
-        "url": "https://www.thestar.com.my",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "意大利埃特纳火山喷发 警戒级别提升至最高级",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "美国肯塔基州发生严重洪灾进入紧急状态 数千人被疏散",
-        "summary": "",
-        "source": "",
-        "url": "https://ysxw.cctv.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "教皇利奥为委内瑞拉地震遇难者祈祷 计划11月访问拉美",
-        "summary": "",
-        "source": "",
-        "url": "https://www.thestar.com.my",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "SK海力士宣布294亿美元IPO 创韩国史上最大规模上市纪录",
-        "summary": "",
-        "source": "",
-        "url": "https://dev.to",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "韩国三星电子工会宣布无限期全面罢工 要求加薪8%",
+        "title": "IBM发布全球首个亚1纳米芯片架构 突破硅基物理极限",
         "summary": "",
         "source": "",
         "url": "https://new.qq.com",
@@ -698,156 +1012,29 @@
         "heat": 5
       },
       {
-        "title": "波音星际客机首次载人飞行任务顺利完成 安全返回地球",
+        "title": "2026年AI Agent十大技术趋势：从工具进化为自主思考者",
         "summary": "",
         "source": "",
-        "url": "https://new.qq.com",
+        "url": "https://aibridge.blog.csdn.net",
         "time": "",
         "heat": 5
       },
       {
-        "title": "波音777X获FAA适航认证 超远程商业航线将迎新纪元",
+        "title": "英伟达ENPIRE框架发布 AI Agent首次自主操控机器人",
         "summary": "",
         "source": "",
-        "url": "https://new.qq.com",
+        "url": "https://blog.csdn.net",
         "time": "",
         "heat": 5
       },
       {
-        "title": "欧盟通过数字市场法案执行细则 科技巨头面临新监管挑战",
+        "title": "DeepSeek完成500亿融资创全球AI纪录 估值3400亿登独角兽榜",
         "summary": "",
         "source": "",
-        "url": "https://news.sina.com.cn",
+        "url": "https://www.ccidnet.com",
         "time": "",
         "heat": 5
       },
-      {
-        "title": "美国国会通过AI问责法案 要求AI企业承担安全与公平责任",
-        "summary": "",
-        "source": "",
-        "url": "https://news.cctv.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "俄乌局势出现新进展",
-        "summary": "外媒 Al Jazeera 报道：俄乌局势出现新进展。重点关注事件最新进展、相关背景和可能影响，后续变化仍需持续跟踪。",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/6/28/ukraine-says-it-attacked-two-russian-oil-refineries?traffic_source=rss",
-        "time": "2026-06-28 21:36",
-        "heat": 9,
-        "rawTitle": "原文：Ukraine says it attacked two Russian oil refineries"
-      },
-      {
-        "title": "社交媒体年龄禁令接近临界点，科技公司正在失去公众信任",
-        "summary": "外媒 The Guardian World 报道：社交媒体年龄禁令接近临界点，科技公司正在失去公众信任。重点看事件发生的地点、涉及对象、最新进展和可能影响；后续需继续核验官方通报和更多信源。",
-        "source": "The Guardian World",
-        "url": "https://www.theguardian.com/world/2026/jun/28/tech-firms-are-losing-the-public-social-media-age-bans-near-tipping-point",
-        "time": "2026-06-28 18:00",
-        "heat": 8,
-        "rawTitle": "原文：‘Tech firms are losing the public’: social media age bans near tipping point"
-      },
-      {
-        "title": "澳大利亚男子在泰国被控谋杀，少女遗体在芭堤雅行李箱中被发现",
-        "summary": "外媒 The Guardian World 报道：澳大利亚男子在泰国被控谋杀，少女遗体在芭堤雅行李箱中被发现。重点看事件发生的地点、涉及对象、最新进展和可能影响；后续需继续核验官方通报和更多信源。",
-        "source": "The Guardian World",
-        "url": "https://www.theguardian.com/australia-news/2026/jun/28/australian-man-charged-thailand-teenage-girl-body-found-in-suitcase-pattaya-city-ntwnfb",
-        "time": "2026-06-28 17:25",
-        "heat": 8,
-        "rawTitle": "原文：Australian man charged with murder in Thailand after teenage girl’s body found in suitcase"
-      },
-      {
-        "title": "匈牙利反对派发起“炼狱行动”，试图瓦解欧尔班政治体系",
-        "summary": "外媒 DW World 报道：匈牙利反对派发起“炼狱行动”，试图瓦解欧尔班政治体系。重点看事件发生的地点、涉及对象、最新进展和可能影响；后续需继续核验官方通报和更多信源。",
-        "source": "DW World",
-        "url": "https://www.dw.com/en/with-operation-purgatory-magyar-moves-to-demolish-orban-system/a-77726207?maca=en-rss-en-world-4025-xml-mrss",
-        "time": "2026-06-28 17:25",
-        "heat": 8,
-        "rawTitle": "原文：With 'Operation Purgatory,' Magyar moves to demolish Orban system"
-      },
-      {
-        "title": "澳大利亚演员保罗·霍根称政客汉森为“鹈鹕”，澳式俚语引发讨论",
-        "summary": "外媒 The Guardian World 报道：澳大利亚演员保罗·霍根称政客汉森为“鹈鹕”，澳式俚语引发讨论。重点看事件发生的地点、涉及对象、最新进展和可能影响；后续需继续核验官方通报和更多信源。",
-        "source": "The Guardian World",
-        "url": "https://www.theguardian.com/australia-news/2026/jun/28/paul-hogan-pauline-hanson-pelican-insult-australian-slang-please-explain",
-        "time": "2026-06-28 15:41",
-        "heat": 8,
-        "rawTitle": "原文：Paul Hogan has reportedly called Pauline Hanson a ‘pelican’. Please explain?"
-      },
-      {
-        "title": "新喀里多尼亚举行2019年以来首次省级选举",
-        "summary": "外媒 Al Jazeera 报道：新喀里多尼亚举行2019年以来首次省级选举。重点看事件发生的地点、涉及对象、最新进展和可能影响；后续需继续核验官方通报和更多信源。",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/6/28/polls-open-in-new-caledonias-first-provincial-elections-since-2019?traffic_source=rss",
-        "time": "2026-06-28 15:12",
-        "heat": 8,
-        "rawTitle": "原文：Polls open in New Caledonia’s first provincial elections since 2019"
-      },
-      {
-        "title": "肯尼亚教育语言陷入两难：英语和母语该如何取舍",
-        "summary": "外媒 Al Jazeera 报道：肯尼亚教育语言陷入两难：英语和母语该如何取舍。重点看事件发生的地点、涉及对象、最新进展和可能影响；后续需继续核验官方通报和更多信源。",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/6/28/between-english-and-mother-tongue-kenyas-education-language-dilemma?traffic_source=rss",
-        "time": "2026-06-28 13:24",
-        "heat": 8,
-        "rawTitle": "原文：Between English and mother tongue: Kenya’s education language dilemma"
-      },
-      {
-        "title": "金正恩为何很少谈及母亲及其存在争议的血统背景",
-        "summary": "外媒 BBC World 报道：金正恩为何很少谈及母亲及其存在争议的血统背景。重点看事件发生的地点、涉及对象、最新进展和可能影响；后续需继续核验官方通报和更多信源。",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/cpvp3xn489no?at_medium=RSS&at_campaign=rss",
-        "time": "2026-06-28 07:10",
-        "heat": 8,
-        "rawTitle": "原文：Why Kim Jong Un never talks about his mother - or her controversial bloodline"
-      },
-      {
-        "title": "记者手记：在埃博拉疫情现场报道是什么体验",
-        "summary": "外媒 NPR World 报道：记者手记：在埃博拉疫情现场报道是什么体验。重点看事件发生的地点、涉及对象、最新进展和可能影响；后续需继续核验官方通报和更多信源。",
-        "source": "NPR World",
-        "url": "https://www.npr.org/2026/06/27/nx-s1-5866594/reporters-notebook-what-its-like-to-report-from-an-ebola-outbreak",
-        "time": "2026-06-28 05:05",
-        "heat": 8,
-        "rawTitle": "原文：Reporter's Notebook: What its like to report from an Ebola outbreak"
-      },
-      {
-        "title": "德国、丹麦和捷克高温纪录被热浪打破",
-        "summary": "外媒 BBC World 报道：德国、丹麦和捷克高温纪录被热浪打破。重点看事件发生的地点、涉及对象、最新进展和可能影响；后续需继续核验官方通报和更多信源。",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/cx2vdydz31no?at_medium=RSS&at_campaign=rss",
-        "time": "2026-06-28 04:48",
-        "heat": 8,
-        "rawTitle": "原文：Heatwave breaks records in Germany, Denmark and Czech Republic"
-      },
-      {
-        "title": "塞尔维亚总统武契奇称将在数周内辞职",
-        "summary": "外媒 Al Jazeera 报道：塞尔维亚总统武契奇称将在数周内辞职。重点看事件发生的地点、涉及对象、最新进展和可能影响；后续需继续核验官方通报和更多信源。",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/6/27/serbias-president-aleksandar-vucic-says-will-resign-within-weeks?traffic_source=rss",
-        "time": "2026-06-28 04:23",
-        "heat": 8,
-        "rawTitle": "原文：Serbia’s President Aleksandar Vucic says will resign within ‘weeks’"
-      },
-      {
-        "title": "美国250周年纪念版护照加入特朗普头像引发关注",
-        "summary": "外媒 BBC World 报道：美国250周年纪念版护照加入特朗普头像引发关注。重点关注事件最新进展、相关背景和可能影响，后续变化仍需持续跟踪。",
-        "source": "BBC World",
-        "url": "https://www.bbc.co.uk/news/articles/ce3ewkdgw9ro?at_medium=RSS&at_campaign=rss",
-        "time": "2026-06-28 04:03",
-        "heat": 8,
-        "rawTitle": "原文：Trump's face is added to select US passports for America's 250th birthday"
-      },
-      {
-        "title": "美国为何将矛头指向德国制药业？",
-        "summary": "外媒 DW World 报道：美国为何将矛头指向德国制药业？。重点看事件发生的地点、涉及对象、最新进展和可能影响；后续需继续核验官方通报和更多信源。",
-        "source": "DW World",
-        "url": "https://www.dw.com/en/why-is-the-us-targeting-germany-s-drug-industry/a-77727707?maca=en-rss-en-world-4025-xml-mrss",
-        "time": "2026-06-28 00:28",
-        "heat": 8,
-        "rawTitle": "原文：Why is the US targeting Germany's drug industry?"
-      }
-    ],
-    "mockHotNewsAI": [
       {
         "title": "Anthropic旗舰AI Mythos5遭美国商务部禁令 被指数小时攻陷NSA系统",
         "summary": "",
@@ -927,7 +1114,9 @@
         "url": "https://www.aibase.com/news/29193",
         "time": "",
         "heat": 5
-      },
+      }
+    ],
+    "mockHotNewsAIExtra": [
       {
         "title": "阿里巴巴开源page-agent网页智能代理框架 助力自动化测试",
         "summary": "",
@@ -1007,9 +1196,7 @@
         "url": "https://www.sohu.com/a/1041376502_489550",
         "time": "",
         "heat": 5
-      }
-    ],
-    "mockHotNewsAIExtra": [
+      },
       {
         "title": "OpenAI与Broadcom联合推出首款自研AI芯片Jalapeño",
         "summary": "",
@@ -1067,22 +1254,6 @@
         "heat": 5
       },
       {
-        "title": "Superhuman溢价收购AI文本检测独角兽GPTZero 打造真实性防线",
-        "summary": "",
-        "source": "",
-        "url": "https://36kr.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "大模型行业2026下半场：AI检测AI的绞肉机之战",
-        "summary": "",
-        "source": "",
-        "url": "https://36kr.com",
-        "time": "",
-        "heat": 5
-      },
-      {
         "title": "智元第15000台通用具身机器人精灵G2正式量产下线",
         "summary": "",
         "source": "",
@@ -1099,34 +1270,10 @@
         "heat": 5
       },
       {
-        "title": "IBM发布全球首个亚1纳米芯片架构 突破硅基物理极限",
-        "summary": "",
-        "source": "",
-        "url": "https://new.qq.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "DeepSeek完成500亿融资创全球AI纪录 估值3400亿登独角兽榜",
-        "summary": "",
-        "source": "",
-        "url": "https://www.ccidnet.com",
-        "time": "",
-        "heat": 5
-      },
-      {
         "title": "丰田宣布固态电池量产时间表提前至2027年 续航1500公里",
         "summary": "",
         "source": "",
         "url": "https://new.qq.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "英伟达ENPIRE框架发布 AI Agent首次自主操控机器人",
-        "summary": "",
-        "source": "",
-        "url": "https://blog.csdn.net",
         "time": "",
         "heat": 5
       },
@@ -1140,14 +1287,6 @@
       },
       {
         "title": "谷歌I/O 2026发布Gemini for Science 开启AI科研新时代",
-        "summary": "",
-        "source": "",
-        "url": "https://aibridge.blog.csdn.net",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "2026年AI Agent十大技术趋势：从工具进化为自主思考者",
         "summary": "",
         "source": "",
         "url": "https://aibridge.blog.csdn.net",
@@ -1172,7 +1311,7 @@
       },
       {
         "title": "AI、初创公司相关动态",
-        "summary": "科技媒体 The Decoder 报道：AI、初创公司相关动态。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "AI、初创公司相关动态。",
         "source": "The Decoder",
         "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test/",
         "time": "2026-06-28 18:16",
@@ -1181,7 +1320,7 @@
       },
       {
         "title": "银河系中心最新高清图像发布，细节达到迄今最高水平",
-        "summary": "科技媒体 Wired 报道：银河系中心最新高清图像发布，细节达到迄今最高水平。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "银河系中心最新高清图像发布，细节达到迄今最高水平。",
         "source": "Wired",
         "url": "https://www.wired.com/story/this-is-the-most-detailed-image-yet-of-the-milky-ways-center/",
         "time": "2026-06-28 17:30",
@@ -1190,7 +1329,7 @@
       },
       {
         "title": "中国突破美国限制建成全球最快超级计算机",
-        "summary": "科技媒体 Wired 报道：中国突破美国限制建成全球最快超级计算机。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "中国突破美国限制建成全球最快超级计算机。",
         "source": "Wired",
         "url": "https://www.wired.com/story/china-defies-us-restrictions-and-builds-the-worlds-fastest-supercomputer/",
         "time": "2026-06-28 17:00",
@@ -1199,7 +1338,7 @@
       },
       {
         "title": "新浪开源 VibeThinker-3B：展示推理能力可压缩，事实知识难压缩",
-        "summary": "科技媒体 The Decoder 报道：新浪开源 VibeThinker-3B：展示推理能力可压缩，事实知识难压缩。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "新浪开源 VibeThinker-3B：展示推理能力可压缩，事实知识难压缩。",
         "source": "The Decoder",
         "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt/",
         "time": "2026-06-28 15:44",
@@ -1208,7 +1347,7 @@
       },
       {
         "title": "TMD 智能无钥匙自行车锁评测：便捷性与安全性受关注",
-        "summary": "科技媒体 The Verge 报道：TMD 智能无钥匙自行车锁评测：便捷性与安全性受关注。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "TMD 智能无钥匙自行车锁评测：便捷性与安全性受关注。",
         "source": "The Verge",
         "url": "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review",
         "time": "2026-06-28 15:00",
@@ -1217,7 +1356,7 @@
       },
       {
         "title": "印度支付行业负责人：AI 将深度参与下一阶段数字支付增长",
-        "summary": "科技媒体 TechCrunch 报道：印度支付行业负责人：AI 将深度参与下一阶段数字支付增长。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "印度支付行业负责人：AI 将深度参与下一阶段数字支付增长。",
         "source": "TechCrunch",
         "url": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
         "time": "2026-06-28 13:00",
@@ -1226,7 +1365,7 @@
       },
       {
         "title": "软银 CEO 质疑马斯克太空数据中心热潮，行业也有疑问",
-        "summary": "科技媒体 TechCrunch AI 报道：软银 CEO 质疑马斯克太空数据中心热潮，行业也有疑问。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "软银 CEO 质疑马斯克太空数据中心热潮，行业也有疑问。",
         "source": "TechCrunch AI",
         "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
         "time": "2026-06-28 04:42",
@@ -1235,7 +1374,7 @@
       },
       {
         "title": "数字内容所有权再引争议：用户购买后仍可能失去访问权",
-        "summary": "科技媒体 Engadget 报道：数字内容所有权再引争议：用户购买后仍可能失去访问权。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "数字内容所有权再引争议：用户购买后仍可能失去访问权。",
         "source": "Engadget",
         "url": "https://www.engadget.com/2203232/heres-your-daily-reminder-that-you-dont-own-digital-content/",
         "time": "2026-06-28 03:45",
@@ -1244,7 +1383,7 @@
       },
       {
         "title": "作家玛格丽特·阿特伍德称 AI 最大问题是“垃圾进，垃圾出”",
-        "summary": "科技媒体 The Verge AI 报道：作家玛格丽特·阿特伍德称 AI 最大问题是“垃圾进，垃圾出”。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "作家玛格丽特·阿特伍德称 AI 最大问题是“垃圾进，垃圾出”。",
         "source": "The Verge AI",
         "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
         "time": "2026-06-28 02:39",
@@ -1253,7 +1392,7 @@
       },
       {
         "title": "iOS 版 Kindle 应用新增老款 Kindle 没有的功能",
-        "summary": "科技媒体 Engadget 报道：iOS 版 Kindle 应用新增老款 Kindle 没有的功能。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "iOS 版 Kindle 应用新增老款 Kindle 没有的功能。",
         "source": "Engadget",
         "url": "https://www.engadget.com/2202142/kindle-app-features-ios-has-ereader-still-doesnt-have/",
         "time": "2026-06-27 23:30",
@@ -1262,7 +1401,7 @@
       },
       {
         "title": "Anthropic 调查：半数 Claude 用户称 AI 已能处理一半工作",
-        "summary": "科技媒体 The Decoder 报道：Anthropic 调查：半数 Claude 用户称 AI 已能处理一半工作。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "Anthropic 调查：半数 Claude 用户称 AI 已能处理一半工作。",
         "source": "The Decoder",
         "url": "https://the-decoder.com/half-of-claude-users-say-ai-can-already-handle-half-their-work-according-to-anthropic-survey/",
         "time": "2026-06-27 23:28",
@@ -1271,7 +1410,7 @@
       },
       {
         "title": "《卫报》Kai Wright 表示暂不购买新手机",
-        "summary": "科技媒体 The Verge 报道：《卫报》Kai Wright 表示暂不购买新手机。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "《卫报》Kai Wright 表示暂不购买新手机。",
         "source": "The Verge",
         "url": "https://www.theverge.com/report/958695/kai-wright-npr-guardian-interview-questionnaire",
         "time": "2026-06-27 23:15",
@@ -1280,7 +1419,7 @@
       },
       {
         "title": "独立开发者等不到新《星际火狐》，决定自己开发替代作品",
-        "summary": "科技媒体 The Verge 报道：独立开发者等不到新《星际火狐》，决定自己开发替代作品。内容涉及 AI 技术、产品变化、公司动态或产业趋势，后续影响值得继续观察。",
+        "summary": "独立开发者等不到新《星际火狐》，决定自己开发替代作品。",
         "source": "The Verge",
         "url": "https://www.theverge.com/entertainment/957679/indie-developers-star-fox-games",
         "time": "2026-06-27 22:00",
@@ -1289,7 +1428,7 @@
       },
       {
         "title": "一位创业者患癌后，如何借助 AI 辅助抗癌决策",
-        "summary": "科技媒体 TechCrunch AI 报道：一位创业者患癌后，如何借助 AI 辅助抗癌决策。内容涉及 AI 技术、产品变化、公司动态或产业趋势，后续影响值得继续观察。",
+        "summary": "一位创业者患癌后，如何借助 AI 辅助抗癌决策。",
         "source": "TechCrunch AI",
         "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
         "time": "2026-06-27 22:00",
@@ -1298,7 +1437,7 @@
       },
       {
         "title": "Engadget 评测汇总：MSI Claw 8 EX AI+、索尼 A7R VI 等新品",
-        "summary": "科技媒体 Engadget 报道：Engadget 评测汇总：MSI Claw 8 EX AI+、索尼 A7R VI 等新品。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
+        "summary": "Engadget 评测汇总：MSI Claw 8 EX AI+、索尼 A7R VI 等新品。",
         "source": "Engadget",
         "url": "https://www.engadget.com/2202417/engadget-review-recap-msi-claw-8-ex-ai/",
         "time": "2026-06-27 22:00",
@@ -1307,53 +1446,25 @@
       },
       {
         "title": "苹果为何让用户为科技巨头的 AI 投入支付更多成本？",
-        "summary": "科技媒体 The Verge AI 报道：苹果为何让用户为科技巨头的 AI 投入支付更多成本？。内容涉及 AI 技术、产品变化、公司动态或产业趋势，后续影响值得继续观察。",
+        "summary": "苹果为何让用户为科技巨头的 AI 投入支付更多成本？。",
         "source": "The Verge AI",
         "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
         "time": "2026-06-27 21:30",
         "heat": 7,
         "rawTitle": "原文：Why is Apple asking me to pay more for Big Tech’s AI obsession?"
-      },
-      {
-        "title": "摩根大通警告：AI 市场出现多重风险信号",
-        "summary": "科技媒体 The Decoder 报道：摩根大通警告：AI 市场出现多重风险信号。内容涉及 AI 技术、产品变化、公司动态或产业趋势，后续影响值得继续观察。",
-        "source": "The Decoder",
-        "url": "https://the-decoder.com/j-p-morgan-sees-a-pile-of-red-flags-in-the-ai-market/",
-        "time": "2026-06-27 21:22",
-        "heat": 6,
-        "rawTitle": "原文：J.P. Morgan sees a pile of red flags in the AI market"
-      },
-      {
-        "title": "最可能自动化岗位的公司，正资助10亿美元再培训计划",
-        "summary": "科技媒体 The Decoder 报道：最可能自动化岗位的公司，正资助10亿美元再培训计划。内容涉及 AI 技术、产品变化、公司动态或产业趋势，后续影响值得继续观察。",
-        "source": "The Decoder",
-        "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you/",
-        "time": "2026-06-27 20:25",
-        "heat": 6,
-        "rawTitle": "原文：The companies most likely to automate your job are now funding a $1 billion program to retrain you"
-      },
-      {
-        "title": "Anthropic 出口限制持续，亚洲 AI 初创公司推出类 Mythos 模型",
-        "summary": "科技媒体 TechCrunch AI 报道：Anthropic 出口限制持续，亚洲 AI 初创公司推出类 Mythos 模型。重点看它涉及的产品、技术路线、公司动作和产业影响，尤其是对 AI 应用、硬件生态或数据安全的后续影响。",
-        "source": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-        "time": "2026-06-27 20:00",
-        "heat": 7,
-        "rawTitle": "原文：Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on"
-      },
-      {
-        "title": "横版 Roguelite、Steam Deck 冰球等独立游戏新品值得关注",
-        "summary": "科技媒体 Engadget 报道：横版 Roguelite、Steam Deck 冰球等独立游戏新品值得关注。内容涉及 AI 技术、产品变化、公司动态或产业趋势，后续影响值得继续观察。",
-        "source": "Engadget",
-        "url": "https://www.engadget.com/2202997/a-sidescrolling-roguelite-platformer-steam-deck-air-hockey-and-other-new-indie-games-worth-checking-out/",
-        "time": "2026-06-27 20:00",
-        "heat": 6,
-        "rawTitle": "原文：A sidescrolling roguelite platformer, Steam Deck air hockey and other new indie games worth checking out"
       }
     ],
     "mockEntertainment": [
       {
-        "title": "第33届东方风云榜音乐盛典今晚上海开唱 群星云集",
+        "title": "《流浪地球3》正式官宣定档2027年春节 吴京刘德华回归",
+        "summary": "",
+        "source": "",
+        "url": "https://ent.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "周杰伦2026世界巡回演唱会巴黎站座无虚席 加场两场",
         "summary": "",
         "source": "",
         "url": "https://weibo.com",
@@ -1361,47 +1472,23 @@
         "heat": 5
       },
       {
-        "title": "尹净汉正式退伍 SEVENTEEN军白期开启解冻",
+        "title": "杨紫琼获戛纳终身成就奖 成为首位获此殊荣的亚洲演员",
         "summary": "",
         "source": "",
-        "url": "https://ent.sina.cn",
+        "url": "https://ent.qq.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "丝芭起诉鞠婧祎案开庭 合约纠纷持续升级",
+        "title": "《黑神话：悟空》全球销量突破3500万份 登顶Steam年度销量榜",
         "summary": "",
         "source": "",
-        "url": "https://baike.baidu.com",
+        "url": "https://ent.163.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "周深新歌今日登陆网易云 脱口秀综艺7月3日定档",
-        "summary": "",
-        "source": "",
-        "url": "https://yule.sohu.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "温网正赛今日开打 卫冕冠军辛纳亮相备战",
-        "summary": "",
-        "source": "",
-        "url": "https://www.163.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "《灵笼第二季》斩获白玉兰奖最佳动画片",
-        "summary": "",
-        "source": "",
-        "url": "https://www.thecover.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "辛芷蕾上影节红毯顶级高定国内首穿",
+        "title": "2026微博电影之夜红毯 肖战刘亦菲同框引热议",
         "summary": "",
         "source": "",
         "url": "https://weibo.com",
@@ -1409,7 +1496,39 @@
         "heat": 5
       },
       {
-        "title": "任嘉伦内娱新规第一人 新剧热播引关注",
+        "title": "《歌手2026》总决赛直播 那英夺冠创历史",
+        "summary": "",
+        "source": "",
+        "url": "https://ent.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "杨幂新剧《长安十二时辰2》开播首日收视率破3",
+        "summary": "",
+        "source": "",
+        "url": "https://ent.qq.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "迪士尼真人版《花木兰2》中国首映 刘亦菲再披战甲",
+        "summary": "",
+        "source": "",
+        "url": "https://ent.163.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "张艺谋获威尼斯电影节终身成就奖 新片《三体》开机",
+        "summary": "",
+        "source": "",
+        "url": "https://ent.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "BLACKPINK宣布2026全球巡演加场 上海广州深圳各一场",
         "summary": "",
         "source": "",
         "url": "https://weibo.com",
@@ -1417,161 +1536,289 @@
         "heat": 5
       },
       {
-        "title": "白玉兰奖落幕 任素汐直言内娱生态引热议 网友点赞真实敢言",
+        "title": "《封神第二部》暑期档上映 首日预售破3亿",
         "summary": "",
         "source": "",
-        "url": "https://yule.sohu.com",
+        "url": "https://ent.qq.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "多名艺人痛失艺名恢复本名 丁禹兮变丁舟杰 宋祖儿变孙凡清",
+        "title": "易烊千玺凭《小小的我》获上海电影节最佳男主角",
         "summary": "",
         "source": "",
-        "url": "https://ent.sina.cn",
+        "url": "https://ent.sina.com.cn",
         "time": "",
         "heat": 5
       },
       {
-        "title": "韩红首映礼一句宣发台词引发争议 公益人设遭遇舆论反噬",
+        "title": "刘德华2026巡回演唱会北京鸟巢站 四场门票30秒售罄",
         "summary": "",
         "source": "",
-        "url": "https://yule.sohu.com",
+        "url": "https://weibo.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "安崎新恋情登上热搜 视频画质模糊无同框 工作室未回应",
+        "title": "Netflix热剧《鱿鱼游戏3》定档12月 李政宰回归",
         "summary": "",
         "source": "",
-        "url": "https://k.sina.com.cn",
+        "url": "https://ent.163.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "谢娜巡演票价对标周杰伦引争议 从圆梦专场变全国巡演被质疑",
+        "title": "国产动画《哪吒之魔童闹海》全球票房破20亿美元",
         "summary": "",
         "source": "",
-        "url": "https://yule.sohu.com",
+        "url": "https://ent.sina.com.cn",
         "time": "",
         "heat": 5
       },
       {
-        "title": "霍启山娜然被爆领证结婚 豪门恋情再引关注",
+        "title": "王嘉尔宣布成立个人厂牌 签约多位华语新锐音乐人",
         "summary": "",
         "source": "",
-        "url": "https://yule.sohu.com",
+        "url": "https://ent.qq.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "娱乐圈连环瓜：肖奈频接站台 牙疼小花综艺被牺牲",
+        "title": "《乘风2026》总决赛 谢娜C位成团 收视率创六季新高",
         "summary": "",
         "source": "",
-        "url": "https://www.sohu.com",
+        "url": "https://weibo.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "第31届白玉兰奖揭晓 杨紫凭《生命树》获最佳女主角",
+        "title": "赵丽颖新电影《酱园弄》入围戛纳主竞赛单元",
         "summary": "",
         "source": "",
-        "url": "https://m.weibo.cn",
+        "url": "https://ent.sina.com.cn",
         "time": "",
         "heat": 5
       },
       {
-        "title": "《太平年》获白玉兰最佳中国电视剧 同时斩获四项大奖",
+        "title": "王一博新专辑《追光》上线 首日数字销量突破500万张",
         "summary": "",
         "source": "",
-        "url": "https://ent.sina.cn",
+        "url": "https://weibo.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "《沉默的荣耀》获白玉兰评委会大奖 于和伟获视帝",
+        "title": "真人版《海贼王》第二季杀青 尾田荣一郎亲自监修剧本",
         "summary": "",
         "source": "",
-        "url": "https://ent.sina.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "《给阿嬷的情书》票房超19亿 暂列2026年度票房亚军",
-        "summary": "",
-        "source": "",
-        "url": "https://view.inews.qq.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "重大革命历史题材电影《四渡》上映 口碑票房双丰收",
-        "summary": "",
-        "source": "",
-        "url": "https://view.inews.qq.com",
+        "url": "https://ent.qq.com",
         "time": "",
         "heat": 5
       }
     ],
     "mockEntertainmentExtra": [
       {
-        "title": "2026暑期档电影票房破15亿元 近80部影片火热上映",
+        "title": "华语乐坛年度盛典金曲奖揭晓 周深包揽三项大奖",
         "summary": "",
         "source": "",
-        "url": "https://view.inews.qq.com",
+        "url": "https://ent.163.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "白宇杨幂2026白玉兰同框 双双提名视帝视后引热议",
+        "title": "《盗墓笔记》重启系列官宣 朱一龙黄俊捷回归主演",
         "summary": "",
         "source": "",
-        "url": "https://k.sina.com.cn",
+        "url": "https://ent.sina.com.cn",
         "time": "",
         "heat": 5
       },
       {
-        "title": "电影《魔方小姐》全国点映开启 猫眼评分9.6口碑爆棚",
+        "title": "Taylor Swift中国巡演官宣 上海连开六场创外来艺人纪录",
         "summary": "",
         "source": "",
-        "url": "https://ent.ifeng.com",
+        "url": "https://weibo.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "多名艺人在腾讯视频2026年度发布活动中改回本名",
+        "title": "综艺《这就是街舞7》官宣导师阵容 王一博回归队长",
         "summary": "",
         "source": "",
-        "url": "https://ent.sina.cn",
+        "url": "https://ent.qq.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "白玉兰众生相：于和伟杨紫封神 胡歌全程坐后排引唏嘘",
+        "title": "迪丽热巴首部好莱坞电影《龙之心》预告片全球首发",
         "summary": "",
         "source": "",
-        "url": "https://yule.sohu.com",
+        "url": "https://ent.163.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "迟蓬凭《生万物》再获白玉兰最佳女配角",
+        "title": "《四渡》首日票房2800万夺冠 刘烨王雷于适领衔排片占比24%",
         "summary": "",
         "source": "",
-        "url": "https://yule.sohu.com",
+        "url": "https://yule.sohu.com/a/1042716862_121721249",
         "time": "",
         "heat": 5
       },
       {
-        "title": "电视剧《炽夏》热播 口碑两极分化引发全网争论",
+        "title": "《乘风2026》总决赛芒果TV直播 本季最强成团阵容即将诞生",
         "summary": "",
         "source": "",
-        "url": "https://view.inews.qq.com",
+        "url": "https://www.toutiao.com/a1869102529249291",
         "time": "",
         "heat": 5
       },
       {
-        "title": "上海发布AI微短剧扶持政策 打造全国AI短剧产业高地",
+        "title": "《说唱巅峰对决2026》爱奇艺重磅上线 顶尖说唱音乐人集结",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a1869102529249291",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "《藏海传》收官引热议 肖战领衔权谋大剧话题度持续攀升",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a1869102529249291",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "《中餐厅·南洋拾光季》热播中 明星嘉宾异国经营中餐厅",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a1869102529249291",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "《歌手2026》新一轮竞演火爆 顶级唱将同台比拼",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a1869102529249291",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "《五十公里桃花坞6》热播 社交实验观察综艺再掀话题",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a1869102529249291",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "《宴三合》传刘亦菲陈晓二搭 古装大剧选角引期待",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a1869102529249291",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "第31届白玉兰颁奖典礼 肖战杨紫角逐视帝视后",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a1869102529249291",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "蔡依林9项提名领跑第37届金曲奖 今晚盛大颁奖",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a1869102529249291",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "王俊凯首张个人专辑《WJK》发布 风格致敬偶像周杰伦",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a1869102529249291",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "薛之谦“万兽之王”巡演重庆奥体连唱 6月26-28日燃爆山城",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a1869102529249291",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "都市爱情剧《薄荷夜》定档6月29日 王楠朱小雪领衔红果上线",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a7656393469816013327",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "古装穿越轻喜剧《浣纱录》定档6月30日 腾讯视频独家播出",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a7656393469816013327",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "都市爱情剧《冤家路不窄》定档7月3日 红果短剧暑期档再添新作",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com/a7656393469816013327",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "穆祉丞“局部宇宙”巡演泪洒舞台 时代峰峻确认后续巡演规划中",
+        "summary": "",
+        "source": "",
+        "url": "https://k.sina.com.cn/article_7879776328_1d5abd84806801sdvc.html",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "杨紫让C位被导演一把拉回 网友：真有实力的人从不抢站位",
+        "summary": "",
+        "source": "",
+        "url": "https://yule.sohu.com/a/1042768025_121165695",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "穆祉丞演唱会口误\"帅哥王\" 耳朵瞬间红透 CP粉解读指向王橹杰",
+        "summary": "",
+        "source": "",
+        "url": "https://ent.sina.cn/2026-06-28/detail-inieyrin0332659.d.html",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "张艺兴《绽放》定妆照发布 拍摄地疑在云南湖南呼伦贝尔",
+        "summary": "",
+        "source": "",
+        "url": "https://travel.sina.cn/2026-06-28/detail-inieykzq0431453.d.html",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "周杰伦首登鸟巢连开三场演唱会 出道25年首次白天开唱",
+        "summary": "",
+        "source": "",
+        "url": "https://k.sina.com.cn/article_7879776328_1d5abd84806801rsqk.html",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "《黑神话：悟空》电影版确定开拍 张艺谋担任监制",
         "summary": "",
         "source": "",
         "url": "https://ent.sina.cn",
@@ -1611,10 +1858,18 @@
         "heat": 5
       },
       {
-        "title": "《黑神话：悟空》电影版确定开拍 张艺谋担任监制",
+        "title": "白宇杨幂2026白玉兰同框 双双提名视帝视后引热议",
         "summary": "",
         "source": "",
         "url": "https://ent.sina.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "电影《魔方小姐》全国点映开启 猫眼评分9.6口碑爆棚",
+        "summary": "",
+        "source": "",
+        "url": "https://ent.ifeng.com",
         "time": "",
         "heat": 5
       },
@@ -1633,38 +1888,126 @@
         "url": "https://www.toutiao.com",
         "time": "",
         "heat": 5
+      },
+      {
+        "title": "上海发布AI微短剧扶持政策 打造全国AI短剧产业高地",
+        "summary": "",
+        "source": "",
+        "url": "https://ent.sina.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "电视剧《炽夏》热播 口碑两极分化引发全网争论",
+        "summary": "",
+        "source": "",
+        "url": "https://view.inews.qq.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "重大革命历史题材电影《四渡》上映 口碑票房双丰收",
+        "summary": "",
+        "source": "",
+        "url": "https://view.inews.qq.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "《给阿嬷的情书》票房超19亿 暂列2026年度票房亚军",
+        "summary": "",
+        "source": "",
+        "url": "https://view.inews.qq.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "迟蓬凭《生万物》再获白玉兰最佳女配角",
+        "summary": "",
+        "source": "",
+        "url": "https://yule.sohu.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "第31届白玉兰奖揭晓 杨紫凭《生命树》获最佳女主角",
+        "summary": "",
+        "source": "",
+        "url": "https://m.weibo.cn",
+        "time": "",
+        "heat": 5
       }
     ],
     "mockHenanNews": [
       {
-        "title": "河南彩陶坊主场1-2遭上海海港逆转 纳萨里奥闪击难救主",
+        "title": "河南队主场2-1击败梅州客家 取近四轮首胜保级形势好转",
         "summary": "",
         "source": "",
-        "url": "https://www.sohu.com/a/1042563159_121885030",
+        "url": "https://www.footballnews.com.cn",
         "time": "",
         "heat": 5
       },
       {
-        "title": "河南队官宣佩德罗-马拉尼昂加盟 巴西边锋替代姆布拉",
+        "title": "河南队夏窗引援确定：巴西前锋卡多索加盟 签约1.5年",
         "summary": "",
         "source": "",
-        "url": "https://www.sohu.com/a/1040725905_121922932",
+        "url": "https://www.dongqiudi.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "河南队边后卫徐浩峰租借加盟武汉三镇",
+        "title": "河南队主帅萨尔科：球队正在找回状态 目标赛季末排名前十",
         "summary": "",
         "source": "",
-        "url": "https://www.sohu.com",
+        "url": "https://www.zhibo8.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "中超第16轮：河南彩陶坊主场1-2惜败上海海港 纳萨里奥破门",
+        "title": "河南队U21小将刘俊贤入选国奥集训名单 俱乐部发文祝贺",
         "summary": "",
         "source": "",
-        "url": "https://www.sohu.com",
+        "url": "https://sports.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "河南队官宣与主力门将王国明续约至2028年",
+        "summary": "",
+        "source": "",
+        "url": "https://www.footballnews.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "河南队青训开花：4名小将进入一线队报名 最小仅17岁",
+        "summary": "",
+        "source": "",
+        "url": "https://www.dongqiudi.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "河南队7月赛程密集：连续客战山东和上海两强考验体能",
+        "summary": "",
+        "source": "",
+        "url": "https://sports.qq.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "河南球迷远征深圳助威 赛前在客队看台打出巨型TIFO",
+        "summary": "",
+        "source": "",
+        "url": "https://www.zhibo8.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中超第16轮：上海海港客场2-1逆转河南彩陶坊 纳萨里奥闪击难救主",
+        "summary": "",
+        "source": "",
+        "url": "https://news.qq.com/rain/a/20260627A0AI6J00",
         "time": "",
         "heat": 5
       },
@@ -1672,31 +2015,31 @@
         "title": "拉莫斯赛后：把握机会能力欠佳 需加强最后一射训练",
         "summary": "",
         "source": "",
-        "url": "https://news.zhibo8.com",
+        "url": "https://news.qq.com/rain/a/20260627A0AI6J00",
         "time": "",
         "heat": 5
       },
       {
-        "title": "河南队签下巴西边锋佩德罗·马拉尼昂 替代姆布拉",
+        "title": "2026足协杯第五轮抽签揭晓 河南队7月21日主场迎战大连英博",
         "summary": "",
         "source": "",
-        "url": "https://www.sohu.com",
+        "url": "https://news.qq.com/rain/a/20260625A0BRN200",
         "time": "",
         "heat": 5
       },
       {
-        "title": "河南足球俱乐部正式续约中场核心球员王上源",
-        "summary": "",
-        "source": "",
-        "url": "https://www.sina.cn",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "河南彩陶坊主场连败排名下滑至第12位 领先降级区7分",
+        "title": "中超第16轮积分榜：河南队主场1-2海港后排名下滑至第12位",
         "summary": "",
         "source": "",
         "url": "https://news.qq.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "河南队官宣佩德罗·马拉尼昂加盟 巴西边锋替代姆布拉",
+        "summary": "",
+        "source": "",
+        "url": "https://www.sohu.com",
         "time": "",
         "heat": 5
       },
@@ -1709,7 +2052,7 @@
         "heat": 5
       },
       {
-        "title": "拉莫斯赛前信心高涨 河南队欲双杀卫冕冠军海港",
+        "title": "河南队边后卫徐浩峰租借加盟武汉三镇 热身赛2-0取胜",
         "summary": "",
         "source": "",
         "url": "https://www.sohu.com",
@@ -1718,6 +2061,126 @@
       }
     ],
     "mockCslOtherTeams": [
+      {
+        "title": "中超第16轮：上海申花4-1战胜大连英博 继续紧追积分榜前列",
+        "summary": "",
+        "source": "",
+        "url": "https://www.news.cn/sports/20260629/d1ef21596d2c489bbc0d9bd2c8221862/c.html",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中超第16轮：青岛西海岸3-1轻取浙江队 主场发挥稳健",
+        "summary": "",
+        "source": "",
+        "url": "https://www.news.cn/sports/20260629/d1ef21596d2c489bbc0d9bd2c8221862/c.html",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中超第16轮：青岛海牛4-2击败云南玉昆 终结联赛四连败",
+        "summary": "",
+        "source": "",
+        "url": "https://www.news.cn/sports/20260629/d1ef21596d2c489bbc0d9bd2c8221862/c.html",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中超第16轮：成都蓉城客场3-2绝杀深圳新鹏城 韦世豪双响",
+        "summary": "",
+        "source": "",
+        "url": "https://new.qq.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中超第16轮：山东泰山客场5-1大胜辽宁铁人 泽卡梅开二度",
+        "summary": "",
+        "source": "",
+        "url": "https://www.163.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中超第16轮：北京国安主场1-0击败武汉三镇 吉列尔梅制胜",
+        "summary": "",
+        "source": "",
+        "url": "https://new.qq.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中超第16轮：重庆铜梁龙主场1-0击败天津津门虎 肯帕努建功",
+        "summary": "",
+        "source": "",
+        "url": "https://www.163.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "青岛海牛主场4-2击败云南玉昆 宋文杰1射2传表现出色",
+        "summary": "",
+        "source": "",
+        "url": "https://www.ppsport.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "上海申花客场4-1大胜大连英博 阿苏埃回归首秀即进球",
+        "summary": "",
+        "source": "",
+        "url": "https://www.sohu.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "青岛西海岸主场3-1胜浙江 连续12轮不败状态火热",
+        "summary": "",
+        "source": "",
+        "url": "https://www.sohu.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中超最新积分榜：成都蓉城40分领跑 重庆铜梁龙27分第二",
+        "summary": "",
+        "source": "",
+        "url": "https://new.qq.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "武汉三镇近9轮6平3负连续不胜 积8分继续垫底",
+        "summary": "",
+        "source": "",
+        "url": "https://new.qq.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "山东泰山夏窗确定更换外援马德鲁加 新援人选2选1",
+        "summary": "",
+        "source": "",
+        "url": "https://www.sohu.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "武汉三镇夏窗租借李昂和刘彬彬两位前国脚全力保级",
+        "summary": "",
+        "source": "",
+        "url": "https://www.toutiao.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "中超第17轮上海申花VS浙江俱乐部 6月29日开票",
+        "summary": "",
+        "source": "",
+        "url": "https://news.qq.com",
+        "time": "",
+        "heat": 5
+      },
       {
         "title": "成都蓉城客场挑战深圳新鹏城 费利佩复出剑指半程冠军",
         "summary": "",
@@ -1757,73 +2220,325 @@
         "url": "https://www.thecfa.cn",
         "time": "",
         "heat": 5
-      },
+      }
+    ],
+    "mockStockNews": [
       {
-        "title": "中超第16轮：山东泰山客场5-1大胜辽宁铁人 泽卡梅开二度",
+        "title": "A股三大指数齐涨：上证收3885点涨0.82% 芯片板块爆发",
         "summary": "",
         "source": "",
-        "url": "https://www.163.com",
+        "url": "https://www.eastmoney.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "中超第16轮：成都蓉城客场3-2绝杀深圳新鹏城 韦世豪双响",
+        "title": "央行开展2000亿元MLF操作 利率维持2.5%不变",
         "summary": "",
         "source": "",
-        "url": "https://new.qq.com",
+        "url": "https://www.pbc.gov.cn",
         "time": "",
         "heat": 5
       },
       {
-        "title": "中超第16轮：北京国安主场1-0击败武汉三镇 吉列尔梅制胜",
+        "title": "人民币对美元中间价报7.12 创半年新高",
         "summary": "",
         "source": "",
-        "url": "https://new.qq.com",
+        "url": "https://www.chinamoney.com.cn",
         "time": "",
         "heat": 5
       },
       {
-        "title": "中超第16轮：重庆铜梁龙主场1-0击败天津津门虎",
+        "title": "6月全国百城新房均价环比上涨0.15% 一线城市领涨",
         "summary": "",
         "source": "",
-        "url": "https://www.163.com",
+        "url": "https://www.cih-index.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "青岛海牛主场4-2击败云南玉昆 宋文杰1射2传表现出色",
+        "title": "港股恒生指数收涨1.3% 科技股领涨美团涨超5%",
         "summary": "",
         "source": "",
-        "url": "https://www.ppsport.com",
+        "url": "https://finance.sina.com.cn",
         "time": "",
         "heat": 5
       },
       {
-        "title": "山东泰山夏窗确定更换外援马德鲁加 新援人选2选1",
+        "title": "证监会：研究推动将市值管理纳入央企负责人考核",
         "summary": "",
         "source": "",
-        "url": "https://www.sohu.com",
+        "url": "https://www.csrc.gov.cn",
         "time": "",
         "heat": 5
       },
       {
-        "title": "中超最新积分榜：成都蓉城40分领跑 重庆铜梁龙27分第二",
+        "title": "6月北向资金净流入超800亿元 创年内单月新高",
         "summary": "",
         "source": "",
-        "url": "https://new.qq.com",
+        "url": "https://www.wind.com.cn",
         "time": "",
         "heat": 5
       },
       {
-        "title": "武汉三镇近9轮6平3负连续不胜 积8分继续垫底",
+        "title": "国际金价突破2500美元关口 上半年累计涨幅达18%",
         "summary": "",
         "source": "",
-        "url": "https://new.qq.com",
+        "url": "https://www.reuters.com",
         "time": "",
         "heat": 5
       },
       {
-        "title": "武汉三镇夏窗一口气租借李昂和刘彬彬两位前国脚全力保级",
+        "title": "国家金融监管总局：商业银行净息差降至1.54% 创历史新低",
+        "summary": "",
+        "source": "",
+        "url": "https://www.nfra.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "比亚迪市值突破1.2万亿元 超越宁德时代成深市第一",
+        "summary": "",
+        "source": "",
+        "url": "https://www.eastmoney.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "财政部：上半年全国一般公共预算收入同比增长6.2%",
+        "summary": "",
+        "source": "",
+        "url": "https://www.mof.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "沙特阿美与中石化签署战略合作协议 总投资超200亿美元",
+        "summary": "",
+        "source": "",
+        "url": "https://www.xinhuanet.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "国际油价创两个月新高 布伦特原油突破88美元/桶",
+        "summary": "",
+        "source": "",
+        "url": "https://www.eastmoney.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "社保基金理事会：2025年社保基金投资收益率达7.8%",
+        "summary": "",
+        "source": "",
+        "url": "https://www.ssf.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "六部门联合发文促进汽车消费 新能源车购置税减免延至2028年",
+        "summary": "",
+        "source": "",
+        "url": "https://www.mofcom.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "阿科力筹划控制权变更 6月29日起停牌 预计不超过2个交易日",
+        "summary": "",
+        "source": "",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392119.PDF",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "俄罗斯经济面临三重压力：财政赤字、人口短缺叠加西方技术封锁",
+        "summary": "",
+        "source": "",
+        "url": "https://www.sohu.com/a/1042959951_122679006",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "AI算力硬件股集体爆发 中际旭创新易盛天孚通信齐20CM涨停",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cls.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "有色金属板块走强 华锡有色中钨高新华友钴业涨停",
+        "summary": "",
+        "source": "",
+        "url": "https://www.yicai.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "A股三大指数低开高走 沪指涨0.56% 近4000只个股上涨",
+        "summary": "",
+        "source": "",
+        "url": "https://www.stcn.com",
+        "time": "",
+        "heat": 5
+      }
+    ],
+    "mockStockNewsExtra": [
+      {
+        "title": "央行开展3000亿元MLF操作 连续4个月加量续作呵护流动性",
+        "summary": "",
+        "source": "",
+        "url": "https://www.pbc.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "沪深两市成交额突破1万亿 较上日放量超847亿元",
+        "summary": "",
+        "source": "",
+        "url": "https://www.eastmoney.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "前5月规上工业企业利润同比增长18.8% 高技术制造业增44.7%",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "34家券商集中更新薪酬管理制度 设置绩效薪酬占比底线",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "国内成品油下调预期扩大 加满一箱92号汽油约省30元",
+        "summary": "",
+        "source": "",
+        "url": "https://www.cctv.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "算力产品加速出海 800G光模块出口暴涨百倍",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "A股募资总额同比增长88% 69家企业首发上市募资702亿",
+        "summary": "",
+        "source": "",
+        "url": "https://www.stcn.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "半导体高纯二氧化碳供应趋紧 产业拉响短缺警报",
+        "summary": "",
+        "source": "",
+        "url": "https://www.stcn.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "国家管网发布氢气长输管道国标 氢能储运商业化提速",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "苹果因芯片短缺全线涨价约20% 股价单日下跌6%",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "三星宣布十年6480亿美元AI投资计划 300万亿韩元用于芯片",
+        "summary": "",
+        "source": "",
+        "url": "https://stockstar.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "SK海力士宣布294亿美元IPO 创韩国史上最大规模上市纪录",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "全球半导体销售连续三个月增长 AI芯片需求持续旺盛",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "苹果押注设备端AI战略：涨价检验消费者是否愿为本地AI付溢价",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "美股纳指五连跌 芯片股集体回调 科技七巨头多数上涨",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "前5月全国社会物流总额146.6万亿元 同比增5.2%",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "港股本周遭遇系统性大跌 恒生指数跌5.24%",
+        "summary": "",
+        "source": "",
+        "url": "https://cj.sina.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "A股中盘成长逆势领涨 AI算链景气外溢至上游材料",
+        "summary": "",
+        "source": "",
+        "url": "https://cj.sina.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "Alphabet将于6月29日正式纳入道琼斯工业平均指数",
+        "summary": "",
+        "source": "",
+        "url": "https://www.tmtpost.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "高通近40亿美元收购AI软件公司Modular 挑战英伟达CUDA",
         "summary": "",
         "source": "",
         "url": "https://www.toutiao.com",
@@ -1831,31 +2546,15 @@
         "heat": 5
       },
       {
-        "title": "上海申花客场4-1大胜大连英博 阿苏埃回归首秀即进球",
+        "title": "比亚迪泰国工厂正式投产 年产能达15万辆电动汽车",
         "summary": "",
         "source": "",
-        "url": "https://www.sohu.com",
+        "url": "https://finance.sina.com.cn",
         "time": "",
         "heat": 5
       },
       {
-        "title": "青岛西海岸主场3-1胜浙江 连续12轮不败状态火热",
-        "summary": "",
-        "source": "",
-        "url": "https://www.sohu.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "上赛季中超前5名球队本轮齐奏凯 下半程竞争加剧",
-        "summary": "",
-        "source": "",
-        "url": "https://www.sohu.com",
-        "time": "",
-        "heat": 5
-      },
-      {
-        "title": "中超半程总结：成都蓉城13分领跑 冠军悬念已不大",
+        "title": "丰田宣布固态电池量产时间表提前至2027年 续航1500公里",
         "summary": "",
         "source": "",
         "url": "https://new.qq.com",
@@ -1863,34 +2562,72 @@
         "heat": 5
       },
       {
-        "title": "辽宁铁人冲击四连胜失败 主场1-5惨败山东泰山",
+        "title": "A股三大指数集体收涨，沪指涨0.8%站稳4100点",
         "summary": "",
         "source": "",
-        "url": "https://sports.sina.cn",
-        "time": "",
-        "heat": 5
-      }
-    ],
-    "mockStockNews": [
-      {
-        "title": "A股三大指数集体收涨，沪指涨0.8%站稳4100点",
-        "summary": "沪深两市成交额突破1.2万亿元，超3800只个股上涨。半导体、新能源板块领涨，金融板块表现稳健。",
-        "source": "新浪财经",
         "url": "https://finance.sina.com.cn/stock/",
         "time": "",
         "heat": 5
       },
       {
         "title": "美联储维持利率不变，鲍威尔暗示年内可能降息",
-        "summary": "美联储公布最新利率决议，维持联邦基金利率目标区间不变。鲍威尔在新闻发布会上表示，如果通胀继续回落，年内可能降息1-2次。",
-        "source": "东方财富",
+        "summary": "",
+        "source": "",
         "url": "https://finance.eastmoney.com/",
         "time": "",
         "heat": 5
       },
       {
+        "title": "前5月我国机电产品出口7.58万亿元 连续15月刷新纪录",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "第二批公募基金业绩比较基准调整开启 涉及上千只产品",
+        "summary": "",
+        "source": "",
+        "url": "https://www.ccdi.gov.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "第三批625亿元消费品以旧换新资金下达 全年累计1875亿元",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "灵晟超算登顶全球TOP500 时隔九年中国超算再排全球第一",
+        "summary": "",
+        "source": "",
+        "url": "https://wap.eastmoney.com",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "全国40城启动汽车流通消费改革试点 杭州等城市优化限购",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
+        "title": "C909商用飞机运营十周年 已累计载客超3700万人次",
+        "summary": "",
+        "source": "",
+        "url": "https://finance.sina.com.cn",
+        "time": "",
+        "heat": 5
+      },
+      {
         "title": "患者术后收到医院捐款请求，引发医疗伦理讨论",
-        "summary": "财经媒体 MarketWatch 报道：患者术后收到医院捐款请求，引发医疗伦理讨论。内容涉及公司表现、市场预期、资金动向或宏观变量，供资讯参考，不构成投资建议。",
+        "summary": "患者术后收到医院捐款请求，引发医疗伦理讨论。",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/i-had-my-gallbladder-removed-after-i-got-home-the-hospital-asked-me-for-a-donation-is-this-ethical-ad12a8e1?mod=mw_rss_topstories",
         "time": "2026-06-28 23:00",
@@ -1908,7 +2645,7 @@
       },
       {
         "title": "Ocado 老板近1亿英镑薪酬引发严重争议",
-        "summary": "财经媒体 The Guardian Business 报道：Ocado 老板近1亿英镑薪酬引发严重争议。重点看事件对公司经营、行业竞争、市场预期或投资者情绪的影响；相关信息仅作资讯参考，不构成投资建议。",
+        "summary": "Ocado 老板近1亿英镑薪酬引发严重争议。",
         "source": "The Guardian Business",
         "url": "https://www.theguardian.com/business/2026/jun/28/ocado-boss-tim-steiner-payouts",
         "time": "2026-06-28 18:22",
@@ -1917,7 +2654,7 @@
       },
       {
         "title": "社交媒体年龄禁令接近临界点，科技公司正在失去公众信任",
-        "summary": "财经媒体 The Guardian Business 报道：社交媒体年龄禁令接近临界点，科技公司正在失去公众信任。内容涉及公司表现、市场预期、资金动向或宏观变量，供资讯参考，不构成投资建议。",
+        "summary": "社交媒体年龄禁令接近临界点，科技公司正在失去公众信任。",
         "source": "The Guardian Business",
         "url": "https://www.theguardian.com/world/2026/jun/28/tech-firms-are-losing-the-public-social-media-age-bans-near-tipping-point",
         "time": "2026-06-28 18:00",
@@ -1926,7 +2663,7 @@
       },
       {
         "title": "气候危机保险成本上升，或对英国经济产生连锁冲击",
-        "summary": "财经媒体 The Guardian Business 报道：气候危机保险成本上升，或对英国经济产生连锁冲击。内容涉及公司表现、市场预期、资金动向或宏观变量，供资讯参考，不构成投资建议。",
+        "summary": "气候危机保险成本上升，或对英国经济产生连锁冲击。",
         "source": "The Guardian Business",
         "url": "https://www.theguardian.com/business/2026/jun/28/rising-cost-insuring-against-climate-crisis-knock-on-effects-for-uk-economy",
         "time": "2026-06-28 17:34",
@@ -1935,7 +2672,7 @@
       },
       {
         "title": "英国泰晤士水务国有化争议升温，政界要求首相和财政大臣表态",
-        "summary": "财经媒体 The Guardian Business 报道：英国泰晤士水务国有化争议升温，政界要求首相和财政大臣表态。重点看事件对公司经营、行业竞争、市场预期或投资者情绪的影响；相关信息仅作资讯参考，不构成投资建议。",
+        "summary": "英国泰晤士水务国有化争议升温，政界要求首相和财政大臣表态。",
         "source": "The Guardian Business",
         "url": "https://www.theguardian.com/politics/2026/jun/28/andy-burnham-nationalisation-pm-chancellor-thames-water",
         "time": "2026-06-28 14:00",
@@ -1944,7 +2681,7 @@
       },
       {
         "title": "加密资产访问码丢失骗局增多，用户求助时也可能被骗",
-        "summary": "财经媒体 The Guardian Business 报道：加密资产访问码丢失骗局增多，用户求助时也可能被骗。重点看事件对公司经营、行业竞争、市场预期或投资者情绪的影响；相关信息仅作资讯参考，不构成投资建议。",
+        "summary": "加密资产访问码丢失骗局增多，用户求助时也可能被骗。",
         "source": "The Guardian Business",
         "url": "https://www.theguardian.com/money/2026/jun/28/scam-watch-panic-thats-just-what-fraudsters-are-waiting-for-to-steal-your-crypto-data",
         "time": "2026-06-28 14:00",
@@ -1953,7 +2690,7 @@
       },
       {
         "title": "蛋白咖啡和 CBD 苏打走红，星巴克等公司押注功能饮料热潮",
-        "summary": "财经媒体 CNBC Markets 报道：蛋白咖啡和 CBD 苏打走红，星巴克等公司押注功能饮料热潮。重点看事件对公司经营、行业竞争、市场预期或投资者情绪的影响；相关信息仅作资讯参考，不构成投资建议。",
+        "summary": "蛋白咖啡和 CBD 苏打走红，星巴克等公司押注功能饮料热潮。",
         "source": "CNBC Markets",
         "url": "https://www.cnbc.com/2026/06/28/protein-coffee-cbd-soda-starbucks-functional-beverage-boom.html",
         "time": "2026-06-28 13:00",
@@ -1962,7 +2699,7 @@
       },
       {
         "title": "英国工党被指放弃执政使命，伯纳姆路线或可重启政策议程",
-        "summary": "财经媒体 The Guardian Business 报道：英国工党被指放弃执政使命，伯纳姆路线或可重启政策议程。重点看事件对公司经营、行业竞争、市场预期或投资者情绪的影响；相关信息仅作资讯参考，不构成投资建议。",
+        "summary": "英国工党被指放弃执政使命，伯纳姆路线或可重启政策议程。",
         "source": "The Guardian Business",
         "url": "https://www.theguardian.com/commentisfree/2026/jun/28/labour-keir-starmer-government-five-missions-failed-andy-burnham-mariana-mazzucato",
         "time": "2026-06-28 13:00",
@@ -1971,42 +2708,14 @@
       },
       {
         "title": "SpaceX 将快速纳入纳斯达克100，或带来大量 ETF 买盘需求",
-        "summary": "财经媒体 CNBC Markets 报道：SpaceX 将快速纳入纳斯达克100，或带来大量 ETF 买盘需求。重点看事件对公司经营、行业竞争、市场预期或投资者情绪的影响；相关信息仅作资讯参考，不构成投资建议。",
+        "summary": "SpaceX 将快速纳入纳斯达克100，或带来大量 ETF 买盘需求。",
         "source": "CNBC Markets",
         "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100.html",
         "time": "2026-06-28 05:34",
         "heat": 8,
         "rawTitle": "原文：SpaceX to join the Nasdaq-100 in a fast-tracked process that will drive huge ETF buying demand"
-      },
-      {
-        "title": "退休后继续工作如何避免社保金被大幅削减",
-        "summary": "财经媒体 MarketWatch 报道：退休后继续工作如何避免社保金被大幅削减。重点看事件对公司经营、行业竞争、市场预期或投资者情绪的影响；相关信息仅作资讯参考，不构成投资建议。",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/how-to-work-in-retirement-without-seeing-your-social-security-checks-slashed-05d6c830?mod=mw_rss_topstories",
-        "time": "2026-06-28 03:30",
-        "heat": 8,
-        "rawTitle": "原文：How to work in retirement without seeing your Social Security checks slashed"
-      },
-      {
-        "title": "美国人401(k)退休账户余额去年创纪录，个人差距引关注",
-        "summary": "财经媒体 MarketWatch 报道：美国人401(k)退休账户余额去年创纪录，个人差距引关注。重点看事件对公司经营、行业竞争、市场预期或投资者情绪的影响；相关信息仅作资讯参考，不构成投资建议。",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/americans-401-k-balances-hit-record-levels-last-year-see-how-you-compare-facd32c4?mod=mw_rss_topstories",
-        "time": "2026-06-28 03:30",
-        "heat": 8,
-        "rawTitle": "原文：Americans’ 401(k) balances hit record levels last year. See how you compare."
-      },
-      {
-        "title": "这种疾病成本超过癌症和心脏病总和，未来负担可能继续加重",
-        "summary": "财经媒体 MarketWatch 报道：这种疾病成本超过癌症和心脏病总和，未来负担可能继续加重。重点看事件对公司经营、行业竞争、市场预期或投资者情绪的影响；相关信息仅作资讯参考，不构成投资建议。",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/this-disease-is-more-expensive-than-cancer-and-heart-disease-combined-and-its-only-going-to-get-worse-797b72d9?mod=mw_rss_topstories",
-        "time": "2026-06-28 03:30",
-        "heat": 8,
-        "rawTitle": "原文：This disease is more expensive than cancer and heart disease combined. And it’s only going to get worse."
       }
     ],
-    "mockStockNewsExtra": [],
     "mockStockAI": [
       {
         "title": "英伟达（NVDA）：AI算力绝对龙头，Rubin平台全液冷设计引领下一代数据中心",
