@@ -157,7 +157,6 @@ body.care-mode .card-title { font-size:17px!important; }
 body.care-mode .card-meta { font-size:12px!important; }
 
 /* 新闻底部来源/时间 — 锁死 */
-body.care-mode .news-footer,
 body.care-mode .news-source,
 body.care-mode .news-time { font-size:12px!important; }
 
@@ -297,9 +296,9 @@ body.care-mode .news-time { font-size:12px!important; }
 .rank-other { background:var(--surface2); color:var(--text3); font-weight:600; }
 .news-body { flex:1; min-width:0; }
 .news-title { font-size:0.9375rem; font-weight:600; line-height:1.45; color:var(--text1); word-break:break-word; overflow-wrap:break-word; }
-.news-footer { display:flex; align-items:center; gap:6px; margin-top:5px; }
-.news-source { font-size:12px; color:var(--text3); }
-.news-time { margin-left:8px; font-size:11px; color:var(--text3); }
+.news-source { font-size:12px; color:var(--text3); margin-top:4px; }
+.news-meta-row { display:flex; align-items:center; gap:6px; margin-top:1px; }
+.news-time { font-size:11px; color:var(--text3); }
 .news-badge {
   display:inline-flex; align-items:center; gap:2px;
   padding:1px 7px; border-radius:10px; font-size:11px; font-weight:600;
@@ -882,7 +881,14 @@ body.theme-dark .tracking-hero, body.theme-dark .tracking-event { background:var
   padding:12px 10px; min-height:72px; display:flex; flex-direction:column; justify-content:center; gap:4px;
 }
 .mine-status-value { font-size:16px; font-weight:800; color:var(--text1); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-.mine-status-label { font-size:11px; color:var(--text3); white-space:nowrap; }
+.mine-status-label { font-size:11px; color:var(--text3); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.mine-avatar-sm {
+  width:28px; height:28px; border-radius:10px; flex-shrink:0;
+  background:linear-gradient(135deg,rgba(10,132,255,.16),rgba(94,92,230,.14));
+  color:var(--blue); display:flex; align-items:center; justify-content:center; margin-bottom:2px;
+}
+.mine-avatar-sm svg { width:16px; height:16px; stroke:currentColor; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+.mine-status-card--profile { align-items:center; text-align:center; }
 .mine-menu { background:var(--surface); border-radius:var(--r-lg); box-shadow:var(--shadow-xs); overflow:hidden; margin-bottom:14px; }
 .mine-menu-section + .mine-menu-section { border-top:1px solid var(--border); }
 .mine-menu-item {
@@ -904,11 +910,11 @@ body.theme-dark .tracking-hero, body.theme-dark .tracking-event { background:var
 .mine-menu-panel { padding:0 12px 14px 64px; }
 .mine-menu-panel .settings-card { box-shadow:none; border:1px solid var(--border); border-radius:14px; }
 .mine-back { display:none; }
-body.theme-glass .mine-hero, body.theme-glass .mine-status-card, body.theme-glass .mine-menu {
+body.theme-glass .mine-status-card, body.theme-glass .mine-menu {
   background:rgba(255,255,255,0.40); backdrop-filter:blur(20px) saturate(170%); -webkit-backdrop-filter:blur(20px) saturate(170%);
   border:1px solid rgba(255,255,255,0.45);
 }
-body.theme-dark .mine-hero, body.theme-dark .mine-status-card, body.theme-dark .mine-menu {
+body.theme-dark .mine-status-card, body.theme-dark .mine-menu {
   background:var(--surface); border:1px solid rgba(255,255,255,0.06);
 }
 body.theme-dark .mine-menu-section + .mine-menu-section { border-top-color:rgba(255,255,255,0.06); }
@@ -1570,17 +1576,11 @@ body.theme-dark .auth-banner {
   <!-- 设置页 -->
   <div class="section-page" id="tab-settings">
     <div class="mine-overview active" id="mineOverview">
-      <div class="mine-hero">
-        <div class="mine-avatar"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 22c1.8-4 4.5-6 8-6s6.2 2 8 6"/></svg></div>
-        <div class="mine-hero-main">
-          <div class="mine-hello" id="mineProfileName">我的</div>
-          <div class="mine-subtitle" id="mineProfileState">管理账号、阅读偏好和消息提醒</div>
-        </div>
-      </div>
       <div class="mine-status-row">
-        <div class="mine-status-card">
-          <div class="mine-status-value" id="mineInterestCount">0 个</div>
-          <div class="mine-status-label">兴趣标签</div>
+        <div class="mine-status-card mine-status-card--profile">
+          <div class="mine-avatar-sm"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 22c1.8-4 4.5-6 8-6s6.2 2 8 6"/></svg></div>
+          <div class="mine-status-value" id="mineProfileName">我的</div>
+          <div class="mine-status-label" id="mineProfileState">未登录</div>
         </div>
         <div class="mine-status-card">
           <div class="mine-status-value" id="mineThemeState">默认</div>
@@ -1595,7 +1595,7 @@ body.theme-dark .auth-banner {
         <div class="mine-menu-section" data-mine-section="account">
           <button class="mine-menu-item" onclick="toggleMinePanel('account')">
             <span class="mine-menu-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 22c1.8-4 4.5-6 8-6s6.2 2 8 6"/></svg></span>
-            <span class="mine-menu-text"><span class="mine-menu-title">账号管理</span><span class="mine-menu-desc">登录、退出和兴趣标签</span></span>
+            <span class="mine-menu-text"><span class="mine-menu-title">账号管理</span><span class="mine-menu-desc">登录和退出</span></span>
             <span class="mine-menu-arrow">›</span>
           </button>
           <div class="settings-panel mine-menu-panel" data-mine-panel="account">
@@ -1615,8 +1615,6 @@ body.theme-dark .auth-banner {
               <div class="settings-row" id="accountLoggedIn" style="display:none">
                 <div class="account-info">
                   <div class="account-welcome">当前用户：<strong id="accountNickname"></strong></div>
-                  <div class="account-interests-label">兴趣标签</div>
-                  <div class="account-tags" id="accountTags"></div>
                   <button class="btn btn-outline" onclick="doLogout()" style="margin-top:12px;width:100%">退出登录</button>
                 </div>
               </div>
@@ -3189,7 +3187,6 @@ function getRankClass(rank) {
   return 'rank-other';
 }
 
-const BADGE_LABELS = { hot:'🔥 热', new:'🆕 新', rising:'📈 升' };
 const NEWS_FATIGUE_KEY = 'dn_news_fatigue_v1';
 const NEWS_FATIGUE_MAX_ITEMS = 500;
 const NEWS_EXPOSURE_COOLDOWN_MS = 6 * 3600 * 1000;
@@ -3314,7 +3311,7 @@ function buildFreshNewsOrder(categoryKey, arr, extraArr) {
     var rec = memory[id] || {};
     var seenCount = rec.seenCount || 0;
     var hoursSinceSeen = rec.lastSeenAt ? (now - rec.lastSeenAt) / 3600000 : 999;
-    var heatScore = Math.min(10, item.heat || (item.badge === 'hot' ? 8 : item.badge === 'new' ? 6 : 4)) * 8;
+    var heatScore = Math.min(10, item.heat || 5) * 8;
     var timeValue = parseNewsTimeValue(item);
     var freshnessScore = timeValue ? Math.max(0, 36 - ((now - timeValue) / 3600000)) : 12;
     var fatiguePenalty = seenCount * 28 + (hoursSinceSeen < 24 ? 32 : 0) + (hoursSinceSeen < 6 ? 40 : 0);
@@ -3366,11 +3363,8 @@ function renderNewsList(containerId, newsList, categoryKey) {
         <span class="news-rank ${getRankClass(item.displayRank || item.rank)}">${item.displayRank || item.rank || ''}</span>
         <div class="news-body">
           <div class="news-title">${item.title}</div>
-          <div class="news-footer">
-            <span class="news-source">${item.source || ''}</span>
-            ${item.time ? `<span class="news-time">${item.time}</span>` : ''}
-            ${item.badge ? `<span class="news-badge badge-${item.badge}">${BADGE_LABELS[item.badge] || item.badge}</span>` : ''}
-          </div>
+          <div class="news-source">${item.source || ''}</div>
+          ${item.time ? `<div class="news-meta-row"><span class="news-time">${item.time}</span></div>` : ''}
           ${item.summary ? `<div class="news-summary">${item.summary}</div>` : ''}
         </div>
       </div>
@@ -3429,7 +3423,7 @@ function loadMoreStockNews() {
       const div = document.createElement('div');
       div.className = 'stock-news-item';
       div.innerHTML = `<div class="stock-news-title">${item.title}</div>
-        <div class="stock-news-from">来源：${item.source}</div>
+        <div class="stock-news-from">来源：${item.source}${item.time ? ' · ' + item.time : ''}</div>
         <div class="stock-news-summary">${item.summary}</div>`;
       container.appendChild(div);
     });
@@ -3463,10 +3457,8 @@ function loadMoreEntNews() {
           <span class="news-rank ${getRankClass(item.displayRank || item.rank)}">${item.displayRank || item.rank}</span>
           <div class="news-body">
             <div class="news-title">${item.title}</div>
-            <div class="news-footer">
-              <span class="news-source">${item.source || ''}</span>
-              ${item.badge ? `<span class="news-badge badge-${item.badge}">${BADGE_LABELS[item.badge] || item.badge}</span>` : ''}
-            </div>
+            <div class="news-source">${item.source || ''}</div>
+            ${item.time ? `<div class="news-meta-row"><span class="news-time">${item.time}</span></div>` : ''}
             ${item.summary ? `<div class="news-summary">${item.summary}</div>` : ''}
           </div>
         </div>`;
@@ -3516,10 +3508,8 @@ function loadMoreHotNews() {
           <span class="news-rank ${getRankClass(item.displayRank || item.rank)}">${item.displayRank || item.rank}</span>
           <div class="news-body">
             <div class="news-title">${item.title}</div>
-            <div class="news-footer">
-              <span class="news-source">${item.source || ''}</span>
-              ${item.badge ? `<span class="news-badge badge-${item.badge}">${BADGE_LABELS[item.badge] || item.badge}</span>` : ''}
-            </div>
+            <div class="news-source">${item.source || ''}</div>
+            ${item.time ? `<div class="news-meta-row"><span class="news-time">${item.time}</span></div>` : ''}
             ${item.summary ? `<div class="news-summary">${item.summary}</div>` : ''}
           </div>
         </div>`;
@@ -3590,7 +3580,7 @@ function renderStockNews(news) {
   document.getElementById('stockNewsList').innerHTML = news.map(n => `
     <div class="stock-news-item" data-news-id="${getNewsId(n, 'stocknews')}">
       <div class="stock-news-title">${n.title}</div>
-      <div class="stock-news-from">来源：${n.source}</div>
+      <div class="stock-news-from">来源：${n.source}${n.time ? ' · ' + n.time : ''}</div>
       <div class="stock-news-summary">${n.summary}</div>
     </div>
   `).join('');
@@ -3721,7 +3711,8 @@ function renderCslOtherTeams(news) {
       + '<div class="news-item-row">'
       + '<div class="news-body">'
       + '<div class="news-title">【' + (item.team || '中超') + '】' + item.title + '</div>'
-      + '<div class="news-footer"><span class="news-source">' + (item.source || '') + '</span>' + (item.time ? '<span class="news-time">' + item.time + '</span>' : '') + '</div>'
+      + '<div class="news-source">' + (item.source || '') + '</div>'
+      + (item.time ? '<div class="news-meta-row"><span class="news-time">' + item.time + '</span></div>' : '')
       + (item.summary ? '<div class="news-summary">' + item.summary + '</div>' : '')
       + '</div>'
       + '</div>'
@@ -3788,7 +3779,8 @@ function renderHenanNews(news) {
       <div class="news-item-row">
         <div class="news-body">
           <div class="news-title">${item.title}</div>
-          <div class="news-footer"><span class="news-source">${item.source}</span></div>
+          <div class="news-source">${item.source || ''}</div>
+          ${item.time ? `<div class="news-meta-row"><span class="news-time">${item.time}</span></div>` : ''}
           ${item.summary ? `<div class="news-summary">${item.summary}</div>` : ''}
         </div>
       </div>

@@ -186,6 +186,9 @@ function parseNewsDailyFile(html) {
       // 时效检查
       if (isOldNews(title, summary, cardTime)) return;
 
+      // 摘要检查：无摘要的新闻直接跳过
+      if (!summary || summary.length < 5) return;
+
       // 热度：基于时间新鲜度
       let heat = 5;
       if (cardTime) {
