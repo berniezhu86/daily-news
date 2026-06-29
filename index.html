@@ -384,6 +384,7 @@ body.care-mode .news-time { font-size:12px!important; }
 .global-closing { margin-top:8px; padding:12px 20px 0; border-top:1px dashed var(--border); }
 .global-closing-title { font-size:12px; font-weight:600; color:var(--text3); margin-bottom:10px; display:flex; align-items:center; gap:4px; }
 .global-closing .stock-grid { padding-top:0; }
+.stock-update-time { text-align:right; padding:2px 20px 0; font-size:11px; color:var(--text3); }
 .stock-ai-note { margin:4px 20px 8px; padding:10px 14px; border-radius:var(--r-md); background:linear-gradient(135deg,rgba(94,92,230,0.07),rgba(10,132,255,0.07)); border:1px solid rgba(94,92,230,0.12); font-size:13px; color:var(--indigo); text-align:center; }
 .ai-stock-panel { padding:4px 20px 16px; }
 .ai-stock-section-title { display:flex; align-items:center; justify-content:space-between; gap:10px; margin:10px 0 8px; font-size:14px; font-weight:700; color:var(--text1); }
@@ -1472,6 +1473,7 @@ body.theme-dark .auth-banner {
         <span class="stock-refresh-note" id="stockRefreshNote">📌 交易时段每1分钟刷新 · 静态版每3小时发布</span>
       </div>
       <div class="stock-grid" id="stockGrid"></div>
+      <div class="stock-update-time" id="stockUpdateTime"></div>
       <div class="sector-prediction" id="sectorPrediction" style="display:none;"></div>
       <div class="global-closing" id="globalClosing" style="display:none;">
         <div class="global-closing-title">🌏 全球市场 · 最近收盘数据</div>
@@ -2417,6 +2419,7 @@ const mockStockIndices = {
     { name:"印度SENSEX", value:"77,100.47", change:"+0.14%", direction:"up" }
   ],
 };
+const stockUpdatedAt = '6月29日 15:00'; // 行情数据更新时间
 
 
   const mockStockAI = [
@@ -2993,6 +2996,8 @@ function renderStockIndices(indices) {
       <div class="stock-change ${s.direction === 'up' ? 'stock-up' : 'stock-down'}">${s.change}${s.reason ? `<div style="font-size:11px;color:#636366;font-weight:400;margin-top:2px;white-space:normal">${s.reason}</div>` : ''}</div>
     </div>
   `).join('');
+  var tEl = document.getElementById('stockUpdateTime');
+  if (tEl) tEl.textContent = '🕐 数据更新于 ' + (typeof stockUpdatedAt !== 'undefined' ? stockUpdatedAt : new Date().toLocaleString('zh-CN', {month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}));
   renderGlobalClosing();
 }
 
