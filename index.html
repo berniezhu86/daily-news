@@ -4996,7 +4996,7 @@ function renderTrackingPage() {
     var eventId = event.id || event.title;
     var isExpanded;
     if (isInitial) {
-      isExpanded = idx < 2;
+      isExpanded = false;
     } else {
       isExpanded = expandedIds.indexOf(eventId) >= 0;
     }
@@ -5039,8 +5039,7 @@ function renderTrackingPage() {
   }).join('');
 
   if (isInitial) {
-    var defaultExpandIds = filteredEvents.slice(0, 2).map(function(e) { return e.id || e.title; });
-    saveTrackingExpandedIds(defaultExpandIds);
+    saveTrackingExpandedIds([]);
   }
 
   initTrackingClickHandler();
