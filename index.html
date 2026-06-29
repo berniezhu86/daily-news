@@ -2217,28 +2217,26 @@ const mockStockIndices = {
 
 
   const mockStockAI = [
-  {rank:1, title:"英伟达Rubin平台全液冷设计 引领下一代AI数据中心", source:"", summary:"英伟达市值突破4万亿美元成为全球最高市值公司，Rubin平台全液冷方案实现数据中心用水近零。AI芯片需求持续爆发，B系列GPU产能持续扩张。", badge:"new", heat:5, time:"2026-06-29 04:13", url:"https://www.eastmoney.com"},
-  {rank:2, title:"博通联合OpenAI发布Jalapeño推理芯片 领跑定制AI芯片", source:"", summary:"博通与OpenAI合作推出Jalapeño推理芯片，9个月完成设计到流片，定制化AI芯片需求爆发推动博通进入高增长通道。", badge:"new", heat:5, time:"2026-06-29 04:13", url:"https://www.eastmoney.com"},
-  {rank:3, title:"微软Azure AI增速领跑 Copilot企业版用户突破2000万", source:"", summary:"Azure AI服务连续多季度增速超40%，Copilot企业版付费用户突破2000万，AI云化趋势下微软作为平台型企业的价值持续重估。", badge:"new", heat:5, time:"2026-06-29 04:13", url:"https://www.eastmoney.com"},
-  {rank:4, title:"谷歌Gemini for Science落地 量子芯片突破千比特", source:"", summary:"谷歌发布Gemini for Science和多智能体协作系统，量子芯片突破1000量子比特。AI搜索市场份额持续扩大，估值折价有望修复。", badge:"new", heat:5, time:"2026-06-29 04:13", url:"https://www.eastmoney.com"},
-  {rank:5, title:"Anthropic Claude Fable 5技术领先 诺奖得主加盟研发", source:"", summary:"Claude Fable 5在多项基准与GPT-5.6正面竞争，诺贝尔化学奖得主John Jumper加盟。AI大模型领域风投持续加注。", badge:"new", heat:5, time:"2026-06-29 04:13", url:"https://www.eastmoney.com"},
-  {rank:6, title:"SK海力士宣布294亿美元IPO HBM供不应求", source:"", summary:"SK海力士宣布创韩国纪录的294亿美元IPO，HBM内存产品量价齐升，AI服务器对高带宽内存需求远超产能，成长逻辑清晰。", badge:"new", heat:5, time:"2026-06-29 04:13", url:"https://www.eastmoney.com"},
-  {rank:7, title:"高通39.2亿美元收购Modular 自研AI软件栈挑战CUDA", source:"", summary:"高通以约39.2亿美元收购AI软件公司Modular，其Mojo语言和MAX平台跨芯片架构运行，有望打破英伟达CUDA生态垄断。", badge:"new", heat:5, time:"2026-06-29 04:13", url:"https://www.eastmoney.com"},
-  {rank:8, title:"ASML首台高数值孔径EUV交付英特尔 垄断2nm以下光刻", source:"", summary:"ASML交付首台新一代高数值孔径EUV光刻机，售价超4亿欧元，在2nm以下先进制程具备绝对技术垄断地位，AI芯片制造不可绕过。", badge:"new", heat:5, time:"2026-06-29 04:13", url:"https://www.eastmoney.com"},
-  {rank:9, title:"智元机器人第15000台精灵G2量产下线 具身智能提速", source:"", summary:"智元第15000台通用具身机器人量产下线，标志中国人形机器人迈入大规模真实场景应用，具身智能赛道关注度持续升温。", badge:"new", heat:5, time:"2026-06-29 04:13", url:"https://www.eastmoney.com"},
-  {rank:10, title:"Mistral AI发布OCR4支持170种语言 欧洲AI标杆估值飙升", source:"", summary:"法国Mistral AI发布OCR4多语言识别模型，支持170种语言。作为欧洲AI领军企业，其多模态能力持续拓展，有望成为下一轮融资热门标的。", badge:"new", heat:5, time:"2026-06-29 04:13", url:"https://www.eastmoney.com"}
+  {rank:1, title:"中芯国际（688981）：半导体国产替代龙头受益WSTS万亿预测", source:"AI推荐", summary:"WSTS上调2026年全球半导体市场规模至1.51万亿美元，同比增90%。中芯国际作为晶圆代工龙头，先进制程扩产加速，国产替代空间广阔。", badge:"hot", heat:8, time:"2026-06-29", url:""},
+  {rank:2, title:"宁德时代（300750）：储能+动力电池双轮驱动", source:"AI推荐", summary:"夏季用电高峰推升储能需求，新能源车下乡政策落地。宁德时代全球市占率稳固，麒麟电池/神行电池持续放量，业绩确定性高。", badge:"hot", heat:8, time:"2026-06-29", url:""},
+  {rank:3, title:"工业富联（601138）：AI服务器代工龙头业绩兑现", source:"AI推荐", summary:"全球AI算力资本开支维持高位，工业富联AI服务器出货量持续爬坡，英伟达链核心供应商地位稳固，估值有望随业绩修复。", badge:"hot", heat:7, time:"2026-06-29", url:""},
+  {rank:4, title:"长江电力（600900）：夏季用电高峰+高股息防御", source:"AI推荐", summary:"全国高温预警频发，AI数据中心电力需求激增。长江电力水电资产稀缺，现金流稳定，高股息属性在市场波动中具备防御价值。", badge:"hot", heat:7, time:"2026-06-29", url:""},
+  {rank:5, title:"招商银行（600036）：金融法草案催化估值修复", source:"AI推荐", summary:"《金融法（草案）》6月23日首次审议，潘功胜表态推动中长期资金入市。招商银行资产质量稳健，零售银行龙头有望受益。", badge:"hot", heat:7, time:"2026-06-29", url:""},
+  {rank:6, title:"比亚迪（002594）：新能源车出口高增+智能化提速", source:"AI推荐", summary:"比亚迪出口连续多月创新高，第五代DM技术放量，智能驾驶渗透率提升。短期随板块回调，但中长期成长逻辑未改。", badge:"hot", heat:6, time:"2026-06-29", url:""},
+  {rank:7, title:"立讯精密（002475）：AI终端创新拉动精密制造需求", source:"AI推荐", summary:"苹果AI手机换机周期预期升温，华为折叠屏份额提升。立讯精密作为果链+华为链核心供应商，Q3旺季备货值得期待。", badge:"hot", heat:6, time:"2026-06-29", url:""},
+  {rank:8, title:"迈瑞医疗（300760）：医疗器械龙头防御属性突出", source:"AI推荐", summary:"市场大跌中资金偏好避险资产，迈瑞医疗海外业务持续拓展，创新器械出海逻辑清晰，业绩稳健性在波动市中受青睐。", badge:"hot", heat:6, time:"2026-06-29", url:""}
 ];
 
   // 板块预测（由规则评分引擎基于盘面、新闻热度、政策和产业趋势生成）
   const mockSectorPrediction = [
-    { rank:1, name:"半导体", tag:"强势", tagClass:"bull", reason:"费城半导体回调属短期获利了结，电子行业利润同比增103.9%验证基本面；台积电2nm量产催化，先进封装产能持续扩张，AI芯片需求确定性最强" },
-    { rank:2, name:"AI算力", tag:"强势", tagClass:"bull", reason:"光模块/服务器板块周五资金流出属高位兑现，800G→1.6T升级周期开启；工信部AI新基建政策加码，算力租赁价格坚挺，龙头订单能见度至2027年" },
-    { rank:3, name:"消费电子", tag:"关注", tagClass:"watch", reason:"苹果WWDC后AI手机换机周期预期升温，华为折叠屏份额破40%，AI PC落地驱动上游零部件备货潮，Q3旺季值得期待" },
-    { rank:4, name:"新能源车", tag:"关注", tagClass:"watch", reason:"碳酸锂跌破15万短期承压，半年结机构兑现；但比亚迪出口连续3月创新高，智能驾驶渗透率加速，特斯拉Optimus催化智能化估值重塑" },
-    { rank:5, name:"创新药", tag:"稳健", tagClass:"steady", reason:"美联储降息预期利好生物科技估值修复，国内多个ADC管线进入临床III期，创新药出海BD交易单笔金额屡破纪录，板块相对抗跌" },
-    { rank:6, name:"低空经济", tag:"关注", tagClass:"watch", reason:"多地密集出台空域开放细则，eVTOL适航审定加速，产业链从概念进入订单落地阶段，飞行器+空管系统双线受益" },
-    { rank:7, name:"有色/黄金", tag:"稳健", tagClass:"steady", reason:"全球央行购金需求持续，铜铝库存低位+供给约束下价格有支撑，海外制造业PMI回升驱动工业金属需求" },
-    { rank:8, name:"电力/储能", tag:"稳健", tagClass:"steady", reason:"夏季用电高峰+AI数据中心电力需求激增，储能项目开工量同比增40%，电力市场化改革释放价格弹性" },
+    { rank:1, name:"半导体", code:"BK1036", tag:"强势", tagClass:"bull", reason:"WSTS预测2026年全球半导体市场规模达1.51万亿美元同比增90%，费城半导体回调后龙头估值回落；中芯国际先进制程扩产加速，国产替代+AI芯片需求确定性最强", confidence:88, stock:"中芯国际", target:"目标价75/止损价58" },
+    { rank:2, name:"AI算力", code:"BK1044", tag:"关注", tagClass:"watch", reason:"全球AI资本开支维持高位，800G→1.6T光模块升级周期开启；但交易拥挤度抬升，6月29日通信设备大跌超6%，短期宜逢低布局算力租赁与服务器龙头", confidence:82, stock:"工业富联", target:"目标价35/止损价26" },
+    { rank:3, name:"大金融", code:"BK0484", tag:"关注", tagClass:"watch", reason:"《金融法（草案）》6月23日首次审议，潘功胜陆家嘴论坛提出推动中长期资金入市；银行保险估值处于历史低位，政策催化下估值修复可期", confidence:78, stock:"招商银行", target:"目标价45/止损价37" },
+    { rank:4, name:"电力/储能", code:"BK1015", tag:"稳健", tagClass:"steady", reason:"全国高温预警频发，夏季用电高峰叠加AI数据中心电力需求激增；储能项目开工量同比增40%，电力市场化改革释放价格弹性，高股息防御属性突出", confidence:80, stock:"长江电力", target:"目标价32/止损价27" },
+    { rank:5, name:"新能源车", code:"BK0900", tag:"关注", tagClass:"watch", reason:"新能源车下乡政策落地，比亚迪出口连续多月创新高；碳酸锂价格低位运行缓解成本压力，智能驾驶渗透率提升，Q3产销旺季值得期待", confidence:75, stock:"比亚迪", target:"目标价320/止损价260" },
+    { rank:6, name:"消费电子", code:"BK1037", tag:"关注", tagClass:"watch", reason:"苹果AI手机换机周期预期升温，华为折叠屏国内份额突破40%；Q3传统旺季临近，上游零部件备货潮启动，立讯精密等龙头订单能见度提升", confidence:73, stock:"立讯精密", target:"目标价48/止损价38" },
+    { rank:7, name:"高股息红利", code:"BK1101", tag:"稳健", tagClass:"steady", reason:"央行6月29-30日加量逆回购平抑月末流动性波动，半年结机构调仓偏向防御；长江电力、中国移动等高股息资产在市场大跌中避险属性凸显", confidence:76, stock:"中国移动", target:"目标价120/止损价105" },
+    { rank:8, name:"创新药", code:"BK1040", tag:"稳健", tagClass:"steady", reason:"国内多个ADC管线进入临床III期，创新药出海BD交易单笔金额屡破纪录；迈瑞医疗等器械龙头海外拓展加速，医药板块在调整市中相对抗跌", confidence:72, stock:"迈瑞医疗", target:"目标价320/止损价270" },
   ];
 
 function renderSectorPrediction() {
