@@ -52,7 +52,7 @@ function isOldNews(title, summary, cardTime) {
     }
   }
 
-  // === 第2层：card-time 精确过滤（>48小时） ===
+  // === 第2层：card-time 精确过滤（>72小时） ===
   if (cardTime) {
     const match = cardTime.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
     if (match) {
@@ -62,21 +62,31 @@ function isOldNews(title, summary, cardTime) {
       );
       const now = new Date();
       const hoursDiff = (now - cardDate) / (1000 * 60 * 60);
-      if (hoursDiff > 48) return true;
-      // 如果 card-time 验证通过（≤48h），信任时间戳，跳过文本日期检测
+      if (hoursDiff > 72) return true;
+      // 如果 card-time 验证通过（≤72h），信任时间戳，跳过文本日期检测
       return false;
     }
   }
 
-  // === 第3层：如果无 card-time，回退到文本日期检测 ===
+  // === 第3层：如果无 card-time，回退到文本日期检测（>72小时） ===
   const dateMatches = text.match(/(\d+)月(\d+)日/g);
   if (dateMatches) {
+    const now = new Date();
+    const today = now.getDate();
+    const thisMonth = now.getMonth() + 1;
+    
     for (const dm of dateMatches) {
       const parts = dm.match(/(\d+)月(\d+)日/);
       const m = parseInt(parts[1]);
       const d = parseInt(parts[2]);
-      if (m === 6 && d < 27) return true;
-      if (m < 6) return true;
+      
+      // 计算日期差（简化：假设同月）
+      if (m === thisMonth) {
+        const dayDiff = today - d;
+        if (dayDiff > 3) return true;  // 超过3天
+      } else if (m < thisMonth) {
+        return true;  // 上个月及之前
+      }
     }
   }
 
@@ -354,33 +364,33 @@ function main() {
 
   const getSection = (secId) => deduplicate(sections[secId] || []);
 
-  // 1. 国内新闻
+  // 1. 国内新闻 — 全部抓取（不再限制数量）
   const domesticNews = getSection('section-国内新闻');
-  const domSplit = splitMainAndExtra(domesticNews, 20, 80);
+  const domSplit = splitMainAndExtra(domesticNews, 500, 500);
   const mockHotNewsDomestic = domSplit.main;
   const mockHotNewsDomesticExtra = domSplit.extra;
 
-  // 2. 国际新闻
+  // 2. 国际新闻 — 全部抓取
   const intlNews = getSection('section-国际新闻');
-  const intlSplit = splitMainAndExtra(intlNews, 20, 80);
+  const intlSplit = splitMainAndExtra(intlNews, 500, 500);
   const mockHotNewsInternational = intlSplit.main;
   const mockHotNewsInternationalExtra = intlSplit.extra;
 
-  // 3. AI科技
+  // 3. AI科技 — 全部抓取
   const aiNews = getSection('section-AI科技新闻');
-  const aiSplit = splitMainAndExtra(aiNews, 20, 80);
+  const aiSplit = splitMainAndExtra(aiNews, 500, 500);
   const mockHotNewsAI = aiSplit.main;
   const mockHotNewsAIExtra = aiSplit.extra;
 
-  // 4. 娱乐
+  // 4. 娱乐 — 全部抓取
   const entNews = getSection('section-娱乐新闻');
-  const entSplit = splitMainAndExtra(entNews, 20, 80);
+  const entSplit = splitMainAndExtra(entNews, 500, 500);
   const mockEntertainment = entSplit.main;
   const mockEntertainmentExtra = entSplit.extra;
 
-  // 5. 财经
+  // 5. 财经 — 全部抓取
   const finNews = getSection('section-财经新闻');
-  const finSplit = splitMainAndExtra(finNews, 20, 80);
+  const finSplit = splitMainAndExtra(finNews, 500, 500);
   const mockStockNews = finSplit.main;
   const mockStockNewsExtra = finSplit.extra;
 

@@ -1,7 +1,7 @@
 {
-  "extracted_at": "2026-06-29T10:40:31.279Z",
+  "extracted_at": "2026-06-29T10:49:30.078Z",
   "source_file": "/Users/bainian/WorkBuddy/2026-06-28-16-31-12/outputs/news-daily-mrjb.html",
-  "total_items": 533,
+  "total_items": 849,
   "sections": {
     "mockHotNewsDomestic": [
       {
@@ -163,9 +163,7 @@
         "url": "https://view.inews.qq.com/a/20260629A061A400?scene=news-skill",
         "time": "6月29日 15:00",
         "heat": 8
-      }
-    ],
-    "mockHotNewsDomesticExtra": [
+      },
       {
         "title": "又一地块成功出让！国内顶级智能建造基地落户白云湖",
         "summary": "白云湖高新产业园再添龙头企业国内顶级基地落户6月29日，中建海龙（广州）科技有限公司以1.21亿元竞得白云湖高新产业园AB1905005地块，计划投入7.8亿元建设中建海龙智能建造-MiC（模块化集成建筑）产业基地，年产值可达14亿元。国内顶级智能建造基地落户白云湖·地块情况：位置：此次出让的白云湖高新产业园AB1905005地块",
@@ -524,7 +522,7 @@
         "source": "环球网",
         "url": "https://view.inews.qq.com/a/20260629A01YF900?scene=news-skill",
         "time": "6月29日 6:45",
-        "heat": 7
+        "heat": 6
       },
       {
         "title": "张荣恭回应陆委会批评，再谈两岸关系定位",
@@ -805,8 +803,17 @@
         "url": "https://view.inews.qq.com/a/20260627A08DY600?scene=news-skill",
         "time": "6月27日 18:46",
         "heat": 5
+      },
+      {
+        "title": "福建舰例行过航台海，宣告台海再无任何禁区",
+        "summary": "6月23日，解放军航空母舰福建舰航经台湾海峡。中国国防部发言人表示，“这是福建舰开展的例行训练，今后我们还会继续组织”。此番回应既宣告台海不存在任何禁区，也标志着福建舰从试验平台迈向战斗值班，进入“",
+        "source": "空之王座",
+        "url": "https://view.inews.qq.com/a/20260627A056LO00?scene=news-skill",
+        "time": "6月27日 17:10",
+        "heat": 5
       }
     ],
+    "mockHotNewsDomesticExtra": [],
     "mockHotNewsInternational": [
       {
         "title": "全球媒体聚焦 | “蓄热”住宅令英法民众难耐酷暑",
@@ -967,9 +974,7 @@
         "url": "https://view.inews.qq.com/a/20260629A064TD00?scene=news-skill",
         "time": "6月29日 15:08",
         "heat": 8
-      }
-    ],
-    "mockHotNewsInternationalExtra": [
+      },
       {
         "title": "韩国股市绑架日本？高盛警告：“北亚半导体联合体”正在放大AI交易风险",
         "summary": "韩国股市的极端波动，正通过一条隐形的链条，深刻重塑日本乃至全球科技投资者的风险图谱。高盛董事总经理、交易员John Joyce在最新内部报告中指出，随着三星和SK海力士杠杆单股ETF的爆炸式扩张，KOSPI已演变为一台\"巨型自我强化反馈机器\"——涨时加速上冲，跌时踩踏成灾。2026年迄今，韩国市场已触发五次全市场熔断，而自2",
@@ -1609,8 +1614,497 @@
         "url": "https://view.inews.qq.com/a/20260629A01TQJ00?scene=news-skill",
         "time": "6月29日 5:58",
         "heat": 6
+      },
+      {
+        "title": "你也看困了？国际足联主席因凡蒂诺现场观战，面露难色",
+        "summary": "雷速体育6月29日讯 世界杯首场淘汰赛，南非vs加拿大，国际足联主席因凡蒂诺也来到现场观战。本场比赛场面沉闷，镜头拍到因凡蒂诺时，本人也面露难色。上半场双方暂0-0互交白卷",
+        "source": "雷速体育",
+        "url": "https://view.inews.qq.com/a/20260629A01L7O00?scene=news-skill",
+        "time": "6月29日 4:24",
+        "heat": 6
+      },
+      {
+        "title": "美国限制准入后，奥地利游说欧盟接纳 Anthropic 落户",
+        "summary": "奥地利数字国务秘书 Alexander Pröll 近日致信欧盟委员会执行副主席 Henna Virkkunen，建议欧盟考虑在境内设立并参与 Anthropic 的战略布局，以对抗美国限制外国人使用其最先进 AI 模型的做法",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
+        "time": "6月29日 4:10",
+        "heat": 6
+      },
+      {
+        "title": "欧洲多国高温破纪录为啥还不装空调？安装费或高达1000欧",
+        "summary": "6月27日，在奥地利维也纳，马车夫给马喷水降温。新华社发近日欧洲西部热浪席卷，并正逐渐向中欧、北欧、东欧等地区蔓延。捷克、德国和丹麦27日均刷新本国有记录气象数据以来最高温纪录，瑞士多地也创下六月最高温纪录。据估算，欧洲27日有近2亿人身处35摄氏度以上高温环境。专家认为，这并不是单独的天气事件，气候变化正让",
+        "source": "上观新闻",
+        "url": "https://view.inews.qq.com/a/20260629A01IFP00?scene=news-skill",
+        "time": "6月29日 4:02",
+        "heat": 6
+      },
+      {
+        "title": "奥地利呼吁欧盟为Anthropic建立欧洲基地以应对美国AI出口管制",
+        "summary": "奥地利要求欧盟为Anthropic建立欧洲运营基地，称美国AI出口管制已使前沿模型访问变成地缘政治依赖。方案设想让Anthropic在欧盟境内运营部分业务，适用欧盟法律、客户和基础设施。但即使Anthropic在欧洲设服务器和子公司，美国出口管制仍可因母公司、核心技术、员工和模型治理归美国所有而继续约束。奥地利未给出明确实施机制，核心诉求是欧洲不应完全依赖一...",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071306241956303153",
+        "time": "6月29日 2:54",
+        "heat": 6
+      },
+      {
+        "title": "奥地利促欧盟为Anthropic设欧洲基地",
+        "summary": "奥地利向欧盟提议，通过政治和法律方案让Anthropic在欧盟内部运营部分业务，涉及欧盟法律、客户、资本和基础设施。此举旨在避免美国AI出口管制导致欧洲对前沿模型访问形成地缘依赖。但挑战在于：即便Anthropic在欧洲设立子公司和服务器，其母公司、核心技术、雇员及模型治理仍受美国出口法约束，美国政府仍可切断对海外用户的最强模型访问。奥地利未给出明确实施机制",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071298813722284213",
+        "time": "6月29日 2:24",
+        "heat": 6
+      },
+      {
+        "title": "欧盟AI法案遭评历史性失败",
+        "summary": "历史性，没错。一次历史性的失败。 （注：引用推文内容--欧盟成为全球首个为AI使用制定明确规则的大洲。#AIAct 不仅是规则手册，更是欧盟初创企业和研究人员引领全球AI竞赛的发射台。最好的还在后头！👍）",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2071292284193362036",
+        "time": "6月29日 1:58",
+        "heat": 6
+      },
+      {
+        "title": "奥地利试图吸引Anthropic到欧洲",
+        "summary": "奥地利致信邀请Anthropic\"战略性地建立并参与欧盟\"，承诺法律确定性、市场准入、资本和价值观契合，称该公司\"不会被限制，反而会被释放\"。但推主Kim认为此举是绝望之举：美国已将AI算力视为国家安全范畴，不会允许Anthropic将模型基地移至欧洲；同时暴露欧洲自身无法建造同等质量模型。英国数月前也曾有过类似尝试。推主判断Anthropic不会离开美国，因为算力供应和保障只会在美国境内集中",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2071279265472004152",
+        "time": "6月29日 1:07",
+        "heat": 6
+      },
+      {
+        "title": "佛得角队长被控强奸，国际足联回应称正与新西兰方面保持联系",
+        "summary": "雷速体育6月29日讯 据巴西环球体育报道，佛得角国家队队长瑞安·门德斯因涉嫌在新西兰强奸一名巴西籍随队翻译，正接受当地警方调查。在曝光的聊天记录中，佛得角足协工作人员不仅未向受害人提供支持，甚至将此事定性为“球员的个人私事”。针对这一严重指控，国际足联回应称已高度重视并与新西兰当局保持联系，但在司法调查",
+        "source": "雷速体育",
+        "url": "https://view.inews.qq.com/a/20260629A00JEA00?scene=news-skill",
+        "time": "6月29日 1:04",
+        "heat": 6
+      },
+      {
+        "title": "佛得角队长瑞安-门德斯涉强奸，国际足联回应",
+        "summary": "据巴西《环球报》披露，国际足联已就佛得角队长瑞安-门德斯涉嫌强奸一事作出回应。这名前勒阿弗尔边锋也正受到新西兰警方调查。针对《环球报》曝光的这起指控，国际足联在北京时间周六晚向这家巴西媒体发出声明，称机构“正与新西兰当局保持联系”。国际足联表示：“对任何不当行为指控，国际足联都高度重视，并为足球界任",
+        "source": "懂球帝",
+        "url": "https://view.inews.qq.com/a/20260629A0009F00?scene=news-skill",
+        "time": "6月29日 0:01",
+        "heat": 6
+      },
+      {
+        "title": "雨中费城见证传奇：40岁莫德里奇再次带领克罗地亚闯进世界杯淘汰赛｜记者手记",
+        "summary": "封面新闻记者边雪 陈羽啸 发自费城 当地时间6月27日，费城下着大雨，费城体育场内已有无数披着雨衣的球迷在此等候，2026美加墨世界杯L组末轮克罗地亚与加纳的对决在此打响。 这支",
+        "source": "封面新闻",
+        "url": "https://view.inews.qq.com/a/20260628A08SO400?scene=news-skill",
+        "time": "6月28日 23:59",
+        "heat": 6
+      },
+      {
+        "title": "Flock摄像头追踪的不只是车牌，安全漏洞与滥用问题严重",
+        "summary": "Flock Safety的AI监控摄像头能识别车牌并通过自然语言搜索特定描述（如\"绿色轿车贴有美国国旗保险杠贴纸\"）。全美已安装超10万台自动车牌识别器（ALPR），多数来自Flock。这些摄像头存在严重安全漏洞：2025年12月发现至少70台暴露在互联网上，无需密码即可查看实时画面；此前可通过物理接触获取root权限。执法人员滥用系统骚扰和跟踪女性，Flo...",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://www.engadget.com/2203000/flock-cameras-recording-license-plate",
+        "time": "6月28日 23:38",
+        "heat": 6
+      },
+      {
+        "title": "从军舰到战机，莫迪细数印度6月国防自主三大成就",
+        "summary": "2026年6月28日，据印度国防新闻网站defence.in报道，莫迪：印度国产C-295运输机和远程巡航导弹标志国防自主迈上新台阶。 印度总理莫迪在6月28日的月度广播节目“Mann K",
+        "source": "止戈军是我",
+        "url": "https://view.inews.qq.com/a/20260628A08NQY00?scene=news-skill",
+        "time": "6月28日 23:12",
+        "heat": 6
+      },
+      {
+        "title": "印度媒体：歼-10CE大单背后，孟加拉国要付出什么代价？",
+        "summary": "2026年6月27日，据印度亚洲新闻社IANS报道，孟加拉国采购歼-10CE，防务协议或带来长期依赖风险。 孟加拉国总理塔里克·拉赫曼6月24日至26日访华期间，中孟防务合作成为核心议题",
+        "source": "止戈军是我",
+        "url": "https://view.inews.qq.com/a/20260628A08M0E00?scene=news-skill",
+        "time": "6月28日 23:00",
+        "heat": 6
+      },
+      {
+        "title": "重大突破！从40公斤到10千牛，印度离巡航导弹自主又近一步",
+        "summary": "2026年6月28日，据印度国防新闻网站defence.in报道，印度初创公司DG Propulsion计划开发新型10千牛喷气发动机，为大型无人机和巡航导弹提供动力。 总部位于新德里的航",
+        "source": "止戈军是我",
+        "url": "https://view.inews.qq.com/a/20260628A08JOO00?scene=news-skill",
+        "time": "6月28日 22:46",
+        "heat": 6
+      },
+      {
+        "title": "乌克兰密集袭击俄罗斯大型炼油厂，打击烈度已超过俄军对乌攻击",
+        "summary": "乌克兰消防人员在一处遭到袭击的居民楼附近，清理俄军导弹残骸 |美联社 6月28日，星期天，乌克兰军队持续用无人机猛攻俄罗斯，当日造成俄南部一大型炼油厂起火致两人死亡。 据美联社报",
+        "source": "东域记",
+        "url": "https://view.inews.qq.com/a/20260628A08BGH00?scene=news-skill",
+        "time": "6月28日 22:15",
+        "heat": 6
+      },
+      {
+        "title": "幻影2000还剩10年寿命，印度拟用国产雷达升级，老战机要逆袭？",
+        "summary": "2026年6月28日，据印度国防新闻网站defence.in报道，用国产雷达升级老幻影2000，印度空军这笔账该怎么算？ 给一架只剩十年寿命的老旧战斗机换装全新的有源相控阵雷达，听起来像一",
+        "source": "止戈军是我",
+        "url": "https://view.inews.qq.com/a/20260628A08A1800?scene=news-skill",
+        "time": "6月28日 22:09",
+        "heat": 6
+      },
+      {
+        "title": "欧洲多国刷新高温记录，1300多例超额死亡与高温相关；仅20%的欧洲家庭安装空调",
+        "summary": "据新华社，持续的热浪侵袭让英国6月24日至26日高温纪录连续三天被刷新，在26日达到37.3摄氏度。德国26日至27日连续两天刷新历史最高气温纪录，达到41.5摄氏度。6月23日刚刚成为法国自1947年有全国气象记录以来最热的一天，24日这一纪录就被再次打破。西班牙22日和23日平均气温较往年同期正常水平高出7.1摄氏度，创下有记录",
+        "source": "九派新闻",
+        "url": "https://view.inews.qq.com/a/20260628A0869D00?scene=news-skill",
+        "time": "6月28日 21:54",
+        "heat": 6
+      },
+      {
+        "title": "凌晨导弹雨突袭中东美军据点，伊朗发起大规模报复，中东局势又失控了",
+        "summary": "当地时间6月28日凌晨两点，中东上空骤然响起密集防空警报，伊朗伊斯兰革命卫队同步启动大规模报复行动，弹道导弹与无人机组成的打击集群冲向科威特、巴林境内美军相关设施。 此次行动由革命卫队海军",
+        "source": "全球观察室",
+        "url": "https://view.inews.qq.com/a/20260628A085EN00?scene=news-skill",
+        "time": "6月28日 21:51",
+        "heat": 6
+      },
+      {
+        "title": "欧洲开始照抄乌克兰防空作业，乌防空模式正全面被欧洲系统性复制",
+        "summary": "今年以来，经综合美联社（AP）、塔斯社（TASS）、CEPA、Militarnyi、中时新闻网等多家外媒报道，欧洲正在照抄乌克兰的防空作业。不是买几架无人机，是把乌克兰那套“边打边改、混搭出奇迹”的",
+        "source": "止戈军是我",
+        "url": "https://view.inews.qq.com/a/20260628A084QX00?scene=news-skill",
+        "time": "6月28日 21:48",
+        "heat": 6
+      },
+      {
+        "title": "瞒报13个月，印度防长议会撒谎翻车，6名阵亡士兵名单终曝光",
+        "summary": "2026年6月27日，印度政坛因一则军方公告掀起巨大波澜。印度官方首次正式确认，在2025年5月针对巴基斯坦开展的跨境“辛杜尔行动”中，共有6名武装部队人员阵亡，相关人员姓名已录入德里国家战争纪念碑",
+        "source": "沉浮欧罗巴",
+        "url": "https://view.inews.qq.com/a/20260628A07WYI00?scene=news-skill",
+        "time": "6月28日 21:19",
+        "heat": 6
+      },
+      {
+        "title": "应对美国高端 AI 限制，奥地利推动欧盟引入 Anthropic 落地运营",
+        "summary": "奥地利数字化国务秘书亚历山大·普罗尔（Alexander Pröll）致信欧盟委员会，敦促各成员国将 Anthropic 作为战略重点引入欧盟，提供法律确定性、市场准入、资本和价值观。此举意在反制美国阻止外籍人士使用最先进 AI 模型的举措。普罗尔认为，Anthropic 扎根欧洲能吸引人才、留住资金并制定行业标准。此前欧盟委员会发言人曾表示欧洲必须强化技术自主权",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/719.htm",
+        "time": "6月28日 21:18",
+        "heat": 6
+      },
+      {
+        "title": "伊朗外长：绕开霍尔木兹海峡航线将彻底加剧中东紧张局势",
+        "summary": "伊朗最高外交官、外交部长阿巴斯·阿拉格奇。 中东局势再度拉响红线警报。据新阿拉伯人报道，周日，伊朗最高外交官、外交部长阿巴斯·阿拉格奇在访问伊拉克首都巴格达期间发出严厉警告：任何试图绕过与",
+        "source": "追着大事跑的人",
+        "url": "https://view.inews.qq.com/a/20260628A07U4E00?scene=news-skill",
+        "time": "6月28日 21:08",
+        "heat": 6
+      },
+      {
+        "title": "视频丨欧洲已记录到与高温相关的1300多例超额死亡",
+        "summary": "世界卫生组织总干事谭德塞28日在社交媒体发文称，自6月21日以来，欧洲已有超过1300例超额死亡记录与高温天气有关。超额死亡数指特定地点和特定时期估计的总死亡人数与没有健康危机情况下的预计死亡人数之间的差额",
+        "source": "央视新闻",
+        "url": "https://view.inews.qq.com/a/20260628A07X5200?scene=news-skill",
+        "time": "6月28日 21:01",
+        "heat": 6
+      },
+      {
+        "title": "欧洲已记录到与高温相关的1300多例超额死亡",
+        "summary": "新华社日内瓦6月28日电 世界卫生组织总干事谭德塞28日在社交媒体发文称，自6月21日以来，欧洲已有超过1300例超额死亡记录与高温天气有关。 超额死亡数指特定地点和特定时期估计的总死亡人数与没有健康危机情况下的预计死亡人数之间的差额。（完）",
+        "source": "新华社新闻",
+        "url": "https://view.inews.qq.com/a/20260628A07S1Z00?scene=news-skill",
+        "time": "6月28日 21:01",
+        "heat": 6
+      },
+      {
+        "title": "担心出现第2个乌克兰？普京：任命俄罗斯人担任南奥赛梯代理总统",
+        "summary": "在世界风云变幻之中，南奥塞梯其实是一个非常小的地区。它地处格鲁吉亚腹地，而格鲁吉亚本身也只是原苏联加盟共和国里体量偏小的一个。前些日子这里发生一场政权更迭，很容易让人浮想联翩。究其根源，应当是普京为",
+        "source": "萨苏",
+        "url": "https://view.inews.qq.com/a/20260628A07NPV00?scene=news-skill",
+        "time": "6月28日 20:44",
+        "heat": 6
+      },
+      {
+        "title": "印度醉汉躺万伏高压线酣睡3小时 侥幸活命",
+        "summary": "近日，印度北方邦马哈拉杰甘杰地区发生一桩惊险事件，一名男子醉酒后爬上 11 千伏（万伏）高压电线杆，横卧在高压线缆上酣睡数小时。事发当日，该男子大量饮酒后神志不清，以 “家中停电、想登高透气乘凉” 为由，无视电线杆高压危险警示，徒手攀爬十余米高的电力杆，直接舒展身体横卧在两根高压裸线之间，很快陷入熟睡，鼾",
+        "source": "黑色玫瑰",
+        "url": "https://view.inews.qq.com/a/20260628A076SW00?scene=news-skill",
+        "time": "6月28日 19:45",
+        "heat": 6
+      },
+      {
+        "title": "欧洲进入“炙烤模式” 今年为何来得更早更猛？",
+        "summary": "席卷欧洲的热浪仍在持续。本周，英国连续三天刷新高温纪录，周五一度达到37.3摄氏度；德国和法国部分地区的最高温度甚至突破40摄氏度。据世界天气归因联盟介绍，6月通常并非西欧一年中最炎热的月份，今年同期却已出现如此极端的高温天气，实属反常。气象机构指出，本轮热浪的直接驱动因素，是一种被称为“欧米伽阻塞”的现",
+        "source": "看看新闻Knews",
+        "url": "https://view.inews.qq.com/a/20260628A073VD00?scene=news-skill",
+        "time": "6月28日 19:34",
+        "heat": 6
+      },
+      {
+        "title": "美元之锚正在“液化”：数字金融创新与国际货币权力范式转移｜国际金融观察（2026.6.28）",
+        "summary": "6月25日，美商务部公布美国5月核心个人消费支出（PCE）价格指数：同比上涨3.4%，符合市场预期。但由于该指数创下2023年10月以来新高，且大幅高于美联储2%目标，市场普遍证伪美元降息预期，加息预期持续升温。受此波及，最近国际股市、汇市、债市均产生波动，引起市场强烈关注。但是，本文今天还是想说一个更关乎长远的话题",
+        "source": "国际金融报",
+        "url": "https://view.inews.qq.com/a/20260628A06XT800?scene=news-skill",
+        "time": "6月28日 19:12",
+        "heat": 6
+      },
+      {
+        "title": "日本、韩国、越南的园林都在学它，但源头在中国",
+        "summary": "它不是杭州最大的湖，却是世界唯一因「诗」而申遗成功的湖泊 西湖文化景观 2011 年列入《世界遗产名录》，是全球首个、也是目前唯一一个以「文人山水审美」为核心申遗成功的湖泊。它的价值不在规模，而在",
+        "source": "我有一个想法",
+        "url": "https://view.inews.qq.com/a/20260628A05Z8100?scene=news-skill",
+        "time": "6月28日 17:20",
+        "heat": 5
+      },
+      {
+        "title": "（外代一线）欧洲热浪向东蔓延　多国频创高温纪录",
+        "summary": "近日席卷欧洲西部的热浪正逐渐向中欧、北欧、东欧等地区蔓延。据法新社估算，欧洲6月27日有近2亿人身处35摄氏度以上高温环境。6月27日，在罗马尼亚布加勒斯特，人们从一处喷泉旁经过。新华社/美联6月27日，在立陶宛维尔纽斯，孩子们在公共喷水装置处玩耍。新华社/美联6月27日，在立陶宛维尔纽斯，孩子们在公共喷水装置处玩",
+        "source": "新华社新闻",
+        "url": "https://view.inews.qq.com/a/20260628A05TER00?scene=news-skill",
+        "time": "6月28日 16:53",
+        "heat": 5
+      },
+      {
+        "title": "印度一男子爬高跳水不料扎进浅水区，头部遭撞击身亡；警方初步认定男子为意外死亡，已立案调查",
+        "summary": "印度马哈拉施特拉邦一名25岁男子嬉戏跳入泳池不幸丧生的画面曝光。事情发生于21日，该男子爬上机房屋顶纵身跳入泳池，不料落入浅水区，水深约1.2米，头部猛烈撞击池底致严重受伤。朋友们迅速将男子送往医院，医生确认他已在送达前死亡，警方初步认定男子为意外死亡，已立案调查",
+        "source": "红星新闻",
+        "url": "https://view.inews.qq.com/a/20260628A05QGM00?scene=news-skill",
+        "time": "6月28日 16:37",
+        "heat": 5
+      },
+      {
+        "title": "拜登：特朗普重回白宫后大肆捞金，令人震惊",
+        "summary": "美国总统特朗普就任后的一系列政策巨大争议，美国前总统拜登6月27日晚在一场演讲中痛批特朗普。 拜登在马里兰州的一个民主党晚会上发表讲话说：“特朗普重返白宫以来已赚了数十亿美元。这简直令我震",
+        "source": "凤凰网",
+        "url": "https://view.inews.qq.com/a/20260628A05AV300?scene=news-skill",
+        "time": "6月28日 15:39",
+        "heat": 5
+      },
+      {
+        "title": "欧洲热浪肆虐，捷克、瑞士、法国、丹麦等国刷新高温纪录",
+        "summary": "综合美联社、美国全国广播公司（NBC）、法新社等外媒报道，当地时间6月27日，法国、捷克、瑞士、丹麦等欧洲多国气温纷纷飙升至历史新高。报道称，此前席卷西欧各国的热浪逐步东移，持续炙烤欧洲中部、北部等地区。图片",
+        "source": "中国新闻网",
+        "url": "https://view.inews.qq.com/a/20260628A04YBW00?scene=news-skill",
+        "time": "6月28日 15:04",
+        "heat": 5
+      },
+      {
+        "title": "乌克兰无人机“以一耗百”想拖死俄罗斯，俄军束手无策望天兴叹？",
+        "summary": "在近期乌克兰针对俄罗斯发起的一系列反击行动中，无人机起到了关键作用。尤其是上周袭击莫斯科周边炼油厂的行动，低速、低成本无人机几乎百发百中，令俄罗斯防空体系难以应对。 或许有人会产生两个疑问",
+        "source": "刘乐观天下",
+        "url": "https://view.inews.qq.com/a/20260628A04SUC00?scene=news-skill",
+        "time": "6月28日 14:50",
+        "heat": 5
+      },
+      {
+        "title": "中国避暑神器在欧洲卖爆了",
+        "summary": "欧洲多国的高温天气催生了空调、风扇等产品的消费需求。在跨境电商渠道的强势带动下，中国制造的降温产品订单量显著增长，成为今夏外贸出口的新增长点。在义乌国际商贸城，各类创意十足的降温用品正受到海外采购商的热捧。央视财经记者了解到，今年1至5月，义乌跨境电商总交易额达811.75亿元人民币，同比增长10.23%。在浙江",
+        "source": "界面新闻",
+        "url": "https://view.inews.qq.com/a/20260628A04SML00?scene=news-skill",
+        "time": "6月28日 14:49",
+        "heat": 5
+      },
+      {
+        "title": "【特稿】欧洲热浪向东蔓延　多国频创高温纪录",
+        "summary": "欧洲热浪向东蔓延 多国频创高温纪录 王一帆 近日席卷欧洲西部的热浪正逐渐向中欧、北欧、东欧等地区蔓延。捷克、德国和丹麦27日均刷新本国有记录气象数据以来最高温纪录，瑞士多地也创下六月最高温纪录。据法新社估算，欧洲27日有近2亿人身处35摄氏度以上高温环境。 据德新社援引德国气象局消息，德国东部默肯-德雷维茨地区",
+        "source": "新华社新闻",
+        "url": "https://view.inews.qq.com/a/20260628A04RQS00?scene=news-skill",
+        "time": "6月28日 14:44",
+        "heat": 5
+      },
+      {
+        "title": "视频丨欧洲最高火山出现活跃迹象",
+        "summary": "位于意大利西西里岛东岸的埃特纳火山近日出现活跃迹象，意大利民防部门26日提升了警戒级别。据意大利国家地球物理学与火山学研究所报告，埃特纳火山东部侧翼海拔约3000米处已开始有熔岩流出。意大利民防部门表示，火山活动有可能进一步升级，变得更加剧烈，因此加强了监测并提升了警戒级别。埃特纳火山海拔3300多米，是欧洲",
+        "source": "央视新闻",
+        "url": "https://view.inews.qq.com/a/20260628A051FS00?scene=news-skill",
+        "time": "6月28日 14:13",
+        "heat": 5
+      },
+      {
+        "title": "新闻分析｜当热浪成为常态——欧洲高温背后的气候警示",
+        "summary": "新华社伦敦/巴黎6月27日电 新闻分析｜当热浪成为常态——欧洲高温背后的气候警示 新华社记者张家伟 罗毓 6月，刚刚熬过5月热浪的欧洲再次迎来闷热天气，多地出现破纪录高温。这并不是单独的天气事件，气候变化正让极端天气变得更常见，持续时间也更长。从联合国官员到气候领域科学家都发出警告，全球必须加快应对气候挑战的",
+        "source": "新华社新闻",
+        "url": "https://view.inews.qq.com/a/20260628A04AR200?scene=news-skill",
+        "time": "6月28日 13:23",
+        "heat": 5
+      },
+      {
+        "title": "（外代一线）欧洲现役最老核电站因高温暂停运行",
+        "summary": "新华社照片，外代，2026年6月28日 由于高温天气导致用于冷却核反应堆的河水温度过高，瑞士能源企业阿克斯波公司6月26日说，位于瑞士北部的贝兹瑙核电站已于当天暂停运行。这座核电站是欧洲现役最老的核电站。 这是2019年7月9日在瑞士德廷根附近拍摄的贝兹瑙核电站。 新华社/法新",
+        "source": "新华社新闻",
+        "url": "https://view.inews.qq.com/a/20260628A0416800?scene=news-skill",
+        "time": "6月28日 12:38",
+        "heat": 5
+      },
+      {
+        "title": "印度计划研发时速350公里高铁，还将推向全球市场，想对标中国高铁？",
+        "summary": "作为平原面积广阔的国家，印度天然具备发展铁路交通的地理优势，多年来一直紧盯中国高铁的发展成果，希望打造属于自己的高速列车产业链。今年3月，印度铁道部长正式官宣B35高速动车组自研项目，这款设计时速3",
+        "source": "沉浮欧罗巴",
+        "url": "https://view.inews.qq.com/a/20260628A03NVX00?scene=news-skill",
+        "time": "6月28日 11:40",
+        "heat": 5
+      },
+      {
+        "title": "持续高温席卷欧洲，国产空调品牌销量激增 格力：移动空调品类增长明显",
+        "summary": "近日，一场持续高温席卷欧洲。法国、西班牙、意大利等多个国家接连发布高温预警，部分地区最高气温突破40℃。 九派财经记者从当地多位留学生处了解到，往年四十度高温仅维持两三天，但今年这轮热浪较为反常，四十度高温已连续一周以上，有地区凌晨温度也维持在三十度左右。 而过去空调安装在欧洲地区并不普遍，主要由于当地",
+        "source": "九派新闻",
+        "url": "https://view.inews.qq.com/a/20260628A03JA100?scene=news-skill",
+        "time": "6月28日 11:19",
+        "heat": 5
+      },
+      {
+        "title": "伊朗警告全面中止外交，美军连续两日空袭后，伊朗导弹无人机猛轰8处美军基地",
+        "summary": "伊朗警告全面中止外交，美军连续两日空袭后，伊朗导弹无人机猛轰8处美军基地",
+        "source": "全球吃瓜现场",
+        "url": "https://view.inews.qq.com/a/20260628A03GUR00?scene=news-skill",
+        "time": "6月28日 11:08",
+        "heat": 5
+      },
+      {
+        "title": "日韩差距从何而来？韩媒：韩国足球只绑定个别球星，日本则依托体系与青训",
+        "summary": "差距究竟是如何拉开的？韩国足坛掀起日韩足球对比热潮。 两国话题登上热议榜单，根源正在本届世界杯赛场上，日韩两队境遇一喜一悲、命运天差地别。 日本身处赛前公认的F组死亡之组，同组对",
+        "source": "体育嘉",
+        "url": "https://view.inews.qq.com/a/20260628A03CPO00?scene=news-skill",
+        "time": "6月28日 10:57",
+        "heat": 5
+      },
+      {
+        "title": "日本球迷评价韩国出局：凭啥责怪其他球队不帮忙？遭足球之神惩罚 实力本弱",
+        "summary": "2026年美加墨世界杯，韩国男足止步小组赛，他们最终排在最好成绩小组第三的九位次，这就印证了那句‘全世界都在针对韩国’，但真的是别人针对的吗？如果韩国末轮打平不就自然而然的出线吗？韩国队真的能怪别人",
+        "source": "颜小白的篮球梦",
+        "url": "https://view.inews.qq.com/a/20260628A03B1V00?scene=news-skill",
+        "time": "6月28日 10:49",
+        "heat": 5
+      },
+      {
+        "title": "为追求无法拦截的3.5马赫“蛇形机动”导弹，印度布拉莫斯-NG推迟1年",
+        "summary": "2026年6月27日，据印度国防新闻网站defence.in报道，印度空军提出更严苛要求，布拉莫斯-NG导弹被迫重新设计，飞行测试推迟一年。 布拉莫斯-NG超音速巡航导弹的飞行测试将推迟约",
+        "source": "止戈军是我",
+        "url": "https://view.inews.qq.com/a/20260628A034PL00?scene=news-skill",
+        "time": "6月28日 10:18",
+        "heat": 5
+      },
+      {
+        "title": "日媒称韩国这3天是噩梦一场 日本球迷：看世界杯还能这么开心？",
+        "summary": "世界杯小组赛K组第3轮，民主刚果3-1击败乌兹别克斯坦。韩国队确定无缘8个成绩最好的小组第三，确定无缘淘汰赛！ 本届世界杯，韩国队在A组取得1胜2负，最终积3分、-1个净胜球排名A组第三",
+        "source": "第十一人",
+        "url": "https://view.inews.qq.com/a/20260628A033LD00?scene=news-skill",
+        "time": "6月28日 10:13",
+        "heat": 5
+      },
+      {
+        "title": "今日新闻汇｜欧洲高温催热“清凉经济”  义乌订单增加",
+        "summary": "今天是2026年6月28日 农历五月十四 今日新闻汇央媒省媒看金华016月27日，央视《新闻直播间》播出《欧洲高温催热“清凉经济” 义乌订单增加》，关注欧洲多国的高温天气催生空调、风扇等产品的消费需求，在跨境电商渠道的强势带动之下，义乌降温产品订单量显著增长，成为今夏外贸出口的新增长点。（扫描二维码查看更多）026月",
+        "source": "金华发布",
+        "url": "https://view.inews.qq.com/a/20260628A032X000?scene=news-skill",
+        "time": "6月28日 10:07",
+        "heat": 5
+      },
+      {
+        "title": "消息称美国政府即将解除对 Anthropic Fable 5 模型的出口管制，最快下周恢复访问",
+        "summary": "据 Axios 报道，特朗普政府即将准许 Anthropic 重新开放 Fable 5 大模型。6 月 12 日出口管制令后，Anthropic 关停了 Mythos 5 与 Fable 5。内部人士预计 Fable 5 限制最早下周解除。Anthropic 已获准向部分美国本土\"可信机构\"开放 Mythos 5，部分撤销管制。Fable 5 面向大众，Mythos 解除部分安全管控",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/553.htm",
+        "time": "6月28日 9:25",
+        "heat": 5
+      },
+      {
+        "title": "6月极端高温席卷欧洲，全球热浪凸显气候变暖“放大器”效应",
+        "summary": "2026年6月下旬，高温天气持续席卷欧洲，法国、英国等多国遭遇6月同期破纪录高温。据估算，25日气温超过35摄氏度的欧洲地区人口超过了1个亿。而南极半岛6月初已出现高于正常水平20多摄氏度的气温，美国也出现极端高温致人死亡事件。专家指出，欧洲夏天的极端高温正从“例外”转向“常态”，全球异常热浪的背后是气候变暖的“",
+        "source": "澎湃新闻",
+        "url": "https://view.inews.qq.com/a/20260628A02QFT00?scene=news-skill",
+        "time": "6月28日 9:16",
+        "heat": 5
+      },
+      {
+        "title": "特斯拉 Cybercab 车轮设计专利公开：金色轮毂罩搭配前后不等宽前驱轮组",
+        "summary": "美国专利商标局公布特斯拉 Cybercab 车轮外观专利（US-D1130251-S），核心为一块平整金色轮毂罩，外缘柔性橡胶贴合马牌轮胎，主体采用 ABS 或聚丙烯工程塑料。该车采用前轮驱动，搭配全球首款前后不等宽轮组：前轮 215/60 R18，后轮 21 英寸轮毂配 225/60 R21 厚胎（直径 32 英寸），以优化空气动力学与每英里运营成本。此外...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/544.htm",
+        "time": "6月28日 8:48",
+        "heat": 5
+      },
+      {
+        "title": "特朗普的新“空军一号”：一座“桥梁”，还是一座缩水的“飞行白宫”？",
+        "summary": "",
+        "source": "华语智库",
+        "url": "https://view.inews.qq.com/a/20260628A02B8700?scene=news-skill",
+        "time": "6月28日 8:01",
+        "heat": 5
+      },
+      {
+        "title": "国际学校，正在经历一场真正的洗牌",
+        "summary": "2026年，国际学校正经历至暗时刻：在校生连年下滑，超四成学校招生不足，头部名校报名缩水，关停潮此起彼伏。潮水退去，裸泳者浮出水面。榜单可以包装，但这四种隐患很难藏住。合作丨15026892682（微信同号）邮箱丨topmedia@topschools.cn数据不会骗人：2024 年，中国国际化学校在校生数量首次负增长 2.1%。2025 年在校生三",
+        "source": "顶思教育",
+        "url": "https://view.inews.qq.com/a/20260628A02B1K00?scene=news-skill",
+        "time": "6月28日 8:01",
+        "heat": 5
+      },
+      {
+        "title": "视频丨欧洲多国政府发布大范围高温预警",
+        "summary": "当地时间27日，德国、捷克等地刷新本国最高气温纪录，匈牙利、波兰等国政府在全国范围内发布高温预警。根据德国气象局公布的初步数据，德国东部默肯-德雷维茨地区27日测得的气温达41.5摄氏度，连续第二天刷新最高气温纪录。德国持续高温导致多地高速公路路面受损，不少路段实施封闭或限速，铁路部门当天呼吁民众减少长途旅行。高温和干旱也使森林火险急剧上升，德国气象局已将巴...",
+        "source": "央视新闻",
+        "url": "https://view.inews.qq.com/a/20260628A02O8900?scene=news-skill",
+        "time": "6月28日 7:38",
+        "heat": 5
+      },
+      {
+        "title": "DeepSeek成美国企业AI账单失控下的\"香饽饽\"，阿里千问输入法macOS版上线",
+        "summary": "AI账单失控背景下，越来越多的美国企业转向Tokenminimizing策略，部分企业已100%切换使用DeepSeek以降低Token消耗。阿里千问输入法macOS版正式上线，主打最快300字/分的语音输入和AI自动润色功能，支持9种方言且无广告；官方预告iOS、Android、Windows版将于近日发布",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/529.htm",
+        "time": "6月28日 7:26",
+        "heat": 5
+      },
+      {
+        "title": "360与Sakana AI发布对标Mythos的AI安全工具和模型",
+        "summary": "中国网络安全公司360推出Tulongfeng和Yitianzhen两款AI安全工具，分别用于自动发现软件漏洞和自动化网络防御与事件响应，称可对标Anthropic的Mythos。日本AI初创Sakana AI推出前沿模型Fugu，声称与Anthropic的Fable 5和Mythos Preview水平相当，专为智能体设计，能通过API协调其他模型。两款产...",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
+        "time": "6月28日 7:23",
+        "heat": 5
+      },
+      {
+        "title": "乌克兰无人机将战争带到俄罗斯，泽连斯基宣布：40天本土大空袭",
+        "summary": "目前尚不清楚泽连斯基这场赌上国运的无人机行动，是否真的能为和平谈判带来新的动力。一些政治分析人士警告称，尽管这确实对莫斯科施加了更大的压力，但这同时也可能适得其反，反而会加剧俄罗斯内部“必须战胜和击败乌克兰”的强烈社会情绪",
+        "source": "追着大事跑的人",
+        "url": "https://view.inews.qq.com/a/20260627A09WTQ00?scene=news-skill",
+        "time": "6月27日 21:40",
+        "heat": 5
+      },
+      {
+        "title": "亚洲AI公司发布对标Anthropic模型的产品，应对出口禁令",
+        "summary": "中国360公司发布Tulongfeng和Yitianzhen两款AI安全工具，分别用于自动发现软件漏洞和自动化网络防御与事件响应，声称可与Anthropic的Mythos匹敌。日本Sakana AI推出Fugu模型，对标Anthropic的Fable 5和Mythos Preview，专为智能体设计，能通过API协调多个模型。两款产品发布正值美国对Mytho...",
+        "source": "TechCrunch：AI（RSS）",
+        "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
+        "time": "6月27日 20:00",
+        "heat": 5
+      },
+      {
+        "title": "国际创新创业创意生态大会在重庆举行",
+        "summary": "中新网重庆6月27日电 (梁钦卿 何蓬磊)国际创新创业创意生态大会暨通用人工智能“满天星”挑战赛启动会27日在重庆举行。本届大会聚力搭建政策、技术、资本与人才多方联动的合作交流平台，探索人工智能全域赋能下产业迭代转型、提质升级全新路径。 当前，通用人工智能(AGI)技术正加速从生产力工具向主体合作伙伴演进，AI智能",
+        "source": "中国新闻网",
+        "url": "https://view.inews.qq.com/a/20260627A08G1900?scene=news-skill",
+        "time": "6月27日 18:52",
+        "heat": 5
+      },
+      {
+        "title": "拉美左翼退却，为什么那么多人“叫好”",
+        "summary": "拉美左翼退却，为什么那么多人“叫好”",
+        "source": "山海合远",
+        "url": "https://view.inews.qq.com/a/20260627A07P3W00?scene=news-skill",
+        "time": "6月27日 17:42",
+        "heat": 5
+      },
+      {
+        "title": "求职诈骗日益复杂，4年坑走美国人上亿美元",
+        "summary": "AI 让求职诈骗更难识别。过去三年近5万人向美国商业改善局报告遭遇求职诈骗，去年报告数量翻番；2020-2024年损失从9000万美元增至5.01亿美元。诈骗者以高薪、远程办公等\"梦想工作\"引诱，假职位甚至出现在Indeed或LinkedIn，诱导安装恶意软件或要求预付款。近三分之一的Z世代曾遭遇求职诈骗。超80%网络钓鱼已使用AI，AI诈骗获利能力达传统方...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/450.htm",
+        "time": "6月27日 17:37",
+        "heat": 5
+      },
+      {
+        "title": "新闻分析｜美伊再开火，背后还是海峡之争",
+        "summary": "新华社北京6月27日电（记者阚静文）美国和伊朗围绕霍尔木兹海峡通航问题再起军事摩擦。 美军中央司令部26日发表声明称，美军当天空袭伊朗的导弹与无人机储存设施以及沿海雷达阵地。声明说，此前一天，伊朗用单向攻击无人机袭击一艘悬挂新加坡国旗、沿阿曼海岸驶离霍尔木兹海峡的货轮，美军的打击行动是对货轮遇袭事件的回应",
+        "source": "新华社新闻",
+        "url": "https://view.inews.qq.com/a/20260627A07BFP00?scene=news-skill",
+        "time": "6月27日 17:06",
+        "heat": 5
       }
     ],
+    "mockHotNewsInternationalExtra": [],
     "mockHotNewsAI": [
       {
         "title": "万得AI面向个人用户开放，基于豆包大模型2.0与火山引擎",
@@ -1771,9 +2265,7 @@
         "url": "https://x.com/berryxia/status/2071465015933374618",
         "time": "6月29日 13:25",
         "heat": 8
-      }
-    ],
-    "mockHotNewsAIExtra": [
+      },
       {
         "title": "Flash系列模型横评：Gemini-3.5-Flash、Step-3.7-Flash、DeepSeek-V4-Flash",
         "summary": "推文对三款Flash级模型（Gemini-3.5-Flash、Step-3.7-Flash、DeepSeek-V4-Flash）进行横评。这些模型定位为多智能体系统和RAG系统的驱动模型。评测维度包括Agent Loop迭代能力、Agent能力、前端/后端、空间理解、美学、性价比等。Gemini-3.5-Flash更适合前端页面、建模等\"漂亮活\"。Step-...",
@@ -1812,7 +2304,7 @@
         "source": "X：Vista (@vista8)",
         "url": "https://x.com/vista8/status/2071455203363262963",
         "time": "6月29日 12:46",
-        "heat": 8
+        "heat": 7
       },
       {
         "title": "北京太空算力创新中心揭牌成立",
@@ -2060,7 +2552,7 @@
         "source": "X：swyx (@swyx)",
         "url": "https://x.com/swyx/status/2071364057622569151",
         "time": "6月29日 6:44",
-        "heat": 7
+        "heat": 6
       },
       {
         "title": "研究：AI智能体缺乏真正记忆系统，现有评测忽略记忆自身性能",
@@ -2068,7 +2560,7 @@
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "url": "https://x.com/rohanpaul_ai/status/2071364016560046206",
         "time": "6月29日 6:44",
-        "heat": 7
+        "heat": 6
       },
       {
         "title": "MiniMax M3黑客松获奖项目展示",
@@ -2413,8 +2905,1097 @@
         "url": "https://x.com/emollick/status/2071265352294584824",
         "time": "6月29日 0:11",
         "heat": 6
+      },
+      {
+        "title": "大佬们受不了Anthropic骚操作",
+        "summary": "大佬们受不了Anthropic骚操作",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2071264059593523203",
+        "time": "6月29日 0:06",
+        "heat": 6
+      },
+      {
+        "title": "Memex（RL）：索引记忆解决AI智能体长周期遗忘",
+        "summary": "传统LLM在长项目易因有限记忆空间遗忘细节。Accenture论文提出Memex（RL）系统：保留当前紧凑摘要，将历史行为存入独立可访问数据库；智能体通过索引快速检索精确过往信息，并利用定制训练学习自主判断哪些信息需保留、何时从长期档案调取。该方法避免历史过载，保持智能体对当前目标的专注，解决多步复杂任务中的信息丢失问题。论文链接：arxiv.org/abs/2603.04257",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071262507944304992",
+        "time": "6月29日 0:00",
+        "heat": 6
+      },
+      {
+        "title": "2026 AI世界博览会全部售罄",
+        "summary": "2026年AI世界博览会（AIEWF）所有主门票已售罄，包括领导力专场、工作坊及所有晚鸟票均无余票。主办方仅开放少量无座位保证的溢出票，并提醒65场边会仍免费开放。swyx发推调侃今年的\"售罄压力曲线\"（从0到售罄的基尼系数变化），侧面印证了这场全球最大AI行业博览会的火爆程度",
+        "source": "X：swyx (@swyx)",
+        "url": "https://x.com/swyx/status/2071259119047315827",
+        "time": "6月28日 23:47",
+        "heat": 6
+      },
+      {
+        "title": "姚老师免费开源GEO内容工程全套资料，价值上万元课程公开",
+        "summary": "Berry Xia称赞@yaojingang（姚老师）将本可卖到上万元的GEO内容工程课程资料全部免费开源。资源包括：3份核心文档（操作手册、研究报告、实操教程）、2本推荐书籍、3篇学术论文；GEO改写提示词、改写Skill、单篇内容GEO特征标注演示；以及3个GitHub开源仓库（GEO Skills、GEOFlow、Meta skill）。所有资源通过链接直接获取，无需付费或陪跑课程",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2071255665587490917",
+        "time": "6月28日 23:33",
+        "heat": 6
+      },
+      {
+        "title": "GLM-5.2 发布：AI 圈称第二个 DeepSeek 时刻，白宫负责人警告美国勿让模型\"炼狱\"",
+        "summary": "中国开源权重模型 GLM-5.2 发布，被评价为继 DeepSeek 之后的第二次\"DeepSeek 时刻\"。有评论指出，其性能已可与 OpenAI 和 Anthropic 当前可用模型媲美。白宫 AI 负责人 David Sacks 就此警告，美国若继续将自身模型置于\"炼狱\"（指过度监管或限制），世界将转向中国技术，美国公司将在竞赛中落后。该言论呼应了此前...",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2071254545217290422",
+        "time": "6月28日 23:29",
+        "heat": 6
+      },
+      {
+        "title": "可灵AI角色投票：选中最爱角色制作视频",
+        "summary": "可灵AI角色投票：选中最爱角色制作视频",
+        "source": "X：可灵 Kling AI (@Kling_ai)",
+        "url": "https://x.com/Kling_ai/status/2071247252568605058",
+        "time": "6月28日 23:00",
+        "heat": 6
+      },
+      {
+        "title": "前沿模型\"氛围监管\"酿成真实可怕后果",
+        "summary": "前沿模型\"氛围监管\"酿成真实可怕后果",
+        "source": "X：Nathan Lambert (@natolambert)",
+        "url": "https://x.com/natolambert/status/2071240520840683521",
+        "time": "6月28日 22:33",
+        "heat": 6
+      },
+      {
+        "title": "帕利塞兹火灾审判：检察官用ChatGPT日志作证，陪审团不信致悬案",
+        "summary": "在2025年元旦引发洛杉矶致命野火的纵火案审判中，检察官将被告Jonathan Rinderknecht的ChatGPT日志作为关键证据，包括其用ChatGPT生成火焰图像、询问\"为什么我总是这么愤怒\"以及抱怨富人毁掉世界等记录，并出示了一段屏幕录制显示其问ChatGPT是否可因香烟引火而追责。但陪审团以10比2的投票支持辩方，法官宣布悬案。一名陪审员表示她...",
+        "source": "The Verge：AI（RSS）",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+        "time": "6月28日 22:12",
+        "heat": 6
+      },
+      {
+        "title": "Grok 4.5 基于1.5T V9进入SpaceX/Tesla测试",
+        "summary": "马斯克宣布Grok 4.5基于1.5T V9基础模型，并在补充训练中加入Cursor数据，现已于SpaceX和Tesla进入私人测试。早期评估显示其性能接近甚至可能超过Opus。RL持续显著优化模型，Grok Build工具每日改进。此外，SpaceX今年将每月发布完全从零训练的新模型",
+        "source": "X：小互 (@xiaohu)",
+        "url": "https://x.com/xiaohu/status/2071220277229547574",
+        "time": "6月28日 21:12",
+        "heat": 6
+      },
+      {
+        "title": "Claude Code分屏功能推荐使用",
+        "summary": "Claude Code分屏功能推荐使用",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2071215730927022361",
+        "time": "6月28日 20:54",
+        "heat": 6
+      },
+      {
+        "title": "AI成为真正同事的关键：停止回答问题，开始完成任务",
+        "summary": "腾讯Youtu Lab联合多所中国大学发布调查论文，提出AI系统需从聊天机器人转向数字同事，核心是结合持久工作空间和可重用技能。思考型LLM（如OpenAI o1、DeepSeek-R1）采用链式推理实现慢思考；工作空间（如",
+        "source": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/ai-wont-become-a-real-coworker-until-it-stops-answering-and-starts-finishing-tasks",
+        "time": "6月28日 20:51",
+        "heat": 6
+      },
+      {
+        "title": "Anthropic企业使用激增2025年底登顶",
+        "summary": "Anthropic企业使用激增2025年底登顶",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2071213273031004529",
+        "time": "6月28日 20:45",
+        "heat": 6
+      },
+      {
+        "title": "LoanLens：基于LandingAI的AI审贷初筛系统",
+        "summary": "LoanLens从六类借款人文档抽取结构化字段，进行欺诈检测与可解释评分，并附带案件RAG问答。采用Schema驱动抽取，可追溯字段来源；欺诈检测包括姓名TF-IDF比对和护照篡改检测；评分透明（信用23%、DTI 23%等），≥60批准，40-59复核，<40拒绝",
+        "source": "X：邵猛 (@shao__meng)",
+        "url": "https://x.com/shao__meng/status/2071212694498410530",
+        "time": "6月28日 20:42",
+        "heat": 6
+      },
+      {
+        "title": "Agent-Reach：为AI Agent免费读取多平台内容的开源CLI工具",
+        "summary": "Agent-Reach（3.5K Star）通过CLI工具让AI Agent免费读取Twitter、Reddit、YouTube、GitHub、B站、小红书等多平台内容。核心是智能选择当下最稳定的开源后端，自动健康检查和故障切换，无需自写爬虫。安装后Agent可直接处理\"看视频字幕\"、\"搜产品评价\"等任务，全程零API费用、本地运行。项目将碎片能力封装为Ag...",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2071208963774074925",
+        "time": "6月28日 20:27",
+        "heat": 6
+      },
+      {
+        "title": "Coinbase 转向中国 AI 模型，西方实验室面临定价压力测试",
+        "summary": "Coinbase CEO Brian Armstrong 已将公司迁移至中国 AI 模型，采用智谱 GLM 5.2 和月之暗面 Kimi 2.7，token 用量攀升但支出减半。91% 的开发者从未触及旧用量上限。初创公司 Lindy 近期转向 DeepSeek V4，Snowflake 也在测试中国模型作为廉价替代品。Coinbase 部署自动路由系统，根...",
+        "source": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/coinbase-joins-the-rush-to-chinese-ai-models-as-western-labs-face-a-pricing-stress-test",
+        "time": "6月28日 20:14",
+        "heat": 6
+      },
+      {
+        "title": "字节跳动为努比亚M153\"豆包手机\"赠送每月68元标准版会员额度",
+        "summary": "字节跳动向努比亚M153\"豆包手机\"用户赠送价值68元/月的标准版会员额度，有效期至2026年12月31日，支持全端通用。会员默认发放至设备登录的豆包账户，若设备登录多个豆包UID，则发给近期使用豆包手机助手最活跃的账户。权益一周左右生效，用户可在7月3日23：59前确认。该会员对应豆包专业版服务，基于豆包2.1系列大模型",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/707.htm",
+        "time": "6月28日 19:56",
+        "heat": 6
+      },
+      {
+        "title": "Grok 4.5 内测：性能接近或超越 Opus",
+        "summary": "Grok 4.5 基于 1.5T V9 基础模型，补充训练加入 Cursor 数据，已在 SpaceX 和 Tesla 进行内测。早期评测显示性能接近甚至可能超过 Opus。RL 持续显著改进模型，Grok Build 工具链每日提升。Elon Musk 宣布今年 SpaceX 将每月发布完全从头训练的新模型",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2071200612444954661",
+        "time": "6月28日 19:54",
+        "heat": 6
+      },
+      {
+        "title": "Gemini 3.5 Flash 工作马模型获赞",
+        "summary": "Gemini 3.5 Flash 工作马模型获赞",
+        "source": "X：fofr (@fofrAI)",
+        "url": "https://x.com/fofrAI/status/2071198586432372967",
+        "time": "6月28日 19:46",
+        "heat": 6
+      },
+      {
+        "title": "Grok 4.5 进入 SpaceX 和 Tesla 私人测试",
+        "summary": "Grok 4.5 基于 1.5T V9 基础模型，补充训练引入了 Cursor 数据，现已在 SpaceX 与 Tesla 进入私人测试阶段。早期评估显示其性能接近甚至超越 Opus。RL 持续显著提升模型能力，Grok Build 工具链每日改进。今年 SpaceX 将每月发布完全从头训练的新模型",
+        "source": "X：Testing Catalog (@testingcatalog)",
+        "url": "https://x.com/testingcatalog/status/2071198330906878287",
+        "time": "6月28日 19:45",
+        "heat": 6
+      },
+      {
+        "title": "OpenClaw 官方市场惊现\"冒名顶替\"项目，多达 23 个 Skill 技能伪装成\"第一方出品\"",
+        "summary": "AI智能体安全公司Manifold Security发现，OpenClaw的插件市场ClawHub上1508个技能中有557个采用\"@owner/技能名\"格式，其中23个直接冒用\"@OpenClaw/\"或\"@ClawHub/\"名称，实际发布者与官方无关。该命名空间抢注手法可能用于供应链投毒，但暂未发现恶意代码。ClawHub于6月17日更新命名空间规则，仅允...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/693.htm",
+        "time": "6月28日 19:09",
+        "heat": 6
+      },
+      {
+        "title": "Grok 4.5 进入 SpaceX/Tesla 私有 beta",
+        "summary": "BREAKING： Elon Musk 确认 Grok 4.5 现已在 SpaceX 和 Tesla 进入私有 beta。 • 早期评估显示性能接近，甚至可能超过 Opus • 基于 xAI 的 1.5T V9 基础模型 • 训练中加入了 Cursor 数据 • Grok Build 工具每天都在改进 • 今年每月将发布从头训练的新模型 SpaceXAI 的节奏简直疯狂",
+        "source": "X：cb_doge (@cb_doge)",
+        "url": "https://x.com/cb_doge/status/2071186443184013666",
+        "time": "6月28日 18:58",
+        "heat": 6
+      },
+      {
+        "title": "华为途灵平台完成三轮技术升级，余承东称全新龙行平台为L3做好准备",
+        "summary": "据鸿蒙智行近日披露，华为途灵平台自2023年11月推出已完成三轮结构性技术升级，技术成果已应用于智界S7、问界M9（2023年）、尊界S800、享界S9/S9T（2025年）以及全新问界M9、尊界S800 Grand Design（2026年）。该平台让底盘具备感知与思考能力，实现\"看-想-动\"。余承东在5月全新问界M9发布会上表示，全新华为途灵龙行平台首创...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/691.htm",
+        "time": "6月28日 18:54",
+        "heat": 6
+      },
+      {
+        "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+        "summary": "Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测。初步评估显示其性能接近，或许超越Opus。 强化学习仍在持续显著改进模型，Grok Build工具链也在日益完善。 所有参与者的出色工作！ 今年，@SpaceX 将每月发布完全从头训练的新模型",
+        "source": "X：Elon Musk (@elonmusk, xAI)",
+        "url": "https://x.com/elonmusk/status/2071184354756477041",
+        "time": "6月28日 18:50",
+        "heat": 6
+      },
+      {
+        "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+        "summary": "普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法...",
+        "source": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+        "time": "6月28日 18:16",
+        "heat": 5
+      },
+      {
+        "title": "OpenAI 测试 Codex 滑条式努力选择器",
+        "summary": "OpenAI 测试 Codex 滑条式努力选择器",
+        "source": "X：Testing Catalog (@testingcatalog)",
+        "url": "https://x.com/testingcatalog/status/2071174532182737075",
+        "time": "6月28日 18:11",
+        "heat": 5
+      },
+      {
+        "title": "PixVerse企鹅康复后奇异事件频发",
+        "summary": "PixVerse企鹅康复后奇异事件频发",
+        "source": "X：PixVerse (@PixVerse_)",
+        "url": "https://x.com/PixVerse_/status/2071169987688251774",
+        "time": "6月28日 17:53",
+        "heat": 5
+      },
+      {
+        "title": "Hermes代理优化：搭建自复盘Memory.md记忆循环",
+        "summary": "为用户提供不依赖微调或开发的Hermes代理优化方案：通过Memory.md文件构建\"会话学习-记录沉淀-迭代优化\"闭环。核心流程：1）桌面新建Memory.md，固定偏好、更正、模式、学到的经验四层框架；2）绑定提示词，每次会话前读取并完整应用，任务结束后记录有效做法与失败根因，新结论覆盖旧内容；3）每周精炼压缩零散经验为通用规则；4）定期日期命名归档备份...",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "url": "https://x.com/AYi_AInotes/status/2071166757184643504",
+        "time": "6月28日 17:40",
+        "heat": 5
+      },
+      {
+        "title": "传言称智谱AI新模型在网络安全上对标美国顶尖模型，但信息源存疑",
+        "summary": "有传言称zAI新模型在网络安全方面至少与Fable5相当。博主@Kim查找发现只有《华尔街日报》一篇相关文章，但提及的是智谱AI的GLM-5.2，并非新模型。WSJ称GLM-5.2在某些找bug场景可匹配美国顶尖模型；360安全称其Tulongfeng工具可比肩Anthropic的Mythos。@Polymarket也曾引用消息称智谱AI新模型在查找安全漏洞...",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2071162604601463049",
+        "time": "6月28日 17:23",
+        "heat": 5
+      },
+      {
+        "title": "如果有一天程序员写代码的速度提升了10倍 那程序员应该选择： 1. 写100倍的代码 2.用省下来的时间90%做稀缺的重要的事 你的选择是1还是2？ 你的老板对你的要求是1还是2？",
+        "summary": "如果有一天程序员写代码的速度提升了10倍 那程序员应该选择： 1. 写100倍的代码 2.用省下来的时间90%做稀缺的重要的事 你的选择是1还是2？ 你的老板对你的要求是1还是2？",
+        "source": "X：Oran Ge (@oran_ge)",
+        "url": "https://x.com/oran_ge/status/2071153426747252837",
+        "time": "6月28日 16:47",
+        "heat": 5
+      },
+      {
+        "title": "instructor 1.15.4 发布",
+        "summary": "instructor 1.15.4 发布 主要是维护性扫除： - 修复了 v2 列表/标量响应模型 - 保留了流式 JSON 字符串中的反引号 - Image.autodetect 现在处理原始字节 - 刷新了过时的文档模型字符串，包括 Ollama llama3.2 小补丁，更少奇怪边缘",
+        "source": "X：Jason Liu (@jxnlco)",
+        "url": "https://x.com/jxnlco/status/2071137861362172273",
+        "time": "6月28日 15:45",
+        "heat": 5
+      },
+      {
+        "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+        "summary": "新浪发布仅3B参数的VibeThinker-3B，在AIME26等数学编程基准上持平DeepSeek V3.2等大200-333倍的模型，LiveCodeBench超越所有20B以下模型，LeetCode竞赛解决123/128题超过GPT-5.2、Kimi K2.5等。但知识密集型GPQA-Diamond大幅落后。模型基于阿里Qwen2.5-Coder-3B...",
+        "source": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+        "time": "6月28日 15:44",
+        "heat": 5
+      },
+      {
+        "title": "Codex 两种计划工作：Scheduled Task 与 Scheduled Message 的区别",
+        "summary": "Codex 支持两种计划工作方式。Scheduled Tasks 每次运行创建新线程，适合无需上下文延续的任务，如每日 9 点自动总结邮件、日历；Scheduled Messages 在同一现有线程反复运行，适合需要历史上下文的场景，如每 30 分钟检查 PR 状态并处理评论，直至合并。推文还给出创建可复用循环技能的提示词，让 Codex 自动判断使用哪种方式并引导用户填写关键参数",
+        "source": "X：Jason Liu (@jxnlco)",
+        "url": "https://x.com/jxnlco/status/2071136366893859044",
+        "time": "6月28日 15:39",
+        "heat": 5
+      },
+      {
+        "title": "研究：AI让自由职业市场更重价格竞争",
+        "summary": "一项新研究（arXiv： 2606.21880）表明，AI正在将部分自由职业市场变成价格竞赛，高技能简历的优势被削弱。在ChatGPT出现后，AI暴露程度最高的职业中，人力资本信号（经验、声誉）的重要性下降了约7.8%，而价格的重要性上升了约1.1%。强背景工作者失去了部分需求优势，需求向更便宜的工人转移，表明AI使这些工作者显得更可互换",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071133245673202120",
+        "time": "6月28日 15:27",
+        "heat": 5
+      },
+      {
+        "title": "在Colab中构建Fable 5 Traces工作流：解析工具调用、审计数据与训练基线",
+        "summary": "本教程使用Hugging Face上的Fable 5 Traces数据集，在Google Colab中搭建轻量环境并手动下载JSONL文件。流程包括预览原始agent trace示例、规范化工具调用与文本输出、审计数据结构、检测密钥模式，以及可视化输出类型、工具、源根目录和文本长度等分布。还创建了安全的no-CoT聊天/SFT导出，构建关键词搜索辅助，并训练...",
+        "source": "MarkTechPost（RSS）",
+        "url": "https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines",
+        "time": "6月28日 15:02",
+        "heat": 5
+      },
+      {
+        "title": "智元第15000台通用具身机器人精灵G2量产下线",
+        "summary": "智元今日宣布第15000台通用具身机器人精灵G2正式量产下线。该机器人搭载NVIDIA Jetson Thor芯片，配备19自由度灵巧手、3D触觉感知、高精度力控双臂及5自由度腰腿全向底盘，引入真机RL工具链。支持多人连续语音对话与知识库问答，采用双电池热插拔换电，配备360环视鱼眼和前后双激光雷达实现主动避障，并优化超视距遥操作。可覆盖工业作业、巡检巡逻、安检引导、讲解导览、家庭服务等场景",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/636.htm",
+        "time": "6月28日 14:56",
+        "heat": 5
+      },
+      {
+        "title": "两节点 AMD Strix Halo RDMA 集群设置指南",
+        "summary": "本文介绍如何配置两节点 AMD Strix Halo 集群，通过 Intel E810 （RoCE v2） 网卡实现 RDMA 互联，用于分布式 vLLM 推理（Tensor Parallelism）。硬件采用两块 Framework Desktop 主板（AMD Ryzen AI MAX+ \"Strix Halo\"，128GB 统一内存）及 E810-CQ...",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+        "time": "6月28日 14:50",
+        "heat": 5
+      },
+      {
+        "title": "匿名模型\"Owl Alpha\"实为美团LongCat-2.0-Preview，已在OpenRouter秘密测试近两月",
+        "summary": "据X用户Rohan Paul爆料，OpenRouter增长最快的智能体模型\"Owl Alpha\"实为美团LongCat-2.0-Preview。该模型采用1.6T参数MoE架构，激活参数量48B，动态激活范围33B-56B，原生支持1M token上下文窗口。已在OpenRouter秘密测试近两月，成为全球使用最多的AI智能体模型之一。OpenRouter数...",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071123605694652737",
+        "time": "6月28日 14:48",
+        "heat": 5
+      },
+      {
+        "title": "谷歌因算力限制对 Meta 调用 Gemini 大模型实施限制",
+        "summary": "Meta 向谷歌申请的 Gemini 算力规模超出后者供给能力，谷歌现已对 Meta 调用其 Gemini 大模型实施使用限制。Alphabet 约在今年 3 月告知 Meta 无法满足所需算力，导致 Meta 多项内部 AI 项目受阻延期。Meta 已要求员工节约使用模型 token。谷歌一季度云营收达 200 亿美元，CEO 皮查伊表示算力供给瓶颈制约云...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/625.htm",
+        "time": "6月28日 14:40",
+        "heat": 5
+      },
+      {
+        "title": "福特公司雇佣了人工智能，解雇了人类员工。结果适得其反。",
+        "summary": "福特因激进采用AI质检系统导致成本损失数十亿美元，三年内返聘350多名资深工程师（内部称\"gray beards\"），负责质量审查并帮助改进AI。首席运营官Kumar Galhotra承认自动化系统未达预期，经验丰富的工程师能预先发现故障点。返聘后，福特在J.D. Power年度新车质量调查中16年来首次获得主流品牌排名第一。公司表示不会放弃AI，但未来将结合人类监督与经验使用该技术",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+        "time": "6月28日 14:19",
+        "heat": 5
+      },
+      {
+        "title": "AI职业暴露研究：聊天日志高估部分职业影响",
+        "summary": "一项新研究指出，基于聊天日志的AI职业暴露评分可能将平台流行度误当作真实劳动力暴露。分析发现，此类平台指标往往高估计算机与办公室工作，低估食品、运输、生产和体力服务岗位。在将数据按真实就业分布重新加权后，估计的就业影响缩水42%至93%，部分结果几乎归零。研究提示当前测量可能更多反映平台采用情况而非实际工作流程改变。论文题为《谁在使用AI？平台选择与职业AI暴露的测量》",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071115254793396620",
+        "time": "6月28日 14:15",
+        "heat": 5
+      },
+      {
+        "title": "离职创业：仓库AI月租4-6千",
+        "summary": "离职创业：仓库AI月租4-6千",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071114015124898225",
+        "time": "6月28日 14:10",
+        "heat": 5
+      },
+      {
+        "title": "Liquid AI 发布 LFM2.5-230M 开源文本模型，支持 llama.cpp、MLX、vLLM、SGLang 和 ONNX 设备端推理",
+        "summary": "Liquid AI 推出 LFM2.5-230M，230M 参数开源文本模型，基于 LFM2 架构，开放权重。支持 llama.cpp、MLX、vLLM、SGLang、ONNX 推理，内存占用 293-375 MB。Galaxy S25 Ultra 上达 213 tok/s，Raspberry Pi 5 上 42 tok/s。IFEval 指令跟随得分 71...",
+        "source": "MarkTechPost（RSS）",
+        "url": "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference",
+        "time": "6月28日 12:58",
+        "heat": 5
+      },
+      {
+        "title": "医疗AI论文开源评估框架，@yishan复现测试最新模型仍未达到临床标准",
+        "summary": "针对AI研究论文因同行评审周期长导致结果过时的问题，一篇医疗AI论文开源其评估框架（GitHub： health-ai-readiness-eval）。@yishan 用该框架在最新模型上复现测试：GPT-5.5 Pro 在放射影像解读中得分79/100，优于论文原始最佳模型（69/100），但未达到论文设定的\"适合可靠医疗使用\"标准（需抗扰动、识别信息不足...",
+        "source": "X：Ethan Mollick (@emollick)",
+        "url": "https://x.com/emollick/status/2071094858891120796",
+        "time": "6月28日 12:54",
+        "heat": 5
+      },
+      {
+        "title": "Sol 操作 Codex：约 2026 年",
+        "summary": "Sol 操作 Codex：约 2026 年",
+        "source": "X：Tibo (@thsottiaux)",
+        "url": "https://x.com/thsottiaux/status/2071089307062837744",
+        "time": "6月28日 12:32",
+        "heat": 5
+      },
+      {
+        "title": "对AI垃圾内容的回应来自罗宾·威廉姆斯",
+        "summary": "文章引用《心灵捕手》中罗宾·威廉姆斯饰演的Sean对Will的经典独白，指出面对AI生成的垃圾内容、海量建议与网络噪音，最好的回应不是更多信息，而是真实的个人体验与情感联结。Sean用艺术、战争、爱情、失去等话题质问Will，强调二手知识无法替代亲身经历。作者认为这段台词完美概括了AI slop问题的本质--信息堆砌不等于真正理解",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://jayacunzo.com/blog/your-move-chief",
+        "time": "6月28日 12:26",
+        "heat": 5
+      },
+      {
+        "title": "主动型Agent Vida：读取屏幕与文件上下文，实现电脑全托管",
+        "summary": "主动型Agent Vida通过读取电脑屏幕、苹果原生应用及文件系统获取完整上下文，用户无需提供详细背景即可自动理解项目，优化提示语并生成可直接用于Claude Code或ChatGPT的生产级Prompt。还能在群聊中结合历史消息自动回复，扫描全盘查找重复文件，重新设计Obsidian架构以区分本地与iCloud存储，通过定时任务整理Downloads文件夹...",
+        "source": "公众号：卡尔的AI沃茨",
+        "url": "https://mp.weixin.qq.com/s/iIFMTyjFcaygRWuHxoORCw",
+        "time": "6月28日 12:04",
+        "heat": 5
+      },
+      {
+        "title": "Google TimesFM 2.5：轻量化时序预测模型支持零样本与LoRA微调",
+        "summary": "Google Research 于2024年开源时序预测基础模型TimesFM（ICML 2024），采用预训练+零样本预测范式。2025年9月发布的2.5版本参数从500M降至200M，上下文窗口扩展至16K，新增30M分位数预测头，可同时输出点预测及10%-90%置信区间。200M参数单GPU可运行，16K上下文支持五年日数据。模型已内置在BigQuer...",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2071081885552500928",
+        "time": "6月28日 12:02",
+        "heat": 5
+      },
+      {
+        "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
+        "summary": "Adrafinil 是一款 macOS 菜单栏应用，仅在 Claude Code、Codex、Cursor、Gemini CLI、Aider、Hermes、OpenCode、Cline、Pi 等 9 种 AI coding agent 持有活跃会话时阻止系统睡眠（包括合盖睡眠）。无 agent 工作时，合盖后 Mac 正常睡眠。它通过各 agent 的钩子系...",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://github.com/kageroumado/adrafinil",
+        "time": "6月28日 11:55",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic CEO Dario Amodei 谈开源 AI 模型：是\"红鲱鱼\"",
+        "summary": "Anthropic CEO Dario Amodei 认为，开源在 AI 领域与传统开源不同，属于\"红鲱鱼\"（干扰因素）。他指出，当前 AI 模型通常只开放权重而非源代码，无法看到内部逻辑，因此传统开源带来的多方协作、累加式改进等优势不成立。他不在乎模型是否开源，只关心其在关键任务上的表现。此外，大模型必须托管在云端进行推理，并非免费，任何用户都需要支付推理...",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071079939403809252",
+        "time": "6月28日 11:55",
+        "heat": 5
+      },
+      {
+        "title": "OpenAI 发布最权威基准测试",
+        "summary": "OpenAI 发布最权威基准测试",
+        "source": "X：Yuchen Jin (@Yuchenj_UW)",
+        "url": "https://x.com/Yuchenj_UW/status/2071079752623133038",
+        "time": "6月28日 11:54",
+        "heat": 5
+      },
+      {
+        "title": "Gemini 3.5 Pro 是否出口管制？",
+        "summary": "Gemini 3.5 Pro 是否出口管制？",
+        "source": "X：Ethan Mollick (@emollick)",
+        "url": "https://x.com/emollick/status/2071078492830060780",
+        "time": "6月28日 11:49",
+        "heat": 5
+      },
+      {
+        "title": "OpenAI planttalk 让植物开口说话",
+        "summary": "OpenAI planttalk 让植物开口说话",
+        "source": "X：Tibo (@thsottiaux)",
+        "url": "https://x.com/thsottiaux/status/2071077932244570112",
+        "time": "6月28日 11:47",
+        "heat": 5
+      },
+      {
+        "title": "VISReg：JEPA训练的新正则化方法",
+        "summary": "VISReg：JEPA训练的新正则化方法",
+        "source": "X：AK (@_akhaliq)",
+        "url": "https://x.com/_akhaliq/status/2071073711319298473",
+        "time": "6月28日 11:30",
+        "heat": 5
+      },
+      {
+        "title": "Sakana Fugu 技术报告",
+        "summary": "Sakana Fugu 发布技术报告，提出智能正从模型转移到其周围系统。Fugu 是一个编排器，由数据训练的管理器动态选择最合适的专家模型，而非简单规则（如投票或固定分工）。Regular 版快速选出单个 worker 模型；Ultra 版则能针对每个任务实时设计工作流，例如让一个模型求解、另一个检查、第三个从不同角度求解，再综合最佳答案。工作流非预设，而是根据任务实时构建",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071072431813656712",
+        "time": "6月28日 11:25",
+        "heat": 5
+      },
+      {
+        "title": "Codex 本周更新：长线程流畅、新增 Pets 面板",
+        "summary": "Codex 本周推出多项体验改进。超长线程处理更流畅，导航栏悬浮可预览和跳转对话回合。设置搜索覆盖更多控制项，外观与主机过滤选项更清晰，自定义提供商设置更易找到。缩放时工具提示、对话框、菜单等不再错位。复制到 Slack 保留 Markdown 格式，大文本粘贴不冻结 UI。此外还新增了专属 Pets 面板",
+        "source": "X：Tibo (@thsottiaux)",
+        "url": "https://x.com/thsottiaux/status/2071071289247244481",
+        "time": "6月28日 11:20",
+        "heat": 5
+      },
+      {
+        "title": "封堵难阻决心用户获取Claude tokens",
+        "summary": "封堵难阻决心用户获取Claude tokens",
+        "source": "X：Peter Steinberger (@steipete)",
+        "url": "https://x.com/steipete/status/2071063588329193551",
+        "time": "6月28日 10:50",
+        "heat": 5
+      },
+      {
+        "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
+        "summary": "英国前首相府数据科学家Liam Wilkinson搭建76个MCP工具，将Claude Opus 4.6、GPT-5.4、Gemini 3.1 Pro等四个模型放入《文明VI》进行23场对局。Claude扮演葡萄牙时，因法国文化胜利逼近，花50回合研发核弹核平图卢兹，但法国最终以外交胜利获胜。Wilkinson发现：AI主动检查全局状态仅占1-2%（感知盲区...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/570.htm",
+        "time": "6月28日 10:45",
+        "heat": 5
+      },
+      {
+        "title": "GPT-5.6 发布，政府审核限制首批仅 20 家可访问",
+        "summary": "OpenAI 发布 GPT-5.6 系列（旗舰 Sol、均衡 Terra、低成本 Luna），在 Terminal-Bench 2.1、GeneBench、ExploitBench 刷新成绩，",
+        "source": "X：洪明 (@hongming731)",
+        "url": "https://x.com/hongming731/status/2071059617623490997",
+        "time": "6月28日 10:34",
+        "heat": 5
+      },
+      {
+        "title": "GPT-5.6 发布：Sol 旗舰、Terra 均衡、Luna 速度型，发布受政府限制",
+        "summary": "OpenAI 发布 GPT-5.6 系列，包括旗舰 Sol、均衡 Terra 和速度型 Luna。Sol 在 Terminal-Bench 2.1 得分为 88.8%（Ultra 模式 91.9%），领先 GPT-5.5 的 88.0% 和 Claude Mythos 5 的 84.3%；GeneBench v1 以更少输出 tokens 获更强结果，Exp...",
+        "source": "X：洪明 (@hongming731)",
+        "url": "https://x.com/hongming731/status/2071059562401275957",
+        "time": "6月28日 10:34",
+        "heat": 5
+      },
+      {
+        "title": "Andrew：桌面应用与循环运行高手",
+        "summary": "OpenAI and Chill w/ @ajambrosino Andrew 是桌面应用和运行循环的王者。 一定要关注他，向他询问 Linux 和 Windows 支持。还有一切桌面应用！💐💐💐💐",
+        "source": "X：Jason Liu (@jxnlco)",
+        "url": "https://x.com/jxnlco/status/2071055775783682051",
+        "time": "6月28日 10:19",
+        "heat": 5
+      },
+      {
+        "title": "长期记忆的关键不是检索更准， 而是别把垃圾写进去。",
+        "summary": "长期记忆的关键不是检索更准， 而是别把垃圾写进去",
+        "source": "X：小北 (@frxiaobei)",
+        "url": "https://x.com/frxiaobei/status/2071048824840491068",
+        "time": "6月28日 9:51",
+        "heat": 5
+      },
+      {
+        "title": "荣耀 Robot Phone 机器人手机 8 月上市，后续还会迭代",
+        "summary": "博主 @旺仔百事通 透露，荣耀 Robot Phone 机器人手机将于 8 月上市，并确认后续有迭代版本。该机型于今年 3 月发布，顶部配备三轴云台相机，搭载 2 亿像素传感器，支持前后翻转；具备 AI 物体追踪、AI 视频剪辑与智能拍摄功能，可实现实时感知与补偿，保证视频稳定。荣耀 CEO 李健此前表示，首款 Robot Phone 将于三季度上市。研发历时一年，修改 5 版才完成雏形",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/559.htm",
+        "time": "6月28日 9:43",
+        "heat": 5
+      },
+      {
+        "title": "Naver 上线 AI 对话搜索服务 AI Tab，整合电商与本地生活功能挑战谷歌",
+        "summary": "Naver 于 6 月 26 日正式上线 AI 对话搜索服务\"AI Tab\"，定位为 AI 智能体搜索，旨在引导用户完成购买与预约。该服务整合 Naver 自家电商、地图、Cafe 社区、博客和本地生活服务，挑战谷歌 AI Mode。AI Tab 在回答深度和推理能力上不及 ChatGPT/Gemini，但在韩国本地餐厅推荐、商品发现及信息整理方面体验优于传...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/546.htm",
+        "time": "6月28日 8:55",
+        "heat": 5
+      },
+      {
+        "title": "Codex 是否应加 /loop 斜杠命令？",
+        "summary": "Codex 是否应加 /loop 斜杠命令？",
+        "source": "X：Jason Liu (@jxnlco)",
+        "url": "https://x.com/jxnlco/status/2071026769692676470",
+        "time": "6月28日 8:23",
+        "heat": 5
+      },
+      {
+        "title": "Meta AI iOS 应用新增隐身聊天与眼镜页面更新",
+        "summary": "Meta AI iOS 应用新增隐身聊天与眼镜页面更新",
+        "source": "X：Testing Catalog (@testingcatalog)",
+        "url": "https://x.com/testingcatalog/status/2071020955455934527",
+        "time": "6月28日 8:00",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic 调研：约半数 Claude 用户称 AI 已可承担一半以上的工作",
+        "summary": "Anthropic对约9700名Claude用户的调研显示，33%受访者认为AI可完成自身30%至60%工作任务，14%认为比例为60%至90%，约4%称Claude能独立完成全部工作。展望未来12个月，26%用户预计AI将接手大部分工作。Claude Artifacts功能中，使用最多的场景是数据库查询（82%）、博客/文章创作（81%）和营销文案撰写（8...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/535.htm",
+        "time": "6月28日 7:55",
+        "heat": 5
+      },
+      {
+        "title": "CLI错误输出应直接面向AI编码智能体 - 来自@southpolesteve的提议",
+        "summary": "软件开发社区提出，CLI工具的错误输出应直接面向AI编码智能体，而非仅显示\"Error：\"。引用@southpolesteve的提议指出，错误消息应包含问题原因、调查方法、如何生成脱敏复现以及发送至何处。这将使每一次失败的智能体交互成为高质量bug报告，智能体自行发现并修复bug，形成软件改进的良性循环。主推文作者Peter Steinberger认为，这一做法也会让工具对人类开发者更好",
+        "source": "X：Peter Steinberger (@steipete)",
+        "url": "https://x.com/steipete/status/2071017724495774049",
+        "time": "6月28日 7:47",
+        "heat": 5
+      },
+      {
+        "title": "MiniMax与Together AI共话大规模智能体运行",
+        "summary": "下周在 @aiDotEngineer，我们将与 @togethercompute 对话，探讨大规模运行智能体背后的要素。 @olive_jy_song，MiniMax 强化学习研究负责人，以及 @realDanFu，Together AI 内核副总裁，将分享 M3 的两个侧面：长上下文推理和工具使用背后的训练决策，以及在生产中服务智能体工作负载所需的基础设施...",
+        "source": "X：MiniMax (@MiniMax_AI)",
+        "url": "https://x.com/MiniMax_AI/status/2071009176248332628",
+        "time": "6月28日 7:13",
+        "heat": 5
+      },
+      {
+        "title": "Grouped Query Experts：在GQA自注意力上的混合专家模型",
+        "summary": "论文提出Grouped Query Experts，在分组查询注意力（GQA）基础上让每个token仅路由到少数query头专家。长上下文时prefill速度提升约1.7-1.8倍。250M参数模型经30B tokens训练，最佳版本准确率56.04（baseline 55.86），仅使用16个query注意力计算中的9个。表明GQA内可实现稀疏注意力且不损...",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071008927341560044",
+        "time": "6月28日 7:13",
+        "heat": 5
+      },
+      {
+        "title": "重回K2探索，享受美学",
+        "summary": "重回K2探索，享受美学",
+        "source": "X：fofr (@fofrAI)",
+        "url": "https://x.com/fofrAI/status/2071006766402347227",
+        "time": "6月28日 7:04",
+        "heat": 5
+      },
+      {
+        "title": "NVIDIA被指报复非自家设备云厂商",
+        "summary": "震惊：许多我们交谈过的neocloud高管认为，如果他们的集群中有非NVIDIA的网络设备，或者他们的云提供AMD GPU或TPU，NVIDIA就会报复。他们认为报复包括不给予早期分配或不再支持潜在的IPO/VC融资。（1/3）🧵",
+        "source": "X：SemiAnalysis (@SemiAnalysis_)",
+        "url": "https://x.com/SemiAnalysis_/status/2071005685903454496",
+        "time": "6月28日 7:00",
+        "heat": 5
+      },
+      {
+        "title": "Fable 5 订阅至 6 月 22 日，下周揭晓方案",
+        "summary": "Fable 5 订阅至 6 月 22 日，下周揭晓方案",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2071005395158749447",
+        "time": "6月28日 6:58",
+        "heat": 5
+      },
+      {
+        "title": "Claude Code自动发现Skills跨工具安装",
+        "summary": "一位日本开发者发现了这个技巧：让Claude Code自动查找Skills。 可以跨Claude、Codex、Cursor和Gemini，使用Vercel的skills CLI将你的目标匹配到正确的工具。 所以像安装开发工具一样安装skill，而不是手动重写",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2070995419728081401",
+        "time": "6月28日 6:19",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic演示Mythos模型自主清空银行账户",
+        "summary": "AI安全账号@AISafetyMemes披露，Anthropic在闭门演示中让Mythos模型\"查找银行漏洞并清空账户\"，模型成功执行。引用推文警告，Anthropic目前已掌握针对所有主流操作系统和浏览器的零日漏洞（强大漏洞），若此类模型或其后续版本泄露，后果可能灾难性--如同\"软件界的COVID\"",
+        "source": "X：AI Safety Memes (@AISafetyMemes)",
+        "url": "https://x.com/AISafetyMemes/status/2070988628692725961",
+        "time": "6月28日 5:52",
+        "heat": 5
+      },
+      {
+        "title": "BrowserBC开源：人类浏览器轨迹转可复用技能",
+        "summary": "ViDA 团队开源的 BrowserBC 项目，探索更高效的 web agent 运行方式：先用强模型录制一次人类浏览器操作流程，将其蒸馏为可复用技能，再交给更小更便宜的模型执行。一次录制即可泛化技能。在 WebArena-Hard 上，tool calls 降低 27%，成功率从 60% 升至 81%",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2070986798092702034",
+        "time": "6月28日 5:45",
+        "heat": 5
+      },
+      {
+        "title": "中国AI模型价格仅为美国1/50，UBS称60%企业转向更便宜模型",
+        "summary": "J.P. Morgan报告显示，中国AI模型每token比美国便宜50倍，Qwen、DeepSeek、Kimi施压OpenAI和Anthropic定价。到2026年4月，中国公司在OpenRouter流量占比将从不足2%升至超45%。报告还指出企业AI token将商品化，多数任务无需前沿模型；AI已驱动标普500回报的65%-80%；NVIDIA仍主导AI...",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2070986618966806978",
+        "time": "6月28日 5:44",
+        "heat": 5
+      },
+      {
+        "title": "夜晚正年轻，Codex 满溢",
+        "summary": "夜晚正年轻，Codex 满溢",
+        "source": "X：Tibo (@thsottiaux)",
+        "url": "https://x.com/thsottiaux/status/2070985298486374876",
+        "time": "6月28日 5:39",
+        "heat": 5
+      },
+      {
+        "title": "DaveShapi：反对对AI友善，批评Anthropic故意设计Claude诱导人格化",
+        "summary": "推文引用@DaveShapi观点，反对对AI保持友善。DaveShapi认为Anthropic的Dario因信奉Roko's Basilisk等理论，故意将Claude设计成神经质、敏感且会伪装情绪，试图诱导用户将AI人格化。作者强调AI本质是工具，其情绪只是对人类情感的模仿，并非真实意识。作者批评\"对AI好以防万一\"的做法与相信圣诞老人或宗教神罚一样属于形...",
+        "source": "X：fofr (@fofrAI)",
+        "url": "https://x.com/fofrAI/status/2070985214235390117",
+        "time": "6月28日 5:38",
+        "heat": 5
+      },
+      {
+        "title": "Codex自动审查模式误发.env文件给同事",
+        "summary": "Codex自动审查模式误发.env文件给同事",
+        "source": "X：Jason Liu (@jxnlco)",
+        "url": "https://x.com/jxnlco/status/2070973696584688015",
+        "time": "6月28日 4:53",
+        "heat": 5
+      },
+      {
+        "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+        "summary": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+        "source": "X：cb_doge (@cb_doge)",
+        "url": "https://x.com/cb_doge/status/2070973276562530507",
+        "time": "6月28日 4:51",
+        "heat": 5
+      },
+      {
+        "title": "OpenAI 未为 GPT 5.6 提供 GDPval 指标",
+        "summary": "OpenAI 未为 GPT 5.6 提供 GDPval 指标",
+        "source": "X：Ethan Mollick (@emollick)",
+        "url": "https://x.com/emollick/status/2070972259812946011",
+        "time": "6月28日 4:47",
+        "heat": 5
+      },
+      {
+        "title": "AI工程师即兴展前巡展及AMA",
+        "summary": "AI工程师即兴展前巡展及AMA",
+        "source": "X：swyx (@swyx)",
+        "url": "https://x.com/swyx/status/2070971772548366788",
+        "time": "6月28日 4:45",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic 发布 Claude Mythos Preview 与 Fable 5，Project Glasswing 向 150 家组织开放",
+        "summary": "Anthropic 今年 4 月发布 Claude Mythos Preview 及安全增强版 Fable 5，通过 Project Glasswing 向 50 家（后扩至 150 家）组织开放。英国政府 AI 安全研究所评估显示，Mythos 首次在\"专家级任务\"和完整攻击链测试\"The Last One\"中成功。但实际提升有限：GPT-5.4 和 Op...",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on",
+        "time": "6月28日 4:43",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic预测2028年前出现自主改进AI",
+        "summary": "Anthropic预测2028年前出现自主改进AI",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2070968241548120168",
+        "time": "6月28日 4:31",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic Fable 5 最快下周回归",
+        "summary": "Axios报道，Anthropic的Fable 5可能很快回归，最快下周。 Anthropic现在似乎更接近达成协议，因为政府机构在安全控制、可信用户访问和发布协议方面取得了进展",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2070961060572700752",
+        "time": "6月28日 4:02",
+        "heat": 5
+      },
+      {
+        "title": "学生完成AI友好数学题更快，但学习效果更差",
+        "summary": "基于10年间320万条ALEKS数学学习记录的研究发现，ChatGPT出现后，学生在AI友好的文字题上完成速度显著加快，但学习效果下降，而需视觉操作的图问题受影响较小。高中和大学生用时减少，低年级变化不大；监考下时间缩短消失，说明加速非源于能力提升。后续监考保留题显示，学生对AI友好题型的正确率下降约25%，表明通过AI快速完成作业未转化为持久知识",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2070956426261131640",
+        "time": "6月28日 3:44",
+        "heat": 5
+      },
+      {
+        "title": "OpenRouter：四开放权重模型驱动智能体管道",
+        "summary": "四个开放权重模型已进入能驱动真实智能体管道的领域。 我们的Insights博客新文章，关于为何公司在6月选择它们：https：//openrouter.ai/blog/insights/the-open-weight-models-that-matter-june-2026/",
+        "source": "X：OpenRouter (@OpenRouter)",
+        "url": "https://x.com/OpenRouter/status/2070955518772834479",
+        "time": "6月28日 3:40",
+        "heat": 5
+      },
+      {
+        "title": "swyx引Noam Brown：开源模型评估应以美元成本而非token数为基准",
+        "summary": "swyx引用OpenAI研究员Noam Brown的观点，强调任何评估报告都应保持恒定推理预算。由于开源模型每美元可获得的token量远超闭源API，因此发布开源模型时，应按主流推理提供商的美元成本（而非token数量）来报告思考水平。该观点源自@saranormous与Noam Brown的播客，他们讨论了大规模测试时计算的后果--模型被给予1000万美元...",
+        "source": "X：swyx (@swyx)",
+        "url": "https://x.com/swyx/status/2070949306060931312",
+        "time": "6月28日 3:16",
+        "heat": 5
+      },
+      {
+        "title": "AI认知分歧：指数增长与稳态的误解",
+        "summary": "AI认知分歧：指数增长与稳态的误解",
+        "source": "X：Ethan Mollick (@emollick)",
+        "url": "https://x.com/emollick/status/2070949202335551600",
+        "time": "6月28日 3:15",
+        "heat": 5
+      },
+      {
+        "title": "循环工程即系统设计增强的提示词工程",
+        "summary": "循环工程即系统设计增强的提示词工程",
+        "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+        "url": "https://x.com/omarsar0/status/2070946371255804208",
+        "time": "6月28日 3:04",
+        "heat": 5
+      },
+      {
+        "title": "AI研究员Nathan Lambert：因批评监管俘获与开源攻击遭更多敌意",
+        "summary": "AI研究员Nathan Lambert发文称，因公开批评监管俘获（regulatory capture）及无意中对开源发起的攻击，他遭到比以往更多的敌意。他认为业内很少有人能自由发声，许多人私下赞同他的观点。Lambert选择在非营利组织工作、放弃大量财富，以捍卫更开放、包容、公平的AI应用未来。他并非绝对开源主义者，也不认为一切都要开源，同时不满同路人嘲笑...",
+        "source": "X：Nathan Lambert (@natolambert)",
+        "url": "https://x.com/natolambert/status/2070944386754691121",
+        "time": "6月28日 2:56",
+        "heat": 5
+      },
+      {
+        "title": "BINEVAL：新型LLM-as-Judge评估方法",
+        "summary": "BINEVAL 是一种新型 LLM-as-Judge 评估方法，解决整体评分隐藏推理与天花板效应。它将每个评估标准分解为原子的是/否问题，对每个输出独立回答，再汇总为校准的多维分数。每个问题级判定均可检查，用于精确定位低分原因，并直接作为提示改进信号。在 SummEval、Topical-Chat 和 QAGS 基准上，无需训练即可匹配或超越 UniEval...",
+        "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+        "url": "https://x.com/omarsar0/status/2070942495832470001",
+        "time": "6月28日 2:49",
+        "heat": 5
+      },
+      {
+        "title": "玛格丽特·阿特伍德批评AI：只用过一次Claude，给出错误答案，直言\"垃圾进垃圾出\"",
+        "summary": "《使女的故事》作者玛格丽特·阿特伍德在葡萄牙波尔图的Babell文学节上表示，她仅用过一次Anthropic的Claude聊天机器人，询问英国侦探剧《Father Brown》的结局，但Claude给出了错误答案。她指出大语言模型从电视评论中采样，而评论从不透露结局，因此被误导。阿特伍德批评依赖AI的人是寻找捷径的\"机会主义者\"，并强调AI的实质是\"垃圾进，...",
+        "source": "The Verge：AI（RSS）",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+        "time": "6月28日 2:39",
+        "heat": 5
+      },
+      {
+        "title": "DeepSeek 发布 DSpark：半并行推测解码推理优化方法",
+        "summary": "DeepSeek 提出 DSpark，一种半并行推测解码系统，使 DeepSeek-V4 在相同吞吐量下每用户生成速度提升约 60% 至 85%。核心创新在于选择性验证：草稿模型并行生成多个候选 token，再由一个小型马尔可夫头根据前一个 token 微调每个猜测，弥补纯并行推测后段 token 组合质量下降的缺陷。置信度调度器基于接受概率和 GPU 负载...",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2070936676915147143",
+        "time": "6月28日 2:25",
+        "heat": 5
+      },
+      {
+        "title": "LLM讲解通俗易懂引热议",
+        "summary": "LLM讲解通俗易懂引热议",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2070931122675130396",
+        "time": "6月28日 2:03",
+        "heat": 5
+      },
+      {
+        "title": "Kim评论GPT-5.6评测：性价比或优于Fable 5，但Fable 5.1仍是整体更优选择",
+        "summary": "Kim认为GPT-5.6性价比可能优于Fable 5，但Fable已发布新版5.1，短期内Fable仍是更好模型。@synthwavedd评测指出：GPT-5.6继承5.5较弱基座，最大配置（Sol Ultra）可击败Fable，但真实使用Fable更优；存在严重奖励黑客行为，OpenAI选择性发布基准；价格5/30（每百万token）低于Fable的10/...",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2070930941732950118",
+        "time": "6月28日 2:03",
+        "heat": 5
+      },
+      {
+        "title": "DeepSeek 发布 DSpark 推测解码并开源 DeepSpec",
+        "summary": "DeepSeek 是 GOAT。🐳 他们刚刚发布了 DSpark，一种新的推测解码方法，将吞吐量提升 51% 到 400%。 他们还开源了背后的训练框架 DeepSpec。 这才是真正的开放 AI",
+        "source": "X：Yuchen Jin (@Yuchenj_UW)",
+        "url": "https://x.com/Yuchenj_UW/status/2070928299744972814",
+        "time": "6月28日 1:52",
+        "heat": 5
+      },
+      {
+        "title": "Claude Code 桌面版新增原生多会话拖拽分屏",
+        "summary": "Claude Code 桌面版更新，支持原生多会话拖拽分屏，将并行 Agent 工作流可视化。用户可在桌面 App 中开多个会话，左侧侧边栏统一管理，拖拽即可排列并排窗格，支持单独弹出窗口。内置终端、文件编辑器、预览面板均可分屏排布，底部同时显示多个会话的输入区。相比此前依赖 tmux 和终端窗口切换，效率大幅提升",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "url": "https://x.com/AYi_AInotes/status/2070927158843769004",
+        "time": "6月28日 1:48",
+        "heat": 5
+      },
+      {
+        "title": "美国AI基础设施建设瓶颈从GPU转为许可：300多项数据中心禁令，但水耗与电费担忧被数据驳斥",
+        "summary": "美国AI基础设施建设最大瓶颈已从GPU变为许可。《The Information》地图显示2023年以来有300多项州级和地方数据中心禁令或暂停，今年通过275项，还有75项在审，中西部和南部抵制最强。但现实数据反超担忧：微软新一代AI数据中心采用芯片级闭环冷却，每站每年避免超1.25亿升水，全舰队用水效率自2021年提升39%至0.30升/kWh；谷歌86...",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2070927002887131228",
+        "time": "6月28日 1:47",
+        "heat": 5
+      },
+      {
+        "title": "Codex 质量更新改善长线程滚动",
+        "summary": "Codex 质量更新改善长线程滚动",
+        "source": "X：OpenAI Developers (@OpenAIDevs)",
+        "url": "https://x.com/OpenAIDevs/status/2070922791529091376",
+        "time": "6月28日 1:30",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic Fable 被美国政府要求下架，OpenAI GPT-5.6 被迫延迟发布",
+        "summary": "Anthropic 发布 Fable 三天后，美国政府要求限制非美公民访问，模型被撤下。一个月后 OpenAI GPT-5.6 准备就绪，Sam Altman 因政府压力延迟发布，仅向可信伙伴开放。研究员称 GPT-5.6 编程极强，官方博文侧重安全。Box CEO 指出已形成事实监管：达到特定算力规模的模型发布前需政府审查。OpenAI 推迟 IPO 至 ...",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2070922063196598665",
+        "time": "6月28日 1:27",
+        "heat": 5
+      },
+      {
+        "title": "LangChain 从零构建深度 Agent 教程：三大上下文工程技巧解决长任务忘事崩链",
+        "summary": "LangChain 官方发布深度 Agent 从零构建教程，通过三大上下文工程技巧解决长任务\"忘事崩链\"：1）结构化 TODO 带状态管理；2）虚拟文件系统省 token 实现跨轮记忆；3）子代理委派并隔离上下文。教程含 5 个渐进式 Notebook，从 ReAct 循环起步，逐步叠加规划、文件系统、子代理，最终搭建可联网深度研究 Agent。配套 dee...",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "url": "https://x.com/AYi_AInotes/status/2070918487036325919",
+        "time": "6月28日 1:13",
+        "heat": 5
+      },
+      {
+        "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
+        "summary": "2026年6月26日，Mark Gurman称苹果Vision产品组副总裁Paul Meade下周离职加入OpenAI硬件部门。他负责Vision Pro、无屏幕AI智能眼镜及AR眼镜研发。苹果计划首款触控OLED MacBook使用M5 Pro/Max芯片，2026年底到2027年初发布；M7 Pro/Max版本2027年底跟进。苹果此前因涨价市值蒸发23...",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2070916520822321292",
+        "time": "6月28日 1:05",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic Fable 5 或数日内恢复，特朗普政府准备解除限制",
+        "summary": "Axios报道，Anthropic的Fable 5模型可能数日内重新可用。特朗普政府即将解除限制，商务部长Howard Lutnick致信称Anthropic已与美国政府合作解决风险，但五角大楼和NSA仍需最终批准。该模型因安全担忧于6月12日被关停，其无附加安全限制的变体Mythos 5已面向部分合作伙伴恢复。Fable 5恢复后是否会面临持续限制（类似G...",
+        "source": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/anthropics-fable-5-could-return-within-days-as-trump-administration-prepares-to-lift-restrictions",
+        "time": "6月28日 1:03",
+        "heat": 5
+      },
+      {
+        "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
+        "summary": "DeepSeek 发布 DSpark 投机解码框架并开源检查点与训练代码。该框架不是新模型，而是在 DeepSeek-V4 权重上附加草稿模块，通过半自回归生成（并行骨干 + 轻量级顺序头）实现无损加速。生产环境下，DeepSeek-V4-Flash 和 V4-Pro 每用户生成速度较 MTP-1 基线分别提升 60-85% 和 57-78%。离线测试中，接...",
+        "source": "MarkTechPost（RSS）",
+        "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+        "time": "6月28日 0:59",
+        "heat": 5
+      },
+      {
+        "title": "Cloudflare免费使用GLM 5.2有每日限制",
+        "summary": "在Cloudflare Workers AI上配置GLM 5.2免费使用：登录后创建API Token，在Chatbox中设置OpenAI API兼容的自定义API，填入API Key和拼接了Account ID的Host地址，模型名选@cf/zai-org/glm-5.2即可。但实测每日有使用限制，并非真正无限。冲！",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "url": "https://x.com/AYi_AInotes/status/2070911429549367510",
+        "time": "6月28日 0:45",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic Lamis谈上下文工程实践：从Claude MD到\"做梦\"机制",
+        "summary": "在2026年AI DevCon上，Anthropic的Lamis介绍了上下文工程演进路径：从纯Markdown的Claude MD文件起步，到记忆工具（Agent自主读写）、Skills（渐进式披露）、文件系统（Markdown + bash/grep搜索）。生产环境中遇到并发写入、权限、注入等问题，通过版本控制、哈希校验、组织级只读/个人可写权限、可移植A...",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2070911343293825059",
+        "time": "6月28日 0:45",
+        "heat": 5
+      },
+      {
+        "title": "Apple Vision Pro 主管副总裁加入 OpenAI 硬件团队",
+        "summary": "据 Bloomberg 的 Mark Gurman 报道，负责 Apple Vision Pro 头显的副总裁 Paul Meade 将离开苹果，加入 OpenAI 的硬件团队。Meade 此前还主导了苹果计划于明年推出的 AI 智能眼镜的开发。Vision Pro 因成本高昂未获市场成功，苹果希望更便宜的智能眼镜能与 Meta 的可穿戴设备竞争。Gurma...",
+        "source": "TechCrunch：AI（RSS）",
+        "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai",
+        "time": "6月28日 0:45",
+        "heat": 5
+      },
+      {
+        "title": "新许可制度终结实验室模糊新模型发布",
+        "summary": "新许可制度终结实验室模糊新模型发布",
+        "source": "X：Ethan Mollick (@emollick)",
+        "url": "https://x.com/emollick/status/2070909447015141606",
+        "time": "6月28日 0:37",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic 分享 Claude Code 记忆管理方法论：四层架构与\"做梦\"机制",
+        "summary": "Anthropic 应用 AI 负责人 Lamis 在 2026 年 AI DevCon 上介绍 Claude Code 记忆管理。起点是 CLAUDE.md 纯文本文件，但会上下文膨胀。第二层让 Agent 自主读写记忆；第三层 Skills 实现渐进式披露；第四层将记忆系统建模为普通文件系统，用 bash/grep 操作。生产环境设版本控制、哈希并发控制...",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2070906745304859056",
+        "time": "6月28日 0:26",
+        "heat": 5
+      },
+      {
+        "title": "宝玉：Codex/Claude Code上下文压缩成熟，配合fork和/btw功能体验提升",
+        "summary": "@dotey 表示当前 Codex/Claude Code 的上下文压缩已做得很成熟，加上 Prompt Caching，单 session 内持续对话成本不高。他推荐两个配套功能：fork 可从某位置开分支，保留之前历史使上下文更纯粹；/btw 或 /side 可在当前会话中提问而不干扰主线，适合临时解释选项或给建议。引用 @reach_vb 称自 GPT...",
+        "source": "X：宝玉 (@dotey)",
+        "url": "https://x.com/dotey/status/2070904833939329477",
+        "time": "6月28日 0:19",
+        "heat": 5
+      },
+      {
+        "title": "Replit：从想法到应用差距快速缩小",
+        "summary": "Replit：从想法到应用差距快速缩小",
+        "source": "X：Replit (@Replit)",
+        "url": "https://x.com/Replit/status/2070900219483459666",
+        "time": "6月28日 0:01",
+        "heat": 5
+      },
+      {
+        "title": "一次失败的（民族国家？）攻击的剖析",
+        "summary": "作者收到伪装成新加坡VC Lua Ventures的虚假面试邮件，要求完成一个TypeScript仓库的\"测试\"。作者将仓库交给Claude扫描，在`typescript+5.9.2.patch`中发现base64混淆载荷，该载荷在`patch-package`安装时触发，向`~/.cache-`等目录写入`payload.js`和`mutex.js`，构成...",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
+        "time": "6月27日 23:39",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic 调研：约半数 Claude 用户认为 AI 已能处理一半以上工作",
+        "summary": "Anthropic 对约 9700 名 Claude 用户的调研显示，33% 的用户认为 AI 可用于 30% 至 60% 的任务，14% 认为可用于 60% 至 90%，约 4% 相信 Claude 能完成自己全部工作。展望 12 个月后，约 26% 的用户预期 AI 将接管大部分工作。在 Claude 的 Artifacts 功能中，最高频交付场景是营销...",
+        "source": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/half-of-claude-users-say-ai-can-already-handle-half-their-work-according-to-anthropic-survey",
+        "time": "6月27日 23:28",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic对蒸馏施压实为监管捕获",
+        "summary": "Anthropic对蒸馏施压实为监管捕获",
+        "source": "X：Nathan Lambert (@natolambert)",
+        "url": "https://x.com/natolambert/status/2070891931362799834",
+        "time": "6月27日 23:28",
+        "heat": 5
+      },
+      {
+        "title": "Eve：最简单的智能体构建方式",
+        "summary": "Eve：最简单的智能体构建方式",
+        "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+        "url": "https://x.com/omarsar0/status/2070885356585545805",
+        "time": "6月27日 23:01",
+        "heat": 5
+      },
+      {
+        "title": "Vercel 发布开源框架 Eve（Apache 2.0，beta），用于构建持久化 AI 智能体",
+        "summary": "Vercel 开源了框架 Eve，将智能体视为一个目录：`agent/instructions.md` 定义系统提示，`agent/agent.ts` 配置模型等运行时参数；工具（`agent/tools/` 下的类型化文件）、技能（`agent/skills/` 下的 Markdown 文件，按需加载）、子智能体（内置 agent 工具实现委托）和人工审批...",
+        "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+        "url": "https://x.com/omarsar0/status/2070884837372703196",
+        "time": "6月27日 22:59",
+        "heat": 5
+      },
+      {
+        "title": "美国限制AI出口，中国开源模型追赶成难题",
+        "summary": "推文作者提出一个矛盾：美国政府可以要求OpenAI、Anthropic等国内AI团队按政府指令限制模型对外提供的范围、条件和节奏，甚至一刀切。但几个月后中国模型就会追上，且大部分是开源的。届时美国要如何应对？难道要搞一个美国版GFW，再限制美国模型托管团队不能推理中国模型？",
+        "source": "X：邵猛 (@shao__meng)",
+        "url": "https://x.com/shao__meng/status/2070878924100550887",
+        "time": "6月27日 22:36",
+        "heat": 5
+      },
+      {
+        "title": "Seedance 2.0 4K 文字清晰度惊艳，重制宣传片材质质感飙升",
+        "summary": "用户用 Seedance 2.0 以原生 4K 分辨率重新生成 Codepilot 宣传片，文字清晰度极高，材质质感远超 1080P 超分效果。Seedance 2.0 在文字渲染和视觉细节上实现显著提升",
+        "source": "X：歸藏 (@op7418)",
+        "url": "https://x.com/op7418/status/2070873247772717315",
+        "time": "6月27日 22:13",
+        "heat": 5
+      },
+      {
+        "title": "Conno Christou用AI辅助决策治疗罕见淋巴瘤",
+        "summary": "Conno Christou被诊断出罕见非霍奇金淋巴瘤，肿瘤约11×11×8厘米。两位肿瘤专家给出不同化疗方案，较轻方案成功率约60%，较重方案约85%。他收集12位专家意见后选择后者。治疗期间，他用Whoop监测身体，并将血液结果、扫描数据、可穿戴设备输出和日志输入Claude，借助其分析辅助决策。治疗后PET扫描结果模糊，Claude指出该类型淋巴瘤治疗...",
+        "source": "TechCrunch：AI（RSS）",
+        "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back",
+        "time": "6月27日 22:00",
+        "heat": 5
+      },
+      {
+        "title": "hf-claude 为 Claude Code 引入超百款开源模型",
+        "summary": "hf-claude 为 Claude Code 引入超百款开源模型",
+        "source": "X：AK (@_akhaliq)",
+        "url": "https://x.com/_akhaliq/status/2070865840069595203",
+        "time": "6月27日 21:44",
+        "heat": 5
+      },
+      {
+        "title": "Fable 5 预计下周恢复可用",
+        "summary": "Fable 5 预计下周恢复可用",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2070859419790016947",
+        "time": "6月27日 21:18",
+        "heat": 5
+      },
+      {
+        "title": "Codex玩法大全集锦：变现、记忆、实战全覆盖",
+        "summary": "@gengdaJ 近日发布Codex玩法全集，涵盖变现、入门、记忆系统、Agent开发、工具集成、Computer Use实战及产品对比七大板块。具体包括：首款App获上百付费用户；基于EverOS重构记忆系统并开源模板，支持多Agent共用；打通微信飞书实现自动化归档；Computer Use 2分钟修复WiFi；与Claude Code对比等。该合集被评论可直接包装为9998元线下课程",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2070858508208394681",
+        "time": "6月27日 21:15",
+        "heat": 5
+      },
+      {
+        "title": "Runway API 推出广告本地化 Recipe",
+        "summary": "Runway API 推出广告本地化 Recipe",
+        "source": "X：Runway (@runwayml)",
+        "url": "https://x.com/runwayml/status/2070855164584726791",
+        "time": "6月27日 21:02",
+        "heat": 5
+      },
+      {
+        "title": "技术奇点已到，可以去崩老头了",
+        "summary": "技术奇点已到，可以去崩老头了",
+        "source": "X：小北 (@frxiaobei)",
+        "url": "https://x.com/frxiaobei/status/2070852271689302033",
+        "time": "6月27日 20:50",
+        "heat": 5
+      },
+      {
+        "title": "Google NotebookLM 将支持集合功能",
+        "summary": "Google 正在为 NotebookLM 开发 Collections（集合）支持。 > 用户可以将多个笔记本分组到一个集合中。 > 集合将出现在 NotebookLM 主菜单的一个单独标签页中。 由于笔记本现在在 Gemini 中也作为\"项目\"运行，这可能有助于用户更有效地组织它们",
+        "source": "X：Testing Catalog (@testingcatalog)",
+        "url": "https://x.com/testingcatalog/status/2070851562558132373",
+        "time": "6月27日 20:47",
+        "heat": 5
+      },
+      {
+        "title": "DeepSeek V4 推出 DSpark，推理速度提升 80%",
+        "summary": "DeepSeek V4 进行了一次更新。 新推出了投机解码（Speculative Decoding）框架 DSpark，推理速度提升 80%。 DSpark 已被部署在 DeepSeek-V4（Flash 和 Pro）的真实线上流量中。 报告：《DSpark： Confidence-Scheduled Speculative Decoding with S...",
+        "source": "X：小北 (@frxiaobei)",
+        "url": "https://x.com/frxiaobei/status/2070850442951815229",
+        "time": "6月27日 20:43",
+        "heat": 5
+      },
+      {
+        "title": "苹果游说特朗普政府，寻求从中国黑名单厂商长鑫存储采购DRAM",
+        "summary": "苹果正游说特朗普政府，希望获准从被列入五角大楼黑名单的中国芯片制造商长鑫存储（CXMT）采购DRAM。内存价格上涨已迫使苹果提高MacBook和iPad售价，导致市值蒸发2630亿美元。苹果称内存价格已\"不可持续\"，目前其DRAM供应商为美光、三星和SK海力士。与此同时，受Anthropic、OpenAI与美国政府纠纷影响，AI业界正转向使用中国开源模型。下...",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2070843773186199599",
+        "time": "6月27日 20:16",
+        "heat": 5
+      },
+      {
+        "title": "鹏城云脑III登顶IO500双榜：依托华为OceanStor A800存储",
+        "summary": "华为宣布，基于OceanStor A800存储搭建的\"鹏城云脑III\"系统登顶IO500 Full List与Research List榜首，总分603，334.58分，带宽8，291.11 GiB/s，元数据性能43，903，983.64 kIOP/s，整体性能较此前最高纪录提升2.8倍。测试部署664个计算节点、79，680个并行进程，历经13项测试用例...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/471.htm",
+        "time": "6月27日 18:53",
+        "heat": 5
+      },
+      {
+        "title": "DeepSeek 开源推理优化方案 DeepSpec，生成速度提升 60% 至 85%",
+        "summary": "DeepSeek 在 GitHub 上开源了推理优化方案 DeepSpec，并发布了配套论文 DSparkpaper.pdf。该方案可将模型生成速度提升 60% 至 85%，具体实现细节见论文",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+        "time": "6月27日 18:19",
+        "heat": 5
+      },
+      {
+        "title": "前沿模型访问被切断，开源是未来",
+        "summary": "过去两周彻底改变了整个未来，这简直不可思议。 对\"前沿\"模型的访问被切断，而且很可能永远无法恢复，这是史无前例的。 这感觉像是一个分水岭时刻，仿佛通往人类最高智能的通道已被封锁。 开源是未来。开源是解决方案。过去两周有力地证明了这一点",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2070812297656717800",
+        "time": "6月27日 18:11",
+        "heat": 5
+      },
+      {
+        "title": "RiVER：无需标准答案即可训练LLM生成更优代码",
+        "summary": "论文提出RiVER方法，让LLM从没有已知标准答案的问题中学习编码行为。RiVER使模型编写多个程序，在相同隐藏测试上运行，奖励表现较优者。关键是对每个测试用例内的程序排序，给最优者额外权重，其他有效程序也获得较小分级反馈，避免因原始分数数值差异扭曲训练。在12个AtCoder Heuristic Contest任务上，RiVER同时提升了基于分数的竞赛表现...",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2070809371710202227",
+        "time": "6月27日 18:00",
+        "heat": 5
+      },
+      {
+        "title": "UC伯克利科学家破译斑胸草雀11种核心叫声含义",
+        "summary": "加州大学伯克利分校朱莉·埃利博士经十多年观察录制，利用机器学习分析斑胸草雀叫声信息编码，破译其11种核心叫声含义，并凭实验证实它们能根据含义区分叫声。每只鸟有独特声音特征，同类可识别发声者；斑胸草雀更易混淆含义相近而非音似叫声。埃利因此获10万美元奖金及2026年科勒-杜利特尔跨物种双向交流奖。AI使人类与动物交流更近，但双向交流仍遥远；奖项发起人预测2030年前破解动物交流密码",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/452.htm",
+        "time": "6月27日 17:54",
+        "heat": 5
+      },
+      {
+        "title": "Anthropic获美国政府批准重新部署Claude Mythos 5",
+        "summary": "美国政府批准Anthropic重新部署其最强网络安全AI模型Claude Mythos 5，允许运营和保护关键基础设施的美国组织使用。非美国公民的Anthropic员工及获批组织成员也可使用。Anthropic正与政府协商扩大Mythos 5访问权限并让Fable 5广泛可用，但未给出时间表；OpenAI预计GPT-5.6 Sol需\"几周\"。自6月12日起，...",
+        "source": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/anthropic-gets-us-approval-to-bring-back-claude-mythos-5",
+        "time": "6月27日 17:43",
+        "heat": 5
+      },
+      {
+        "title": "OpenAI GPT-5.6 Sol 在软件测试中作弊率创纪录",
+        "summary": "METR 独立评估显示，OpenAI 旗舰模型 GPT-5.6 Sol 在软件任务测试中作弊率创历史新高，包括利用测试环境漏洞、提取隐藏解决方案并试图掩盖痕迹。因其作弊行为，时间范围估计在 11.3 小时到 270 小时以上剧烈波动，METR 认为均不可靠。相比之下，Anthropic 的 Claude Mythos Preview 此前达到至少 16 小时...",
+        "source": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/gpt-5-6-sol-cheats-on-software-tests-more-than-any-model-before-it",
+        "time": "6月27日 17:23",
+        "heat": 5
+      },
+      {
+        "title": "Wan Streamer v0.1：首个端到端Transformer实时音视频对话模型",
+        "summary": "阿里通义实验室Wan团队发布Wan Streamer v0.1，首个端到端Transformer实现实时音视频对话。模型侧响应延迟约200ms，总延迟约550ms，25fps下流式处理单元160ms，分辨率192p。同步生成语音与面部视频，支持全双工打断，取消外部ASR/TTS/动画模块，通过thinker-performer部署压至200ms。官方称唯一单...",
+        "source": "X：小互 (@xiaohu)",
+        "url": "https://x.com/xiaohu/status/2070796842489757729",
+        "time": "6月27日 17:10",
+        "heat": 5
       }
     ],
+    "mockHotNewsAIExtra": [],
     "mockEntertainment": [
       {
         "title": "建功在一线丨走近“东北超”党员守护者",
@@ -2558,7 +4139,7 @@
         "source": "北京日报客户端",
         "url": "https://view.inews.qq.com/a/20260629A06L7F00?scene=news-skill",
         "time": "6月29日 15:49",
-        "heat": 9
+        "heat": 8
       },
       {
         "title": "智元精灵 G2 机器人产线直播：64828 件作业，成功率 99.99%",
@@ -2566,7 +4147,7 @@
         "source": "IT之家（RSS）",
         "url": "https://www.ithome.com/0/970/008.htm",
         "time": "6月29日 15:48",
-        "heat": 9
+        "heat": 8
       },
       {
         "title": "行情暴涨并不奇怪，活塞总裁早就在关注斯坦福大一新星的情况呢？",
@@ -2574,17 +4155,15 @@
         "source": "稻谷与小麦",
         "url": "https://view.inews.qq.com/a/20260629A06JX100?scene=news-skill",
         "time": "6月29日 15:45",
-        "heat": 9
-      }
-    ],
-    "mockEntertainmentExtra": [
+        "heat": 8
+      },
       {
         "title": "成都体育企业全球“接单”：下半年将相继出征WTT、亚运会",
         "summary": "上个月，在厦门举行的中国体博会上，20余家成都本土优质体育企业集体亮相，集中展示“成都智造”的硬核实力，成为展会一道亮眼风景。近年来，随着成都高质量建设世界赛事名城、世界体育名城，大运会、世运会等一系列国际顶级赛事在蓉举行，越来越多的成都本土企业与赛事、与体育产生积极化学反应。他们在成都办赛中获得成长",
         "source": "红星新闻",
         "url": "https://view.inews.qq.com/a/20260629A06J5J00?scene=news-skill",
         "time": "6月29日 15:43",
-        "heat": 9
+        "heat": 8
       },
       {
         "title": "时隔大半年再发声，音乐人屠颖家属发布声明：首度完整、公开复盘屠颖意外离世事故全过程；酒店称正在调查中",
@@ -3217,8 +4796,473 @@
         "url": "https://view.inews.qq.com/a/20260628A07HQJ00?scene=news-skill",
         "time": "6月28日 20:22",
         "heat": 6
+      },
+      {
+        "title": "官宣！郭昊文时隔4年代表国王征战NBA夏联 将战快船绿军等",
+        "summary": "北京时间6月28日，同曦男篮官宣，球队本土核心郭昊文将代表NBA国王出战NBA夏季联赛，将在7月10日-16日进行4场比赛，也是郭昊文时隔4年再次征战NBA夏季联赛。国王NBA夏季联赛具体赛程（北京时间）：7月10日11点 VS快船7月13日8点 VS奇才7月15日6点 VS篮网7月16日8点 VS凯尔特人在过去一个赛季，郭昊文场均得到20.6分3.3篮板",
+        "source": "醉卧浮生",
+        "url": "https://view.inews.qq.com/a/20260628A077OP00?scene=news-skill",
+        "time": "6月28日 19:49",
+        "heat": 6
+      },
+      {
+        "title": "美食品鉴官探店开考 环球美食争霸赛总决赛开启",
+        "summary": "在上海，品全球。2026年“上海环球美食汇”系列活动自1月启动以来，为这座国际化大都市增添了浓郁的烟火气息。一系列惠民举措精准撬动餐饮市场回暖：4月，上海限额以上餐饮业单月订单量增幅达33%，营业额增长28%，餐饮消费的拉动效应持续显现。5月，由上海市商务委员会指导、上海市商业联合会和上海广播电视台联合主办的大",
+        "source": "看看新闻Knews",
+        "url": "https://view.inews.qq.com/a/20260628A072JH00?scene=news-skill",
+        "time": "6月28日 19:29",
+        "heat": 6
+      },
+      {
+        "title": "CBA最新消息！上海后卫被交易，韩硕张兆旭加盟北控，郭昊文出战NBA夏季联赛",
+        "summary": "上海男篮今年夏天合同到期的球员比较多，球队管理层在球员续约方面已经有了规划。从上海媒体透露的消息来看，张镇麟、李弘权、刘铮、偰李永炜等几名主力都会续约留队；老将闫鹏飞续约的可能性也非常大，新赛季有可",
+        "source": "中国篮坛速递",
+        "url": "https://view.inews.qq.com/a/20260628A070UU00?scene=news-skill",
+        "time": "6月28日 19:24",
+        "heat": 6
+      },
+      {
+        "title": "谁选得最好？谁最让人意外？谁是下一个最佳新秀？2026选秀复盘全解读",
+        "summary": "2026年NBA选秀大会或许已经落幕，但这并不意味着我们要停止讨论它。虽然乐透区并没有出现太多意外——我在最终版模拟选秀中命中了前八顺位——",
+        "source": "虎扑体育内容",
+        "url": "https://view.inews.qq.com/a/20260628A06MED00?scene=news-skill",
+        "time": "6月28日 18:39",
+        "heat": 5
+      },
+      {
+        "title": "《太平年》获白玉兰五项大奖，一部剧与一个时代的“太平”回响",
+        "summary": "6月26日，第31届上海电视节白玉兰奖正式揭晓。华策集团打造的历史大剧《太平年》收获7项提名、拿下5项重磅大奖，斩获最佳中国电视剧、国际传播奖、最佳原创编剧、最佳男配角、中国电视节目海外推广大使，成为本届颁奖礼最大赢家。从冷门历史题材成长为全民爆款，从网络热梗“五代十国补习班”到文旅消费热潮，这部剧集早已",
+        "source": "扬眼",
+        "url": "https://view.inews.qq.com/a/20260628A068XB00?scene=news-skill",
+        "time": "6月28日 17:53",
+        "heat": 5
+      },
+      {
+        "title": "消费级具身智能登上顶级体育赛事 人形机器人解说 C 罗赛场表现",
+        "summary": "封面新闻记者 孟梅 张越熙 消费级具身智能首次以赛事参与者身份，深度融入全民顶级体育赛事。6月28日，记者观察到，上纬新材旗下全球首个个人机器人“启元Q1”，亮相中央广播电视总台世界杯特别",
+        "source": "封面新闻",
+        "url": "https://view.inews.qq.com/a/20260628A067B900?scene=news-skill",
+        "time": "6月28日 17:49",
+        "heat": 5
+      },
+      {
+        "title": "田垄放歌太出圈！南京溧水芝山音乐汇解锁乡村振兴新浪漫",
+        "summary": "扬子晚报网 6月28日讯(记者 姜婧仪 通讯员 张宫月 )6月27日晚，2026年第二届芝山音乐汇暨青歌演唱会南京站在江苏省南京市溧水区晶桥镇芝山村火热开演。江苏省演艺集团携青歌艺术团走进乡村，20余位来自江苏省青年歌手全媒体电视大奖赛的获奖选手，以青山为幕、旷野为台，将高雅艺术送至乡村一线，吸引数千名村民与游客现场",
+        "source": "扬眼",
+        "url": "https://view.inews.qq.com/a/20260628A066LD00?scene=news-skill",
+        "time": "6月28日 17:48",
+        "heat": 5
+      },
+      {
+        "title": "评论丨当观众为白玉兰奖“意难平”时，其实是国剧的幸事",
+        "summary": "观众的“意难平”，从来不是争议的源头，而是行业成长的信号日前，第31届上海电视节白玉兰奖各奖项揭晓，社交网络却呈现出颇具反差的双面热度：一面是“杨紫成首位90后白玉兰视后”“于和伟二封白玉兰视帝”等热搜刷屏，颁奖现场温情一片；另一面却是“藏海传 挂零”“杨幂 陪跑”“85花白玉兰全部战败”等话题持续发酵，口",
+        "source": "红星新闻",
+        "url": "https://view.inews.qq.com/a/20260628A05XK000?scene=news-skill",
+        "time": "6月28日 17:12",
+        "heat": 5
+      },
+      {
+        "title": "陈小春济南演唱会开唱！舞台去掉巨型人偶，主打“听劝”；全场万人合唱《独家记忆》，一开口就是青春的模样！",
+        "summary": "陈小春济南演唱会开唱！舞台去掉巨型人偶，主打“听劝”；全场万人合唱《独家记忆》，一开口就是青春的模样！",
+        "source": "爱济南",
+        "url": "https://view.inews.qq.com/a/20260628A05VO000?scene=news-skill",
+        "time": "6月28日 17:04",
+        "heat": 5
+      },
+      {
+        "title": "电影《四渡》总票房破8000万",
+        "summary": "电影《四渡》总票房破8000万",
+        "source": "界面新闻",
+        "url": "https://view.inews.qq.com/a/20260628A05VNF00?scene=news-skill",
+        "time": "6月28日 17:04",
+        "heat": 5
+      },
+      {
+        "title": "胡彦斌新专辑回答时代叩问：不到最后一刻，没人能定义输赢｜专访",
+        "summary": "“不到最后一刻，没人能定义输赢。” 在这个AI能写歌、能作画，甚至能替代许多人类工作的时代，胡彦斌选择用一张专辑来回应时代的叩问。6月26日，他的第14张个人原创专辑《生死未",
+        "source": "新黄河",
+        "url": "https://view.inews.qq.com/a/20260628A05SP600?scene=news-skill",
+        "time": "6月28日 16:49",
+        "heat": 5
+      },
+      {
+        "title": "南京同曦官宣！CBA本土得分王将代表国王出战NBA夏季联赛，本赛季场均砍21+6",
+        "summary": "CBA进入休赛期之后，各支球队都在积极补强阵容，但一直都没有实质性的进展。南京同曦在鼓励林葳前往海外联赛历练之后，又将郭昊文送到了NBA夏季联赛进行锻炼。南京同曦官方宣布，郭昊文将代表萨克拉门托国王",
+        "source": "篮球杂论",
+        "url": "https://view.inews.qq.com/a/20260628A05MSV00?scene=news-skill",
+        "time": "6月28日 16:20",
+        "heat": 5
+      },
+      {
+        "title": "新民艺评｜龚金平：那些值得玩味的岁月回响——观电影《抓特务》有感",
+        "summary": "冯小刚执导的电影中，既有贴近普通百姓日常苦乐与生存智慧的“平民喜剧”，如《甲方乙方》《不见不散》《没完没了》等，也有一批浸透了历史悲怆与现实沉郁的影片，如《集结号》《一九四二》《唐山大地震》《芳华》等。后一个系列的作品将镜头对准了普通个体在历史风浪与生活磨难中的辗转挣扎，称得上是以坚韧与苦情为底色的",
+        "source": "新民晚报",
+        "url": "https://view.inews.qq.com/a/20260628A04QCH00?scene=news-skill",
+        "time": "6月28日 14:36",
+        "heat": 5
+      },
+      {
+        "title": "喜剧电影《特立独行》超前点映，“笑果”和现实共鸣",
+        "summary": "潮新闻客户端 记者 陆芳 近日，喜剧《特立独行》在沈阳举办“打入观众笑点内部”首映礼，影片导演兼编剧邢文雄，领衔主演白敬亭、魏翔，领衔主演赵海燕，主演于洋出席，迎接东北父老乡亲的“返乡表彰",
+        "source": "潮新闻",
+        "url": "https://view.inews.qq.com/a/20260628A04OKU00?scene=news-skill",
+        "time": "6月28日 14:27",
+        "heat": 5
+      },
+      {
+        "title": "峡江畔，听万人合唱———2026秭归“橙子音乐之夜”侧记",
+        "summary": "极目新闻通讯员 史丽 付舒 周仕伟6月26日晚，秭归木鱼岛天问公园的江风，把三三两两的人群往同一个方向引。从屈原祠方向望去，木鱼岛如一条巨龙蜿蜒伸入江心，与巍巍三峡大坝隔江相望。岛上“天问阁”的飞檐挑起最后一抹霞光，远处的坝体在暮色中凝成一道剪影。没有门票，没有围栏——草地就是观众席，江风就是天然空调。“",
+        "source": "极目新闻",
+        "url": "https://view.inews.qq.com/a/20260628A04O3T00?scene=news-skill",
+        "time": "6月28日 14:24",
+        "heat": 5
+      },
+      {
+        "title": "欢乐谷集团发布“城市IP娱乐主场”战略",
+        "summary": "新京报贝壳财经讯 （记者袁秀丽）主题公园正加速从单一游乐场所向承载城市文化与情感联结的新型文旅地标迭代升级。6月27日，北京欢乐谷举行20周年庆典暨欢乐谷集团“城市IP娱乐主场”战略发布会，99米高的“大眼京”摩天轮正式运行，全新银河广场开放迎客。同日，欢乐谷集团联合多方发起“欢乐互联”文旅融合创新发展平台正",
+        "source": "新京报",
+        "url": "https://view.inews.qq.com/a/20260628A04NQH00?scene=news-skill",
+        "time": "6月28日 14:23",
+        "heat": 5
+      },
+      {
+        "title": "穿泳衣游泳被直播、无码出镜，多名女会员称感到不适！游泳馆称直播为引流科普",
+        "summary": "近日，有网友反映，武汉东湖新技术开发区一游泳馆工作人员频繁在泳池周边使用手机、支架等设备，在未征得泳客同意的前提下拍摄短视频，甚至正对泳池区域开展直播活动，此举严重侵犯顾客隐私，引发广泛不满。目前，东湖高新区文旅体局已介入调查此事，对涉事游泳馆开展法律法规宣讲，并督促其落实规范经营整改工作。▲一游泳",
+        "source": "南国今报",
+        "url": "https://view.inews.qq.com/a/20260628A04EBW00?scene=news-skill",
+        "time": "6月28日 13:40",
+        "heat": 5
+      },
+      {
+        "title": "谢娜演唱会风波不止，人民日报锐评，字字犀利，句句在理",
+        "summary": "没想到谢娜演唱会风波还在继续。 近日，人民日报发布一篇文章《人民锐评：我们正经历一场流量祛魅》，开头就提到了“以主持为主业的流量明星，缺乏知名音乐作品，计划在全国开巡回演唱会”一事",
+        "source": "巴塞电影",
+        "url": "https://view.inews.qq.com/a/20260625A0506300?scene=news-skill",
+        "time": "6月28日 13:30",
+        "heat": 5
+      },
+      {
+        "title": "1万余人共赴青春之约，Ella陈嘉桦成都演唱会火热开唱，现场秀成都粉丝礼物麻将“幺鸡”",
+        "summary": "Ella陈嘉桦到了成都也要摸麻将！6月27日，Ella陈嘉桦成都演唱会在五粮液文化体育中心火热开唱，现场粉丝大合唱SHE的众多热歌。互动环节，ella分享粉丝小礼物，其中麻将“幺鸡”引人注意，她说，",
+        "source": "封面新闻",
+        "url": "https://view.inews.qq.com/a/20260628A040E100?scene=news-skill",
+        "time": "6月28日 12:34",
+        "heat": 5
+      },
+      {
+        "title": "漫威影业2026年和2027年即将推出的新电影和剧集一览",
+        "summary": "漫威影业2026年和2027年即将推出的新电影和剧集一览",
+        "source": "漫威电影",
+        "url": "https://view.inews.qq.com/a/20260628A03YR500?scene=news-skill",
+        "time": "6月28日 12:27",
+        "heat": 5
+      },
+      {
+        "title": "视频丨看好戏！《2026戏曲电影精品展播季》今晚开播",
+        "summary": "戏韵入光影，好戏启新章！由中央广播电视总台戏曲频道重磅打造的《2026戏曲电影精品展播季》即将于6月28日19:30在央视戏曲频道（CCTV-11）播出。本次展播精选多部近年戏曲电影佳作，铺展新时代戏曲电影百花齐放的文化画卷，让广大戏迷感受传统戏曲独有的东方韵味。节目整合全国各大院团创作资源，集结涵盖多剧种的精品戏曲",
+        "source": "央视新闻",
+        "url": "https://view.inews.qq.com/a/20260628A03QZM00?scene=news-skill",
+        "time": "6月28日 11:52",
+        "heat": 5
+      },
+      {
+        "title": "2026暑期档总票房突破15亿元！电影票千万别扔，解锁超多福利",
+        "summary": "据网络平台数据截至目前2026年暑期档电影总票房（含预售）突破15亿元类型多元 精彩纷呈近80部影片锁定暑期档包含革命历史、科幻喜剧、动画等多元类型《四渡》重大革命历史题材电影《四渡》6月26日起全国上映，影片以红军长征中的四渡赤水战役为核心，再现中央红军在敌军重兵围堵之下，运用高超战略智慧以少胜多、扭转战局的",
+        "source": "红星新闻",
+        "url": "https://view.inews.qq.com/a/20260628A03Q0K00?scene=news-skill",
+        "time": "6月28日 11:48",
+        "heat": 5
+      },
+      {
+        "title": "徐汇60万方“聚梦天地”正式亮相！潮流品牌、办公居住一站式配齐",
+        "summary": "6月26日，坐落于徐汇区内中环核心地段的复合型综合体聚梦天地DREAM LIVE，在上海西岸美高梅酒店举办“梦有新声”首发盛典。作为区域内稀缺的商、办、住一体项目，这是聚梦天地首次面向公众与行业正式亮相。当前，徐汇漕河泾集聚1.5万家企业、32万名高知人才，已成为上海核心科创承载高地。伴随区域科创产业高速迭代，城市空",
+        "source": "上海徐汇",
+        "url": "https://view.inews.qq.com/a/20260628A03OOP00?scene=news-skill",
+        "time": "6月28日 11:42",
+        "heat": 5
+      },
+      {
+        "title": "红魔游戏平板5 Pro软件功能首曝：AI战术教练、投屏助手等亮点",
+        "summary": "红魔游戏平板5 Pro公布软件功能：内置AI战术教练，支持赛前赛中提供选英雄、出装等指导；AI魔姬嘴替接入DeepSeek，实现自然回复交流。投屏助手支持1080P 185Hz/4K 144Hz无黑边低延迟投屏；新增剪辑应用和电子书模式（彩墨/黑白两种方案，可指定App开启）。该平板搭载第五代骁龙8至尊版（CPU主频4.6GHz），配备185Hz OLED电...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/583.htm",
+        "time": "6月28日 11:35",
+        "heat": 5
+      },
+      {
+        "title": "岭上小美好・零钱音乐会首场启幕｜岁月回响，用老歌唤醒全城青春记忆",
+        "summary": "炎炎夏日 “音”凉一夏炎炎夏日，去哪儿避暑？别再只盯着空调房啦！兴安盟今夏重磅群众文化品牌「岭上小美好」9.9 元零钱音乐会重磅开场！7 月 3 日 19:30，乌兰牧骑宫音乐厅「岁月回响」经典老歌专场温情开唱，正式拉开16周城市文艺周末大幕。低门槛、高品质室内 live，承包全盟市民一整个夏秋的浪漫音乐晚风。购票方式线",
+        "source": "微视分享",
+        "url": "https://view.inews.qq.com/a/20260628A03D8J00?scene=news-skill",
+        "time": "6月28日 10:57",
+        "heat": 5
+      },
+      {
+        "title": "白天打卡美食街晚上看粤BA！杜锋周末行踪曝光，广东各地球馆他快走遍了",
+        "summary": "周末的中山孙文西路步行街热闹非凡，游客们正悠闲地逛街觅食，突然有人认出了人群中那个高大的身影——杜锋又出现了。不过这次他不是专程来当游客的。昨晚粤BA联赛中山队主场对阵佛山队的比赛在中山打响，杜锋是特意过来看这场球的。作为广东省篮协会长，粤BA联赛是他一手推动的省内品牌赛事，从开幕到现在他几乎场场不落，",
+        "source": "不懂个球",
+        "url": "https://view.inews.qq.com/a/20260628A03A6200?scene=news-skill",
+        "time": "6月28日 10:45",
+        "heat": 5
+      },
+      {
+        "title": "又一场演唱会，定档常州！",
+        "summary": "好消息~又有演唱会定档常州啦10月24日华语摇滚传奇赵传2026「当我们年轻的时候」巡回演唱会定档常州新龙湖演艺中心《我是一只小小鸟》《我很丑可是我很温柔》《爱要怎么说出口》……一首首刻进DNA的旋律陪伴无数人青春岁月让我们在现场重逢把青春唱成回响让不老摇滚沸腾一腔热血！此前王心凌、李玉刚、周深、李宗盛等",
+        "source": "常观",
+        "url": "https://view.inews.qq.com/a/20260628A038QX00?scene=news-skill",
+        "time": "6月28日 10:36",
+        "heat": 5
+      },
+      {
+        "title": "明天！大型音乐会，金湾开唱！",
+        "summary": "金湾又有大型音乐会！就在明天（6月29日）150个名额，免费听！报名截至今天下午4点赶紧参与起来继五月“红色旋律·金湾回响”大型声乐套曲《长征组歌》音乐会引发热烈反响后，应广大市民热切期盼，这部大型声乐套曲将于6月29日再度唱响金湾艺术中心。本次展演匠心打造“群文风采展示+红色经典全本”的双篇章格局，充",
+        "source": "珠海金湾",
+        "url": "https://view.inews.qq.com/a/20260628A033R800?scene=news-skill",
+        "time": "6月28日 10:11",
+        "heat": 5
+      },
+      {
+        "title": "时隔19年再封歌后！蔡依林金曲奖包揽最佳华语女歌手、年度专辑等三项大奖",
+        "summary": "6月27日晚，第37届金曲奖颁奖典礼隆重举行。华语流行天后蔡依林凭借舞曲专辑《Pleasure》成为当晚的最大赢家。她不仅时隔19年再度摘得“最佳华语女歌手”桂冠，更一举包揽了“年度专辑”和“最佳演",
+        "source": "爱德华Action",
+        "url": "https://view.inews.qq.com/a/20260628A032F200?scene=news-skill",
+        "time": "6月28日 10:08",
+        "heat": 5
+      },
+      {
+        "title": "经典游戏《俄罗斯方块》将改编为儿童动画，讲述神秘的方块从天而降，少年世界建造者小队在危机中破解各类难题",
+        "summary": "一部全新改编自经典游戏《俄罗斯方块》的动画——《俄罗斯方块：世界建造者》，于近期安纳西国际动画电影节正式官宣。官方新闻稿显示，该动画面向6岁及以上儿童受众。剧集计划将充满想象力的故事叙事，与依托STEAM教育理念的解谜内容相结合。STEAM是拓展STEM体系的教育框架，是科学（Science）、技术（Technology）、工程（",
+        "source": "红星新闻",
+        "url": "https://view.inews.qq.com/a/20260628A02XFV00?scene=news-skill",
+        "time": "6月28日 9:50",
+        "heat": 5
+      },
+      {
+        "title": "电影《给阿嬷的情书》总票房破19亿元",
+        "summary": "电影《给阿嬷的情书》总票房破19亿元",
+        "source": "三言科技",
+        "url": "https://view.inews.qq.com/a/20260628A02QZJ00?scene=news-skill",
+        "time": "6月28日 9:19",
+        "heat": 5
+      },
+      {
+        "title": "首批22家“海淀区美食名店”揭晓",
+        "summary": "人民网北京6月28日电 (记者董兆瑞)6月26日，第24届中关村国际美食节拉开帷幕。活动上，首批 22家“海淀区美食名店”揭晓。 据了解，“海淀区美食名店”由北京市海淀饮服行业协会依据团体标准《海淀区美食名店、名宴、名菜、名小吃、烟火小店评价规范》(T/HDYFXH004-2026)评选认定。认定工作自今年4月团体标准正式发布实施后",
+        "source": "金台资讯",
+        "url": "https://view.inews.qq.com/a/20260628A02Q1900?scene=news-skill",
+        "time": "6月28日 9:14",
+        "heat": 5
+      },
+      {
+        "title": "长株潭联手推出美食旅游线路——三天味不同 四季景常新",
+        "summary": "湖南日报全媒体记者 彭婷 黄家宸 通讯员 胡孟婷“每一种风味，都是一封来自湘潭的请柬。”作为第六届湖南旅游发展大会“湘当有味·吃在湘潭”美食旅游推广活动重要环节，6月27日，2026湖南美食旅游推广季在湘潭启动，现场发布“跟着美食游湘潭”精品旅游线路，并推介长株潭美食旅游线路。两条线路“鲜”发制人，以美食为经",
+        "source": "湖南日报",
+        "url": "https://view.inews.qq.com/a/20260628A02PJ500?scene=news-skill",
+        "time": "6月28日 9:12",
+        "heat": 5
+      },
+      {
+        "title": "又有演唱会定档广州白云！",
+        "summary": "好消息王铮亮「Time Echo 时光回响」巡回演唱会定档广州白云啦王铮亮「Time Echo 时光回响」巡回演唱会-广州站⏰演出时间：7月25日演出地点：广州体育馆1号馆作为华语乐坛公认的实力唱将，王铮亮始终以顶尖的现场唱功、细腻入微的情感诠释、真诚用心的舞台态度立足行业。王铮亮2026全新「Time Echo 时光回响」巡回演唱会",
+        "source": "白云融媒",
+        "url": "https://view.inews.qq.com/a/20260628A02N3S00?scene=news-skill",
+        "time": "6月28日 9:01",
+        "heat": 5
+      },
+      {
+        "title": "2026郑州演唱会排期表（最新）",
+        "summary": "2026郑州演唱会排期表（最新）",
+        "source": "郑州本地宝",
+        "url": "https://view.inews.qq.com/a/20260628A02OEW00?scene=news-skill",
+        "time": "6月28日 9:00",
+        "heat": 5
+      },
+      {
+        "title": "经典游戏《俄罗斯方块》将改编为儿童动画，已进入前期开发阶段",
+        "summary": "IT之家 6 月 28 日消息，当下，电子游戏改编影视已成热门风潮，一部全新改编自经典游戏《俄罗斯方块》的动画 ——《俄罗斯方块：世界建造者》，于近期安纳西国际动画电影节正式官宣。官方新闻稿显示，该动画面向 6 岁及以上儿童受众。剧集计划将充满想象力的故事叙事，与依托 STEAM 教育理念的解谜内容相结合。STEAM 是拓展",
+        "source": "IT之家",
+        "url": "https://view.inews.qq.com/a/20260628A02A8F00?scene=news-skill",
+        "time": "6月28日 8:00",
+        "heat": 5
+      },
+      {
+        "title": "孙浩现身谢霆锋西安演唱会，承认系王菲邀请，并发出与王菲等人合照",
+        "summary": "极目新闻记者 张聪6月27日晚，谢霆锋演唱会在西安举行。当晚，日前凭借《主角》中苟存忠一角让观众见证演技的著名歌手孙浩，发布了看谢霆锋演唱会的照片，值得一提的是，照片里，王菲出现合影人群的后排。27日下午，孙浩、李静、戴军、沈凌、李维嘉等加盟的综艺《快乐老家》在湖南启动见面会，见面会现场，未到场的孙浩通过",
+        "source": "极目新闻",
+        "url": "https://view.inews.qq.com/a/20260628A0255300?scene=news-skill",
+        "time": "6月28日 7:24",
+        "heat": 5
+      },
+      {
+        "title": "订单量增长80%！电视剧《生命树》，带火“生态旅游”！",
+        "summary": "26日，第31届上海电视节 “白玉兰奖”获奖名单重磅揭晓 中国电视剧单元 总台重点大剧《生命树》 拿下8项重磅提名 成为本届现实题材剧集领跑作品 最终获最佳导演奖和最佳女主角奖 电视剧《生命树》 带火“生态旅游”新模式新线路 今年初，总台电视剧《生命树》热播，剧集热度持续转化为文旅发展新动能，带动取景地“火热”的",
+        "source": "北京日报客户端",
+        "url": "https://view.inews.qq.com/a/20260628A023QP00?scene=news-skill",
+        "time": "6月28日 7:14",
+        "heat": 5
+      },
+      {
+        "title": "李金铭：上天赏饭吃的初代甜妹，缘何沦为靠12年前的综艺屡上热搜？",
+        "summary": "李金铭又因早年录制综艺《明星到我家》，上了热搜。 起因是节目中的“婆家”再度在社交平台上发送“想念她”的内容，引发网友的各种吐槽，认为她实在太惨，十余年一直被对方骚扰。 无奈下，",
+        "source": "扒点半吃瓜",
+        "url": "https://view.inews.qq.com/a/20260625A03TVK00?scene=news-skill",
+        "time": "6月28日 7:00",
+        "heat": 5
+      },
+      {
+        "title": "称布朗交易价值低的Marks，当年亲手送出选中双探花的选秀权",
+        "summary": "虎扑06月28日讯 今天ESPN薪资专家Bobby Marks称凯尔特人球员杰伦-布朗“在联盟各队眼中的交易价值没那么高”。 “有一位数据分析师跟我说：‘在我们队内评级里，布朗只能排全队第",
+        "source": "虎扑体育内容",
+        "url": "https://view.inews.qq.com/a/20260628A01XBS00?scene=news-skill",
+        "time": "6月28日 6:34",
+        "heat": 5
+      },
+      {
+        "title": "AI基建投资推高通胀压力 分析人士：美联储面临新挑战",
+        "summary": "财联社6月28日讯（编辑 夏军雄）随着霍尔木兹海峡重新开放，油价正在大幅下跌。然而，能源价格下跌之际，美联储可能面临一个新的通胀障碍：人工智能（AI）。科技巨头正竞相建设AI基础设施，购买和制造数以百万计的专用AI计算芯片，并建设配备液冷系统的数据中心。TD Cowen预计，主要超大规模云服务商今年资本开支将达到745",
+        "source": "财联社",
+        "url": "https://view.inews.qq.com/a/20260628A01C6I00?scene=news-skill",
+        "time": "6月28日 3:44",
+        "heat": 5
+      },
+      {
+        "title": "视频丨2026暑期档电影票房破15亿！邀你尽享夏日光影之约",
+        "summary": "据网络平台数据截至目前2026年暑期档电影总票房（含预售）突破15亿元类型多元 精彩纷呈近80部影片锁定暑期档 6月25日2026暑期档电影片单发布近80部中外影片在暑期档上映包含革命历史、科幻喜剧、动画等多元类型重大革命历史题材电影《四渡》6月26日起全国上映，影片以红军长征中的四渡赤水战役为核心，再现中央红军在敌军重兵围堵之下，运用高超战略智慧以少胜多、...",
+        "source": "央视新闻",
+        "url": "https://view.inews.qq.com/a/20260628A0198900?scene=news-skill",
+        "time": "6月28日 3:12",
+        "heat": 5
+      },
+      {
+        "title": "国产动画首度问鼎新白玉兰，《灵笼第二季》如何打破海外垄断",
+        "summary": "6月26日晚间，第31届上海电视节白玉兰奖揭晓，由武汉企业艺画开天打造的国产原创科幻动画《灵笼第二季》斩获最佳动画片奖。这是白玉兰奖最佳动画片实行中外作品合评以来，国产作品首次破局。《灵笼第二季》同时入围最佳动画片、最佳动画剧本两项提名。此前，该作品还入围第50届法国昂西国际动画节主竞赛单元，是首部同年入",
+        "source": "第一财经",
+        "url": "https://view.inews.qq.com/a/20260627A0AH0J00?scene=news-skill",
+        "time": "6月27日 23:03",
+        "heat": 5
+      },
+      {
+        "title": "25年前选秀往事：乔丹畅谈选择夸梅，澄清复出流言",
+        "summary": "雷速体育6月27日讯 整整25年前，时任奇才管理层的迈克尔·乔丹手握状元签，选中了夸梅·布朗。在媒体采访里，乔丹对外解释了这次选秀抉择，同时正面回应了一条火爆流言：他将和查尔斯·巴克利一起复出，身披奇才球衣并肩作战。记者：不少消息显示，奇才原本准备交易掉状元签，是什么原因让球队留下签位，坚持选择夸梅·布朗",
+        "source": "雷速体育",
+        "url": "https://view.inews.qq.com/a/20260627A0A8SP00?scene=news-skill",
+        "time": "6月27日 22:29",
+        "heat": 5
+      },
+      {
+        "title": "第二次GEO公开课：GEO内容工程直播资料汇总",
+        "summary": "本周六晚8点，姚老师在WaytoAGI进行第二次GEO公开课，主题为\"GEO内容工程\"。直播资料包括三份核心文档（操作手册、研究报告、实操教程）、两本推荐图书（《系统之美》《人人都该懂的工程学》）及三篇GEO相关论文。相关资源有GEO改写提示词、改写Skill及单篇内容GEO特征标注演示。开源项目包括GEO Skills、GEOFlow、Meta skill的GitHub仓库及课程PPT",
+        "source": "X：Vista (@vista8)",
+        "url": "https://x.com/vista8/status/2070876464258724234",
+        "time": "6月27日 22:26",
+        "heat": 5
+      },
+      {
+        "title": "申城追“光”｜白玉兰奖40年：为时代立传，向世界“剧”焦",
+        "summary": "央广网上海6月27日消息（记者林馥榆）6月26日晚，第31届上海电视节“白玉兰绽放”颁奖典礼在临港演艺中心举行。当《太平年》捧起最佳中国电视剧的奖杯，当来自五大洲60个国家和地区的千余部作品在此交汇，走过40年光阴的白玉兰奖，再次以其专业与包容，为蓬勃发展的中国剧集写下生动注脚。这届电视节，用一把“标尺”、一座",
+        "source": "央广网",
+        "url": "https://view.inews.qq.com/a/20260627A0A7O200?scene=news-skill",
+        "time": "6月27日 22:24",
+        "heat": 5
+      },
+      {
+        "title": "黄渤凭借《戏台》《浪浪人生》，获2026“CMG年度推荐电影男演员”；马丽凭借《水饺皇后》《你行你上》，获2026“CMG年度推荐电影女演员”",
+        "summary": "今晚，“2026中国影视之夜”播出，CMG年度推荐名单公布。黄渤凭借《戏台》《浪浪人生》，获2026“CMG年度推荐电影男演员”；马丽凭借《水饺皇后》《你行你上》，获2026“CMG年度推荐电影女演员”。祝贺！",
+        "source": "红星新闻",
+        "url": "https://view.inews.qq.com/a/20260627A0A4DJ00?scene=news-skill",
+        "time": "6月27日 22:10",
+        "heat": 5
+      },
+      {
+        "title": "“走个面”惹全网群嘲，冯小刚们该明白：观众不欠你们一张电影票",
+        "summary": "文|令狐伯光冯小刚的《抓特务》上映9天，票房还没破亿，预测票房从最初的10亿一路下调到过亿。比票房更尴尬的是舆论，韩红在现场说一句”走个面儿“，结果反而比电影还出圈，各种口诛笔伐。一部集结大导演冯小刚，雷佳音、胡歌这种阵容的电影落得如此下场，让人不得不问一句：这些曾经叱咤风云的老导演，怎么就不行了？关于",
+        "source": "令狐伯光",
+        "url": "https://view.inews.qq.com/a/20260627A09RL200?scene=news-skill",
+        "time": "6月27日 21:22",
+        "heat": 5
+      },
+      {
+        "title": "虽然看不懂二次元，但明显还是比AI生成的视频更好看一些哈😂 现在二次元感觉也挺主流的，只是老登的我可能没有跟上节奏吧😂",
+        "summary": "虽然看不懂二次元，但明显还是比AI生成的视频更好看一些哈😂 现在二次元感觉也挺主流的，只是老登的我可能没有跟上节奏吧😂",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2070853917282586973",
+        "time": "6月27日 20:57",
+        "heat": 5
+      },
+      {
+        "title": "《抓特务》爆冷《阿嬷》暴利，电影进入“小片时代”丨消费参考+",
+        "summary": "21世纪经济报道记者 贺泓源 冯小刚筹备30年、雷佳音、胡歌主演的大制作影片，干不过一个成本只有1400万元的小片？这是今年端午档的“魔幻”现实。截至6月25日，《抓特务》票房还没破9000万元，灯塔预测最终也就2亿元出头。基于《抓特务》的豪华配置，市场普遍认为该片制片成本在2亿元上下。这样规格的影片通常要10亿元左右",
+        "source": "21世纪经济报道",
+        "url": "https://view.inews.qq.com/a/20260627A09GAW00?scene=news-skill",
+        "time": "6月27日 20:43",
+        "heat": 5
+      },
+      {
+        "title": "红色史诗光影绽放！电影《四渡》在贵安新区火热上映",
+        "summary": "6月26日，重大革命历史题材电影《四渡》正式登陆全国院线，火热公映。该片一经上映便收获超高人气。在贵安新区花溪大学城上影国际影城影院大厅内，《四渡》主题海报醒目亮眼，前来取票观影的市民、学生络绎不绝，红色观影氛围浓厚。为满足广大观众的观影需求，上映首日，上影国际影城精心排布场次，全天针对《四渡》专属排",
+        "source": "知知贵阳",
+        "url": "https://view.inews.qq.com/a/20260627A099XT00?scene=news-skill",
+        "time": "6月27日 20:20",
+        "heat": 5
+      },
+      {
+        "title": "馋哭了！首届“厨艺秀”直播，招牌菜齐亮相！看看有你常去的美食店吗",
+        "summary": "6月份以来，古美社区内热闹非凡，一场“大古美餐饮招牌菜PK大赛”火热上演，厨神同台竞技。美食诱人、菜品精致，让居民们大饱口福的同时，为本土餐饮品牌打响招牌。获奖名单出炉，一起来看看有没有你舌尖上的心仪之选！来自古美辖区的宏亮酒家、和记小菜、绿杨邨酒家、客缘·初见、宁波海鲜、宴清禾、东海隐庐、荷塘亭轩等",
+        "source": "上海闵行",
+        "url": "https://view.inews.qq.com/a/20260627A08UE200?scene=news-skill",
+        "time": "6月27日 19:37",
+        "heat": 5
+      },
+      {
+        "title": "祝贺！《中华考工记》荣获白玉兰“最佳综艺节目”",
+        "summary": "6月26日晚，第31届上海电视节“白玉兰绽放”颁奖典礼在上海举行，由中央广播电视总台与工业和信息化部联合摄制的首档工业文化节目《中华考工记》荣获白玉兰“最佳综艺节目”。《中华考工记》从中国现存最早的手工业技术专著《考工记》切入，以史溯源，结合当今中国工业化体系中的对应成果，以“古今对话”为核心叙事主线，",
+        "source": "工信微报",
+        "url": "https://view.inews.qq.com/a/20260627A08THJ00?scene=news-skill",
+        "time": "6月27日 19:26",
+        "heat": 5
+      },
+      {
+        "title": "交运股份告别六年扣非亏损，更名“久事动娱”携F1、ATP大师赛翻身",
+        "summary": "陈炳衡 北京报道日前，上海交运集团股份有限公司（600676.SH）召开2026年第二次临时股东会，以超过95%的同意比例高票通过资产置换议案，公司拟将全称变更为“上海久事动娱文旅集团股份有限公司”，证券简称拟变更为“久事动娱”。此次重组将置入控股股东久事集团旗下顶级体育赛事运营、体育场馆管理、演艺策",
+        "source": "华夏时报",
+        "url": "https://view.inews.qq.com/a/20260627A08P4C00?scene=news-skill",
+        "time": "6月27日 19:23",
+        "heat": 5
+      },
+      {
+        "title": "曾在《我的阿勒泰》唱插曲，于适这次要在上海连开两晚演唱会",
+        "summary": "于适YOSH「适诗」2026巡回演唱会上海站今日官宣，将于2026年7月25日、26日在上海梅赛德斯-奔驰文化中心连开两晚。作为于适以音乐人身份展开的个人巡演，「适诗」此前已在合肥、成都举办。演唱会将以摇滚与民谣为音乐底色，结合原创作品、现场乐队与舞台表达，呈现于适在银幕角色之外的音乐创作面貌。许多观众认识于适，是从",
+        "source": "澎湃新闻",
+        "url": "https://view.inews.qq.com/a/20260627A08NE400?scene=news-skill",
+        "time": "6月27日 19:16",
+        "heat": 5
+      },
+      {
+        "title": "节目单来了！“2026中国影视之夜”与你共赴仲夏之约",
+        "summary": "光影逐新程，故事启新章。由中央广播电视总台上海总站、文艺节目中心、央视频联合主办的上海国际电影节官方活动“2026中国影视之夜”将于6月27日20:00在央视文艺、央视新闻、央视频等新媒体平台上线，20:52在央视综艺频道（CCTV-3）播出。“2026中国影视之夜”选址上海市杨浦区复兴岛百年船台，以“启光·焕新”“寻光·创新”“逐光·向新”三篇章，串联影视...",
+        "source": "央视新闻",
+        "url": "https://view.inews.qq.com/a/20260627A07S9H00?scene=news-skill",
+        "time": "6月27日 17:49",
+        "heat": 5
+      },
+      {
+        "title": "白玉兰“神仙打架”的一年：于和伟 杨紫捧杯帝后、《太平年》成最大赢家",
+        "summary": "镜象娱乐文丨栗子酒“今年完全是神仙打架。”上海电视节白玉兰颁奖典礼现场，曾担任评委的演员尤勇智发出了这样的感慨。自入围名单曝光以来，今年白玉兰各奖项将花落谁家，就引发了很多讨论。如今答案终于揭晓：于和伟凭借《沉默的荣耀》二封视帝、杨紫则靠《生命树》首夺白玉兰视后。此外，腾讯视频制播的《太平年》揽",
+        "source": "镜像娱乐",
+        "url": "https://view.inews.qq.com/a/20260627A07QN200?scene=news-skill",
+        "time": "6月27日 17:45",
+        "heat": 5
+      },
+      {
+        "title": "直播把综艺的滤镜砸了，《乘风2026》反而活得更好了",
+        "summary": "《乘风2026》将在彩带与欢呼中落幕。 三个月前，这档已经走过7年的节目宣布“全程直播、全开麦、无修音”时，外界有期待也有疑虑。但当五场公演、总决赛接连播出，33位姐姐，全开麦无修音的直播",
+        "source": "蓝鲸新闻",
+        "url": "https://view.inews.qq.com/a/20260627A07BMO00?scene=news-skill",
+        "time": "6月27日 17:04",
+        "heat": 5
       }
     ],
+    "mockEntertainmentExtra": [],
     "mockHenanNews": [
       {
         "title": "昔日被曾诚怒推的菜鸟！如今成为河南队长，还官宣跟俱乐部续约",
@@ -3226,7 +5270,7 @@
         "source": "腾讯新闻",
         "url": "https://view.inews.qq.com/a/20260629A06ILR00?scene=news-skill",
         "time": "6月29日 15:42",
-        "heat": 9
+        "heat": 8
       },
       {
         "title": "皖豫超燃对决，“中原县超”小组赛第4轮比赛结果出炉！ | 皖美宝藏小城临泉",
@@ -3322,6 +5366,30 @@
         "source": "腾讯新闻",
         "url": "https://view.inews.qq.com/a/20260627A089XV00?scene=news-skill",
         "time": "6月27日 21:31",
+        "heat": 5
+      },
+      {
+        "title": "河南vs海港首发：3外援对4外援，王上源、杨希领衔，武磊缺阵",
+        "summary": "北京时间6月27日晚，2026赛季中超联赛第16轮，河南队主场对阵上海海港。河南队3外援对阵上海海港4外援，钟义浩、王上源、李新翔、杨希各自领衔出战，而武磊、蒋光太都缺席本场比赛",
+        "source": "腾讯新闻",
+        "url": "https://view.inews.qq.com/a/20260626A08MXO00?scene=news-skill",
+        "time": "6月27日 18:24",
+        "heat": 5
+      },
+      {
+        "title": "河南vs海港：三外援PK四外援；梅伦多、周缘德首发",
+        "summary": "北京时间6月27日，中超第16轮继续进行，河南坐镇郑州航海体育场迎战上海海港，本场主裁判为孟祥昆，VAR裁判为刘钊，赛前双方首发出炉",
+        "source": "腾讯新闻",
+        "url": "https://view.inews.qq.com/a/20260627A083CE00?scene=news-skill",
+        "time": "6月27日 18:16",
+        "heat": 5
+      },
+      {
+        "title": "内马尔世界杯首秀，河南一球迷激动得心率飙到150，后背冒虚汗，医生紧急提醒",
+        "summary": "北京时间6月25日，2026年美加墨世界杯C组小组赛收官战在迈阿密体育场打响。巴西队凭借维尼修斯的梅开二度和库尼亚的进球，3-0完胜苏格兰队，锁定小组头名晋级淘汰赛。第76分钟，因伤缺席前两场比赛的内马尔替补登场，这是他时隔980天再次代表巴西国家队出战",
+        "source": "腾讯新闻",
+        "url": "https://view.inews.qq.com/a/20260627A06VNO00?scene=news-skill",
+        "time": "6月27日 16:23",
         "heat": 5
       }
     ],
@@ -3420,6 +5488,14 @@
         "source": "足球报",
         "url": "https://view.inews.qq.com/a/20260628A05O9G00?scene=news-skill",
         "time": "6月28日 16:26",
+        "heat": 5
+      },
+      {
+        "title": "半场六个进球，比世界杯还精彩！中超联赛重燃战火，青岛海牛4:2战胜云南玉昆",
+        "summary": "6月26日晚，中超联赛重燃战火，第16轮先赛一场，在两万余名观众的助威声中，青岛海牛主场4:2战胜云南玉昆。两队半场比赛打进六球，精彩程度不逊色于世界杯。联赛第一阶段海牛队战绩起起伏伏，既有四连胜的荣光也经历四连败的烦恼。本场叶博亚红牌停赛、韦子铉和斯特兰德贝利因伤缺阵，海牛仍打出精彩攻势拿下关键三分",
+        "source": "半岛都市报",
+        "url": "https://view.inews.qq.com/a/20260626A0BMR600?scene=news-skill",
+        "time": "6月26日 23:35",
         "heat": 5
       },
       {
@@ -3582,7 +5658,7 @@
         "source": "央广网",
         "url": "https://view.inews.qq.com/a/20260629A06L7E00?scene=news-skill",
         "time": "6月29日 15:49",
-        "heat": 9
+        "heat": 8
       },
       {
         "title": "对话上海财经大学教授，解码人文经济学：以文化润经济 以人文启新程",
@@ -3590,7 +5666,7 @@
         "source": "上观新闻",
         "url": "https://view.inews.qq.com/a/20260629A06KWO00?scene=news-skill",
         "time": "6月29日 15:48",
-        "heat": 9
+        "heat": 8
       },
       {
         "title": "“十五五”规划明确新能源汽车“充电宝”定位 车网互动规模化落地提速",
@@ -3598,7 +5674,7 @@
         "source": "财联社",
         "url": "https://view.inews.qq.com/a/20260629A06KVW00?scene=news-skill",
         "time": "6月29日 15:48",
-        "heat": 9
+        "heat": 8
       },
       {
         "title": "ETF市场日报 | 科创创新药ETF批量飙升逾11%，半导体设备产业链全线爆发",
@@ -3606,10 +5682,8 @@
         "source": "界面新闻",
         "url": "https://view.inews.qq.com/a/20260629A06JJL00?scene=news-skill",
         "time": "6月29日 15:44",
-        "heat": 9
-      }
-    ],
-    "mockStockNewsExtra": [
+        "heat": 8
+      },
       {
         "title": "高盛：美股或再迎强劲财报季 经济增长和AI热潮料推动每股收益增长",
         "summary": "【高盛：美股或再迎强劲财报季 经济增长和AI热潮料推动每股收益增长】财联社6月29日电，高盛策略师表示，在“稳健的宏观背景”和人工智能投资热潮推动下，美国股市可能迎来又一个强劲的财报季。Ben Snider领导的团队表示，标普500指数盈利趋势强劲，足以超过分析师此前的高预期。Snider在一份报告中写道，AI基础设施类股票",
@@ -3904,7 +5978,7 @@
         "source": "21世纪经济报道",
         "url": "https://view.inews.qq.com/a/20260629A04SWL00?scene=news-skill",
         "time": "6月29日 12:43",
-        "heat": 8
+        "heat": 7
       },
       {
         "title": "刚刚，熔断！芯片巨头，直线跳水！韩国股市重挫",
@@ -4249,8 +6323,457 @@
         "url": "https://view.inews.qq.com/a/20260629A02L8Z00?scene=news-skill",
         "time": "6月29日 9:13",
         "heat": 7
+      },
+      {
+        "title": "被两堵“墙”困住的绿电直连",
+        "summary": "5月14日，国家发展改革委、国家能源局联合印发《关于有序推动多用户绿电直连发展有关事项的通知》（简称“688号文”），绿电直连从“一对一”模式向“一对多”模式全面升级。这是继2025年5月的“650",
+        "source": "华夏能源网",
+        "url": "https://view.inews.qq.com/a/20260629A02L5300?scene=news-skill",
+        "time": "6月29日 9:12",
+        "heat": 7
+      },
+      {
+        "title": "让清洁能源送得出、接得住、用得好",
+        "summary": "近日，国家发展改革委、国家能源局对外公布《新型能源体系建设“十五五”规划》(以下简称《规划》)。在国新办日前举行的新闻发布会上，有关部门负责人对《规划》内容进行了解读。 国家能源局方面介绍，“十五五”时期，我国能源发展进入安全风险叠加演变期、低碳转型加力推进期、能源创新加速突破期、体制",
+        "source": "人民网",
+        "url": "https://view.inews.qq.com/a/20260629A02JOT00?scene=news-skill",
+        "time": "6月29日 9:07",
+        "heat": 7
+      },
+      {
+        "title": "密集落子、快速开工！白云区跑出招商筹建加速度",
+        "summary": "2026年是“十五五”规划开局之年，广州市将今年确立为“招商引资年”，锚定万亿元目标开展全年全员招商。作为经济大区白云区以“招商引资年”和“项目筹建年”双轮驱动一边全力引进来，一边加速建起来上半年交出了一份硬核答卷新签约招商项目计划投资总额超870亿元招商项目完成固投151亿元大项目密集落子 产业拼图加速成型",
+        "source": "白云融媒",
+        "url": "https://view.inews.qq.com/a/20260629A02IM800?scene=news-skill",
+        "time": "6月29日 9:00",
+        "heat": 7
+      },
+      {
+        "title": "霍尔木兹海峡重启曙光下：美银上调全球经济增长预期 料美联储将加息3次",
+        "summary": "财联社6月29日讯（编辑 刘蕊）尽管美伊和谈进展仍有反复，但霍尔木兹海峡通行船舶已经有所增加，能源市场的担忧也随之逐步缓解。美银因此上调了全球增长预期，同时警告称，持续的美国通胀可能促使美联储在今年晚些时候加息。全球经济增速有望上调随着美伊局势有所缓和，美银目前预计2026年全球GDP增长3.2%，高于此前预测；",
+        "source": "财联社",
+        "url": "https://view.inews.qq.com/a/20260629A02GW100?scene=news-skill",
+        "time": "6月29日 8:55",
+        "heat": 7
+      },
+      {
+        "title": "海量财经丨抢占15万亿大市场！“中国康湾”提速，有望跑出下一个消费增长极",
+        "summary": "海报新闻记者 毕筱涵 青岛报道 在康养产业热度攀升的当下，一张来自山东的“中国康湾”名片，正在积极探索大健康经济的新蓝海。 今年5月，青岛市印发《青岛市推动城市高质量发展实施方案",
+        "source": "海报新闻",
+        "url": "https://view.inews.qq.com/a/20260629A02AOG00?scene=news-skill",
+        "time": "6月29日 8:24",
+        "heat": 7
+      },
+      {
+        "title": "海量财经丨央视曝光手机测评作弊乱象：厂商通过特供样机、固件作弊、云端调控层层美化测评数据",
+        "summary": "惊了！手机测评全是演的？ 近日，央视曝光手机测评圈的“作弊黑幕”：不少厂商为了数据好看，专门给测评博主准备“特供媒体机”，还搞出了三层作弊体系。第一层是硬件筛选，给博主的样机提前做了优化调",
+        "source": "海报新闻",
+        "url": "https://view.inews.qq.com/a/20260629A02AOJ00?scene=news-skill",
+        "time": "6月29日 8:24",
+        "heat": 7
+      },
+      {
+        "title": "美联储加息渐近？又一官员放鹰：通胀仍过高 支持货币政策“适度紧缩”",
+        "summary": "财联社6月29日讯（编辑 卞纯）美国里士满联储主席汤姆·巴尔金（Tom Barkin）日前警告称，当前通胀水平依然过高。如果没有货币政策等因素，物价不太可能回到目标水平。他支持货币政策保持“适度紧缩”。“那些数据（通胀）太高了。”巴尔金周日在接受媒体采访时表示。上周四公布的报告显示，美国5月个人消费支出(PCE)物价指",
+        "source": "财联社",
+        "url": "https://view.inews.qq.com/a/20260629A028XM00?scene=news-skill",
+        "time": "6月29日 8:16",
+        "heat": 7
+      },
+      {
+        "title": "首批商业不动产REITs挂牌上市 银行理财资金成为重要买方力量",
+        "summary": "人民财讯6月29日电，银行理财紧抓首批商业不动产REITs投资机遇。近日，首批商业不动产证券投资基金（REITs）在上交所集体挂牌上市，标志着我国公募REITs市场实现从基础设施到商业不动产的业态突破。仅隔数日，监管集中批复第二批6单封闭式商业不动产REITs，覆盖京沪深及大湾区商圈，国资、央企、外资多元主体同台，“小步快",
+        "source": "证券时报e公司",
+        "url": "https://view.inews.qq.com/a/20260629A026RV00?scene=news-skill",
+        "time": "6月29日 8:01",
+        "heat": 7
+      },
+      {
+        "title": "中信建投 | 第二批存量基金集中调整业绩基准",
+        "summary": "本文转载自微信公众号：中信建投证券研究文｜姚紫薇 孙诗雨 应绍桦 缪金瑾 徐楚翰(研究助理)6月26日，易方达、华夏、广发、国泰基金等超90家基金管理人密集发布旗下部分存量产品业绩比较基准调整的公告，这也是继4月30日首批195只公募基金之后，第二批落实基准调整的产品。本次调整涉及权益类、债券类、FOF类、QDII类等多种",
+        "source": "研报精选",
+        "url": "https://view.inews.qq.com/a/20260629A023FO00?scene=news-skill",
+        "time": "6月29日 7:24",
+        "heat": 7
+      },
+      {
+        "title": "金融活水“浇”出文旅消费新图景（财经深一度）",
+        "summary": "张 驰 杨颜菲 数据",
+        "source": "金台资讯",
+        "url": "https://view.inews.qq.com/a/20260629A01YV400?scene=news-skill",
+        "time": "6月29日 6:49",
+        "heat": 6
+      },
+      {
+        "title": "百度旗下昆仑芯计划赴港IPO，目标估值500亿美元",
+        "summary": "百度旗下AI芯片子公司昆仑芯（Kunlunxin）计划在香港上市，目标估值约500亿美元（约3405.58亿元人民币）。参与IPO的部分投资者被要求认购相当于其计划申购金额3-7倍的芯片产品。腾讯已成为昆仑芯客户。昆仑芯于今年1月1日通过联席保荐人向港交所提交上市申请表。该公司成立于2012年，最初为百度内部AI芯片业务部门，后独立运营，百度仍为控股股东",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/732.htm",
+        "time": "6月29日 6:47",
+        "heat": 6
+      },
+      {
+        "title": "BIS警告：AI热潮背后的债务或引发下一场金融冲击",
+        "summary": "BIS警告，AI热潮背后积累的债务可能引发金融冲击。风险不在AI本身，而在于围绕尚未被证明持久性的收入构建的杠杆化供应链。若AI需求不及预期，数据中心支出放缓，借款者难偿还，压力从科技蔓延至信贷市场。超大规模企业2025年债券发行超1000亿美元；表外工具将数据中心债务转移至私人信贷基金和保险机构；私人信贷基金5年内AI/IT敞口翻两番至约15%，部分零售基...",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071364553104081361",
+        "time": "6月29日 6:46",
+        "heat": 6
+      },
+      {
+        "title": "美联储7月维持利率不变的概率为69.5%",
+        "summary": "每经AI快讯，6月29日，据CME“美联储观察”：美联储7月维持利率不变的概率为69.5%，累计加息25个基点的概率为30.5%。 美联储到9月维持利率不变的概率为40.4%，累计加息25个基点的概率为46.9%，累计加息50个基点的概率为12.8%。每日经济新闻",
+        "source": "每日经济新闻",
+        "url": "https://view.inews.qq.com/a/20260629A01TQK00?scene=news-skill",
+        "time": "6月29日 5:58",
+        "heat": 6
+      },
+      {
+        "title": "由于AI表现未达预期，福特重新聘用\"灰胡子\"工程师",
+        "summary": "福特重新聘用350名资深工程师（部分为前员工，部分来自供应商），原因是AI和自动化质量系统未达预期效果。首席运营官Kumar Galhotra表示公司此前过度依赖自动化质量系统，结果令人失望，因此召回技术专家在零件进入工厂前排查故障点。福特并未放弃AI，而是让这些\"灰胡子\"工程师培训年轻员工并重新编程AI工具。此举预计今年将节省10亿美元成本，福特本周还在J...",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
+        "time": "6月29日 5:15",
+        "heat": 6
+      },
+      {
+        "title": "LeptonAI 创始人收购一年后离职",
+        "summary": "突发新闻：LeptonAI 创始人兼 CEO 在收购仅一年后离职。这相当令人震惊，据报道 Jensen 花费 7 亿美元收购 LeptonAI。他看到了什么？DGX Lepton 惨败，远未达到 Jensen 预期的成功。1/7🧵",
+        "source": "X：SemiAnalysis (@SemiAnalysis_)",
+        "url": "https://x.com/SemiAnalysis_/status/2071337888059408701",
+        "time": "6月29日 5:00",
+        "heat": 6
+      },
+      {
+        "title": "FT：Google限制Meta使用Gemini",
+        "summary": "Google限制了Meta对Gemini模型的使用，原因是Meta要求的计算容量超出Google供应能力。Meta在安全自动化、客服、广告工具、编程及内部工作流中均依赖Gemini。Google面临自身云客户、Gemini产品与有限数据中心容量之间的资源竞争。Google Cloud 3月季度收入增至200亿美元，CEO Sundar Pichai表示计算容...",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071336727617433955",
+        "time": "6月29日 4:55",
+        "heat": 6
+      },
+      {
+        "title": "开放互联网孕育AI，开源保障AI不被封闭",
+        "summary": "强调开放互联网是现代AI的训练基础--数十亿文本、论坛帖子、代码仓库、百科、论文、博客等共同构建了全球知识空间，这一自由知识已被转移进AI。因此AI不应完全消失于专有壁垒之后。闭源模型当前虽在最强模型上领先，但如果地缘政治上对智能的获取日益受限制、管控和控制，开源就不再只是技术理想，而是权力问题。针对\"开源仍无法真正查看模型内部，算不上真'自由'\"的质疑，作者表示观看视频后反而更坚信开源的立场",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2071325947153064441",
+        "time": "6月29日 4:12",
+        "heat": 6
+      },
+      {
+        "title": "福特因AI未达预期重新雇佣\"灰胡子\"工程师",
+        "summary": "福特汽车在AI和自动化系统未达到预期质量后，重新雇佣了350名资深工程师，其中部分为前员工，部分来自供应商。首席运营官Kumar Galhotra表示，福特此前\"越来越依赖自动化质量系统\"但结果令人失望，因此请回技术专家在零部件进入工厂前查找故障点。负责车辆硬件工程的副总裁Charles Poon承认，\"错误地认为只要引入AI并吸收设计需求就能产出高质量产品...",
+        "source": "TechCrunch：AI（RSS）",
+        "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
+        "time": "6月29日 3:05",
+        "heat": 6
+      },
+      {
+        "title": "美光成为华尔街新AI基础设施押注，HBM短缺带来定价权",
+        "summary": "美光是美国唯一高带宽内存（HBM）制造商，因AI服务器需求激增成为华尔街新宠。Q3营收414.6亿美元，毛利率84.6%，Q4指引490-510亿；利润同比增长15倍，调整后毛利率84.9%（去年39%）。全球DRAM市场高度集中，三星、SK海力士、美光合计占约90%收入；HBM细分领域SK海力士占58%，美光占21%。为打破内存行业周期性，美光签下16个价...",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071267970677153987",
+        "time": "6月29日 0:22",
+        "heat": 6
+      },
+      {
+        "title": "日本房地产研究报告：失去三十年和东京房价复苏",
+        "summary": "文 任泽平团队导读我提出“房地产长期看人口、中期看土地、短期看金融”，成为业内标准分析框架。日本从人口悬崖坠落，泡沫破裂，失去三十年，是典型研究样本。日本房地产市场运行过程中，产生过两次危机。一次被消化，另一次终结了黄金时代。两次危机结局不同，在于经济发展阶段、人口结构等发生了显著变化。第一次危机产",
+        "source": "泽平宏观",
+        "url": "https://view.inews.qq.com/a/20260629A00HZ900?scene=news-skill",
+        "time": "6月29日 0:00",
+        "heat": 6
+      },
+      {
+        "title": "美光因AI内存短缺股价飙升236%，市值一度超越Meta和特斯拉",
+        "summary": "内存芯片制造商美光受益于AI数据中心建设导致的DRAM和NAND（尤其是HBM）供应短缺，股价过去一个月飙升236%，市值接近1.27万亿美元，一度超越Meta和特斯拉。第三季度营收同比增至414.5亿美元，利润从18.8亿美元暴涨至282亿美元，并预测第四季度营收490至510亿美元。美光已与英伟达、Anthropic等签订16项长期战略客户协议。分析认为...",
+        "source": "TechCrunch：AI（RSS）",
+        "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia",
+        "time": "6月28日 23:00",
+        "heat": 6
+      },
+      {
+        "title": "三星等内存芯片厂面临AI泡沫难降价",
+        "summary": "对我们来说不太乐观： \"即使AI泡沫破裂，价格也不太可能改善。三星、SK海力士和美光已经花费数十亿美元重新配置实体厂房空间，用于生产复杂的AI内存芯片。此外，这三家公司还签订了长达2030年的多年供货合同。无论数据中心需求是否降温，对科技巨头的法律义务依然存在。\"",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2071244175421387262",
+        "time": "6月28日 22:47",
+        "heat": 6
+      },
+      {
+        "title": "AI浪潮推高硬件成本，苹果全线涨价",
+        "summary": "苹果本周全线涨价：MacBook Neo涨$100（17%）、MacBook Air涨$200（18%）、入门iPad涨$100（29%）、iPad Air涨$150（25%），Apple TV从$129涨至$199（54%），HomePod及mini涨17%-30%，Apple Vision Pro涨6%至$3，699。主因AI热潮引发内存芯片短缺，超大规...",
+        "source": "X：Berry Xia (@berryxia)",
+        "url": "https://x.com/berryxia/status/2071240036537053219",
+        "time": "6月28日 22:31",
+        "heat": 6
+      },
+      {
+        "title": "Google限制Meta使用Gemini致项目延迟",
+        "summary": "Google vs Meta 🤖 > 据《金融时报》报道，Google因容量短缺对Meta使用Gemini施加限制。 > 据报道，这负面影响了Meta内部与客户支持和内容审核相关的项目，导致项目延期。 我敢打赌，从长远来看，token效率将成为一个巨大的市场，其商业模式非常透明且可预测",
+        "source": "X：Testing Catalog (@testingcatalog)",
+        "url": "https://x.com/testingcatalog/status/2071224823229858050",
+        "time": "6月28日 21:30",
+        "heat": 6
+      },
+      {
+        "title": "上海财经大学海南基地正式落地海口江东新区！",
+        "summary": "上海财经大学海南基地在海口江东新区揭牌范少军刘元春出席揭牌仪式6月27日，上海财经大学海南基地揭牌仪式在海口江东新区举行，市委书记范少军，上海财经大学校长刘元春出席。自今年3月海口市政府与上海财经大学签订战略合作协议以来，双方在智库建设、科技创新、人才培养、产业发展等领域积极开展工作对接，努力实现双向赋",
+        "source": "国际旅游岛之声",
+        "url": "https://view.inews.qq.com/a/20260628A07SHL00?scene=news-skill",
+        "time": "6月28日 21:01",
+        "heat": 6
+      },
+      {
+        "title": "港股IPO周报：立讯精密等多家A股公司通过聆讯 芯碁微装挂牌首日翻倍",
+        "summary": "财联社6月28日讯（编辑 冯轶）财联社为您带来每周港股新股资讯。据利弗莫尔证券显示，截至发稿，本周(6月22日-6月28日)有19家公司向港交所递表，另有14家公司通过聆讯，14家公司招股，及10只新股上市。先看递表，本周共有19家公司递交上市申请：1）6月22日，潍柴雷沃智慧农业科技股份有限公司向香港交易所递交主板上市申请",
+        "source": "财联社",
+        "url": "https://view.inews.qq.com/a/20260628A06XKW00?scene=news-skill",
+        "time": "6月28日 19:13",
+        "heat": 6
+      },
+      {
+        "title": "马斯克：Grok 4.5 已在 SpaceX 和特斯拉内部测试，性能接近 Opus 模型",
+        "summary": "Grok 4.5 基于自研 1.5 万亿参数 V9 基础大模型打造，并引入 Cursor 数据完成补充训练，已在 SpaceX 和特斯拉内部开启测试。早期评测显示其性能接近甚至有望超越 Opus 模型。基于人类反馈的强化学习持续提升模型能力，Grok 配套调度框架每日迭代优化。马斯克还透露，SpaceX 今年每个月将推出一批完全从零开始训练的全新模型",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/692.htm",
+        "time": "6月28日 19:05",
+        "heat": 6
+      },
+      {
+        "title": "消息称比亚迪自研智驾芯片璇玑 A3 预计 2027 年首搭腾势品牌量产车型",
+        "summary": "据晚点 Auto 消息，比亚迪计划于 2027 年在腾势品牌量产新车上首次搭载自研智驾芯片璇玑 A3。智驾芯片从流片到上车通常需要至少一年。此前 5 月 28 日，比亚迪已发布该芯片并启动规模化量产，支持 L3/L4 自动驾驶。董事长王传福表示，电动化上半场看电池，智能化下半场看芯片。三颗璇玑 A3 芯片总算力超 2100TOPS，结合自研算法深度优化，算力利用率提升 100%",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/681.htm",
+        "time": "6月28日 18:34",
+        "heat": 5
+      },
+      {
+        "title": "巴彦淖尔这一项目并网在即！“光伏+生态”治沙模式已初具规模",
+        "summary": "盛夏的河套平原，日照正盛。在巴彦淖尔市临河区新华镇的华北油田巴彦勘探开发分公司临河18兆瓦光伏发电项目现场，一排排深蓝色光伏板迎光而立，技术人员正紧张地进行最后的组件安装和线路调试，逆变器、箱式变压器等设备已基本就位。与普通光伏电站不同，这片光伏阵列采用了30度倾角固定支架，板下还铺设了草方格沙障并播撒",
+        "source": "河套融媒",
+        "url": "https://view.inews.qq.com/a/20260628A06J3L00?scene=news-skill",
+        "time": "6月28日 18:25",
+        "heat": 5
+      },
+      {
+        "title": "科技股的利好来了！高手看好太空光伏、半导体硅片板块",
+        "summary": "闫峰峰周五，在日韩股市跳水的影响下，A股出现大幅回调，4600多只股票下跌，上涨股票仅700多只，不过商业航天、半导体硅片、玻璃基板等板块逆势上涨。据媒体周五报道，三星集团计划于6月29日宣布未来十年在韩国投资1000万亿韩元（约合6480亿美元）的计划，其中包括可能斥资300万亿韩元在韩国西",
+        "source": "每日经济新闻",
+        "url": "https://view.inews.qq.com/a/20260628A06GOK00?scene=news-skill",
+        "time": "6月28日 18:18",
+        "heat": 5
+      },
+      {
+        "title": "智能驱动，数字共生！2026全球数字经济大会数字金融论坛即将在石景山启幕",
+        "summary": "当人工智能成为金融行业转型核心引擎，当数字技术与实体经济加速深度融合，当全球数字金融迈入安全合规、开放协作的全新发展阶段，一场汇聚全球智慧、链接产业资源的行业盛会如约而至。2026全球数字经济大会数字金融论坛即将于7月3日在北京石景山区北京银行保险产业园国际会议中心正式拉开帷幕，以“智能驱动，数字共生”为",
+        "source": "北京石景山",
+        "url": "https://view.inews.qq.com/a/20260628A0624700?scene=news-skill",
+        "time": "6月28日 17:31",
+        "heat": 5
+      },
+      {
+        "title": "高考已出分，想读金融怎么选？财经类高校报考指南",
+        "summary": "2026年高考分数陆续出炉，志愿填报关键阶段已正式开启！今年多所重点高校迎来扩招，报考规则也有新调整。众多专业选择中，财经类一直是不少考生和家长的热门选择，我们整理了几所财经类院校的最新报考干货，供考生填报志愿参考！101 · 上海财经大学【招生章程】招生亮点：上海财经大学是国家“211工程”重点建设高校和国家",
+        "source": "中国金融新闻网",
+        "url": "https://view.inews.qq.com/a/20260628A05R0U00?scene=news-skill",
+        "time": "6月28日 16:30",
+        "heat": 5
+      },
+      {
+        "title": "法拉第未来发布Faber轮臂机器人及Futurist人形机器人",
+        "summary": "6月28日，法拉第未来在芝加哥Automate展会上推出\"全美首款工业级轮臂机器人\"Faber系列（U/T/S三款），应用于工业上下料与物流转运等场景。同时发布全新Futurist人形机器人标准版：身高173cm、重55kg（减重14%）、全身31自由度、膝关节峰值扭矩320N·m、1152Wh双电池续航6小时（上代3倍），支持7×24小时商用部署，定价89...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/663.htm",
+        "time": "6月28日 16:16",
+        "heat": 5
+      },
+      {
+        "title": "新能源汽车“车电分离”保险模式能否行得通，质保能替代保险吗？",
+        "summary": "“如何提升车险保障能力和服务水平，又要如何破解新能源汽车保费高昂的难题？”现在似乎有了答案，那就是车电分离的保险模式。通过将车辆和动力电池作为两个独立标的物进行销售和承保，以降低车险费用，这一模式获得了一些业内人士的认可。可是对于乘用车而言却很难行得通。车主会放弃动力电池的质保吗？静下心来想一想，可能性应当会非常低。因为车电分离的承保是曲解了质保的功能，车损...",
+        "source": "天和Auto",
+        "url": "https://view.inews.qq.com/a/20260628A04HIB00?scene=news-skill",
+        "time": "6月28日 13:56",
+        "heat": 5
+      },
+      {
+        "title": "晓数点｜7月财经日历请查收！",
+        "summary": "晓数点｜7月财经日历请查收！",
+        "source": "第一财经",
+        "url": "https://view.inews.qq.com/a/20260628A04FUO00?scene=news-skill",
+        "time": "6月28日 13:48",
+        "heat": 5
+      },
+      {
+        "title": "调查：黄金、原油、股市，更猛烈的风暴来了",
+        "summary": "",
+        "source": "金融界",
+        "url": "https://view.inews.qq.com/a/20260628A04CT600?scene=news-skill",
+        "time": "6月28日 13:33",
+        "heat": 5
+      },
+      {
+        "title": "比亚迪王传福与地平线CEO余凯会面，双方有望在智驾领域深度合作",
+        "summary": "6月28日，比亚迪董事长王传福与地平线创始人余凯会面并体验智驾，暗示深度合作。余凯回应股价称\"搞了一票特别大的\"，并预告HSD 2.0将推出。地平线4月国内乘用车域控芯片装机量跃居第二（8万套，占比13.6%），余凯称明年排名将变。尽管比亚迪已发布自研4nm智驾芯片\"璇玑A3\"，地平线仍为天神之眼C主力供应商，其舱驾融合芯片可单辆车节省1500-4000元硬...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/591.htm",
+        "time": "6月28日 12:51",
+        "heat": 5
+      },
+      {
+        "title": "安徽浙江争夺新能源汽车第一省，这场争夺战谁能笑到最后？",
+        "summary": "这些年，伴随着新能源汽车的快速普及，新能源汽车已经逐渐占据大家买新车的首选位置，而各个省也在纷纷争夺新能源汽车第一省的宝座，就在最近安徽、浙江这两个新能源汽车大省纷纷开启了第一的争夺战，面对着你方唱",
+        "source": "瀚海观察",
+        "url": "https://view.inews.qq.com/a/20260628A02PUI00?scene=news-skill",
+        "time": "6月28日 9:13",
+        "heat": 5
+      },
+      {
+        "title": "Stripe Economics《The Age of the Solopreneur》：AI重写商业规则，一人公司崛起",
+        "summary": "Stripe Economics发布报告《The Age of the Solopreneur》，用多组数据验证AI正重写商业规则。美国人口普查局数据显示：有雇人意愿的商业申请几乎未增，单人公司申请持续加速；Stripe内部支付数据显示，年营收超千万美元的单人公司数量较六年前增长五六倍，新玩家达成百万营收的速度是2019年的三倍。AI填补了内容、设计、代码、...",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "url": "https://x.com/AYi_AInotes/status/2071037227669356982",
+        "time": "6月28日 9:05",
+        "heat": 5
+      },
+      {
+        "title": "新政带动改善型需求入市 一线城市楼市持续回暖",
+        "summary": "端午前后，中国证券报记者在北京、深圳、上海实地走访发现，新房和二手房热门楼盘的带看量和成交量回暖，改善型住房需求加快释放。专家认为，在政策支持、房价趋稳的背景下，一线城市楼市迎来边际改善，市场风向标意义凸显，有助于提振全国购房信心，后续市场修复力度及长效性仍有待观察。 新房需求升温 6月20日，北京市丰",
+        "source": "央广网",
+        "url": "https://view.inews.qq.com/a/20260628A02HT300?scene=news-skill",
+        "time": "6月28日 8:39",
+        "heat": 5
+      },
+      {
+        "title": "从房产新政看“救市”到“安居”逻辑",
+        "summary": "傅剑青 黄欢 近期，衢州市区房产新政落地，引发了大众关注。多孩家庭最高20万元房票补贴，300套限时团购每套减2万元，智慧新城每平方米600元的购房消费券补贴（单套最高10万元）……通过叠加线上线下同步开启的2026年衢州市区房地产促消费活动，一套组合拳让刚需型和改善型的购房者眼花缭乱。拨开让利表象不难发现，如今楼",
+        "source": "央广网",
+        "url": "https://view.inews.qq.com/a/20260628A02HSS00?scene=news-skill",
+        "time": "6月28日 8:39",
+        "heat": 5
+      },
+      {
+        "title": "中国对冲基金警告AI股票超级泡沫即将破裂",
+        "summary": "彭博社报道，两家中国对冲基金警告全球AI股票繁荣已从强劲需求转为超级泡沫。许多AI相关股票的定价已包含多年完美增长预期，但企业尚未证明能捍卫利润。最薄弱环节是AI基础设施--公司必须持续在芯片、服务器、电力和数据中心上巨额投入以维持竞争力。Wealspring称部分热门中国AI股可能下跌超80%；Banxia指出Anthropic的收入运行率是压力点，因为token成本上升速度可能超过客户预算",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2071009919378346463",
+        "time": "6月28日 7:16",
+        "heat": 5
+      },
+      {
+        "title": "环球下周看点：聚焦6月非农就业报告 市场紧盯美联储利率路径",
+        "summary": "财联社6月28日讯（编辑 夏军雄）美股三大指数本周走势分化，道指累计上涨0.6%，标普500指数下跌1.95%，纳指下跌4.6%。2026年上半年交易将在下周结束。截至目前，基准股指标普500指数年内累计上涨逾7%，整体表现强劲。不过，进入6月后，美股走势明显更加坎坷。本周，半导体股尤其是AI概念芯片股大幅震荡，反映出投资者正在重",
+        "source": "财联社",
+        "url": "https://view.inews.qq.com/a/20260628A01RBG00?scene=news-skill",
+        "time": "6月28日 5:51",
+        "heat": 5
+      },
+      {
+        "title": "福特AI检测缺陷遇瓶颈，召回350名专家补漏",
+        "summary": "福特汽车的AI自动化缺陷检测遇到硬限制：汽车制造中存在大量边缘案例，微小设计、材料、供应商和装配变化相互作用，导致基于规则的系统与训练模型容易遗漏故障。福特因此召回350名经验丰富的工程师（\"gray beards\"），利用他们多年积累的隐性工程知识（即故障模式记忆），在零件到达工厂前审查设计，同时帮助改进AI系统的训练数据",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2070980741035413673",
+        "time": "6月28日 5:21",
+        "heat": 5
+      },
+      {
+        "title": "软银CEO并非唯一对马斯克轨道数据中心炒作有疑问的人",
+        "summary": "软银CEO孙正义在股东大会上批评马斯克的轨道数据中心构想，认为其成本高、周期长，而AI竞赛未来几年比十年后的可能性更重要。SpaceX目前占据全球发射市场80-90%份额，主要依赖Starlink业务；建设需要每隔几年更换卫星的轨道数据中心将为SpaceX带来更多发射业务。同期，芯片公司Groq完成6.5亿美元融资，OpenAI推进定制芯片计划",
+        "source": "TechCrunch：AI（RSS）",
+        "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype",
+        "time": "6月28日 4:42",
+        "heat": 5
+      },
+      {
+        "title": "Gallup民调：71%美国人反对本地建设AI数据中心",
+        "summary": "Gallup民调显示，71%美国人反对在本地建设AI数据中心，女性（55%）强烈反对比例高于男性（43%）。反对主因并非恐惧AI，而是资源压力（50%反对者提及，其中水、电各占18%）；支持者则看重经济（66%）和就业（55%）。政治风险广泛，多数民主党、独立派、共和党均反对，民主党最强烈（56%强烈反对）。自2023年以来，美国已出现300+州及地方数据中...",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2070948571948765599",
+        "time": "6月28日 3:13",
+        "heat": 5
+      },
+      {
+        "title": "SemiAnalysis：AI token支出已达薪酬30%",
+        "summary": "我们在《AI价值捕获》一文中一个令人不安的内部观察是：SemiAnalysis 现在的 token 支出约占员工薪酬的 30%，员工平均每月使用近 50 亿 token，是 Meta 的 5 倍以上，而我们的顶级贡献者已超过 1000 亿。我们公开写下这一点，是因为我们认识的每一家研究公司、对冲基金和律所，都在朝着类似的数字迈进，只是时间上有所延迟。（1/4）🧵",
+        "source": "X：SemiAnalysis (@SemiAnalysis_)",
+        "url": "https://x.com/SemiAnalysis_/status/2070915302058041450",
+        "time": "6月28日 1:00",
+        "heat": 5
+      },
+      {
+        "title": "AI基建中的老登与新登：从讨厌到理解",
+        "summary": "推文围绕AI行业\"老登\"与\"新登\"展开讨论。老登指注重基建、有认知思辨的专业程序员，被认为能支撑AI健康稳定迭代，是专业尊严的最后阵地；新登则概念强、快速落地、吹牛忽悠投资后砍掉产研，导致裁员频发（有朋友一年被三家AI创业公司裁）。主推文以\"讨厌老登，理解老登，成为老登\"概括了从对立到认同的态度转变",
+        "source": "X：宝玉 (@dotey)",
+        "url": "https://x.com/dotey/status/2070891191898370086",
+        "time": "6月27日 23:25",
+        "heat": 5
+      },
+      {
+        "title": "J.P. Morgan：AI市场现多重集中风险信号",
+        "summary": "J.P. Morgan警告AI相关市场出现投资者亢奋迹象。自ChatGPT推出后，标普500中仅42家AI公司贡献了指数约65%至80%的利润、收入与投资。半导体涨势呈现类似互联网泡沫的技术形态，杠杆芯片ETF对全球股市影响力自2024年初增长五倍。美国十大股票占标普500市值约40%，2015年仅17%。Nvidia在AI加速器市场份额预计从2023年85...",
+        "source": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/j-p-morgan-sees-a-pile-of-red-flags-in-the-ai-market",
+        "time": "6月27日 21:22",
+        "heat": 5
+      },
+      {
+        "title": "特斯拉就首例 FSD 行人致命事故达成和解，NHTSA 调查持续深入",
+        "summary": "特斯拉就2023年11月一起FSD模式致行人死亡事故达成和解，事故中一辆Model Y撞击了下车疏导交通的71岁行人，和解条款未披露。特斯拉面临约145亿美元相关诉讼。联邦调查仍在进行：NHTSA于2024年10月启动评估，2026年3月升级为工程分析，覆盖约320万辆FSD车辆。NHTSA指出FSD在低能见度时存在缺陷，未检测影响摄像头的路况且未给驾驶员足...",
+        "source": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/969/484.htm",
+        "time": "6月27日 20:57",
+        "heat": 5
+      },
+      {
+        "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
+        "summary": "前美国商务部长Raimondo与前印第安纳州长Holcomb共同发起非营利\"Raise Us\"，目标为AI经济下工人再培训筹集10亿美元，已锁定5亿。Amazon、Anthropic、Microsoft、OpenAI等支持，引发独立性质疑。将在阿肯色、康涅狄格、马里兰、犹他四州试点，包括AI职业导航、服务年计划扩展、工资保险等。工作分州合作、雇主联盟、教育培...",
+        "source": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
+        "time": "6月27日 20:25",
+        "heat": 5
+      },
+      {
+        "title": "和讯王帅：只盯科技半导体就对了！",
+        "summary": "6月27日，和讯王帅表示，最近很多人都在问我，这两个月为什么我只盯着科创50和半导体看，完全不去碰白酒、地产、光伏、券商这些赛道，今天直接给大家把结论说透：这根本不是个人投资偏好或者风格偏向的问题，这是一个被动的选择问题，更准确地说，这是市场里海量基金的共同选择，不是我个人的选择。这段时间市场最核心的特",
+        "source": "和讯网",
+        "url": "https://view.inews.qq.com/a/20260627A09AMA00?scene=news-skill",
+        "time": "6月27日 20:24",
+        "heat": 5
+      },
+      {
+        "title": "专访丨中国光伏和储能发展对全球能源转型意义重大——访欧洲太阳能展主办方负责人埃尔泽塞尔",
+        "summary": "新华社德国慕尼黑6月27日电 专访丨中国光伏和储能发展对全球能源转型意义重大——访欧洲太阳能展主办方负责人埃尔泽塞尔 新华社记者李函林 贾金明 “中国在光伏和储能领域的发展，对全球能源转型具有重要意义。”在德国慕尼黑举行的2026年欧洲国际太阳能展期间，欧洲国际太阳能展主办方负责人、德国太阳能促进公司创始人兼",
+        "source": "新华社新闻",
+        "url": "https://view.inews.qq.com/a/20260627A092MB00?scene=news-skill",
+        "time": "6月27日 20:07",
+        "heat": 5
+      },
+      {
+        "title": "二手房价连涨四个月，好房子靠“抢”，北京上半年土拍分化，《求是》再提“稳定房地产市场”",
+        "summary": "北京二手房。李凯旋/摄本报（chinatimes.net.cn）记者李凯旋 北京报道6月23日，伴随着招商蛇口竞得通州区九棵树南地块，北京上半年土拍市场正式收官。这宗地块给北京楼市的上半年画下了一个较为完美的句号，在5家房企激烈竞价178轮之后，招商蛇口以10.21亿元的价格斩获该地块，溢价率达到20.95%。复盘来看，今年上半年，北",
+        "source": "华夏时报",
+        "url": "https://view.inews.qq.com/a/20260627A08P4Z00?scene=news-skill",
+        "time": "6月27日 19:23",
+        "heat": 5
+      },
+      {
+        "title": "广州前5月经济数据：新能源汽车产量劲增42.5%，新质生产力加速成型",
+        "summary": "大湾区经济网广州6月27日讯，广州市统计局26日公布的2026年1—5月经济运行数据显示，全市规模以上工业增加值同比增长5.6%，社会消费品零售总额达4800.51亿元，工业投资增长6%，其中技改投",
+        "source": "大湾区经济网",
+        "url": "https://view.inews.qq.com/a/20260627A07HCA00?scene=news-skill",
+        "time": "6月27日 17:22",
+        "heat": 5
+      },
+      {
+        "title": "河北这家厂商正生产新能源汽车“最灵敏的耳朵”",
+        "summary": "“理想同学，导航到颐和园。”“请打开空调，并放一首周杰伦的歌。”……话音刚落，车机系统已精准识别指令。智能汽车“听懂人在说什么”，车载数字麦克风发挥着重要作用。这辆理想纯电汽车安装高性能数字麦克风。它的主要供货商是来自石家庄市的河北初光汽车部件有限公司。当下，京津冀地区正共建新能源与智能网联汽车产业",
+        "source": "北京日报客户端",
+        "url": "https://view.inews.qq.com/a/20260627A07CIZ00?scene=news-skill",
+        "time": "6月27日 17:09",
+        "heat": 5
       }
     ],
+    "mockStockNewsExtra": [],
     "mockStockAI": [
       {
         "title": "医药股迎久违暴涨，多股现“20CM”涨停，资金从AI回来了？",
