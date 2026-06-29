@@ -65,6 +65,11 @@ GENERIC_TITLE_PATTERNS = [
     "关注最新进展", "快讯：", "国际快讯", "财经快讯", "AI科技快讯",
 ]
 
+# Old Codex global RSS imports should not remain on the main page while
+# Workbuddy owns the regular news update pipeline.
+BLOCKED_SOURCE_REGIONS = {"global"}
+BLOCK_GLOBAL_SECTIONS = {"international", "ai", "stock"}
+
 
 def now_local() -> datetime:
     return datetime.now().replace(microsecond=0)
@@ -366,6 +371,8 @@ def main() -> None:
         if not isinstance(items, list):
             ordered_pool[section] = items
             continue
+        if section in BLOCK_GLOBAL_SECTIONS:
+            items = [x for x in items if str(x.get("sourceRegion", "")).lower() not in BLOCKED_SOURCE_REGIONS]
         deduped, dupes = dedupe_section(items, now, state, section)
         ordered = sort_section(deduped, now, state, section)
         ordered_pool[section] = ordered
