@@ -112,6 +112,16 @@ let status = {
       "fetched": 0,
       "accepted": 0,
       "rejected": 0
+    },
+    "stock_ai": {
+      "fetched": 0,
+      "accepted": 0,
+      "rejected": 0
+    },
+    "csl_other": {
+      "fetched": 0,
+      "accepted": 0,
+      "rejected": 0
     }
   },
   "output_files": [
@@ -170,6 +180,18 @@ status.sections.entertainment.fetched = entTotal;
 status.sections.entertainment.accepted = entTotal;
 console.log(`娱乐新闻: ${entMain} + ${entExtra} = ${entTotal} 条`);
 
+// 统计 AI 概念股
+const stockAICount = countArrayItems(content, 'mockStockAI');
+status.sections.stock_ai.fetched = stockAICount;
+status.sections.stock_ai.accepted = stockAICount;
+console.log(`AI概念股: ${stockAICount} 条`);
+
+// 统计中超其他球队新闻
+const cslOtherCount = countArrayItems(content, 'mockCslOtherTeams');
+status.sections.csl_other.fetched = cslOtherCount;
+status.sections.csl_other.accepted = cslOtherCount;
+console.log(`中超其他球队: ${cslOtherCount} 条`);
+
 // 检查 Git 状态
 console.log('\n检查 Git 状态...');
 try {
@@ -206,8 +228,13 @@ try {
 console.log('\n写入状态文件...');
 fs.writeFileSync(statusFile, JSON.stringify(status, null, 2), 'utf8');
 console.log('✓ 状态文件已更新:', statusFile);
+
+// 追加到历史文件（JSONL 一行）
+const historyFile = path.join(__dirname, 'workbuddy_news_update_history.jsonl');
+fs.appendFileSync(historyFile, JSON.stringify(status) + '\n', 'utf8');
+console.log('✓ 历史记录已追加:', historyFile);
 console.log('\n=== 状态摘要 ===');
 console.log(`更新时间: ${status.updated_at}`);
 console.log(`状态: ${status.status}`);
 console.log(`已推送到 GitHub: ${status.pushed_to_github}`);
-console.log(`总计抓取: ${domesticTotal + internationalTotal + aiTotal + financeTotal + footballCount + entTotal} 条新闻`);
+console.log(`总计抓取: ${domesticTotal + internationalTotal + aiTotal + financeTotal + footballCount + entTotal + stockAICount + cslOtherCount} 条新闻`);
