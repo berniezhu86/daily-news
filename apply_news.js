@@ -73,8 +73,10 @@ function itemToCode(item) {
   // summary
   parts.push(`summary:${JSON.stringify(item.summary || '')}`);
   
-  // badge
-  parts.push(`badge:"hot"`);
+  // badge — 只在有明确 badge 字段时才写入
+  if (item.badge) {
+    parts.push(`badge:${JSON.stringify(item.badge)}`);
+  }
   
   // heat
   parts.push(`heat:${item.heat || 5}`);
@@ -98,6 +100,39 @@ function itemsToCode(items) {
   if (items.length === 0) return '[]';
   const lines = items.map(item => '  ' + itemToCode(item));
   return `[\n${lines.join(',\n')}\n]`;
+}
+
+// ============================================================
+// 从 HTML 内容中提取旧数组的标题集合（用于检测新条目）
+// ============================================================
+function extractOldTitles(content, arrayName) {
+  const titles = new Set();
+  const patterns = [
+    new RegExp(`const\\s+${arrayName}\\s*=\\s*\\[`, 'g'),
+    new RegExp(`var\\s+${arrayName}\\s*=\\s*\\[`, 'g'),
+    new RegExp(`let\\s+${arrayName}\\s*=\\s*\\[`, 'g'),
+  ];
+  
+  for (const pattern of patterns) {
+    const match = pattern.exec(content);
+    if (match) {
+      const startIdx = match.index + match[0].length - 1; // 指向 '['
+      const endIdx = findArrayEnd(content, startIdx);
+      if (endIdx > startIdx) {
+        const arrayStr = content.substring(startIdx + 1, endIdx);
+        const titlePattern = /title:("[^"]*"|'[^']*')/g;
+        let tm;
+        while ((tm = titlePattern.exec(arrayStr)) !== null) {
+          // 去掉外层引号
+          const title = tm[1].slice(1, -1);
+          titles.add(title);
+        }
+      }
+      break; // 找到就退出
+    }
+  }
+  
+  return titles;
 }
 
 // ============================================================
@@ -243,9 +278,16 @@ function main() {
   let content = fs.readFileSync(INDEX_HTML, 'utf-8');
   const originalLength = content.length;
   
+  // 提前提取所有旧标题（用于检测新条目）
+  const oldTitlesMap = {};
+  for (const arrayName of ALLOWED_ARRAYS) {
+    oldTitlesMap[arrayName] = extractOldTitles(content, arrayName);
+  }
+  
   // 替换每个白名单数组
   let replaced = 0;
   let notFound = 0;
+  let newItemsCount = 0;
   
   for (const arrayName of ALLOWED_ARRAYS) {
     const items = sections[arrayName];
@@ -261,9 +303,22 @@ function main() {
       continue;
     }
     
-    // 为每条新闻设置 rank
+    // 为每条新闻设置 rank 和 badge
+    const oldTitles = oldTitlesMap[arrayName] || new Set();
     items.forEach((item, idx) => {
       if (!item.rank) item.rank = idx + 1;
+      
+      // 热度 >= 8 → "热"标签（如果还没设置）
+      if (!item.badge) {
+        if (item.heat >= 8) {
+          item.badge = 'hot';
+        } else if (!oldTitles.has(item.title)) {
+          // 旧数据中不存在的标题 → "新"标签
+          item.badge = 'new';
+          newItemsCount++;
+        }
+        // 否则无标签
+      }
     });
     
     const newCode = itemsToCode(items);
@@ -294,7 +349,7 @@ function main() {
     }
   }
   
-  console.log(`\n替换完成: ${replaced} 个数组已更新, ${notFound} 个未找到`);
+  console.log(`\n替换完成: ${replaced} 个数组已更新, ${notFound} 个未找到, ${newItemsCount} 条新条目`);
   
   // 更新版本号
   content = updateVersion(content);

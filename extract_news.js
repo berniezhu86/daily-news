@@ -18,6 +18,35 @@ const cheerio = require('/Users/bainian/.workbuddy/binaries/node/workspace/node_
 const REPO_DIR = __dirname;
 
 // ============================================================
+// ============================================================
+// 时效过滤：检查新闻是否为旧闻（>48小时）
+// ============================================================
+function isOldNews(title, summary) {
+  const text = title + ' ' + (summary || '');
+  
+  // 查找标题或摘要中的所有日期
+  const dateMatches = text.match(/(\d+)月(\d+)日/g);
+  if (dateMatches) {
+    for (const dm of dateMatches) {
+      const parts = dm.match(/(\d+)月(\d+)日/);
+      const m = parseInt(parts[1]);
+      const d = parseInt(parts[2]);
+      // 6月27日之前 → 超过48小时
+      if (m === 6 && d < 27) return true;
+      // 5月及之前 → 肯定超过48小时
+      if (m < 6) return true;
+    }
+  }
+  
+  // 旧年份
+  if (/\b202[0-4]年\b/.test(text)) return true;
+  
+  // 模糊旧时间
+  if (/去年|前年|数年前|几个月前/.test(text)) return true;
+  
+  return false;
+}
+
 // 垃圾标题过滤：包含这些关键词的标题直接丢弃
 // ============================================================
 const GARBAGE_PATTERNS = [
@@ -43,12 +72,13 @@ function parseDomesticFile(html) {
   // 用正则在原始文本中定位所有 section 起始标记
   // 不依赖 cheerio 的 DOM 树（因为源 HTML 的 div 闭合不完整，
   // cheerio 会把后续 section 全部嵌套到第一个 section 里）
-  const sectionPattern = /<div\s+id="([^"]+)"\s+class="section-block"\s*>/g;
+  // 兼容两种属性顺序: id="X" class="section-block" 和 class="section-block" id="X"
+  const sectionPattern = /<div\s+(?:id="([^"]+)"\s+class="section-block"|class="section-block"\s+id="([^"]+)")\s*>/g;
   const sectionMarkers = [];
   let match;
   while ((match = sectionPattern.exec(html)) !== null) {
     sectionMarkers.push({
-      id: match[1],
+      id: match[1] || match[2],  // 兼容两种属性顺序
       contentStart: match.index + match[0].length,
       fullMatchStart: match.index
     });
@@ -82,23 +112,38 @@ function parseDomesticFile(html) {
 
       const url = $a.attr('href') || '';
 
-      // 来源：a 标签同级的 span
+      // 来源 + 摘要：都在 a 标签的父级元素中
       const $parent = $a.parent();
+      
+      // 来源：找 color:#888 的 span
       const sourceText = $parent.find('span[style*="color:#888"]').text();
       const sourceMatch = sourceText.match(/\[(.+?)\]/);
       const source = sourceMatch ? sourceMatch[1] : '';
 
-      // 摘要：最近的 background:#fff 容器中的 color:#6e6e73 div
+      // 摘要：在 a 标签的祖先元素 .news-card-body 中找
+      // 同时支持 class="news-summary" 和 style="color:#6e6e73" 两种格式
       let summary = '';
-      let $container = $a.closest('div[style*="background:#fff"]');
-      if ($container.length === 0) {
-        $container = $a.parent().parent();
+      const $cardBody = $a.closest('.news-card-body');
+      if ($cardBody.length > 0) {
+        summary = $cardBody.find('div.news-summary, div[style*="color:#6e6e73"]').first().text().trim();
       }
-      summary = $container.find('div[style*="color:#6e6e73"]').first().text().trim();
+      // 如果找不到，回退到 a 标签的父级元素中找
+      if (!summary) {
+        const $parent = $a.parent();
+        summary = $parent.find('div.news-summary, div[style*="color:#6e6e73"]').first().text().trim();
+        if (!summary) {
+          summary = $parent.parent().find('div.news-summary, div[style*="color:#6e6e73"]').first().text().trim();
+        }
+      }
 
       // 摘要过长则截断
       if (summary.length > 200) {
         summary = summary.substring(0, 150) + '...';
+      }
+
+      // 时效检查：过滤超过48小时的旧闻
+      if (isOldNews(title, summary)) {
+        return; // skip this item
       }
 
       newsItems.push({
@@ -162,6 +207,11 @@ function parseInternationalFile(html) {
       for (const t of metaTexts) {
         const m = t.match(/热度：(\d+)/);
         if (m) { heat = parseInt(m[1]); break; }
+      }
+
+      // 时效检查：过滤超过48小时的旧闻
+      if (isOldNews(title, summary)) {
+        return; // skip this item
       }
       
       newsItems.push({
