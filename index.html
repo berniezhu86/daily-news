@@ -3858,7 +3858,7 @@ function updateMineOverview() {
   var pushEl = document.getElementById('minePushState');
   var careEl = document.getElementById('mineCareState');
   if (nameEl) nameEl.textContent = user ? user.nickname : '我的';
-  if (stateEl) stateEl.textContent = user ? '已登录 · 偏好会保存在本机' : '未登录 · 可先使用本机偏好';
+  if (stateEl) stateEl.textContent = user ? '已登录' : '未登录 · 可先使用本机偏好';
   if (interestEl) interestEl.textContent = interests.length + ' 个';
   if (themeEl) themeEl.textContent = themeMap[theme] || '默认';
   if (pushEl) pushEl.textContent = pushOn || trackOn ? '已开启' : '未开启';
