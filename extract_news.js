@@ -54,16 +54,27 @@ function isOldNews(title, summary, cardTime) {
 
   // === 第2层：card-time 精确过滤（>72小时） ===
   if (cardTime) {
-    const match = cardTime.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
+    // 格式1: "2026-06-29 16:42"（带年份）
+    let match = cardTime.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
     if (match) {
       const cardDate = new Date(
         parseInt(match[1]), parseInt(match[2]) - 1, parseInt(match[3]),
         parseInt(match[4]), parseInt(match[5])
       );
-      const now = new Date();
-      const hoursDiff = (now - cardDate) / (1000 * 60 * 60);
+      const hoursDiff = (new Date() - cardDate) / (1000 * 60 * 60);
       if (hoursDiff > 72) return true;
-      // 如果 card-time 验证通过（≤72h），信任时间戳，跳过文本日期检测
+      return false;
+    }
+    // 格式2: "06-29 21:52"（无年份，默认当年）
+    match = cardTime.match(/(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
+    if (match) {
+      const year = new Date().getFullYear();
+      const cardDate = new Date(
+        year, parseInt(match[1]) - 1, parseInt(match[2]),
+        parseInt(match[3]), parseInt(match[4])
+      );
+      const hoursDiff = (new Date() - cardDate) / (1000 * 60 * 60);
+      if (hoursDiff > 72) return true;
       return false;
     }
   }
@@ -104,13 +115,25 @@ function isOldNews(title, summary, cardTime) {
 // ============================================================
 function formatTime(cardTime) {
   if (!cardTime) return '';
-  const match = cardTime.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
-  if (!match) return cardTime;
-  const month = parseInt(match[2]);
-  const day = parseInt(match[3]);
-  const hour = parseInt(match[4]);
-  const minute = parseInt(match[5]);
-  return `${month}月${day}日 ${hour}:${String(minute).padStart(2,'0')}`;
+  // 格式1: "2026-06-29 16:42"
+  let match = cardTime.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
+  if (match) {
+    const month = parseInt(match[2]);
+    const day = parseInt(match[3]);
+    const hour = parseInt(match[4]);
+    const minute = parseInt(match[5]);
+    return `${month}月${day}日 ${hour}:${String(minute).padStart(2,'0')}`;
+  }
+  // 格式2: "06-29 21:52"（无年份）
+  match = cardTime.match(/(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
+  if (match) {
+    const month = parseInt(match[1]);
+    const day = parseInt(match[2]);
+    const hour = parseInt(match[3]);
+    const minute = parseInt(match[4]);
+    return `${month}月${day}日 ${hour}:${String(minute).padStart(2,'0')}`;
+  }
+  return cardTime;
 }
 
 // ============================================================
@@ -160,7 +183,9 @@ function parseNewsDailyFile(html) {
   $('section.news-section').each((i, elem) => {
     const $section = $(elem);
     const sectionId = $section.attr('id') || '';
-    if (!sectionId.startsWith('section-')) return;
+    // 通过映射表将英文 ID（如 "domestic"）转为内部键（如 "section-国内新闻"）
+    const mappedId = SECTION_ID_MAP[sectionId];
+    if (!mappedId) return;
 
     const newsItems = [];
 
@@ -192,12 +217,24 @@ function parseNewsDailyFile(html) {
       // 热度：基于时间新鲜度
       let heat = 5;
       if (cardTime) {
-        const match = cardTime.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
+        let match = cardTime.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
+        let cardDate;
         if (match) {
-          const cardDate = new Date(
+          cardDate = new Date(
             parseInt(match[1]), parseInt(match[2]) - 1, parseInt(match[3]),
             parseInt(match[4]), parseInt(match[5])
           );
+        } else {
+          // 格式2: "06-29 21:52"
+          match = cardTime.match(/(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
+          if (match) {
+            cardDate = new Date(
+              new Date().getFullYear(), parseInt(match[1]) - 1, parseInt(match[2]),
+              parseInt(match[3]), parseInt(match[4])
+            );
+          }
+        }
+        if (cardDate) {
           const hoursAgo = (new Date() - cardDate) / (1000 * 60 * 60);
           if (hoursAgo < 3) heat = 9;
           else if (hoursAgo < 6) heat = 8;
@@ -218,7 +255,7 @@ function parseNewsDailyFile(html) {
     });
 
     if (newsItems.length > 0) {
-      sections[sectionId] = newsItems;
+      sections[mappedId] = newsItems;
     }
   });
 
@@ -325,14 +362,24 @@ function isAIStockNews(title) {
 }
 
 // ============================================================
-// 版块映射
+// 版块 ID 映射（源文件使用英文 ID，脚本内部用 section-XXX 键）
 // ============================================================
-const SECTION_MAP = {
-  'section-国内新闻': 'domestic',
-  'section-国际新闻': 'international',
-  'section-财经新闻': 'finance',
-  'section-娱乐新闻': 'entertainment',
-  'section-AI科技新闻': 'ai_tech',
+const SECTION_ID_MAP = {
+  'domestic': 'section-国内新闻',
+  'international': 'section-国际新闻',
+  'finance': 'section-财经新闻',
+  'entertainment': 'section-娱乐新闻',
+  'henan-fc': 'section-河南足球俱乐部',
+  'csl': 'section-中超联赛动态',
+  'ai-tech': 'section-AI科技新闻',
+  // 兼容旧格式（section-中文）
+  'section-国内新闻': 'section-国内新闻',
+  'section-国际新闻': 'section-国际新闻',
+  'section-财经新闻': 'section-财经新闻',
+  'section-娱乐新闻': 'section-娱乐新闻',
+  'section-河南足球俱乐部': 'section-河南足球俱乐部',
+  'section-中超联赛动态': 'section-中超联赛动态',
+  'section-AI科技新闻': 'section-AI科技新闻',
 };
 
 // ============================================================
@@ -367,33 +414,33 @@ function main() {
 
   const getSection = (secId) => deduplicate(sections[secId] || []);
 
-  // 1. 国内新闻 — 全部抓取（不再限制数量）
+  // 1. 国内新闻 — 30条主+50条扩展
   const domesticNews = getSection('section-国内新闻');
-  const domSplit = splitMainAndExtra(domesticNews, 500, 500);
+  const domSplit = splitMainAndExtra(domesticNews, 30, 50);
   const mockHotNewsDomestic = domSplit.main;
   const mockHotNewsDomesticExtra = domSplit.extra;
 
-  // 2. 国际新闻 — 全部抓取
+  // 2. 国际新闻 — 30条主+50条扩展
   const intlNews = getSection('section-国际新闻');
-  const intlSplit = splitMainAndExtra(intlNews, 500, 500);
+  const intlSplit = splitMainAndExtra(intlNews, 30, 50);
   const mockHotNewsInternational = intlSplit.main;
   const mockHotNewsInternationalExtra = intlSplit.extra;
 
-  // 3. AI科技 — 全部抓取
+  // 3. AI科技 — 30条主+50条扩展
   const aiNews = getSection('section-AI科技新闻');
-  const aiSplit = splitMainAndExtra(aiNews, 500, 500);
+  const aiSplit = splitMainAndExtra(aiNews, 30, 50);
   const mockHotNewsAI = aiSplit.main;
   const mockHotNewsAIExtra = aiSplit.extra;
 
-  // 4. 娱乐 — 全部抓取
+  // 4. 娱乐 — 30条主+50条扩展
   const entNews = getSection('section-娱乐新闻');
-  const entSplit = splitMainAndExtra(entNews, 500, 500);
+  const entSplit = splitMainAndExtra(entNews, 30, 50);
   const mockEntertainment = entSplit.main;
   const mockEntertainmentExtra = entSplit.extra;
 
-  // 5. 财经 — 全部抓取
+  // 5. 财经 — 30条主+50条扩展
   const finNews = getSection('section-财经新闻');
-  const finSplit = splitMainAndExtra(finNews, 500, 500);
+  const finSplit = splitMainAndExtra(finNews, 30, 50);
   const mockStockNews = finSplit.main;
   const mockStockNewsExtra = finSplit.extra;
 

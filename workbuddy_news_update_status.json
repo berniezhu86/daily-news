@@ -1,37 +1,47 @@
 {
-  "updated_at": "2026-06-29T07:58:00.490+08:00",
-  "run_id": "manual-1782719880491",
+  "updated_at": "2026-06-29T15:12:46.803+08:00",
+  "run_id": "manual-1782745966803",
   "status": "success",
   "summary": "News data updated",
   "sections": {
     "domestic": {
-      "fetched": 8,
-      "accepted": 8,
+      "fetched": 75,
+      "accepted": 75,
       "rejected": 0
     },
     "international": {
-      "fetched": 19,
-      "accepted": 19,
+      "fetched": 77,
+      "accepted": 77,
       "rejected": 0
     },
     "ai_tech": {
-      "fetched": 36,
-      "accepted": 36,
+      "fetched": 80,
+      "accepted": 80,
       "rejected": 0
     },
     "finance": {
-      "fetched": 21,
-      "accepted": 21,
+      "fetched": 74,
+      "accepted": 74,
       "rejected": 0
     },
     "football": {
-      "fetched": 4,
-      "accepted": 4,
+      "fetched": 6,
+      "accepted": 6,
       "rejected": 0
     },
     "entertainment": {
-      "fetched": 7,
-      "accepted": 7,
+      "fetched": 80,
+      "accepted": 80,
+      "rejected": 0
+    },
+    "stock_ai": {
+      "fetched": 1,
+      "accepted": 1,
+      "rejected": 0
+    },
+    "csl_other": {
+      "fetched": 30,
+      "accepted": 30,
       "rejected": 0
     }
   },
