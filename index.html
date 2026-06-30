@@ -3352,6 +3352,8 @@ var listenSpeaking = false;
 var listenPaused = false;
 var listenCurrentUtterance = null;
 var listenPreferredVoice = null;
+var listenPlayToken = 0;
+var listenSuppressEndUntil = 0;
 
 function getPreferredListenVoice() {
   if (!('speechSynthesis' in window) || !speechSynthesis.getVoices) return null;
@@ -3364,9 +3366,10 @@ function getPreferredListenVoice() {
     var score = 0;
     if (lang === 'zh-cn' || lang.indexOf('zh_hans') >= 0) score += 120;
     else if (lang.indexOf('zh') === 0 || text.indexOf('chinese') >= 0 || text.indexOf('mandarin') >= 0) score += 90;
-    if (/premium|enhanced|natural|neural|siri|google|microsoft|xiaoxiao|yunjian|yunxi|xiaoyi|晓晓|云健|云希|小艺/i.test(name)) score += 45;
+    if (/premium|enhanced|natural|neural|siri|google|microsoft|xiaoxiao|xiaoyi|xiaoxuan|xiaomeng|xiaoqiu|mei-jia|meijia|tingting|晓晓|小艺|晓萱|晓梦|晓秋|美佳|婷婷/i.test(name)) score += 45;
+    if (/female|woman|girl|女|婷婷|晓晓|小艺|晓萱|晓梦|晓秋|美佳/i.test(name)) score += 38;
+    if (/male|man|boy|男|yunjian|yunxi|yunyang|yunfeng|云健|云希|云扬|云枫/i.test(name)) score -= 55;
     if (/普通话|mandarin|china|mainland|大陆|简体/i.test(name + ' ' + v.lang)) score += 25;
-    if (/tingting|婷婷/i.test(name)) score -= 35;
     if (/compact|eloquence/i.test(name)) score -= 45;
     if (!v.localService) score += 8;
     return { voice:v, score:score };
@@ -3388,13 +3391,21 @@ function canListenBriefing() {
   return !!getAndroidTTSBridge() || ('speechSynthesis' in window);
 }
 
-function onListenItemEnded() {
+function onListenItemEnded(token) {
+  var expectedToken = typeof token === 'number' ? token : listenPlayToken;
+  if (Date.now() < listenSuppressEndUntil) return;
+  if (expectedToken !== listenPlayToken) return;
   if (!listenSpeaking || listenPaused) return;
-  setTimeout(function() { speakListenItem(listenIndex + 1); }, 450);
+  setTimeout(function() {
+    if (expectedToken === listenPlayToken && listenSpeaking && !listenPaused) speakListenItem(listenIndex + 1);
+  }, 450);
 }
 
-window.onAndroidTTSEnded = onListenItemEnded;
-window.onNativeTTSEnded = onListenItemEnded;
+window.onAndroidTTSEnded = function(token) {
+  var parsed = parseInt(token, 10);
+  onListenItemEnded(isNaN(parsed) ? listenPlayToken : parsed);
+};
+window.onNativeTTSEnded = window.onAndroidTTSEnded;
 
 if ('speechSynthesis' in window) {
   refreshListenVoices();
@@ -3490,6 +3501,8 @@ function speakListenItem(idx) {
   listenIndex = idx;
   listenSpeaking = true;
   listenPaused = false;
+  var token = ++listenPlayToken;
+  listenSuppressEndUntil = Date.now() + 180;
   var item = listenQueue[listenIndex];
   var bridge = getAndroidTTSBridge();
   if (bridge) {
@@ -3497,7 +3510,7 @@ function speakListenItem(idx) {
       if (typeof bridge.stop === 'function') bridge.stop();
       listenCurrentUtterance = null;
       updateListenPlayer();
-      bridge.speak(item.text);
+      bridge.speak(item.text, String(token));
       return;
     } catch(e) {
       console.warn('AndroidTTS bridge failed, fallback to Web Speech', e);
@@ -3516,10 +3529,11 @@ function speakListenItem(idx) {
   utter.rate = document.body.classList.contains('care-mode') ? 0.82 : 0.88;
   utter.pitch = 0.96;
   utter.volume = 1;
-  utter.onend = onListenItemEnded;
+  utter.onend = function() { onListenItemEnded(token); };
   utter.onerror = function() {
-    if (!listenSpeaking) return;
-    setTimeout(function() { speakListenItem(listenIndex + 1); }, 300);
+    if (Date.now() < listenSuppressEndUntil) return;
+    if (token !== listenPlayToken || !listenSpeaking) return;
+    setTimeout(function() { if (token === listenPlayToken) speakListenItem(listenIndex + 1); }, 300);
   };
   listenCurrentUtterance = utter;
   updateListenPlayer();
@@ -3570,10 +3584,14 @@ function listenNext() {
     startListenBriefing();
     return;
   }
+  listenSuppressEndUntil = Date.now() + 1200;
+  listenPlayToken++;
   speakListenItem(listenIndex + 1);
 }
 
 function stopListenBriefing() {
+  listenSuppressEndUntil = Date.now() + 1200;
+  listenPlayToken++;
   var bridge = getAndroidTTSBridge();
   if (bridge && typeof bridge.stop === 'function') bridge.stop();
   if ('speechSynthesis' in window) speechSynthesis.cancel();
