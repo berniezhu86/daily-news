@@ -70,20 +70,20 @@
         <div class="reader-title-meta" id="readerMeta">每日简讯</div>
       </div>
       <div class="reader-actions">
-        <a class="btn" id="openBtn" href="#">打开原网页</a>
+        <button class="btn" id="openBtn" type="button">复制原文链接</button>
         <button class="btn" id="copyBtn" type="button">复制链接</button>
       </div>
     </div>
-    <div class="reader-hint">为避免第三方网页在 Mac 包内触发弹窗，默认不自动加载原网页。需要阅读全文时，请选择下方操作。</div>
+    <div class="reader-hint">为保留返回入口，默认不在应用内直接跳转第三方网页。需要阅读全文时，请复制链接到浏览器打开，或尝试内嵌阅读。</div>
   </header>
   <main class="reader-main" id="readerMain">
     <section class="reader-card">
       <div class="reader-card-kicker" id="readerKicker">权威发布</div>
       <div class="reader-card-title" id="cardTitle">新闻详情</div>
       <div class="reader-card-meta" id="cardMeta">第三方新闻详情</div>
-      <div class="reader-card-desc">原文来自第三方网站。Mac 包内自动嵌入第三方网页可能触发系统弹框或空白页，因此这里先提供稳定入口。</div>
+      <div class="reader-card-desc">原文来自第三方网站。为避免当前页面跳走后丢失返回入口，这里默认提供复制链接；如网站允许，也可以尝试内嵌阅读。</div>
       <div class="reader-card-actions">
-        <a class="btn btn-primary" id="cardOpenBtn" href="#">打开原网页</a>
+        <button class="btn btn-primary" id="cardOpenBtn" type="button">复制原文链接</button>
         <button class="btn" id="cardCopyBtn" type="button">复制链接</button>
         <button class="btn" id="embedBtn" type="button">尝试内嵌阅读</button>
       </div>
@@ -137,9 +137,12 @@
       } else {
         btn.textContent = '请长按复制';
       }
-      setTimeout(function() { btn.textContent = '复制链接'; }, 1800);
+      var originalText = btn.getAttribute('data-label') || '复制链接';
+      setTimeout(function() { btn.textContent = originalText; }, 1800);
     }
+    openBtn.addEventListener('click', function() { copyLink(openBtn); });
     copyBtn.addEventListener('click', function() { copyLink(copyBtn); });
+    cardOpenBtn.addEventListener('click', function() { copyLink(cardOpenBtn); });
     cardCopyBtn.addEventListener('click', function() { copyLink(cardCopyBtn); });
     embedBtn.addEventListener('click', function() {
       if (!isSafeHttpUrl(url)) return;
@@ -153,14 +156,11 @@
     metaEl.textContent = source + ' · 第三方新闻详情';
     cardMeta.textContent = source + ' · 第三方新闻详情';
     document.title = title + ' - 每日简讯';
-    if (isSafeHttpUrl(url)) {
-      openBtn.href = url;
-      cardOpenBtn.href = url;
-      openBtn.removeAttribute('target');
-      openBtn.removeAttribute('rel');
-      cardOpenBtn.removeAttribute('target');
-      cardOpenBtn.removeAttribute('rel');
-    } else {
+    openBtn.setAttribute('data-label', openBtn.textContent);
+    copyBtn.setAttribute('data-label', copyBtn.textContent);
+    cardOpenBtn.setAttribute('data-label', cardOpenBtn.textContent);
+    cardCopyBtn.setAttribute('data-label', cardCopyBtn.textContent);
+    if (!isSafeHttpUrl(url)) {
       openBtn.style.display = 'none';
       copyBtn.style.display = 'none';
       cardOpenBtn.style.display = 'none';
