@@ -19,28 +19,23 @@ OUT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUT_FILE = os.path.join(OUT_DIR, "authoritative_news.json")
 MAX_NEWS = 10  # 每个源最多取10条（只保留重要新闻）
 
-# "重要新闻"关键词白名单 — 标题至少命中一条才算即时重要新闻
-IMPORTANCE_KEYWORDS = [
-    # 时效性标识（即时/突发）
-    "快讯", "刚刚", "最新", "突发",
-    # 权威标识
-    "要闻", "重要", "重磅", "发布", "讲话", "指示", "部署",
-    # 政策/人事
-    "政策", "决定", "通知", "公告", "任命", "免职", "任免",
-    "规定", "条例", "办法", "方案", "意见", "修订",
-    # 领导人活动
-    "主席", "总书记", "总理", "委员长", "会见", "出席",
-    "主持", "访问", "考察", "调研", "致电", "致信",
-    # 全国性/中央层级
-    "中央", "国务院", "全国人大", "全国政协", "政治局",
-    "全会", "常务会议", "国新办",
-    # 重大事件/紧急
-    "签署", "通过", "召开", "开幕", "闭幕", "生效",
-    "紧急", "事故", "灾害", "地震", "预警", "气象",
-    # 军事/外交
-    "军事", "国防", "外交部", "大使", "国际",
-    # 经济/民生重大
-    "降息", "降准", "GDP", "统计", "国民经济",
+# 权威发布只承载两类内容：国家元首/政府高层，或突发重大事件。
+HEAD_OF_STATE_KEYWORDS = [
+    "习近平", "国家主席", "中华人民共和国主席", "国家元首", "主席令",
+    "总统", "国家总统", "副总统", "国王", "女王", "天皇", "埃米尔",
+]
+
+BREAKING_EVENT_TOPICS = [
+    "地震", "海啸", "台风", "洪水", "山洪", "泥石流", "滑坡", "暴雨", "龙卷风",
+    "火灾", "爆炸", "坍塌", "事故", "空难", "坠机", "列车脱轨", "沉船",
+    "袭击", "枪击", "爆炸袭击", "战争", "冲突", "导弹", "空袭", "恐袭",
+    "疫情", "传染病", "核事故", "泄漏",
+]
+
+BREAKING_EVENT_SIGNALS = [
+    "突发", "快讯", "刚刚", "已致", "造成", "死亡", "遇难", "伤亡", "受伤", "失踪",
+    "被困", "救援", "疏散", "停运", "关闭", "预警", "紧急", "进入紧急状态",
+    "多少级", "级地震", "人死亡", "人遇难", "人受伤",
 ]
 
 # 请求头（模拟浏览器）
@@ -74,12 +69,30 @@ def fetch_html(url):
         return ""
 
 
+def is_head_of_state_news(title):
+    """国家元首/中央政府高层新闻。"""
+    return any(kw in title for kw in HEAD_OF_STATE_KEYWORDS)
+
+
+def is_major_breaking_event(title):
+    """突发重大事件：事件主题 + 强后果/应急信号同时命中。"""
+    has_topic = any(kw in title for kw in BREAKING_EVENT_TOPICS)
+    has_signal = any(kw in title for kw in BREAKING_EVENT_SIGNALS)
+    return has_topic and has_signal
+
+
+def get_authoritative_priority(title):
+    """返回权威发布优先级；0 表示不进入权威发布卡片。"""
+    if is_head_of_state_news(title):
+        return 2
+    if is_major_breaking_event(title):
+        return 1
+    return 0
+
+
 def is_important_news(title):
-    """判断新闻标题是否属于"即时重要新闻" — 必须命中至少一个关键词"""
-    for kw in IMPORTANCE_KEYWORDS:
-        if kw in title:
-            return True
-    return False
+    """仅保留国家元首/政府高层，或突发重大事件。"""
+    return get_authoritative_priority(title) > 0
 
 
 def extract_xinhua_news(html):
@@ -156,8 +169,8 @@ def extract_xinhua_news(html):
         title = re.sub(r"\s+", " ", title).strip()
         process_match(m.group(1), title)
 
-    # 按日期倒序
-    news_list.sort(key=lambda x: x.get("date", ""), reverse=True)
+    # 高层时政优先，其次突发重大事件；同级按日期倒序。
+    news_list.sort(key=lambda x: (get_authoritative_priority(x.get("title", "")), x.get("date", "")), reverse=True)
     return news_list[:MAX_NEWS]
 
 
@@ -203,6 +216,7 @@ def extract_people_news(html):
             "source": "人民日报",
             "date": d,
         })
+    news_list.sort(key=lambda x: (get_authoritative_priority(x.get("title", "")), x.get("date", "")), reverse=True)
     return news_list[:MAX_NEWS]
 
 
@@ -246,9 +260,10 @@ def main():
     else:
         print("  ❌ 人民网抓取失败")
 
-    # 3. 去重
-    all_news = deduplicate(all_news)
-    print(f"  去重后共 {len(all_news)} 条权威要闻")
+    # 3. 去重 + 最终过滤排序
+    all_news = [n for n in deduplicate(all_news) if is_important_news(n.get("title", ""))]
+    all_news.sort(key=lambda x: (get_authoritative_priority(x.get("title", "")), x.get("date", "")), reverse=True)
+    print(f"  去重过滤后共 {len(all_news)} 条权威要闻")
 
     # 4. 输出 JSON
     output = {
