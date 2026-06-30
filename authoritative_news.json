@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-01T00:37:31.676994+08:00",
-  "updated_display": "07月01日 00:37",
+  "updated": "2026-07-01T02:34:01.856888+08:00",
+  "updated_display": "07月01日 02:34",
   "count": 10,
   "news": [
     {
@@ -12,12 +12,6 @@
     {
       "title": "习近平同塞舌尔总统就中塞建交50周年互致贺电",
       "url": "https://www.news.cn/politics/leaders/20260630/c55c42590d3746868dd65f8c87fca9f5/c.html",
-      "source": "新华社",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "总统反对无效 美最高法未限制中期选举邮寄选票",
-      "url": "https://www.news.cn/world/20260630/b27541f39f114e169adf4e5357277c3b/c.html",
       "source": "新华社",
       "date": "2026-06-30"
     },
@@ -62,6 +56,12 @@
       "url": "https://www.news.cn/politics/leaders/20260629/88e3877738b24131849560a530587672/c.html",
       "source": "新华社",
       "date": "2026-06-29"
+    },
+    {
+      "title": "委内瑞拉地震死亡人数升至1943人",
+      "url": "https://www.news.cn/world/20260701/90bc4d7160a6491bbcdf3c71d41f947e/c.html",
+      "source": "新华社",
+      "date": "2026-07-01"
     }
   ]
 }
