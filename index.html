@@ -3117,15 +3117,32 @@ function dedupeNews(items, categoryKey) {
 }
 
 
-function isDomesticHeadOfStateNews(item) {
+function isHighPoliticsNews(item) {
   var text = [item && item.title, item && item.summary, item && item.source].join(' ');
-  return /(习近平|国家主席|中华人民共和国主席|主席令|国家元首)/.test(text);
+  return /(习近平|国家主席|中华人民共和国主席|主席令|国家元首|中共中央总书记|中央军委主席|国务院总理|李强|赵乐际|王沪宁|蔡奇|丁薛祥|李希|韩正|王毅|外交部长|国务院常务会议|中央政治局|中央深改委|全国人大常委会|全国政协|特朗普|普京|马克龙|斯塔默|冯德莱恩|泽连斯基|内塔尼亚胡|总统|总理|首相|外长)/.test(text);
 }
 
-function getDomesticHeadOfStatePriority(categoryKey, item) {
+function getSourceAuthorityLevel(item) {
+  var source = String(item && item.source || '').replace(/^(国内|国际|AI科技) · /, '');
+  if (/(公众号|自媒体|博客|个人|主编|说|观察天下|科工|Copernicium|子桑|刘乐观|日新说|视界观|星辰视|中美聚焦|越南中文社|虎扑体育内容|IT之家（RSS）|今日头条|百家号|大鱼号|冲哥|吃瓜|译言|萨苏)/.test(source)) return -2;
+  if (/(新华社|新华网|人民日报|人民网|央视新闻|央视网|央广网|中国政府网|中国网|外交部|国防部|商务部|教育部|财政部|国家统计局|国家发改委|市场监管总局|新华社新闻)/.test(source)) return 3;
+  if (/(中新社|中国新闻网|参考消息|环球时报|经济日报|光明日报|法治日报|人民政协报|证券时报|财联社|澎湃新闻|界面新闻|第一财经|每日经济新闻|北京日报|上观新闻|文汇报|中国经营报|科技日报)/.test(source)) return 2;
+  if (/(Reuters|Associated Press|AP News|BBC|CNN|The Guardian|Financial Times|Bloomberg|CNBC|Al Jazeera|Nikkei|Wall Street Journal|Washington Post|New York Times|MarketWatch|The Verge|TechCrunch|MIT Technology Review|Nature|Science)/i.test(source)) return 2;
+  if (/腾讯新闻|新浪|搜狐|网易|凤凰|金融界|东方财富|华尔街见闻|观察者网|九派新闻|正观新闻|南方人物周刊/.test(source)) return 0;
+  return 1;
+}
+
+function getNewsAuthorityPriority(categoryKey, item) {
+  var sourceLevel = getSourceAuthorityLevel(item);
+  if (sourceLevel < 0) return -1;
+  var highPolitics = isHighPoliticsNews(item);
   var isDomesticStream = categoryKey === 'hotnews_domestic' || (categoryKey === 'hotnews_hotspot' && item && item.originalSection === 'domestic');
-  if (!isDomesticStream) return 0;
-  return isDomesticHeadOfStateNews(item) ? 1 : 0;
+  if (isDomesticStream && highPolitics && sourceLevel >= 2) return 5;
+  if (highPolitics && sourceLevel >= 2) return 4;
+  if (highPolitics && sourceLevel >= 0) return 3;
+  if (sourceLevel >= 3) return 2;
+  if (sourceLevel === 2) return 1;
+  return 0;
 }
 
 function cloneHotspotNewsItem(item, label, sourceKey) {
@@ -3188,11 +3205,13 @@ function buildFreshNewsOrder(categoryKey, arr, extraArr) {
     var fatiguePenalty = seenCount * 28 + (hoursSinceSeen < 24 ? 32 : 0) + (hoursSinceSeen < 6 ? 40 : 0);
     var stableShuffle = seededUnit(categoryKey + '|' + seedDay + '|' + id) * 22;
     var rankBias = item.rank ? Math.max(0, 16 - item.rank) : 0;
-    var headOfStatePriority = getDomesticHeadOfStatePriority(categoryKey, item);
-    return { item: item, idx: idx, headOfStatePriority: headOfStatePriority, score: heatScore + freshnessScore + stableShuffle + rankBias - fatiguePenalty };
+    var authorityPriority = getNewsAuthorityPriority(categoryKey, item);
+    var authorityScore = authorityPriority * 120;
+    var selfMediaPenalty = authorityPriority < 0 ? 90 : 0;
+    return { item: item, idx: idx, authorityPriority: authorityPriority, score: heatScore + freshnessScore + stableShuffle + rankBias + authorityScore - fatiguePenalty - selfMediaPenalty };
   });
   scored.sort(function(a, b) {
-    if (b.headOfStatePriority !== a.headOfStatePriority) return b.headOfStatePriority - a.headOfStatePriority;
+    if (b.authorityPriority !== a.authorityPriority) return b.authorityPriority - a.authorityPriority;
     if (b.score !== a.score) return b.score - a.score;
     return a.idx - b.idx;
   });
@@ -3204,7 +3223,7 @@ function buildFreshNewsOrder(categoryKey, arr, extraArr) {
 }
 
 function getFreshNewsPage(categoryKey, arr, extraArr, page) {
-  var cacheKey = 'v2-head-of-state|' + categoryKey + '|' + ((arr || []).length) + '|' + ((extraArr || []).length);
+  var cacheKey = 'v3-authority-politics|' + categoryKey + '|' + ((arr || []).length) + '|' + ((extraArr || []).length);
   if (!newsOrderCache[cacheKey]) newsOrderCache[cacheKey] = buildFreshNewsOrder(categoryKey, arr, extraArr);
   var start = (page || 0) * BATCH_SIZE;
   return newsOrderCache[cacheKey].slice(start, start + BATCH_SIZE);
