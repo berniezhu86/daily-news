@@ -3372,30 +3372,38 @@ var listenPreferredVoice = null;
 var listenPlayToken = 0;
 var listenSuppressEndUntil = 0;
 
+function isChineseListenVoice(v) {
+  var name = String(v && v.name || '');
+  var lang = String(v && v.lang || '').toLowerCase();
+  var text = (name + ' ' + lang).toLowerCase();
+  return lang.indexOf('zh') === 0 || /zh-cn|zh_hans|chinese|mandarin|普通话|中文|中国|大陆|xiaoxiao|xiaoyi|xiaohan|xiaomo|yunyang|yunxi|yunshen|晓晓|晓伊|小艺|晓寒|晓茉|云扬|云希|云深|语熙|宇辰/.test(text);
+}
+
 function getPreferredListenVoice() {
   if (!('speechSynthesis' in window) || !speechSynthesis.getVoices) return null;
   var voices = speechSynthesis.getVoices() || [];
   if (!voices.length) return null;
-  var scored = voices.map(function(v) {
+  var scored = voices.filter(isChineseListenVoice).map(function(v) {
     var name = String(v.name || '');
     var lang = String(v.lang || '').toLowerCase();
     var text = (name + ' ' + lang).toLowerCase();
     var score = 0;
-    if (lang === 'zh-cn' || lang.indexOf('zh_hans') >= 0 || text.indexOf('zh-cn') >= 0) score += 140;
-    else if (lang.indexOf('zh') === 0 || text.indexOf('chinese') >= 0 || text.indexOf('mandarin') >= 0 || text.indexOf('普通话') >= 0) score += 100;
+    if (lang === 'zh-cn' || lang.indexOf('zh_hans') >= 0 || text.indexOf('zh-cn') >= 0) score += 180;
+    else if (lang.indexOf('zh') === 0 || text.indexOf('chinese') >= 0 || text.indexOf('mandarin') >= 0 || text.indexOf('普通话') >= 0) score += 130;
 
-    if (/xiaoxiaoneural|zh-cn-xiaoxiaoneural|晓晓/.test(text)) score += 520;
-    else if (/xiaoyineural|zh-cn-xiaoyineural|晓伊|小艺/.test(text)) score += 470;
-    else if (/xiaohanneural|zh-cn-xiaohanneural|晓寒/.test(text)) score += 440;
-    else if (/xiaomoneural|zh-cn-xiaomoneural|晓茉/.test(text)) score += 420;
-    else if (/yunyangneural|zh-cn-yunyangneural|云扬/.test(text)) score += 360;
-    else if (/yunxineural|zh-cn-yunxineural|云希/.test(text)) score += 330;
-    else if (/yunshenneural|zh-cn-yunshenneural|云深/.test(text)) score += 310;
+    if (/xiaoxiaoneural|zh-cn-xiaoxiaoneural|晓晓/.test(text)) score += 560;
+    else if (/xiaoyineural|zh-cn-xiaoyineural|晓伊|小艺/.test(text)) score += 500;
+    else if (/xiaohanneural|zh-cn-xiaohanneural|晓寒/.test(text)) score += 470;
+    else if (/xiaomoneural|zh-cn-xiaomoneural|晓茉/.test(text)) score += 450;
+    else if (/yunyangneural|zh-cn-yunyangneural|云扬/.test(text)) score += 390;
+    else if (/yunxineural|zh-cn-yunxineural|云希/.test(text)) score += 350;
+    else if (/yunshenneural|zh-cn-yunshenneural|云深/.test(text)) score += 330;
 
     if (/neural|natural|premium|enhanced/.test(text)) score += 120;
     if (/microsoft|edge/.test(text)) score += 80;
-    if (/samantha|yuxi|语熙/.test(text)) score += 300;
+    if (/yuxi|语熙/.test(text)) score += 300;
     if (/yuchen|宇辰/.test(text)) score += 240;
+    if (/samantha/.test(text) && lang.indexOf('zh') === 0) score += 120;
     if (/siri/.test(text)) score += 80;
     if (/google/.test(text)) score += 20;
 
@@ -3544,7 +3552,8 @@ function speakListenItem(idx) {
       if (typeof bridge.stop === 'function') bridge.stop();
       listenCurrentUtterance = null;
       updateListenPlayer();
-      bridge.speak(item.text, String(token));
+      var nativeResult = bridge.speak(item.text, String(token), 'zh-CN', document.body.classList.contains('care-mode') ? 0.9 : 0.96, 1);
+      if (nativeResult === false || nativeResult === 'false') throw new Error('AndroidTTS speak returned false');
       return;
     } catch(e) {
       console.warn('AndroidTTS bridge failed, fallback to Web Speech', e);
