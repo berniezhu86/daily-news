@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-30T13:02:26.228722+08:00",
-  "updated_display": "06月30日 13:02",
-  "count": 7,
+  "updated": "2026-06-30T14:58:25.648436+08:00",
+  "updated_display": "06月30日 14:58",
+  "count": 11,
   "news": [
     {
       "title": "深入学习贯彻习近平党建思想系列述评之十四",
@@ -10,20 +10,32 @@
       "date": "2026-06-30"
     },
     {
-      "title": "美媒称美国总统特使威特科夫正前往多哈",
+      "title": "习近平同塞舌尔总统就中塞建交50周年互致贺电",
+      "url": "https://www.news.cn/politics/leaders/20260630/bf60828224584cd29b029b4999436c65/c.html",
+      "source": "新华社",
+      "date": "2026-06-30"
+    },
+    {
+      "title": "美媒称美总统特使正赴多哈",
       "url": "https://www.news.cn/world/20260630/97ffbb15ef9040babd31f57c33a4e827/c.html",
       "source": "新华社",
       "date": "2026-06-30"
     },
     {
-      "title": "全部计票结果显示：藤森庆子赢得秘鲁总统选举",
-      "url": "https://www.news.cn/20260630/8e34f72b08be49e5800a1d1db1ce25ca/c.html",
+      "title": "习近平党建思想给世界带来深刻启迪",
+      "url": "https://www.news.cn/politics/leaders/20260630/b0cd23a68cc1404f86cd1c723106a878/c.html",
       "source": "新华社",
       "date": "2026-06-30"
     },
     {
       "title": "习近平党建思想引领强党强国新征程",
       "url": "http://politics.people.com.cn/n1/2026/0630/c461001-40750237.html",
+      "source": "人民日报",
+      "date": "2026-06-30"
+    },
+    {
+      "title": "在一幅题词前,习近平驻足良久",
+      "url": "http://politics.people.com.cn/n1/2026/0630/c461001-40750721.html",
       "source": "人民日报",
       "date": "2026-06-30"
     },
@@ -40,10 +52,22 @@
       "date": "2026-06-29"
     },
     {
-      "title": "委地震已致1719死",
-      "url": "https://www.news.cn/world/20260630/f39e6dfa720d4a44890ebf9461164048/c.html",
-      "source": "新华社",
-      "date": "2026-06-30"
+      "title": "习近平党建思想的实践基础和实践伟力",
+      "url": "http://opinion.people.com.cn/n1/2026/0626/c461530-40747700.html",
+      "source": "人民日报",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "深入学习领会习近平党建思想鲜明的理论品格",
+      "url": "http://opinion.people.com.cn/n1/2026/0625/c461530-40746890.html",
+      "source": "人民日报",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "深刻认识习近平党建思想的特殊重要地位",
+      "url": "http://opinion.people.com.cn/n1/2026/0624/c461530-40746052.html",
+      "source": "人民日报",
+      "date": "2026-06-24"
     }
   ]
 }
