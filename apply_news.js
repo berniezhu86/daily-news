@@ -7,7 +7,7 @@
  *   - 只替换白名单中的数组
  *   - 绝对不碰 mockTrackingEvents, mockMatches, mockPastMatches,
  *     mockMovieRanking, mockTVRanking, mockVarietyRanking,
- *     mockStockIndices, mockSectorPrediction, mockExclusiveNews
+ *     mockStockIndices, mockSectorPrediction, mockExclusiveNews, mockStockAI
  *   - 使用括号计数法精确定位数组边界
  *   - 替换后自动验证 JS 语法
  */
@@ -35,7 +35,7 @@ const ALLOWED_ARRAYS = [
   'mockCslOtherTeams',
   'mockStockNews',
   'mockStockNewsExtra',
-  'mockStockAI',
+  // mockStockAI 已移除 — 由财经AI观察自动化单独维护，不受全量新闻更新影响
 ];
 
 // 受保护数组 - 绝对不能碰
@@ -49,6 +49,7 @@ const PROTECTED_ARRAYS = [
   'mockStockIndices',
   'mockSectorPrediction',
   'mockExclusiveNews',
+  'mockStockAI',  // 由财经AI观察自动化维护，不受全量新闻更新影响
 ];
 
 // ============================================================

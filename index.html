@@ -2775,15 +2775,13 @@ const stockUpdatedAt = '6月30日 15:00'; // 行情数据更新时间
 
 
   const mockStockAI = [
-  {rank:1, title:"家里“有研”！四大牛股，A股最强“家族”", source:"九派财经", summary:"今天上午收盘，上证指数上涨0.2%，深证成指上涨2.47%，创业板指上涨3.06%，科创综指上涨3.6%。全市场半日成交额为21048亿元，逾2700只个股上涨。", heat:7, time:"6月30日 14:32", url:"https://view.inews.qq.com/a/20260630A0676Z00?scene=news-skill"},
-  {rank:2, title:"多氟多涨停！锂电+半导体材料双向放量扩产", source:"每日经济新闻", summary:"截至9:47，A股市场表现分化，创业板与深市走强，沪指小幅回调。新能源车ETF（516660）上涨0.46%。成分股方面，多氟多涨停，中矿资源上涨5.93%，新宙邦上涨4.87%，科达利上涨4.64%，三花智控上涨4.77%，宁德时代上涨0.40%。", heat:7, time:"6月30日 10:18", url:"https://view.inews.qq.com/a/20260630A03GMX00?scene=news-skill"},
-  {rank:3, title:"5895亿存储芯片龙头深夜公告：存在股价快速回落风险！今年累计涨幅已近300%，多只ETF重仓持有", source:"每日经济新闻", summary:"公司股票价格自2026年6月15日至2026年6月29日连续10个交易日内日收盘价涨幅偏离值累计达到73.42%，自2026年5月18日至2026年6月29日连续30个交易日内日收盘价格涨幅偏离值累计达到125.60%，股票价格短期累计涨幅较", heat:6, time:"6月30日 0:33", url:"https://view.inews.qq.com/a/20260630A00D5400?scene=news-skill"},
-  {rank:4, title:"中导光电科创板IPO获受理 系国内前道制程检测设备龙头 拟募资18亿元", source:"财联社", summary:"近日，上交所官网显示，中导光电科创板IPO审核状态更新为已受理。中导光电创立于2006年，是一家由海归专家团队创立的国内平板显示面板和半导体晶圆检测设备专业企业，主要从事平板显示前道量检测设备和半导体晶圆前道检测设备的研发、生产和销售。", heat:6, time:"6月29日 22:02", url:"https://view.inews.qq.com/a/20260629A0AR6I00?scene=news-skill"},
-  {rank:5, title:"海量财经 | 减持落幕股价反弹，日科化学紧急停牌再跨界：这次瞄上锂电池材料龙头亘元新材", source:"海报新闻", summary:"报道 6月29日早间，深交所发布公告称，日科化学（300214）拟披露重大事项，经公司申请，其股票自6月29日开市起停牌。", heat:6, time:"6月29日 22:01", url:"https://view.inews.qq.com/a/20260629A0AQZ600?scene=news-skill"},
-  {rank:6, title:"利通电子、协创数据加码算力租赁业绩暴涨，跨界玩家为何难入局？", source:"21世纪经济报道", summary:"886050）表现观察，该指数已连续三个交易日走低，6月29日该指数进一步走弱，单日下跌1.69%。", heat:5, time:"6月29日 20:53", url:"https://view.inews.qq.com/a/20260629A0A5VY00?scene=news-skill"},
-  {rank:7, title:"乖宝否认收购凤祥：宠物食品龙头为何被卷入白羽鸡资产传闻 | 大鱼财经", source:"新黄河", summary:"6月25日，乖宝宠物收购凤祥股份的传闻是否属实？”乖宝宠物回复称：“公司暂无相关收购计划。", heat:5, time:"6月29日 19:49", url:"https://view.inews.qq.com/a/20260629A09IKM00?scene=news-skill"},
-  {rank:8, title:"上市首日暴涨368%！白鸽在线登陆港交所，营收翻倍却连年亏损", source:"凤凰网", summary:"上市首日股价大涨367.95%，顶着“保险科技AI第一股”的光环，白鸽在线6月29日登陆港交所主板。", heat:5, time:"6月29日 18:29", url:"https://view.inews.qq.com/a/20260629A08LH100?scene=news-skill"}
-];
+    {name:"中芯国际", score:85, value:"65.20", change:"+2.31%", direction:"up", rating:"偏强", reason:"先进制程扩产加速，国产替代逻辑强化；Q2产能利用率回升至85%以上，毛利率改善趋势明确"},
+    {name:"工业富联", score:78, value:"28.45", change:"-1.20%", direction:"down", rating:"观察", reason:"AI服务器订单饱满但通信设备板块回调，短期受板块情绪拖累；800G光模块出货量符合预期"},
+    {name:"长江电力", score:80, value:"29.10", change:"+0.52%", direction:"up", rating:"稳健", reason:"夏季用电高峰+来水偏丰，发电量同比增长；高股息率4.5%防御属性突出，机构配置意愿强"},
+    {name:"比亚迪", score:75, value:"285.30", change:"+1.58%", direction:"up", rating:"关注", reason:"新能源车下乡政策受益，出口连续创新高；碳酸锂价格低位缓解成本压力，Q3产销旺季可期"},
+    {name:"招商银行", score:72, value:"40.15", change:"+0.82%", direction:"up", rating:"关注", reason:"金融法草案审议+中长期资金入市政策催化，银行估值处于历史低位，修复空间较大"},
+    {name:"立讯精密", score:70, value:"42.30", change:"-0.35%", direction:"down", rating:"观察", reason:"苹果AI手机换机周期预期升温，Q3传统旺季备货启动；但消费电子板块整体偏弱，需观察订单兑现"},
+  ];
 
   // 板块预测（由规则评分引擎基于盘面、新闻热度、政策和产业趋势生成）
   const mockSectorPrediction = [
