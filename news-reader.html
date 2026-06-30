@@ -25,6 +25,7 @@
     .reader-title-main { font-size:15px; font-weight:800; line-height:1.35; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
     .reader-title-meta { margin-top:2px; font-size:12px; color:var(--text2); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
     .reader-hint { margin-top:8px; font-size:12px; line-height:1.45; color:var(--text2); }
+    .reader-actions { display:flex; align-items:center; gap:8px; flex-shrink:0; }
     .reader-frame-wrap { position:relative; flex:1; min-height:0; background:#fff; }
     iframe { width:100%; height:100%; border:0; background:#fff; display:block; }
     .empty {
@@ -55,9 +56,12 @@
         <div class="reader-title-main" id="readerTitle">新闻详情</div>
         <div class="reader-title-meta" id="readerMeta">每日简讯</div>
       </div>
-      <a class="btn" id="openBtn" href="#" target="_blank" rel="noopener">浏览器打开</a>
+      <div class="reader-actions">
+        <a class="btn" id="openBtn" href="#">打开原网页</a>
+        <button class="btn" id="copyBtn" type="button">复制链接</button>
+      </div>
     </div>
-    <div class="reader-hint">如果下方页面空白或提示拒绝加载，说明原网站限制嵌入，可点“浏览器打开”；返回本页请点左上角。</div>
+    <div class="reader-hint">如果下方页面空白或提示拒绝加载，说明原网站限制嵌入；在 Mac 包里可点“打开原网页”同窗口跳转，或复制链接到浏览器打开。</div>
   </header>
   <main class="reader-frame-wrap">
     <iframe id="readerFrame" title="新闻详情" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -78,6 +82,7 @@
     var metaEl = document.getElementById('readerMeta');
     var frame = document.getElementById('readerFrame');
     var openBtn = document.getElementById('openBtn');
+    var copyBtn = document.getElementById('copyBtn');
     var empty = document.getElementById('emptyState');
 
     function isSafeHttpUrl(value) {
@@ -91,15 +96,27 @@
       else location.href = 'index.html';
     }
     document.getElementById('backBtn').addEventListener('click', goBack);
+    copyBtn.addEventListener('click', function() {
+      if (!url) return;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(function() { copyBtn.textContent = '已复制'; }, function() { copyBtn.textContent = '复制失败'; });
+      } else {
+        copyBtn.textContent = '请长按复制';
+      }
+      setTimeout(function() { copyBtn.textContent = '复制链接'; }, 1800);
+    });
     titleEl.textContent = title;
     metaEl.textContent = source + ' · 第三方新闻详情';
     document.title = title + ' - 每日简讯';
     if (isSafeHttpUrl(url)) {
       frame.src = url;
       openBtn.href = url;
+      openBtn.removeAttribute('target');
+      openBtn.removeAttribute('rel');
     } else {
       frame.style.display = 'none';
       openBtn.style.display = 'none';
+      copyBtn.style.display = 'none';
       empty.style.display = 'flex';
     }
   </script>
