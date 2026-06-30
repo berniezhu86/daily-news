@@ -26,24 +26,37 @@
     .reader-title-meta { margin-top:2px; font-size:12px; color:var(--text2); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
     .reader-hint { margin-top:8px; font-size:12px; line-height:1.45; color:var(--text2); }
     .reader-actions { display:flex; align-items:center; gap:8px; flex-shrink:0; }
-    .reader-frame-wrap { position:relative; flex:1; min-height:0; background:#fff; }
+    .reader-main { flex:1; min-height:0; padding:18px 14px 24px; overflow:auto; background:var(--bg); }
+    .reader-card {
+      max-width:720px; margin:0 auto; padding:18px; border-radius:18px; background:#fff;
+      border:1px solid var(--border); box-shadow:0 4px 20px rgba(0,0,0,.05);
+    }
+    .reader-card-kicker { font-size:12px; font-weight:800; color:var(--blue); margin-bottom:8px; }
+    .reader-card-title { font-size:20px; line-height:1.45; font-weight:850; color:var(--text); word-break:break-word; }
+    .reader-card-meta { margin-top:8px; font-size:13px; color:var(--text2); }
+    .reader-card-desc { margin-top:16px; font-size:14px; line-height:1.7; color:var(--text2); }
+    .reader-card-actions { display:flex; gap:10px; margin-top:18px; flex-wrap:wrap; }
+    .reader-frame-wrap { display:none; flex:1; min-height:0; background:#fff; }
     iframe { width:100%; height:100%; border:0; background:#fff; display:block; }
     .empty {
-      position:absolute; inset:0; display:none; align-items:center; justify-content:center; padding:24px; text-align:center; background:#fff; color:var(--text2);
+      display:none; align-items:center; justify-content:center; padding:24px; text-align:center; background:#fff; color:var(--text2);
     }
     .empty-card { max-width:360px; }
     .empty-title { font-size:18px; font-weight:800; color:var(--text); margin-bottom:8px; }
     .empty-actions { display:flex; justify-content:center; gap:10px; margin-top:16px; flex-wrap:wrap; }
     @media (max-width:520px) {
-      .reader-row { align-items:flex-start; }
+      .reader-row { align-items:flex-start; flex-wrap:wrap; }
+      .reader-actions { width:100%; justify-content:flex-start; }
       .btn { min-height:32px; padding:0 10px; font-size:13px; }
       .reader-title-main { white-space:normal; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
       .reader-title-meta { white-space:normal; }
+      .reader-card-title { font-size:18px; }
     }
     @media (prefers-color-scheme:dark) {
       :root { --bg:#1c1c1e; --surface:rgba(28,28,30,.92); --text:#f5f5f7; --text2:#98989d; --border:rgba(255,255,255,.12); }
       .btn { background:rgba(255,255,255,.08); }
-      .reader-frame-wrap, iframe, .empty { background:#fff; }
+      .reader-main { background:var(--bg); }
+      .reader-card, .reader-frame-wrap, iframe, .empty { background:#fff; }
       .empty .btn { background:#fff; color:#1d1d1f; }
     }
   </style>
@@ -61,10 +74,20 @@
         <button class="btn" id="copyBtn" type="button">复制链接</button>
       </div>
     </div>
-    <div class="reader-hint">如果下方页面空白或提示拒绝加载，说明原网站限制嵌入；在 Mac 包里可点“打开原网页”同窗口跳转，或复制链接到浏览器打开。</div>
+    <div class="reader-hint">为避免第三方网页在 Mac 包内触发弹窗，默认不自动加载原网页。需要阅读全文时，请选择下方操作。</div>
   </header>
-  <main class="reader-frame-wrap">
-    <iframe id="readerFrame" title="新闻详情" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <main class="reader-main" id="readerMain">
+    <section class="reader-card">
+      <div class="reader-card-kicker" id="readerKicker">权威发布</div>
+      <div class="reader-card-title" id="cardTitle">新闻详情</div>
+      <div class="reader-card-meta" id="cardMeta">第三方新闻详情</div>
+      <div class="reader-card-desc">原文来自第三方网站。Mac 包内自动嵌入第三方网页可能触发系统弹框或空白页，因此这里先提供稳定入口。</div>
+      <div class="reader-card-actions">
+        <a class="btn btn-primary" id="cardOpenBtn" href="#">打开原网页</a>
+        <button class="btn" id="cardCopyBtn" type="button">复制链接</button>
+        <button class="btn" id="embedBtn" type="button">尝试内嵌阅读</button>
+      </div>
+    </section>
     <div class="empty" id="emptyState">
       <div class="empty-card">
         <div class="empty-title">没有可打开的新闻链接</div>
@@ -72,6 +95,9 @@
         <div class="empty-actions"><button class="btn btn-primary" type="button" onclick="goBack()">返回每日简讯</button></div>
       </div>
     </div>
+  </main>
+  <main class="reader-frame-wrap" id="frameWrap">
+    <iframe id="readerFrame" title="新闻详情" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-same-origin allow-scripts allow-forms"></iframe>
   </main>
   <script>
     var params = new URLSearchParams(location.search);
@@ -81,8 +107,16 @@
     var titleEl = document.getElementById('readerTitle');
     var metaEl = document.getElementById('readerMeta');
     var frame = document.getElementById('readerFrame');
+    var frameWrap = document.getElementById('frameWrap');
+    var readerMain = document.getElementById('readerMain');
     var openBtn = document.getElementById('openBtn');
     var copyBtn = document.getElementById('copyBtn');
+    var cardOpenBtn = document.getElementById('cardOpenBtn');
+    var cardCopyBtn = document.getElementById('cardCopyBtn');
+    var embedBtn = document.getElementById('embedBtn');
+    var cardTitle = document.getElementById('cardTitle');
+    var cardMeta = document.getElementById('cardMeta');
+    var readerKicker = document.getElementById('readerKicker');
     var empty = document.getElementById('emptyState');
 
     function isSafeHttpUrl(value) {
@@ -96,27 +130,42 @@
       else location.href = 'index.html';
     }
     document.getElementById('backBtn').addEventListener('click', goBack);
-    copyBtn.addEventListener('click', function() {
+    function copyLink(btn) {
       if (!url) return;
       if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(url).then(function() { copyBtn.textContent = '已复制'; }, function() { copyBtn.textContent = '复制失败'; });
+        navigator.clipboard.writeText(url).then(function() { btn.textContent = '已复制'; }, function() { btn.textContent = '复制失败'; });
       } else {
-        copyBtn.textContent = '请长按复制';
+        btn.textContent = '请长按复制';
       }
-      setTimeout(function() { copyBtn.textContent = '复制链接'; }, 1800);
+      setTimeout(function() { btn.textContent = '复制链接'; }, 1800);
+    }
+    copyBtn.addEventListener('click', function() { copyLink(copyBtn); });
+    cardCopyBtn.addEventListener('click', function() { copyLink(cardCopyBtn); });
+    embedBtn.addEventListener('click', function() {
+      if (!isSafeHttpUrl(url)) return;
+      readerMain.style.display = 'none';
+      frameWrap.style.display = 'block';
+      frame.src = url;
     });
     titleEl.textContent = title;
+    cardTitle.textContent = title;
+    readerKicker.textContent = source || '权威发布';
     metaEl.textContent = source + ' · 第三方新闻详情';
+    cardMeta.textContent = source + ' · 第三方新闻详情';
     document.title = title + ' - 每日简讯';
     if (isSafeHttpUrl(url)) {
-      frame.src = url;
       openBtn.href = url;
+      cardOpenBtn.href = url;
       openBtn.removeAttribute('target');
       openBtn.removeAttribute('rel');
+      cardOpenBtn.removeAttribute('target');
+      cardOpenBtn.removeAttribute('rel');
     } else {
-      frame.style.display = 'none';
       openBtn.style.display = 'none';
       copyBtn.style.display = 'none';
+      cardOpenBtn.style.display = 'none';
+      cardCopyBtn.style.display = 'none';
+      embedBtn.style.display = 'none';
       empty.style.display = 'flex';
     }
   </script>
