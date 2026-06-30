@@ -4426,6 +4426,7 @@ function setupMarqueeClicks() {
 // 权威要闻缓存
 var authoritativeNews = [];
 var authLoadAttempted = false;
+var AUTHORITATIVE_NEWS_FALLBACK = {"updated":"2026-06-30T09:11:15.865704+08:00","updated_display":"06月30日 09:11","count":4,"news":[{"title":"习近平李强赵乐际王沪宁蔡奇丁薛祥李希韩正出席观看","url":"http://politics.people.com.cn/n1/2026/0630/c1024-40750232.html","source":"人民日报","date":"2026-06-30"},{"title":"习近平会见白俄罗斯总统卢卡申科","url":"https://www.news.cn/politics/leaders/20260629/ba4460c3ccd945768651c713caed5aa1/c.html","source":"新华社","date":"2026-06-29"},{"title":"“领航新征程——习近平新时代中国特色社会主义思想文献展”在京开幕","url":"https://www.news.cn/politics/leaders/20260629/256e352991e444d397ed12c5c39452d4/c.html","source":"新华社","date":"2026-06-29"},{"title":"委地震已致1719死","url":"https://www.news.cn/world/20260630/f39e6dfa720d4a44890ebf9461164048/c.html","source":"新华社","date":"2026-06-30"}]};
 
 // ★ 控制开关：设为 true 时启用权威发布Banner + 跑马灯权威标签
 var AUTH_FEATURE_ENABLED = true;
@@ -4456,29 +4457,28 @@ function filterAuthoritativeNews(items) {
   });
 }
 
+function applyAuthoritativeNewsData(data) {
+  data = data || AUTHORITATIVE_NEWS_FALLBACK || {};
+  authoritativeNews = filterAuthoritativeNews(data.news || []);
+  var tEl = document.getElementById('authUpdateTime');
+  if (tEl) tEl.textContent = data.updated_display || '';
+  if (AUTH_FEATURE_ENABLED) {
+    renderAuthBanner();
+    renderMarquee();
+  }
+}
+
 function loadAuthoritativeNews() {
   if (authLoadAttempted) return;
   authLoadAttempted = true;
-  // ★ try/catch 保护：MacBook WKWebView 中 file:// 协议 fetch() 可能抛同步异常
+  // MacBook WKWebView 的 file:// 环境可能无法 fetch 本地 JSON，失败时使用内嵌备用数据。
   try {
     fetch('authoritative_news.json?_=' + Date.now())
       .then(function(r) { return r.json(); })
-      .then(function(data) {
-        authoritativeNews = filterAuthoritativeNews(data.news || []);
-        var tEl = document.getElementById('authUpdateTime');
-        if (tEl) tEl.textContent = data.updated_display || '';
-        if (AUTH_FEATURE_ENABLED) {
-          renderAuthBanner();
-          renderMarquee();
-        }
-      })
-      .catch(function() {
-        var banner = document.getElementById('authBanner');
-        if (banner) banner.style.display = 'none';
-      });
+      .then(function(data) { applyAuthoritativeNewsData(data); })
+      .catch(function() { applyAuthoritativeNewsData(AUTHORITATIVE_NEWS_FALLBACK); });
   } catch(e) {
-    // fetch() 同步抛出异常（file:/// 协议常见），静默处理
-    console.warn('loadAuthoritativeNews: fetch() failed synchronously, skipping');
+    applyAuthoritativeNewsData(AUTHORITATIVE_NEWS_FALLBACK);
   }
 }
 
