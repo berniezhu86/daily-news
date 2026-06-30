@@ -1203,6 +1203,154 @@ body.care-mode .toggle-switch { width:56px!important; height:36px!important; }
 body.care-mode .toggle-switch::after { width:32px!important; height:32px!important; }
 body.care-mode .toggle-switch.on::after { transform:translateX(20px)!important; }
 
+/* 关怀版/大显示：避免财经和跟踪内容被挤成窄列 */
+body.care-mode,
+body.care-mode * { box-sizing:border-box; }
+body.care-mode .page-body { overflow-x:hidden; }
+body.care-mode .card,
+body.care-mode .section-page,
+body.care-mode .stock-grid,
+body.care-mode .ai-stock-grid,
+body.care-mode .tracking-list { max-width:100%; min-width:0; }
+
+body.care-mode .stock-grid,
+body.care-mode .global-closing .stock-grid {
+  grid-template-columns:1fr !important;
+  padding-left:12px !important;
+  padding-right:12px !important;
+  overflow:hidden;
+}
+body.care-mode .stock-card {
+  min-width:0;
+  overflow:hidden;
+  padding:12px 14px !important;
+}
+body.care-mode .stock-name,
+body.care-mode .stock-value,
+body.care-mode .stock-change {
+  white-space:normal !important;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+body.care-mode .stock-name { font-size:15px !important; line-height:1.35 !important; }
+body.care-mode .stock-value { font-size:23px !important; line-height:1.2 !important; }
+body.care-mode .stock-change { font-size:18px !important; line-height:1.25 !important; }
+body.care-mode .market-bar {
+  align-items:flex-start;
+  padding-left:12px !important;
+  padding-right:12px !important;
+  overflow-wrap:anywhere;
+}
+body.care-mode .market-bar #statusText,
+body.care-mode .stock-refresh-note { width:100%; min-width:0; line-height:1.45; }
+
+body.care-mode .sector-prediction { margin-left:12px !important; margin-right:12px !important; }
+body.care-mode .sector-prediction-title { align-items:flex-start; flex-wrap:wrap; line-height:1.4; }
+body.care-mode .sector-item {
+  display:block !important;
+  padding:12px !important;
+  overflow:hidden;
+}
+body.care-mode .sector-main {
+  display:grid !important;
+  grid-template-columns:auto 1fr;
+  gap:8px 10px;
+  align-items:start;
+  width:100%;
+}
+body.care-mode .sector-rank { grid-row:1 / 3; }
+body.care-mode .sector-name {
+  min-width:0 !important;
+  font-size:17px !important;
+  line-height:1.35 !important;
+  white-space:normal !important;
+  overflow-wrap:anywhere;
+}
+body.care-mode .sector-tag { width:max-content; margin-left:0 !important; }
+body.care-mode .sector-reason {
+  grid-column:1 / -1;
+  font-size:16px !important;
+  line-height:1.65 !important;
+  overflow-wrap:break-word;
+}
+body.care-mode .sector-extra {
+  flex-wrap:wrap;
+  align-items:flex-start;
+  gap:8px 10px;
+}
+body.care-mode .sector-target { margin-left:0 !important; white-space:normal !important; overflow-wrap:anywhere; }
+body.care-mode .sector-stock,
+body.care-mode .sector-confidence { white-space:normal !important; }
+
+body.care-mode .ai-stock-panel { padding-left:12px !important; padding-right:12px !important; }
+body.care-mode .ai-stock-grid { grid-template-columns:1fr !important; }
+body.care-mode .ai-stock-card { min-width:0; overflow:hidden; }
+body.care-mode .ai-stock-card-top { display:block !important; }
+body.care-mode .ai-stock-name {
+  font-size:17px !important;
+  line-height:1.45 !important;
+  overflow-wrap:break-word;
+}
+body.care-mode .ai-score { display:inline-flex; margin-top:6px; }
+body.care-mode .ai-stock-value { font-size:17px !important; line-height:1.4 !important; overflow-wrap:anywhere; }
+body.care-mode .ai-stock-reason { font-size:16px !important; line-height:1.65 !important; overflow-wrap:break-word; }
+
+body.care-mode .tracking-hero,
+body.care-mode .tracking-event {
+  margin-left:8px !important;
+  margin-right:8px !important;
+  padding-left:14px !important;
+  padding-right:14px !important;
+  overflow:hidden;
+}
+body.care-mode .tracking-metrics { grid-template-columns:1fr !important; }
+body.care-mode .tracking-list { display:flex !important; flex-direction:column !important; gap:12px; }
+body.care-mode .tracking-event-head { display:block !important; }
+body.care-mode .tracking-card-badges { margin-top:8px; flex-wrap:wrap; }
+body.care-mode .tracking-event-title {
+  font-size:22px !important;
+  line-height:1.45 !important;
+  overflow-wrap:break-word;
+}
+body.care-mode .tracking-one-line,
+body.care-mode .tracking-intro,
+body.care-mode .tracking-node,
+body.care-mode .tracking-voice,
+body.care-mode .tracking-related-item,
+body.care-mode .tracking-related-summary {
+  font-size:17px !important;
+  line-height:1.7 !important;
+  overflow-wrap:break-word;
+}
+body.care-mode .tracking-timeline { max-height:none; overflow:visible; padding-right:0; }
+body.care-mode .tracking-timeline-item { grid-template-columns:1fr !important; gap:4px; }
+body.care-mode .tracking-time { font-size:14px !important; }
+body.care-mode .tracking-voice { display:block !important; }
+body.care-mode .tracking-voice-role { display:inline-flex; margin-bottom:5px; }
+body.care-mode .tracking-next span { white-space:normal; }
+
+@media (max-width:600px) {
+  .stock-grid,
+  .global-closing .stock-grid,
+  .ai-stock-grid { grid-template-columns:1fr !important; }
+  .stock-card,
+  .ai-stock-card,
+  .sector-item,
+  .tracking-event { min-width:0; overflow:hidden; }
+  .stock-name,
+  .stock-value,
+  .stock-change,
+  .sector-name,
+  .sector-reason,
+  .ai-stock-name,
+  .ai-stock-value,
+  .ai-stock-reason,
+  .tracking-event-title,
+  .tracking-one-line,
+  .tracking-intro,
+  .tracking-node { overflow-wrap:break-word; }
+}
+
 /* ===== 深灰色主题 (Apple Dark Mode) ===== */
 body.theme-dark {
   --bg: #1c1c1e;
