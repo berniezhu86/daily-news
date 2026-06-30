@@ -730,17 +730,18 @@ body.listen-player-active .btn-back-top {
 }
 .listen-player.show { opacity:1; transform:translateY(0); pointer-events:auto; }
 .listen-player-inner {
-  max-width:var(--max); margin:0 auto; border:1px solid rgba(10,132,255,.18);
+  max-width:var(--max); width:100%; box-sizing:border-box; overflow:hidden; margin:0 auto; border:1px solid rgba(10,132,255,.18);
   background:rgba(255,255,255,.94); backdrop-filter:blur(24px) saturate(170%); -webkit-backdrop-filter:blur(24px) saturate(170%);
   box-shadow:0 12px 34px rgba(0,0,0,.14); border-radius:18px; padding:10px 12px;
-  display:grid; grid-template-columns:1fr auto; gap:10px; align-items:center;
+  display:grid; grid-template-columns:minmax(0,1fr) auto; gap:10px; align-items:center;
 }
+.listen-info { min-width:0; overflow:hidden; }
 .listen-kicker { font-size:11px; font-weight:800; color:var(--blue); margin-bottom:3px; }
-.listen-title { font-size:13px; font-weight:700; color:var(--text1); line-height:1.35; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-.listen-meta { font-size:11px; color:var(--text3); margin-top:2px; }
-.listen-controls { display:flex; align-items:center; gap:6px; }
+.listen-title { min-width:0; max-width:100%; font-size:13px; font-weight:700; color:var(--text1); line-height:1.35; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.listen-meta { font-size:11px; color:var(--text3); margin-top:2px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.listen-controls { display:flex; align-items:center; gap:6px; flex:0 0 auto; min-width:max-content; }
 .listen-control {
-  width:34px; height:34px; border-radius:50%; border:1px solid var(--border); background:var(--surface); color:var(--text2);
+  flex:0 0 34px; width:34px; height:34px; border-radius:50%; border:1px solid var(--border); background:var(--surface); color:var(--text2);
   display:inline-flex; align-items:center; justify-content:center; cursor:pointer; font-size:14px; font-weight:800;
 }
 .listen-control.primary { background:var(--blue); color:#fff; border-color:var(--blue); }
@@ -751,9 +752,9 @@ body.care-mode .listen-title { font-size:16px!important; white-space:normal; dis
 body.care-mode .listen-meta { font-size:13px!important; }
 @media (max-width:420px) {
   .listen-player { left:8px; right:8px; bottom:78px; }
-  .listen-player-inner { grid-template-columns:1fr; gap:8px; }
-  .listen-controls { justify-content:space-between; }
-  .listen-control { width:38px; height:38px; }
+  .listen-player-inner { grid-template-columns:minmax(0,1fr); gap:8px; }
+  .listen-controls { width:100%; min-width:0; justify-content:flex-end; }
+  .listen-control { flex-basis:38px; width:38px; height:38px; }
 }
 
 /* 关怀版 */
