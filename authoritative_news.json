@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-01T04:30:32.785320+08:00",
-  "updated_display": "07月01日 04:30",
-  "count": 10,
+  "updated": "2026-07-01T06:26:03.601773+08:00",
+  "updated_display": "07月01日 06:26",
+  "count": 11,
   "news": [
     {
       "title": "《求是》杂志发表习近平总书记重要文章",
@@ -59,7 +59,13 @@
     },
     {
       "title": "委内瑞拉地震死亡人数升至1943人",
-      "url": "https://www.news.cn/world/20260701/90bc4d7160a6491bbcdf3c71d41f947e/c.html",
+      "url": "https://www.news.cn/world/20260701/7cb63437f9874e729e1ddff5c42c67d4/c.html",
+      "source": "新华社",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "墨西哥近海加利福尼亚湾发生6级地震",
+      "url": "https://www.news.cn/world/20260701/ac7c0e151aa741b29629923ad9a8f93d/c.html",
       "source": "新华社",
       "date": "2026-07-01"
     }
