@@ -36,6 +36,13 @@
 *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
 html { font-size:16px; -webkit-text-size-adjust:none!important; text-size-adjust:none!important; touch-action:manipulation; -ms-touch-action:manipulation; overflow-x:hidden; background:#f2f2f7; }
 body { font-family:var(--font); background:var(--bg); color:var(--text1); -webkit-font-smoothing:antialiased; min-height:100vh; min-height:100dvh; overflow-x:hidden; font-size:16px; -webkit-text-size-adjust:none!important; text-size-adjust:none!important; }
+button, a, [role="button"], .main-tab, .sub-tab, .bottom-nav-btn, .mine-menu-item, .theme-option, .toggle-switch { -webkit-tap-highlight-color:transparent; }
+button:focus, a:focus, [role="button"]:focus { outline:none; }
+button:focus-visible, a:focus-visible, [role="button"]:focus-visible {
+  outline:2px solid rgba(10,132,255,0.28);
+  outline-offset:3px;
+  border-radius:inherit;
+}
 
 /* ===== TOP BAR ===== */
 /* 吸顶头部容器：顶部栏 + 主菜单一起吸顶（JS 控制 position:fixed） */
@@ -126,7 +133,8 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
   flex-shrink:0; transition:all 0.2s; white-space:nowrap;
 }
 .btn-listen-top svg { flex-shrink:0; }
-.btn-listen-top:hover, .btn-listen-top.active { border-color:var(--blue); color:var(--blue); background:rgba(10,132,255,0.08); }
+.btn-listen-top:hover { border-color:var(--blue); color:var(--blue); background:rgba(10,132,255,0.08); }
+.btn-listen-top.active { border-color:var(--orange) !important; color:var(--orange) !important; background:linear-gradient(135deg,rgba(255,159,10,0.12),rgba(255,69,58,0.06)) !important; }
 
 /* ===== 关怀版：只放大新闻正文，其他固定UI元素强制锁死字体大小 ===== */
 /* 新闻内容放大（关怀版：大字体，方便阅读） */
@@ -1540,10 +1548,15 @@ body.theme-dark .btn-care {
   border-color:rgba(255,255,255,0.12);
   color:var(--text3);
 }
-body.theme-dark .btn-listen-top {
+body.theme-dark .btn-listen-top:not(.active) {
   background:rgba(255,255,255,0.08);
   border-color:rgba(255,255,255,0.12);
   color:var(--text3);
+}
+body.theme-dark .btn-listen-top.active {
+  border-color:var(--orange) !important;
+  color:var(--orange) !important;
+  background:linear-gradient(135deg,rgba(255,159,10,0.18),rgba(255,69,58,0.10)) !important;
 }
 body.theme-dark .listen-player-inner {
   background:rgba(28,28,30,0.94);
