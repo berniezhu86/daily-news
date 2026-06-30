@@ -3423,7 +3423,7 @@ function refreshListenVoices() {
 }
 
 function getAndroidTTSBridge() {
-  var bridge = window.AndroidTTS || window.NativeTTS || window.AppTTS || null;
+  var bridge = window.AndroidTTS || null;
   return bridge && typeof bridge.speak === 'function' ? bridge : null;
 }
 
@@ -3548,16 +3548,11 @@ function speakListenItem(idx) {
   var item = listenQueue[listenIndex];
   var bridge = getAndroidTTSBridge();
   if (bridge) {
-    try {
-      if (typeof bridge.stop === 'function') bridge.stop();
-      listenCurrentUtterance = null;
-      updateListenPlayer();
-      var nativeResult = bridge.speak(item.text, String(token), 'zh-CN', document.body.classList.contains('care-mode') ? 0.9 : 0.96, 1);
-      if (nativeResult === false || nativeResult === 'false') throw new Error('AndroidTTS speak returned false');
-      return;
-    } catch(e) {
-      console.warn('AndroidTTS bridge failed, fallback to Web Speech', e);
-    }
+    if (typeof bridge.stop === 'function') bridge.stop();
+    listenCurrentUtterance = null;
+    updateListenPlayer();
+    bridge.speak(item.text, String(token));
+    return;
   }
   if (!('speechSynthesis' in window)) {
     showToast('当前浏览器不支持朗读');
@@ -3569,7 +3564,7 @@ function speakListenItem(idx) {
   var utter = new SpeechSynthesisUtterance(item.text);
   utter.lang = 'zh-CN';
   if (listenPreferredVoice) utter.voice = listenPreferredVoice;
-  utter.rate = document.body.classList.contains('care-mode') ? 0.9 : 0.96;
+  utter.rate = 0.95;
   utter.pitch = 1;
   utter.volume = 1;
   utter.onend = function() { onListenItemEnded(token); };
@@ -3636,8 +3631,11 @@ function stopListenBriefing() {
   listenSuppressEndUntil = Date.now() + 1200;
   listenPlayToken++;
   var bridge = getAndroidTTSBridge();
-  if (bridge && typeof bridge.stop === 'function') bridge.stop();
-  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  if (bridge && typeof bridge.stop === 'function') {
+    bridge.stop();
+  } else if ('speechSynthesis' in window) {
+    speechSynthesis.cancel();
+  }
   listenSpeaking = false;
   listenPaused = false;
   listenIndex = -1;
