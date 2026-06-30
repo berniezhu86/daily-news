@@ -69,23 +69,18 @@
         <div class="reader-title-main" id="readerTitle">新闻详情</div>
         <div class="reader-title-meta" id="readerMeta">每日简讯</div>
       </div>
-      <div class="reader-actions">
-        <button class="btn" id="openBtn" type="button">复制原文链接</button>
-        <button class="btn" id="copyBtn" type="button">复制链接</button>
-      </div>
     </div>
-    <div class="reader-hint">为保留返回入口，默认不在应用内直接跳转第三方网页。需要阅读全文时，请复制链接到浏览器打开，或尝试内嵌阅读。</div>
+    <div class="reader-hint">需要查看新闻原文时，请点击“立即阅读”或“复制原文链接到浏览器打开”。</div>
   </header>
   <main class="reader-main" id="readerMain">
     <section class="reader-card">
       <div class="reader-card-kicker" id="readerKicker">权威发布</div>
       <div class="reader-card-title" id="cardTitle">新闻详情</div>
       <div class="reader-card-meta" id="cardMeta">第三方新闻详情</div>
-      <div class="reader-card-desc">原文来自第三方网站。为避免当前页面跳走后丢失返回入口，这里默认提供复制链接；如网站允许，也可以尝试内嵌阅读。</div>
+      <div class="reader-card-desc">原文来自第三方网站。点击“立即阅读”会在当前页面内打开原文并保留顶部返回入口；如无法加载，可复制链接到浏览器打开。</div>
       <div class="reader-card-actions">
-        <button class="btn btn-primary" id="cardOpenBtn" type="button">复制原文链接</button>
-        <button class="btn" id="cardCopyBtn" type="button">复制链接</button>
-        <button class="btn" id="embedBtn" type="button">尝试内嵌阅读</button>
+        <button class="btn btn-primary" id="embedBtn" type="button">立即阅读</button>
+        <button class="btn" id="cardCopyBtn" type="button">复制原文链接</button>
       </div>
     </section>
     <div class="empty" id="emptyState">
@@ -109,9 +104,6 @@
     var frame = document.getElementById('readerFrame');
     var frameWrap = document.getElementById('frameWrap');
     var readerMain = document.getElementById('readerMain');
-    var openBtn = document.getElementById('openBtn');
-    var copyBtn = document.getElementById('copyBtn');
-    var cardOpenBtn = document.getElementById('cardOpenBtn');
     var cardCopyBtn = document.getElementById('cardCopyBtn');
     var embedBtn = document.getElementById('embedBtn');
     var cardTitle = document.getElementById('cardTitle');
@@ -140,9 +132,6 @@
       var originalText = btn.getAttribute('data-label') || '复制链接';
       setTimeout(function() { btn.textContent = originalText; }, 1800);
     }
-    openBtn.addEventListener('click', function() { copyLink(openBtn); });
-    copyBtn.addEventListener('click', function() { copyLink(copyBtn); });
-    cardOpenBtn.addEventListener('click', function() { copyLink(cardOpenBtn); });
     cardCopyBtn.addEventListener('click', function() { copyLink(cardCopyBtn); });
     embedBtn.addEventListener('click', function() {
       if (!isSafeHttpUrl(url)) return;
@@ -156,14 +145,8 @@
     metaEl.textContent = source + ' · 第三方新闻详情';
     cardMeta.textContent = source + ' · 第三方新闻详情';
     document.title = title + ' - 每日简讯';
-    openBtn.setAttribute('data-label', openBtn.textContent);
-    copyBtn.setAttribute('data-label', copyBtn.textContent);
-    cardOpenBtn.setAttribute('data-label', cardOpenBtn.textContent);
     cardCopyBtn.setAttribute('data-label', cardCopyBtn.textContent);
     if (!isSafeHttpUrl(url)) {
-      openBtn.style.display = 'none';
-      copyBtn.style.display = 'none';
-      cardOpenBtn.style.display = 'none';
       cardCopyBtn.style.display = 'none';
       embedBtn.style.display = 'none';
       empty.style.display = 'flex';
