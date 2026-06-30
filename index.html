@@ -618,6 +618,9 @@ body.care-mode .news-time { font-size:12px!important; }
 .btn-back-top.visible {
   opacity:1; visibility:visible; transform:translateY(0);
 }
+body.listen-player-active .btn-back-top {
+  opacity:0 !important; visibility:hidden !important; pointer-events:none !important; transform:translateY(12px) !important;
+}
 .btn-back-top:hover {
   border-color:var(--blue);
   color:var(--blue);
@@ -3466,9 +3469,11 @@ function updateListenPlayer() {
   var player = document.getElementById('listenPlayer');
   var topBtn = document.getElementById('btnListenBriefing');
   var pageBody = document.querySelector('.page-body');
-  if (player) player.classList.toggle('show', listenSpeaking || listenPaused);
-  if (topBtn) topBtn.classList.toggle('active', listenSpeaking || listenPaused);
-  if (pageBody) pageBody.classList.toggle('has-listen-player', listenSpeaking || listenPaused);
+  var isActive = listenSpeaking || listenPaused;
+  if (player) player.classList.toggle('show', isActive);
+  if (topBtn) topBtn.classList.toggle('active', isActive);
+  if (pageBody) pageBody.classList.toggle('has-listen-player', isActive);
+  document.body.classList.toggle('listen-player-active', isActive);
   var item = listenQueue[listenIndex] || null;
   var title = document.getElementById('listenTitle');
   var kicker = document.getElementById('listenKicker');
