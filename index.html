@@ -3351,6 +3351,39 @@ var listenIndex = -1;
 var listenSpeaking = false;
 var listenPaused = false;
 var listenCurrentUtterance = null;
+var listenPreferredVoice = null;
+
+function getPreferredListenVoice() {
+  if (!('speechSynthesis' in window) || !speechSynthesis.getVoices) return null;
+  var voices = speechSynthesis.getVoices() || [];
+  if (!voices.length) return null;
+  var scored = voices.map(function(v) {
+    var name = String(v.name || '');
+    var lang = String(v.lang || '').toLowerCase();
+    var text = (name + ' ' + lang).toLowerCase();
+    var score = 0;
+    if (lang === 'zh-cn' || lang.indexOf('zh_hans') >= 0) score += 120;
+    else if (lang.indexOf('zh') === 0 || text.indexOf('chinese') >= 0 || text.indexOf('mandarin') >= 0) score += 90;
+    if (/premium|enhanced|natural|neural|siri|google|microsoft|xiaoxiao|yunjian|yunxi|xiaoyi|晓晓|云健|云希|小艺/i.test(name)) score += 45;
+    if (/普通话|mandarin|china|mainland|大陆|简体/i.test(name + ' ' + v.lang)) score += 25;
+    if (/tingting|婷婷/i.test(name)) score -= 35;
+    if (/compact|eloquence/i.test(name)) score -= 45;
+    if (!v.localService) score += 8;
+    return { voice:v, score:score };
+  }).filter(function(x) { return x.score > 0; });
+  scored.sort(function(a, b) { return b.score - a.score; });
+  return scored.length ? scored[0].voice : null;
+}
+
+function refreshListenVoices() {
+  listenPreferredVoice = getPreferredListenVoice();
+}
+if ('speechSynthesis' in window) {
+  refreshListenVoices();
+  if (speechSynthesis.onvoiceschanged !== undefined) {
+    speechSynthesis.onvoiceschanged = refreshListenVoices;
+  }
+}
 
 function cleanListenText(value) {
   return String(value || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
@@ -3372,7 +3405,7 @@ function addListenItem(items, type, item) {
     type: type || '简讯',
     title: title,
     source: source,
-    text: (type ? type + '。' : '') + title + '。' + (source ? '来源：' + source + '。' : '') + (summary ? '摘要：' + summary : '')
+    text: (type ? type + '。 ' : '') + title + '。 ' + (source ? '来源：' + source + '。 ' : '') + (summary ? '摘要：' + summary : '')
   });
 }
 
@@ -3441,10 +3474,13 @@ function speakListenItem(idx) {
   listenPaused = false;
   speechSynthesis.cancel();
   var item = listenQueue[listenIndex];
+  refreshListenVoices();
   var utter = new SpeechSynthesisUtterance(item.text);
   utter.lang = 'zh-CN';
-  utter.rate = document.body.classList.contains('care-mode') ? 0.88 : 0.95;
-  utter.pitch = 1;
+  if (listenPreferredVoice) utter.voice = listenPreferredVoice;
+  utter.rate = document.body.classList.contains('care-mode') ? 0.82 : 0.88;
+  utter.pitch = 0.96;
+  utter.volume = 1;
   utter.onend = function() {
     if (!listenSpeaking || listenPaused) return;
     setTimeout(function() { speakListenItem(listenIndex + 1); }, 450);
