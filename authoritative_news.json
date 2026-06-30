@@ -1,17 +1,29 @@
 {
-  "updated": "2026-06-30T14:58:25.648436+08:00",
-  "updated_display": "06月30日 14:58",
-  "count": 11,
+  "updated": "2026-06-30T16:54:26.405842+08:00",
+  "updated_display": "06月30日 16:54",
+  "count": 10,
   "news": [
     {
-      "title": "深入学习贯彻习近平党建思想系列述评之十四",
-      "url": "https://www.news.cn/politics/leaders/20260630/0004fa06f90f4b28a01cbe84f41a0b53/c.html",
+      "title": "中共中央政治局召开会议 研究部署防汛抗旱工作 中共中央总书记习近平主持会议",
+      "url": "https://www.news.cn/politics/leaders/20260630/5661adcaa1dc41c78ba57e83a3cdd43b/c.html",
+      "source": "新华社",
+      "date": "2026-06-30"
+    },
+    {
+      "title": "《求是》杂志发表习近平总书记重要文章",
+      "url": "https://www.news.cn/politics/leaders/20260630/755d1d282feb4220956a78eb3083d459/c.html",
       "source": "新华社",
       "date": "2026-06-30"
     },
     {
       "title": "习近平同塞舌尔总统就中塞建交50周年互致贺电",
-      "url": "https://www.news.cn/politics/leaders/20260630/bf60828224584cd29b029b4999436c65/c.html",
+      "url": "https://www.news.cn/politics/leaders/20260630/c55c42590d3746868dd65f8c87fca9f5/c.html",
+      "source": "新华社",
+      "date": "2026-06-30"
+    },
+    {
+      "title": "伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调",
+      "url": "https://www.news.cn/world/20260630/56cde689956547a0909e3d4b48f89c76/c.html",
       "source": "新华社",
       "date": "2026-06-30"
     },
@@ -28,14 +40,14 @@
       "date": "2026-06-30"
     },
     {
-      "title": "习近平党建思想引领强党强国新征程",
-      "url": "http://politics.people.com.cn/n1/2026/0630/c461001-40750237.html",
+      "title": "《求是》发表习近平重要文章",
+      "url": "http://politics.people.com.cn/n1/2026/0630/c1024-40750921.html",
       "source": "人民日报",
       "date": "2026-06-30"
     },
     {
-      "title": "在一幅题词前,习近平驻足良久",
-      "url": "http://politics.people.com.cn/n1/2026/0630/c461001-40750721.html",
+      "title": "习近平同塞舌尔总统赫米尼耶就中塞建交50周年互致贺电",
+      "url": "http://politics.people.com.cn/n1/2026/0630/c1024-40750935.html",
       "source": "人民日报",
       "date": "2026-06-30"
     },
@@ -50,24 +62,6 @@
       "url": "https://www.news.cn/politics/leaders/20260629/88e3877738b24131849560a530587672/c.html",
       "source": "新华社",
       "date": "2026-06-29"
-    },
-    {
-      "title": "习近平党建思想的实践基础和实践伟力",
-      "url": "http://opinion.people.com.cn/n1/2026/0626/c461530-40747700.html",
-      "source": "人民日报",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "深入学习领会习近平党建思想鲜明的理论品格",
-      "url": "http://opinion.people.com.cn/n1/2026/0625/c461530-40746890.html",
-      "source": "人民日报",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "深刻认识习近平党建思想的特殊重要地位",
-      "url": "http://opinion.people.com.cn/n1/2026/0624/c461530-40746052.html",
-      "source": "人民日报",
-      "date": "2026-06-24"
     }
   ]
 }
