@@ -2759,28 +2759,28 @@ const mockStockIndices = {
     { name:"印度SENSEX", value:"76,580.41", change:"-0.19%", direction:"down" }
   ],
 };
-const stockUpdatedAt = '6月30日 13:26'; // 行情数据更新时间
+const stockUpdatedAt = '6月30日 15:00'; // 行情数据更新时间
 
 
   const mockStockAI = [
-  {rank:1, title:"多氟多涨停！锂电+半导体材料双向放量扩产", source:"每日经济新闻", summary:"截至9:47，A股市场表现分化，创业板与深市走强，沪指小幅回调。新能源车ETF（516660）上涨0.46%。成分股方面，多氟多涨停，中矿资源上涨5.93%，新宙邦上涨4.87%，科达利上涨4.64%，三花智控上涨4.77%，宁德时代上涨0.40%。", heat:9, time:"6月30日 10:18", url:"https://view.inews.qq.com/a/20260630A03GMX00?scene=news-skill"},
-  {rank:2, title:"海量财经 | 减持落幕股价反弹，日科化学紧急停牌再跨界：这次瞄上锂电池材料龙头亘元新材", source:"海报新闻", summary:"海报新闻首席记者 周凌峰 报道 6月29日早间，深交所发布公告称，日科化学（300214）拟披露重大事项，经公司申请，其股票自6月29日开市起停牌。", heat:6, time:"6月29日 22:01", url:"https://view.inews.qq.com/a/20260629A0AQZ600?scene=news-skill"},
-  {rank:3, title:"A股、港股联袂“反攻”！医药板块迎久违暴涨", source:"21新健康", summary:"来源丨21新健康（Healthnews21）原创作品作者/唐唯珂编辑/季媛媛 骆一帆6月29日，沉寂多时的A股、港股医药板块迎来强势爆发。 截至收盘，申万医药生物指数大涨近6%，收报高位；港股恒生生物科技指数（HSBIO）飙升逾7%。", heat:6, time:"6月29日 19:16", url:"https://view.inews.qq.com/a/20260629A097AZ00?scene=news-skill"},
-  {rank:4, title:"博主综艺：好生意，还是假风口？", source:"文娱价值观", summary:"撰 文丨明 远编 辑丨美 圻文娱价值官解读：ID:wenyujiazhiguan最近一段时间，博主综艺这个词又火了起来。有人认为在综艺市场整体大盘遇冷的情况下，更个人化更轻量的博主综艺大有可为，并以近段时间在网络上颇有讨论度的《Papi酱的热烈欢迎》以及《OK了老铁们》作为作证。", heat:6, time:"6月29日 15:33", url:"https://view.inews.qq.com/a/20260629A06FMU00?scene=news-skill"},
-  {rank:5, title:"港股，大爆发！A股创新药板块掀涨停潮", source:"国际金融报", summary:"6月29日，港股市场大幅反弹，恒生科技指数一度大涨4%，截至午间收盘，恒生指数涨2.13%，恒生科技指数涨3.68%。科网股多数大幅上涨，地平线机器人涨超15%，哔哩哔哩涨超8%，百度集团、美团、携程涨超7%，阿里巴巴涨超6%，京东集团、网易涨超5%，腾讯控股涨近4%；联想集团跌超9%，智谱跌超2%。", heat:5, time:"6月29日 12:54", url:"https://view.inews.qq.com/a/20260629A04W2S00?scene=news-skill"},
-  {rank:6, title:"港股IPO周报：立讯精密等多家A股公司通过聆讯 芯碁微装挂牌首日翻倍", source:"财联社", summary:"财联社6月28日讯（编辑 冯轶）财联社为您带来每周港股新股资讯。据利弗莫尔证券显示，截至发稿，本周(6月22日-6月28日)有19家公司向港交所递表，另有14家公司通过聆讯，14家公司招股，及10只新股上市。", heat:5, time:"6月28日 19:13", url:"https://view.inews.qq.com/a/20260628A06XKW00?scene=news-skill"}
+  {name:"寒武纪", score:92, value:"1590.00", change:"+7.20%", direction:"up", rating:"偏强", reason:"AI芯片龙头市值突破1万亿成科创板首只万亿股，DeepSeek V4发布在即，算力需求持续爆发，Q1营收同比增156%创历史新高"},
+  {name:"中芯国际", score:87, value:"157.50", change:"+4.30%", direction:"up", rating:"偏强", reason:"先进制程扩产加速国产替代逻辑强化，三星千亿韩元半导体投资提振产业链，Q2产能利用率回升至85%以上，华安证券上调至买入"},
+  {name:"立讯精密", score:85, value:"70.50", change:"+6.82%", direction:"up", rating:"偏强", reason:"消费电子组件龙头受益AI手机换机周期，苹果新品备货启动Q3订单能见度提升，半导体封装业务拓展打开第二增长曲线"},
+  {name:"京东方A", score:83, value:"8.45", change:"+3.55%", direction:"up", rating:"偏强", reason:"盘中涨停创18年新高，玻璃基板概念核心标的，康宁发布玻璃桥技术引爆产业链，显示面板景气回升叠加MLED放量"},
+  {name:"工业富联", score:81, value:"72.00", change:"+3.15%", direction:"up", rating:"偏强", reason:"AI服务器代工龙头持续受益全球算力基建，800G→1.6T光模块升级周期开启，寒武纪万亿市值带动AI产业链共振"},
+  {name:"比亚迪", score:80, value:"79.70", change:"+0.50%", direction:"up", rating:"稳健", reason:"新能源车全产业链龙头出口连续创新高，智能驾驶渗透率持续提升，固态电池研发进展超预期，Q3产销旺季值得期待"},
 ];
 
   // 板块预测（由规则评分引擎基于盘面、新闻热度、政策和产业趋势生成）
   const mockSectorPrediction = [
-    { rank:1, name:"半导体", code:"BK1036", tag:"强势", tagClass:"bull", reason:"WSTS预测2026年全球半导体市场规模达1.51万亿美元同比增90%，费城半导体回调后龙头估值回落；中芯国际先进制程扩产加速，国产替代+AI芯片需求确定性最强", confidence:88, stock:"中芯国际", target:"目标价75/止损价58" },
-    { rank:2, name:"AI算力", code:"BK1044", tag:"关注", tagClass:"watch", reason:"全球AI资本开支维持高位，800G→1.6T光模块升级周期开启；但交易拥挤度抬升，6月29日通信设备大跌超6%，短期宜逢低布局算力租赁与服务器龙头", confidence:82, stock:"工业富联", target:"目标价35/止损价26" },
-    { rank:3, name:"大金融", code:"BK0484", tag:"关注", tagClass:"watch", reason:"《金融法（草案）》6月23日首次审议，潘功胜陆家嘴论坛提出推动中长期资金入市；银行保险估值处于历史低位，政策催化下估值修复可期", confidence:78, stock:"招商银行", target:"目标价45/止损价37" },
-    { rank:4, name:"电力/储能", code:"BK1015", tag:"稳健", tagClass:"steady", reason:"全国高温预警频发，夏季用电高峰叠加AI数据中心电力需求激增；储能项目开工量同比增40%，电力市场化改革释放价格弹性，高股息防御属性突出", confidence:80, stock:"长江电力", target:"目标价32/止损价27" },
-    { rank:5, name:"新能源车", code:"BK0900", tag:"关注", tagClass:"watch", reason:"新能源车下乡政策落地，比亚迪出口连续多月创新高；碳酸锂价格低位运行缓解成本压力，智能驾驶渗透率提升，Q3产销旺季值得期待", confidence:75, stock:"比亚迪", target:"目标价320/止损价260" },
-    { rank:6, name:"消费电子", code:"BK1037", tag:"关注", tagClass:"watch", reason:"苹果AI手机换机周期预期升温，华为折叠屏国内份额突破40%；Q3传统旺季临近，上游零部件备货潮启动，立讯精密等龙头订单能见度提升", confidence:73, stock:"立讯精密", target:"目标价48/止损价38" },
-    { rank:7, name:"高股息红利", code:"BK1101", tag:"稳健", tagClass:"steady", reason:"央行6月29-30日加量逆回购平抑月末流动性波动，半年结机构调仓偏向防御；长江电力、中国移动等高股息资产在市场大跌中避险属性凸显", confidence:76, stock:"中国移动", target:"目标价120/止损价105" },
-    { rank:8, name:"创新药", code:"BK1040", tag:"稳健", tagClass:"steady", reason:"国内多个ADC管线进入临床III期，创新药出海BD交易单笔金额屡破纪录；迈瑞医疗等器械龙头海外拓展加速，医药板块在调整市中相对抗跌", confidence:72, stock:"迈瑞医疗", target:"目标价320/止损价270" },
+    { rank:1, name:"AI算力", code:"BK1044", tag:"强势", tagClass:"bull", reason:"寒武纪市值突破1万亿成科创板首只万亿股，DeepSeek V4正式版7月中旬上线引入峰谷定价，CPO/PCB概念全线大涨，算力基建持续高景气", confidence:92, stock:"寒武纪", target:"目标价1750/止损价1400" },
+    { rank:2, name:"半导体", code:"BK1036", tag:"强势", tagClass:"bull", reason:"三星宣布千亿韩元半导体投资计划，康宁发布玻璃基光互连技术'玻璃桥'引爆先进封装产业链；国产替代+AI芯片需求确定性最强", confidence:90, stock:"中芯国际", target:"目标价175/止损价140" },
+    { rank:3, name:"消费电子", code:"BK1037", tag:"关注", tagClass:"watch", reason:"京东方A盘中涨停创18年新高，立讯精密大涨超7%，苹果AI手机换机周期预期升温，Q3传统旺季临近上游零部件备货潮启动", confidence:84, stock:"立讯精密", target:"目标价80/止损价62" },
+    { rank:4, name:"新能源车", code:"BK0900", tag:"关注", tagClass:"watch", reason:"主力资金净流入336.68亿居各板块前列，比亚迪出口连续创新高，碳酸锂低位缓解成本压力，智能驾驶渗透率提升Q3产销旺季可期", confidence:80, stock:"比亚迪", target:"目标价90/止损价72" },
+    { rank:5, name:"电力/储能", code:"BK1015", tag:"稳健", tagClass:"steady", reason:"全国高温预警频发夏季用电高峰，AI数据中心电力需求激增，电力市场化改革释放价格弹性，高股息防御属性在科技股震荡中凸显配置价值", confidence:77, stock:"长江电力", target:"目标价32/止损价27" },
+    { rank:6, name:"创新药", code:"BK1040", tag:"稳健", tagClass:"steady", reason:"半年末基金调仓医药板块获集中买入，6月29日创新药掀涨停潮，ADC管线进入临床III期，出海BD交易单笔金额屡破纪录估值修复可期", confidence:76, stock:"恒瑞医药", target:"目标价65/止损价50" },
+    { rank:7, name:"高股息红利", code:"BK1101", tag:"稳健", tagClass:"steady", reason:"央行加量逆回购平抑半年末流动性波动，半年结机构调仓偏向防御，中国移动等高股息资产在市场风格切换中避险属性凸显，配置价值持续", confidence:74, stock:"中国移动", target:"目标价120/止损价105" },
+    { rank:8, name:"大金融", code:"BK0484", tag:"关注", tagClass:"watch", reason:"银行股短期承压但估值处历史低位，《金融法》草案审议推进，潘功胜陆家嘴论坛提出推动中长期资金入市，政策催化下估值修复可期", confidence:71, stock:"招商银行", target:"目标价45/止损价37" },
   ];
 
 function renderSectorPrediction() {
