@@ -3381,14 +3381,29 @@ function getPreferredListenVoice() {
     var lang = String(v.lang || '').toLowerCase();
     var text = (name + ' ' + lang).toLowerCase();
     var score = 0;
-    if (lang === 'zh-cn' || lang.indexOf('zh_hans') >= 0) score += 120;
-    else if (lang.indexOf('zh') === 0 || text.indexOf('chinese') >= 0 || text.indexOf('mandarin') >= 0) score += 90;
-    if (/premium|enhanced|natural|neural|siri|google|microsoft|xiaoxiao|xiaoyi|xiaoxuan|xiaomeng|xiaoqiu|mei-jia|meijia|tingting|晓晓|小艺|晓萱|晓梦|晓秋|美佳|婷婷/i.test(name)) score += 45;
-    if (/female|woman|girl|女|婷婷|晓晓|小艺|晓萱|晓梦|晓秋|美佳/i.test(name)) score += 38;
-    if (/male|man|boy|男|yunjian|yunxi|yunyang|yunfeng|云健|云希|云扬|云枫/i.test(name)) score -= 55;
-    if (/普通话|mandarin|china|mainland|大陆|简体/i.test(name + ' ' + v.lang)) score += 25;
-    if (/compact|eloquence/i.test(name)) score -= 45;
-    if (!v.localService) score += 8;
+    if (lang === 'zh-cn' || lang.indexOf('zh_hans') >= 0 || text.indexOf('zh-cn') >= 0) score += 140;
+    else if (lang.indexOf('zh') === 0 || text.indexOf('chinese') >= 0 || text.indexOf('mandarin') >= 0 || text.indexOf('普通话') >= 0) score += 100;
+
+    if (/xiaoxiaoneural|zh-cn-xiaoxiaoneural|晓晓/.test(text)) score += 520;
+    else if (/xiaoyineural|zh-cn-xiaoyineural|晓伊|小艺/.test(text)) score += 470;
+    else if (/xiaohanneural|zh-cn-xiaohanneural|晓寒/.test(text)) score += 440;
+    else if (/xiaomoneural|zh-cn-xiaomoneural|晓茉/.test(text)) score += 420;
+    else if (/yunyangneural|zh-cn-yunyangneural|云扬/.test(text)) score += 360;
+    else if (/yunxineural|zh-cn-yunxineural|云希/.test(text)) score += 330;
+    else if (/yunshenneural|zh-cn-yunshenneural|云深/.test(text)) score += 310;
+
+    if (/neural|natural|premium|enhanced/.test(text)) score += 120;
+    if (/microsoft|edge/.test(text)) score += 80;
+    if (/samantha|yuxi|语熙/.test(text)) score += 300;
+    if (/yuchen|宇辰/.test(text)) score += 240;
+    if (/siri/.test(text)) score += 80;
+    if (/google/.test(text)) score += 20;
+
+    if (/female|woman|girl|女/.test(text)) score += 30;
+    if (/male|man|boy|男/.test(text) && !/yunyang|yunxi|yunshen|云扬|云希|云深/.test(text)) score -= 35;
+    if (/compact|eloquence|ting-ting|tingting|婷婷/.test(text)) score -= 90;
+    if (/普通话|mandarin|china|mainland|大陆|简体/.test(name + ' ' + v.lang)) score += 25;
+    if (!v.localService && /neural|natural|microsoft/.test(text)) score += 15;
     return { voice:v, score:score };
   }).filter(function(x) { return x.score > 0; });
   scored.sort(function(a, b) { return b.score - a.score; });
@@ -3545,8 +3560,8 @@ function speakListenItem(idx) {
   var utter = new SpeechSynthesisUtterance(item.text);
   utter.lang = 'zh-CN';
   if (listenPreferredVoice) utter.voice = listenPreferredVoice;
-  utter.rate = document.body.classList.contains('care-mode') ? 0.82 : 0.88;
-  utter.pitch = 0.96;
+  utter.rate = document.body.classList.contains('care-mode') ? 0.9 : 0.96;
+  utter.pitch = 1;
   utter.volume = 1;
   utter.onend = function() { onListenItemEnded(token); };
   utter.onerror = function() {
