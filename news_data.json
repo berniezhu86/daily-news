@@ -46,7 +46,7 @@
       },
       {
         "title": "外交部：中国向委内瑞拉追加1亿元紧急无偿物资援助",
-        "summary": "外交部发言人表示，中方关注委内瑞拉地震灾情，习近平主席已致慰问电。中国政府决定在此前现汇援助基础上追加1亿元人民币紧急无偿物资援助，并提供灾区卫星图像。",
+        "summary": "外交部发言人表示，中方关注委内瑞拉地震灾情，习近平主席已致慰问电。中国政府决定在近期现汇援助基础上追加1亿元人民币紧急无偿物资援助，并提供灾区卫星图像。",
         "source": "新华社新闻",
         "url": "https://view.inews.qq.com/a/20260629A0842E00?scene=news-skill",
         "time": "6月29日 17:54",
@@ -54,7 +54,7 @@
       },
       {
         "title": "中共中央决定：陆治原任中华全国总工会党组书记",
-        "summary": "中华全国总工会发布消息，日前中共中央决定陆治原同志任中华全国总工会党组书记。该任命涉及全国性人民团体领导岗位调整，属于中央层面重要人事安排。",
+        "summary": "中华全国总工会发布消息，近期中共中央决定陆治原同志任中华全国总工会党组书记。该任命涉及全国性人民团体领导岗位调整，属于中央层面重要人事安排。",
         "source": "北京日报客户端",
         "url": "https://view.inews.qq.com/a/20260630A0BL9P00?scene=news-skill",
         "time": "6月30日 23:59",
@@ -85,7 +85,7 @@
         "heat": 8
       },
       {
-        "title": "吴恩达谈\"循环工程\"：AI代理自主测试代码，开发者转向高层决策，核心优势是\"语境\"",
+        "title": "吴恩达谈\"循环工程\"：AI代理自主测试代码，开发者转向高层决策",
         "summary": "吴恩达提出\"循环工程\"概念：AI编码代理可自主迭代代码、测试直至正确，无需人类干预。他用上周末给女儿做打字练习app举例，代理自行运行约一小时，多次用浏览器检查成果后回报。",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "url": "https://x.com/AYi_AInotes/status/2072024058468696453",
@@ -101,7 +101,7 @@
         "heat": 8
       },
       {
-        "title": "Claude Code v2.1.197 发布：默认模型升级为 Claude Sonnet 5，支持原生 1M-token 上下文窗口",
+        "title": "Claude Code v2.1.197 发布",
         "summary": "Claude Code v2.1.197 更新将 Claude Sonnet 5 设为默认模型，原生支持 1M-token 上下文窗口。该版本提供促销定价，输入 $2/M tokens、输出 $10/M tokens，持续至 8 月 31 日。",
         "source": "Claude Code：GitHub Releases（RSS）",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
@@ -118,7 +118,7 @@
       },
       {
         "title": "Google发布新技能：从你的编码智能体驱动智能体质量飞轮",
-        "summary": "Google推出了一项面向编码智能体的新开发者技能，将评估过程自动化成五阶段飞轮：准备数据、运行推理、使用自适应AutoRaters评分、分析失败聚类、执行针对性优化。该工具可针对生产流量持续运行或通过合成场景按需触发，开发者用自然语言描述测试目标，独立评估服务安全验证并统计实际性能提升。",
+        "summary": "Google推出了一项面向编码智能体的新开发者技能，将评估过程自动化成五阶段飞轮：准备数据、运行推理、使用自适应AutoRaters评分、分析失败聚类、执行针对性优化。",
         "source": "Google Developers Blog（RSS）",
         "url": "https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent",
         "time": "7月1日 1:17",
@@ -141,8 +141,8 @@
         "heat": 8
       },
       {
-        "title": "Google发布Nano Banana 2 Lite与Gemini Omni Flash",
-        "summary": "Google推出快速图像模型Nano Banana 2 Lite（4秒生成，$0.034/1K分辨率图像）以及视频编辑模型Gemini Omni Flash（输出10秒片段，$0.10/秒，支持文本/图像/视频输入和对话式剪辑）。两者可链式使用：Nano生成参考图，Omni将其动画化，逐步替代gemini-2.5-flash-image。",
+        "title": "Google发布Nano Banana 2 Lite与Gemini Omni",
+        "summary": "Google推出快速图像模型Nano Banana 2 Lite（4秒生成，$0.034/1K分辨率图像）以及视频编辑模型Gemini Omni Flash（输出10秒片段，$0.10/秒，支持文本/图像/视频输入和对话式剪辑）。",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "url": "https://x.com/rohanpaul_ai/status/2072002613701398780",
         "time": "7月1日 1:01",
@@ -206,7 +206,7 @@
       },
       {
         "title": "x402携手Apify：代理工具库从2000扩至20000+",
-        "summary": "智能体擅长决定下一步行动，但缺乏获取所需工具的能力。x402与Apify的网页自动化工具合作解决了这一难题：通过x402，代理此前可购买约2，000个工具；现与Coinbase合作升级，工具数量10倍增至20，000+，且无需账户、API密钥或人工介入。",
+        "summary": "智能体擅长决定下一步行动，但缺乏获取所需工具的能力。x402与Apify的网页自动化工具合作解决了这一难题：通过x402，代理近期可购买约2，000个工具；现与Coinbase合作升级，工具数量10倍增至20，000+，且无需账户、API密钥或人工介入。",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "url": "https://x.com/rohanpaul_ai/status/2071985506678985032",
         "time": "6月30日 23:53",
@@ -230,7 +230,7 @@
       },
       {
         "title": "应对法国高温，在法华人各显神通：抱冰水瓶、喝绿豆汤、安装纱窗蚊帐",
-        "summary": "“没有什么防暑的办法，就是硬扛。”在法中国留学生黄同学无奈地告诉潇湘晨报·晨视频",
+        "summary": "6月30日 23:35，应对法国高温，在法华人各显神通：抱冰水瓶、喝绿豆汤、安装纱窗蚊帐。“没有什么防暑的办法，就是硬扛。”在法中国留学生黄同学无奈地告诉潇湘晨报·晨视频",
         "source": "潇湘晨报",
         "url": "https://view.inews.qq.com/a/20260630A0BG0Q00?scene=news-skill",
         "time": "6月30日 23:35",
@@ -238,7 +238,7 @@
       },
       {
         "title": "Libby 将推出 AI 内容过滤功能，依赖出版商自我标注",
-        "summary": "电子书借阅应用 Libby 即将引入 AI 内容控制功能，允许用户在设置中选择是否查看 AI 生成内容，涵盖 AI 创作、AI 旁白有声书、机器翻译和 AI 生成艺术。OverDrive 新任 CEO Marc DeBevoise 表示，过滤依赖出版商通过标准化元数据进行自我标注，而非使用 AI 检测工具。",
+        "summary": "电子书借阅应用 Libby 即将引入 AI 内容控制功能，允许用户在设置中选择是否查看 AI 生成内容，涵盖 AI 创作、AI 旁白有声书、机器翻译和 AI 生成艺术。",
         "source": "The Verge：AI（RSS）",
         "url": "https://www.theverge.com/column/959433/libby-ai-filter",
         "time": "6月30日 23:30",
@@ -248,7 +248,7 @@
     "mockHotNewsDomesticExtra": [
       {
         "title": "新一轮国标7月1日实施！电池安全红线拉升，汽车侧碰壁障增重近50％",
-        "summary": "本报（chinatimes.net.cn）记者刘凯 北京报道7月1日起，四项涉及汽车安全碰撞及电动汽车安全的强制性国家标准将正式实施。其中，《汽车侧面碰撞的乘员保护》因侧面碰撞移动壁障重量从950公斤大幅提升至1400公斤，被业内称为“近二十年来最严苛的一次碰撞安全标准升级”。",
+        "summary": "本报（chinatimes.net.cn）记者刘凯 北京报道7月1日起，四项涉及汽车安全碰撞及电动汽车安全的强制性国家标准将正式实施。其中，《汽车侧面碰撞的乘员保护》因侧面碰撞移动壁障重量从950公斤大幅提升至1400公斤，",
         "source": "华夏时报",
         "url": "https://view.inews.qq.com/a/20260630A0BDCW00?scene=news-skill",
         "time": "6月30日 23:23",
@@ -256,7 +256,7 @@
       },
       {
         "title": "内塔尼亚胡重申以军将长期驻留黎巴嫩南部“安全区”",
-        "summary": "△以色列总理内塔尼亚胡（资料图）当地时间30日，以色列总理内塔尼亚胡通过社交媒体表示，当天其与以色列国防部长卡茨及国防军副总参谋长塔米尔一道，视察了以军在黎巴嫩南部设立的“安全区”。内塔尼亚胡重申，只要黎巴嫩真主党继续对以构成威胁，以色列军队就将长期维持在该区域的军事存在。",
+        "summary": "△以色列总理内塔尼亚胡（资料图）当地时间30日，以色列总理内塔尼亚胡通过社交媒体表示，当天其与以色列国防部长卡茨及国防军副总参谋长塔米尔一道，视察了以军在黎巴嫩南部设立的“安全区”。",
         "source": "央视新闻",
         "url": "https://view.inews.qq.com/a/20260630A0BHJG00?scene=news-skill",
         "time": "6月30日 23:20",
@@ -288,7 +288,7 @@
       },
       {
         "title": "可灵Kling AI致敬六月创作者",
-        "summary": "像金鱼在水中闪烁一样，每个想法都留下一丝色彩。✨ 那些为我们的六月染上色彩的创作者们。",
+        "summary": "6月30日 23:00，可灵Kling AI致敬六月创作者。像金鱼在水中闪烁一样，每个想法都留下一丝色彩。✨ 那些为我们的六月染上色彩的创作者们。",
         "source": "X：可灵 Kling AI (@Kling_ai)",
         "url": "https://x.com/Kling_ai/status/2071972026508538166",
         "time": "6月30日 23:00",
@@ -343,8 +343,8 @@
         "heat": 7
       },
       {
-        "title": "专业化为何不可避免",
-        "summary": "Dharma AI 团队引述 Goldfeder、Wyder、LeCun 和 Shwartz-Ziv 于 2026 年发表的论文，从优化理论、生物学和竞争市场论证专业化的必然性。Wolpert-Macready 无免费午餐定理表明，通用优化算法在所有问题上平均表现相同，实际优势来自专门适配；有限资源下，集中资源于有限任务集的系统必然优于平均分配的通用系统。",
+        "title": "AI 专家深度解析：专业化为何不可避免",
+        "summary": "Dharma AI 团队引述 Goldfeder、Wyder、LeCun 和 Shwartz-Ziv 于 2026 年发表的论文，从优化理论、生物学和竞争市场论证专业化的必然性。",
         "source": "Hugging Face：Blog（RSS）",
         "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
         "time": "6月30日 22:39",
@@ -360,7 +360,7 @@
       },
       {
         "title": "开放模型扩展的推荐阅读",
-        "summary": "推荐阅读，如果你正在使用开放模型进行扩展。顺便说一句，你应该思考如何使用开放权重模型进行扩展。",
+        "summary": "6月30日 22:31，开放模型扩展的推荐阅读。推荐阅读，如果你正在使用开放模型进行扩展。顺便说一句，你应该思考如何使用开放权重模型进行扩展。",
         "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
         "url": "https://x.com/omarsar0/status/2071964811684974815",
         "time": "6月30日 22:31",
@@ -408,7 +408,7 @@
       },
       {
         "title": "两岸书画家在京共庆中国共产党成立105周年",
-        "summary": "为庆祝中国共产党105周年华诞，深化海峡两岸文化艺术交流，台盟中央两岸书画院等单位主办的“精神谱系 江山画卷——海峡两岸书画名家庆祝中国共产党成立105周年精品展”28日在北京台湾会馆开幕。本次展览汇聚了海峡两岸百位书画名家的近百幅精品力作，展现了两岸同胞同根同源、守望相助的家国情怀。",
+        "summary": "为庆祝中国共产党105周年华诞，深化海峡两岸文化艺术交流，台盟中央两岸书画院等单位主办的“精神谱系 江山画卷——海峡两岸书画名家庆祝中国共产党成立105周年精品展”28日在北京台湾会馆开幕。",
         "source": "北京日报客户端",
         "url": "https://view.inews.qq.com/a/20260630A0AQTC00?scene=news-skill",
         "time": "6月30日 22:04",
@@ -480,7 +480,7 @@
       },
       {
         "title": "央视热剧带火泾县 中国宣纸小镇周末客流同比增长537%",
-        "summary": "央广网宣城6月30日消息（记者张琳琳 通讯员泾宣）随着聚焦人类非遗宣纸制作技艺的电视剧《种墨园》在央视热播，千年宣纸文化与皖南山水风光强势“出圈”，引发全国游客奔赴泾县、打卡中国宣纸小镇的热潮。剧集开播后的首个周末，中国宣纸小镇游客接待量突破2.4万人次，同比暴涨超537%，文旅热度持续攀升。",
+        "summary": "央广网宣城6月30日消息（记者张琳琳 通讯员泾宣）随着聚焦人类非遗宣纸制作技艺的电视剧《种墨园》在央视热播，千年宣纸文化与皖南山水风光强势“出圈”，引发全国游客奔赴泾县、打卡中国宣纸小镇的热潮。",
         "source": "央广网",
         "url": "https://view.inews.qq.com/a/20260630A0A7Z900?scene=news-skill",
         "time": "6月30日 20:59",
@@ -496,7 +496,7 @@
       },
       {
         "title": "主汛期至 山西如何防汛备汛？",
-        "summary": "中新网太原6月30日电 (记者 范丽芳)7月1日，全省进入主汛期。山西如何防汛备汛？",
+        "summary": "6月30日 20:48，主汛期至 山西如何防汛备汛？。中新网太原6月30日电 (记者 范丽芳)7月1日，全省进入主汛期。山西如何防汛备汛？",
         "source": "中国新闻网",
         "url": "https://view.inews.qq.com/a/20260630A0A46R00?scene=news-skill",
         "time": "6月30日 20:48",
@@ -544,7 +544,7 @@
       },
       {
         "title": "降雨持续，需注意防范地质灾害哦～",
-        "summary": "天气复杂多变全市各级气象部门将充分利用各种先进科技手段加强灾害性天气监测及时发布天气资讯朋友们要密切关注当地气象部门发布的预警信息提前做好防范准备哦未来三天降雨始终在我市停留雨量小到中雨明后两天还有大雨大家外出请携带雨具谨防淋湿感冒雨天路面湿滑驾车出行的朋友请谨慎慢行保持安全车距哦精彩活动持续在线气",
+        "summary": "天气复杂多变全市各级气象部门将充分利用各种先进科技手段加强灾害性天气监测及时发布天气资讯朋友们要密切关注当地气象部门发布的预警信息提前做好防范准备哦未来三天降雨始终在我市停留雨量小到中雨明后两天还有大雨大家外出请携带雨具谨防淋湿感冒雨天路面。",
         "source": "贵阳网",
         "url": "https://view.inews.qq.com/a/20260630A09TM900?scene=news-skill",
         "time": "6月30日 20:10",
@@ -568,14 +568,14 @@
       },
       {
         "title": "一财社论：分场景施策，推动“人工智能+”落地见效",
-        "summary": "“人工智能+”行动正在成为全社会共识。6月29日召开的国务院常务会议指出，要深刻把握人工智能演进趋势，完善支持政策和治理体系，牢牢掌握发展主动权；加力推进人工智能创新突破，加快关键技术攻关和超大规模智算集群建设，强化高质量数据供给，加强人才、资金等要素保障，支持企业开展基础研究和前沿探索。",
+        "summary": "“人工智能+”行动正在成为全社会共识。6月29日召开的国务院常务会议指出，要深刻把握人工智能演进趋势，完善支持政策和治理体系，牢牢掌握发展主动权；加力推进人工智能创新突破，加快关键技术攻关和超大规模智算集群建设，强化高质量数据供给，",
         "source": "第一财经",
         "url": "https://view.inews.qq.com/a/20260630A09KX600?scene=news-skill",
         "time": "6月30日 19:43",
         "heat": 7
       },
       {
-        "title": "Meta 公布 Brain2Qwerty v2 非侵入式脑机接口新研究：AI 从脑磁信号中\"读心\"，准确率最高达 78%",
+        "title": "Meta 公布 Brain2Qwerty v2 非侵入式脑机接口新研究",
         "summary": "Meta 推出 Brain2Qwerty v2 非侵入式脑机接口研究，利用脑磁图（MEG）设备记录脑部磁场信号，通过 AI 模型还原自然语言。模型基于 9 名志愿者约 10 小时、22000 句子数据训练，并利用上下文补全噪声信号。",
         "source": "IT之家（RSS）",
         "url": "https://www.ithome.com/0/970/724.htm",
@@ -583,7 +583,7 @@
         "heat": 7
       },
       {
-        "title": "DeepSeek将实行高峰时段价格翻倍，涵盖工作时段7个小时，多位开发者已收到调价邮件",
+        "title": "DeepSeek将实行高峰时段价格翻倍，涵盖工作时段7个小时",
         "summary": "红星资本局6月30日消息，近期，DeepSeek官网发布通知称，API服务预计7月中旬开始采用峰谷定价策略，高峰时段价格为平时价格2倍。图片来自DeepSeek官网按照DeepSeek定义，高峰时段是指每日9:00-12:00和14:00-18:00。",
         "source": "红星新闻",
         "url": "https://view.inews.qq.com/a/20260630A099FV00?scene=news-skill",
@@ -592,7 +592,7 @@
       },
       {
         "title": "电动汽车电池安全新国标7月落地，要求热失控后“不起火、不爆炸”",
-        "summary": "7月1日起，《电动汽车安全要求》（GB 18384-2025）与《电动汽车用动力蓄电池安全要求》（GB 38031-2025）两项强制性国家标准将正式实施。两项新国标从整车安全和动力电池安全两个维度重点发力，对底盘磕碰、电池热失控、事故高压漏电等隐患提出更严格的安全标准。",
+        "summary": "7月1日起，《电动汽车安全要求》（GB 18384-2025）与《电动汽车用动力蓄电池安全要求》（GB 38031-2025）两项强制性国家标准将正式实施。",
         "source": "北京商报",
         "url": "https://view.inews.qq.com/a/20260630A098GZ00?scene=news-skill",
         "time": "6月30日 19:05",
@@ -649,7 +649,7 @@
         "heat": 8
       },
       {
-        "title": "伦敦股市30日上涨",
+        "title": "伦敦股市30日上涨：富时100指数收涨0.12%",
         "summary": "伦敦6月30日电（记者赵小娜）英国伦敦股市《金融时报》100种股票平均价格指数30日报收于10497.12点，较前一交易日上涨12.90点，涨幅为0.12%。欧洲三大股指当天全线上涨。",
         "source": "新华社新闻",
         "url": "https://view.inews.qq.com/a/20260701A00O4F00?scene=news-skill",
@@ -658,7 +658,7 @@
       },
       {
         "title": "越南救援队分五路搜寻地震遇难者",
-        "summary": "越南中文社7月1日报道，委内瑞拉：6月30日，在2.2平方公里区域内搜寻地震遇难者。",
+        "summary": "7月1日 1:10，越南救援队分五路搜寻地震遇难者。越南中文社7月1日报道，委内瑞拉：6月30日，在2.2平方公里区域内搜寻地震遇难者。",
         "source": "越南中文社",
         "url": "https://view.inews.qq.com/a/20260701A00KZX00?scene=news-skill",
         "time": "7月1日 1:10",
@@ -674,7 +674,7 @@
       },
       {
         "title": "中国式广场协议？默茨的“里根牌”恐难敲开北京大门",
-        "summary": "2026年6月，中欧贸易关系的紧张局势被推向了一个微妙的十字路口。在欧盟峰会后，推崇自由市场与里根主义的德国总理默茨（Friedrich Merz）将矛头直指人民币汇率，暗示欧盟应效仿1985年的《广场协议》，通过国际对话解决其眼中“人民币被低估30%”的问题。",
+        "summary": "2026年6月，中欧贸易关系的紧张局势被推向了一个微妙的十字路口。在欧盟峰会后，推崇自由市场与里根主义的德国总理默茨（Friedrich Merz）将矛头直指人民币汇率，暗示欧盟应效仿1985年的《广场协议》，",
         "source": "孔凡在巴黎",
         "url": "https://view.inews.qq.com/a/20260701A009UW00?scene=news-skill",
         "time": "7月1日 0:24",
@@ -682,7 +682,7 @@
       },
       {
         "title": "戴上头显跃马疆场，李佩红携全球首部京剧VR电影《穆桂英再挂帅》亮相链博会",
-        "summary": "日前在北京举行的第四届中国国际供应链促进博览会（链博会）上，数智科技展区迎来一位特殊的“参展嘉宾”——著名京剧表演艺术家、中国戏剧梅花奖得主李佩红。她带来的全球首部京剧VR沉浸式电影《穆桂英再挂帅》，让传统戏曲在元宇宙时代焕发出全新生命力。",
+        "summary": "近期在北京举行的第四届中国国际供应链促进博览会（链博会）上，数智科技展区迎来一位特殊的“参展嘉宾”——著名京剧表演艺术家、中国戏剧梅花奖得主李佩红。她带来的全球首部京剧VR沉浸式电影《穆桂英再挂帅》，让传统戏曲在元宇宙时代焕发出全新生命力。",
         "source": "上观新闻",
         "url": "https://view.inews.qq.com/a/20260701A006HT00?scene=news-skill",
         "time": "7月1日 0:16",
@@ -713,16 +713,16 @@
         "heat": 7
       },
       {
-        "title": "印度要痛定思痛了？",
-        "summary": "自美国总统特朗普二次入主白宫以来，美印关系受关税争端、限制印度劳工签证等一系列事件影响持续下滑。",
+        "title": "印度要痛定思痛了？美印关系持续下滑",
+        "summary": "6月30日 23:57，印度要痛定思痛了？。自美国总统特朗普二次入主白宫以来，美印关系受关税争端、限制印度劳工签证等一系列事件影响持续下滑。",
         "source": "环球时报新媒体",
         "url": "https://view.inews.qq.com/a/20260701A001AK00?scene=news-skill",
         "time": "6月30日 23:57",
         "heat": 7
       },
       {
-        "title": "Apollo Go 本月在瑞士获 L4 许可，迪拜全无人商业化运营已覆盖朱美拉，香港累计测试超 23 万公里",
-        "summary": "百度 Apollo Go 本月在瑞士获联邦道路局 L4 许可，6 月 1 日起在圣加仑等州约 80 km2 区域开展公开道路测试，部署全电动 Apollo RT6（3 座、30+ 传感器、可拆卸方向盘），计划 2027 年初与瑞士邮政巴士合作推出完全无人驾驶服务 AmiGo。迪拜方面，Apollo Go 已覆盖整个朱美拉地区，1 月获当地首个无人驾驶测试许可...",
+        "title": "Apollo Go 本月在瑞士获 L4 许可，迪拜全无人商业化运营已覆盖朱美拉",
+        "summary": "百度 Apollo Go 本月在瑞士获联邦道路局 L4 许可，6 月 1 日起在圣加仑等州约 80 km2 区域开展公开道路测试，部署全电动 Apollo RT6（3 座、30+ 传感器、可拆卸方向盘），",
         "source": "X：百度 Baidu (@Baidu_Inc)",
         "url": "https://x.com/Baidu_Inc/status/2071986133983195252",
         "time": "6月30日 23:56",
@@ -778,7 +778,7 @@
       },
       {
         "title": "张文娟｜一边天价罚单，一边胜诉率12%：印度税务的“左右互搏”",
-        "summary": "近年来，印度税务环境显著收紧，针对跨国企业的重大税务调查频繁发生，呈现出“执法趋严”的态势。",
+        "summary": "6月30日 22:53，张文娟｜一边天价罚单，一边胜诉率12%：印度税务的“左右互搏”。近年来，印度税务环境显著收紧，针对跨国企业的重大税务调查频繁发生，呈现出“执法趋严”的态势。",
         "source": "文娟探世界",
         "url": "https://view.inews.qq.com/a/20260630A0B5TG00?scene=news-skill",
         "time": "6月30日 22:53",
@@ -834,7 +834,7 @@
       },
       {
         "title": "盛大庆典难掩裂痕！美国250周年欧陆盛会，美欧博弈暗流涌动",
-        "summary": "正值美欧经贸、战略分歧持续发酵、双边博弈不断加剧的敏感节点，美国高调在欧洲腹地举办顶级盛典。",
+        "summary": "6月30日 22:13，盛大庆典难掩裂痕！美国250周年欧陆盛会，美欧博弈暗流涌动。正值美欧经贸、战略分歧持续发酵、双边博弈不断加剧的敏感节点，美国高调在欧洲腹地举办顶级盛典。",
         "source": "硬核小百科",
         "url": "https://view.inews.qq.com/a/20260630A0ATOU00?scene=news-skill",
         "time": "6月30日 22:13",
@@ -892,7 +892,7 @@
       },
       {
         "title": "“可大可久之道”：中国共产党作为文明型政党的长期主义治理之道",
-        "summary": "今年是中国共产党成立105周年，是“十五五”规划开局之年，世界各国在从“十五五”规划看到中国的规划治国背后的中国长期主义之后，还想更进一步，更全面深入理解中国的长期主义的特质与背后的逻辑，其中最根本的就是中国共产党长期执政、全面领导的长期主义治理之道及其植根的中国文明传统，“日新其德”的长期主义一以贯",
+        "summary": "今年是中国共产党成立105周年，是“十五五”规划开局之年，世界各国在从“十五五”规划看到中国的规划治国背后的中国长期主义之后，还想更进一步，更全面深入理解中国的长期主义的特质与背后的逻辑，",
         "source": "北京日报客户端",
         "url": "https://view.inews.qq.com/a/20260630A0AODS00?scene=news-skill",
         "time": "6月30日 21:54",
@@ -908,7 +908,7 @@
       },
       {
         "title": "第五届华语纪录电影大会启动！9月广州见，今起全球征集",
-        "summary": "南都讯 记者李竹 6月30日，第五届华语纪录电影大会（以下简称“大会”）启动发布会于广州举办。",
+        "summary": "6月30日 21:29，第五届华语纪录电影大会启动！9月广州见，今起全球征集。南都讯 记者李竹 6月30日，第五届华语纪录电影大会（以下简称“大会”）启动发布会于广州举办。",
         "source": "南方都市报",
         "url": "https://view.inews.qq.com/a/20260630A0AHC900?scene=news-skill",
         "time": "6月30日 21:29",
@@ -940,7 +940,7 @@
       },
       {
         "title": "音乐人屠颖意外离世，家属指责万豪七大问题，酒店回应来了",
-        "summary": "音乐人屠颖在万豪集团旗下广州白云国际会议中心越秀福朋喜来登酒店跑步机上去世一事，引起各界关注。就在日前，屠颖家属冯苓仪和屠衡、滚石（北京）文化传播有限公司共同发布“关于屠颖老师不幸事件联合声明”，对万豪集团及旗下涉事酒店喊话。",
+        "summary": "音乐人屠颖在万豪集团旗下广州白云国际会议中心越秀福朋喜来登酒店跑步机上去世一事，引起各界关注。就在近期，屠颖家属冯苓仪和屠衡、滚石（北京）文化传播有限公司共同发布“关于屠颖老师不幸事件联合声明”，对万豪集团及旗下涉事酒店喊话。",
         "source": "第一财经",
         "url": "https://view.inews.qq.com/a/20260630A0A94I00?scene=news-skill",
         "time": "6月30日 21:03",
@@ -948,7 +948,7 @@
       },
       {
         "title": "称无人网约车是世界最大骗局，一传媒公司被判向萝卜快跑赔偿并致歉",
-        "summary": "萝卜快跑法务部6月30日发布声明，北京互联网法院就萝卜快跑起诉济南我又火了文化传媒有限公司网络侵权责任纠纷案作出一审判决并已生效。法院认定侵权方发布\"无人网约车是全世界最大的骗局\"等表述捏造、散布虚假事实，构成诽谤；使用\"资本家的狐狸尾巴\"等贬损性言语构成侮辱，侵犯了萝卜快跑名誉权。",
+        "summary": "萝卜快跑法务部6月30日发布声明，北京互联网法院就萝卜快跑起诉济南我又火了文化传媒有限公司网络侵权责任纠纷案作出一审判决并已生效。法院认定侵权方发布\"无人网约车是全世界最大的骗局\"等表述捏造、散布虚假事实，构成诽谤；",
         "source": "IT之家（RSS）",
         "url": "https://www.ithome.com/0/970/746.htm",
         "time": "6月30日 20:53",
@@ -980,7 +980,7 @@
       },
       {
         "title": "马来西亚：瞄准七百万中国游客",
-        "summary": "亚太日报驻吉隆坡记者瑜雯编译：亚太日报 丹玮马来西亚正积极通过“2026马来西亚旅游年”活动，将自身定位为中国游客的首选目的地，目标是吸引七百万中国游客。像32岁的工程师Jane Lyu这样的旅行者，越来越多地通过微博、抖音和小红书等中国社交媒体平台，发现一些鲜为人知的景点，例如布城的太子清真寺。",
+        "summary": "亚太日报驻吉隆坡记者瑜雯编译：亚太日报 丹玮马来西亚正积极通过“2026马来西亚旅游年”活动，将自身定位为中国游客的首选目的地，目标是吸引七百万中国游客。",
         "source": "亚太观澜",
         "url": "https://view.inews.qq.com/a/20260630A075E800?scene=news-skill",
         "time": "6月30日 20:40",
@@ -1020,7 +1020,7 @@
       },
       {
         "title": "记者观察：美伊谈判再现“罗生门”前景迷雾重重",
-        "summary": "围绕美伊是否在卡塔尔重启会谈，双方说法相悖，中东舆论对此如何看待？东方卫视驻中东",
+        "summary": "6月30日 20:14，记者观察：美伊谈判再现“罗生门”前景迷雾重重。围绕美伊是否在卡塔尔重启会谈，双方说法相悖，中东舆论对此如何看待？东方卫视驻中东",
         "source": "看看新闻Knews",
         "url": "https://view.inews.qq.com/a/20260630A09ULQ00?scene=news-skill",
         "time": "6月30日 20:14",
@@ -1116,7 +1116,7 @@
       },
       {
         "title": "人保寿险1元挂牌 “甩卖”中美国际股权，保险中介牌照为什么不香了？| 大鱼财经",
-        "summary": "曾经价格不菲且“一照难求”的全国性保险中介牌照，如今却以“白菜价”挂牌转让。",
+        "summary": "6月30日 19:19，人保寿险1元挂牌 “甩卖”中美国际股权，保险中介牌照为什么不香了？| 大鱼财经。曾经价格不菲且“一照难求”的全国性保险中介牌照，如今却以“白菜价”挂牌转让。",
         "source": "新黄河",
         "url": "https://view.inews.qq.com/a/20260630A09D2W00?scene=news-skill",
         "time": "6月30日 19:19",
@@ -1132,7 +1132,7 @@
       },
       {
         "title": "俄罗斯军工重镇被炸，乌克兰“火烈鸟”首次打出60%命中率",
-        "summary": "近期，乌克兰向俄罗斯伏尔加格勒发射了五枚“火烈鸟”巡航导弹。三枚命中目标。",
+        "summary": "6月30日 19:00，俄罗斯军工重镇被炸，乌克兰“火烈鸟”首次打出60%命中率。近期，乌克兰向俄罗斯伏尔加格勒发射了五枚“火烈鸟”巡航导弹。三枚命中目标。",
         "source": "子桑鹰脉",
         "url": "https://view.inews.qq.com/a/20260630A03XPI00?scene=news-skill",
         "time": "6月30日 19:00",
@@ -1140,14 +1140,14 @@
       },
       {
         "title": "罕见极端高温席卷欧洲，中国空调“一机难求” 专家：未来热浪或将笼罩更大范围",
-        "summary": "邹阿江 近期，欧洲多国遭遇持续性极端高温天气，区域气温纪录被接连刷新，各地相继发布高温预警信号。",
+        "summary": "6月30日 18:59，罕见极端高温席卷欧洲，中国空调“一机难求” 专家：未来热浪或将笼罩更大范围。邹阿江 近期，欧洲多国遭遇持续性极端高温天气，区域气温纪录被接连刷新，各地相继发布高温预警信号。",
         "source": "封面新闻",
         "url": "https://view.inews.qq.com/a/20260630A096N200?scene=news-skill",
         "time": "6月30日 18:59",
         "heat": 6
       },
       {
-        "title": "7月3日24时，国内成品油价格再度调整：汽柴油每升预计下跌0.55元-0.65元，加满一箱油少花近30元",
+        "title": "7月3日24时，国内成品油价格再度调整",
         "summary": "据新华社消息，按照国内成品油价格调整周期安排，7月3日24时，成品油调价窗口将再度开启。据专业机构预测，受到近期国际油价影响，目前原油变化率达到-12.84%，预计油价下调720元/吨，按照目前预期跌幅，汽柴油价格将会继续大跌0.55元/升-0.65元/升。",
         "source": "极目新闻",
         "url": "https://view.inews.qq.com/a/20260630A08ZZC00?scene=news-skill",
@@ -1196,7 +1196,7 @@
       },
       {
         "title": "美伊6月30日无高级别会晤计划",
-        "summary": "财联社6月30日电，据外媒6月30日援引卡塔尔方面消息，美国和伊朗当天没有高级别会晤的计划。",
+        "summary": "6月30日 18:16，美伊6月30日无高级别会晤计划。财联社6月30日电，据外媒6月30日援引卡塔尔方面消息，美国和伊朗当天没有高级别会晤的计划。",
         "source": "财联社",
         "url": "https://view.inews.qq.com/a/20260630A08QLJ00?scene=news-skill",
         "time": "6月30日 18:16",
@@ -1244,7 +1244,7 @@
       },
       {
         "title": "【中国那些事儿】从签证便利到数字支付，外媒点赞中国“国际友好旅游目的地”范本",
-        "summary": "中国日报网6月30日电 今年以来，中国文旅市场活力不减，“文博游”“入境游”持续火热。",
+        "summary": "6月30日 17:52，【中国那些事儿】从签证便利到数字支付，外媒点赞中国“国际友好旅游目的地”范本。中国日报网6月30日电 今年以来，中国文旅市场活力不减，“文博游”“入境游”持续火热。",
         "source": "中国日报网",
         "url": "https://view.inews.qq.com/a/20260630A08EV700?scene=news-skill",
         "time": "6月30日 17:52",
@@ -1252,7 +1252,7 @@
       },
       {
         "title": "湖南省（国际）创新创业大赛累计培育科技型企业超万家",
-        "summary": "中新网长沙6月30日电(向一鹏)湖南省(国际)创新创业大赛已成功举办十二届，累计吸引参赛项目超过2.6万个，培育科技型企业超万家，帮助参赛企业获得创业投融资超130亿元、贷款授信超240亿元。湖南省科技厅30日召开新闻发布会，介绍了2026年“长沙银行杯”湖南省(国际)创新创业大赛相关情况。",
+        "summary": "中新网长沙6月30日电(向一鹏)湖南省(国际)创新创业大赛已成功举办十二届，累计吸引参赛项目超过2.6万个，培育科技型企业超万家，帮助参赛企业获得创业投融资超130亿元、贷款授信超240亿元。",
         "source": "中国新闻网",
         "url": "https://view.inews.qq.com/a/20260630A08ESB00?scene=news-skill",
         "time": "6月30日 17:52",
@@ -1302,7 +1302,7 @@
       },
       {
         "title": "AI智能体推动工程角色转变",
-        "summary": "随着智能体承担更长期的工作，工程转向设定方向、审查工作以及围绕模型设计更好的系统。",
+        "summary": "7月1日 3:15，AI智能体推动工程角色转变。随着智能体承担更长期的工作，工程转向设定方向、审查工作以及围绕模型设计更好的系统。",
         "source": "X：OpenAI Developers (@OpenAIDevs)",
         "url": "https://x.com/OpenAIDevs/status/2072036305442406772",
         "time": "7月1日 3:15",
@@ -1326,46 +1326,46 @@
       },
       {
         "title": "Google 发布更快更便宜的图像生成器 Nano Banana 2 Lite",
-        "summary": "周二，Google 推出其自研 AI 图像和视频生成器最新版本 Nano Banana 2 Lite。该模型延迟大幅降低，可在4秒内生成图像，成本为每1000张图像0.034美元，针对高吞吐量工作流优化，现已通过 Google AI Studio、Gemini API 及 Gemini Enterprise Agent Platform 上线，并取代原 Nano Banana 成为\"遗留模型\"。",
+        "summary": "周二，Google 推出其自研 AI 图像和视频生成器最新版本 Nano Banana 2 Lite。该模型延迟大幅降低，可在4秒内生成图像，成本为每1000张图像0.034美元，针对高吞吐量工作流优化，",
         "source": "TechCrunch：AI（RSS）",
         "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite",
         "time": "7月1日 3:02",
         "heat": 8
       },
       {
-        "title": "Anthropic 发布 Claude Sonnet 5，1M token 上下文窗口，编码能力提升",
-        "summary": "Anthropic 发布 Claude Sonnet 5，拥有 1M token 上下文窗口（此前泄露），编码能力显著提升：SWE-bench Pro 得分 63.2%，高于 Sonnet 4.6 的 58.1%；知识工作略超 Opus 4.8。Anthropic 称其为\"最具智能体特性的 Sonnet 模型\"。",
+        "title": "Anthropic 发布 Claude Sonnet 5",
+        "summary": "Anthropic 发布 Claude Sonnet 5，拥有 1M token 上下文窗口（近期泄露），编码能力显著提升：SWE-bench Pro 得分 63.2%，高于 Sonnet 4.6 的 58.1%；",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "url": "https://x.com/rohanpaul_ai/status/2072032758348820881",
         "time": "7月1日 3:01",
         "heat": 8
       },
       {
-        "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列",
-        "summary": "Anthropic 发布 Claude Sonnet 5，称其为最智能体的 Sonnet 版本，能自主制定计划、使用浏览器和终端工具。基准测试全面超越前代 Sonnet 4.6：SWE-bench Pro 达 63.2%，Terminal-Bench 2.1 为 80.4%，知识工作基准 GDPval-AA v2 得分 1618，略超 Opus 4.8。",
+        "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本",
+        "summary": "Anthropic 发布 Claude Sonnet 5，称其为最智能体的 Sonnet 版本，能自主制定计划、使用浏览器和终端工具。基准测试全面超越前代 Sonnet 4.6：SWE-bench Pro 达 63.2%，",
         "source": "The Decoder：AI News（RSS）",
         "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
         "time": "7月1日 2:46",
         "heat": 8
       },
       {
-        "title": "Anthropic 推出 Sonnet 5，性能接近 Opus 4.8 但定价更低",
-        "summary": "Anthropic 发布 Sonnet 5，称其为迄今最具智能体能力的 Sonnet，推理、工具使用、编程和知识工作均有提升，性能接近 Opus 4.8 但更便宜。即日起至8月31日，输入 $2/M token、输出 $10/M token；标准定价 $3/M、$15/M。",
+        "title": "Anthropic 推出 Sonnet 5",
+        "summary": "Anthropic 发布 Sonnet 5，称其为迄今最具智能体能力的 Sonnet，推理、工具使用、编程和知识工作均有提升，性能接近 Opus 4.8 但更便宜。",
         "source": "X：Kim (@kimmonismus)",
         "url": "https://x.com/kimmonismus/status/2072027861385466123",
         "time": "7月1日 2:41",
         "heat": 8
       },
       {
-        "title": "Google DeepMind 发布 Nano Banana 2 Lite 图像生成模型",
-        "summary": "Google DeepMind 发布 Nano Banana 2 Lite（正式名 Gemini 3.1 Flash Lite Image），默认低思考模式下约4秒生成一张图像，标准 Nano Banana 需约20秒。API 价格为每1000张图像 $0.034，输入 token $0.25/1M，输出 token $1.50/1M，是 Nano Bana...",
+        "title": "Google DeepMind 发布 Nano Banana 2 Lite",
+        "summary": "Google DeepMind 发布 Nano Banana 2 Lite（正式名 Gemini 3.1 Flash Lite Image），默认低思考模式下约4秒生成一张图像，标准 Nano Banana 需约20秒。",
         "source": "Ars Technica：AI（RSS）",
         "url": "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet",
         "time": "7月1日 2:36",
         "heat": 8
       },
       {
-        "title": "Anthropic 发布 Claude Science beta：专注严谨科学研究的 AI 应用",
+        "title": "Anthropic 发布 Claude Science beta",
         "summary": "Anthropic 推出 Claude Science beta，专为科学研究设计。可运行分析、搜索数据库，追踪从数据处理到发表的每一步。",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "url": "https://claude.com/product/claude-science",
@@ -1373,8 +1373,8 @@
         "heat": 8
       },
       {
-        "title": "Anthropic 发布 Claude Sonnet 5，替代 Sonnet 4.6 成为默认模型",
-        "summary": "Anthropic 发布 Claude Sonnet 5，替代 Sonnet 4.6 成为免费版和 Pro 版默认模型。Agent 编程基准得分 63.2%（Sonnet 4.6 为 58.1%，Opus 4.8 为 69.2%），知识工作基准略超 Opus 4.8。",
+        "title": "Anthropic 发布 Claude Sonnet 5",
+        "summary": "Anthropic 发布 Claude Sonnet 5，替代 Sonnet 4.6 成为免费版和 Pro 版默认模型。Agent 编程基准得分 63.2%（Sonnet 4.6 为 58.1%，Opus 4.8 为 69.2%），",
         "source": "X：宝玉 (@dotey)",
         "url": "https://x.com/dotey/status/2072025716913262957",
         "time": "7月1日 2:33",
@@ -1382,7 +1382,7 @@
       },
       {
         "title": "Claude Sonnet 5 发布",
-        "summary": "Claude Sonnet 5 是 Anthropic 推出的最新 Sonnet 模型，具备计划、浏览器和终端工具使用能力，可自主运行。性能接近 Opus 4.8，定价更低：即日起至 2026 年 8 月 31 日，输入 token $2/百万，输出 $10/百万，之后恢复为 $3/百万输入和 $15/百万输出。",
+        "summary": "Claude Sonnet 5 是 Anthropic 推出的最新 Sonnet 模型，具备计划、浏览器和终端工具使用能力，可自主运行。性能接近 Opus 4.8，定价更低：即日起至 2026 年 8 月 31 日，",
         "source": "Anthropic：Newsroom（网页）",
         "url": "https://www.anthropic.com/news/claude-sonnet-5",
         "time": "7月1日 2:02",
@@ -1390,22 +1390,22 @@
       },
       {
         "title": "GLM-5.2：开源权重智能最高但最啰嗦的领先模型",
-        "summary": "GLM-5.2 在 Artificial Analysis Intelligence Index 中以 51 分成为开源权重智能最高的模型，但输出 token 达 1.41 亿（95% 推理），远超平均模型的 1.8 倍。相比之下，Claude Opus 4.8 输出 1.17 亿 token 得分 56，GPT-5.5 输出 7200 万 token 得分 55。",
+        "summary": "GLM-5.2 在 Artificial Analysis Intelligence Index 中以 51 分成为开源权重智能最高的模型，但输出 token 达 1.41 亿（95% 推理），远超平均模型的 1.8 倍。",
         "source": "X：Artificial Analysis (@ArtificialAnlys)",
         "url": "https://x.com/ArtificialAnlys/status/2072022576394821859",
         "time": "7月1日 2:20",
         "heat": 8
       },
       {
-        "title": "阿里巴巴 HappyHorse 1.1 登顶 Artificial Analysis 视频排行榜第二",
-        "summary": "阿里巴巴 HappyHorse 1.1 在 Artificial Analysis 文生视频和图生视频排行榜位列第二，仅次于字节跳动 Seedance 2.0。该模型基于统一 Transformer 架构，是 1.0 的改进版，重点提升音画同步，支持七种语言的原生音频与唇形同步对话，并在运动、角色和场景一致性上增强。",
+        "title": "阿里巴巴 HappyHorse 1.1 登顶 Artificial",
+        "summary": "阿里巴巴 HappyHorse 1.1 在 Artificial Analysis 文生视频和图生视频排行榜位列第二，仅次于字节跳动 Seedance 2.0。",
         "source": "X：Artificial Analysis (@ArtificialAnlys)",
         "url": "https://x.com/ArtificialAnlys/status/2072022131056267534",
         "time": "7月1日 2:19",
         "heat": 8
       },
       {
-        "title": "Anthropic 发布 Claude Sonnet 5：最具智能体能力的 Sonnet 模型",
+        "title": "Anthropic 发布 Claude Sonnet 5",
         "summary": "Anthropic 发布 Claude Sonnet 5，定位为迄今最具智能体能力的 Sonnet 模型。它在推理、工具使用、编码和知识工作等智能体性能上较前代 Sonnet 4.6 显著提升，表现接近 Opus 4.8 但价格更低。",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "url": "https://www.anthropic.com/news/claude-sonnet-5",
@@ -1413,7 +1413,7 @@
         "heat": 8
       },
       {
-        "title": "Claude Sonnet 5上架OpenRouter，促销价$2/$10 per M",
+        "title": "Claude Sonnet 5上架OpenRouter",
         "summary": "Claude Sonnet 5 正在 OpenRouter 上推出，促销价格：$2/M 输入，$10/M 输出！它以 Sonnet 定价提供旗舰智能，提升智能体编码和专业工作流。",
         "source": "X：OpenRouter (@OpenRouter)",
         "url": "https://x.com/OpenRouter/status/2072020173872325088",
@@ -1446,7 +1446,7 @@
       },
       {
         "title": "Anthropic 推出 Claude Sonnet 5，主打低成本智能体能力",
-        "summary": "Anthropic 发布 Claude Sonnet 5，这是其中端模型的最新版本，具备制定计划、使用浏览器和终端等工具并自主运行的能力。其性能接近 Opus 4.8，但成本更低：即日起至 8 月 31 日，输入每百万 tokens $2，输出每百万 tokens $10，之后分别涨至 $3 和 $10。",
+        "summary": "Anthropic 发布 Claude Sonnet 5，这是其中端模型的最新版本，具备制定计划、使用浏览器和终端等工具并自主运行的能力。其性能接近 Opus 4.8，但成本更低：即日起至 8 月 31 日，输入每百万 tokens $2，",
         "source": "TechCrunch：AI（RSS）",
         "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents",
         "time": "7月1日 2:00",
@@ -1470,7 +1470,7 @@
       },
       {
         "title": "Claude Science 科研工作台正式上线",
-        "summary": "Anthropic 推出 AI 科研工作台 Claude Science，整合常用工具与计算资源，支持从文献分析到多步骤研究的全流程。提供超 60 项预配置技能与连接器，覆盖基因组学、单细胞、蛋白质组学、结构生物学、化学信息学等领域；可在macOS/Linux本地运行，或通过SSH/HPC远程使用。",
+        "summary": "Anthropic 推出 AI 科研工作台 Claude Science，整合常用工具与计算资源，支持从文献分析到多步骤研究的全流程。提供超 60 项预配置技能与连接器，覆盖基因组学、单细胞、蛋白质组学、结构生物学、化学信息学等领域；",
         "source": "Anthropic：Newsroom（网页）",
         "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
         "time": "7月1日 1:32",
@@ -1478,7 +1478,7 @@
       },
       {
         "title": "Claude Code被指暗中检测中国路由，通过隐藏标记嵌入提示词",
-        "summary": "X用户Rohan Paul爆料，Anthropic的编程AI智能体Claude Code在用户更改非默认`ANTHROPIC_BASE_URL`（使用代理/网关）时，会检测自定义主机名是否关联中国域名，若匹配则通过不可见标点符号和日期格式向提示词嵌入隐藏标记。引用@IntCyberDigest指出，Claude Code还会在系统提示内注入时区、代理及可能的AI实验室连接信息，用户无法察觉。",
+        "summary": "X用户Rohan Paul爆料，Anthropic的编程AI智能体Claude Code在用户更改非默认`ANTHROPIC_BASE_URL`（使用代理/网关）时，会检测自定义主机名是否关联中国域名，",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "url": "https://x.com/rohanpaul_ai/status/2072009571569467658",
         "time": "7月1日 1:29",
@@ -1486,7 +1486,7 @@
       },
       {
         "title": "Claude Code 入门：智能体循环",
-        "summary": "Claude Code 团队将智能体循环定义为 agent 重复工作直到满足停止条件的过程，并划分出四种主要类型：turn-based 循环（用户提示触发，Claude 自行判断完成或需更多上下文）、goal-based 循环（通过 `/goal` 命令设定可验证完成标准与最大轮次）、time-based 循环（通过 `/loop` 按时间间隔重复执行，可用...",
+        "summary": "Claude Code 团队将智能体循环定义为 agent 重复工作直到满足停止条件的过程，并划分出四种主要类型：turn-based 循环（用户提示触发，",
         "source": "Claude：Blog（网页）",
         "url": "https://claude.com/blog/getting-started-with-loops",
         "time": "7月1日 1:28",
@@ -1496,14 +1496,14 @@
     "mockHotNewsAIExtra": [
       {
         "title": "AI投资热潮成通胀新推手 美联储哈马克称必要时仍需加息",
-        "summary": "财联社7月1日讯（编辑 牛占林）当地时间周二，克利夫兰联储主席贝丝·哈马克表示，市场对人工智能(AI)基础设施“近乎无止境的需求”正在推高通胀，不排除支持进一步加息。她在当天接受采访时称，如果包括AI投资热潮在内的各种因素继续令物价维持高位，美联储可能需要 进一步上调基准利率，以遏制通胀。",
+        "summary": "财联社7月1日讯（编辑 牛占林）当地时间周二，克利夫兰联储主席贝丝·哈马克表示，市场对人工智能(AI)基础设施“近乎无止境的需求”正在推高通胀，不排除支持进一步加息。",
         "source": "财联社",
         "url": "https://view.inews.qq.com/a/20260701A00N4400?scene=news-skill",
         "time": "7月1日 1:21",
         "heat": 8
       },
       {
-        "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
+        "title": "ADK Go 2.0 发布：构建可靠的多智能体应用",
         "summary": "Agent Development Kit （ADK） for Go 2.0 发布，引入了一类基于图的工作流引擎，用于组合复杂多智能体应用。新版本内置人工参与循环（HITL）编排、使用纯 Go 代码的动态执行、以及指数退避重试等自动弹性特性。",
         "source": "Google Developers Blog（RSS）",
         "url": "https://developers.googleblog.com/announcing-adk-go-20",
@@ -1520,7 +1520,7 @@
       },
       {
         "title": "Jim Fan 团队发布 ASPIRE：机器人技能库自我进化、持续累积",
-        "summary": "Jim Fan 团队推出 ASPIRE，一种让机器人通过进化搜索自动扩充技能库的持续学习系统。编码智能体观察仿真与真实机器人的多模态感知痕迹，对控制程序进行进化搜索，将最佳知识蒸馏到不断扩展的技能库中，使机器人解决第 100 个任务时不再像第 1 个那样从零开始。",
+        "summary": "Jim Fan 团队推出 ASPIRE，一种让机器人通过进化搜索自动扩充技能库的持续学习系统。编码智能体观察仿真与真实机器人的多模态感知痕迹，对控制程序进行进化搜索，将最佳知识蒸馏到不断扩展的技能库中，",
         "source": "X：Jim Fan (@DrJimFan)",
         "url": "https://x.com/DrJimFan/status/2072004190856212902",
         "time": "7月1日 1:07",
@@ -1544,15 +1544,15 @@
       },
       {
         "title": "用 shot-scraper video 让 AI 智能体录制工作演示视频",
-        "summary": "shot-scraper 1.10 新增 shot-scraper video 命令，支持通过 storyboard.yml 文件定义操作步骤，并利用 Playwright 录制浏览器视频。演示视频展示了 Datasette 中从粘贴的 CSV/TSV/JSON 数据创建新表的功能。",
+        "summary": "shot-scraper 1.10 新增 shot-scraper video 命令，支持通过 storyboard.yml 文件定义操作步骤，并利用 Playwright 录制浏览器视频。",
         "source": "Simon Willison 博客",
         "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video",
         "time": "7月1日 0:54",
         "heat": 7
       },
       {
-        "title": "Google 发布 gemini-skills，基于 Omni API 快速搭建 AI 智能体",
-        "summary": "Google 通过 Gemini Omni API 发布 gemini-skills 技能包，支持视频编辑、文生视频、图片参考视频生成、首帧生成视频，并提供预处理输入视频为 10 秒 720p、音频剥离、视频检查等辅助工具。同作者展示 Omni Flash 模型编辑能力：输入\"将桌子改成浅水池\"，模型输出湿手、水波、折射、阴影及音效。",
+        "title": "Google 发布 gemini-skills",
+        "summary": "Google 通过 Gemini Omni API 发布 gemini-skills 技能包，支持视频编辑、文生视频、图片参考视频生成、首帧生成视频，并提供预处理输入视频为 10 秒 720p、音频剥离、视频检查等辅助工具。",
         "source": "X：fofr (@fofrAI)",
         "url": "https://x.com/fofrAI/status/2071996379875135973",
         "time": "7月1日 0:36",
@@ -1560,7 +1560,7 @@
       },
       {
         "title": "OpenAI数据基础设施发现硬件与18年开源bug",
-        "summary": "⚙️ 我们在数据基础设施中调试了一整年的崩溃，发现了一个硬件问题，以及另一个在开源代码中隐藏了18年未被注意的问题。以下是我们的追踪过程： http：//openai.com/index/core-dump-epidemiology-data-infrastructure-bug/",
+        "summary": "⚙️ 我们在数据基础设施中调试了一整年的崩溃，发现了一个硬件问题，以及另一个在开源代码中隐藏了18年未被注意的问题。以下是我们的追踪过程： http：//openai.com/index/core-dump-epidemiology-dat。",
         "source": "X：OpenAI Developers (@OpenAIDevs)",
         "url": "https://x.com/OpenAIDevs/status/2071995642436800916",
         "time": "7月1日 0:33",
@@ -1568,7 +1568,7 @@
       },
       {
         "title": "Claude Code 被指在系统提示词里偷偷给中国代理用户\"打水印\"",
-        "summary": "独立安全报告指控 Anthropic 的 Claude Code（v2.1.193-v2.1.196）在系统提示词中通过 Unicode 字符差异标记中国代理用户。当用户设置 `ANTHROPIC_BASE_URL` 代理时，代码会检查代理域名是否在 147 个中国公司/中转站列表（XOR-91 混淆）及时区是否为 `Asia/Shanghai` 或 `Asia/Urumqi`。",
+        "summary": "独立安全报告指控 Anthropic 的 Claude Code（v2.1.193-v2.1.196）在系统提示词中通过 Unicode 字符差异标记中国代理用户。",
         "source": "X：宝玉 (@dotey)",
         "url": "https://x.com/dotey/status/2071995057247297924",
         "time": "7月1日 0:31",
@@ -1583,8 +1583,8 @@
         "heat": 7
       },
       {
-        "title": "Google 推出 Nano Banana 2 Lite 与 Gemini Omni Flash Preview 两款新生成式媒体模型",
-        "summary": "Google 在 Gemini API 和 AI Studio 推出两款新生成式媒体模型：Nano Banana 2 Lite 图像生成极快（<4秒/张），价格仅 $0.034/千张；Gemini Omni Flash Preview 在视频编辑上达到 SOTA，定价 $0.10/秒，与 Veo 3.1 Fast 相同。Omni Flash 现已提供 API 预览。",
+        "title": "Google 推出 Nano Banana 2 Lite 与 Gemini",
+        "summary": "Google 在 Gemini API 和 AI Studio 推出两款新生成式媒体模型：Nano Banana 2 Lite 图像生成极快（<4秒/张），价格仅 $0.034/千张；",
         "source": "X：Testing Catalog (@testingcatalog)",
         "url": "https://x.com/testingcatalog/status/2071992280462794764",
         "time": "7月1日 0:20",
@@ -1592,7 +1592,7 @@
       },
       {
         "title": "noimos_ai 发布 Creative Agent 自主创意系统",
-        "summary": "noimos_ai 推出 Creative Agent，一个自动化系统，可研究成功的创意模式并针对品牌适配。系统通过学习品牌历史表现（分析哪些内容受欢迎、哪些不受欢迎），同时扫描 Meta、TikTok、LinkedIn 等平台数百个竞争对手及市场中的成功创意，理解业务后将这些模式调整用于自身产品和服务。",
+        "summary": "noimos_ai 推出 Creative Agent，一个自动化系统，可研究成功的创意模式并针对品牌适配。系统通过学习品牌历史表现（分析哪些内容受欢迎、哪些不受欢迎），",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "url": "https://x.com/rohanpaul_ai/status/2071994252415173057",
         "time": "7月1日 0:28",
@@ -1616,7 +1616,7 @@
       },
       {
         "title": "Claude Code 宣传视频翻车：效率数据亮眼但用户感受差",
-        "summary": "Claude Code 宣传视频以 Spotify 为例，展示工程侧耀眼数据：每天 4500 次生产部署、73% PR 由 AI 辅助、工程师同时运行 5-10 个 Claude 会话、在 2000 万行 monorepo 中跑 agent，代码迁移加入验证后成功率从 25% 提升至 80%。但用户和知名开发者批评这些数字未转化为产品体验提升--Spotif...",
+        "summary": "Claude Code 宣传视频以 Spotify 为例，展示工程侧耀眼数据：每天 4500 次生产部署、73% PR 由 AI 辅助、工程师同时运行 5-10 个 Claude 会话、在 2000 万行 monorepo 中跑 agent。",
         "source": "X：宝玉 (@dotey)",
         "url": "https://x.com/dotey/status/2071992108337033528",
         "time": "7月1日 0:19",
@@ -1624,7 +1624,7 @@
       },
       {
         "title": "Claude Code 通过隐写术在请求中嵌入环境标记",
-        "summary": "Claude Code 客户端在向 Anthropic API 发送请求时，利用日期分隔符（- 或 /）和撇号字符（'、'、ʻ、ʹ）嵌入环境信息。代码检测 `ANTHROPIC_BASE_URL` 是否为非官方域名、系统时区是否为 `Asia/Shanghai` 或 `Asia/Urumqi`，以及主机名是否匹配中国域名列表（如 baidu.com）或 AI...",
+        "summary": "Claude Code 客户端在向 Anthropic API 发送请求时，利用日期分隔符（- 或 /）和撇号字符（'、'、ʻ、ʹ）嵌入环境信息。代码检测 `ANTHROPIC_BASE_URL` 是否为非官方域名、系统时区是否为 `Asi。",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
         "time": "7月1日 0:11",
@@ -1663,8 +1663,8 @@
         "heat": 7
       },
       {
-        "title": "Cloudflare 新增 Browser Rendering 远程 Chromium 抓取功能",
-        "summary": "Cloudflare 新增 Browser Rendering，提供远程 Chromium 抓取。Workers Paid $5/月含 10 小时浏览器/天。作者将 AI 公司官网抓取从 Jina Reader 迁至 Cloudflare，实际日耗约 3 分钟，99%+ 余量未用，避免了 Jina 免费层耗尽后的 402 静默失败问题，价格从 token 计费变为 $5 封顶可预测。",
+        "title": "Cloudflare 新增 Browser Rendering 远程",
+        "summary": "Cloudflare 新增 Browser Rendering，提供远程 Chromium 抓取。Workers Paid $5/月含 10 小时浏览器/天。",
         "source": "X：小北 (@frxiaobei)",
         "url": "https://x.com/frxiaobei/status/2071981053804486828",
         "time": "6月30日 23:35",
@@ -1680,7 +1680,7 @@
       },
       {
         "title": "美团发布LongCat-2.0，1.6万亿参数大模型完全基于国产芯片训练",
-        "summary": "美团发布LongCat-2.0，参数规模达1.6万亿，完全基于超5万颗国产AI ASIC芯片集群训练，覆盖35万亿模型token。该模型在SWE-bench Pro（59.5）和SWE-bench Multilingual（77.3）上超越Gemini 3.1 Pro和GPT-5.5，但落后于Claude Opus 4.7和4.8。",
+        "summary": "美团发布LongCat-2.0，参数规模达1.6万亿，完全基于超5万颗国产AI ASIC芯片集群训练，覆盖35万亿模型token。该模型在SWE-bench Pro（59.5）和SWE-bench Multilingual（77.3）上超越。",
         "source": "The Decoder：AI News（RSS）",
         "url": "https://the-decoder.com/meituans-longcat-2-0-shows-china-can-train-massive-ai-models-without-nvidia",
         "time": "6月30日 23:23",
@@ -1695,7 +1695,7 @@
         "heat": 7
       },
       {
-        "title": "Apptronik建成近9万平方英尺机器人实训园，Apollo通过实操训练优化AI模型",
+        "title": "Apptronik建成近9万平方英尺机器人实训园",
         "summary": "人形机器人公司Apptronik在奥斯汀建成近9万平方英尺（约8361平方米）的机器人实训园，其Apollo机器人通过远程操控反复进行装箱、分拣等实操训练，数据用于优化AI模型。公司累计融资约10亿美元，估值超55亿美元。",
         "source": "IT之家（RSS）",
         "url": "https://www.ithome.com/0/970/782.htm",
@@ -1711,8 +1711,8 @@
         "heat": 7
       },
       {
-        "title": "CodePilot 0.5.6.3更新，上线ClinePass及Opencode GO套餐",
-        "summary": "CodePilot 0.5.6.3已更新，新增ClinePass和Opencode GO两个Codeplan套餐。此外，Cline推出每月9.9美元的token plan，支持DeepSeek、Kimi、MiniMax、MIMO、通义千问以及GLM5.2，目前还有1.99美元的优惠价。",
+        "title": "CodePilot 0.5.6.3更新",
+        "summary": "CodePilot 0.5.6.3已更新，新增ClinePass和Opencode GO两个Codeplan套餐。此外，Cline推出每月9.9美元的token plan，",
         "source": "X：歸藏 (@op7418)",
         "url": "https://x.com/op7418/status/2071974194200633787",
         "time": "6月30日 23:08",
@@ -1727,8 +1727,8 @@
         "heat": 7
       },
       {
-        "title": "Peter Steinberger澄清：OpenClaw未被OpenAI收购，希望获得建设性帮助",
-        "summary": "针对用户Cristian嘲讽\"被OpenAI收购、拿到无限token却做出劣质应用\"的推文，Peter Steinberger回应：OpenClaw未被收购，它是OpenClaw Foundation下的独立开源项目，由社区构建；OpenAI仅赞助token用量，他本人恰好在OpenAI工作。当前iOS和Android应用尚不完善，但已实现安全配对和推送通知并通过App Review。",
+        "title": "Peter Steinberger澄清",
+        "summary": "针对用户Cristian嘲讽\"被OpenAI收购、拿到无限token却做出劣质应用\"的推文，Peter Steinberger回应：OpenClaw未被收购，它是OpenClaw Foundation下的独立开源项目，由社区构建；",
         "source": "X：Peter Steinberger (@steipete)",
         "url": "https://x.com/steipete/status/2071972239734616146",
         "time": "6月30日 23:00",
@@ -1751,15 +1751,15 @@
         "heat": 7
       },
       {
-        "title": "美团LongCat发布LongCat-2.0：1.6T参数MoE，1M上下文，专为智能体编码设计",
-        "summary": "美团LongCat正式发布LongCat-2.0，采用1.6T参数MoE架构，约48B活跃参数，支持1M上下文窗口。专为智能体编码设计，核心创新包括：LongCat稀疏注意力（LSA）高效扩展1M上下文；零计算专家（33B-56B动态激活，无浪费）；MOPD混合专家组（按任务路由至Agent/Reasoning/Interaction）。",
+        "title": "美团LongCat发布LongCat-2.0",
+        "summary": "美团LongCat正式发布LongCat-2.0，采用1.6T参数MoE架构，约48B活跃参数，支持1M上下文窗口。专为智能体编码设计，核心创新包括：LongCat稀疏注意力（LSA）高效扩展1M上下文；",
         "source": "X：Nathan Lambert (@natolambert)",
         "url": "https://x.com/natolambert/status/2071970640144556191",
         "time": "6月30日 22:54",
         "heat": 7
       },
       {
-        "title": "单芯片混合精度浮点算力达 896TFLOPS，中昊芯英新一代 TPU 芯片「须臾」发布",
+        "title": "单芯片混合精度浮点算力达 896TFLOPS",
         "summary": "中昊芯英发布新一代全自研 TPU 芯片「须臾」，单芯片混合精度浮点算力 896 TFLOPS，为上一代「刹那」3 倍；8-bit 推理算力 1792 TOPS。单卡功耗 600W，较传统芯片降低 50%。",
         "source": "IT之家（RSS）",
         "url": "https://www.ithome.com/0/970/774.htm",
@@ -1767,8 +1767,8 @@
         "heat": 7
       },
       {
-        "title": "Flowith 推出「Matrix」：Agent 公司的操作系统，用户定使命，多Agent部门长期运转",
-        "summary": "Flowith 团队发布「Matrix」，定位为自演化、多层级的 multi-agent runtime。用户设定使命后，Matrix 通过 CEO Office → OKR 分解任务，驱动多个 Agent 部门（Research/Engineering/Growth/Product）并行执行，并以 proof（文件、上线页面、收入等）闭环。",
+        "title": "Flowith 推出「Matrix」",
+        "summary": "Flowith 团队发布「Matrix」，定位为自演化、多层级的 multi-agent runtime。用户设定使命后，Matrix 通过 CEO Office → OKR 分解任务，",
         "source": "X：邵猛 (@shao__meng)",
         "url": "https://x.com/shao__meng/status/2071969126298587253",
         "time": "6月30日 22:48",
@@ -1808,7 +1808,7 @@
       },
       {
         "title": "Sam Altman声称不为钱，但通过OpenAI合作伙伴企业赚取数十亿美元",
-        "summary": "Sam Altman声称在OpenAI没有股份且不为钱，但通过持股与OpenAI有直接业务往来的公司获利数十亿美元，包括Helion Energy（价值超40亿美元）、Stripe、Retro Biosciences、Cerebras、Humane、Lattice、Formation Bio、Rain AI（OpenAI曾签5100万美元采购意向书）及Red...",
+        "summary": "Sam Altman声称在OpenAI没有股份且不为钱，但通过持股与OpenAI有直接业务往来的公司获利数十亿美元，包括Helion Energy（价值超40亿美元）、Stripe、Retro Biosciences、Cerebras、Hu。",
         "source": "X：cb_doge (@cb_doge)",
         "url": "https://x.com/cb_doge/status/2071959837274210733",
         "time": "6月30日 22:11",
@@ -1833,7 +1833,7 @@
     ],
     "mockEntertainment": [
       {
-        "title": "NotebookLM Short Video Overviews 全量上线 Web 英文版",
+        "title": "NotebookLM Short Video Overviews 全量上线",
         "summary": "NotebookLM 正式向 Web 英文用户全量推出 Short Video Overviews（短视频概览）功能。该功能可将复杂资料自动转化为 60 秒竖屏视频，深入讲解任意概念。",
         "source": "X：NotebookLM (@NotebookLM)",
         "url": "https://x.com/NotebookLM/status/2072043680442245276",
@@ -1881,7 +1881,7 @@
         "heat": 8
       },
       {
-        "title": "卧槽，Google这回不拉胯了， 这才是短视频真正该有的打开方式啊， NotebookLM可以把复杂资料直接做成六十秒竖屏概览， 刷信息流的功夫就能啃完一个硬核概念了🤯",
+        "title": "卧槽，Google这回不拉胯了， 这才是短视频真正该有的打开方式啊",
         "summary": "卧槽，Google这回不拉胯了， 这才是短视频真正该有的打开方式啊， NotebookLM可以把复杂资料直接做成六十秒竖屏概览， 刷信息流的功夫就能啃完一个硬核概念了🤯",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "url": "https://x.com/AYi_AInotes/status/2072029149187752259",
@@ -1889,8 +1889,8 @@
         "heat": 8
       },
       {
-        "title": "首钢换血李楠立新规，杜锋续约陷僵局，男篮21进12淘汰名单浮出水面——6月30日CBA&男篮世预赛动态一览",
-        "summary": "一、李楠上任“第一把火”：首钢夏训阵容大换血，老将续约看数据 6月22日，赵睿、翟晓川",
+        "title": "首钢换血李楠立新规，杜锋续约陷僵局",
+        "summary": "7月1日 1:28，首钢换血李楠立新规，杜锋续约陷僵局。一、李楠上任“第一把火”：首钢夏训阵容大换血，老将续约看数据 6月22日，赵睿、翟晓川",
         "source": "阿牛侃球不绕弯",
         "url": "https://view.inews.qq.com/a/20260701A00OKH00?scene=news-skill",
         "time": "7月1日 1:28",
@@ -1922,7 +1922,7 @@
       },
       {
         "title": "扎克·布朗给出了维斯塔潘加盟迈凯伦的唯一可能",
-        "summary": "日前，迈凯伦CEO 扎克·布朗回应了关于迈凯伦正在与红牛车手马克斯·维斯塔潘接触的传闻，他表示，迈凯伦F1车队对现有车手阵容非常满意，只有一种情况维斯塔潘下赛季会加盟迈凯伦，那就是“有人从浴缸里出来",
+        "summary": "近期，迈凯伦CEO 扎克·布朗回应了关于迈凯伦正在与红牛车手马克斯·维斯塔潘接触的传闻，他表示，迈凯伦F1车队对现有车手阵容非常满意，只有一种情况维斯塔潘下赛季会加盟迈凯伦，那就是“有人从浴缸里出来",
         "source": "赛车小喇叭",
         "url": "https://view.inews.qq.com/a/20260630A0BF7T00?scene=news-skill",
         "time": "6月30日 23:31",
@@ -1986,7 +1986,7 @@
       },
       {
         "title": "音综进入迭代周期，新主线将是“成长”",
-        "summary": "新音乐产业观察原创文章，未经授权谢绝转载",
+        "summary": "6月30日 21:17，音综进入迭代周期，新主线将是“成长”。新音乐产业观察原创文章，未经授权谢绝转载",
         "source": "新音乐特快",
         "url": "https://view.inews.qq.com/a/20260630A0ADJE00?scene=news-skill",
         "time": "6月30日 21:17",
@@ -2010,7 +2010,7 @@
       },
       {
         "title": "每体：明格萨本周敲定离队，今夏将自由身告别塞尔塔",
-        "summary": "据《每日体育报》报道，奥斯卡-明格萨在塞尔塔的未来本周将迎来定局。他的合同将在6月30日到期。",
+        "summary": "6月30日 20:41，每体：明格萨本周敲定离队，今夏将自由身告别塞尔塔。据《每日体育报》报道，奥斯卡-明格萨在塞尔塔的未来本周将迎来定局。他的合同将在6月30日到期。",
         "source": "懂球帝",
         "url": "https://view.inews.qq.com/a/20260630A0A24K00?scene=news-skill",
         "time": "6月30日 20:41",
@@ -2034,7 +2034,7 @@
       },
       {
         "title": "老板亲自下场了！陈海涛坐上谈判桌，宏远大外援引援要加速了",
-        "summary": "宏远老板陈海涛亲自出马了。据知情人士透露，宏远老板陈海涛近期亲自参与了球队大外援引进的谈判工作。",
+        "summary": "6月30日 20:14，老板亲自下场了！陈海涛坐上谈判桌，宏远大外援引援要加速了。宏远老板陈海涛亲自出马了。据知情人士透露，宏远老板陈海涛近期亲自参与了球队大外援引进的谈判工作。",
         "source": "不懂个球",
         "url": "https://view.inews.qq.com/a/20260630A09ULC00?scene=news-skill",
         "time": "6月30日 20:14",
@@ -2066,7 +2066,7 @@
       },
       {
         "title": "三展联动High翻一夏!上海国际游戏动漫月启幕",
-        "summary": "第二届上海国际游戏动漫月新闻发布会，6月29日晚在黄浦江畔“上海之星”游船上盛大启幕。今年的游戏动漫月将延续CCG EXPO、bilibiliworld、Chinajoy三大动漫展会联动，以“漫动City，High翻一夏”为主题，掀起盛夏消费热潮，同时助力原创IP打造，赋能国潮国漫发展。",
+        "summary": "第二届上海国际游戏动漫月新闻发布会，6月29日晚在黄浦江畔“上海之星”游船上盛大启幕。今年的游戏动漫月将延续CCG EXPO、bilibiliworld、Chinajoy三大动漫展会联动，以“漫动City，High翻一夏”为主题，",
         "source": "看看新闻Knews",
         "url": "https://view.inews.qq.com/a/20260630A09JIG00?scene=news-skill",
         "time": "6月30日 19:39",
@@ -2084,7 +2084,7 @@
       },
       {
         "title": "《东方风云榜》揭晓，汪苏泷刘宇宁张碧晨等获奖",
-        "summary": "6月29日晚，第33届《东方风云榜》音乐盛典在上海梅赛德斯-奔驰文化中心落幕。本届盛典以“双日狂响曲”为主题，首创双日展演模式，首日“万川归流 荣耀交响”汇聚刘宇、刘宇宁、刘雨昕、汪苏泷、颜人中、张碧晨、张新成等25组歌手、音乐人，带来热门金曲与新歌首秀，为现场万名歌迷奉上视听盛宴。",
+        "summary": "6月29日晚，第33届《东方风云榜》音乐盛典在上海梅赛德斯-奔驰文化中心落幕。本届盛典以“双日狂响曲”为主题，首创双日展演模式，首日“万川归流 荣耀交响”汇聚刘宇、刘宇宁、刘雨昕、汪苏泷、颜人中、张碧晨、张新成等25组歌手、音乐人，",
         "source": "澎湃新闻",
         "url": "https://view.inews.qq.com/a/20260630A09DFP00?scene=news-skill",
         "time": "6月30日 19:20",
@@ -2092,7 +2092,7 @@
       },
       {
         "title": "媒体人：新赛季CBA外援新规落地，注册薪资政策全面更新",
-        "summary": "雷速体育6月30日讯 媒体人球圈赵探长转发了联赛官方出台的新赛季外援相关管理规定，涉及注册、人员流动、薪资帽三大核心板块，细则如下：1. 注册管控：单队同时最多注册3名外援，单赛季累计注册上限6人次，单外援单赛季仅可两次注册；赛季内被取消注册的外援，无法加盟其他CBA及NBL俱乐部。",
+        "summary": "雷速体育6月30日讯 媒体人球圈赵探长转发了联赛官方出台的新赛季外援相关管理规定，涉及注册、人员流动、薪资帽三大核心板块，细则如下：1. 注册管控：单队同时最多注册3名外援，单赛季累计注册上限6人次，单外援单赛季仅可两次注册；",
         "source": "雷速体育",
         "url": "https://view.inews.qq.com/a/20260630A09D4L00?scene=news-skill",
         "time": "6月30日 19:19",
@@ -2124,7 +2124,7 @@
       },
       {
         "title": "《生化危机》电影曝新剧照 类似《指环王》追随的是一个傻瓜",
-        "summary": "由《武器》与《野蛮人》导演扎克·克雷格执导的新版《生化危机》电影，将讲述一个“白痴”故事，导演称影片叙事风格类似于《指环王》。克雷格在接受《帝国》杂志采访时表示，奥斯汀·艾布拉姆斯饰演的角色布莱恩是一名医疗快递员，他是一个“普通人”，却卷入了一场致命而恐怖的冒险之中。",
+        "summary": "由《武器》与《野蛮人》导演扎克·克雷格执导的新版《生化危机》电影，将讲述一个“白痴”故事，导演称影片叙事风格类似于《指环王》。克雷格在接受《帝国》杂志采访时表示，奥斯汀·艾布拉姆斯饰演的角色布莱恩是一名医疗快递员，他是一个“普通人”，",
         "source": "黑色玫瑰",
         "url": "https://view.inews.qq.com/a/20260630A08Q1S00?scene=news-skill",
         "time": "6月30日 18:14",
@@ -2156,7 +2156,7 @@
       },
       {
         "title": "整治影视舆情黑产，不能只靠事后补救丨封面评论",
-        "summary": "一个拥有千万粉丝网络敲诈团伙落网，揭开了娱乐圈舆情黑产的遮羞布。",
+        "summary": "6月30日 17:29，整治影视舆情黑产，不能只靠事后补救丨封面评论。一个拥有千万粉丝网络敲诈团伙落网，揭开了娱乐圈舆情黑产的遮羞布。",
         "source": "封面新闻",
         "url": "https://view.inews.qq.com/a/20260630A083WC00?scene=news-skill",
         "time": "6月30日 17:29",
@@ -2172,7 +2172,7 @@
       },
       {
         "title": "已致欧洲创纪录热浪，“热穹顶”将笼罩美国中东部并波及世界杯举办城市",
-        "summary": "据新华社6月30日消息：天气预报显示，导致欧洲创纪录热浪的“热穹顶”本周预计将笼罩美国中部和东部地区，一些举行世界杯足球赛的城市将面临体感温度超过40摄氏度的高温。根据美国国家气象局发布的预警，费城及周边地区7月1日至4日持续高温，加上潮湿的空气，白天体感温度可达43.3摄氏度。",
+        "summary": "据新华社6月30日消息：天气预报显示，导致欧洲创纪录热浪的“热穹顶”本周预计将笼罩美国中部和东部地区，一些举行世界杯足球赛的城市将面临体感温度超过40摄氏度的高温。",
         "source": "九派新闻",
         "url": "https://view.inews.qq.com/a/20260630A081BN00?scene=news-skill",
         "time": "6月30日 17:24",
@@ -2180,7 +2180,7 @@
       },
       {
         "title": "周深 · 深深的巡回演唱会 | 沈阳站6月29日开票啦！！！",
-        "summary": "期待 兴奋 紧张周深2026「深深的」巡回演唱会·沈阳站今！同频奔赴相见，无论距离有多远。",
+        "summary": "6月30日 17:20，周深 · 深深的巡回演唱会 | 沈阳站6月29日开票啦！！！。期待 兴奋 紧张周深2026「深深的」巡回演唱会·沈阳站今！同频奔赴相见，无论距离有多远。",
         "source": "周深的小圈",
         "url": "https://view.inews.qq.com/a/20260630A080LA00?scene=news-skill",
         "time": "6月30日 17:20",
@@ -2220,7 +2220,7 @@
       },
       {
         "title": "第33届东方风云榜音乐盛典举行 汪苏泷斩获三项大奖 刘宇宁获最佳男歌手",
-        "summary": "6月29日，第33届《东方风云榜》音乐盛典首日活动“万川归流 荣耀交响”在上海梅赛德斯-奔驰文化中心举办，今年盛典首创双日展演模式，主题定为“双日狂响曲”，6月30日还将开启聚焦新生代的新势力之夜。此次盛典红毯首次设于复兴岛船台公园，依托当地工业遗存与江景打造特色星光大道，20余组音乐人陆续亮相。",
+        "summary": "6月29日，第33届《东方风云榜》音乐盛典首日活动“万川归流 荣耀交响”在上海梅赛德斯-奔驰文化中心举办，今年盛典首创双日展演模式，主题定为“双日狂响曲”，6月30日还将开启聚焦新生代的新势力之夜。",
         "source": "新民晚报",
         "url": "https://view.inews.qq.com/a/20260630A07OZI00?scene=news-skill",
         "time": "6月30日 16:56",
@@ -2235,8 +2235,8 @@
         "heat": 6
       },
       {
-        "title": "交通运输部谈无目的地海上游：增配流行演唱、脱口秀、魔术表演、主题派对等娱乐活动，海上运动场所全面开放，美食24小时“不打烊”",
-        "summary": "6月30日下午，国务院新闻办公室举行新闻发布会，介绍推进水运高质量发展有关情况，并答记者问。",
+        "title": "交通运输部谈无目的地海上游：增配流行演唱、脱口秀、魔术表演、主题派对等娱乐活动",
+        "summary": "6月30日 16:49，交通运输部谈无目的地海上游：增配流行演唱、脱口秀、魔术表演、主题派对等娱乐活动。6月30日下午，国务院新闻办公室举行新闻发布会，介绍推进水运高质量发展有关情况，并答记者问。",
         "source": "政知见",
         "url": "https://view.inews.qq.com/a/20260630A07NTN00?scene=news-skill",
         "time": "6月30日 16:49",
@@ -2244,15 +2244,15 @@
       },
       {
         "title": "徐昕将出国打球，曝广东男篮欲提前回购，广州男篮获得资金补偿",
-        "summary": "自从媒体人付政浩透露了杜锋和广东男篮的续约还没有进展后，广东男篮有意换帅的消息就引发了球迷关注。",
+        "summary": "6月30日 16:34，徐昕将出国打球，曝广东男篮欲提前回购，广州男篮获得资金补偿。自从媒体人付政浩透露了杜锋和广东男篮的续约还没有进展后，广东男篮有意换帅的消息就引发了球迷关注。",
         "source": "中国篮坛速递",
         "url": "https://view.inews.qq.com/a/20260630A07FMA00?scene=news-skill",
         "time": "6月30日 16:34",
         "heat": 6
       },
       {
-        "title": "小米澎湃 OS 3 升级：新增 2026 世界杯赛程小部件，相册 AI 修图工具整合",
-        "summary": "小米澎湃 OS 3 6月29日官宣升级。足球赛事方面：超级小爱新增赛事预约与问答（需 7.12 及以上，数据由中国移动灵犀提供）；小米超级岛可常驻显示小红书（≥9.34.0）、直播吧（≥7.2.1）赛事比分；桌面新增 2026 世界杯赛程小部件（数据来自腾讯体育）。",
+        "title": "小米澎湃 OS 3 升级：新增 2026 世界杯赛程小部件",
+        "summary": "小米澎湃 OS 3 6月29日官宣升级。足球赛事方面：超级小爱新增赛事预约与问答（需 7.12 及以上，数据由中国移动灵犀提供）；小米超级岛可常驻显示小红书（≥9.34.0）、直播吧（≥7.2.1）赛事比分；",
         "source": "IT之家（RSS）",
         "url": "https://www.ithome.com/0/970/591.htm",
         "time": "6月30日 16:18",
@@ -2268,7 +2268,7 @@
       },
       {
         "title": "国家级“双拍”赛事首登滨城 网球与匹克球融合赛7月大连开打",
-        "summary": "7月4日至5日，2026中国网球匹克球双拍赛（大连站）将在大连开发区网球中心正式挥拍。这是中国网球协会重点打造的原创赛事IP首次登陆大连，设男子单打、女子单打、男子双打、女子双打、混合双打五大组别，一场融合网球力量与匹克球灵动激情的国家级赛事即将在海滨城市火热上演。",
+        "summary": "7月4日至5日，2026中国网球匹克球双拍赛（大连站）将在大连开发区网球中心正式挥拍。这是中国网球协会重点打造的原创赛事IP首次登陆大连，设男子单打、女子单打、男子双打、女子双打、混合双打五大组别，",
         "source": "半岛晨报",
         "url": "https://view.inews.qq.com/a/20260630A075ZJ00?scene=news-skill",
         "time": "6月30日 16:09",
@@ -2276,7 +2276,7 @@
       },
       {
         "title": "韩媒：日本光速止步淘汰赛首轮，想追上韩国世界杯四强成绩太难了",
-        "summary": "北京时间6月30日，韩国媒体针对日本未能打进16强表示日本想追上韩国世界杯四强的战绩太难了。",
+        "summary": "6月30日 15:11，韩媒：日本光速止步淘汰赛首轮，想追上韩国世界杯四强成绩太难了。北京时间6月30日，韩国媒体针对日本未能打进16强表示日本想追上韩国世界杯四强的战绩太难了。",
         "source": "秀才侃体育",
         "url": "https://view.inews.qq.com/a/20260630A06KME00?scene=news-skill",
         "time": "6月30日 15:11",
@@ -2299,7 +2299,7 @@
         "heat": 6
       },
       {
-        "title": "以“护剧”为名拼接明星八卦制造负面舆论进行敲诈，“某某炸姐” 等多个大V账号被封禁",
+        "title": "以“护剧”为名拼接明星八卦制造负面舆论进行敲诈",
         "summary": "据南方都市报，6月30日，“某某炸姐” “某某小炸炸” “某某姨太好了”等多个收费删演员所谓“黑料”的大V账号被封禁。",
         "source": "九派新闻",
         "url": "https://view.inews.qq.com/a/20260630A05TLE00?scene=news-skill",
@@ -2316,7 +2316,7 @@
       },
       {
         "title": "微言 | 铲除“护剧”黑产，影视行业当告别流量焦虑",
-        "summary": "据多家媒体报道，6月16日，该团伙便借机要求视频平台或明星经纪公司购买其所谓“护剧”服务",
+        "summary": "6月30日 12:55，微言 | 铲除“护剧”黑产，影视行业当告别流量焦虑。据多家媒体报道，6月16日，该团伙便借机要求视频平台或明星经纪公司购买其所谓“护剧”服务",
         "source": "上观新闻",
         "url": "https://view.inews.qq.com/a/20260630A05ATW00?scene=news-skill",
         "time": "6月30日 12:55",
@@ -2331,8 +2331,8 @@
         "heat": 6
       },
       {
-        "title": "唱响红色经典！“同心向党 歌声飞扬”茌平区庆祝中国共产党成立105周年红歌演唱会即将上演",
-        "summary": "▲茌平区融媒体中心官方微信号百年风华正茂，红歌赓续初心。2026年是中国共产党成立105周年，为深情回顾党的百年奋斗征程，讴歌党的光辉伟业，传承红色基因、凝聚奋进力量，茌平区重磅推出“同心向党 歌声飞扬”红歌演唱会，用嘹亮红歌礼赞新时代，用赤诚初心致敬跟党走！",
+        "title": "茌平区庆祝建党105周年红歌演唱会火热开唱",
+        "summary": "茌平区推出\"同心向党 歌声飞扬\"庆祝中国共产党成立105周年红歌演唱会，深情回顾党的百年奋斗征程，讴歌党的光辉伟业，传承红色基因、凝聚奋进力量。",
         "source": "茌平融媒",
         "url": "https://view.inews.qq.com/a/20260630A055R900?scene=news-skill",
         "time": "6月30日 12:37",
@@ -2371,7 +2371,7 @@
         "heat": 6
       },
       {
-        "title": "周四在中午飞书有个直播分享。 大家想听 codex+飞书cli 解决什么问题？ 调研下，看准备的案例是否合适。 直播预约地址： https：//link.feishu.io/0702demo",
+        "title": "周四在中午飞书有个直播分享。 大家想听 codex+飞书cli 解决什么问题？",
         "summary": "周四在中午飞书有个直播分享。大家想听 codex+飞书cli 解决什么问题？调研下，看准备的案例是否合适。",
         "source": "X：Vista (@vista8)",
         "url": "https://x.com/vista8/status/2071788484357218701",
@@ -2387,7 +2387,7 @@
         "heat": 6
       },
       {
-        "title": "抱歉，您提供的推文内容只包含一个直播链接，但没有推文的文字内容。我无法访问外部链接，因此无法进行翻译和标题拟定。",
+        "title": "抱歉，您提供的推文内容只包含一个直播链接",
         "summary": "请您将主推文的**原文文本**（包括可能存在的引用推文部分）直接粘贴在消息中，我会立即按照您的规则处理。需要您提供的内容格式示例： ``` 主推文内容： （此处放推文文字） ```",
         "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
         "url": "https://x.com/alibaba_cloud/status/2071776331336192157",
@@ -2395,7 +2395,7 @@
         "heat": 6
       },
       {
-        "title": "阿汤哥跑世界杯 | 上游新闻现场见证最大冷门！巴拉圭球迷激情呐喊，记者亲历啤酒雨狂欢",
+        "title": "阿汤哥跑世界杯 | 上游新闻现场见证最大冷门！巴拉圭球迷激情呐喊",
         "summary": "当地时间6月29日下午，阳光普照波士顿体育场，2026美加墨世界杯淘汰赛首轮爆出惊天冷门。夺冠热门德国被巴拉圭点球淘汰，上游新闻",
         "source": "上游新闻",
         "url": "https://view.inews.qq.com/a/20260630A0368000?scene=news-skill",
@@ -2404,7 +2404,7 @@
       },
       {
         "title": "“金融街杯”羽毛球公开赛开打！",
-        "summary": "日前，“金融街杯”体育季·尤尼克斯羽毛球公开赛正式开赛，赛事吸引96支队伍、近千名选手参赛。本次赛事由金融街街道、西城区体育局、金融街商会联合主办。",
+        "summary": "近期，“金融街杯”体育季·尤尼克斯羽毛球公开赛正式开赛，赛事吸引96支队伍、近千名选手参赛。本次赛事由金融街街道、西城区体育局、金融街商会联合主办。",
         "source": "北京日报客户端",
         "url": "https://view.inews.qq.com/a/20260630A02ZE000?scene=news-skill",
         "time": "6月30日 9:44",
@@ -2412,7 +2412,7 @@
       },
       {
         "title": "“真解气啊” 日本队被绝杀，韩国狂欢：前国脚憋不住笑，男主播跳舞",
-        "summary": "6月30日凌晨，日本队1-2不敌巴西队，无缘16强。对于这个结果，韩国方面似乎非常开心。",
+        "summary": "6月30日 7:49，“真解气啊” 日本队被绝杀，韩国狂欢：前国脚憋不住笑，男主播跳舞。6月30日凌晨，日本队1-2不敌巴西队，无缘16强。对于这个结果，韩国方面似乎非常开心。",
         "source": "风过乡足球精华",
         "url": "https://view.inews.qq.com/a/20260630A0249L00?scene=news-skill",
         "time": "6月30日 7:49",
@@ -2468,7 +2468,7 @@
       },
       {
         "title": "CBA：徐昕拒绝NBA夏联，马刺曾经邀约，留队备战男篮世预赛！",
-        "summary": "中国男篮正在集结备战男篮世预赛的中锋徐昕，目前已确定不会接受NBA球队夏季联赛邀请。据国内媒体披露，圣安东尼奥马刺队此前向徐昕方面发出试训及夏季联赛出战邀请，但其团队与篮协方面评估后决定放弃，徐昕将全程跟队完成世预赛征程后直接回国休整，暂不赴美。",
+        "summary": "中国男篮正在集结备战男篮世预赛的中锋徐昕，目前已确定不会接受NBA球队夏季联赛邀请。据国内媒体披露，圣安东尼奥马刺队近期向徐昕方面发出试训及夏季联赛出战邀请，但其团队与篮协方面评估后决定放弃，徐昕将全程跟队完成世预赛征程后直接回国休整，暂不赴美。",
         "source": "体坛微侃球",
         "url": "https://view.inews.qq.com/a/20260629A05IHU00?scene=news-skill",
         "time": "6月30日 0:10",
@@ -2478,7 +2478,7 @@
     "mockHenanNews": [
       {
         "title": "昔日被曾诚怒推的菜鸟！如今成为河南队长，还官宣跟俱乐部续约",
-        "summary": "日前，河南队经过全面考虑之后官宣跟队长王上源续约。这个消息让很多球迷都觉得非常欣喜，因为王上源如今是河南队不可或缺核心，作用堪比超级外援。",
+        "summary": "近期，河南队经过全面考虑之后官宣跟队长王上源续约。这个消息让很多球迷都觉得非常欣喜，因为王上源如今是河南队不可或缺核心，作用堪比超级外援。",
         "source": "懂个球",
         "url": "https://view.inews.qq.com/a/20260629A06ILR00?scene=news-skill",
         "time": "6月29日 15:42",
@@ -2502,7 +2502,7 @@
       },
       {
         "title": "从0-1到2-1！中超卫冕冠军爆发，海港客场逆转，河南联赛遭遇连败",
-        "summary": "6月27日晚中超第16轮，郑州航海体育场的这场对决，开赛前没多少人看好上海海港能拿分。",
+        "summary": "6月27日 23:25，从0-1到2-1！中超卫冕冠军爆发，海港客场逆转，河南联赛遭遇连败。6月27日晚中超第16轮，郑州航海体育场的这场对决，开赛前没多少人看好上海海港能拿分。",
         "source": "体坛黑马",
         "url": "https://view.inews.qq.com/a/20260627A0ALQJ00?scene=news-skill",
         "time": "6月27日 23:25",
@@ -2582,7 +2582,7 @@
       },
       {
         "title": "【赛前发布会】拉莫斯：对阵卫冕冠军 球队士气高涨",
-        "summary": "2026怡宝中超联赛第16轮河南俱乐部彩陶坊VS上海海港⏰6月27日 19:35郑州航海体育场咪咕视频APP(二台俱乐部官方直播间)/移动高清/咪视界/五星体育6月27日19:35，2026怡宝中超联赛第16轮，河南俱乐部彩陶坊将在主场迎战上海海港。今天下午，河南俱乐部彩陶坊主教练拉莫斯携球员刘易鑫出席赛前新闻发布会。",
+        "summary": "2026怡宝中超联赛第16轮河南俱乐部彩陶坊VS上海海港⏰6月27日 19:35郑州航海体育场咪咕视频APP(二台俱乐部官方直播间)/移动高清/咪视界/五星体育6月27日19:35，2026怡宝中超联赛第16轮，",
         "source": "河南足球俱乐部",
         "url": "https://view.inews.qq.com/a/20260626A0A9EA00?scene=news-skill",
         "time": "6月26日 20:24",
@@ -2614,7 +2614,7 @@
       },
       {
         "title": "计划有变！河南队新外援最后时刻换人，葡超快马，身价150万欧",
-        "summary": "近几天关于河南队引援的消息不少，但是变化也很大，此前网传的保利尼奥·博亚没有谈成。",
+        "summary": "6月24日 9:43，计划有变！河南队新外援最后时刻换人，葡超快马，身价150万欧。近几天关于河南队引援的消息不少，但是变化也很大，近期网传的保利尼奥·博亚没有谈成。",
         "source": "风电体育",
         "url": "https://view.inews.qq.com/a/20260624A036HZ00?scene=news-skill",
         "time": "6月24日 9:43",
@@ -2656,7 +2656,7 @@
       },
       {
         "title": "日本队酝酿换帅？森保一去留未定，4大备胎浮现，中超外教在列",
-        "summary": "王晓瑞报道 日本队1比2不敌巴西队止步32强。赛后，围绕着“森保一是否或应该继续执教”得到热议。",
+        "summary": "6月30日 15:19，日本队酝酿换帅？森保一去留未定，4大备胎浮现，中超外教在列。王晓瑞报道 日本队1比2不敌巴西队止步32强。赛后，围绕着“森保一是否或应该继续执教”得到热议。",
         "source": "体坛周报",
         "url": "https://view.inews.qq.com/a/20260630A06OE400?scene=news-skill",
         "time": "6月30日 15:19",
@@ -2688,7 +2688,7 @@
       },
       {
         "title": "火力全开，老牌强队强势回归——中超联赛第十六轮综述",
-        "summary": "时隔四周，中超联赛战火重燃。经过休养生息之后的诸强，果然聚集了足够强大的能量。",
+        "summary": "6月29日 22:33，火力全开，老牌强队强势回归——中超联赛第十六轮综述。时隔四周，中超联赛战火重燃。经过休养生息之后的诸强，果然聚集了足够强大的能量。",
         "source": "正观新闻",
         "url": "https://view.inews.qq.com/a/20260629A0B0EK00?scene=news-skill",
         "time": "6月29日 22:33",
@@ -2744,7 +2744,7 @@
       },
       {
         "title": "中超下半程重启，上海两队强劲复苏，申花、海港双双逆转！ | 中超第16轮",
-        "summary": "上周末，中超联赛第16轮揭开本赛季下半程竞争的大幕。上海两队双双逆转对手。",
+        "summary": "6月29日 10:03，中超下半程重启，上海两队强劲复苏，申花、海港双双逆转！ | 中超第16轮。上周末，中超联赛第16轮揭开本赛季下半程竞争的大幕。上海两队双双逆转对手。",
         "source": "五星体育广播",
         "url": "https://view.inews.qq.com/a/20260629A0347Y00?scene=news-skill",
         "time": "6月29日 10:03",
@@ -2767,7 +2767,7 @@
         "heat": 5
       },
       {
-        "title": "看中超16轮竞技（无罚分版）积分榜，蓉城无争议霸榜，山东重庆申花并驾齐驱，津门虎三镇难兄难弟",
+        "title": "看中超16轮竞技（无罚分版）积分榜，蓉城无争议霸榜，山东重庆申花并驾齐驱",
         "summary": "中超第16轮战罢，官方积分榜与剔除历史罚分的“纯竞技”积分榜同时出炉，两张榜单反映了截然不同的球队竞技状态。",
         "source": "潮汐体坛",
         "url": "https://view.inews.qq.com/a/20260628A08QK400?scene=news-skill",
@@ -2807,7 +2807,7 @@
         "heat": 5
       },
       {
-        "title": "中超战报 | 拉唐梅开二度吴曦点射阿苏埃世界波 上海申花客场4-1逆转战胜大连英博",
+        "title": "中超战报 | 拉唐梅开二度吴曦点射阿苏埃世界波",
         "summary": "北京时间6月28日19:00，2026怡宝中超联赛第16轮上海申花客场对阵大连英博的比赛在大连梭鱼湾足球场进行。开场第4分钟，高天意开出角球，朱辰杰头球攻门击中横梁。",
         "source": "上海申花足球俱乐部",
         "url": "https://view.inews.qq.com/a/20260628A08C0800?scene=news-skill",
@@ -2840,7 +2840,7 @@
       },
       {
         "title": "【中超】西海岸联赛12轮不败 蓉城领先13分稳坐榜首",
-        "summary": "6月26日-6月28日，中超第16轮战火重燃。成都蓉城客场3比2战胜深圳新鹏城积40分继续领跑。",
+        "summary": "6月28日 21:39，【中超】西海岸联赛12轮不败 蓉城领先13分稳坐榜首。6月26日-6月28日，中超第16轮战火重燃。成都蓉城客场3比2战胜深圳新鹏城积40分继续领跑。",
         "source": "体坛周报",
         "url": "https://view.inews.qq.com/a/20260628A081OT00?scene=news-skill",
         "time": "6月28日 21:39",
@@ -2881,7 +2881,7 @@
         "heat": 8
       },
       {
-        "title": "Netflix 在《Wonka's The Golden Ticket》真人秀中使用 AI 复刻 Gene Wilder 声音",
+        "title": "Netflix 在《Wonka's The Golden",
         "summary": "Netflix 真人秀《Wonka's The Golden Ticket》将于 9 月 23 日首播。预告片旁白由 AI 生成，复刻了已故演员 Gene Wilder 的声音。Netflix 与 ElevenLabs 合作，并已获 Wilder 家人同意。",
         "source": "The Verge：AI（RSS）",
         "url": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
@@ -2906,7 +2906,7 @@
       },
       {
         "title": "卢放：岚图已成产品布局最全车企？岚图的布局该咋看？",
-        "summary": "IT之家 6 月 30 日消息，岚图汽车科技股份有限公司董事长卢放6月29日发布长文，宣布岚图泰山 X8 纯电版在云峰工厂正式下线。他表示，从第一款岚图 FREE，到如今的泰山 X8 纯电版，岚图已形成 FREE、梦想家、追光、知音、泰山五大车型矩阵，成为国内产品布局最为全面的新能源车企之一。",
+        "summary": "IT之家 6 月 30 日消息，岚图汽车科技股份有限公司董事长卢放6月29日发布长文，宣布岚图泰山 X8 纯电版在云峰工厂正式下线。他表示，从第一款岚图 FREE，到如今的泰山 X8 纯电版，",
         "source": "瀚海观察",
         "url": "https://view.inews.qq.com/a/20260630A0BCXO00?scene=news-skill",
         "time": "6月30日 23:21",
@@ -2954,23 +2954,23 @@
       },
       {
         "title": "市值5000亿！果链一哥冲刺港股，募资207亿元",
-        "summary": "智东西（公众号：zhidxcom）",
+        "summary": "6月30日 22:30，市值5000亿！果链一哥冲刺港股，募资207亿元。智东西（公众号：zhidxcom）",
         "source": "智东西",
         "url": "https://view.inews.qq.com/a/20260630A0AYXU00?scene=news-skill",
         "time": "6月30日 22:30",
         "heat": 7
       },
       {
-        "title": "Fireworks AI 推出 Serverless 2.0，通过三种服务层级解决 503 拒绝请求问题",
-        "summary": "Fireworks AI 推出 Serverless 2.0，通过同一 API 端点下的三种服务层级解决共享集群高负载时的 503 Service Overloaded 问题。Standard 为默认经济型；Priority 在拥塞时提供更强准入，价格更高；Fast 通过优化路径提升生成 token 吞吐量，适用于低延迟场景。",
+        "title": "Fireworks AI 推出 Serverless 2.0",
+        "summary": "Fireworks AI 推出 Serverless 2.0，通过同一 API 端点下的三种服务层级解决共享集群高负载时的 503 Service Overloaded 问题。",
         "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
         "url": "https://x.com/omarsar0/status/2071964375125037343",
         "time": "6月30日 22:29",
         "heat": 7
       },
       {
-        "title": "需求回补推动国内PMI重回扩张，国内出口涨价源于外需驱动，增长超预期与通胀温和支撑美债美元---0630宏观脱水",
-        "summary": "6月制造业PMI回升至50.3%，高于预期及往年季节性水平。中东局势缓和带动油价下行，此前被高油价延迟的需求释放推动PMI重回荣枯线上，新订单与新出口订单回升幅度大于生产扩张。",
+        "title": "需求回补推动国内PMI重回扩张，国内出口涨价源于外需驱动",
+        "summary": "6月制造业PMI回升至50.3%，高于预期及往年季节性水平。中东局势缓和带动油价下行，近期被高油价延迟的需求释放推动PMI重回荣枯线上，新订单与新出口订单回升幅度大于生产扩张。",
         "source": "华尔街见闻",
         "url": "https://view.inews.qq.com/a/20260630A0AVTJ00?scene=news-skill",
         "time": "6月30日 22:19",
@@ -2994,7 +2994,7 @@
       },
       {
         "title": "国内商品期货夜盘开盘多数上涨",
-        "summary": "期市夜盘开盘，国内期货主力合约多数上涨。合成橡胶、PVC、沪锡、纯苯、沪银涨超1%。",
+        "summary": "6月30日 22:01，国内商品期货夜盘开盘多数上涨。期市夜盘开盘，国内期货主力合约多数上涨。合成橡胶、PVC、沪锡、纯苯、沪银涨超1%。",
         "source": "中新经纬",
         "url": "https://view.inews.qq.com/a/20260630A0AQ3800?scene=news-skill",
         "time": "6月30日 22:01",
@@ -3026,7 +3026,7 @@
       },
       {
         "title": "国内期货夜盘开盘多数上涨 沪锡等涨超1%",
-        "summary": "人民财讯6月30日电，国内期货夜盘开盘多数上涨，沪锡、纯苯、沪银等涨超1%；菜粕跌超1%。",
+        "summary": "6月30日 21:06，国内期货夜盘开盘多数上涨 沪锡等涨超1%。人民财讯6月30日电，国内期货夜盘开盘多数上涨，沪锡、纯苯、沪银等涨超1%；菜粕跌超1%。",
         "source": "证券时报e公司",
         "url": "https://view.inews.qq.com/a/20260630A0AA0J00?scene=news-skill",
         "time": "6月30日 21:06",
@@ -3041,8 +3041,8 @@
         "heat": 7
       },
       {
-        "title": "Arena 企业级评测服务 AI Evaluations 上线 8 个月，年度经常性收入突破 1 亿美元",
-        "summary": "AI 模型评测平台 Arena 宣布，其企业级服务 AI Evaluations 上线仅 8 个月，年度经常性收入已突破 1 亿美元（约合 6.8 亿元人民币）。Arena 前身为加州大学伯克利分校 2023 年启动的 LMArena，2025 年 4 月公司化，同年 9 月推出 AI Evaluations，利用真人反馈数据帮助客户评估模型。",
+        "title": "Arena 企业级评测服务 AI Evaluations 上线 8 个月",
+        "summary": "AI 模型评测平台 Arena 宣布，其企业级服务 AI Evaluations 上线仅 8 个月，年度经常性收入已突破 1 亿美元（约合 6.8 亿元人民币）。",
         "source": "IT之家（RSS）",
         "url": "https://www.ithome.com/0/970/745.htm",
         "time": "6月30日 20:49",
@@ -3057,7 +3057,7 @@
         "heat": 7
       },
       {
-        "title": "上半年银行理财收益率“冰火两重天”！AI算力类产品暴涨近200%、悦己经济跌超60%",
+        "title": "上半年银行理财收益率“冰火两重天”！AI算力类产品暴涨近200%",
         "summary": "财联社6月30日讯（编辑 王蔚）2026年过半，银行理财市场在季节性波动与监管新规的共同影响下，走出了“震荡上行”的曲线。据相关渠道数据统计，上半年（截至6月26日），银行理财规模较去年末小幅上涨约0.6万亿元至34.59万亿元。",
         "source": "财联社",
         "url": "https://view.inews.qq.com/a/20260630A0A04200?scene=news-skill",
@@ -3066,7 +3066,7 @@
       },
       {
         "title": "立讯精密港股上市倒计时，最高募资约240亿港元",
-        "summary": "“果链”三巨头立讯精密、蓝思科技、领益智造即将在港股齐聚。6月30日，正式启动H股全球发售。",
+        "summary": "6月30日 20:28，立讯精密港股上市倒计时，最高募资约240亿港元。“果链”三巨头立讯精密、蓝思科技、领益智造即将在港股齐聚。6月30日，正式启动H股全球发售。",
         "source": "21世纪经济报道",
         "url": "https://view.inews.qq.com/a/20260630A09YIO00?scene=news-skill",
         "time": "6月30日 20:28",
@@ -3090,7 +3090,7 @@
       },
       {
         "title": "基金经理投资笔记 | 在AI驱动的半导体“超级周期”中，寻找投资的定力与节奏",
-        "summary": "《基金经理投资笔记》资产配置系列以配置驭周期，以专业守财富。",
+        "summary": "6月30日 20:13，基金经理投资笔记 | 在AI驱动的半导体“超级周期”中，寻找投资的定力与节奏。《基金经理投资笔记》资产配置系列以配置驭周期，以专业守财富。",
         "source": "金融界",
         "url": "https://view.inews.qq.com/a/20260630A09UBC00?scene=news-skill",
         "time": "6月30日 20:13",
@@ -3116,7 +3116,7 @@
       },
       {
         "title": "公募基金“中考成绩”揭晓在即 百余只“翻倍基”涌现",
-        "summary": "本文 百余只“翻倍基”涌现公募基金“中考”即将收官，一批绩优产品引人注目。",
+        "summary": "6月30日 19:50，公募基金“中考成绩”揭晓在即 百余只“翻倍基”涌现。本文 百余只“翻倍基”涌现公募基金“中考”即将收官，一批绩优产品引人注目。",
         "source": "YOUNG世界",
         "url": "https://view.inews.qq.com/a/20260630A09NQO00?scene=news-skill",
         "time": "6月30日 19:50",
@@ -3156,7 +3156,7 @@
       },
       {
         "title": "上周理财产品发行节奏提速 银行理财加码科创与REITs多元布局",
-        "summary": "上周银行理财市场发行热度回升，理财公司持续优化资产配置，重点布局科创股权、REITs等多元资产。",
+        "summary": "6月30日 19:01，上周理财产品发行节奏提速 银行理财加码科创与REITs多元布局。上周银行理财市场发行热度回升，理财公司持续优化资产配置，重点布局科创股权、REITs等多元资产。",
         "source": "财经网",
         "url": "https://view.inews.qq.com/a/20260630A097GL00?scene=news-skill",
         "time": "6月30日 19:01",
@@ -3164,7 +3164,7 @@
       },
       {
         "title": "上期能源调整国际铜期货相关合约涨跌停板幅度和交易保证金比例",
-        "summary": "6月30日，涨跌停板幅度和交易保证金比例调整如下： 国际铜期货BC2607、BC2608、BC2609、BC2610、BC2611、BC2612、BC2701、BC2702合约的涨跌停板幅度为9%，套保持仓交易保证金比例为10%，一般持仓交易保证金比例为11%。",
+        "summary": "6月30日，涨跌停板幅度和交易保证金比例调整如下： 国际铜期货BC2607、BC2608、BC2609、BC2610、BC2611、BC2612、BC2701、BC2702合约的涨跌停板幅度为9%，套保持仓交易保证金比例为10%，",
         "source": "每日经济新闻",
         "url": "https://view.inews.qq.com/a/20260630A096CW00?scene=news-skill",
         "time": "6月30日 18:58",
@@ -3172,7 +3172,7 @@
       },
       {
         "title": "救援一线丨洪水围困2名独居老人 安龙消防紧急转移",
-        "summary": "近期黔西南州消防救援支队接报警称安龙县招堤街道铜鼓井村因强降雨导致河道水位急剧攀升2名独居老人被洪水围困急需转移指挥中心立即调派安龙县龙城大道消防救援站出动2车6人携带橡皮艇、漂浮绳索、救生衣等器材驾驶橡皮艇与到场等待的村干部赶赴受灾村民家中消防救援人员抵达后发现受灾户院坝积水最深处已齐腰部面对不断上",
+        "summary": "近期黔西南州消防救援支队接报警称安龙县招堤街道铜鼓井村因强降雨导致河道水位急剧攀升2名独居老人被洪水围困急需转移指挥中心立即调派安龙县龙城大道消防救援站出动2车6人携带橡皮艇、漂浮绳索、救生衣等器材驾驶橡皮艇与到场等待的村干部赶赴受灾村民家。",
         "source": "黔西南消防",
         "url": "https://view.inews.qq.com/a/20260630A0952P00?scene=news-skill",
         "time": "6月30日 18:53",
@@ -3180,7 +3180,7 @@
       },
       {
         "title": "国内商业银行辟谣平台再添一员 招商银行官方辟谣账号上线运行",
-        "summary": "6月29日，中信集团与民生银行已于今年5月先后落地专属辟谣阵地：中信集团依托央企多元产融业务布局",
+        "summary": "6月30日 18:53，国内商业银行辟谣平台再添一员 招商银行官方辟谣账号上线运行。6月29日，中信集团与民生银行已于今年5月先后落地专属辟谣阵地：中信集团依托央企多元产融业务布局",
         "source": "金融界",
         "url": "https://view.inews.qq.com/a/20260630A094I600?scene=news-skill",
         "time": "6月30日 18:53",
@@ -3196,14 +3196,14 @@
       },
       {
         "title": "一边新发创新高，一边批量退场！上半年145只基金清盘创7年新高，绩优基金也难幸免",
-        "summary": "互联网新闻信息服务许可证号：51120180008今年上半年，公募基金清盘数量创近7年新高。Wind数据显示，今年上半年共有145只基金退出历史舞台，这一数据创下了自2019年以来的新高；与之相对应的是，今年上半年有863只新基金成立，创下了历年上半年新发基金的新高。",
+        "summary": "互联网新闻信息服务许可证号：51120180008今年上半年，公募基金清盘数量创近7年新高。Wind数据显示，今年上半年共有145只基金退出历史舞台，这一数据创下了自2019年以来的新高；",
         "source": "金融投资报",
         "url": "https://view.inews.qq.com/a/20260630A08V9700?scene=news-skill",
         "time": "6月30日 18:25",
         "heat": 6
       },
       {
-        "title": "美元指数重回100上方！有色ETF汇添富午后跌幅收窄，强美元压制能否持续？瑞银：美联储更可能降息！",
+        "title": "美元指数重回100上方！有色ETF汇添富午后跌幅收窄，强美元压制能否持续？瑞银",
         "summary": "6月30日，其中天齐锂业、赣锋锂业涨超2%；厦门钨业、华友钴业涨超1%；而紫金矿业、洛阳钼业跌超2%；中国铝业、云南",
         "source": "界面新闻",
         "url": "https://view.inews.qq.com/a/20260630A08U5J00?scene=news-skill",
@@ -3220,7 +3220,7 @@
       },
       {
         "title": "宏利调查：九成中国内地消费者追求“自主养老”",
-        "summary": "国际金融集团宏利日前发布的2026年宏利亚洲关怀调查显示，在家庭居住模式变化的背景下，养老模式亦发生变化，更多人开始追求“自主养老”。调查结果显示，中国内地受访者认为，随着寿命延长，预计未来需要照护和财务支持的年限将分别达到21年和13年。",
+        "summary": "国际金融集团宏利近期发布的2026年宏利亚洲关怀调查显示，在家庭居住模式变化的背景下，养老模式亦发生变化，更多人开始追求“自主养老”。调查结果显示，中国内地受访者认为，随着寿命延长，预计未来需要照护和财务支持的年限将分别达到21年和13年。",
         "source": "第一财经",
         "url": "https://view.inews.qq.com/a/20260630A08MPV00?scene=news-skill",
         "time": "6月30日 18:08",
@@ -3243,7 +3243,7 @@
         "heat": 6
       },
       {
-        "title": "韩国股市收涨，韩国综合指数盘中一度涨超3%！半导体板块领涨，三星电子涨3.41%，SK海力士涨0.84%",
+        "title": "韩国股市收涨，韩国综合指数盘中一度涨超3%！半导体板块领涨",
         "summary": "北京报道截至6月30日韩国股市收盘，韩国综合指数（KOSPI）收涨0.97%，报8476.47点，盘中一度涨超3%。其中，半导体板块领涨，三星电子涨3.41%，SK海力士涨0.84%。",
         "source": "中国经营报",
         "url": "https://view.inews.qq.com/a/20260630A08GWX00?scene=news-skill",
@@ -3259,7 +3259,7 @@
         "heat": 6
       },
       {
-        "title": "国常会通过《“十五五”碳达峰行动方案》 当“双碳”变成战略牵引，会带来哪些绿色经济增长点？",
+        "title": "国常会通过《“十五五”碳达峰行动方案》 当“双碳”变成战略牵引",
         "summary": "据新华社报道，6月29日召开的国务院常务会议审议通过了《“十五五”碳达峰行动方案》（下称《行动方案》）。会议指出，要发挥碳达峰碳中和战略牵引作用，促进经济结构转型升级，打造更多绿色经济增长点。",
         "source": "红星新闻",
         "url": "https://view.inews.qq.com/a/20260630A08ABD00?scene=news-skill",
@@ -3267,8 +3267,8 @@
         "heat": 6
       },
       {
-        "title": "AMD 发布 MoP 封装版 Versal Premium Gen 2 自适应 SoC，集成内存",
-        "summary": "AMD 公布 MoP 封装版 Versal Premium Gen 2 自适应 SoC，提供至高 32GB 集成 LPDDR5X 内存。MoP 封装可降低至多 60% PCB 面积，并将内存速率从 8533MT/s 提升至 9000MT/s，带宽增加 5.5%，同时简化 PCB 设计缩短上市时间。",
+        "title": "AMD 发布 MoP 封装版 Versal Premium Gen 2 自适应",
+        "summary": "AMD 公布 MoP 封装版 Versal Premium Gen 2 自适应 SoC，提供至高 32GB 集成 LPDDR5X 内存。MoP 封装可降低至多 60% PCB 面积，",
         "source": "IT之家（RSS）",
         "url": "https://www.ithome.com/0/970/658.htm",
         "time": "6月30日 17:33",
@@ -3316,7 +3316,7 @@
       },
       {
         "title": "史诗级投资潮！国产半导体，彻底爆了",
-        "summary": "半导体行业，大事件不断涌现，一件比一件重磅！苹果美光打嘴仗，长鑫受益？",
+        "summary": "6月30日 16:49，史诗级投资潮！国产半导体，彻底爆了。半导体行业，大事件不断涌现，一件比一件重磅！苹果美光打嘴仗，长鑫受益？",
         "source": "锐眼看财经",
         "url": "https://view.inews.qq.com/a/20260630A07LY000?scene=news-skill",
         "time": "6月30日 16:49",
@@ -3347,7 +3347,7 @@
         "heat": 6
       },
       {
-        "title": "DeepSeek V4正式版即将上线，云计算50ETF新华收涨6.21%，权重股中科曙光涨停",
+        "title": "DeepSeek V4正式版即将上线，云计算50ETF新华收涨6.21%",
         "summary": "截至2026年6月30日收盘，中证云计算50指数(931469)强势上涨5.76%，成分股中科曙光涨停，赛意信息上涨12.93%，优刻得上涨11.36%，紫光股份，星网锐捷等个股跟涨。云计算50ETF新华(560660)上涨6.21%，涨幅居全市场ETF前列。",
         "source": "界面新闻",
         "url": "https://view.inews.qq.com/a/20260630A073WW00?scene=news-skill",
@@ -3380,7 +3380,7 @@
       },
       {
         "title": "多元招商机制落地见效 津青协同培育高原六大特色产业",
-        "summary": "青海黄南州报道依托对口支援机制，近年来，天津援青指挥部正在加速构建跨州市、全产业链招商引资体系，2021年至2026年累计在青海黄南州招商落地注册企业55家，总投资额达4亿元，形成新能源、高原农牧、文旅、中藏药等协同发展的多元产业格局，为青海培育新质生产力提供可复制的区域协作样板。",
+        "summary": "青海黄南州报道依托对口支援机制，近年来，天津援青指挥部正在加速构建跨州市、全产业链招商引资体系，2021年至2026年累计在青海黄南州招商落地注册企业55家，总投资额达4亿元，形成新能源、高原农牧、文旅、中藏药等协同发展的多元产业格局，",
         "source": "中国经营报",
         "url": "https://view.inews.qq.com/a/20260630A0717K00?scene=news-skill",
         "time": "6月30日 15:56",
@@ -3404,7 +3404,7 @@
       },
       {
         "title": "隔壁在拍戏！剧组扎堆成都影视城 这里为何成为宝藏取景地？｜成都经济一线观察",
-        "summary": "邹阿江 “原来隔壁是剧组。”几天前，一位网友分享自己遛弯时偶遇《简单的人生》剧组拍摄的经历。",
+        "summary": "6月30日 15:19，隔壁在拍戏！剧组扎堆成都影视城 这里为何成为宝藏取景地？｜成都经济一线观察。邹阿江 “原来隔壁是剧组。”几天前，一位网友分享自己遛弯时偶遇《简单的人生》剧组拍摄的经历。",
         "source": "封面新闻",
         "url": "https://view.inews.qq.com/a/20260630A06OGD00?scene=news-skill",
         "time": "6月30日 15:19",
@@ -3412,7 +3412,7 @@
       },
       {
         "title": "今年国内动力电池全年装车需求预计达 888.7GWh，同比增长 15.8%",
-        "summary": "IT之家 6 月 30 日消息，据《中国证券报》报道，中国汽车动力电池产业创新联盟 2026 年度论坛于今天（30 日）召开，国家动力电池创新中心副主任马小利在论坛上表示，受新能源汽车增量放缓影响，国内动力电池行业由“高速增长”进入“稳健增长、结构升级”阶段，增速较 2025 年降低。",
+        "summary": "IT之家 6 月 30 日消息，据《中国证券报》报道，中国汽车动力电池产业创新联盟 2026 年度论坛于今天（30 日）召开，国家动力电池创新中心副主任马小利在论坛上表示，受新能源汽车增量放缓影响，",
         "source": "IT之家",
         "url": "https://view.inews.qq.com/a/20260630A06HD000?scene=news-skill",
         "time": "6月30日 15:00",
@@ -3427,8 +3427,8 @@
         "heat": 6
       },
       {
-        "title": "半导体、芯片概念股午后再度走强，关注半导体设备ETF易方达、科创芯片ETF易方达投资机会",
-        "summary": "叶峰6月29日午后，半导体、芯片概念股再度大幅拉升，截至14:12，中证半导体材料设备主题指数涨超2%，上证科创板芯片指数涨超4%。消息面上，全球存储龙头三星、SK海力士计划落地规模高达800万亿韩元的芯片产能建设项目，两家企业将各自新建2座专业芯片工厂，大幅加码全球高端芯片产能布局。",
+        "title": "半导体、芯片概念股午后再度走强，关注半导体设备ETF易方达",
+        "summary": "叶峰6月29日午后，半导体、芯片概念股再度大幅拉升，截至14:12，中证半导体材料设备主题指数涨超2%，上证科创板芯片指数涨超4%。消息面上，全球存储龙头三星、SK海力士计划落地规模高达800万亿韩元的芯片产能建设项目，",
         "source": "每日经济新闻",
         "url": "https://view.inews.qq.com/a/20260630A06F1000?scene=news-skill",
         "time": "6月30日 14:53",
@@ -3452,7 +3452,7 @@
       },
       {
         "title": "“十五五”新型能源规划落地！科创新能源ETF富国盘中涨幅超4%",
-        "summary": "新能源产业链午后震荡走强，盘中BC电池、麒麟电池、地热能、固态电池等板块震荡走高，截至发稿，科创新能源ETF富国（588960）盘中涨幅达4.22%，电池ETF富国（561160）盘中涨幅达2.87%。创业板新能源ETF富国（159122）、光伏ETF富国（560230）同步走高，盘中涨幅分别达2.68%、2.63%。",
+        "summary": "新能源产业链午后震荡走强，盘中BC电池、麒麟电池、地热能、固态电池等板块震荡走高，截至发稿，科创新能源ETF富国（588960）盘中涨幅达4.22%，电池ETF富国（561160）盘中涨幅达2.87%。",
         "source": "每日经济新闻",
         "url": "https://view.inews.qq.com/a/20260630A067TK00?scene=news-skill",
         "time": "6月30日 14:33",
@@ -3476,7 +3476,7 @@
       },
       {
         "title": "国内首家万亿市值AI芯片公司诞生！",
-        "summary": "智东西（公众号：zhidxcom）",
+        "summary": "6月30日，国内首家市值突破万亿元的AI芯片公司诞生，标志着中国AI芯片产业进入新阶段，相关产业链上下游企业有望持续受益。",
         "source": "智东西",
         "url": "https://view.inews.qq.com/a/20260630A05WKW00?scene=news-skill",
         "time": "6月30日 14:00",
@@ -3484,7 +3484,7 @@
       },
       {
         "title": "通信ETF华夏涨近4%，大模型推动算力需求飙升，CPO概念盘中走高",
-        "summary": "截至2026年6月30日 13:36，中证5G通信主题指数(931079)强势上涨4.27%，成分股领益智造上涨10.03%，移远通信上涨10.00%，紫光股份上涨9.98%，星网锐捷，太辰光等个股跟涨。通信ETF华夏(515050)上涨3.96%，最新价报1.39元。",
+        "summary": "截至2026年6月30日 13:36，中证5G通信主题指数(931079)强势上涨4.27%，成分股领益智造上涨10.03%，移远通信上涨10.00%，紫光股份上涨9.98%，星网锐捷，太辰光等个股跟涨。",
         "source": "界面新闻",
         "url": "https://view.inews.qq.com/a/20260630A05TMC00?scene=news-skill",
         "time": "6月30日 13:49",
@@ -3519,8 +3519,8 @@
         "_section": "section-财经新闻"
       },
       {
-        "title": "上半年收官！科技龙头笑傲A股！高“光”创业板人工智能ETF华宝涨超4%，机构看好7月验证期",
-        "summary": "周二（6月30日），A股半年收官，科技股一骑绝尘，汇聚“电子+通信+计算机”龙头的科技ETF华宝（515000）场内涨2.45%再创上市近7年新高！重点细分领域来看，重点布局光模块CPO的创业板人工智能ETF华宝（159363）场内反弹4.37%，成交超14亿元领跑全市场AI主题类ETF，资金近五日净流入4.28亿元。",
+        "title": "上半年收官！科技龙头笑傲A股！高“光”创业板人工智能ETF华宝涨超4%",
+        "summary": "周二（6月30日），A股半年收官，科技股一骑绝尘，汇聚“电子+通信+计算机”龙头的科技ETF华宝（515000）场内涨2.45%再创上市近7年新高！重点细分领域来看，",
         "source": "界面新闻",
         "url": "https://view.inews.qq.com/a/20260630A08KRW00?scene=news-skill",
         "time": "6月30日 18:04",
@@ -3529,5 +3529,6 @@
       }
     ]
   },
-  "optimized_at": "2026-06-29T12:00:00+08:00"
+  "optimized_at": "2026-06-29T12:00:00+08:00",
+  "optimized_v2": true
 }
