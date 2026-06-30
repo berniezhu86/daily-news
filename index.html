@@ -118,6 +118,15 @@ body { font-family:var(--font); background:var(--bg); color:var(--text1); -webki
 .btn-care.active { border-color:var(--orange) !important; color:var(--orange) !important; background:linear-gradient(135deg,rgba(255,159,10,0.12),rgba(255,69,58,0.06)) !important; }
 .btn-care:not(.active) { border-color:var(--border) !important; color:var(--text2) !important; background:var(--surface) !important; }
 .btn-care svg { flex-shrink:0; }
+.btn-listen-top {
+  display:inline-flex; align-items:center; gap:3px;
+  height:30px; padding:0 10px; border-radius:15px;
+  border:1px solid var(--border); background:var(--surface); cursor:pointer;
+  font-size:11px; font-weight:600; color:var(--text2); letter-spacing:0.03em;
+  flex-shrink:0; transition:all 0.2s; white-space:nowrap;
+}
+.btn-listen-top svg { flex-shrink:0; }
+.btn-listen-top:hover, .btn-listen-top.active { border-color:var(--blue); color:var(--blue); background:rgba(10,132,255,0.08); }
 
 /* ===== 关怀版：只放大新闻正文，其他固定UI元素强制锁死字体大小 ===== */
 /* 新闻内容放大（关怀版：大字体，方便阅读） */
@@ -134,6 +143,7 @@ body.care-mode .brand-text { flex-direction:column !important; align-items:flex-
 body.care-mode .brand-name { font-size:15px!important; max-height:none!important; line-height:1.3!important; }
 body.care-mode .btn-refresh-top { font-size:11px!important; height:30px!important; padding:0 10px!important; max-width:none!important; }
 body.care-mode .btn-care { font-size:11px!important; height:30px!important; padding:0 10px!important; max-width:none!important; }
+body.care-mode .btn-listen-top { font-size:11px!important; height:30px!important; padding:0 10px!important; max-width:none!important; }
 body.care-mode .top-update { font-size:11px!important; }
 
 /* 跑马灯 — 锁死 */
@@ -707,6 +717,42 @@ body.care-mode .news-time { font-size:12px!important; }
   display:none;
 }
 .bottom-nav-btn .badge-dot.show { display:block; }
+
+/* ===== LISTEN BRIEFING ===== */
+.listen-player {
+  position:fixed; left:12px; right:12px; bottom:82px; z-index:1001;
+  pointer-events:none; opacity:0; transform:translateY(12px);
+  transition:opacity .2s ease, transform .2s ease;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+.listen-player.show { opacity:1; transform:translateY(0); pointer-events:auto; }
+.listen-player-inner {
+  max-width:var(--max); margin:0 auto; border:1px solid rgba(10,132,255,.18);
+  background:rgba(255,255,255,.94); backdrop-filter:blur(24px) saturate(170%); -webkit-backdrop-filter:blur(24px) saturate(170%);
+  box-shadow:0 12px 34px rgba(0,0,0,.14); border-radius:18px; padding:10px 12px;
+  display:grid; grid-template-columns:1fr auto; gap:10px; align-items:center;
+}
+.listen-kicker { font-size:11px; font-weight:800; color:var(--blue); margin-bottom:3px; }
+.listen-title { font-size:13px; font-weight:700; color:var(--text1); line-height:1.35; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.listen-meta { font-size:11px; color:var(--text3); margin-top:2px; }
+.listen-controls { display:flex; align-items:center; gap:6px; }
+.listen-control {
+  width:34px; height:34px; border-radius:50%; border:1px solid var(--border); background:var(--surface); color:var(--text2);
+  display:inline-flex; align-items:center; justify-content:center; cursor:pointer; font-size:14px; font-weight:800;
+}
+.listen-control.primary { background:var(--blue); color:#fff; border-color:var(--blue); }
+.listen-control svg { width:16px; height:16px; stroke:currentColor; stroke-width:2.2; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+.page-body.has-listen-player { padding-bottom:170px; }
+body.care-mode .listen-player { bottom:92px; }
+body.care-mode .listen-title { font-size:16px!important; white-space:normal; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; }
+body.care-mode .listen-meta { font-size:13px!important; }
+@media (max-width:420px) {
+  .listen-player { left:8px; right:8px; bottom:78px; }
+  .listen-player-inner { grid-template-columns:1fr; gap:8px; }
+  .listen-controls { justify-content:space-between; }
+  .listen-control { width:38px; height:38px; }
+}
+
 /* 关怀版 */
 body.care-mode .bottom-nav-wrapper { padding:0 8px; }
 body.care-mode .bottom-nav { padding:8px 6px 6px; border-radius:24px; margin:6px 2px; }
@@ -1490,6 +1536,23 @@ body.theme-dark .btn-care {
   border-color:rgba(255,255,255,0.12);
   color:var(--text3);
 }
+body.theme-dark .btn-listen-top {
+  background:rgba(255,255,255,0.08);
+  border-color:rgba(255,255,255,0.12);
+  color:var(--text3);
+}
+body.theme-dark .listen-player-inner {
+  background:rgba(28,28,30,0.94);
+  border-color:rgba(10,132,255,0.28);
+}
+body.theme-dark .listen-control {
+  background:rgba(255,255,255,0.08);
+  border-color:rgba(255,255,255,0.12);
+}
+body.theme-dark .listen-control.primary {
+  background:var(--blue);
+  border-color:var(--blue);
+}
 body.theme-dark .bottom-nav-btn {
   color:var(--text3);
 }
@@ -1594,6 +1657,10 @@ body.theme-dark .auth-banner {
       <button class="btn-care" id="btnCare" onclick="toggleCareMode()" title="关怀版：大字体">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         关怀版
+      </button>
+      <button class="btn-listen-top" id="btnListenBriefing" onclick="toggleListenBriefing()" title="听简讯">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>
+        听简讯
       </button>
       <div class="topbar-right-row">
         <button class="btn-refresh-top" onclick="refreshAll()" title="刷新" id="btnRefresh">
@@ -1917,6 +1984,22 @@ body.theme-dark .auth-banner {
     <div class="sub-modal-desc">首次点击<span style="color:#ff9500;font-weight:600;">🔔</span>时浏览器会弹出通知权限请求，点击<b>"允许"</b>后即可在赛前30分钟接收推送提醒。</div>
     <button class="sub-modal-btn" onclick="dismissSubModal()">知道了</button>
     <button class="sub-modal-skip" onclick="dismissSubModal()">暂不开启</button>
+  </div>
+</div>
+
+<!-- Listen Briefing Player -->
+<div class="listen-player" id="listenPlayer" aria-live="polite">
+  <div class="listen-player-inner">
+    <div class="listen-info">
+      <div class="listen-kicker" id="listenKicker">听简讯</div>
+      <div class="listen-title" id="listenTitle">准备朗读今日重点</div>
+      <div class="listen-meta" id="listenMeta">0 / 0</div>
+    </div>
+    <div class="listen-controls">
+      <button class="listen-control primary" id="listenPlayPause" onclick="toggleListenPause()" title="暂停/继续"><svg viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg></button>
+      <button class="listen-control" onclick="listenNext()" title="下一条"><svg viewBox="0 0 24 24"><polygon points="5 4 15 12 5 20 5 4"/><line x1="19" y1="5" x2="19" y2="19"/></svg></button>
+      <button class="listen-control" onclick="stopListenBriefing()" title="停止"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/></svg></button>
+    </div>
   </div>
 </div>
 
@@ -3228,7 +3311,7 @@ function getFreshNewsPage(categoryKey, arr, extraArr, page) {
 }
 
 function getFreshNewsRemainingPages(categoryKey, arr, extraArr, page) {
-  var cacheKey = 'v2-head-of-state|' + categoryKey + '|' + ((arr || []).length) + '|' + ((extraArr || []).length);
+  var cacheKey = 'v3-authority-politics|' + categoryKey + '|' + ((arr || []).length) + '|' + ((extraArr || []).length);
   if (!newsOrderCache[cacheKey]) newsOrderCache[cacheKey] = buildFreshNewsOrder(categoryKey, arr, extraArr);
   var shown = ((page || 0) + 1) * BATCH_SIZE;
   return Math.ceil(Math.max(0, newsOrderCache[cacheKey].length - shown) / BATCH_SIZE);
@@ -3260,6 +3343,175 @@ function renderNewsList(containerId, newsList, categoryKey) {
   `).join('');
   markNewsExposure(memoryKey, newsList);
 }
+
+
+/* ==================== LISTEN BRIEFING ==================== */
+var listenQueue = [];
+var listenIndex = -1;
+var listenSpeaking = false;
+var listenPaused = false;
+var listenCurrentUtterance = null;
+
+function cleanListenText(value) {
+  return String(value || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+}
+
+function getListenSummary(item, maxLen) {
+  var summary = cleanListenText(item && item.summary);
+  if (!summary) return '';
+  maxLen = maxLen || 110;
+  return summary.length > maxLen ? summary.slice(0, maxLen) + '。' : summary;
+}
+
+function addListenItem(items, type, item) {
+  if (!item || !item.title) return;
+  var source = cleanListenText(item.source || type || '');
+  var title = cleanListenText(item.title);
+  var summary = getListenSummary(item, 130);
+  items.push({
+    type: type || '简讯',
+    title: title,
+    source: source,
+    text: (type ? type + '。' : '') + title + '。' + (source ? '来源：' + source + '。' : '') + (summary ? '摘要：' + summary : '')
+  });
+}
+
+function buildListenBriefingQueue() {
+  var items = [];
+  var authList = (authoritativeNews && authoritativeNews.length ? authoritativeNews : ((AUTHORITATIVE_NEWS_FALLBACK && AUTHORITATIVE_NEWS_FALLBACK.news) || [])).slice(0, 3);
+  authList.forEach(function(n) { addListenItem(items, '权威发布', n); });
+
+  var hotTab = hotNewsActiveTab || 'hotspot';
+  var hotData = getHotNewsData(hotTab);
+  var hotExtra = getHotNewsExtra(hotTab);
+  getFreshNewsPage('hotnews_' + hotTab + '_listen', hotData, hotExtra, 0).slice(0, 6).forEach(function(n) {
+    addListenItem(items, '热点', n);
+  });
+
+  getFreshNewsPage('stocknews_listen', mockStockNews || [], mockStockNewsExtra || [], 0).slice(0, 3).forEach(function(n) {
+    addListenItem(items, '财经', n);
+  });
+
+  if (typeof mockTrackingEvents !== 'undefined' && mockTrackingEvents.length) {
+    mockTrackingEvents.slice(0, 2).forEach(function(e) {
+      addListenItem(items, '跟踪专题', { title:e.title, source:e.status || '进行中', summary:e.oneLine || e.intro || '' });
+    });
+  }
+  return items.slice(0, 14);
+}
+
+function updateListenPlayer() {
+  var player = document.getElementById('listenPlayer');
+  var topBtn = document.getElementById('btnListenBriefing');
+  var pageBody = document.querySelector('.page-body');
+  if (player) player.classList.toggle('show', listenSpeaking || listenPaused);
+  if (topBtn) topBtn.classList.toggle('active', listenSpeaking || listenPaused);
+  if (pageBody) pageBody.classList.toggle('has-listen-player', listenSpeaking || listenPaused);
+  var item = listenQueue[listenIndex] || null;
+  var title = document.getElementById('listenTitle');
+  var kicker = document.getElementById('listenKicker');
+  var meta = document.getElementById('listenMeta');
+  if (title) title.textContent = item ? item.title : '准备朗读今日重点';
+  if (kicker) kicker.textContent = item ? item.type : '听简讯';
+  if (meta) meta.textContent = listenQueue.length ? ((listenIndex + 1) + ' / ' + listenQueue.length + (item && item.source ? ' · ' + item.source : '')) : '0 / 0';
+  updateListenPlayIcon();
+}
+
+function updateListenPlayIcon() {
+  var btn = document.getElementById('listenPlayPause');
+  if (!btn) return;
+  btn.innerHTML = listenPaused
+    ? '<svg viewBox="0 0 24 24"><polygon points="8 5 19 12 8 19 8 5"/></svg>'
+    : '<svg viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg>';
+}
+
+function speakListenItem(idx) {
+  if (!('speechSynthesis' in window)) {
+    showToast('当前浏览器不支持朗读');
+    stopListenBriefing();
+    return;
+  }
+  if (idx < 0 || idx >= listenQueue.length) {
+    stopListenBriefing();
+    showToast('听简讯已播完');
+    return;
+  }
+  listenIndex = idx;
+  listenSpeaking = true;
+  listenPaused = false;
+  speechSynthesis.cancel();
+  var item = listenQueue[listenIndex];
+  var utter = new SpeechSynthesisUtterance(item.text);
+  utter.lang = 'zh-CN';
+  utter.rate = document.body.classList.contains('care-mode') ? 0.88 : 0.95;
+  utter.pitch = 1;
+  utter.onend = function() {
+    if (!listenSpeaking || listenPaused) return;
+    setTimeout(function() { speakListenItem(listenIndex + 1); }, 450);
+  };
+  utter.onerror = function() {
+    if (!listenSpeaking) return;
+    setTimeout(function() { speakListenItem(listenIndex + 1); }, 300);
+  };
+  listenCurrentUtterance = utter;
+  updateListenPlayer();
+  speechSynthesis.speak(utter);
+}
+
+function startListenBriefing() {
+  listenQueue = buildListenBriefingQueue();
+  if (!listenQueue.length) {
+    showToast('暂无可朗读内容');
+    return;
+  }
+  showToast('开始听简讯');
+  speakListenItem(0);
+}
+
+function toggleListenBriefing() {
+  if (listenSpeaking || listenPaused) {
+    stopListenBriefing();
+  } else {
+    startListenBriefing();
+  }
+}
+
+function toggleListenPause() {
+  if (!('speechSynthesis' in window)) return;
+  if (!listenSpeaking && !listenPaused) {
+    startListenBriefing();
+    return;
+  }
+  if (listenPaused) {
+    speechSynthesis.resume();
+    listenPaused = false;
+    listenSpeaking = true;
+  } else {
+    speechSynthesis.pause();
+    listenPaused = true;
+    listenSpeaking = false;
+  }
+  updateListenPlayer();
+}
+
+function listenNext() {
+  if (!listenQueue.length) {
+    startListenBriefing();
+    return;
+  }
+  speakListenItem(listenIndex + 1);
+}
+
+function stopListenBriefing() {
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  listenSpeaking = false;
+  listenPaused = false;
+  listenIndex = -1;
+  listenCurrentUtterance = null;
+  updateListenPlayer();
+}
+
+window.addEventListener('beforeunload', stopListenBriefing);
 
 function resetLoadMoreBtnExpanded(pageNum, extraLen) {
   const wrap = document.getElementById('hotNewsLoadMore');
