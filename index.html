@@ -3378,6 +3378,24 @@ function getPreferredListenVoice() {
 function refreshListenVoices() {
   listenPreferredVoice = getPreferredListenVoice();
 }
+
+function getAndroidTTSBridge() {
+  var bridge = window.AndroidTTS || window.NativeTTS || window.AppTTS || null;
+  return bridge && typeof bridge.speak === 'function' ? bridge : null;
+}
+
+function canListenBriefing() {
+  return !!getAndroidTTSBridge() || ('speechSynthesis' in window);
+}
+
+function onListenItemEnded() {
+  if (!listenSpeaking || listenPaused) return;
+  setTimeout(function() { speakListenItem(listenIndex + 1); }, 450);
+}
+
+window.onAndroidTTSEnded = onListenItemEnded;
+window.onNativeTTSEnded = onListenItemEnded;
+
 if ('speechSynthesis' in window) {
   refreshListenVoices();
   if (speechSynthesis.onvoiceschanged !== undefined) {
@@ -3459,8 +3477,8 @@ function updateListenPlayIcon() {
 }
 
 function speakListenItem(idx) {
-  if (!('speechSynthesis' in window)) {
-    showToast('当前浏览器不支持朗读');
+  if (!canListenBriefing()) {
+    showToast('当前环境不支持朗读，APK需接入原生TTS');
     stopListenBriefing();
     return;
   }
@@ -3472,8 +3490,25 @@ function speakListenItem(idx) {
   listenIndex = idx;
   listenSpeaking = true;
   listenPaused = false;
-  speechSynthesis.cancel();
   var item = listenQueue[listenIndex];
+  var bridge = getAndroidTTSBridge();
+  if (bridge) {
+    try {
+      if (typeof bridge.stop === 'function') bridge.stop();
+      listenCurrentUtterance = null;
+      updateListenPlayer();
+      bridge.speak(item.text);
+      return;
+    } catch(e) {
+      console.warn('AndroidTTS bridge failed, fallback to Web Speech', e);
+    }
+  }
+  if (!('speechSynthesis' in window)) {
+    showToast('当前浏览器不支持朗读');
+    stopListenBriefing();
+    return;
+  }
+  speechSynthesis.cancel();
   refreshListenVoices();
   var utter = new SpeechSynthesisUtterance(item.text);
   utter.lang = 'zh-CN';
@@ -3481,10 +3516,7 @@ function speakListenItem(idx) {
   utter.rate = document.body.classList.contains('care-mode') ? 0.82 : 0.88;
   utter.pitch = 0.96;
   utter.volume = 1;
-  utter.onend = function() {
-    if (!listenSpeaking || listenPaused) return;
-    setTimeout(function() { speakListenItem(listenIndex + 1); }, 450);
-  };
+  utter.onend = onListenItemEnded;
   utter.onerror = function() {
     if (!listenSpeaking) return;
     setTimeout(function() { speakListenItem(listenIndex + 1); }, 300);
@@ -3513,17 +3545,20 @@ function toggleListenBriefing() {
 }
 
 function toggleListenPause() {
-  if (!('speechSynthesis' in window)) return;
+  var bridge = getAndroidTTSBridge();
+  if (!bridge && !('speechSynthesis' in window)) return;
   if (!listenSpeaking && !listenPaused) {
     startListenBriefing();
     return;
   }
   if (listenPaused) {
-    speechSynthesis.resume();
+    if (bridge && typeof bridge.resume === 'function') bridge.resume();
+    else if ('speechSynthesis' in window) speechSynthesis.resume();
     listenPaused = false;
     listenSpeaking = true;
   } else {
-    speechSynthesis.pause();
+    if (bridge && typeof bridge.pause === 'function') bridge.pause();
+    else if ('speechSynthesis' in window) speechSynthesis.pause();
     listenPaused = true;
     listenSpeaking = false;
   }
@@ -3539,6 +3574,8 @@ function listenNext() {
 }
 
 function stopListenBriefing() {
+  var bridge = getAndroidTTSBridge();
+  if (bridge && typeof bridge.stop === 'function') bridge.stop();
   if ('speechSynthesis' in window) speechSynthesis.cancel();
   listenSpeaking = false;
   listenPaused = false;
