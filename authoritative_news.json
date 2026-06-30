@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-30T22:41:59.354100+08:00",
-  "updated_display": "06月30日 22:41",
-  "count": 12,
+  "updated": "2026-07-01T00:37:31.676994+08:00",
+  "updated_display": "07月01日 00:37",
+  "count": 10,
   "news": [
     {
       "title": "《求是》杂志发表习近平总书记重要文章",
@@ -40,6 +40,12 @@
       "date": "2026-06-30"
     },
     {
+      "title": "《求是》发表习近平重要文章",
+      "url": "http://politics.people.com.cn/n1/2026/0630/c1024-40750921.html",
+      "source": "人民日报",
+      "date": "2026-06-30"
+    },
+    {
       "title": "习近平同塞舌尔总统赫米尼耶就中塞建交50周年互致贺电",
       "url": "http://politics.people.com.cn/n1/2026/0630/c1024-40750935.html",
       "source": "人民日报",
@@ -56,24 +62,6 @@
       "url": "https://www.news.cn/politics/leaders/20260629/88e3877738b24131849560a530587672/c.html",
       "source": "新华社",
       "date": "2026-06-29"
-    },
-    {
-      "title": "习近平党建思想的实践基础和实践伟力",
-      "url": "http://opinion.people.com.cn/n1/2026/0626/c461530-40747700.html",
-      "source": "人民日报",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "深入学习领会习近平党建思想鲜明的理论品格",
-      "url": "http://opinion.people.com.cn/n1/2026/0625/c461530-40746890.html",
-      "source": "人民日报",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "深刻认识习近平党建思想的特殊重要地位",
-      "url": "http://opinion.people.com.cn/n1/2026/0624/c461530-40746052.html",
-      "source": "人民日报",
-      "date": "2026-06-24"
     }
   ]
 }
