@@ -4494,9 +4494,10 @@ function renderAuthBanner() {
   if (list) {
     list.innerHTML = displayNews.map(function(item) {
       var cls = item.source === '新华社' ? 'auth-source-xinhua' : 'auth-source-people';
+      var readerHref = 'news-reader.html?url=' + encodeURIComponent(item.url || '') + '&title=' + encodeURIComponent(item.title || '') + '&source=' + encodeURIComponent(item.source || '');
       return '<div class="auth-news-item">' +
         '<span class="auth-source-tag ' + cls + '">' + item.source + '</span>' +
-        '<a class="auth-news-text" href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a>' +
+        '<a class="auth-news-text" href="' + readerHref + '">' + item.title + '</a>' +
         '</div>';
     }).join('');
   }

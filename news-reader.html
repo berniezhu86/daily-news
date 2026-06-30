@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <title>新闻详情 - 每日简讯</title>
+  <style>
+    :root { --blue:#0a84ff; --bg:#f5f5f7; --surface:rgba(255,255,255,.92); --text:#1d1d1f; --text2:#6e6e73; --border:rgba(0,0,0,.10); }
+    * { box-sizing:border-box; }
+    html, body { margin:0; height:100%; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC",sans-serif; }
+    body { display:flex; flex-direction:column; min-height:100vh; overflow:hidden; }
+    .reader-bar {
+      position:relative; z-index:10; flex-shrink:0; padding:calc(10px + env(safe-area-inset-top)) 12px 10px;
+      background:var(--surface); backdrop-filter:blur(22px) saturate(180%); -webkit-backdrop-filter:blur(22px) saturate(180%);
+      border-bottom:1px solid var(--border); box-shadow:0 1px 8px rgba(0,0,0,.04);
+    }
+    .reader-row { display:flex; align-items:center; gap:10px; min-width:0; }
+    .btn {
+      border:1px solid var(--border); background:#fff; color:var(--text); border-radius:999px; min-height:34px; padding:0 12px;
+      font-size:14px; font-weight:700; cursor:pointer; white-space:nowrap; display:inline-flex; align-items:center; justify-content:center; text-decoration:none;
+    }
+    .btn-primary { background:rgba(10,132,255,.10); color:var(--blue); border-color:rgba(10,132,255,.22); }
+    .reader-title { flex:1; min-width:0; }
+    .reader-title-main { font-size:15px; font-weight:800; line-height:1.35; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .reader-title-meta { margin-top:2px; font-size:12px; color:var(--text2); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .reader-hint { margin-top:8px; font-size:12px; line-height:1.45; color:var(--text2); }
+    .reader-frame-wrap { position:relative; flex:1; min-height:0; background:#fff; }
+    iframe { width:100%; height:100%; border:0; background:#fff; display:block; }
+    .empty {
+      position:absolute; inset:0; display:none; align-items:center; justify-content:center; padding:24px; text-align:center; background:#fff; color:var(--text2);
+    }
+    .empty-card { max-width:360px; }
+    .empty-title { font-size:18px; font-weight:800; color:var(--text); margin-bottom:8px; }
+    .empty-actions { display:flex; justify-content:center; gap:10px; margin-top:16px; flex-wrap:wrap; }
+    @media (max-width:520px) {
+      .reader-row { align-items:flex-start; }
+      .btn { min-height:32px; padding:0 10px; font-size:13px; }
+      .reader-title-main { white-space:normal; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
+      .reader-title-meta { white-space:normal; }
+    }
+    @media (prefers-color-scheme:dark) {
+      :root { --bg:#1c1c1e; --surface:rgba(28,28,30,.92); --text:#f5f5f7; --text2:#98989d; --border:rgba(255,255,255,.12); }
+      .btn { background:rgba(255,255,255,.08); }
+      .reader-frame-wrap, iframe, .empty { background:#fff; }
+      .empty .btn { background:#fff; color:#1d1d1f; }
+    }
+  </style>
+</head>
+<body>
+  <header class="reader-bar">
+    <div class="reader-row">
+      <button class="btn btn-primary" id="backBtn" type="button">← 返回</button>
+      <div class="reader-title">
+        <div class="reader-title-main" id="readerTitle">新闻详情</div>
+        <div class="reader-title-meta" id="readerMeta">每日简讯</div>
+      </div>
+      <a class="btn" id="openBtn" href="#" target="_blank" rel="noopener">浏览器打开</a>
+    </div>
+    <div class="reader-hint">如果下方页面空白或提示拒绝加载，说明原网站限制嵌入，可点“浏览器打开”；返回本页请点左上角。</div>
+  </header>
+  <main class="reader-frame-wrap">
+    <iframe id="readerFrame" title="新闻详情" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="empty" id="emptyState">
+      <div class="empty-card">
+        <div class="empty-title">没有可打开的新闻链接</div>
+        <div>这条新闻暂时缺少有效链接，请返回每日简讯。</div>
+        <div class="empty-actions"><button class="btn btn-primary" type="button" onclick="goBack()">返回每日简讯</button></div>
+      </div>
+    </div>
+  </main>
+  <script>
+    var params = new URLSearchParams(location.search);
+    var url = params.get('url') || '';
+    var title = params.get('title') || '新闻详情';
+    var source = params.get('source') || '权威发布';
+    var titleEl = document.getElementById('readerTitle');
+    var metaEl = document.getElementById('readerMeta');
+    var frame = document.getElementById('readerFrame');
+    var openBtn = document.getElementById('openBtn');
+    var empty = document.getElementById('emptyState');
+
+    function isSafeHttpUrl(value) {
+      try {
+        var parsed = new URL(value);
+        return parsed.protocol === 'http:' || parsed.protocol === 'https:';
+      } catch (e) { return false; }
+    }
+    function goBack() {
+      if (history.length > 1) history.back();
+      else location.href = 'index.html';
+    }
+    document.getElementById('backBtn').addEventListener('click', goBack);
+    titleEl.textContent = title;
+    metaEl.textContent = source + ' · 第三方新闻详情';
+    document.title = title + ' - 每日简讯';
+    if (isSafeHttpUrl(url)) {
+      frame.src = url;
+      openBtn.href = url;
+    } else {
+      frame.style.display = 'none';
+      openBtn.style.display = 'none';
+      empty.style.display = 'flex';
+    }
+  </script>
+</body>
+</html>
