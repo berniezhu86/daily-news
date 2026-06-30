@@ -842,9 +842,10 @@ body.care-mode .exclusive-news-summary { font-size:18px!important; }
 .tracking-time { font-size:11px; color:var(--text3); padding-top:2px; }
 .tracking-node { position:relative; font-size:13px; color:var(--text1); line-height:1.5; padding-left:14px; }
 .tracking-node::before { content:""; position:absolute; left:0; top:7px; width:7px; height:7px; border-radius:50%; background:var(--blue); }
-.tracking-voices { display:grid; grid-template-columns:1fr; gap:7px; }
-.tracking-voice { display:flex; gap:8px; align-items:flex-start; font-size:13px; color:var(--text2); line-height:1.5; }
-.tracking-voice-role { flex-shrink:0; font-size:11px; font-weight:800; color:var(--blue); background:rgba(10,132,255,.1); border-radius:8px; padding:2px 6px; }
+.tracking-voices { display:grid; grid-template-columns:1fr; gap:8px; }
+.tracking-voice { display:block; min-width:0; font-size:13px; color:var(--text2); line-height:1.6; padding:10px 11px; background:var(--surface2); border:1px solid var(--border); border-radius:12px; }
+.tracking-voice-role { display:inline-flex; max-width:100%; margin-bottom:6px; font-size:11px; font-weight:800; line-height:1.35; color:var(--blue); background:rgba(10,132,255,.1); border-radius:8px; padding:3px 7px; white-space:normal; overflow-wrap:anywhere; }
+.tracking-voice-text { display:block; color:var(--text1); overflow-wrap:anywhere; word-break:break-word; }
 .tracking-next { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
 .tracking-next span { font-size:12px; color:var(--text2); background:var(--surface2); border:1px solid var(--border); border-radius:999px; padding:5px 9px; }
 .tracking-related { margin-top:10px; display:flex; flex-direction:column; gap:6px; }
@@ -1325,8 +1326,10 @@ body.care-mode .tracking-related-summary {
 body.care-mode .tracking-timeline { max-height:none; overflow:visible; padding-right:0; }
 body.care-mode .tracking-timeline-item { grid-template-columns:1fr !important; gap:4px; }
 body.care-mode .tracking-time { font-size:14px !important; }
-body.care-mode .tracking-voice { display:block !important; }
-body.care-mode .tracking-voice-role { display:inline-flex; margin-bottom:5px; }
+body.care-mode .tracking-voices { grid-template-columns:1fr !important; }
+body.care-mode .tracking-voice { display:block !important; padding:12px !important; }
+body.care-mode .tracking-voice-role { display:inline-flex; margin-bottom:7px; font-size:15px !important; }
+body.care-mode .tracking-voice-text { font-size:17px !important; line-height:1.75 !important; }
 body.care-mode .tracking-next span { white-space:normal; }
 
 @media (max-width:600px) {
@@ -5558,7 +5561,7 @@ function renderTrackingPage() {
         + '<div class="tracking-block-title">时间线</div>'
         + '<div class="tracking-timeline">' + event.timeline.map(function(t) { return '<div class="tracking-timeline-item"><div class="tracking-time">' + escapeTrackingHTML(t[0]) + '</div><div class="tracking-node">' + escapeTrackingHTML(t[1]) + '</div></div>'; }).join('') + '</div>'
         + '<div class="tracking-block-title">各方声音</div>'
-        + '<div class="tracking-voices">' + event.voices.map(function(v) { return '<div class="tracking-voice"><span class="tracking-voice-role">' + escapeTrackingHTML(v[0]) + '</span><span>' + escapeTrackingHTML(v[1]) + '</span></div>'; }).join('') + '</div>'
+        + '<div class="tracking-voices">' + event.voices.map(function(v) { return '<div class="tracking-voice"><span class="tracking-voice-role">' + escapeTrackingHTML(v[0]) + '</span><span class="tracking-voice-text">' + escapeTrackingHTML(v[1]) + '</span></div>'; }).join('') + '</div>'
         + '<div class="tracking-block-title">接下来关注</div>'
         + '<div class="tracking-next">' + event.next.map(function(n) { return '<span>' + escapeTrackingHTML(n) + '</span>'; }).join('') + '</div>'
         + (related.length ? '<div class="tracking-block-title">关联新闻</div><div class="tracking-related">' + related.slice(0, 3).map(function(n) { return '<div class="tracking-related-item"><b>' + escapeTrackingHTML(n.title) + '</b><div class="tracking-related-meta">' + escapeTrackingHTML(n.source || '') + (n.time ? ' · ' + escapeTrackingHTML(n.time) : '') + '</div>' + (n.summary ? '<div class="tracking-related-summary">' + escapeTrackingHTML(n.summary) + '</div>' : '') + '</div>'; }).join('') + '</div>' : '')
