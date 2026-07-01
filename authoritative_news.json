@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-02T01:38:57.285318+08:00",
-  "updated_display": "07月02日 01:38",
-  "count": 7,
+  "updated": "2026-07-02T03:34:52.707422+08:00",
+  "updated_display": "07月02日 03:34",
+  "count": 8,
   "news": [
     {
       "title": "庆祝中国共产党成立105周年大会在京隆重举行 习近平发表重要讲话",
@@ -44,6 +44,12 @@
       "url": "http://politics.people.com.cn/n1/2026/0701/c461001-40751662.html",
       "source": "人民日报",
       "date": "2026-07-01"
+    },
+    {
+      "title": "委内瑞拉地震死亡人数升至2295人",
+      "url": "https://www.news.cn/world/20260702/d0c94a38aea744aca4d3d14ff7e00f9e/c.html",
+      "source": "新华社",
+      "date": "2026-07-02"
     }
   ]
 }
