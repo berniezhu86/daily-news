@@ -2730,28 +2730,28 @@ const mockStockIndices = {
     { name:"印度SENSEX", value:"76,580.41", change:"-0.19%", direction:"down" }
   ],
 };
-const stockUpdatedAt = '6月30日 15:00'; // 行情数据更新时间
+const stockUpdatedAt = '7月1日 15:00'; // 行情数据更新时间
 
 
   const mockStockAI = [
-    {name:"中芯国际", score:90, value:"158.82", change:"+5.18%", direction:"up", rating:"偏强", reason:"半导体板块强势领涨，中芯国际先进制程扩产加速+国产替代逻辑强化；6月30日大涨5%创近期新高"},
-    {name:"立讯精密", score:85, value:"70.40", change:"+7.81%", direction:"up", rating:"偏强", reason:"苹果AI手机换机周期预期升温+Q3传统旺季备货启动，6月30日放量大涨近8%，消费电子龙头受追捧"},
-    {name:"工业富联", score:82, value:"72.15", change:"+3.65%", direction:"up", rating:"关注", reason:"AI服务器订单饱满+算力基建高景气延续，通信设备板块企稳回升；6月30日跟随半导体板块走强"},
-    {name:"比亚迪", score:76, value:"79.70", change:"+0.08%", direction:"up", rating:"关注", reason:"新能源车下乡政策持续受益；出口连续创新高，碳酸锂价格低位缓解成本压力，Q3产销旺季可期"},
-    {name:"招商银行", score:68, value:"35.50", change:"-2.53%", direction:"down", rating:"观察", reason:"金融法草案审议中但银行股短期承压，半年末资金面偏紧拖累金融板块表现；估值处历史低位"},
-    {name:"长江电力", score:72, value:"26.47", change:"-1.38%", direction:"down", rating:"稳健", reason:"高股息配置价值仍在但短期受科技股虹吸效应回调；夏季用电高峰+来水偏丰支撑中期基本面"},
+    {name:"新华保险", score:92, value:"65.18", change:"+10.01%", direction:"up", rating:"偏强", reason:"保险板块单日飙涨7%领涨全市，新华保险强势涨停创阶段新高；央行逆回购加量+长端利率回升+中报预期催化险企估值修复"},
+    {name:"中国人寿", score:88, value:"48.55", change:"+6.32%", direction:"up", rating:"偏强", reason:"保险板块爆发核心受益标的，中国人寿涨超6%创年内新高；权益市场回暖增厚投资收益+负债端新单价值率改善"},
+    {name:"牧原股份", score:85, value:"37.42", change:"+6.94%", direction:"up", rating:"偏强", reason:"生猪养殖板块大涨6%叠加猪价反转预期，牧原成本端优势+出栏量稳步增长；半年报预披露窗口期业绩弹性可期"},
+    {name:"永和股份", score:82, value:"44.79", change:"+10.00%", direction:"up", rating:"偏强", reason:"氟化工板块强势领涨永和股份涨停；2025年净利同比+123%叠加PVDF产能扩张，半导体电子氟材需求受AI算力拉动价值重估"},
+    {name:"中信建投", score:78, value:"31.20", change:"+5.62%", direction:"up", rating:"关注", reason:"券商板块在保险领涨下集体异动，中信建投涨超5%；两融余额30330亿创年内新高+IPO节奏重启，券商β属性率先受益"},
+    {name:"寒武纪", score:58, value:"1535.05", change:"-6.91%", direction:"down", rating:"观察", reason:"公司主动提示'股价上涨过快存下跌风险'，7月1日低开收跌6.91%市值跌破万亿；高位AI算力股集体获利了结，资金切换至低估值金融+周期"},
   ];
 
   // 板块预测（由规则评分引擎基于盘面、新闻热度、政策和产业趋势生成）
   const mockSectorPrediction = [
-    { rank:1, name:"AI算力", code:"BK1044", tag:"强势", tagClass:"bull", reason:"寒武纪市值突破1万亿成科创板首只万亿股，DeepSeek V4正式版7月中旬上线引入峰谷定价，CPO/PCB概念全线大涨，算力基建持续高景气", confidence:92, stock:"寒武纪", target:"目标价1750/止损价1400" },
-    { rank:2, name:"半导体", code:"BK1036", tag:"强势", tagClass:"bull", reason:"三星宣布千亿韩元半导体投资计划，康宁发布玻璃基光互连技术'玻璃桥'引爆先进封装产业链；国产替代+AI芯片需求确定性最强", confidence:90, stock:"中芯国际", target:"目标价175/止损价140" },
-    { rank:3, name:"消费电子", code:"BK1037", tag:"关注", tagClass:"watch", reason:"京东方A盘中涨停创18年新高，立讯精密大涨超7%，苹果AI手机换机周期预期升温，Q3传统旺季临近上游零部件备货潮启动", confidence:84, stock:"立讯精密", target:"目标价80/止损价62" },
-    { rank:4, name:"新能源车", code:"BK0900", tag:"关注", tagClass:"watch", reason:"主力资金净流入336.68亿居各板块前列，比亚迪出口连续创新高，碳酸锂低位缓解成本压力，智能驾驶渗透率提升Q3产销旺季可期", confidence:80, stock:"比亚迪", target:"目标价90/止损价72" },
-    { rank:5, name:"电力/储能", code:"BK1015", tag:"稳健", tagClass:"steady", reason:"全国高温预警频发夏季用电高峰，AI数据中心电力需求激增，电力市场化改革释放价格弹性，高股息防御属性在科技股震荡中凸显配置价值", confidence:77, stock:"长江电力", target:"目标价32/止损价27" },
-    { rank:6, name:"创新药", code:"BK1040", tag:"稳健", tagClass:"steady", reason:"半年末基金调仓医药板块获集中买入，6月29日创新药掀涨停潮，ADC管线进入临床III期，出海BD交易单笔金额屡破纪录估值修复可期", confidence:76, stock:"恒瑞医药", target:"目标价65/止损价50" },
-    { rank:7, name:"高股息红利", code:"BK1101", tag:"稳健", tagClass:"steady", reason:"央行加量逆回购平抑半年末流动性波动，半年结机构调仓偏向防御，中国移动等高股息资产在市场风格切换中避险属性凸显，配置价值持续", confidence:74, stock:"中国移动", target:"目标价120/止损价105" },
-    { rank:8, name:"大金融", code:"BK0484", tag:"关注", tagClass:"watch", reason:"银行股短期承压但估值处历史低位，《金融法》草案审议推进，潘功胜陆家嘴论坛提出推动中长期资金入市，政策催化下估值修复可期", confidence:71, stock:"招商银行", target:"目标价45/止损价37" },
+    { rank:1, name:"保险", code:"BK0474", tag:"强势", tagClass:"bull", reason:"保险板块单日飙涨7%领涨全市，新华保险涨停中国人寿涨超6%；长端利率回升+权益市场回暖增厚投资收益，估值修复行情启动", confidence:93, stock:"新华保险", target:"目标价72/止损价58" },
+    { rank:2, name:"大金融(券商/银行)", code:"BK0475", tag:"强势", tagClass:"bull", reason:"保险暴涨带动大金融板块全线爆发，券商股异动拉升；央行加量逆回购+两融余额30330亿创年内新高，金融板块β属性率先修复", confidence:87, stock:"中信建投", target:"目标价35/止损价28" },
+    { rank:3, name:"生猪养殖", code:"BK0433", tag:"强势", tagClass:"bull", reason:"生猪养殖板块单日大涨6%板块指数创新高，猪价反转预期+半年报预披露窗口期催化；牧原/温氏/新五丰等多股涨停板块效应集中", confidence:85, stock:"牧原股份", target:"目标价42/止损价33" },
+    { rank:4, name:"氟化工", code:"BK1019", tag:"强势", tagClass:"bull", reason:"永和股份涨停联创股份19.93%涨停，AI算力扩张拉动半导体电子氟材需求爆发；含氟新材料PVDF业务绑定新能源高景气", confidence:83, stock:"永和股份", target:"目标价50/止损价40" },
+    { rank:5, name:"锂矿/小金属", code:"BK1017", tag:"关注", tagClass:"watch", reason:"锂矿板块早盘涨幅居前，碳酸锂价格底部企稳+储能需求旺季临近；锂矿股估值处历史低位弹性大，反弹空间值得关注", confidence:78, stock:"赣锋锂业", target:"目标价48/止损价38" },
+    { rank:6, name:"人形机器人", code:"BK1174", tag:"关注", tagClass:"watch", reason:"人形机器人概念盘中持续走强，智谱AI+宇树科技催化叠加7月世界人工智能大会临近；减速器/丝杠等核心零部件厂商订单预期升温", confidence:76, stock:"绿的谐波", target:"目标价95/止损价75" },
+    { rank:7, name:"创新药", code:"BK1040", tag:"稳健", tagClass:"steady", reason:"创新药板块午后异动拉升，ADC管线进入临床III期密集读出期；出海BD交易单笔金额屡破纪录，估值修复+催化剂双重共振", confidence:74, stock:"恒瑞医药", target:"目标价62/止损价50" },
+    { rank:8, name:"AI算力", code:"BK1044", tag:"观察", tagClass:"watch", reason:"寒武纪单日重挫6.91%市值跌破万亿，公司主动提示'股价过快上涨'风险；高位AI算力股集体获利了结，短期建议观望等待企稳", confidence:62, stock:"寒武纪", target:"目标价1700/止损价1400" },
   ];
 
 function renderSectorPrediction() {
