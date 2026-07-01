@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-07-01 19:22:27",
+  "runAt": "2026-07-01 20:26:04",
   "sections": {
     "domestic": {
       "before": 47,
@@ -11,7 +11,7 @@
       "before": 78,
       "after": 78,
       "duplicates": 0,
-      "authoritativeTop10": 1
+      "authoritativeTop10": 0
     },
     "ai": {
       "before": 80,
