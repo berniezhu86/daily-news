@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-01T12:07:19.671689+08:00",
-  "updated_display": "07月01日 12:07",
-  "count": 14,
+  "updated": "2026-07-01T14:03:09.737553+08:00",
+  "updated_display": "07月01日 14:03",
+  "count": 13,
   "news": [
     {
       "title": "习近平发表重要讲话",
@@ -80,12 +80,6 @@
       "url": "https://www.news.cn/politics/leaders/20260630/5661adcaa1dc41c78ba57e83a3cdd43b/c.html",
       "source": "新华社",
       "date": "2026-06-30"
-    },
-    {
-      "title": "委地震死亡人数升至1943人",
-      "url": "https://www.news.cn/world/20260701/7cb63437f9874e729e1ddff5c42c67d4/c.html",
-      "source": "新华社",
-      "date": "2026-07-01"
     }
   ]
 }
