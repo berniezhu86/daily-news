@@ -1,11 +1,11 @@
 {
-  "runAt": "2026-07-01 20:26:04",
+  "runAt": "2026-07-02 07:22:42",
   "sections": {
     "domestic": {
-      "before": 47,
-      "after": 47,
-      "duplicates": 0,
-      "authoritativeTop10": 9
+      "before": 52,
+      "after": 51,
+      "duplicates": 1,
+      "authoritativeTop10": 10
     },
     "international": {
       "before": 78,
@@ -39,12 +39,12 @@
     },
     "csl": {
       "before": 7,
-      "after": 7,
+      "after": 6,
       "duplicates": 0,
       "authoritativeTop10": 0
     }
   },
-  "duplicateMerged": 0,
+  "duplicateMerged": 1,
   "domesticHighPoliticsTop8": 8,
   "changedArrays": {
     "generated_news_arrays.js": [
@@ -75,5 +75,12 @@
       "mockHenanNews",
       "mockCslOtherTeams"
     ]
+  },
+  "manualAudit": {
+    "football": {
+      "henan": "prioritized official/structured and local authoritative items",
+      "csl": "removed one future-dated Toutiao item and prioritized CFA/Beijing Daily/club-operation news",
+      "removed": 1
+    }
   }
 }
