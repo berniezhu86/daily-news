@@ -1,8 +1,32 @@
 {
-  "updated": "2026-07-01T06:26:03.601773+08:00",
-  "updated_display": "07月01日 06:26",
-  "count": 11,
+  "updated": "2026-07-01T08:17:04.904522+08:00",
+  "updated_display": "07月01日 08:17",
+  "count": 9,
   "news": [
+    {
+      "title": "庆祝中国共产党成立105周年大会将于今日上午10时隆重举行　习近平将向“七一勋章”获得者颁授勋章并发表重要讲话",
+      "url": "https://www.news.cn/politics/leaders/20260701/c0b06502a1ec4d8485a6b9a309567a5d/c.html",
+      "source": "新华社",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "深入学习领会习近平党建思想的科学内涵",
+      "url": "http://politics.people.com.cn/n1/2026/0701/c461001-40751163.html",
+      "source": "人民日报",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "《求是》发表习近平重要文章",
+      "url": "http://politics.people.com.cn/n1/2026/0701/c1024-40751137.html",
+      "source": "人民日报",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "习近平同塞舌尔总统赫米尼耶就中塞建交50周年互致贺电",
+      "url": "http://politics.people.com.cn/n1/2026/0701/c1024-40751138.html",
+      "source": "人民日报",
+      "date": "2026-07-01"
+    },
     {
       "title": "《求是》杂志发表习近平总书记重要文章",
       "url": "https://www.news.cn/politics/leaders/20260630/755d1d282feb4220956a78eb3083d459/c.html",
@@ -12,12 +36,6 @@
     {
       "title": "习近平同塞舌尔总统就中塞建交50周年互致贺电",
       "url": "https://www.news.cn/politics/leaders/20260630/c55c42590d3746868dd65f8c87fca9f5/c.html",
-      "source": "新华社",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "习近平党建思想给世界带来深刻启迪",
-      "url": "https://www.news.cn/politics/leaders/20260630/b0cd23a68cc1404f86cd1c723106a878/c.html",
       "source": "新华社",
       "date": "2026-06-30"
     },
@@ -34,38 +52,8 @@
       "date": "2026-06-30"
     },
     {
-      "title": "《求是》发表习近平重要文章",
-      "url": "http://politics.people.com.cn/n1/2026/0630/c1024-40750921.html",
-      "source": "人民日报",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "习近平同塞舌尔总统赫米尼耶就中塞建交50周年互致贺电",
-      "url": "http://politics.people.com.cn/n1/2026/0630/c1024-40750935.html",
-      "source": "人民日报",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "庆祝中国共产党成立105周年大会将于7月1日隆重举行 习近平将向“七一勋章”获得者颁授勋章并发表重要讲话",
-      "url": "https://www.news.cn/politics/leaders/20260629/302063ed4ed543448bccc75b11d3a451/c.html",
-      "source": "新华社",
-      "date": "2026-06-29"
-    },
-    {
-      "title": "新华社政论：习近平党建思想引领强党强国新征程",
-      "url": "https://www.news.cn/politics/leaders/20260629/88e3877738b24131849560a530587672/c.html",
-      "source": "新华社",
-      "date": "2026-06-29"
-    },
-    {
-      "title": "委内瑞拉地震死亡人数升至1943人",
+      "title": "委地震死亡人数升至1943人",
       "url": "https://www.news.cn/world/20260701/7cb63437f9874e729e1ddff5c42c67d4/c.html",
-      "source": "新华社",
-      "date": "2026-07-01"
-    },
-    {
-      "title": "墨西哥近海加利福尼亚湾发生6级地震",
-      "url": "https://www.news.cn/world/20260701/ac7c0e151aa741b29629923ad9a8f93d/c.html",
       "source": "新华社",
       "date": "2026-07-01"
     }
