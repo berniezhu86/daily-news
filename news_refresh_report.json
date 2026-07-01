@@ -1,9 +1,9 @@
 {
-  "runAt": "2026-06-30 20:01:22",
+  "runAt": "2026-07-01 13:22:49",
   "sections": {
     "domestic": {
-      "before": 36,
-      "after": 36,
+      "before": 43,
+      "after": 43,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
@@ -11,7 +11,7 @@
       "before": 78,
       "after": 78,
       "duplicates": 0,
-      "authoritativeTop10": 7
+      "authoritativeTop10": 1
     },
     "ai": {
       "before": 80,
@@ -29,7 +29,7 @@
       "before": 80,
       "after": 80,
       "duplicates": 0,
-      "authoritativeTop10": 5
+      "authoritativeTop10": 0
     },
     "henan": {
       "before": 6,
@@ -45,7 +45,7 @@
     }
   },
   "duplicateMerged": 0,
-  "domesticHighPoliticsTop8": 6,
+  "domesticHighPoliticsTop8": 8,
   "changedArrays": {
     "generated_news_arrays.js": [
       "mockHotNewsDomestic",

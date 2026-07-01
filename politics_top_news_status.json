@@ -1,0 +1,34 @@
+{
+  "updated_at": "2026-07-01T12:05:00+08:00",
+  "window_hours": 48,
+  "window_start": "2026-06-29T12:01:05+08:00",
+  "keywords": [
+    "习近平",
+    "李强",
+    "国务院常务会议",
+    "国务院重大政策",
+    "中共中央",
+    "全国人大常委会",
+    "全国政协",
+    "外交部",
+    "中央军委",
+    "教育发展十五五规划",
+    "中共中央政治局 防汛抗旱",
+    "七一勋章 习近平",
+    "国务院令 退役军人就业创业促进条例",
+    "求是 做焦裕禄式的县委书记",
+    "国家主席 习近平 塞舌尔总统",
+    "外交部长 王毅 北欧"
+  ],
+  "candidate_count": 160,
+  "inserted_count": 9,
+  "skipped_old_count": 63,
+  "skipped_duplicate_count": 55,
+  "skipped_irrelevant_or_low_quality_count": 33,
+  "pool_total": 9,
+  "notes": [
+    "素材池文件此前不存在，本次按指定结构新建。",
+    "仅维护 politics_top_news.json 和 politics_top_news_status.json，未修改日报 HTML 或 index.html。",
+    "同 URL、同题材或高度相似标题已合并，优先保留权威来源、较新时间和摘要完整条目。"
+  ]
+}
