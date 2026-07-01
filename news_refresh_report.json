@@ -1,11 +1,11 @@
 {
-  "runAt": "2026-07-01 13:22:49",
+  "runAt": "2026-07-01 19:22:27",
   "sections": {
     "domestic": {
-      "before": 43,
-      "after": 43,
+      "before": 47,
+      "after": 47,
       "duplicates": 0,
-      "authoritativeTop10": 10
+      "authoritativeTop10": 9
     },
     "international": {
       "before": 78,
