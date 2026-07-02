@@ -2740,28 +2740,28 @@ const mockStockIndices = {
     { name:"印度SENSEX", value:"76,580.41", change:"-0.19%", direction:"down" }
   ],
 };
-const stockUpdatedAt = '7月1日 15:00'; // 行情数据更新时间
+const stockUpdatedAt = '7月2日 15:00'; // 行情数据更新时间
 
 
   const mockStockAI = [
-    {name:"新华保险", score:92, value:"65.18", change:"+10.01%", direction:"up", rating:"偏强", reason:"保险板块单日飙涨7%领涨全市，新华保险强势涨停创阶段新高；央行逆回购加量+长端利率回升+中报预期催化险企估值修复"},
-    {name:"中国人寿", score:88, value:"48.55", change:"+6.32%", direction:"up", rating:"偏强", reason:"保险板块爆发核心受益标的，中国人寿涨超6%创年内新高；权益市场回暖增厚投资收益+负债端新单价值率改善"},
-    {name:"牧原股份", score:85, value:"37.42", change:"+6.94%", direction:"up", rating:"偏强", reason:"生猪养殖板块大涨6%叠加猪价反转预期，牧原成本端优势+出栏量稳步增长；半年报预披露窗口期业绩弹性可期"},
-    {name:"永和股份", score:82, value:"44.79", change:"+10.00%", direction:"up", rating:"偏强", reason:"氟化工板块强势领涨永和股份涨停；2025年净利同比+123%叠加PVDF产能扩张，半导体电子氟材需求受AI算力拉动价值重估"},
-    {name:"中信建投", score:78, value:"31.20", change:"+5.62%", direction:"up", rating:"关注", reason:"券商板块在保险领涨下集体异动，中信建投涨超5%；两融余额30330亿创年内新高+IPO节奏重启，券商β属性率先受益"},
-    {name:"寒武纪", score:58, value:"1535.05", change:"-6.91%", direction:"down", rating:"观察", reason:"公司主动提示'股价上涨过快存下跌风险'，7月1日低开收跌6.91%市值跌破万亿；高位AI算力股集体获利了结，资金切换至低估值金融+周期"},
+    {name:"海南海药", score:90, value:"6.04", change:"+10.02%", direction:"up", rating:"偏强", reason:"创新药板块龙头，8天6板强势领涨；国家医保局公示2026年医保目录初审结果，557个药品通过医保初审+54个通过商保创新药初审，'医保+商保'双目录推进催化创新药价值重估"},
+    {name:"锋龙股份", score:87, value:"71.28", change:"+10.00%", direction:"up", rating:"偏强", reason:"人形机器人供应链核心标的叠加控制权变更落地，优必选完成要约收购持股达43.01%；机器人概念日内17股涨停，产业链量产预期升温"},
+    {name:"黄河旋风", score:84, value:"18.03", change:"+10.01%", direction:"up", rating:"偏强", reason:"培育钻石板块逆势爆发，黄河旋风强势涨停；惠丰钻石涨超10%，板块受益消费复苏+高端制造需求提升"},
+    {name:"气派科技", score:80, value:"51.30", change:"+20.00%", direction:"up", rating:"关注", reason:"先进封装概念20cm涨停，日月光再度上调封装报价最高超20%；国产算力自主可控背景下先进封装需求高景气"},
+    {name:"紫金矿业", score:78, value:"26.31", change:"+4.74%", direction:"up", rating:"关注", reason:"贵金属/有色金属板块逆势走强，紫金矿业主力净流入11.96亿元位居前五；金价上行+避险属性凸显，周期龙头获资金抱团"},
+    {name:"北方华创", score:55, value:"841.82", change:"-10.00%", direction:"down", rating:"观察", reason:"半导体设备龙头6000亿市值跌停，华海清科/华峰测控跌超10%；隔夜美股半导体产业链大跌+高位硬件获利了结，短期承压"},
   ];
 
   // 板块预测（由规则评分引擎基于盘面、新闻热度、政策和产业趋势生成）
   const mockSectorPrediction = [
-    { rank:1, name:"保险", code:"BK0474", tag:"强势", tagClass:"bull", reason:"保险板块单日飙涨7%领涨全市，新华保险涨停中国人寿涨超6%；长端利率回升+权益市场回暖增厚投资收益，估值修复行情启动", confidence:93, stock:"新华保险", target:"目标价72/止损价58" },
-    { rank:2, name:"大金融(券商/银行)", code:"BK0475", tag:"强势", tagClass:"bull", reason:"保险暴涨带动大金融板块全线爆发，券商股异动拉升；央行加量逆回购+两融余额30330亿创年内新高，金融板块β属性率先修复", confidence:87, stock:"中信建投", target:"目标价35/止损价28" },
-    { rank:3, name:"生猪养殖", code:"BK0433", tag:"强势", tagClass:"bull", reason:"生猪养殖板块单日大涨6%板块指数创新高，猪价反转预期+半年报预披露窗口期催化；牧原/温氏/新五丰等多股涨停板块效应集中", confidence:85, stock:"牧原股份", target:"目标价42/止损价33" },
-    { rank:4, name:"氟化工", code:"BK1019", tag:"强势", tagClass:"bull", reason:"永和股份涨停联创股份19.93%涨停，AI算力扩张拉动半导体电子氟材需求爆发；含氟新材料PVDF业务绑定新能源高景气", confidence:83, stock:"永和股份", target:"目标价50/止损价40" },
-    { rank:5, name:"锂矿/小金属", code:"BK1017", tag:"关注", tagClass:"watch", reason:"锂矿板块早盘涨幅居前，碳酸锂价格底部企稳+储能需求旺季临近；锂矿股估值处历史低位弹性大，反弹空间值得关注", confidence:78, stock:"赣锋锂业", target:"目标价48/止损价38" },
-    { rank:6, name:"人形机器人", code:"BK1174", tag:"关注", tagClass:"watch", reason:"人形机器人概念盘中持续走强，智谱AI+宇树科技催化叠加7月世界人工智能大会临近；减速器/丝杠等核心零部件厂商订单预期升温", confidence:76, stock:"绿的谐波", target:"目标价95/止损价75" },
-    { rank:7, name:"创新药", code:"BK1040", tag:"稳健", tagClass:"steady", reason:"创新药板块午后异动拉升，ADC管线进入临床III期密集读出期；出海BD交易单笔金额屡破纪录，估值修复+催化剂双重共振", confidence:74, stock:"恒瑞医药", target:"目标价62/止损价50" },
-    { rank:8, name:"AI算力", code:"BK1044", tag:"观察", tagClass:"watch", reason:"寒武纪单日重挫6.91%市值跌破万亿，公司主动提示'股价过快上涨'风险；高位AI算力股集体获利了结，短期建议观望等待企稳", confidence:62, stock:"寒武纪", target:"目标价1700/止损价1400" },
+    { rank:1, name:"人形机器人", code:"BK1174", tag:"强势", tagClass:"bull", reason:"日内最强主线午间17股涨停，优必选发布全尺寸超仿生人形机器人'优世界U1'系列订单破万；特斯拉Optimus V3量产预期+本土机器人企业IPO提速，产业链由主题投资向业绩兑现切换", confidence:90, stock:"锋龙股份", target:"目标价80/止损价62" },
+    { rank:2, name:"创新药", code:"BK1040", tag:"强势", tagClass:"bull", reason:"医保+商保双目录初审名单公布，557个药品通过医保初审、54个通过商保创新药初审；海南海药8天6板领涨，京新药业一字涨停，创新药估值重估拐点出现", confidence:88, stock:"海南海药", target:"目标价7.5/止损价5.2" },
+    { rank:3, name:"贵金属/有色", code:"BK1016", tag:"强势", tagClass:"bull", reason:"贵金属板块逆势领涨，招金黄金/赤峰黄金/山金国际涨停；金价上行+避险情绪升温，紫金矿业主力净流入近12亿元，周期资源防御属性突出", confidence:85, stock:"紫金矿业", target:"目标价29/止损价23" },
+    { rank:4, name:"培育钻石", code:"BK1051", tag:"强势", tagClass:"bull", reason:"培育钻石板块盘中拉升，黄河旋风涨停、惠丰钻石涨超10%；高端制造+消费复苏双轮驱动，板块估值处于相对低位弹性充足", confidence:82, stock:"黄河旋风", target:"目标价21/止损价16" },
+    { rank:5, name:"先进封装", code:"BK1164", tag:"关注", tagClass:"watch", reason:"日月光再度上调封装报价最高超20%，国产算力自主可控拉动先进封装需求；气派科技20cm涨停，甬矽电子涨超7%，板块局部活跃但受半导体整体调整拖累", confidence:78, stock:"气派科技", target:"目标价58/止损价45" },
+    { rank:6, name:"面板/消费电子", code:"BK1015", tag:"关注", tagClass:"watch", reason:"京东方A主力净流入14.91亿元居A股第二，华映科技涨停；面板行业周期回暖+AI终端创新催化，消费电子估值修复值得关注", confidence:76, stock:"京东方A", target:"目标价10.5/止损价8.0" },
+    { rank:7, name:"中报预增/化工", code:"BK1019", tag:"稳健", tagClass:"steady", reason:"中报预告窗口期资金拥抱业绩确定性，化工板块多股涨停；益生股份/韶能股份/永太科技等业绩预增标的连板，防御环境下业绩线持续受青睐", confidence:74, stock:"益生股份", target:"目标价14/止损价11" },
+    { rank:8, name:"半导体设备", code:"BK1039", tag:"观察", tagClass:"watch", reason:"半导体设备板块集体调整，6000亿市值北方华创跌停，华海清科/华峰测控跌超10%；隔夜美股半导体产业链大跌+高位硬件获利了结，短期建议观望", confidence:62, stock:"北方华创", target:"目标价950/止损价780" },
   ];
 
 function renderSectorPrediction() {
