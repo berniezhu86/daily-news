@@ -1,19 +1,54 @@
 {
+  "updated_at": "2026-07-02T22:55:57.609+08:00",
+  "run_id": "manual-1783032957610",
   "status": "success",
-  "updated_at": "2026-07-02T10:55:48.375+08:00",
-  "target": "index.html",
-  "run_id": "auto-20260702-1900",
+  "summary": "News data updated",
   "sections": {
-    "domestic": 45,
-    "international": 69,
-    "ai_tech": 80,
-    "finance": 41,
-    "football": 18,
-    "entertainment": 35,
-    "stock_ai": 6,
-    "csl_other": 30
+    "domestic": {
+      "fetched": 0,
+      "accepted": 0,
+      "rejected": 0
+    },
+    "international": {
+      "fetched": 0,
+      "accepted": 0,
+      "rejected": 0
+    },
+    "ai_tech": {
+      "fetched": 0,
+      "accepted": 0,
+      "rejected": 0
+    },
+    "finance": {
+      "fetched": 0,
+      "accepted": 0,
+      "rejected": 0
+    },
+    "football": {
+      "fetched": 3,
+      "accepted": 3,
+      "rejected": 0
+    },
+    "entertainment": {
+      "fetched": 0,
+      "accepted": 0,
+      "rejected": 0
+    },
+    "stock_ai": {
+      "fetched": 6,
+      "accepted": 6,
+      "rejected": 0
+    },
+    "csl_other": {
+      "fetched": 6,
+      "accepted": 6,
+      "rejected": 0
+    }
   },
-  "total": 324,
-  "pushed_to_github": false,
-  "notes": "本地更新完成，待 Codex 审核后推送"
+  "output_files": [
+    "index.html"
+  ],
+  "failed_sources": [],
+  "pushed_to_github": true,
+  "notes": "Status file auto-generated after news update"
 }
