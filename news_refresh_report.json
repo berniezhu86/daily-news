@@ -1,10 +1,10 @@
 {
-  "runAt": "2026-07-02 07:22:42",
+  "runAt": "2026-07-02 13:23:23",
   "sections": {
     "domestic": {
-      "before": 52,
-      "after": 51,
-      "duplicates": 1,
+      "before": 54,
+      "after": 54,
+      "duplicates": 0,
       "authoritativeTop10": 10
     },
     "international": {
@@ -38,13 +38,13 @@
       "authoritativeTop10": 0
     },
     "csl": {
-      "before": 7,
+      "before": 6,
       "after": 6,
       "duplicates": 0,
       "authoritativeTop10": 0
     }
   },
-  "duplicateMerged": 1,
+  "duplicateMerged": 0,
   "domesticHighPoliticsTop8": 8,
   "changedArrays": {
     "generated_news_arrays.js": [
@@ -76,11 +76,10 @@
       "mockCslOtherTeams"
     ]
   },
-  "manualAudit": {
-    "football": {
-      "henan": "prioritized official/structured and local authoritative items",
-      "csl": "removed one future-dated Toutiao item and prioritized CFA/Beijing Daily/club-operation news",
-      "removed": 1
-    }
-  }
+  "footballAudit": {
+    "csl": "官方/本地权威源前移，泛流量源和旧动态后移；未改跟踪专题。",
+    "henan": "中超官方、正观新闻等权威/本地源前移，旧赛况和低权威源后移；未改跟踪专题。"
+  },
+  "marketAudit": "未发现同 URL/同标题重复；受外网抓取暂停限制，保留现有权威财经源并按刷新权重轮换。",
+  "entertainmentAudit": "仅做去重、时效和来源轻量检查，保留 Workbuddy 榜单结构。"
 }
