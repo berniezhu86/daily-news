@@ -1,9 +1,9 @@
 {
-  "runAt": "2026-07-02 14:04:34",
+  "runAt": "2026-07-02 19:23:22",
   "sections": {
     "domestic": {
-      "before": 54,
-      "after": 54,
+      "before": 60,
+      "after": 60,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
@@ -11,7 +11,7 @@
       "before": 78,
       "after": 78,
       "duplicates": 0,
-      "authoritativeTop10": 0
+      "authoritativeTop10": 3
     },
     "ai": {
       "before": 80,
@@ -29,7 +29,7 @@
       "before": 80,
       "after": 80,
       "duplicates": 0,
-      "authoritativeTop10": 2
+      "authoritativeTop10": 1
     },
     "henan": {
       "before": 6,
@@ -75,5 +75,41 @@
       "mockHenanNews",
       "mockCslOtherTeams"
     ]
+  },
+  "localAudit": {
+    "stockRemovedLowQualityOrDuplicate": 43,
+    "stockRemaining": 37,
+    "footballReordered": true,
+    "changedArraysAfterAudit": {
+      "generated_news_arrays.js": [
+        "mockHotNewsDomestic",
+        "mockHotNewsDomesticExtra",
+        "mockHotNewsInternational",
+        "mockHotNewsInternationalExtra",
+        "mockHotNewsAI",
+        "mockHotNewsAIExtra",
+        "mockEntertainment",
+        "mockEntertainmentExtra",
+        "mockStockNews",
+        "mockStockNewsExtra",
+        "mockHenanNews",
+        "mockCslOtherTeams"
+      ],
+      "index.html": [
+        "mockHotNewsDomestic",
+        "mockHotNewsDomesticExtra",
+        "mockHotNewsInternational",
+        "mockHotNewsInternationalExtra",
+        "mockHotNewsAI",
+        "mockHotNewsAIExtra",
+        "mockEntertainment",
+        "mockEntertainmentExtra",
+        "mockStockNews",
+        "mockStockNewsExtra",
+        "mockHenanNews",
+        "mockCslOtherTeams"
+      ]
+    },
+    "auditAt": "2026-07-02 19:24:43"
   }
 }
