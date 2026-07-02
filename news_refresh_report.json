@@ -1,9 +1,9 @@
 {
-  "runAt": "2026-07-02 19:23:22",
+  "runAt": "2026-07-03 07:23:32",
   "sections": {
     "domestic": {
-      "before": 60,
-      "after": 60,
+      "before": 61,
+      "after": 61,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
@@ -11,7 +11,7 @@
       "before": 78,
       "after": 78,
       "duplicates": 0,
-      "authoritativeTop10": 3
+      "authoritativeTop10": 0
     },
     "ai": {
       "before": 80,
@@ -26,10 +26,10 @@
       "authoritativeTop10": 2
     },
     "stock": {
-      "before": 80,
-      "after": 80,
+      "before": 0,
+      "after": 0,
       "duplicates": 0,
-      "authoritativeTop10": 1
+      "authoritativeTop10": 0
     },
     "henan": {
       "before": 6,
@@ -38,8 +38,8 @@
       "authoritativeTop10": 0
     },
     "csl": {
-      "before": 6,
-      "after": 6,
+      "before": 5,
+      "after": 5,
       "duplicates": 0,
       "authoritativeTop10": 0
     }
@@ -75,41 +75,5 @@
       "mockHenanNews",
       "mockCslOtherTeams"
     ]
-  },
-  "localAudit": {
-    "stockRemovedLowQualityOrDuplicate": 43,
-    "stockRemaining": 37,
-    "footballReordered": true,
-    "changedArraysAfterAudit": {
-      "generated_news_arrays.js": [
-        "mockHotNewsDomestic",
-        "mockHotNewsDomesticExtra",
-        "mockHotNewsInternational",
-        "mockHotNewsInternationalExtra",
-        "mockHotNewsAI",
-        "mockHotNewsAIExtra",
-        "mockEntertainment",
-        "mockEntertainmentExtra",
-        "mockStockNews",
-        "mockStockNewsExtra",
-        "mockHenanNews",
-        "mockCslOtherTeams"
-      ],
-      "index.html": [
-        "mockHotNewsDomestic",
-        "mockHotNewsDomesticExtra",
-        "mockHotNewsInternational",
-        "mockHotNewsInternationalExtra",
-        "mockHotNewsAI",
-        "mockHotNewsAIExtra",
-        "mockEntertainment",
-        "mockEntertainmentExtra",
-        "mockStockNews",
-        "mockStockNewsExtra",
-        "mockHenanNews",
-        "mockCslOtherTeams"
-      ]
-    },
-    "auditAt": "2026-07-02 19:24:43"
   }
 }
