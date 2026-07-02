@@ -1,7 +1,7 @@
 {
-  "extracted_at": "2026-07-02T04:55:36.837Z",
+  "extracted_at": "2026-07-02T10:55:34.700Z",
   "source_file": "/Users/bainian/WorkBuddy/2026-06-28-16-31-12/outputs/news-daily-mrjb.html",
-  "total_items": 412,
+  "total_items": 323,
   "sections": {
     "mockHotNewsDomestic": [
       {
@@ -22,7 +22,7 @@
       },
       {
         "title": "高温之下 中国空调何以热销欧洲？",
-        "summary": "欧洲多国遭遇持续高温天气。因受气候历史、建筑条件、环保观念等因素影响，欧洲家庭空调普及率普遍不高。",
+        "summary": "6月30日 22:58，高温之下 中国空调何以热销欧洲？。欧洲多国遭遇持续高温天气。因受气候历史、建筑条件、环保观念等因素影响，欧洲家庭空调普及率普遍不高。",
         "source": "央视新闻",
         "url": "https://view.inews.qq.com/a/20260630A0B70F00?scene=news-skill",
         "time": "6月30日 22:58",
@@ -78,7 +78,7 @@
       },
       {
         "title": "主汛期至 山西如何防汛备汛？",
-        "summary": "7月1日，全省进入主汛期。山西如何防汛备汛？",
+        "summary": "7月1日，全省进入主汛期。山西如何防汛备汛？。",
         "source": "中国新闻网",
         "url": "https://view.inews.qq.com/a/20260630A0A46R00?scene=news-skill",
         "time": "6月30日 20:48",
@@ -117,7 +117,7 @@
         "heat": 5
       },
       {
-        "title": "DeepSeek将实行高峰时段价格翻倍，涵盖工作时段7个小时，多位开发者已收到调价邮件",
+        "title": "DeepSeek将实行高峰时段价格翻倍，涵盖工作时段7个小时",
         "summary": "红星资本局6月30日消息，，DeepSeek官网发布通知称，API服务预计7月中旬开始采用峰谷定价策略，高峰时段价格为平时价格2倍。",
         "source": "红星新闻",
         "url": "https://view.inews.qq.com/a/20260630A099FV00?scene=news-skill",
@@ -138,62 +138,6 @@
         "source": "界面新闻",
         "url": "https://view.inews.qq.com/a/20260630A091H500?scene=news-skill",
         "time": "6月30日 18:44",
-        "heat": 5
-      },
-      {
-        "title": "潮起两岸奔甬来 共筑AI健康新赛道 海峡两岸AI+生命健康产业对接活动在宁波北仑成功举办",
-        "summary": "6月26日，奔甬而来 共筑两岸生命健康产业新未来”为主题，汇聚中关村人才协会、台湾电电公会、中华妇女会、全国台企联及甬台两地医疗、AI科创、投融资领域50余名行业代表与企业高管。",
-        "source": "中国台湾网",
-        "url": "https://view.inews.qq.com/a/20260630A07KS000?scene=news-skill",
-        "time": "6月30日 16:45",
-        "heat": 5
-      },
-      {
-        "title": "明日起 内地居民前往港澳地区定居需注意",
-        "summary": "今天（30日），中华人民共和国出入境管理局发布关于内地居民前往港澳地区定居审批条件的公告。",
-        "source": "央视新闻",
-        "url": "https://view.inews.qq.com/a/20260630A07J9N00?scene=news-skill",
-        "time": "6月30日 16:33",
-        "heat": 5
-      },
-      {
-        "title": "第三届海峡两岸高校鹅湖会讲暨青年学生书院文化研习营举行",
-        "summary": "6月24日至28日，第三届海峡两岸（上饶）高校“鹅湖会讲”暨青年学生书院文化研习营在江西上饶顺利举办。来自海峡两岸的80余位专家学者与青年学子齐聚于此，以千年书院文化为精神纽带。",
-        "source": "中国台湾网",
-        "url": "https://view.inews.qq.com/a/20260630A06Q5M00?scene=news-skill",
-        "time": "6月30日 15:25",
-        "heat": 5
-      },
-      {
-        "title": "青海海西州直辖区发生3.0级地震，震源深度10千米",
-        "summary": "中国地震台网正式测定：06月30日15时03分在青海海西州直辖区（北纬37.82度，东经95.52度）发生3.0级地震，震源深度10千米。",
-        "source": "界面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A06LZP00?scene=news-skill",
-        "time": "6月30日 15:14",
-        "heat": 5
-      },
-      {
-        "title": "江苏如东：以“育”破题，未来产业加速成势",
-        "summary": "新技术、新业态、新模式加速涌现，培育发展未来产业，已成为发展新质生产力、建设现代化产业体系的关键。",
-        "source": "上游新闻",
-        "url": "https://view.inews.qq.com/a/20260630A066S900?scene=news-skill",
-        "time": "6月30日 14:31",
-        "heat": 5
-      },
-      {
-        "title": "智融两岸 共赢未来 2026海峡两岸济南青年科教系列活动启动",
-        "summary": "6月26日下午，“智融两岸 共赢未来”2026海峡两岸（济南）青年科教系列活动拉开帷幕。在山东艾克瑞特教育科技有限公司总部，伴随着缤纷气球腾空绽放，山东省台办副主任吴莹宣布本次活动正式启动。",
-        "source": "中国台湾网",
-        "url": "https://view.inews.qq.com/a/20260630A05G8T00?scene=news-skill",
-        "time": "6月30日 13:10",
-        "heat": 5
-      },
-      {
-        "title": "DeepSeek V4将正式上线，高峰时段API价格翻倍",
-        "summary": "（文/万肇生 编辑/吕栋）6月29日，DeepSeek V4正式版计划于7月中旬正式上线，与之而来的则是更多功能优化和性能提升，以及峰谷时定价机制。",
-        "source": "观察者网",
-        "url": "https://view.inews.qq.com/a/20260630A0560E00?scene=news-skill",
-        "time": "6月30日 12:49",
         "heat": 5
       },
       {
@@ -237,32 +181,6 @@
         "heat": 5
       },
       {
-        "title": "我国纬度最高塔式熔盐光热电站投产 树高寒地区新标杆",
-        "summary": "位于吉林省通榆县的吉西基地鲁固直流140万千瓦外送项目2-1（光热100MW）。吉西基地鲁固直流140万千瓦外送项目2-1（光热100MW）实现投产发电。",
-        "source": "红网",
-        "url": "https://view.inews.qq.com/a/20260630A073HL00?scene=news-skill",
-        "time": "6月30日 16:03",
-        "heat": 5
-      }
-    ],
-    "mockHotNewsDomesticExtra": [
-      {
-        "title": "突破人工网优瓶颈：中国电信、华为联合创新网优任务大模型",
-        "summary": "C114讯 6月30日专稿（蒋均牧）过去三十年，移动通信网络经历了从2G到5G/5G-A的代际跃迁。与之相伴的网络优化工作虽在持续改进，却始终未能摆脱“人工主导、经验驱动”的基本范式。",
-        "source": "C114通信网",
-        "url": "https://view.inews.qq.com/a/20260630A06ADH00?scene=news-skill",
-        "time": "6月30日 14:40",
-        "heat": 5
-      },
-      {
-        "title": "DeepSeek V4正式版7月中旬上线，高峰时段API价格直接翻倍",
-        "summary": "**IT时代网6月30日消息，** DeepSeek团队宣布，V4正式版计划于7月中旬正式上线，将带来更多功能优化和性能提升。",
-        "source": "IT时代网",
-        "url": "https://view.inews.qq.com/a/20260630A05ZPH00?scene=news-skill",
-        "time": "6月30日 14:09",
-        "heat": 5
-      },
-      {
         "title": "国际小行星日：一起走近行星科学前沿",
         "summary": "北京6月30日电 题：国际小行星日：一起走近行星科学前沿 新华社记者王立彬 我国行星科学研究水平如何，为什么说小行星是太阳系“时间胶囊”？6月30日是国际小行星日。",
         "source": "新华社新闻",
@@ -280,7 +198,7 @@
       },
       {
         "title": "追梦：别再给新秀伦德博格施压，希望看到他有一个出色赛季",
-        "summary": "虎扑06月30日讯 今日，德雷蒙德-格林在自己的播客节目中谈到了勇士新秀亚克瑟尔-伦德博格。格林：“我想说几句，我们能不能别再给伦德博格这个新秀施加压力了，好像他一来就能拯救球队似的？",
+        "summary": "虎扑06月30日讯 近期，德雷蒙德-格林在自己的播客节目中谈到了勇士新秀亚克瑟尔-伦德博格。格林：“我想说几句，我们能不能别再给伦德博格这个新秀施加压力了，好像他一来就能拯救球队似的？",
         "source": "虎扑体育内容",
         "url": "https://view.inews.qq.com/a/20260630A0BK5F00?scene=news-skill",
         "time": "6月30日 23:54",
@@ -304,7 +222,7 @@
       },
       {
         "title": "应对法国高温，在法华人各显神通：抱冰水瓶、喝绿豆汤、安装纱窗蚊帐",
-        "summary": "“没有什么防暑的办法，就是硬扛。”在法中国留学生黄同学无奈地告诉潇湘晨报·晨视频",
+        "summary": "6月30日 23:35，应对法国高温，在法华人各显神通：抱冰水瓶、喝绿豆汤、安装纱窗蚊帐。“没有什么防暑的办法，就是硬扛。”在法中国留学生黄同学无奈地告诉潇湘晨报·晨视频",
         "source": "潇湘晨报",
         "url": "https://view.inews.qq.com/a/20260630A0BG0Q00?scene=news-skill",
         "time": "6月30日 23:35",
@@ -325,7 +243,9 @@
         "url": "https://view.inews.qq.com/a/20260630A0B56300?scene=news-skill",
         "time": "6月30日 22:52",
         "heat": 5
-      },
+      }
+    ],
+    "mockHotNewsDomesticExtra": [
       {
         "title": "布朗：我们没有更换车手阵容的打算，也没在市场上寻找车手",
         "summary": "虎扑06月30日讯 据RN365消息，在有关马克斯-维斯塔潘与迈凯伦谈判的传闻甚嚣尘上之际，迈凯伦车队CEO扎克-布朗似乎已经关上了车队签下维斯塔潘的大门，他表示车队并没有“在市场上寻找新车手”",
@@ -336,7 +256,7 @@
       },
       {
         "title": "厨综第二年，赛道已经开始拓展新方向？",
-        "summary": "厨综赛道还在发展初期，仍然具有不俗的拓展空间，而没定型本身就意味着可能性。",
+        "summary": "6月30日 22:06，厨综第二年，赛道已经开始拓展新方向？。厨综赛道还在发展初期，仍然具有不俗的拓展空间，而没定型本身就意味着可能性。",
         "source": "读娱",
         "url": "https://view.inews.qq.com/a/20260630A0ARVB00?scene=news-skill",
         "time": "6月30日 22:06",
@@ -384,7 +304,7 @@
       },
       {
         "title": "三条全球最大高性能碳纤维生产线在连云港集中投产\n我国高端碳纤维产业再立里程碑",
-        "summary": "投标仪式现场6月28日，标志着我国碳纤维产业规模化、高端化、自主化发展取得重大突破。",
+        "summary": "6月30日 19:58，三条全球最大高性能碳纤维生产线在连云港集中投产\n我国高端碳纤维产业再立里程碑。投标仪式现场6月28日，标志着我国碳纤维产业规模化、高端化、自主化发展取得重大突破。",
         "source": "扬眼",
         "url": "https://view.inews.qq.com/a/20260630A09PQQ00?scene=news-skill",
         "time": "6月30日 19:58",
@@ -444,118 +364,6 @@
         "source": "爱思助手",
         "url": "https://view.inews.qq.com/a/20260630A08P4V00?scene=news-skill",
         "time": "6月30日 18:12",
-        "heat": 5
-      },
-      {
-        "title": "局势不妙，国内安卓厂商普遍下调出货量，今年大家都不好过",
-        "summary": "多位知情人士表示，小米、OPPO、vivo和荣耀这些国内主流安卓手机厂商都向供应商发出了通知，要再次下调今年的出货量。原因不用猜都知道了，当然还是物料成本涨价。",
-        "source": "热点科技",
-        "url": "https://view.inews.qq.com/a/20260630A089OJ00?scene=news-skill",
-        "time": "6月30日 17:42",
-        "heat": 5
-      },
-      {
-        "title": "时代锐评｜海伦司商标失守背后：网红品牌狂飙欠的账，终要靠基本功偿还",
-        "summary": "“小酒馆第一股”海伦司（09869.HK）公告称，北京市高院终审落槌，“海伦司”“海伦司小酒馆”“海伦司越大排档”三个核心中文商标被裁定无效。",
-        "source": "时代周报",
-        "url": "https://view.inews.qq.com/a/20260630A0896U00?scene=news-skill",
-        "time": "6月30日 17:41",
-        "heat": 5
-      },
-      {
-        "title": "逛街还能偶遇神仙现场！徐家汇街头响起纯人声音乐会，太治愈",
-        "summary": "不用乐器、不设固定舞台，纯粹人声便可令人陶醉。，2026长三角阿卡贝拉音乐大赛系列预热活动“人声漫游徐家汇”音乐快闪同步登陆美罗城、百代小楼、ITC二期庆典广场。",
-        "source": "上海徐汇",
-        "url": "https://view.inews.qq.com/a/20260630A0890400?scene=news-skill",
-        "time": "6月30日 17:39",
-        "heat": 5
-      },
-      {
-        "title": "国际观察｜藤森庆子胜选，秘鲁治理难题待解",
-        "summary": "利马6月30日电（记者王植樱 廖思维）秘鲁全国选举程序办公室29日公布的全部计票结果显示，右翼政党人民力量党候选人藤森庆子击败左翼政党“一起为了秘鲁”候选人罗伯托·桑切斯，在总统选举中获胜。",
-        "source": "新华社新闻",
-        "url": "https://view.inews.qq.com/a/20260630A0882R00?scene=news-skill",
-        "time": "6月30日 17:38",
-        "heat": 5
-      },
-      {
-        "title": "明天起，电动汽车上新规！",
-        "summary": "街坊们注意啦~有两个关于电动汽车的重要消息！电动汽车安全新国标将实施车子更安全！",
-        "source": "广州番禺发布",
-        "url": "https://view.inews.qq.com/a/20260630A07TC800?scene=news-skill",
-        "time": "6月30日 17:05",
-        "heat": 5
-      },
-      {
-        "title": "（外代一线）委内瑞拉地震死亡人数升至1719人",
-        "summary": "委内瑞拉全国代表大会主席豪尔赫·罗德里格斯29日表示，该国发生的两次强震已造成1719人死亡、5034人受伤，22619人在医疗机构和野战医院接受救治。",
-        "source": "新华社新闻",
-        "url": "https://view.inews.qq.com/a/20260630A07A6U00?scene=news-skill",
-        "time": "6月30日 16:19",
-        "heat": 5
-      },
-      {
-        "title": "为帮医院应对热浪，法政府紧急采购3万台空调",
-        "summary": "法国总理勒科尔尼29日在一场政府会议上表示，鉴于“可能再次出现热浪”，他将在未来几天把该国的卫生应急预案维持在最高级别。",
-        "source": "新华社新闻",
-        "url": "https://view.inews.qq.com/a/20260630A074BS00?scene=news-skill",
-        "time": "6月30日 16:05",
-        "heat": 5
-      },
-      {
-        "title": "泰国“素察”强调必须清晰区分村民与资本团体侵占塔兰国家公园，请环保人士理解村民先居住于此",
-        "summary": "泰国中文社6月30日报道，泰国“素察”强调必须清晰区分村民与资本团体侵占塔兰国家公园，请环保人士理解村民先居住于此，指出塔兰有原有社区，但未触及超过140万莱森林。",
-        "source": "泰国中文社",
-        "url": "https://view.inews.qq.com/a/20260630A06YTU00?scene=news-skill",
-        "time": "6月30日 15:49",
-        "heat": 5
-      },
-      {
-        "title": "泰国资源部长素察：不支持资本侵占他兰国家公园，呼吁环保人士体谅当地居民",
-        "summary": "泰国中文社6月30日报道，素察表示，不支持资本侵占他兰国家公园，强调必须明确区分当地居民和资本集团，呼吁环保人士体谅当地居民是先来的，并重申不会碰触140万莱的森林。",
-        "source": "泰国中文社",
-        "url": "https://view.inews.qq.com/a/20260630A064S300?scene=news-skill",
-        "time": "6月30日 14:24",
-        "heat": 5
-      },
-      {
-        "title": "欧洲多地遭遇持续高温天气，中国空调遭疯抢，有企业在西欧市场销量同比暴增70%",
-        "summary": "欧洲多地遭遇持续高温天气，多地打破高温纪录，发布高温预警。高温天气下，中国制造的移动空调、电扇等纳凉产品销量激增，甚至“一机难求”。",
-        "source": "潇湘晨报",
-        "url": "https://view.inews.qq.com/a/20260630A05NAL00?scene=news-skill",
-        "time": "6月30日 13:30",
-        "heat": 5
-      },
-      {
-        "title": "各色乐队轮番登场，这个暑假上饶的乐迷也太幸福了吧！",
-        "summary": "这个暑假上饶的乐迷也太幸福了吧！从7月到9月，已官宣乐队就有这么多散人、时间不够以后、白百、石岩......风格各异的乐队接踵而来根本看不完！",
-        "source": "上饶文旅",
-        "url": "https://view.inews.qq.com/a/20260630A058P400?scene=news-skill",
-        "time": "6月30日 12:47",
-        "heat": 5
-      },
-      {
-        "title": "条条电路通罗马：大模型可解释性的「唯一机制」可能从一开始就不存在",
-        "summary": "长期以来，机制可解释性（mechanistic interpretability）领域有一个几乎从未被明说、却被视为理所当然的前提：模型对于同一种任务的能力或表现。",
-        "source": "机器之心",
-        "url": "https://view.inews.qq.com/a/20260630A04VZ000?scene=news-skill",
-        "time": "6月30日 12:02",
-        "heat": 5
-      },
-      {
-        "title": "把毕业典礼变成动员场，赖清德叫嚣台军建“敌我意识”，“两岸互不隶属”",
-        "summary": "赖清德在台军毕业典礼上要求官兵建立“敌我意识”，并重申“两岸互不隶属”。这种说法听起来强硬，实际却把复杂的两岸问题压缩成简单对立，也让台湾社会离理性沟通更远一步。",
-        "source": "不一定有用的频道",
-        "url": "https://view.inews.qq.com/a/20260630A063W000?scene=news-skill",
-        "time": "6月30日 15:11",
-        "heat": 5
-      },
-      {
-        "title": "不是米切尔，也不是郭士强！广东新主帅最大热门，比李春江更合适",
-        "summary": "广东队终于要换帅了！这个消息在6月30日这个CBA休赛期的炎炎夏日里炸开了锅。",
-        "source": "骆驼体坛",
-        "url": "https://view.inews.qq.com/a/20260630A04ZXU00?scene=news-skill",
-        "time": "6月30日 12:18",
         "heat": 5
       }
     ],
@@ -650,7 +458,7 @@
       },
       {
         "title": "第五届华语纪录电影大会启动！9月广州见，今起全球征集",
-        "summary": "南都讯 记者李竹 6月30日，第五届华语纪录电影大会（以下简称“大会”）启动发布会于广州举办。",
+        "summary": "6月30日 21:29，第五届华语纪录电影大会启动！9月广州见，今起全球征集。南都讯 记者李竹 6月30日，第五届华语纪录电影大会（以下简称“大会”）启动发布会于广州举办。",
         "source": "南方都市报",
         "url": "https://view.inews.qq.com/a/20260630A0AHC900?scene=news-skill",
         "time": "6月30日 21:29",
@@ -698,7 +506,7 @@
       },
       {
         "title": "罕见极端高温席卷欧洲，中国空调“一机难求” 专家：未来热浪或将笼罩更大范围",
-        "summary": "邹阿江 ，欧洲多国遭遇持续性极端高温天气，区域气温纪录被接连刷新，各地相继发布高温预警信号。",
+        "summary": "6月30日 18:59，罕见极端高温席卷欧洲，中国空调“一机难求” 专家：未来热浪或将笼罩更大范围。邹阿江 ，欧洲多国遭遇持续性极端高温天气，区域气温纪录被接连刷新，各地相继发布高温预警信号。",
         "source": "封面新闻",
         "url": "https://view.inews.qq.com/a/20260630A096N200?scene=news-skill",
         "time": "6月30日 18:59",
@@ -713,162 +521,8 @@
         "heat": 5
       },
       {
-        "title": "湖南省（国际）创新创业大赛累计培育科技型企业超万家",
-        "summary": "中新网长沙6月30日电(向一鹏)湖南省(国际)创新创业大赛已成功举办十二届，累计吸引参赛项目超过2.6万个，培育科技型企业超万家，帮助参赛企业获得创业投融资超130亿元、贷款授信超240亿元。",
-        "source": "中国新闻网",
-        "url": "https://view.inews.qq.com/a/20260630A08ESB00?scene=news-skill",
-        "time": "6月30日 17:52",
-        "heat": 5
-      },
-      {
-        "title": "《联合国海洋法公约》评估报告向国际社会提出三点建议",
-        "summary": "中新社北京6月30日电 (记者 阮煜琳)中国自然资源部海洋发展战略研究所编制的《〈联合国海洋法公约〉评估报告：成就、定位与挑战》中英文版30日对外发布。",
-        "source": "中国新闻网",
-        "url": "https://view.inews.qq.com/a/20260630A0805800?scene=news-skill",
-        "time": "6月30日 17:21",
-        "heat": 5
-      },
-      {
-        "title": "报告称个别《联合国海洋法公约》非缔约国损害国际社会整体利益",
-        "summary": "中新社北京6月30日电 (记者 阮煜琳)6月30日在北京发布的《〈联合国海洋法公约〉评估报告：成就、定位与挑战》(下称《报告》)认为。",
-        "source": "中国新闻网",
-        "url": "https://view.inews.qq.com/a/20260630A07ZTF00?scene=news-skill",
-        "time": "6月30日 17:20",
-        "heat": 5
-      },
-      {
-        "title": "印度东部一炼化厂发生火灾，20人受伤",
-        "summary": "印度东部西孟加拉邦霍尔迪亚区一家炼化厂当天发生火灾，造成约20人受伤，其中5人伤势严重。报道称，火灾发生在当地时间30日凌晨4时至5时之间，炼化厂一条输送石脑油的管道起火。",
-        "source": "观察者网",
-        "url": "https://view.inews.qq.com/a/20260630A07ZOQ00?scene=news-skill",
-        "time": "6月30日 17:19",
-        "heat": 5
-      },
-      {
-        "title": "谢永江：把握网络空间全球治理的不确定性",
-        "summary": "当前，世界正在进入一个以数字技术为关键驱动力的深度变革期。人工智能、大数据、量子科技等新技术加速突破和迭代，网络空间已成为影响社会发展、国家安全和国际格局的关键场域。",
-        "source": "北京日报客户端",
-        "url": "https://view.inews.qq.com/a/20260630A07ZH300?scene=news-skill",
-        "time": "6月30日 17:19",
-        "heat": 5
-      },
-      {
-        "title": "总台记者探访丨委内瑞拉首都一医院高强度运转 全力救治地震灾民",
-        "summary": "自6月24日委内瑞拉地震发生以来，首都加拉加斯的卢西亚尼医院便进入了高强度运转状态。总台记者29日来到这家医院进行探访。",
-        "source": "央视新闻",
-        "url": "https://view.inews.qq.com/a/20260630A07R7500?scene=news-skill",
-        "time": "6月30日 17:01",
-        "heat": 5
-      },
-      {
-        "title": "日本队出局，韩媒来劲了",
-        "summary": "对阵“五星”巴西队，日本队是先进球的一方，距离“爆冷”只差一步。北京时间30日凌晨，在2026年美加墨世界杯1/16决赛中，日本队经过鏖战1:2不敌巴西队，仍未能在世界杯淘汰赛阶段收获胜利。",
-        "source": "中国新闻网",
-        "url": "https://view.inews.qq.com/a/20260630A07OVV00?scene=news-skill",
-        "time": "6月30日 16:52",
-        "heat": 5
-      },
-      {
-        "title": "报告：“海洋宪章”叙事是脱离国际法现实的误导性拔高",
-        "summary": "中国自然资源部海洋发展战略研究所编制的《〈联合国海洋法公约〉评估报告：成就、定位与挑战》(《报告》)中英文版30日对外发布。鉴于其广泛的调整事项，该《公约》常在政治话语中被称作“海洋宪章”。",
-        "source": "中国新闻网",
-        "url": "https://view.inews.qq.com/a/20260630A07K8Z00?scene=news-skill",
-        "time": "6月30日 16:44",
-        "heat": 5
-      },
-      {
-        "title": "气温高到热死人，印度人为啥不开空调？",
-        "summary": "数据新闻编辑 陈华罗 实习生 张效诚 新媒体设计 许骁 校对 张彦君“我想长话短说，因为太热了。”今年5月，美国国务卿鲁比奥访问印度时，直呼受不了当地的高温天。",
-        "source": "新京报",
-        "url": "https://view.inews.qq.com/a/20260630A07GMR00?scene=news-skill",
-        "time": "6月30日 16:33",
-        "heat": 5
-      },
-      {
-        "title": "填补国内航运绿色燃料自主国际认证空白，这项认证体系启用运营",
-        "summary": "当前，国际社会高度关注航运绿色低碳转型。2026年6月30日，对提升上海航运全球核心竞争力具有里程碑意义。",
-        "source": "澎湃新闻",
-        "url": "https://view.inews.qq.com/a/20260630A07CV600?scene=news-skill",
-        "time": "6月30日 16:26",
-        "heat": 5
-      },
-      {
-        "title": "欧洲央行管委温施：再次加息的理由已不如之前充分",
-        "summary": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）6月30日表示，再次加息的理由已不像此前那样明确。温施表示，随着美国与伊朗达成协议，引发此前通胀担忧的冲击源头已“或多或少”消失。",
-        "source": "界面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A07C6800?scene=news-skill",
-        "time": "6月30日 16:24",
-        "heat": 5
-      }
-    ],
-    "mockHotNewsInternationalExtra": [
-      {
-        "title": "国产便携式分体空调欧洲卖爆了？巴黎一卖场抢购空调惊动警察",
-        "summary": "今年夏天，欧洲大陆遭遇极端热浪。据欧盟气候监测机构数据，西班牙、法国、德国等地最高气温接连突破40℃，部分地区甚至逼近45℃的历史极值。",
-        "source": "上游新闻",
-        "url": "https://view.inews.qq.com/a/20260630A0289D00?scene=news-skill",
-        "time": "6月30日 16:10",
-        "heat": 5
-      },
-      {
-        "title": "赴日签证费暴涨，为何印度独享40元“地板价”？",
-        "summary": "从7月1日起，日本大幅上涨签证费，在中国办理单次签证的费用为715元，而很多人注意到在公告中对印度人格外“开恩”，无论单次和多次均只要40元。",
-        "source": "第一财经",
-        "url": "https://view.inews.qq.com/a/20260630A075OO00?scene=news-skill",
-        "time": "6月30日 16:08",
-        "heat": 5
-      },
-      {
-        "title": "委内瑞拉地震逾1700人死亡，数万人失联，美国流下“鳄鱼的眼泪”",
-        "summary": "委内瑞拉罕见的“双强震”已过去近一周，这个饱受美西方制裁摧残的国家，正面临严峻的人道主义危机。作为委内瑞拉经济困局的主要外部推手，在地震发生后，美国很快宣布了1.5亿美元的援助，此后又加码至3亿美元。",
-        "source": "观察者网",
-        "url": "https://view.inews.qq.com/a/20260630A06YLI00?scene=news-skill",
-        "time": "6月30日 15:49",
-        "heat": 5
-      },
-      {
-        "title": "报告：中国始终是国际海洋法治的坚定捍卫者和建设者",
-        "summary": "中国自然资源部海洋发展战略研究所编制的《〈联合国海洋法公约〉评估报告：成就、定位与挑战》(《报告》)中英文版6月30日对外发布。",
-        "source": "中国新闻网",
-        "url": "https://view.inews.qq.com/a/20260630A06QKS00?scene=news-skill",
-        "time": "6月30日 15:26",
-        "heat": 5
-      },
-      {
-        "title": "环球产业对话：加码拉美市场 亚马逊百亿美金基建与3000个中国品牌的重仓投入",
-        "summary": "亚马逊全球开店对外宣布了“拉美速通计划”：计划在年内扶持3000个中国品牌，以本土公司注册、税号合规、物流补贴等“重投入”方式，帮助它们在巴西和墨西哥扎根。这一动作的时机耐人寻味。",
-        "source": "环球网",
-        "url": "https://view.inews.qq.com/a/20260630A06P4K00?scene=news-skill",
-        "time": "6月30日 15:22",
-        "heat": 5
-      },
-      {
-        "title": "法国将于明年夏天前大选，空调议题或成关键胜负手",
-        "summary": "在持续的极端热浪席卷下，空调等制冷设备话题已成为法国2027年总统大选前各党派争夺选民基本盘的政治博弈。法国公共卫生署公布的初步数据显示。",
-        "source": "界面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A06LYJ00?scene=news-skill",
-        "time": "6月30日 15:14",
-        "heat": 5
-      },
-      {
-        "title": "超40℃热浪席卷欧洲，中国空调爆单",
-        "summary": "气象学家警告，多个欧洲国家的气温很可能刷新同期历史纪录。法国是这次热浪的重灾区。",
-        "source": "封面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A062WX00?scene=news-skill",
-        "time": "6月30日 14:19",
-        "heat": 5
-      },
-      {
-        "title": "欧洲热浪向东蔓延：意大利发布红色预警，巴尔干山火频发",
-        "summary": "席卷欧洲西部的热浪正逐渐向中欧、北欧、东欧等地区蔓延。捷克、德国和丹麦6月27日均刷新本国有记录气象数据以来最高温纪录，瑞士多地也创下六月最高温纪录。",
-        "source": "澎湃新闻",
-        "url": "https://view.inews.qq.com/a/20260630A05BXT00?scene=news-skill",
-        "time": "6月30日 12:58",
-        "heat": 5
-      },
-      {
         "title": "欧洲多地出现创纪录高温，中国猪圈装空调视频海外爆火",
-        "summary": "IT之家 6 月 30 日消息，，欧洲多地出现创纪录高温，但仅 20% 的欧洲家庭安装了空调。综合北京日报、RT今日俄罗斯报道，“中国猪圈都安装了空调”的视频在社交媒体 X 上走红。",
+        "summary": "IT之家 6 月 30 日消息，，欧洲多地出现创纪录高温，但仅 20% 的欧洲家庭安装了空调。综合北京日报、RT近期俄罗斯报道，“中国猪圈都安装了空调”的视频在社交媒体 X 上走红。",
         "source": "IT之家",
         "url": "https://view.inews.qq.com/a/20260701A00GUL00?scene=news-skill",
         "time": "7月1日 1:00",
@@ -880,14 +534,6 @@
         "source": "懂球帝",
         "url": "https://view.inews.qq.com/a/20260630A0BDZZ00?scene=news-skill",
         "time": "6月30日 23:26",
-        "heat": 5
-      },
-      {
-        "title": "多位名宿为巴西助阵，里瓦尔多：我们巴西队是不可战胜的",
-        "summary": "北京时间6月30日凌晨，2026美加墨世界杯1/16决赛，巴西队2-1逆转淘汰日本队。巴西传奇球星里瓦尔多在社交媒体里晒出观赛照，配文写着：“我们巴西队是不可战胜的。",
-        "source": "懂球帝",
-        "url": "https://view.inews.qq.com/a/20260630A07VLO00?scene=news-skill",
-        "time": "6月30日 17:11",
         "heat": 5
       },
       {
@@ -907,22 +553,6 @@
         "heat": 5
       },
       {
-        "title": "【中国那些事儿】从签证便利到数字支付，外媒点赞中国“国际友好旅游目的地”范本",
-        "summary": "中国日报网6月30日电 今年以来，中国文旅市场活力不减，“文博游”“入境游”持续火热。",
-        "source": "中国日报网",
-        "url": "https://view.inews.qq.com/a/20260630A08EV700?scene=news-skill",
-        "time": "6月30日 17:52",
-        "heat": 5
-      },
-      {
-        "title": "欧洲进入“炙烤模式”：空调卖爆了，经济“中暑”了",
-        "summary": "法国、西班牙、意大利、德国、英国等一众欧洲国家集体开启“超级烧烤模式”，持续高温热浪席卷全域。这场来势汹汹的极端酷暑，早已不只是简单的天气升温，更是彻底搅动了欧洲的市场、文旅与经济；",
-        "source": "中国金融新闻网",
-        "url": "https://view.inews.qq.com/a/20260630A0787500?scene=news-skill",
-        "time": "6月30日 16:03",
-        "heat": 5
-      },
-      {
         "title": "伦敦股市30日上涨",
         "summary": "伦敦6月30日电（记者赵小娜）英国伦敦股市《金融时报》100种股票平均价格指数30日报收于10497.12点，较前一交易日上涨12.90点，涨幅为0.12%。欧洲三大股指当天全线上涨。",
         "source": "新华社新闻",
@@ -932,7 +562,7 @@
       },
       {
         "title": "越南救援队分五路搜寻地震遇难者",
-        "summary": "越南中文社7月1日报道，委内瑞拉：6月30日，在2.2平方公里区域内搜寻地震遇难者。",
+        "summary": "7月1日 1:10，越南救援队分五路搜寻地震遇难者。越南中文社7月1日报道，委内瑞拉：6月30日，在2.2平方公里区域内搜寻地震遇难者。",
         "source": "越南中文社",
         "url": "https://view.inews.qq.com/a/20260701A00KZX00?scene=news-skill",
         "time": "7月1日 1:10",
@@ -964,7 +594,7 @@
       },
       {
         "title": "印度要痛定思痛了？",
-        "summary": "自美国总统特朗普二次入主白宫以来，美印关系受关税争端、限制印度劳工签证等一系列事件影响持续下滑。",
+        "summary": "6月30日 23:57，印度要痛定思痛了？。自美国总统特朗普二次入主白宫以来，美印关系受关税争端、限制印度劳工签证等一系列事件影响持续下滑。",
         "source": "环球时报新媒体",
         "url": "https://view.inews.qq.com/a/20260701A001AK00?scene=news-skill",
         "time": "6月30日 23:57",
@@ -977,7 +607,9 @@
         "url": "https://view.inews.qq.com/a/20260630A0BGCL00?scene=news-skill",
         "time": "6月30日 23:36",
         "heat": 5
-      },
+      }
+    ],
+    "mockHotNewsInternationalExtra": [
       {
         "title": "美国务院高官罕见承认：乌克兰正在赢得战争",
         "summary": "2026年6月30日，综合基辅邮报（Kyiv Post）、乌克兰国家通讯社（Ukrinform）、英国《金融时报》（Financial Times）等多家外媒报道，美国务院高官罕见承认：乌克兰正在赢",
@@ -1004,7 +636,7 @@
       },
       {
         "title": "张文娟｜一边天价罚单，一边胜诉率12%：印度税务的“左右互搏”",
-        "summary": "近年来，印度税务环境显著收紧，针对跨国企业的重大税务调查频繁发生，呈现出“执法趋严”的态势。",
+        "summary": "6月30日 22:53，张文娟｜一边天价罚单，一边胜诉率12%：印度税务的“左右互搏”。近年来，印度税务环境显著收紧，针对跨国企业的重大税务调查频繁发生，呈现出“执法趋严”的态势。",
         "source": "文娟探世界",
         "url": "https://view.inews.qq.com/a/20260630A0B5TG00?scene=news-skill",
         "time": "6月30日 22:53",
@@ -1044,7 +676,7 @@
       },
       {
         "title": "盛大庆典难掩裂痕！美国250周年欧陆盛会，美欧博弈暗流涌动",
-        "summary": "正值美欧经贸、战略分歧持续发酵、双边博弈不断加剧的敏感节点，美国高调在欧洲腹地举办顶级盛典。",
+        "summary": "6月30日 22:13，盛大庆典难掩裂痕！美国250周年欧陆盛会，美欧博弈暗流涌动。正值美欧经贸、战略分歧持续发酵、双边博弈不断加剧的敏感节点，美国高调在欧洲腹地举办顶级盛典。",
         "source": "硬核小百科",
         "url": "https://view.inews.qq.com/a/20260630A0ATOU00?scene=news-skill",
         "time": "6月30日 22:13",
@@ -1116,7 +748,7 @@
       },
       {
         "title": "记者观察：美伊谈判再现“罗生门”前景迷雾重重",
-        "summary": "围绕美伊是否在卡塔尔重启会谈，双方说法相悖，中东舆论对此如何看待？东方卫视驻中东",
+        "summary": "6月30日 20:14，记者观察：美伊谈判再现“罗生门”前景迷雾重重。围绕美伊是否在卡塔尔重启会谈，双方说法相悖，中东舆论对此如何看待？东方卫视驻中东",
         "source": "看看新闻Knews",
         "url": "https://view.inews.qq.com/a/20260630A09ULQ00?scene=news-skill",
         "time": "6月30日 20:14",
@@ -1196,10 +828,98 @@
       },
       {
         "title": "人保寿险1元挂牌 “甩卖”中美国际股权，保险中介牌照为什么不香了？| 大鱼财经",
-        "summary": "曾经价格不菲且“一照难求”的全国性保险中介牌照，如今却以“白菜价”挂牌转让。",
+        "summary": "6月30日 19:19，人保寿险1元挂牌 “甩卖”中美国际股权，保险中介牌照为什么不香了？| 大鱼财经。曾经价格不菲且“一照难求”的全国性保险中介牌照，如今却以“白菜价”挂牌转让。",
         "source": "新黄河",
         "url": "https://view.inews.qq.com/a/20260630A09D2W00?scene=news-skill",
         "time": "6月30日 19:19",
+        "heat": 5
+      },
+      {
+        "title": "欧洲持续高温推升空调销售激增40倍，买到空调的留学生赞叹“还是祖国服务牛”",
+        "summary": "刘欣梦，欧洲多国持续遭遇高温天气。不少留学生吐槽热到崩溃，有人在社交平台秀出成排的降温工具，还有抢购到空调的网友则发帖表示“还是祖国的服务牛，感谢joybuy救世主，终于人又活过来了”。",
+        "source": "极目新闻",
+        "url": "https://view.inews.qq.com/a/20260630A09A3900?scene=news-skill",
+        "time": "6月30日 19:09",
+        "heat": 5
+      },
+      {
+        "title": "俄罗斯军工重镇被炸，乌克兰“火烈鸟”首次打出60%命中率",
+        "summary": "6月30日 19:00，俄罗斯军工重镇被炸，乌克兰“火烈鸟”首次打出60%命中率。乌克兰向俄罗斯伏尔加格勒发射了五枚“火烈鸟”巡航导弹。三枚命中目标。",
+        "source": "子桑鹰脉",
+        "url": "https://view.inews.qq.com/a/20260630A03XPI00?scene=news-skill",
+        "time": "6月30日 19:00",
+        "heat": 5
+      },
+      {
+        "title": "7月3日24时，国内成品油价格再度调整",
+        "summary": "据新华社消息，按照国内成品油价格调整周期安排，7月3日24时，成品油调价窗口将再度开启。据专业机构预测，受到国际油价影响，原油变化率达到-12.84%，预计油价下调720元/吨。",
+        "source": "极目新闻",
+        "url": "https://view.inews.qq.com/a/20260630A08ZZC00?scene=news-skill",
+        "time": "6月30日 18:39",
+        "heat": 5
+      },
+      {
+        "title": "应对全球冲突：中国调解外交的三个组成部分",
+        "summary": "其外交体系完备、架构清晰，包含三个相互促进的组成部分：多层面的促和实践、以全球安全倡议为概念框架、以国际调解院为制度依托。",
+        "source": "中美聚焦",
+        "url": "https://view.inews.qq.com/a/20260630A090D700?scene=news-skill",
+        "time": "6月30日 18:39",
+        "heat": 5
+      },
+      {
+        "title": "谭咏麟终极巡演定档9月！新歌《我在意》MV 温情致谢歌迷",
+        "summary": "潮新闻客户端 记者 陈新怡 ，乐坛“校长”谭咏麟正式官宣《谭咏麟与您“刻骨铭心”世界巡回演唱会—终极篇》定档，将于9月11日至15日、9月18日至22日登陆香港红磡体育馆，一连献上10",
+        "source": "潮新闻",
+        "url": "https://view.inews.qq.com/a/20260630A08XA800?scene=news-skill",
+        "time": "6月30日 18:32",
+        "heat": 5
+      },
+      {
+        "title": "越南、泰国和马来西亚厨师介绍7道榴莲菜肴",
+        "summary": "越南中文社6月30日报道，6月30日，越南多乐省文化、体育和旅游局在榴莲节宣传活动中举办了一场榴莲美食艺术座谈会。",
+        "source": "越南中文社",
+        "url": "https://view.inews.qq.com/a/20260630A08WLJ00?scene=news-skill",
+        "time": "6月30日 18:29",
+        "heat": 5
+      },
+      {
+        "title": "专访｜国际科学合作更需保持开放——访林道诺贝尔奖得主大会理事会主席贝纳多特",
+        "summary": "德国林道6月30日电 专访｜国际科学合作更需保持开放——访林道诺贝尔奖得主大会理事会主席贝纳多特 新华社记者褚怡 郭爽 杜哲宇 为期6天的第75届林道诺贝尔奖得主大会6月28日在德国南部城市林道开幕。",
+        "source": "新华社新闻",
+        "url": "https://view.inews.qq.com/a/20260630A08S9100?scene=news-skill",
+        "time": "6月30日 18:20",
+        "heat": 5
+      },
+      {
+        "title": "美伊6月30日无高级别会晤计划",
+        "summary": "6月30日 18:16，美伊6月30日无高级别会晤计划。据外媒6月30日援引卡塔尔方面消息，美国和伊朗当天没有高级别会晤的计划。",
+        "source": "财联社",
+        "url": "https://view.inews.qq.com/a/20260630A08QLJ00?scene=news-skill",
+        "time": "6月30日 18:16",
+        "heat": 5
+      },
+      {
+        "title": "人工智能与社会工作如何融合发展",
+        "summary": "人工智能社会工作国际学术研讨会在华东理工大学徐汇校区举行。来自美国、爱尔兰、澳大利亚、芬兰、中国香港及内地多所高校、行业机构的百余位海内外专家学者与实务工作者。",
+        "source": "新民晚报",
+        "url": "https://view.inews.qq.com/a/20260630A08Q6C00?scene=news-skill",
+        "time": "6月30日 18:15",
+        "heat": 5
+      },
+      {
+        "title": "各执一词：特朗普保留对伊动武权利，伊朗未来几天没有谈判计划，以色列可能重启战争",
+        "summary": "随着美伊谅解备忘录签署后的技术谈判陷入僵局，美国、伊朗与以色列三方6月29日分别就军事选项、谈判前景及战争风险作出最新表态。",
+        "source": "空之王座",
+        "url": "https://view.inews.qq.com/a/20260630A06WPD00?scene=news-skill",
+        "time": "6月30日 18:10",
+        "heat": 5
+      },
+      {
+        "title": "主播说 | 巴黎一麦当劳后厨飙到50℃ 奥地利小伙设3个AI代理全天盯空调",
+        "summary": "一台中国空调，在欧洲硬是被抢出了限量球鞋的阵仗！巴黎一家麦当劳后厨逼近50度，一口气订了100台空调救急，华人制冷团队的紧急订单接个不停。",
+        "source": "海报新闻",
+        "url": "https://view.inews.qq.com/a/20260630A08JJ800?scene=news-skill",
+        "time": "6月30日 18:01",
         "heat": 5
       }
     ],
@@ -1221,35 +941,11 @@
         "heat": 5
       },
       {
-        "title": "上半年收官！科技龙头笑傲A股！高“光”创业板人工智能ETF华宝涨超4%，机构看好7月验证期",
+        "title": "上半年收官！科技龙头笑傲A股！高“光”创业板人工智能ETF华宝涨超4%",
         "summary": "周二（6月30日），A股半年收官，科技股一骑绝尘，汇聚“电子+通信+计算机”龙头的科技ETF华宝（515000）场内涨2.45%再创上市近7年新高！",
         "source": "界面新闻",
         "url": "https://view.inews.qq.com/a/20260630A08KRW00?scene=news-skill",
         "time": "6月30日 18:04",
-        "heat": 5
-      },
-      {
-        "title": "收盘｜沪指涨0.5% 算力硬件产业链全线大涨",
-        "summary": "6月30日，科创综指涨4.29%。盘面上，半导体、算力硬件产业链全线大涨，CPO、光芯片、光刻机方向领涨；人形机器人、光伏、商业航天、消费电子、固态电池、AI应用概念股活跃。",
-        "source": "第一财经",
-        "url": "https://view.inews.qq.com/a/20260630A06YB500?scene=news-skill",
-        "time": "6月30日 15:48",
-        "heat": 5
-      },
-      {
-        "title": "科技股高歌猛进，创业板人工智能ETF大成持续走强上涨4.67%，DeepSeek V4上线定档7月中旬",
-        "summary": "截至2026年6月30日 13:01，创业板人工智能ETF大成(159242)上涨4.67%，盘中换手4.6%，成交6784.06万元。",
-        "source": "界面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A05N2400?scene=news-skill",
-        "time": "6月30日 13:29",
-        "heat": 5
-      },
-      {
-        "title": "专访世界经济论坛人工智能专家：全球最终或仅剩10个基础模型，AI碎片化不等于被孤立",
-        "summary": "今年以来，随着美国政府接连收紧OpenAI、Anthropic等公司最新一代AI模型的海外准入，欧盟、英国和加拿大等美国传统盟友也开始考虑推进自己的AI主权建设。",
-        "source": "第一财经",
-        "url": "https://view.inews.qq.com/a/20260630A05BXG00?scene=news-skill",
-        "time": "6月30日 12:58",
         "heat": 5
       },
       {
@@ -1269,55 +965,7 @@
         "heat": 5
       },
       {
-        "title": "马斯克抽调SpaceX顶尖星舰和星链工程师，全力攻坚Grok大模型",
-        "summary": "IT之家 6 月 30 日消息，埃隆 · 马斯克于当地时间上周日透露，SpaceX 已抽调数十名星链（Starlink）与星舰（Starship）核心工程师，全力迭代优化自家 Grok 大模型。",
-        "source": "IT之家",
-        "url": "https://view.inews.qq.com/a/20260630A08BF600?scene=news-skill",
-        "time": "6月30日 17:45",
-        "heat": 5
-      },
-      {
-        "title": "四大AI预测科特迪瓦vs挪威：豆包和Deepseek猜90分钟平局",
-        "summary": "2026 美加墨世界杯十六强迎来矛与盾的极致对决，队史首次闯入世界杯淘汰赛的非洲大象科特迪瓦，对上时隔 28 年重返淘汰赛、坐拥哈兰德 + 厄德高双核的北欧劲旅挪威。",
-        "source": "懂球帝",
-        "url": "https://view.inews.qq.com/a/20260630A07QZQ00?scene=news-skill",
-        "time": "6月30日 17:01",
-        "heat": 5
-      },
-      {
-        "title": "音乐流媒体平台 Tidal 公布人工智能政策：AI 生成作品无法收益化",
-        "summary": "IT之家 6 月 30 日消息，音乐流媒体平台 Tidal 当地时间 29 日公布了其人工智能政策。总的来说，Tidal 仍将接受人工智能生成的音乐作品，但相关内容需要被标记且无法获得直接商业收益。",
-        "source": "IT之家",
-        "url": "https://view.inews.qq.com/a/20260630A07EAV00?scene=news-skill",
-        "time": "6月30日 16:30",
-        "heat": 5
-      },
-      {
-        "title": "昨日Deepseek封神！三场比赛的赛果和比分全部预测正确",
-        "summary": "2026美加墨世界杯淘汰赛激烈进行中，此前同步参与赛事推演的千问、豆包、Kimi、DeepSeek 四大主流 AI 大模型交出昨日完整预测答卷，本日最大黑马当属 DeepSeek。",
-        "source": "懂球帝",
-        "url": "https://view.inews.qq.com/a/20260630A072UP00?scene=news-skill",
-        "time": "6月30日 16:01",
-        "heat": 5
-      },
-      {
-        "title": "老车主狂欢！特斯拉正式向HW3车辆推送FSD V14 Lite版",
-        "summary": "特斯拉正式向搭载Hardware 3（HW3）硬件的约400万辆车推送FSD V14 “Lite”版本。特斯拉人工智能软件副总裁Ashok Elluswamy在社交媒体X平台上确认了这一消息。",
-        "source": "TechWeb",
-        "url": "https://view.inews.qq.com/a/20260630A06GQ400?scene=news-skill",
-        "time": "6月30日 14:58",
-        "heat": 5
-      },
-      {
-        "title": "停摆五年后西祠胡同7月1日回归：接入自研大模型，打造AI纯净社区",
-        "summary": "**IT时代网6月30日消息，** 继天涯社区6月1日正式恢复访问之后，又一承载无数人青春记忆的老牌网络论坛即将回归。西祠胡同运营团队6月29日晚间发布《致西祠老友的一封信》。",
-        "source": "IT时代网",
-        "url": "https://view.inews.qq.com/a/20260630A05ZKV00?scene=news-skill",
-        "time": "6月30日 14:09",
-        "heat": 5
-      },
-      {
-        "title": "NotebookLM Short Video Overviews 全量上线 Web 英文版",
+        "title": "NotebookLM Short Video Overviews 全量上线",
         "summary": "NotebookLM 正式向 Web 英文用户全量推出 Short Video Overviews（短视频概览）功能。该功能可将复杂资料自动转化为 60 秒竖屏视频，深入讲解任意概念。",
         "source": "X：NotebookLM (@NotebookLM)",
         "url": "https://x.com/NotebookLM/status/2072043680442245276",
@@ -1358,7 +1006,7 @@
       },
       {
         "title": "AI智能体推动工程角色转变",
-        "summary": "随着智能体承担更长期的工作，工程转向设定方向、审查工作以及围绕模型设计更好的系统。",
+        "summary": "7月1日 3:15，AI智能体推动工程角色转变。随着智能体承担更长期的工作，工程转向设定方向、审查工作以及围绕模型设计更好的系统。",
         "source": "X：OpenAI Developers (@OpenAIDevs)",
         "url": "https://x.com/OpenAIDevs/status/2072036305442406772",
         "time": "7月1日 3:15",
@@ -1389,15 +1037,15 @@
         "heat": 5
       },
       {
-        "title": "Anthropic 发布 Claude Sonnet 5，1M token 上下文窗口，编码能力提升",
-        "summary": "Anthropic 发布 Claude Sonnet 5，拥有 1M token 上下文窗口（此前泄露），编码能力显著提升：SWE-bench Pro 得分 63.2%。",
+        "title": "Anthropic 发布 Claude Sonnet 5",
+        "summary": "Anthropic 发布 Claude Sonnet 5，拥有 1M token 上下文窗口（近期泄露），编码能力显著提升：SWE-bench Pro 得分 63.2%。",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "url": "https://x.com/rohanpaul_ai/status/2072032758348820881",
         "time": "7月1日 3:01",
         "heat": 5
       },
       {
-        "title": "卧槽，Google这回不拉胯了， 这才是短视频真正该有的打开方式啊， NotebookLM可以把复杂资料直接做成六十秒竖屏概览， 刷信息流的功夫就能啃完一个硬核概念了🤯",
+        "title": "卧槽，Google这回不拉胯了， 这才是短视频真正该有的打开方式啊",
         "summary": "卧槽，Google这回不拉胯了， 这才是短视频真正该有的打开方式啊， NotebookLM可以把复杂资料直接做成六十秒竖屏概览， 刷信息流的功夫就能啃完一个硬核概念了🤯",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "url": "https://x.com/AYi_AInotes/status/2072029149187752259",
@@ -1405,7 +1053,7 @@
         "heat": 5
       },
       {
-        "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本，逼近 Opus 系列",
+        "title": "Anthropic 发布 Claude Sonnet 5，号称最智能体版本",
         "summary": "Anthropic 发布 Claude Sonnet 5，称其为最智能体的 Sonnet 版本，能自主制定计划、使用浏览器和终端工具。",
         "source": "The Decoder：AI News（RSS）",
         "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series",
@@ -1413,7 +1061,7 @@
         "heat": 5
       },
       {
-        "title": "Anthropic 推出 Sonnet 5，性能接近 Opus 4.8 但定价更低",
+        "title": "Anthropic 推出 Sonnet 5",
         "summary": "Anthropic 发布 Sonnet 5，称其为迄今最具智能体能力的 Sonnet，推理、工具使用、编程和知识工作均有提升，性能接近 Opus 4.8 但更便宜。",
         "source": "X：Kim (@kimmonismus)",
         "url": "https://x.com/kimmonismus/status/2072027861385466123",
@@ -1421,7 +1069,7 @@
         "heat": 5
       },
       {
-        "title": "Google DeepMind 发布 Nano Banana 2 Lite 图像生成模型",
+        "title": "Google DeepMind 发布 Nano Banana 2 Lite",
         "summary": "Google DeepMind 发布 Nano Banana 2 Lite（正式名 Gemini 3.1 Flash Lite Image），默认低思考模式下约4秒生成一张图像。",
         "source": "Ars Technica：AI（RSS）",
         "url": "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet",
@@ -1429,7 +1077,7 @@
         "heat": 5
       },
       {
-        "title": "Anthropic 发布 Claude Science beta：专注严谨科学研究的 AI 应用",
+        "title": "Anthropic 发布 Claude Science beta",
         "summary": "Anthropic 推出 Claude Science beta，专为科学研究设计。可运行分析、搜索数据库，追踪从数据处理到发表的每一步。",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "url": "https://claude.com/product/claude-science",
@@ -1437,17 +1085,15 @@
         "heat": 5
       },
       {
-        "title": "Anthropic 发布 Claude Sonnet 5，替代 Sonnet 4.6 成为默认模型",
+        "title": "Anthropic 发布 Claude Sonnet 5",
         "summary": "Anthropic 发布 Claude Sonnet 5，替代 Sonnet 4.6 成为免费版和 Pro 版默认模型。",
         "source": "X：宝玉 (@dotey)",
         "url": "https://x.com/dotey/status/2072025716913262957",
         "time": "7月1日 2:33",
         "heat": 5
-      }
-    ],
-    "mockHotNewsAIExtra": [
+      },
       {
-        "title": "吴恩达谈\"循环工程\"：AI代理自主测试代码，开发者转向高层决策，核心优势是\"语境\"",
+        "title": "吴恩达谈\"循环工程\"：AI代理自主测试代码，开发者转向高层决策",
         "summary": "吴恩达提出\"循环工程\"概念：AI编码代理可自主迭代代码、测试直至正确，无需人类干预。他用上周末给女儿做打字练习app举例，代理自行运行约一小时，多次用浏览器检查成果后回报。",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "url": "https://x.com/AYi_AInotes/status/2072024058468696453",
@@ -1479,7 +1125,7 @@
         "heat": 5
       },
       {
-        "title": "阿里巴巴 HappyHorse 1.1 登顶 Artificial Analysis 视频排行榜第二",
+        "title": "阿里巴巴 HappyHorse 1.1 登顶 Artificial",
         "summary": "阿里巴巴 HappyHorse 1.1 在 Artificial Analysis 文生视频和图生视频排行榜位列第二，仅次于字节跳动 Seedance 2.0。",
         "source": "X：Artificial Analysis (@ArtificialAnlys)",
         "url": "https://x.com/ArtificialAnlys/status/2072022131056267534",
@@ -1487,7 +1133,7 @@
         "heat": 5
       },
       {
-        "title": "Anthropic 发布 Claude Sonnet 5：最具智能体能力的 Sonnet 模型",
+        "title": "Anthropic 发布 Claude Sonnet 5",
         "summary": "Anthropic 发布 Claude Sonnet 5，定位为迄今最具智能体能力的 Sonnet 模型。它在推理、工具使用、编码和知识工作等智能体性能上较前代 Sonnet 4.6 显著提升，表现。",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "url": "https://www.anthropic.com/news/claude-sonnet-5",
@@ -1511,13 +1157,15 @@
         "heat": 5
       },
       {
-        "title": "Claude Sonnet 5上架OpenRouter，促销价$2/$10 per M",
+        "title": "Claude Sonnet 5上架OpenRouter",
         "summary": "Claude Sonnet 5 正在 OpenRouter 上推出，促销价格：$2/M 输入，$10/M 输出！它以 Sonnet 定价提供旗舰智能，提升智能体编码和专业工作流。",
         "source": "X：OpenRouter (@OpenRouter)",
         "url": "https://x.com/OpenRouter/status/2072020173872325088",
         "time": "7月1日 2:11",
         "heat": 5
-      },
+      }
+    ],
+    "mockHotNewsAIExtra": [
       {
         "title": "Anthropic 发布 Sonnet 5：最智能体化的 Sonnet 系列模型",
         "summary": "Anthropic 发布 Sonnet 5，称其为迄今为止最智能体化的 Sonnet 模型。性能接近 Opus 4.8，在推理、工具使用、编码和知识工作方面有显著提升。",
@@ -1575,7 +1223,7 @@
         "heat": 5
       },
       {
-        "title": "Claude Code v2.1.197 发布：默认模型升级为 Claude Sonnet 5，支持原生 1M-token 上下文窗口",
+        "title": "Claude Code v2.1.197 发布",
         "summary": "Claude Code v2.1.197 更新将 Claude Sonnet 5 设为默认模型，原生支持 1M-token 上下文窗口。",
         "source": "Claude Code：GitHub Releases（RSS）",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
@@ -1631,7 +1279,7 @@
         "heat": 5
       },
       {
-        "title": "Netflix 在《Wonka's The Golden Ticket》真人秀中使用 AI 复刻 Gene Wilder 声音",
+        "title": "Netflix 在《Wonka's The Golden",
         "summary": "Netflix 真人秀《Wonka's The Golden Ticket》将于 9 月 23 日首播。预告片旁白由 AI 生成，复刻了已故演员 Gene Wilder 的声音。",
         "source": "The Verge：AI（RSS）",
         "url": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
@@ -1639,7 +1287,7 @@
         "heat": 5
       },
       {
-        "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
+        "title": "ADK Go 2.0 发布：构建可靠的多智能体应用",
         "summary": "Agent Development Kit （ADK） for Go 2.0 发布，引入了一类基于图的工作流引擎，用于组合复杂多智能体应用。",
         "source": "Google Developers Blog（RSS）",
         "url": "https://developers.googleblog.com/announcing-adk-go-20",
@@ -1655,7 +1303,7 @@
         "heat": 5
       },
       {
-        "title": "Google 发布 Nano Banana 2 Lite 图像模型与 Gemini Omni Flash 视频模型",
+        "title": "Google 发布 Nano Banana 2 Lite 图像模型与",
         "summary": "Google 推出两款新生成式 AI 模型。Nano Banana 2 Lite 可在 4 秒内生成图像，每张成本 0.034 美元（1K 分辨率）。",
         "source": "The Decoder：AI News（RSS）",
         "url": "https://the-decoder.com/google-launches-nano-banana-2-lite-for-fast-ai-images-and-gemini-omni-flash-for-video-via-api",
@@ -1695,7 +1343,7 @@
         "heat": 5
       },
       {
-        "title": "Google发布Nano Banana 2 Lite与Gemini Omni Flash",
+        "title": "Google发布Nano Banana 2 Lite与Gemini Omni",
         "summary": "Google推出快速图像模型Nano Banana 2 Lite（4秒生成，$0.034/1K分辨率图像）以及视频编辑模型Gemini Omni Flash（输出10秒片段，$0.10/秒。",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "url": "https://x.com/rohanpaul_ai/status/2072002613701398780",
@@ -1751,7 +1399,7 @@
         "heat": 5
       },
       {
-        "title": "Google 发布 gemini-skills，基于 Omni API 快速搭建 AI 智能体",
+        "title": "Google 发布 gemini-skills",
         "summary": "Google 通过 Gemini Omni API 发布 gemini-skills 技能包，支持视频编辑、文生视频、图片参考视频生成、首帧生成视频。",
         "source": "X：fofr (@fofrAI)",
         "url": "https://x.com/fofrAI/status/2071996379875135973",
@@ -1783,7 +1431,7 @@
         "heat": 5
       },
       {
-        "title": "谷歌推出 Nano Banana 2 Lite 与 Gemini Omni Flash 生成媒体模型",
+        "title": "谷歌推出 Nano Banana 2 Lite 与 Gemini Omni",
         "summary": "Elvis Saravia 称赞谷歌持续降低模型使用成本。谷歌在 Gemini API 和 AI Studio 中推出两款新模型：Nano Banana 2 Lite 图像生成速度低于 4 秒，价格。",
         "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
         "url": "https://x.com/omarsar0/status/2071994868650393692",
@@ -1816,14 +1464,14 @@
       },
       {
         "title": "NoimosAI 发布 Creative Agent：自动分析竞品创意并生成内容",
-        "summary": "NoimosAI 今日推出 Creative Agent，可自动扫描 Meta、TikTok、LinkedIn 上的顶级创意，提取成功模式，并结合品牌自身历史表现生成广告素材。",
+        "summary": "NoimosAI 近期推出 Creative Agent，可自动扫描 Meta、TikTok、LinkedIn 上的顶级创意，提取成功模式，并结合品牌自身历史表现生成广告素材。",
         "source": "X：Kim (@kimmonismus)",
         "url": "https://x.com/kimmonismus/status/2071992520230264916",
         "time": "7月1日 0:21",
         "heat": 5
       },
       {
-        "title": "Google 推出 Nano Banana 2 Lite 与 Gemini Omni Flash Preview 两款新生成式媒体模型",
+        "title": "Google 推出 Nano Banana 2 Lite 与 Gemini",
         "summary": "Google 在 Gemini API 和 AI Studio 推出两款新生成式媒体模型：Nano Banana 2 Lite 图像生成极快（<4秒/张），价格仅 $0.034/千张；",
         "source": "X：Testing Catalog (@testingcatalog)",
         "url": "https://x.com/testingcatalog/status/2071992280462794764",
@@ -1844,6 +1492,78 @@
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
         "time": "7月1日 0:11",
+        "heat": 5
+      },
+      {
+        "title": "NoimosAI 发布 Creative Agent 品牌资产生成工具",
+        "summary": "NoimosAI 推出 Creative Agent，可收集市场洞察并将其转化为可直接使用的品牌资产。该工具支持竞品分析、高表现创意扫描及品牌历史结果调用。",
+        "source": "X：Testing Catalog (@testingcatalog)",
+        "url": "https://x.com/testingcatalog/status/2071989109300535440",
+        "time": "7月1日 0:07",
+        "heat": 5
+      },
+      {
+        "title": "Google AI 发布 Nano Banana 2 Lite 与",
+        "summary": "Google AI 推出两大模型更新：1）Nano Banana 2 Lite--最快、最经济的 Gemini 图像模型，文本生成图像不到 4 秒。",
+        "source": "X：Google AI (@GoogleAI)",
+        "url": "https://x.com/GoogleAI/status/2071989058952188054",
+        "time": "7月1日 0:07",
+        "heat": 5
+      },
+      {
+        "title": "Claude Desktop 推出 Linux 公测版",
+        "summary": "Claude Desktop 现已在 Linux（Ubuntu 和 Debian）上推出测试版。除了浏览器和终端，你现在可以在所有付费计划中获得一流的桌面体验。",
+        "source": "X：Claude Devs (@ClaudeDevs)",
+        "url": "https://x.com/ClaudeDevs/status/2071988881717871065",
+        "time": "7月1日 0:06",
+        "heat": 5
+      },
+      {
+        "title": "Google 发布 Gemini 图像与视频新模型",
+        "summary": "我们发布了 Nano Banana 2 Lite，这是我们最快、最具成本效益的 Gemini 图像模型，专为高吞吐量开发者流水线优化。",
+        "source": "X：Google AI for Developers (@googleaidevs)",
+        "url": "https://x.com/googleaidevs/status/2071988366925521075",
+        "time": "7月1日 0:04",
+        "heat": 5
+      },
+      {
+        "title": "Gemini发布Nano Banana 2 Lite与Omni Flash",
+        "summary": "推出 Nano Banana 2 Lite 🍌 和 Gemini Omni Flash 🔮，我们在 Gemini API 和 AI Studio 中新的生成媒体模型！",
+        "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+        "url": "https://x.com/OfficialLoganK/status/2071988351083921690",
+        "time": "7月1日 0:04",
+        "heat": 5
+      },
+      {
+        "title": "Google DeepMind 发布 Gemini 图像与视频模型",
+        "summary": "我们正在推出两个主要版本： 🔘 Nano Banana 2 Lite：我们最快、最便宜的 Gemini 图像模型 🔘 Gemini Omni Flash：现可通过 Gemini API 和 @Goo。",
+        "source": "X：Google DeepMind (@GoogleDeepMind)",
+        "url": "https://x.com/GoogleDeepMind/status/2071988044878516466",
+        "time": "7月1日 0:03",
+        "heat": 5
+      },
+      {
+        "title": "特斯拉FSD入华倒计时：拆解“华舟魔”的智驾淘汰赛生存逻辑",
+        "summary": "文/周雄飞“智驾行业的竞争应该会在2026年结束，最终只有三家参与者胜出”。2025年世界智能网联大会期间，Momenta创始人曹旭东曾这样公开断言，这之后很快引发了整个智驾行业的广泛讨论。",
+        "source": "飞说智行",
+        "url": "https://view.inews.qq.com/a/20260701A000G800?scene=news-skill",
+        "time": "7月1日 0:01",
+        "heat": 5
+      },
+      {
+        "title": "NotebookLM 上线短视频概览功能",
+        "summary": "Doom scrolling but make it educational 🤓 介绍 NotebookLM 中的短视频概览功能！将你最复杂的信息源转化为60秒的竖屏视频，深入探讨任何概念。",
+        "source": "X：NotebookLM (@NotebookLM)",
+        "url": "https://x.com/NotebookLM/status/2071987494799716626",
+        "time": "7月1日 0:01",
+        "heat": 5
+      },
+      {
+        "title": "OpenAI 新推理优化技术使模型运行成本减半以上",
+        "summary": "OpenAI 据报告发现新的推理优化技术，将模型运行成本降低超过一半。据 The Information，工程师本月初称。",
+        "source": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2071987406656655416",
+        "time": "7月1日 0:01",
         "heat": 5
       }
     ],
@@ -1881,54 +1601,6 @@
         "heat": 5
       },
       {
-        "title": "整治影视舆情黑产，不能只靠事后补救丨封面评论",
-        "summary": "一个拥有千万粉丝网络敲诈团伙落网，揭开了娱乐圈舆情黑产的遮羞布。",
-        "source": "封面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A083WC00?scene=news-skill",
-        "time": "6月30日 17:29",
-        "heat": 5
-      },
-      {
-        "title": "世界杯1日前瞻丨哈兰德、姆巴佩、登贝莱追逐金靴 挪威以逸待劳 墨西哥高原优势削减",
-        "summary": "北京时间7月1日，哈兰德领衔的挪威队备战训练 图据视觉中国【1:00 1/16决赛 科特迪瓦VS挪威",
-        "source": "红星新闻",
-        "url": "https://view.inews.qq.com/a/20260630A07TLM00?scene=news-skill",
-        "time": "6月30日 17:08",
-        "heat": 5
-      },
-      {
-        "title": "中国贸促会：前5个月共审批执行出国展项目498项，同比增长7.1%",
-        "summary": "中新网6月30日电 中国贸促会新闻发言人王一斐30日表示，2026年前5个月，中国贸促会共审批计划出国展项目513项，实际执行498项，同比分别增长6.7%和7.1%。",
-        "source": "中国新闻网",
-        "url": "https://view.inews.qq.com/a/20260630A064VN00?scene=news-skill",
-        "time": "6月30日 14:25",
-        "heat": 5
-      },
-      {
-        "title": "中国队实现羽毛球亚青赛混合团体三连冠",
-        "summary": "北京时间6月30日上午，2026年亚洲青年羽毛球锦标赛混合团体决赛在日本八代市展开角逐。中国队在半决赛2比1逆转劲敌日本队后，在决赛对阵中国香港队。",
-        "source": "北京日报客户端",
-        "url": "https://view.inews.qq.com/a/20260630A05DV200?scene=news-skill",
-        "time": "6月30日 13:04",
-        "heat": 5
-      },
-      {
-        "title": "微言 | 铲除“护剧”黑产，影视行业当告别流量焦虑",
-        "summary": "6月16日，该团伙便借机要求视频平台或明星经纪公司购买其所谓“护剧”服务",
-        "source": "上观新闻",
-        "url": "https://view.inews.qq.com/a/20260630A05ATW00?scene=news-skill",
-        "time": "6月30日 12:55",
-        "heat": 5
-      },
-      {
-        "title": "观察｜世界杯遇见“上海季”，一座城市如何完成体育叙事升级",
-        "summary": "美加墨世界杯激战正酣，大洋彼岸的绿茵场上硝烟弥漫。而在上海，属于这座城市自己的体育盛宴，同样以排山倒海之势席卷而来。",
-        "source": "澎湃新闻",
-        "url": "https://view.inews.qq.com/a/20260630A0530I00?scene=news-skill",
-        "time": "6月30日 12:28",
-        "heat": 5
-      },
-      {
         "title": "挪威vs科特迪瓦：哈兰德PK迪奥曼德，厄德高、努萨首发，阿马德替补",
         "summary": "北京时间7月1日凌晨1:00，世界杯1/16决赛科特迪瓦对阵挪威，比赛场地为费城体育场，主裁判由赫苏斯-巴伦苏埃拉担任。赛前，双方公布首发阵容。",
         "source": "懂球帝",
@@ -1938,26 +1610,10 @@
       },
       {
         "title": "每体：明格萨本周敲定离队，今夏将自由身告别塞尔塔",
-        "summary": "奥斯卡-明格萨在塞尔塔的未来本周将迎来定局。他的合同将在6月30日到期。",
+        "summary": "6月30日 20:41，每体：明格萨本周敲定离队，今夏将自由身告别塞尔塔。奥斯卡-明格萨在塞尔塔的未来本周将迎来定局。他的合同将在6月30日到期。",
         "source": "懂球帝",
         "url": "https://view.inews.qq.com/a/20260630A0A24K00?scene=news-skill",
         "time": "6月30日 20:41",
-        "heat": 5
-      },
-      {
-        "title": "动画电影《猪猪侠 · 悟空，这猪不对劲！》备案立项",
-        "summary": "IT之家 6 月 30 日消息，国家电影局今日发布关于 2026 年 5 月下全国电影剧本（梗概）备案、立项公示的通知，动画电影《猪猪侠 · 悟空，这猪不对劲！",
-        "source": "IT之家",
-        "url": "https://view.inews.qq.com/a/20260630A07OLB00?scene=news-skill",
-        "time": "6月30日 16:55",
-        "heat": 5
-      },
-      {
-        "title": "足球先锋：克瓦克曼盼科曼离任，荷兰点球2-3出局",
-        "summary": "基斯-克瓦克曼希望荷兰队换帅。据《足球先锋》消息，克瓦克曼在荷兰队世界杯出局后，认为国家队应该迎来一位新主教练。",
-        "source": "懂球帝",
-        "url": "https://view.inews.qq.com/a/20260630A0773M00?scene=news-skill",
-        "time": "6月30日 16:11",
         "heat": 5
       },
       {
@@ -1993,8 +1649,8 @@
         "heat": 5
       },
       {
-        "title": "首钢换血李楠立新规，杜锋续约陷僵局，男篮21进12淘汰名单浮出水面——6月30日CBA&男篮世预赛动态一览",
-        "summary": "一、李楠上任“第一把火”：首钢夏训阵容大换血，老将续约看数据 6月22日，赵睿、翟晓川",
+        "title": "首钢换血李楠立新规，杜锋续约陷僵局",
+        "summary": "7月1日 1:28，首钢换血李楠立新规，杜锋续约陷僵局。一、李楠上任“第一把火”：首钢夏训阵容大换血，老将续约看数据 6月22日，赵睿、翟晓川",
         "source": "阿牛侃球不绕弯",
         "url": "https://view.inews.qq.com/a/20260701A00OKH00?scene=news-skill",
         "time": "7月1日 1:28",
@@ -2010,7 +1666,7 @@
       },
       {
         "title": "止步32强！哈弗茨社媒：世界杯以这样一种方式结束，令人失望",
-        "summary": "雷速体育6月30日讯 北京时间今日上午，德国队的2026年世界杯之旅戛然而止。32强战中，他们与巴拉圭鏖战120分钟，最终1-1战平，并在点球大战中3-4落败，止步首轮淘汰赛。",
+        "summary": "雷速体育6月30日讯 北京时间近期上午，德国队的2026年世界杯之旅戛然而止。32强战中，他们与巴拉圭鏖战120分钟，最终1-1战平，并在点球大战中3-4落败，止步首轮淘汰赛。",
         "source": "雷速体育",
         "url": "https://view.inews.qq.com/a/20260630A0B9KC00?scene=news-skill",
         "time": "6月30日 23:09",
@@ -2082,14 +1738,12 @@
       },
       {
         "title": "老板亲自下场了！陈海涛坐上谈判桌，宏远大外援引援要加速了",
-        "summary": "宏远老板陈海涛亲自出马了。据知情人士透露，宏远老板陈海涛亲自参与了球队大外援引进的谈判工作。",
+        "summary": "6月30日 20:14，老板亲自下场了！陈海涛坐上谈判桌，宏远大外援引援要加速了。宏远老板陈海涛亲自出马了。据知情人士透露，宏远老板陈海涛亲自参与了球队大外援引进的谈判工作。",
         "source": "不懂个球",
         "url": "https://view.inews.qq.com/a/20260630A09ULC00?scene=news-skill",
         "time": "6月30日 20:14",
         "heat": 5
-      }
-    ],
-    "mockEntertainmentExtra": [
+      },
       {
         "title": "超15部动画电影齐聚暑期档 你最想看哪一部？",
         "summary": "2026年的暑期档，真的太热了——不是天气，是票房。这个暑期，近80部中外新片扎堆上映，历史、喜剧、动作、科幻……类型多样。",
@@ -2148,15 +1802,17 @@
       },
       {
         "title": "官方：新赛季国内球员奖金&外援薪资限额将与上赛季名次挂钩",
-        "summary": "虎扑06月30日讯 今日，CBA官方发布2026-2027赛季CBA联赛球员选秀、工资帽、聘用及交易管理规定。其中在薪资方面，新赛季国内球员奖金与外援薪资限额将与上赛季名次挂钩。",
+        "summary": "虎扑06月30日讯 近期，CBA官方发布2026-2027赛季CBA联赛球员选秀、工资帽、聘用及交易管理规定。其中在薪资方面，新赛季国内球员奖金与外援薪资限额将与上赛季名次挂钩。",
         "source": "虎扑体育内容",
         "url": "https://view.inews.qq.com/a/20260630A093GE00?scene=news-skill",
         "time": "6月30日 18:49",
         "heat": 5
-      },
+      }
+    ],
+    "mockEntertainmentExtra": [
       {
         "title": "官方：新赛季各球队可同时注册3名外援，外援最多注册6人次",
-        "summary": "虎扑06月30日讯 今日，CBA官方发布2026-2027赛季CBA联赛球员选秀、工资帽、聘用及交易管理规定。其中有关外籍球员方面：新赛季俱乐部可同时注册3名外援，外援最多注册6人次。",
+        "summary": "虎扑06月30日讯 近期，CBA官方发布2026-2027赛季CBA联赛球员选秀、工资帽、聘用及交易管理规定。其中有关外籍球员方面：新赛季俱乐部可同时注册3名外援，外援最多注册6人次。",
         "source": "虎扑体育内容",
         "url": "https://view.inews.qq.com/a/20260630A08Y3B00?scene=news-skill",
         "time": "6月30日 18:34",
@@ -2176,134 +1832,6 @@
         "source": "篮球有毒9527",
         "url": "https://view.inews.qq.com/a/20260630A08PG700?scene=news-skill",
         "time": "6月30日 18:13",
-        "heat": 5
-      },
-      {
-        "title": "高峰期价格翻倍！DeepSeek V4正式版官宣",
-        "summary": "早在今年4月份DeepSeek发布了其最新旗舰模型DeepSeek V4并向用户开放了预览版，在经过了3个月的测试后正式版终于将在七月正式上线。",
-        "source": "热点科技",
-        "url": "https://view.inews.qq.com/a/20260630A08ABZ00?scene=news-skill",
-        "time": "6月30日 17:43",
-        "heat": 5
-      },
-      {
-        "title": "继续补强！两CBA状元接连加盟NBL 下赛季谁能闯入CBA？",
-        "summary": "NBL联赛格局迎来颠覆性变动，上赛季联赛冠亚军球队同步发力补强阵容，两大前CBA状元郎先后官宣加盟，新赛季NBL的竞争热度直接拉满。",
-        "source": "你看球呢",
-        "url": "https://view.inews.qq.com/a/20260630A081UX00?scene=news-skill",
-        "time": "6月30日 17:25",
-        "heat": 5
-      },
-      {
-        "title": "已致欧洲创纪录热浪，“热穹顶”将笼罩美国中东部并波及世界杯举办城市",
-        "summary": "据新华社6月30日消息：天气预报显示，导致欧洲创纪录热浪的“热穹顶”本周预计将笼罩美国中部和东部地区，一些举行世界杯足球赛的城市将面临体感温度超过40摄氏度的高温。",
-        "source": "九派新闻",
-        "url": "https://view.inews.qq.com/a/20260630A081BN00?scene=news-skill",
-        "time": "6月30日 17:24",
-        "heat": 5
-      },
-      {
-        "title": "周深 · 深深的巡回演唱会 | 沈阳站今天开票啦！！！",
-        "summary": "期待 兴奋 紧张周深2026「深深的」巡回演唱会·沈阳站今！同频奔赴相见，无论距离有多远。",
-        "source": "周深的小圈",
-        "url": "https://view.inews.qq.com/a/20260630A080LA00?scene=news-skill",
-        "time": "6月30日 17:20",
-        "heat": 5
-      },
-      {
-        "title": "莫兰特，杨瀚森新队友",
-        "summary": "今天，莫兰特真的离开灰熊了。你想都想不到，莫兰特居然去了开拓者，这就是NBA休赛期的魅力，总会发生各种奇怪的事情。",
-        "source": "刺猬篮球",
-        "url": "https://view.inews.qq.com/a/20260630A07SKV00?scene=news-skill",
-        "time": "6月30日 17:04",
-        "heat": 5
-      },
-      {
-        "title": "监利邀您免费看电影！持续一个月",
-        "summary": "为深入学习贯彻红色文化传承发展要求，大力弘扬伟大长征精神、赓续红色血脉、传承红色基因，充分发挥公益电影文化惠民、育人润心的作用，让广大党员干部、群众及青少年在光影回溯中重温峥嵘革命岁月、感悟初心使命",
-        "source": "监利融媒",
-        "url": "https://view.inews.qq.com/a/20260630A07SJ800?scene=news-skill",
-        "time": "6月30日 17:04",
-        "heat": 5
-      },
-      {
-        "title": "杨旎奥是杨紫曾用名而非原名，但小名还是“奥奥”",
-        "summary": "演员杨紫凭借电视剧《生命树》中的白菊一角，获第31届白玉兰奖最佳女主角。然而获奖消息公布后，有网友提出质疑：杨紫为什么没有按照规定改回原名？",
-        "source": "扬眼",
-        "url": "https://view.inews.qq.com/a/20260630A07RRE00?scene=news-skill",
-        "time": "6月30日 17:03",
-        "heat": 5
-      },
-      {
-        "title": "第33届东方风云榜音乐盛典举行 汪苏泷斩获三项大奖 刘宇宁获最佳男歌手",
-        "summary": "6月29日，第33届《东方风云榜》音乐盛典首日活动“万川归流 荣耀交响”在上海梅赛德斯-奔驰文化中心举办，今年盛典首创双日展演模式，主题定为“双日狂响曲”。",
-        "source": "新民晚报",
-        "url": "https://view.inews.qq.com/a/20260630A07OZI00?scene=news-skill",
-        "time": "6月30日 16:56",
-        "heat": 5
-      },
-      {
-        "title": "交通运输部谈无目的地海上游：增配流行演唱、脱口秀、魔术表演、主题派对等娱乐活动，海上运动场所全面开放，美食24小时“不打烊”",
-        "summary": "6月30日下午，国务院新闻办公室举行新闻发布会，介绍推进水运高质量发展有关情况，并答记者问。",
-        "source": "政知见",
-        "url": "https://view.inews.qq.com/a/20260630A07NTN00?scene=news-skill",
-        "time": "6月30日 16:49",
-        "heat": 5
-      },
-      {
-        "title": "徐昕将出国打球，曝广东男篮欲提前回购，广州男篮获得资金补偿",
-        "summary": "自从媒体人付政浩透露了杜锋和广东男篮的续约还没有进展后，广东男篮有意换帅的消息就引发了球迷关注。",
-        "source": "中国篮坛速递",
-        "url": "https://view.inews.qq.com/a/20260630A07FMA00?scene=news-skill",
-        "time": "6月30日 16:34",
-        "heat": 5
-      },
-      {
-        "title": "国家级“双拍”赛事首登滨城 网球与匹克球融合赛7月大连开打",
-        "summary": "7月4日至5日，2026中国网球匹克球双拍赛（大连站）将在大连开发区网球中心正式挥拍。这是中国网球协会重点打造的原创赛事IP首次登陆大连。",
-        "source": "半岛晨报",
-        "url": "https://view.inews.qq.com/a/20260630A075ZJ00?scene=news-skill",
-        "time": "6月30日 16:09",
-        "heat": 5
-      },
-      {
-        "title": "韩媒：日本光速止步淘汰赛首轮，想追上韩国世界杯四强成绩太难了",
-        "summary": "韩国媒体针对日本未能打进16强表示日本想追上韩国世界杯四强的战绩太难了。",
-        "source": "秀才侃体育",
-        "url": "https://view.inews.qq.com/a/20260630A06KME00?scene=news-skill",
-        "time": "6月30日 15:11",
-        "heat": 5
-      },
-      {
-        "title": "羽毛球亚青赛混团：中国队2-0战胜中国香港队，喜提三连冠",
-        "summary": "虎扑06月30日讯 2026年亚洲青年羽毛球锦标赛混合团体赛决赛，中国队直落两盘2-0战胜中国香港队，实现三连冠壮举。",
-        "source": "虎扑体育内容",
-        "url": "https://view.inews.qq.com/a/20260630A0669Q00?scene=news-skill",
-        "time": "6月30日 14:29",
-        "heat": 5
-      },
-      {
-        "title": "以“护剧”为名拼接明星八卦制造负面舆论进行敲诈，“某某炸姐” 等多个大V账号被封禁",
-        "summary": "据南方都市报，6月30日，“某某炸姐” “某某小炸炸” “某某姨太好了”等多个收费删演员所谓“黑料”的大V账号被封禁。",
-        "source": "九派新闻",
-        "url": "https://view.inews.qq.com/a/20260630A05TLE00?scene=news-skill",
-        "time": "6月30日 13:49",
-        "heat": 5
-      },
-      {
-        "title": "好消息！杭州新一批演唱会官宣定档",
-        "summary": "盛夏七月，暑意正浓，杭州新一批演唱会官宣定档！多位实力唱将、人气乐队轮番在杭州登台，用旋律点燃整个夏日，承包你整个7月的快乐，快来看看有你期待的吗？",
-        "source": "杭州发布",
-        "url": "https://view.inews.qq.com/a/20260630A058BQ00?scene=news-skill",
-        "time": "6月30日 12:40",
-        "heat": 5
-      },
-      {
-        "title": "唱响红色经典！“同心向党 歌声飞扬”茌平区庆祝中国共产党成立105周年红歌演唱会即将上演",
-        "summary": "▲茌平区融媒体中心官方微信号百年风华正茂，红歌赓续初心。2026年是中国共产党成立105周年，为深情回顾党的百年奋斗征程，讴歌党的光辉伟业，传承红色基因、凝聚奋进力量。",
-        "source": "茌平融媒",
-        "url": "https://view.inews.qq.com/a/20260630A055R900?scene=news-skill",
-        "time": "6月30日 12:37",
         "heat": 5
       },
       {
@@ -2339,6 +1867,14 @@
         "url": "https://view.inews.qq.com/a/20260626A0A9EA00?scene=news-skill",
         "time": "6月26日 20:24",
         "heat": 5
+      },
+      {
+        "title": "佩德罗-马拉尼昂：迫不及待想要登场，尽自己所能帮助河南队",
+        "summary": "河南队新外援佩德罗-马拉尼昂表示：“我迫不及待想要登场比赛，尽自己所能去帮助我们的团队。”北京时间7月1日，球迷让我感到很幸福。",
+        "source": "懂球帝",
+        "url": "https://view.inews.qq.com/a/20260702A044IF00?scene=news-skill",
+        "time": "7月2日 11:51",
+        "heat": 7
       },
       {
         "title": "河南队外援迈达纳没进大名单，博主：训练中轻伤，缺阵一场",
@@ -2390,7 +1926,7 @@
       },
       {
         "title": "从0-1到2-1！中超卫冕冠军爆发，海港客场逆转，河南联赛遭遇连败",
-        "summary": "6月27日晚中超第16轮，郑州航海体育场的这场对决，开赛前没多少人看好上海海港能拿分。",
+        "summary": "6月27日 23:25，从0-1到2-1！中超卫冕冠军爆发，海港客场逆转，河南联赛遭遇连败。6月27日晚中超第16轮，郑州航海体育场的这场对决，开赛前没多少人看好上海海港能拿分。",
         "source": "体坛黑马",
         "url": "https://view.inews.qq.com/a/20260627A0ALQJ00?scene=news-skill",
         "time": "6月27日 23:25",
@@ -2438,7 +1974,7 @@
       },
       {
         "title": "河南官方：球队与队长王上源完成续约",
-        "summary": "雷速体育6月27日讯 河南官方今日宣布，球队与队长王上源正式完成续约。河南队公告经俱乐部与球员友好协商，即日起，河南足球俱乐部与球员王上源正式完成续约。",
+        "summary": "雷速体育6月27日讯 河南官方近期宣布，球队与队长王上源正式完成续约。河南队公告经俱乐部与球员友好协商，即日起，河南足球俱乐部与球员王上源正式完成续约。",
         "source": "雷速体育",
         "url": "https://view.inews.qq.com/a/20260627A03S4B00?scene=news-skill",
         "time": "6月27日 11:14",
@@ -2536,7 +2072,7 @@
       },
       {
         "title": "日本队酝酿换帅？森保一去留未定，4大备胎浮现，中超外教在列",
-        "summary": "王晓瑞报道 日本队1比2不敌巴西队止步32强。赛后，围绕着“森保一是否或应该继续执教”得到热议。",
+        "summary": "6月30日 15:19，日本队酝酿换帅？森保一去留未定，4大备胎浮现，中超外教在列。王晓瑞报道 日本队1比2不敌巴西队止步32强。赛后，围绕着“森保一是否或应该继续执教”得到热议。",
         "source": "体坛周报",
         "url": "https://view.inews.qq.com/a/20260630A06OE400?scene=news-skill",
         "time": "6月30日 15:19",
@@ -2560,7 +2096,7 @@
       },
       {
         "title": "火力全开，老牌强队强势回归——中超联赛第十六轮综述",
-        "summary": "时隔四周，中超联赛战火重燃。经过休养生息之后的诸强，果然聚集了足够强大的能量。",
+        "summary": "6月29日 22:33，火力全开，老牌强队强势回归——中超联赛第十六轮综述。时隔四周，中超联赛战火重燃。经过休养生息之后的诸强，果然聚集了足够强大的能量。",
         "source": "正观新闻",
         "url": "https://view.inews.qq.com/a/20260629A0B0EK00?scene=news-skill",
         "time": "6月29日 22:33",
@@ -2600,7 +2136,7 @@
       },
       {
         "title": "中超下半程重启，上海两队强劲复苏，申花、海港双双逆转！ | 中超第16轮",
-        "summary": "上周末，中超联赛第16轮揭开本赛季下半程竞争的大幕。上海两队双双逆转对手。",
+        "summary": "6月29日 10:03，中超下半程重启，上海两队强劲复苏，申花、海港双双逆转！ | 中超第16轮。上周末，中超联赛第16轮揭开本赛季下半程竞争的大幕。上海两队双双逆转对手。",
         "source": "五星体育广播",
         "url": "https://view.inews.qq.com/a/20260629A0347Y00?scene=news-skill",
         "time": "6月29日 10:03",
@@ -2639,7 +2175,7 @@
         "heat": 5
       },
       {
-        "title": "中超战报 | 拉唐梅开二度吴曦点射阿苏埃世界波 上海申花客场4-1逆转战胜大连英博",
+        "title": "中超战报 | 拉唐梅开二度吴曦点射阿苏埃世界波",
         "summary": "北京时间6月28日19:00，2026怡宝中超联赛第16轮上海申花客场对阵大连英博的比赛在大连梭鱼湾足球场进行。开场第4分钟，高天意开出角球，朱辰杰头球攻门击中横梁。",
         "source": "上海申花足球俱乐部",
         "url": "https://view.inews.qq.com/a/20260628A08C0800?scene=news-skill",
@@ -2664,7 +2200,7 @@
       },
       {
         "title": "【中超】西海岸联赛12轮不败 蓉城领先13分稳坐榜首",
-        "summary": "6月26日-6月28日，中超第16轮战火重燃。成都蓉城客场3比2战胜深圳新鹏城积40分继续领跑。",
+        "summary": "6月28日 21:39，【中超】西海岸联赛12轮不败 蓉城领先13分稳坐榜首。6月26日-6月28日，中超第16轮战火重燃。成都蓉城客场3比2战胜深圳新鹏城积40分继续领跑。",
         "source": "体坛周报",
         "url": "https://view.inews.qq.com/a/20260628A081OT00?scene=news-skill",
         "time": "6月28日 21:39",
@@ -2746,7 +2282,7 @@
       },
       {
         "title": "立讯精密港股上市倒计时，最高募资约240亿港元",
-        "summary": "“果链”三巨头立讯精密、蓝思科技、领益智造即将在港股齐聚。6月30日，正式启动H股全球发售。",
+        "summary": "6月30日 20:28，立讯精密港股上市倒计时，最高募资约240亿港元。“果链”三巨头立讯精密、蓝思科技、领益智造即将在港股齐聚。6月30日，正式启动H股全球发售。",
         "source": "21世纪经济报道",
         "url": "https://view.inews.qq.com/a/20260630A09YIO00?scene=news-skill",
         "time": "6月30日 20:28",
@@ -2777,7 +2313,7 @@
         "heat": 5
       },
       {
-        "title": "美元指数重回100上方！有色ETF汇添富午后跌幅收窄，强美元压制能否持续？瑞银：美联储更可能降息！",
+        "title": "美元指数重回100上方！有色ETF汇添富午后跌幅收窄，强美元压制能否持续？瑞银",
         "summary": "6月30日，其中天齐锂业、赣锋锂业涨超2%；厦门钨业、华友钴业涨超1%；而紫金矿业、洛阳钼业跌超2%；中国铝业、云南",
         "source": "界面新闻",
         "url": "https://view.inews.qq.com/a/20260630A08U5J00?scene=news-skill",
@@ -2809,102 +2345,6 @@
         "heat": 5
       },
       {
-        "title": "汇添富基金韩贤旺：人工智能浪潮重塑全球产业分工与资本市场格局",
-        "summary": "新一轮人工智能技术革命正在重构全球产业分工、区域经济结构与资本市场市值排序。今年以来，表现居前的股票市场基本都得益于人工智能产业驱动，如韩国股市、美国的纳斯达克、日本股市。",
-        "source": "央广网",
-        "url": "https://view.inews.qq.com/a/20260630A08DD400?scene=news-skill",
-        "time": "6月30日 17:49",
-        "heat": 5
-      },
-      {
-        "title": "国常会通过《“十五五”碳达峰行动方案》 当“双碳”变成战略牵引，会带来哪些绿色经济增长点？",
-        "summary": "6月29日召开的国务院常务会议审议通过了《“十五五”碳达峰行动方案》（下称《行动方案》）。会议指出，要发挥碳达峰碳中和战略牵引作用，促进经济结构转型升级，打造更多绿色经济增长点。",
-        "source": "红星新闻",
-        "url": "https://view.inews.qq.com/a/20260630A08ABD00?scene=news-skill",
-        "time": "6月30日 17:43",
-        "heat": 5
-      },
-      {
-        "title": "如何挑选美股科技基金？主动型QDII与宽基指数的配置差异",
-        "summary": "面对多变的全球宏观环境，外围地缘局势对股市的影响多表现为短期扰动，市场长期具备自适应调节能力，决定公司最终价值的核心依然是其基本面。",
-        "source": "界面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A07TZE00?scene=news-skill",
-        "time": "6月30日 17:09",
-        "heat": 5
-      },
-      {
-        "title": "直击华尔街｜惠誉最新判断：美联储不会长期容忍高通胀",
-        "summary": "纽约报道在美联储6月议息会议上，新任主席凯文·沃什迎来了上任后的首次政策考验。正如市场普遍预期，美联储将联邦基金利率目标区间维持在3.5%至3.75%不变。",
-        "source": "21世纪经济报道",
-        "url": "https://view.inews.qq.com/a/20260630A077NG00?scene=news-skill",
-        "time": "6月30日 16:13",
-        "heat": 5
-      },
-      {
-        "title": "DeepSeek V4正式版即将上线，云计算50ETF新华收涨6.21%，权重股中科曙光涨停",
-        "summary": "截至2026年6月30日收盘，中证云计算50指数(931469)强势上涨5.76%，成分股中科曙光涨停，赛意信息上涨12.93%，优刻得上涨11.36%，紫光股份，星网锐捷等个股跟涨。",
-        "source": "界面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A073WW00?scene=news-skill",
-        "time": "6月30日 16:04",
-        "heat": 5
-      },
-      {
-        "title": "欧洲央行管委内格尔：通胀率仍将大幅高于2%",
-        "summary": "欧洲央行管理委员会成员约阿希姆·内格尔（Joachim Nagel）6月30日表示，伊朗战争带来的冲击尚未结束，欧元区CPI升幅预计将保持高位。内格尔说，“我预计通胀率将继续远高于我们的目标。",
-        "source": "界面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A0724A00?scene=news-skill",
-        "time": "6月30日 15:59",
-        "heat": 5
-      },
-      {
-        "title": "欧洲央行管委斯莱彭：通胀冲击的程度尚不明朗",
-        "summary": "欧洲央行管委会成员奥拉夫·斯莱彭（Olaf Sleijpen）6月30日表示，伊朗战争造成的通胀冲击程度尚不明确，政策制定者将根据后续数据的情况相应采取行动。",
-        "source": "界面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A0724300?scene=news-skill",
-        "time": "6月30日 15:59",
-        "heat": 5
-      },
-      {
-        "title": "隔壁在拍戏！剧组扎堆成都影视城 这里为何成为宝藏取景地？｜成都经济一线观察",
-        "summary": "邹阿江 “原来隔壁是剧组。”几天前，一位网友分享自己遛弯时偶遇《简单的人生》剧组拍摄的经历。",
-        "source": "封面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A06OGD00?scene=news-skill",
-        "time": "6月30日 15:19",
-        "heat": 5
-      },
-      {
-        "title": "科创新能源ETF鹏华涨超4.5%，太空光伏产业加速破局",
-        "summary": "消息面上，低轨卫星组网提速催生卫星电源增量需求，多家A股上市公司密集发布对外投资、战略合作、共建实验室等公告或相关合作消息，企业从硅片、封装材料到钙钛矿电池全线布局太空光伏。",
-        "source": "界面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A06BZD00?scene=news-skill",
-        "time": "6月30日 14:44",
-        "heat": 5
-      },
-      {
-        "title": "通信ETF华夏涨近4%，大模型推动算力需求飙升，CPO概念盘中走高",
-        "summary": "截至2026年6月30日 13:36，中证5G通信主题指数(931079)强势上涨4.27%，成分股领益智造上涨10.03%，移远通信上涨10.00%，紫光股份上涨9.98%，星网锐捷。",
-        "source": "界面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A05TMC00?scene=news-skill",
-        "time": "6月30日 13:49",
-        "heat": 5
-      },
-      {
-        "title": "新华网财经观察丨实体药店开始向“健康驿站”转型",
-        "summary": "新华网北京6月30日电 题：实体药店开始向“健康驿站”转型新华网逦琛早上9点，家住上海杨浦区的张阿姨来到小区附近的药店。量血压、测血糖、问问吃的几种药能不能一起服用。",
-        "source": "新华网",
-        "url": "https://view.inews.qq.com/a/20260630A055JX00?scene=news-skill",
-        "time": "6月30日 12:38",
-        "heat": 5
-      },
-      {
-        "title": "今年国内动力电池全年装车需求预计达 888.7GWh，同比增长 15.8%",
-        "summary": "IT之家 6 月 30 日消息，据《中国证券报》报道，中国汽车动力电池产业创新联盟 2026 年度论坛于今天（30 日）召开，国家动力电池创新中心副主任马小利在论坛上表示。",
-        "source": "IT之家",
-        "url": "https://view.inews.qq.com/a/20260630A06HD000?scene=news-skill",
-        "time": "6月30日 15:00",
-        "heat": 5
-      },
-      {
         "title": "基金“中考”：245只翻倍基金，主动权益占比超8成",
         "summary": "“站在光里、存在芯上”2026年上半年A股走出极致结构性行情。伴随半年投资收官，公募基金为投资人交上了一份靓丽的“中考”成绩单。",
         "source": "财经网",
@@ -2930,7 +2370,7 @@
       },
       {
         "title": "上周理财产品发行节奏提速 银行理财加码科创与REITs多元布局",
-        "summary": "上周银行理财市场发行热度回升，理财公司持续优化资产配置，重点布局科创股权、REITs等多元资产。",
+        "summary": "6月30日 19:01，上周理财产品发行节奏提速 银行理财加码科创与REITs多元布局。上周银行理财市场发行热度回升，理财公司持续优化资产配置，重点布局科创股权、REITs等多元资产。",
         "source": "财经网",
         "url": "https://view.inews.qq.com/a/20260630A097GL00?scene=news-skill",
         "time": "6月30日 19:01",
@@ -2943,9 +2383,7 @@
         "url": "https://view.inews.qq.com/a/20260701A0032300?scene=news-skill",
         "time": "7月1日 0:08",
         "heat": 5
-      }
-    ],
-    "mockStockNewsExtra": [
+      },
       {
         "title": "国内商品期货夜盘收盘 沥青涨超1%",
         "summary": "人民财讯6月30日电，国内商品期货夜盘收盘多数下跌。豆一、豆二、菜粕、菜油跌超1%；LPG、沥青涨超1%。",
@@ -2971,8 +2409,8 @@
         "heat": 5
       },
       {
-        "title": "需求回补推动国内PMI重回扩张，国内出口涨价源于外需驱动，增长超预期与通胀温和支撑美债美元---0630宏观脱水",
-        "summary": "6月制造业PMI回升至50.3%，高于预期及往年季节性水平。中东局势缓和带动油价下行，此前被高油价延迟的需求释放推动PMI重回荣枯线上，新订单与新出口订单回升幅度大于生产扩张。",
+        "title": "需求回补推动国内PMI重回扩张，国内出口涨价源于外需驱动",
+        "summary": "6月制造业PMI回升至50.3%，高于预期及往年季节性水平。中东局势缓和带动油价下行，近期被高油价延迟的需求释放推动PMI重回荣枯线上，新订单与新出口订单回升幅度大于生产扩张。",
         "source": "华尔街见闻",
         "url": "https://view.inews.qq.com/a/20260630A0AVTJ00?scene=news-skill",
         "time": "6月30日 22:19",
@@ -2988,7 +2426,7 @@
       },
       {
         "title": "下一个“中船特气”要来了？上海半导体材料巨头冲刺IPO！",
-        "summary": "A股今日半年度收官，从上半年市场表现来看，半导体产业链、CPO、PCB等多个热点轮番活跃。其中电子特气领域的中船特气大涨超770%，问鼎A股上半年“涨幅榜冠军”。",
+        "summary": "A股近期半年度收官，从上半年市场表现来看，半导体产业链、CPO、PCB等多个热点轮番活跃。其中电子特气领域的中船特气大涨超770%，问鼎A股上半年“涨幅榜冠军”。",
         "source": "IPO那点事",
         "url": "https://view.inews.qq.com/a/20260630A0ASZN00?scene=news-skill",
         "time": "6月30日 22:09",
@@ -2996,7 +2434,7 @@
       },
       {
         "title": "国内商品期货夜盘开盘多数上涨",
-        "summary": "期市夜盘开盘，国内期货主力合约多数上涨。合成橡胶、PVC、沪锡、纯苯、沪银涨超1%。",
+        "summary": "6月30日 22:01，国内商品期货夜盘开盘多数上涨。期市夜盘开盘，国内期货主力合约多数上涨。合成橡胶、PVC、沪锡、纯苯、沪银涨超1%。",
         "source": "中新经纬",
         "url": "https://view.inews.qq.com/a/20260630A0AQ3800?scene=news-skill",
         "time": "6月30日 22:01",
@@ -3004,7 +2442,7 @@
       },
       {
         "title": "国内期货夜盘开盘多数上涨 沪锡等涨超1%",
-        "summary": "人民财讯6月30日电，国内期货夜盘开盘多数上涨，沪锡、纯苯、沪银等涨超1%；菜粕跌超1%。",
+        "summary": "6月30日 21:06，国内期货夜盘开盘多数上涨 沪锡等涨超1%。人民财讯6月30日电，国内期货夜盘开盘多数上涨，沪锡、纯苯、沪银等涨超1%；菜粕跌超1%。",
         "source": "证券时报e公司",
         "url": "https://view.inews.qq.com/a/20260630A0AA0J00?scene=news-skill",
         "time": "6月30日 21:06",
@@ -3019,7 +2457,7 @@
         "heat": 5
       },
       {
-        "title": "上半年银行理财收益率“冰火两重天”！AI算力类产品暴涨近200%、悦己经济跌超60%",
+        "title": "上半年银行理财收益率“冰火两重天”！AI算力类产品暴涨近200%",
         "summary": "财联社6月30日讯（编辑 王蔚）2026年过半，银行理财市场在季节性波动与监管新规的共同影响下，走出了“震荡上行”的曲线。",
         "source": "财联社",
         "url": "https://view.inews.qq.com/a/20260630A0A04200?scene=news-skill",
@@ -3041,7 +2479,9 @@
         "url": "https://view.inews.qq.com/a/20260630A09UBC00?scene=news-skill",
         "time": "6月30日 20:13",
         "heat": 5
-      },
+      }
+    ],
+    "mockStockNewsExtra": [
       {
         "title": "美联储要加息，恐慌席卷全球市场，更猛烈的风暴要来了？",
         "summary": "现在，全球金融市场“风声鹤唳草木皆兵”——利多不涨，利空狂抛！股市、油价、黄金、白银、大宗商品、比特币都出现大幅下跌！",
@@ -3060,7 +2500,7 @@
       },
       {
         "title": "公募基金“中考成绩”揭晓在即 百余只“翻倍基”涌现",
-        "summary": "本文 百余只“翻倍基”涌现公募基金“中考”即将收官，一批绩优产品引人注目。",
+        "summary": "6月30日 19:50，公募基金“中考成绩”揭晓在即 百余只“翻倍基”涌现。本文 百余只“翻倍基”涌现公募基金“中考”即将收官，一批绩优产品引人注目。",
         "source": "YOUNG世界",
         "url": "https://view.inews.qq.com/a/20260630A09NQO00?scene=news-skill",
         "time": "6月30日 19:50",
@@ -3068,7 +2508,7 @@
       },
       {
         "title": "1792TOPS！又一国内AI芯片发布，额定功耗600W",
-        "summary": "芯东西（公众号：aichip001） | 漠影芯东西6月30日消息，今日，杭州AI芯片公司中昊芯英发布新一代全自研高性能TPU AI芯片须臾。",
+        "summary": "芯东西（公众号：aichip001） | 漠影芯东西6月30日消息，近期，杭州AI芯片公司中昊芯英发布新一代全自研高性能TPU AI芯片须臾。",
         "source": "芯东西",
         "url": "https://view.inews.qq.com/a/20260630A09JBM00?scene=news-skill",
         "time": "6月30日 19:38",
@@ -3092,7 +2532,7 @@
       },
       {
         "title": "国内商业银行辟谣平台再添一员 招商银行官方辟谣账号上线运行",
-        "summary": "6月29日，中信集团与民生银行已于今年5月先后落地专属辟谣阵地：中信集团依托央企多元产融业务布局",
+        "summary": "6月30日 18:53，国内商业银行辟谣平台再添一员 招商银行官方辟谣账号上线运行。6月29日，中信集团与民生银行已于今年5月先后落地专属辟谣阵地：中信集团依托央企多元产融业务布局",
         "source": "金融界",
         "url": "https://view.inews.qq.com/a/20260630A094I600?scene=news-skill",
         "time": "6月30日 18:53",
@@ -3115,7 +2555,7 @@
         "heat": 5
       },
       {
-        "title": "韩国股市收涨，韩国综合指数盘中一度涨超3%！半导体板块领涨，三星电子涨3.41%，SK海力士涨0.84%",
+        "title": "韩国股市收涨，韩国综合指数盘中一度涨超3%！半导体板块领涨",
         "summary": "北京报道截至6月30日韩国股市收盘，韩国综合指数（KOSPI）收涨0.97%，报8476.47点，盘中一度涨超3%。其中，半导体板块领涨，三星电子涨3.41%，SK海力士涨0.84%。",
         "source": "中国经营报",
         "url": "https://view.inews.qq.com/a/20260630A08GWX00?scene=news-skill",
@@ -3123,152 +2563,8 @@
         "heat": 5
       },
       {
-        "title": "利好助攻！今天A股，主力扫货！",
-        "summary": "各位朋友们，今天A股三大指数集体上涨！上半年交易正式收官，从上半年累计涨幅来看，创业板指年内累计上涨35.77%创下历史新高，深证成指年内累计上涨19.94%，沪指年内累计上涨3.16%。",
-        "source": "九派财经",
-        "url": "https://view.inews.qq.com/a/20260630A085E000?scene=news-skill",
-        "time": "6月30日 17:32",
-        "heat": 5
-      },
-      {
-        "title": "叶盛基：提升新能源汽车质量和可靠性 形成中国汽车新优势 | 高端访谈",
-        "summary": "编前：去年6月，新能源汽车质量和可靠性工程专项建设启动会在北京召开。一年来，中国汽车工业协会（简称“中汽协”）积极组织行业企业全面开展新能源汽车质量和可靠性工程专项建设，取得了积极进展。",
-        "source": "中国汽车报",
-        "url": "https://view.inews.qq.com/a/20260630A07T5800?scene=news-skill",
-        "time": "6月30日 17:05",
-        "heat": 5
-      },
-      {
-        "title": "深圳二手房录得量修复性反弹，6月累计录得5675套，同比上涨9.3%",
-        "summary": "6月的深圳楼市，有群人疯了一样在扫货，有群人却低价甩卖都卖不掉。这个夏天，深圳二手房录得5675套，同比涨了9.3%。",
-        "source": "财商在线通",
-        "url": "https://view.inews.qq.com/a/20260630A07RQJ00?scene=news-skill",
-        "time": "6月30日 17:03",
-        "heat": 5
-      },
-      {
-        "title": "两家私募罚没5800万元！实控人隐身幕后数年，37只基金投资者何去何从",
-        "summary": "北京报道，中国证监会披露了对深圳前海玖瀛资产管理有限公司（下称“玖瀛资产”）和深圳市前海腾创投资有限公司（下称“腾创投资”）及相关责任人员的行政处罚结果。",
-        "source": "华夏时报",
-        "url": "https://view.inews.qq.com/a/20260630A07RXV00?scene=news-skill",
-        "time": "6月30日 17:03",
-        "heat": 5
-      },
-      {
-        "title": "史诗级投资潮！国产半导体，彻底爆了",
-        "summary": "半导体行业，大事件不断涌现，一件比一件重磅！苹果美光打嘴仗，长鑫受益？",
-        "source": "锐眼看财经",
-        "url": "https://view.inews.qq.com/a/20260630A07LY000?scene=news-skill",
-        "time": "6月30日 16:49",
-        "heat": 5
-      },
-      {
-        "title": "国内商品期货收盘 碳酸锂涨超8%",
-        "summary": "国内商品期货收盘，碳酸锂涨超8%，鸡蛋涨超3%，纯苯涨近3%，合成橡胶涨超2%，20号胶、沪锡涨近2%。跌幅方面，铂、菜粕跌超2%，沪铝跌近2%，豆一、沪镍、烧碱、氧化铝、沪铅、沪金、铝合金跌超1%。",
-        "source": "中新经纬",
-        "url": "https://view.inews.qq.com/a/20260630A07CUM00?scene=news-skill",
-        "time": "6月30日 16:26",
-        "heat": 5
-      },
-      {
-        "title": "多元招商机制落地见效 津青协同培育高原六大特色产业",
-        "summary": "青海黄南州报道依托对口支援机制，近年来，天津援青指挥部正在加速构建跨州市、全产业链招商引资体系，2021年至2026年累计在青海黄南州招商落地注册企业55家，总投资额达4亿元。",
-        "source": "中国经营报",
-        "url": "https://view.inews.qq.com/a/20260630A0717K00?scene=news-skill",
-        "time": "6月30日 15:56",
-        "heat": 5
-      },
-      {
-        "title": "养老金融领域首个标准落地，筑牢专业队伍关键一环 | 行业观察",
-        "summary": "摘 要从零散服务到专业标准落地，养老金融的职业新赛道将为万亿级银发经济打开全新的可持续性、规范增长纵深当国内60岁以上老年人口突破3亿、2050年老年消费潜力有望突破40万亿元的时代窗口正式打开，一。",
-        "source": "财经五月花",
-        "url": "https://view.inews.qq.com/a/20260630A06XST00?scene=news-skill",
-        "time": "6月30日 15:47",
-        "heat": 5
-      },
-      {
-        "title": "7月1日起安全拉满，新能源汽车迈入最后“三级跳”？",
-        "summary": "进入到2026年，虽然经历了车市整体动荡，但新能源渗透率持续走高的趋势已势不可挡。5月份，新能源汽车的零售渗透率突破62%，燃油车销量近乎腰斩，市场正式由燃油车主导切换为新能源汽车主导。",
-        "source": "功夫拍案",
-        "url": "https://view.inews.qq.com/a/20260630A06RC900?scene=news-skill",
-        "time": "6月30日 15:28",
-        "heat": 5
-      },
-      {
-        "title": "国内商品期货市场收盘 碳酸锂涨超8%",
-        "summary": "人民财讯6月30日电，国内商品期货市场收盘涨多跌少。碳酸锂涨超8%，鸡蛋涨超3%，铂、菜籽粕跌逾2%。",
-        "source": "证券时报e公司",
-        "url": "https://view.inews.qq.com/a/20260630A06KKD00?scene=news-skill",
-        "time": "6月30日 15:11",
-        "heat": 5
-      },
-      {
-        "title": "从跟风种草到看必玩榜，年轻人开始换玩法了",
-        "summary": "真实的才是有价值的想找一家好吃的餐厅，很多人的第一反应是打开大众点评看“必吃榜”。原因很简单：相比广告和营销，真实消费者留下的评价更值得相信。",
-        "source": "环球旅讯",
-        "url": "https://view.inews.qq.com/a/20260630A06GO100?scene=news-skill",
-        "time": "6月30日 14:56",
-        "heat": 5
-      },
-      {
-        "title": "半导体、芯片概念股午后再度走强，关注半导体设备ETF易方达、科创芯片ETF易方达投资机会",
-        "summary": "叶峰今日午后，半导体、芯片概念股再度大幅拉升，截至14:12，中证半导体材料设备主题指数涨超2%，上证科创板芯片指数涨超4%。",
-        "source": "每日经济新闻",
-        "url": "https://view.inews.qq.com/a/20260630A06F1000?scene=news-skill",
-        "time": "6月30日 14:53",
-        "heat": 5
-      },
-      {
-        "title": "光伏赛道行情异动上行，光伏ETF国泰盘中涨超3.4%",
-        "summary": "6月30日A股三大指数集体飘红，创业板指涨2.93%领涨两市，上证指数涨幅0.31%。光伏板块行情升温，截至14:31，光伏ETF国泰（159864）涨幅达3.48%。",
-        "source": "每日经济新闻",
-        "url": "https://view.inews.qq.com/a/20260630A06DHA00?scene=news-skill",
-        "time": "6月30日 14:48",
-        "heat": 5
-      },
-      {
-        "title": "“十五五”新型能源规划落地！科创新能源ETF富国盘中涨幅超4%",
-        "summary": "新能源产业链午后震荡走强，盘中BC电池、麒麟电池、地热能、固态电池等板块震荡走高，截至发稿，科创新能源ETF富国（588960）盘中涨幅达4.22%。",
-        "source": "每日经济新闻",
-        "url": "https://view.inews.qq.com/a/20260630A067TK00?scene=news-skill",
-        "time": "6月30日 14:33",
-        "heat": 5
-      },
-      {
-        "title": "黄金、白银，跳水！国内金饰继续下跌！",
-        "summary": "6月30日，现货白银跌2.32%。国内各大黄金品牌的金饰挂牌价也在持续下调。6月30日，部分品牌克价距离年初高点跌超500元。",
-        "source": "九派财经",
-        "url": "https://view.inews.qq.com/a/20260630A065MA00?scene=news-skill",
-        "time": "6月30日 14:27",
-        "heat": 5
-      },
-      {
-        "title": "国内首家万亿市值AI芯片公司诞生！",
-        "summary": "智东西（公众号：zhidxcom） | 云鹏智东西6月30日报道，今天A股开盘后，寒武纪股价一路飙升，截至今日午间休市，寒武纪股价上涨8.84%，市值达10134亿元。",
-        "source": "智东西",
-        "url": "https://view.inews.qq.com/a/20260630A05WKW00?scene=news-skill",
-        "time": "6月30日 14:00",
-        "heat": 5
-      },
-      {
-        "title": "美联储鹰派立场被高估？瑞银逆市唱多黄金：未来一年有望涨逾30%",
-        "summary": "财联社6月30日讯（编辑 卞纯）尽管黄金过去几个月走势艰难，美联储加息预期升温进一步打压金价，但瑞银仍对该贵金属抱有信心，认为黄金未来12个月有望飙升逾30%。",
-        "source": "财联社",
-        "url": "https://view.inews.qq.com/a/20260630A04VKM00?scene=news-skill",
-        "time": "6月30日 12:06",
-        "heat": 5
-      },
-      {
-        "title": "李斌：2030年纯电在新能源汽车市场占比将超过90%",
-        "summary": "在新智汽车“十五五”发展主旨演讲中，蔚来创始人、董事长、CEO李斌表示：中国车市进入纯电渗透率加速爬升的关键阶段。李斌预测，到2030年，新能源汽车在中国新车市场渗透率将超过90%。",
-        "source": "九派财经",
-        "url": "https://view.inews.qq.com/a/20260630A04S4500?scene=news-skill",
-        "time": "6月30日 11:57",
-        "heat": 5
-      },
-      {
         "title": "卢放：岚图已成产品布局最全车企？岚图的布局该咋看？",
-        "summary": "IT之家 6 月 30 日消息，岚图汽车科技股份有限公司董事长卢放今日发布长文，宣布岚图泰山 X8 纯电版在云峰工厂正式下线。",
+        "summary": "IT之家 6 月 30 日消息，岚图汽车科技股份有限公司董事长卢放近期发布长文，宣布岚图泰山 X8 纯电版在云峰工厂正式下线。",
         "source": "瀚海观察",
         "url": "https://view.inews.qq.com/a/20260630A0BCXO00?scene=news-skill",
         "time": "6月30日 23:21",
@@ -3286,15 +2582,6 @@
         "_section": "section-财经新闻"
       },
       {
-        "title": "DeepSeek V4正式版即将上线，云计算50ETF新华收涨6.21%，权重股中科曙光涨停",
-        "summary": "截至2026年6月30日收盘，中证云计算50指数(931469)强势上涨5.76%，成分股中科曙光涨停，赛意信息上涨12.93%，优刻得上涨11.36%，紫光股份，星网锐捷等个股跟涨。",
-        "source": "界面新闻",
-        "url": "https://view.inews.qq.com/a/20260630A073WW00?scene=news-skill",
-        "time": "6月30日 16:04",
-        "heat": 5,
-        "_section": "section-财经新闻"
-      },
-      {
         "title": "基金“中考”：245只翻倍基金，主动权益占比超8成",
         "summary": "“站在光里、存在芯上”2026年上半年A股走出极致结构性行情。伴随半年投资收官，公募基金为投资人交上了一份靓丽的“中考”成绩单。",
         "source": "财经网",
@@ -3304,7 +2591,7 @@
         "_section": "section-财经新闻"
       },
       {
-        "title": "上半年银行理财收益率“冰火两重天”！AI算力类产品暴涨近200%、悦己经济跌超60%",
+        "title": "上半年银行理财收益率“冰火两重天”！AI算力类产品暴涨近200%",
         "summary": "财联社6月30日讯（编辑 王蔚）2026年过半，银行理财市场在季节性波动与监管新规的共同影响下，走出了“震荡上行”的曲线。",
         "source": "财联社",
         "url": "https://view.inews.qq.com/a/20260630A0A04200?scene=news-skill",
@@ -3314,7 +2601,7 @@
       },
       {
         "title": "公募基金“中考成绩”揭晓在即 百余只“翻倍基”涌现",
-        "summary": "本文 百余只“翻倍基”涌现公募基金“中考”即将收官，一批绩优产品引人注目。",
+        "summary": "6月30日 19:50，公募基金“中考成绩”揭晓在即 百余只“翻倍基”涌现。本文 百余只“翻倍基”涌现公募基金“中考”即将收官，一批绩优产品引人注目。",
         "source": "YOUNG世界",
         "url": "https://view.inews.qq.com/a/20260630A09NQO00?scene=news-skill",
         "time": "6月30日 19:50",
@@ -3322,7 +2609,7 @@
         "_section": "section-财经新闻"
       },
       {
-        "title": "上半年收官！科技龙头笑傲A股！高“光”创业板人工智能ETF华宝涨超4%，机构看好7月验证期",
+        "title": "上半年收官！科技龙头笑傲A股！高“光”创业板人工智能ETF华宝涨超4%",
         "summary": "周二（6月30日），A股半年收官，科技股一骑绝尘，汇聚“电子+通信+计算机”龙头的科技ETF华宝（515000）场内涨2.45%再创上市近7年新高！",
         "source": "界面新闻",
         "url": "https://view.inews.qq.com/a/20260630A08KRW00?scene=news-skill",
@@ -3331,5 +2618,6 @@
         "_section": "section-AI科技新闻"
       }
     ]
-  }
+  },
+  "optimized_v2": true
 }
