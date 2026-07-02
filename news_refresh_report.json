@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-07-02 13:23:23",
+  "runAt": "2026-07-02 14:04:34",
   "sections": {
     "domestic": {
       "before": 54,
@@ -29,7 +29,7 @@
       "before": 80,
       "after": 80,
       "duplicates": 0,
-      "authoritativeTop10": 0
+      "authoritativeTop10": 2
     },
     "henan": {
       "before": 6,
@@ -75,11 +75,5 @@
       "mockHenanNews",
       "mockCslOtherTeams"
     ]
-  },
-  "footballAudit": {
-    "csl": "官方/本地权威源前移，泛流量源和旧动态后移；未改跟踪专题。",
-    "henan": "中超官方、正观新闻等权威/本地源前移，旧赛况和低权威源后移；未改跟踪专题。"
-  },
-  "marketAudit": "未发现同 URL/同标题重复；受外网抓取暂停限制，保留现有权威财经源并按刷新权重轮换。",
-  "entertainmentAudit": "仅做去重、时效和来源轻量检查，保留 Workbuddy 榜单结构。"
+  }
 }
