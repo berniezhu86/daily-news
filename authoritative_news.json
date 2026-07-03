@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-04T03:51:16.216290+08:00",
-  "updated_display": "07月04日 03:51",
-  "count": 8,
+  "updated": "2026-07-04T05:47:16.479043+08:00",
+  "updated_display": "07月04日 05:47",
+  "count": 11,
   "news": [
     {
       "title": "习近平总书记重要讲话坚定中央和国家机关、人民团体广大干部职工砥砺前行意志",
@@ -12,6 +12,18 @@
     {
       "title": "《习近平谈治国理政》第五卷中斯读者会在斯里兰卡首都科伦坡举行",
       "url": "https://www.news.cn/politics/leaders/20260704/ec310ed625f1415cabe644b2824c33f5/c.html",
+      "source": "新华社",
+      "date": "2026-07-04"
+    },
+    {
+      "title": "俄总统新闻秘书：普京宣布俄军“完全解放”卢甘斯克",
+      "url": "https://www.news.cn/world/20260704/81e7108335a341699409b3d2f0c1d60a/c.html",
+      "source": "新华社",
+      "date": "2026-07-04"
+    },
+    {
+      "title": "秘鲁全国选举委员会宣布藤森庆子当选总统",
+      "url": "https://www.news.cn/world/20260704/e94efaa67d7d48938d68c15976850935/c.html",
       "source": "新华社",
       "date": "2026-07-04"
     },
@@ -50,6 +62,12 @@
       "url": "http://opinion.people.com.cn/n1/2026/0702/c461529-40751864.html",
       "source": "人民日报",
       "date": "2026-07-02"
+    },
+    {
+      "title": "委内瑞拉地震死亡人数升至2645人",
+      "url": "https://www.news.cn/world/20260704/6ebdffcf0f4c40278e06ac2a7c4a1c25/c.html",
+      "source": "新华社",
+      "date": "2026-07-04"
     }
   ]
 }
