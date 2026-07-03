@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-03T14:19:39.867286+08:00",
-  "updated_display": "07月03日 14:19",
-  "count": 8,
+  "updated": "2026-07-03T16:15:37.050731+08:00",
+  "updated_display": "07月03日 16:15",
+  "count": 7,
   "news": [
     {
       "title": "习近平总书记重要讲话激励各地干部群众团结奋进勇毅前行",
@@ -16,8 +16,8 @@
       "date": "2026-07-03"
     },
     {
-      "title": "纳米比亚总统恩代特瓦将访华",
-      "url": "https://www.news.cn/world/20260703/4030fd73651e4288af665a7fffe76b03/c.html",
+      "title": "习近平《在庆祝中国共产党成立105周年大会上的讲话》单行本出版",
+      "url": "https://www.news.cn/politics/leaders/20260703/42f5877544744db981d9e1e91060c4ef/c.html",
       "source": "新华社",
       "date": "2026-07-03"
     },
@@ -44,12 +44,6 @@
       "url": "http://opinion.people.com.cn/n1/2026/0702/c461529-40751864.html",
       "source": "人民日报",
       "date": "2026-07-02"
-    },
-    {
-      "title": "台风“美莎克”将登陆 海南提升预警",
-      "url": "https://www.news.cn/local/20260703/be6fd2fa945a42948898446a7dbb7fe3/c.html",
-      "source": "新华社",
-      "date": "2026-07-03"
     }
   ]
 }
