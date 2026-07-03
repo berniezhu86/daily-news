@@ -23,6 +23,7 @@ ARRAYS_FILE = ROOT / "generated_news_arrays.js"
 INDEX_FILE = ROOT / "index.html"
 STATE_FILE = ROOT / "news_refresh_state.json"
 REPORT_FILE = ROOT / "news_refresh_report.json"
+NEWS_DATA_FILE = ROOT / "news_data.json"
 
 MAIN_LIMITS = {
     "domestic": 20,
@@ -42,6 +43,10 @@ ARRAY_MAP = {
     "stock": ("mockStockNews", "mockStockNewsExtra"),
     "henan": ("mockHenanNews", None),
     "csl": ("mockCslOtherTeams", None),
+}
+
+REQUIRED_NONEMPTY_SECTIONS = {
+    "stock": "财经市场",
 }
 
 AUTHORITY_PATTERNS = [
@@ -355,6 +360,76 @@ def write_arrays_files(pool: dict[str, list[dict]]) -> dict[str, list[str]]:
     return changed
 
 
+def source_section_count(section: str) -> int:
+    """Count fresh Workbuddy items for a section when news_data.json exists."""
+    if not NEWS_DATA_FILE.exists() or section not in ARRAY_MAP:
+        return 0
+    try:
+        data = json.loads(NEWS_DATA_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return 0
+    sections = data.get("sections", {})
+    main_var, extra_var = ARRAY_MAP[section]
+    count = len(sections.get(main_var, []) or [])
+    if extra_var:
+        count += len(sections.get(extra_var, []) or [])
+    return count
+
+
+def js_array_count(text: str, var_name: str) -> int:
+    pattern = re.compile(rf"const\s+{re.escape(var_name)}\s*=\s*\[", re.M)
+    m = pattern.search(text)
+    if not m:
+        return -1
+    pos = m.end() - 1
+    depth = 0
+    in_str = None
+    escape = False
+    for i in range(pos, len(text)):
+        ch = text[i]
+        if in_str:
+            if escape:
+                escape = False
+            elif ch == "\\":
+                escape = True
+            elif ch == in_str:
+                in_str = None
+            continue
+        if ch in ('"', "'", "`"):
+            in_str = ch
+        elif ch == "[":
+            depth += 1
+        elif ch == "]":
+            depth -= 1
+            if depth == 0:
+                return text[pos : i + 1].count("{rank:")
+    return -1
+
+
+def validate_required_sections(pool: dict[str, list[dict]], stage: str) -> None:
+    for section, label in REQUIRED_NONEMPTY_SECTIONS.items():
+        pool_count = len(pool.get(section, []) or [])
+        fresh_count = source_section_count(section)
+        if (pool_count > 0 or fresh_count > 0) and pool_count == 0:
+            raise RuntimeError(
+                f"{label}新闻源/新闻池有数据，但最终池为 0；停止发布，避免远程栏目清空。"
+            )
+        if stage != "written" or pool_count == 0:
+            continue
+        for file in (ARRAYS_FILE, INDEX_FILE):
+            text = file.read_text(encoding="utf-8")
+            main_var, extra_var = ARRAY_MAP[section]
+            written_count = js_array_count(text, main_var)
+            if extra_var:
+                extra_count = js_array_count(text, extra_var)
+                if extra_count > 0:
+                    written_count += extra_count
+            if written_count <= 0:
+                raise RuntimeError(
+                    f"{label}新闻池有 {pool_count} 条，但 {file.name} 输出为 0；停止发布。"
+                )
+
+
 def main() -> None:
     now = now_local()
     pool = json.loads(POOL_FILE.read_text(encoding="utf-8"))
@@ -387,8 +462,10 @@ def main() -> None:
         if section == "domestic":
             report["domesticHighPoliticsTop8"] = sum(1 for x in ordered[:8] if is_high_politics(x) and age_hours(x, now) <= 48)
 
+    validate_required_sections(ordered_pool, "ordered")
     POOL_FILE.write_text(json.dumps(ordered_pool, ensure_ascii=False, indent=2), encoding="utf-8")
     changed = write_arrays_files(ordered_pool)
+    validate_required_sections(ordered_pool, "written")
     save_state(state, ordered_pool, now)
     report["changedArrays"] = changed
     REPORT_FILE.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
