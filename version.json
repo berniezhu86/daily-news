@@ -1,8 +1,8 @@
 {
   "version": "1.0.6",
-  "updated_at": "2026-07-03T13:22:21+08:00",
+  "updated_at": "2026-07-03T14:53:07+08:00",
   "url": "https://github.com/berniezhu86/daily-news/releases/download/v1.0.6/default.apk",
-  "description": "主网页最终审核排序并发布",
+  "description": "恢复财经市场新闻并最终审核排序",
   "app_version": "1.0.6",
-  "content_version": "20260703v4"
+  "content_version": "20260703v5"
 }
