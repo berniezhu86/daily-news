@@ -3695,26 +3695,34 @@ function addListenItem(items, type, item) {
 
 function buildListenBriefingQueue() {
   var items = [];
-  var authList = (authoritativeNews && authoritativeNews.length ? authoritativeNews : ((AUTHORITATIVE_NEWS_FALLBACK && AUTHORITATIVE_NEWS_FALLBACK.news) || [])).slice(0, 3);
+  var authList = (authoritativeNews && authoritativeNews.length ? authoritativeNews : ((AUTHORITATIVE_NEWS_FALLBACK && AUTHORITATIVE_NEWS_FALLBACK.news) || [])).slice(0, 4);
   authList.forEach(function(n) { addListenItem(items, '权威发布', n); });
 
   var hotTab = hotNewsActiveTab || 'hotspot';
   var hotData = getHotNewsData(hotTab);
   var hotExtra = getHotNewsExtra(hotTab);
-  getFreshNewsPage('hotnews_' + hotTab + '_listen', hotData, hotExtra, 0).slice(0, 6).forEach(function(n) {
+  getFreshNewsPage('hotnews_' + hotTab + '_listen', hotData, hotExtra, 0).slice(0, 8).forEach(function(n) {
     addListenItem(items, '热点', n);
   });
 
-  getFreshNewsPage('stocknews_listen', mockStockNews || [], mockStockNewsExtra || [], 0).slice(0, 3).forEach(function(n) {
+  getFreshNewsPage('stocknews_listen', mockStockNews || [], mockStockNewsExtra || [], 0).slice(0, 5).forEach(function(n) {
     addListenItem(items, '财经', n);
   });
 
+  getFreshNewsPage('football_listen', mockHenanNews || [], mockCslOtherTeams || [], 0).slice(0, 2).forEach(function(n) {
+    addListenItem(items, '足球', n);
+  });
+
+  getFreshNewsPage('entertainment_listen', mockEntertainment || [], mockEntertainmentExtra || [], 0).slice(0, 2).forEach(function(n) {
+    addListenItem(items, '娱乐', n);
+  });
+
   if (typeof mockTrackingEvents !== 'undefined' && mockTrackingEvents.length) {
-    mockTrackingEvents.slice(0, 2).forEach(function(e) {
+    mockTrackingEvents.slice(0, 3).forEach(function(e) {
       addListenItem(items, '跟踪专题', { title:e.title, source:e.status || '进行中', summary:e.oneLine || e.intro || '' });
     });
   }
-  return items.slice(0, 14);
+  return items.slice(0, 24);
 }
 
 function updateListenPlayer() {
