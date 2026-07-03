@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-03T08:36:35.434169+08:00",
-  "updated_display": "07月03日 08:36",
-  "count": 7,
+  "updated": "2026-07-03T10:27:35.221065+08:00",
+  "updated_display": "07月03日 10:27",
+  "count": 8,
   "news": [
     {
       "title": "习近平总书记重要讲话激励各地干部群众团结奋进勇毅前行",
@@ -16,7 +16,13 @@
       "date": "2026-07-03"
     },
     {
-      "title": "习近平总书记在庆祝中国共产党成立105周年大会上的讲话金句",
+      "title": "纳米比亚总统恩代特瓦将访华",
+      "url": "https://www.news.cn/world/20260703/4030fd73651e4288af665a7fffe76b03/c.html",
+      "source": "新华社",
+      "date": "2026-07-03"
+    },
+    {
+      "title": "习近平在庆祝大会上讲话金句",
       "url": "http://politics.people.com.cn/n1/2026/0703/c461001-40752483.html",
       "source": "人民日报",
       "date": "2026-07-03"
@@ -40,8 +46,8 @@
       "date": "2026-07-02"
     },
     {
-      "title": "叙利亚首都发生恐怖爆炸袭击 死亡人数升至9人",
-      "url": "https://www.news.cn/world/20260703/e5bf53b67a5149ebbad305c7f4933f5e/c.html",
+      "title": "台风“美莎克”生成 海南提升预警 进出岛列车全部停运",
+      "url": "https://www.news.cn/local/20260703/be6fd2fa945a42948898446a7dbb7fe3/c.html",
       "source": "新华社",
       "date": "2026-07-03"
     }
