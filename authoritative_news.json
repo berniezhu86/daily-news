@@ -1,11 +1,17 @@
 {
-  "updated": "2026-07-04T13:28:18.771075+08:00",
-  "updated_display": "07月04日 13:28",
-  "count": 13,
+  "updated": "2026-07-04T15:24:20.996922+08:00",
+  "updated_display": "07月04日 15:24",
+  "count": 11,
   "news": [
     {
       "title": "习近平总书记在庆祝中国共产党成立105周年大会上的重要讲话坚定中央和国家机关、人民团体广大干部职工砥砺前行意志",
       "url": "https://www.news.cn/politics/leaders/20260704/eea2d8ad655f45599532e41b42a2d798/c.html",
+      "source": "新华社",
+      "date": "2026-07-04"
+    },
+    {
+      "title": "《习近平谈治国理政》第五卷中斯读者会在斯里兰卡首都科伦坡举行",
+      "url": "https://www.news.cn/politics/leaders/20260704/ec310ed625f1415cabe644b2824c33f5/c.html",
       "source": "新华社",
       "date": "2026-07-04"
     },
@@ -24,18 +30,6 @@
     {
       "title": "习近平总书记与\"七一勋章\"获得者的故事",
       "url": "http://politics.people.com.cn/n1/2026/0704/c461001-40753222.html",
-      "source": "人民日报",
-      "date": "2026-07-04"
-    },
-    {
-      "title": "习近平《在庆祝中国共产党成立105周年大会上的讲话》出版",
-      "url": "http://politics.people.com.cn/n1/2026/0704/c461001-40753220.html",
-      "source": "人民日报",
-      "date": "2026-07-04"
-    },
-    {
-      "title": "《习近平谈治国理政》第五卷中斯读者会在斯里兰卡首都科伦坡举行",
-      "url": "http://politics.people.com.cn/n1/2026/0704/c461001-40753221.html",
       "source": "人民日报",
       "date": "2026-07-04"
     },
@@ -70,14 +64,8 @@
       "date": "2026-07-02"
     },
     {
-      "title": "多地迎暴雨 辽宁发强对流、地质灾害气象风险预警",
+      "title": "辽宁发布强对流和暴雨黄色预警",
       "url": "https://www.news.cn/local/20260704/bedda74a172f489099754c3427912eee/c.html",
-      "source": "新华社",
-      "date": "2026-07-04"
-    },
-    {
-      "title": "刚果（金）沉船事故致20人死亡、逾百人失踪",
-      "url": "https://www.news.cn/world/20260704/96569de50e274e8f8bb1339b25ceb89b/c.html",
       "source": "新华社",
       "date": "2026-07-04"
     }
