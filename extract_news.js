@@ -327,6 +327,12 @@ const FOOTBALL_BROAD_KEYWORDS = [
 
 const FOOTBALL_CONTEXT_SIGNALS = ['足球', '球员', '球队', '俱乐部', '教练', '射手', '门将', '后卫', '前锋', '中场', '裁判', '罚球', '点球', '角球', '帽子戏法', '梅开二度', '乌龙球', '替补', '首发', '拉莫斯', '梅西', 'C罗', '姆巴佩', '哈兰德', '内马尔'];
 
+// 非足球排除关键词 — 标题包含这些词的新闻不应归类为足球
+const FOOTBALL_NEGATIVE_KEYWORDS = [
+  '概念股', '概念强势', '板块领涨', 'A股市场', '涨停',
+  '股价', '牛市', '投资', '基金', 'ETF', 'AI概念',
+];
+
 function isHenanNews(title, summary) {
   const text = title + ' ' + (summary || '');
   // 精确匹配
@@ -340,6 +346,8 @@ function isHenanNews(title, summary) {
 
 function isFootballNews(title, summary) {
   const text = title + ' ' + (summary || '');
+  // 排除：标题含非足球关键词（如"概念股""涨停"等金融术语）
+  if (FOOTBALL_NEGATIVE_KEYWORDS.some(kw => title.includes(kw))) return false;
   // 精确足球关键词（完整联赛名称）
   if (FOOTBALL_KEYWORDS.some(kw => text.includes(kw))) return true;
   // 宽泛关键词需有足球上下文
