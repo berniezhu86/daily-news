@@ -1,45 +1,45 @@
 {
-  "runAt": "2026-07-04 07:22:48",
+  "runAt": "2026-07-04 13:24:20",
   "sections": {
     "domestic": {
-      "before": 202,
-      "after": 202,
+      "before": 157,
+      "after": 157,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
     "international": {
-      "before": 200,
-      "after": 200,
+      "before": 150,
+      "after": 150,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
     "ai": {
-      "before": 200,
-      "after": 200,
+      "before": 150,
+      "after": 150,
       "duplicates": 0,
-      "authoritativeTop10": 4
+      "authoritativeTop10": 3
     },
     "entertainment": {
-      "before": 147,
-      "after": 147,
+      "before": 130,
+      "after": 130,
       "duplicates": 0,
-      "authoritativeTop10": 10
+      "authoritativeTop10": 3
     },
     "stock": {
-      "before": 162,
-      "after": 162,
+      "before": 130,
+      "after": 130,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
     "henan": {
-      "before": 33,
-      "after": 33,
+      "before": 30,
+      "after": 30,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
     "csl": {
-      "before": 30,
-      "after": 30,
+      "before": 23,
+      "after": 23,
       "duplicates": 0,
       "authoritativeTop10": 0
     }
