@@ -3191,28 +3191,28 @@ const mockStockIndices = {
     { name:"印度SENSEX", value:"76,580.41", change:"-0.19%", direction:"down" }
   ],
 };
-const stockUpdatedAt = '7月3日 15:00'; // 行情数据更新时间
+const stockUpdatedAt = '7月3日收盘 (7月4日复核)'; // 行情数据更新时间
 
 
   const mockStockAI = [
-    {name:"凯龙高科", score:92, value:"28.56", change:"+20.00%", direction:"up", rating:"偏强", reason:"人形机器人+汽车热管理双主线共振，20cm涨停领涨；宇树科技IPO获批、特斯拉Optimus量产窗口临近催化机器人板块，公司提前布局人形机器人新业务转型"},
-    {name:"贝斯特", score:90, value:"25.96", change:"+20.02%", direction:"up", rating:"偏强", reason:"汽车零部件板块午后5分钟直线20cm涨停，机器人概念核心标的；汽车板块涨4%超20股涨停，人形机器人+智能驾驶双重催化"},
-    {name:"信立泰", score:88, value:"40.08", change:"+9.99%", direction:"up", rating:"偏强", reason:"创新药转型进入收获期，创新药收入占比突破50%同比增长超47%；医保商保双目录初审名单公示催化，主力净流入2.83亿元"},
-    {name:"山金国际", score:86, value:"19.84", change:"+9.98%", direction:"up", rating:"偏强", reason:"COMEX黄金突破4200美元创历史新高，美国6月非农新增仅5.7万人远逊预期提振避险；公司一季度净利润翻倍，金矿项目推进"},
-    {name:"泰胜风能", score:84, value:"10.63", change:"+19.98%", direction:"up", rating:"关注", reason:"商业航天概念20cm涨停，公司通过子公司切入火箭燃料贮箱赛道；首届西部商业航天大会召开，智神星一号首飞预期催化"},
-    {name:"北方华创", score:58, value:"816.00", change:"-2.98%", direction:"down", rating:"观察", reason:"半导体设备板块继续承压，费城半导体指数跌超5%；中芯国际或下调资本开支+美国设备出口限制担忧，短期情绪偏弱但国产替代主线未改"},
+    {name:"埃斯顿", score:93, value:"18.52", change:"+10.01%", direction:"up", rating:"偏强", reason:"机器人板块核心锚，4天3板领涨；宇树科技IPO获批催化产业链，封板率70%显示短线博弈加剧，但龙头地位稳固，下周一封板与否为板块风向标"},
+    {name:"贝斯特", score:91, value:"25.96", change:"+20.02%", direction:"up", rating:"偏强", reason:"汽车零部件20cm涨停，机器人+智能驾驶双主线共振；板块流入69亿资金，超20股涨停，产业链由主题投资向量产兑现切换"},
+    {name:"海南海药", score:89, value:"12.35", change:"+9.97%", direction:"up", rating:"偏强", reason:"创新药9天6板领涨，商保创新药目录54品种初审公示催化；石药集团与阿斯利康签17.7亿美元合作协议提振板块信心，'医保保基本、商保补高端'双支付体系成型"},
+    {name:"山金国际", score:87, value:"19.84", change:"+9.98%", direction:"up", rating:"偏强", reason:"COMEX黄金连续3日反弹突破4200美元，美国6月非农仅5.7万人远逊预期，加息预期骤降；招金黄金、赤峰黄金两连板，避险+通胀双支撑"},
+    {name:"铖昌科技", score:85, value:"38.60", change:"+9.98%", direction:"up", rating:"关注", reason:"商业航天核心标的封板8.5亿资金，长征十号乙7月10-13日首飞催化；星河动力苍穹-50可重复使用发动机验证，产业链确定性提升"},
+    {name:"北方华创", score:55, value:"816.00", change:"-2.98%", direction:"down", rating:"观望", reason:"半导体设备板块净流出170亿，费城半导体指数跌超5%；中芯国际或下调资本开支+出口限制担忧，7月15日业绩预告截止前短期承压，国产替代长线逻辑不变"},
   ];
 
   // 板块预测（由规则评分引擎基于盘面、新闻热度、政策和产业趋势生成）
   const mockSectorPrediction = [
-    { rank:1, name:"人形机器人", code:"BK1174", tag:"强势", tagClass:"bull", reason:"午后40余股涨停，绿的谐波、拓普集团、均胜电子等封板；宇树科技IPO获批+特斯拉Optimus量产临近+优必选订单破万，产业链由主题投资向量产兑现切换", confidence:92, stock:"凯龙高科", target:"目标价35/止损价25" },
-    { rank:2, name:"贵金属/黄金", code:"BK1016", tag:"强势", tagClass:"bull", reason:"COMEX黄金突破4200美元创历史新高，美国6月非农新增仅5.7万人远逊预期；西部黄金、四川黄金、赤峰黄金、山金国际等多股涨停，避险属性突出", confidence:90, stock:"山金国际", target:"目标价23/止损价17" },
-    { rank:3, name:"商业航天", code:"BK1070", tag:"强势", tagClass:"bull", reason:"首届西部商业航天大会召开，星河动力苍穹-50可重复使用发动机验证，智神星一号近期首飞；泰胜风能20cm涨停，甘化科工2连板", confidence:86, stock:"泰胜风能", target:"目标价13/止损价9" },
-    { rank:4, name:"汽车/智能驾驶", code:"BK1018", tag:"强势", tagClass:"bull", reason:"汽车板块涨4%，零部件20股涨停；凯龙高科、贝斯特20cm涨停，万里扬、双环传动等多股封板，智能驾驶+机器人双重催化", confidence:84, stock:"贝斯特", target:"目标价30/止损价22" },
-    { rank:5, name:"创新药", code:"BK1040", tag:"强势", tagClass:"bull", reason:"医保商保双目录初审名单公示，超500个药品通过医保初审、54个通过商保初审；信立泰涨停，创新药收入占比突破50%，'医保保基本、商保补高端'双层支付体系推进", confidence:82, stock:"信立泰", target:"目标价45/止损价35" },
-    { rank:6, name:"国防军工", code:"BK1017", tag:"关注", tagClass:"watch", reason:"军工板块强势，中简科技涨超14%，甘化科工2连板，航发科技、铖昌科技涨停；商业航天与军工装备共振，但需观察持续性", confidence:78, stock:"中简科技", target:"目标价35/止损价26" },
-    { rank:7, name:"中报预增/化工", code:"BK1019", tag:"稳健", tagClass:"steady", reason:"中报预告窗口期业绩线仍受青睐，但基础化工今日走弱，多氟多、泰和科技等跌停；建议精选业绩确定性标的，规避纯题材炒作", confidence:70, stock:"益生股份", target:"目标价14/止损价11" },
-    { rank:8, name:"半导体设备", code:"BK1039", tag:"观察", tagClass:"watch", reason:"半导体设备材料板块再度下挫，北方华创跌3%，华海清科、中科飞测跌超4%；费城半导体指数跌超5%，中芯国际或下调资本开支，短期建议观望", confidence:60, stock:"北方华创", target:"目标价900/止损价760" },
+    { rank:1, name:"人形机器人", code:"BK1174", tag:"强势", tagClass:"bull", reason:"40余股涨停但封板率仅70%，埃斯顿4天3板为板块核心锚；宇树科技IPO获批+特斯拉Optimus量产临近+优必选订单破万，产业链由主题投资向量产兑现切换，下周一龙头封板与否决定板块走势", confidence:93, stock:"埃斯顿", target:"目标价22/止损价16" },
+    { rank:2, name:"贵金属/黄金", code:"BK1016", tag:"强势", tagClass:"bull", reason:"COMEX黄金连续3日反弹突破4200美元，美国6月非农仅5.7万人远逊预期，加息预期骤降；招金黄金、赤峰黄金两连板，山金国际涨停，避险+通胀双支撑下金价有望续创新高", confidence:91, stock:"山金国际", target:"目标价23/止损价17" },
+    { rank:3, name:"商业航天", code:"BK1070", tag:"强势", tagClass:"bull", reason:"铖昌科技封板8.5亿资金，长征十号乙7月10-13日首飞确定性催化；星河动力苍穹-50可重复使用发动机验证，智神星一号首飞预期，板块故事比纯炒机器人稍实", confidence:87, stock:"铖昌科技", target:"目标价42/止损价32" },
+    { rank:4, name:"创新药", code:"BK1040", tag:"强势", tagClass:"bull", reason:"海南海药9天6板领涨，信立泰涨停创新药收入占比超50%；商保创新药目录54品种初审+石药17.7亿美元合作协议，'医保保基本、商保补高端'双支付体系成型，板块底部企稳回升行情开启", confidence:85, stock:"海南海药", target:"目标价14/止损价10" },
+    { rank:5, name:"汽车/智能驾驶", code:"BK1018", tag:"强势", tagClass:"bull", reason:"汽车零部件板块流入69亿资金，超20股涨停；贝斯特20cm涨停，凯龙高科、万里扬等封板；智能驾驶+机器人双催化下产业链共振明显，但需关注封板率下降风险", confidence:84, stock:"贝斯特", target:"目标价30/止损价22" },
+    { rank:6, name:"国防军工", code:"BK1017", tag:"关注", tagClass:"watch", reason:"军工板块与商业航天共振，中简科技涨超14%，甘化科工2连板；但整体板块持续性待验证，建议关注有订单支撑的细分方向", confidence:78, stock:"中简科技", target:"目标价35/止损价26" },
+    { rank:7, name:"中报预增", code:"BK1019", tag:"稳健", tagClass:"steady", reason:"7月15日主板业绩大幅变动预告强制披露截止日临近，业绩线仍受青睐但分化加剧；基础化工多氟多等跌停，建议精选业绩确定性标的规避纯题材炒作", confidence:72, stock:"益生股份", target:"目标价14/止损价11" },
+    { rank:8, name:"半导体设备", code:"BK1039", tag:"观望", tagClass:"bear", reason:"半导体设备板块净流出170亿，北方华创跌3%华海清科跌超4%；费城半导体跌超5%+中芯国际或下调资本开支，7月15日业绩预告前短期承压，国产替代长线逻辑不变但建议先观望", confidence:58, stock:"北方华创", target:"目标价900/止损价760" },
   ];
 
 function renderSectorPrediction() {
