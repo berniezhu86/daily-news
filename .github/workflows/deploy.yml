@@ -18,6 +18,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Validate index scripts
+        run: |
+          awk '/<script>/{n++; out="/tmp/zhenbao-script-" n ".js"; in_script=1; next} /<\/script>/{in_script=0; next} in_script{print > out}' index.html
+          for file in /tmp/zhenbao-script-*.js; do
+            [ -s "$file" ] && node --check "$file"
+          done
       - name: Inject Token
         run: sed -i "s/__GITHUB_TOKEN__/${{ secrets.GH_PAGES_TOKEN }}/g" index.html
       - name: Setup Pages
