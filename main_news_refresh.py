@@ -58,6 +58,9 @@ AUTHORITY_PATTERNS = [
 
 LOW_QUALITY_PATTERNS = [
     "自媒体", "网红", "小红书", "X：", "公众号：", "综合", "转载", "佚名",
+    "替补席看球", "体坛微侃球", "足球大腕", "球迷", "荐股", "牛股", "内幕",
+    "我爱英超", "风电体育", "体坛面对面",
+    "懒喵体育", "第十一人", "侧身凌空斩", "乒烧足篮排", "奥拜尔",
 ]
 
 HIGH_POLITICS_PATTERNS = [
@@ -65,6 +68,29 @@ HIGH_POLITICS_PATTERNS = [
     "李强", "国务院总理", "国务院常务会议", "国务院", "中共中央",
     "全国人大常委会", "赵乐际", "王沪宁", "丁薛祥", "韩正", "蔡奇",
     "中央军委", "全国政协", "外交部", "中共中央政治局", "中央全面深化改革委员会",
+]
+
+TOP_LEADER_PATTERNS = [
+    "习近平", "国家主席", "中央军委主席", "中共中央总书记",
+]
+
+STOCK_REQUIRED_PATTERNS = [
+    "股", "A股", "港股", "美股", "基金", "债", "期货", "证券", "交易所",
+    "上市", "财报", "业绩", "净利", "营收", "融资", "投资", "金融", "经济",
+    "资本市场", "利率", "汇率", "央行", "关税", "贸易", "新能源汽车",
+    "消费", "产业", "价格", "航线燃油", "数字金融",
+]
+
+SPORTS_EVENT_PATTERNS = [
+    "中超", "河南队", "河南", "足协杯", "足球", "联赛", "积分榜", "赛程",
+    "国安", "泰山", "海港", "津门虎", "新鹏城", "玉昆", "青岛西海岸",
+    "梅州客家", "成都蓉城", "申花", "浙江队",
+]
+
+SPORTS_TRUSTED_SOURCES = [
+    "中国新闻网", "新华社", "央视", "人民网", "金台资讯", "大河网",
+    "北京日报", "新黄河", "体坛周报", "足球报", "懂球帝", "雷速体育",
+    "正观新闻", "河南足球俱乐部", "中超联赛", "中国足协",
 ]
 
 GENERIC_TITLE_PATTERNS = [
@@ -85,7 +111,7 @@ def parse_time(value: str | None) -> datetime | None:
     if not value:
         return None
     value = str(value).strip()
-    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M", "%Y/%m/%d %H:%M", "%m-%d %H:%M"):
+    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M", "%Y/%m/%d %H:%M", "%m-%d %H:%M", "%m月%d日 %H:%M"):
         try:
             dt = datetime.strptime(value, fmt)
             if fmt.startswith("%m"):
@@ -129,6 +155,30 @@ def is_high_politics(item: dict) -> bool:
     return has_any(text, HIGH_POLITICS_PATTERNS)
 
 
+def is_top_leader_politics(item: dict) -> bool:
+    text = f"{item.get('title','')} {item.get('summary','')} {' '.join(item.get('keywords') or [])}"
+    return is_high_politics(item) and has_any(text, TOP_LEADER_PATTERNS)
+
+
+def is_priority_high_politics(item: dict) -> bool:
+    return is_high_politics(item) and (
+        bool(item.get("fromPoliticsTopPool"))
+        or str(item.get("sourceRegion", "")) == "politics_top_pool"
+        or is_authoritative(item)
+    )
+
+
+def numeric_score(item: dict, *names: str) -> float:
+    for name in names:
+        try:
+            value = item.get(name)
+            if value is not None:
+                return float(value)
+        except (TypeError, ValueError):
+            continue
+    return 0.0
+
+
 def age_hours(item: dict, now: datetime) -> float:
     dt = parse_time(item.get("publishedAt")) or parse_time(item.get("time")) or parse_time(item.get("collectedAt"))
     if not dt:
@@ -155,14 +205,28 @@ def item_quality(item: dict, now: datetime, state: dict, section: str) -> float:
         score += 4.0
     if is_low_quality(item):
         score -= 5.0
-    if section == "domestic" and is_high_politics(item):
+    if section == "domestic" and is_priority_high_politics(item):
         score += 18.0 if age <= 48 else 6.0
-    if section == "domestic" and age > 48 and is_high_politics(item):
+        importance = numeric_score(item, "importanceScore", "importance_score")
+        authority = numeric_score(item, "authorityScore", "authority_score")
+        if importance:
+            score += max(0.0, min(5.0, (importance - 80.0) / 3.0))
+        if authority:
+            score += max(0.0, min(2.0, (authority - 90.0) / 4.0))
+    if section == "domestic" and is_top_leader_politics(item) and is_priority_high_politics(item) and age <= 48:
+        score += 8.0
+    if section == "domestic" and age > 48 and is_priority_high_politics(item):
         score -= 4.0
+    if section == "domestic" and not is_high_politics(item) and not is_authoritative(item):
+        score -= 8.0
     if len((item.get("summary") or "").strip()) >= 60:
         score += 1.2
     if len((item.get("summary") or "").strip()) < 24:
         score -= 2.5
+    if section in {"henan", "csl"} and age > 96:
+        score -= 12.0
+    if section in {"henan", "csl"} and age > 168:
+        score -= 12.0
 
     key = news_key(item)
     exposure = state.get("exposure", {}).get(key, {})
@@ -172,6 +236,25 @@ def item_quality(item: dict, now: datetime, state: dict, section: str) -> float:
         score -= min(6.0, front_count * 1.5)
 
     return score
+
+
+def section_item_allowed(item: dict, section: str) -> bool:
+    text = f"{item.get('title','')} {item.get('summary','')} {item.get('source','')}"
+    if section == "stock":
+        if has_any(text, ["音乐会", "演唱会", "电影", "电视剧", "综艺"]):
+            return has_any(text, ["票房", "营收", "投资", "消费", "市场"])
+        if has_any(text, ["赛场", "足球", "世界杯", "友谊赛", "冠军赛", "文旅", "旅游季"]):
+            return has_any(text, ["经济", "赚钱", "产业", "消费", "投资", "市场"])
+        return has_any(text, STOCK_REQUIRED_PATTERNS)
+    if section in {"henan", "csl"}:
+        if is_low_quality(item):
+            return False
+        if has_any(text, ["航运", "绿色燃料", "港口", "船舶"]):
+            return False
+        if age_hours(item, now_local()) > 168:
+            return False
+        return has_any(text, SPORTS_EVENT_PATTERNS) and has_any(str(item.get("source", "")), SPORTS_TRUSTED_SOURCES)
+    return True
 
 
 def better_duplicate(a: dict, b: dict, now: datetime, state: dict, section: str) -> dict:
@@ -216,9 +299,10 @@ def sort_section(items: list[dict], now: datetime, state: dict, section: str) ->
     def sort_key(item: dict):
         score = item_quality(item, now, state, section)
         age = age_hours(item, now)
-        politics_pin = 1 if section == "domestic" and is_high_politics(item) and age <= 48 else 0
+        politics_pin = 1 if section == "domestic" and is_priority_high_politics(item) and age <= 48 else 0
+        top_leader_pin = 1 if section == "domestic" and is_top_leader_politics(item) and is_priority_high_politics(item) and age <= 48 else 0
         authority = 1 if is_authoritative(item) else 0
-        return (politics_pin, score, authority, -age)
+        return (top_leader_pin, politics_pin, score, authority, -age)
 
     ordered = sorted(items, key=sort_key, reverse=True)
     for idx, item in enumerate(ordered, start=1):
@@ -449,6 +533,7 @@ def main() -> None:
             continue
         if section in BLOCK_GLOBAL_SECTIONS:
             items = [x for x in items if str(x.get("sourceRegion", "")).lower() not in BLOCKED_SOURCE_REGIONS]
+        items = [x for x in items if section_item_allowed(x, section)]
         deduped, dupes = dedupe_section(items, now, state, section)
         ordered = sort_section(deduped, now, state, section)
         ordered_pool[section] = ordered
@@ -460,7 +545,7 @@ def main() -> None:
             "authoritativeTop10": sum(1 for x in ordered[:10] if is_authoritative(x)),
         }
         if section == "domestic":
-            report["domesticHighPoliticsTop8"] = sum(1 for x in ordered[:8] if is_high_politics(x) and age_hours(x, now) <= 48)
+            report["domesticHighPoliticsTop8"] = sum(1 for x in ordered[:8] if is_priority_high_politics(x) and age_hours(x, now) <= 48)
 
     validate_required_sections(ordered_pool, "ordered")
     POOL_FILE.write_text(json.dumps(ordered_pool, ensure_ascii=False, indent=2), encoding="utf-8")
