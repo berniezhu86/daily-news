@@ -490,6 +490,7 @@ body.care-mode .news-time { font-size:12px!important; }
 }
 .auth-source-xinhua { background:#d63031; }
 .auth-source-people { background:#c0392b; }
+.auth-source-ceic { background:#e67e22; } /* 中国地震台网 */
 .auth-news-text {
   font-size:13px; font-weight:600; color:var(--text1); line-height:1.5;
   text-decoration:none; display:block; min-width:0;
@@ -1667,7 +1668,7 @@ body.theme-dark .auth-banner {
       <img src="images/icon.jpg" alt="" class="brand-icon">
       <div class="brand-text">
         <span class="brand-name">每日简讯</span>
-        <span class="brand-version" id="brandVersion">20260705v10</span>
+        <span class="brand-version" id="brandVersion">20260705v11</span>
       </div>
     </div>
     <div class="topbar-right">
@@ -1723,7 +1724,7 @@ body.theme-dark .auth-banner {
       <div class="auth-banner" id="authBanner" style="display:none;">
         <div class="auth-banner-header">
           <span class="auth-banner-icon">📡</span>
-          <span class="auth-banner-title">权威发布 · 新华社/人民日报</span>
+          <span class="auth-banner-title">权威发布 · 新华社/人民日报/中国地震台网</span>
           <span class="auth-banner-time" id="authUpdateTime"></span>
         </div>
         <div id="authNewsList"></div>
@@ -1977,7 +1978,7 @@ body.theme-dark .auth-banner {
               <div class="settings-row">
                 <div class="settings-row-left">
                   <span class="settings-row-title">当前资讯版本</span>
-                  <span class="settings-row-desc" id="settingsVersion">20260705v10</span>
+                  <span class="settings-row-desc" id="settingsVersion">20260705v11</span>
                 </div>
               </div>
             </div>
@@ -3436,7 +3437,7 @@ const mockStockIndices = {
     { name:"印度SENSEX", value:"76,580.41", change:"-0.19%", direction:"down" }
   ],
 };
-const content_version = 'v20260705v10'; // 部署验收标记
+const content_version = 'v20260705v11'; // 部署验收标记
 const stockUpdatedAt = '7月3日收盘 | 7月5日周末复核'; // 行情数据更新时间
 
 
@@ -3822,18 +3823,21 @@ function getSourceAuthorityLevel(item) {
   return 1;
 }
 
-function getNewsAuthorityPriority(categoryKey, item) {
+function getNewsAuthorityPriority(categoryKey, item, ageHours) {
   var sourceLevel = getSourceAuthorityLevel(item);
   if (sourceLevel < 0) return -1;
+  var age = typeof ageHours === 'number' ? ageHours : 999;
   var highPolitics = isHighPoliticsNews(item);
   var breakingDisaster = isBreakingDisasterNews(item);
   var isDomesticStream = categoryKey === 'hotnews_domestic' || (categoryKey === 'hotnews_hotspot' && item && item.originalSection === 'domestic');
-  if (breakingDisaster && sourceLevel >= 2) return 5.2;
-  if (isDomesticStream && highPolitics && sourceLevel >= 2) return 5;
-  if (highPolitics && sourceLevel >= 2) return 4;
-  if (highPolitics && sourceLevel >= 0) return 3;
-  if (sourceLevel >= 3) return 2;
-  if (sourceLevel === 2) return 1;
+  if (isDomesticStream && highPolitics && !breakingDisaster && sourceLevel >= 2 && age <= 24) return 6;
+  if (highPolitics && !breakingDisaster && sourceLevel >= 2 && age <= 24) return 5;
+  if (highPolitics && !breakingDisaster && sourceLevel >= 0 && age <= 24) return 4;
+  if (sourceLevel >= 3 && age <= 24) return 3;
+  if (breakingDisaster && sourceLevel >= 2 && age <= 24) return 3;
+  if (highPolitics && !breakingDisaster && sourceLevel >= 2 && age <= 48) return 2;
+  if ((sourceLevel >= 2 || breakingDisaster) && age <= 48) return 1;
+  if (sourceLevel >= 3 && age <= 72) return 1;
   return 0;
 }
 
@@ -3878,6 +3882,27 @@ function normalizeHotNewsTab(tab) {
   return ['domestic', 'international', 'ai'].indexOf(tab) >= 0 ? 'hotspot' : (tab || 'hotspot');
 }
 
+function getNewsRankTier(categoryKey, item, ageHours, authorityPriority) {
+  var sourceLevel = getSourceAuthorityLevel(item);
+  if (sourceLevel < 0) return -2;
+  var age = typeof ageHours === 'number' ? ageHours : 999;
+  var breakingDisaster = isBreakingDisasterNews(item);
+  var highPolitics = isHighPoliticsNews(item) && !breakingDisaster;
+  if (age <= 24) {
+    if (highPolitics && sourceLevel >= 2) return 7;
+    if (highPolitics) return 6;
+    if (sourceLevel >= 2) return 5;
+    return 4;
+  }
+  if (age <= 48) {
+    if (highPolitics && sourceLevel >= 2) return 3;
+    if (sourceLevel >= 2) return 2;
+    return 1;
+  }
+  if (sourceLevel >= 3 && authorityPriority > 0) return 0;
+  return -1;
+}
+
 function buildFreshNewsOrder(categoryKey, arr, extraArr) {
   var all = (arr || []).slice();
   if (extraArr && extraArr.length) all = all.concat(extraArr);
@@ -3893,25 +3918,87 @@ function buildFreshNewsOrder(categoryKey, arr, extraArr) {
     var hoursSinceSeen = rec.lastSeenAt ? (now - rec.lastSeenAt) / 3600000 : 999;
     var heatScore = Math.min(10, item.heat || 5) * 8;
     var timeValue = parseNewsTimeValue(item);
-    var freshnessScore = timeValue ? Math.max(0, 36 - ((now - timeValue) / 3600000)) : 12;
-    var fatiguePenalty = seenCount * 28 + (hoursSinceSeen < 24 ? 32 : 0) + (hoursSinceSeen < 6 ? 40 : 0);
-    var stableShuffle = seededUnit(categoryKey + '|' + seedDay + '|' + id) * 22;
-    var rankBias = item.rank ? Math.max(0, 16 - item.rank) : 0;
-    var authorityPriority = getNewsAuthorityPriority(categoryKey, item);
-    var breakingDisaster = isBreakingDisasterNews(item);
     var ageHours = timeValue ? ((now - timeValue) / 3600000) : 999;
-    var disasterFreshnessBoost = breakingDisaster ? (freshnessScore * 2.5 - (ageHours > 48 ? 90 : 0)) : 0;
-    var authorityScore = authorityPriority * 120;
+    var freshnessScore = timeValue ? Math.max(0, 48 - Math.min(ageHours, 96)) : 8;
+    var fatiguePenalty = seenCount * 28 + (hoursSinceSeen < 24 ? 32 : 0) + (hoursSinceSeen < 6 ? 40 : 0);
+    var stableShuffle = seededUnit(categoryKey + '|' + seedDay + '|' + id) * 14;
+    var rankBias = item.rank ? Math.max(0, 12 - item.rank) : 0;
+    var breakingDisaster = isBreakingDisasterNews(item);
+    var authorityPriority = getNewsAuthorityPriority(categoryKey, item, ageHours);
+    var disasterFreshnessBoost = breakingDisaster && ageHours <= 48 ? Math.min(6, freshnessScore * 0.18) : 0;
+    var authorityScore = authorityPriority * 34;
     var selfMediaPenalty = authorityPriority < 0 ? 90 : 0;
-    return { item: item, idx: idx, authorityPriority: authorityPriority, score: heatScore + freshnessScore + disasterFreshnessBoost + stableShuffle + rankBias + authorityScore - fatiguePenalty - selfMediaPenalty };
+    var rankTier = getNewsRankTier(categoryKey, item, ageHours, authorityPriority);
+    return { item: item, idx: idx, timeValue: timeValue, rankTier: rankTier, authorityPriority: authorityPriority, score: heatScore + freshnessScore + disasterFreshnessBoost + stableShuffle + rankBias + authorityScore - fatiguePenalty - selfMediaPenalty };
   });
   scored.sort(function(a, b) {
+    if (b.rankTier !== a.rankTier) return b.rankTier - a.rankTier;
     if (b.authorityPriority !== a.authorityPriority) return b.authorityPriority - a.authorityPriority;
     if (b.score !== a.score) return b.score - a.score;
+    if (b.timeValue !== a.timeValue) return b.timeValue - a.timeValue;
     return a.idx - b.idx;
   });
-  return scored.map(function(x, idx) {
+  var ordered = scored.map(function(x, idx) {
     var clone = Object.assign({}, x.item);
+    clone.displayRank = idx + 1;
+    return clone;
+  });
+  return balanceBreakingDisasterItems(ordered, categoryKey);
+}
+
+function getBreakingDisasterCluster(item) {
+  var text = [item && item.title, item && item.summary].join(' ');
+  if (/委内瑞拉.*地震|地震.*委内瑞拉/.test(text)) return 'venezuela-earthquake';
+  if (/宾川|大理州.*地震|云南.*地震/.test(text)) return 'yunnan-earthquake';
+  if (/广西|美莎克|北部湾/.test(text) && /(洪水|暴雨|台风|防汛|预警)/.test(text)) return 'guangxi-flood-typhoon';
+  return getNewsEventKey(item && item.title, 'breaking_disaster');
+}
+
+function balanceBreakingDisasterItems(ordered, categoryKey) {
+  if (!/^hotnews_(hotspot|domestic|international)$/.test(categoryKey || '')) return ordered;
+  var now = Date.now();
+  var seenCluster = {};
+  var breakingItems = ordered.filter(function(item) { return isBreakingDisasterNews(item); });
+  var candidates = breakingItems.filter(function(item) {
+    var t = parseNewsTimeValue(item);
+    var age = t ? (now - t) / 3600000 : 999;
+    return getSourceAuthorityLevel(item) >= 2 && age <= 48;
+  }).sort(function(a, b) {
+    function breakingImportance(item) {
+      var text = [item && item.title, item && item.summary].join(' ');
+      var t = parseNewsTimeValue(item);
+      var age = t ? (Date.now() - t) / 3600000 : 999;
+      var score = age <= 24 ? 120 : 0;
+      if (/(死亡人数|遇难|失踪|受伤|获救|救援)/.test(text)) score += 80;
+      if (/(红色预警|I级预警|一级预警|应急响应|强震|重大|特大)/.test(text)) score += 45;
+      if (/(黄色预警|橙色预警|连发|防汛)/.test(text)) score += 20;
+      return score;
+    }
+    var diff = breakingImportance(b) - breakingImportance(a);
+    if (diff) return diff;
+    return parseNewsTimeValue(b) - parseNewsTimeValue(a);
+  }).filter(function(item) {
+    var key = getBreakingDisasterCluster(item);
+    if (seenCluster[key]) return false;
+    seenCluster[key] = true;
+    return true;
+  }).slice(0, 2);
+  var selectedIds = {};
+  candidates.forEach(function(item) { selectedIds[getNewsId(item, categoryKey)] = true; });
+  var regular = ordered.filter(function(item) { return !isBreakingDisasterNews(item) && !selectedIds[getNewsId(item, categoryKey)]; });
+  var overflow = ordered.filter(function(item) { return isBreakingDisasterNews(item) && !selectedIds[getNewsId(item, categoryKey)]; });
+  var freshPoliticsCount = regular.filter(function(item) {
+    var t = parseNewsTimeValue(item);
+    var age = t ? (now - t) / 3600000 : 999;
+    return age <= 24 && isHighPoliticsNews(item) && !isBreakingDisasterNews(item) && getSourceAuthorityLevel(item) >= 2;
+  }).length;
+  var slots = freshPoliticsCount >= 4 ? [9, 19] : [4, 9];
+  candidates.forEach(function(item, i) {
+    regular.splice(Math.min(slots[i] || regular.length, regular.length), 0, item);
+  });
+  var merged = regular.concat(overflow);
+  return merged.map(function(item, idx) {
+    var clone = Object.assign({}, item);
     clone.displayRank = idx + 1;
     return clone;
   });
@@ -5652,7 +5739,7 @@ function renderAuthBanner() {
   var displayNews = authoritativeNews.slice(0, 4);
   if (list) {
     list.innerHTML = displayNews.map(function(item) {
-      var cls = item.source === '新华社' ? 'auth-source-xinhua' : 'auth-source-people';
+      var cls = item.source === '新华社' ? 'auth-source-xinhua' : (item.source === '中国地震台网' ? 'auth-source-ceic' : 'auth-source-people');
       var readerHref = 'news-reader.html?url=' + encodeURIComponent(item.url || '') + '&title=' + encodeURIComponent(item.title || '') + '&source=' + encodeURIComponent(item.source || '');
       return '<div class="auth-news-item">' +
         '<span class="auth-source-tag ' + cls + '">' + item.source + '</span>' +
