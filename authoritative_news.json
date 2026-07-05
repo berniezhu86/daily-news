@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-06T02:43:15.856806+08:00",
-  "updated_display": "07月06日 02:43",
+  "updated": "2026-07-06T04:40:14.162644+08:00",
+  "updated_display": "07月06日 04:40",
   "count": 4,
   "news": [
     {
@@ -16,15 +16,15 @@
       "date": "2026-07-05"
     },
     {
+      "title": "新疆喀什地区伽师县发生3.0级地震 震源深度26千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
+      "date": "2026-07-06"
+    },
+    {
       "title": "浙江建德局部山洪 已紧急转移291人",
       "url": "https://www.news.cn/local/20260705/7bd6eed796fa4285ba21e9bf323642a7/c.html",
       "source": "新华社",
-      "date": "2026-07-05"
-    },
-    {
-      "title": "四川德阳市绵竹市发生4.5级地震 震源深度18千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
       "date": "2026-07-05"
     }
   ]
