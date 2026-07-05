@@ -336,7 +336,7 @@ def sort_section(items: list[dict], now: datetime, state: dict, section: str) ->
         top_leader_pin = 1 if section == "domestic" and is_top_leader_politics(item) and is_priority_high_politics(item) and age <= 48 else 0
         disaster_pin = 1 if is_breaking_disaster(item) and is_authoritative(item) and age <= 48 else 0
         authority = 1 if is_authoritative(item) else 0
-        return (top_leader_pin, disaster_pin, politics_pin, score, authority, -age)
+        return (top_leader_pin, politics_pin, disaster_pin, score, authority, -age)
 
     ordered = sorted(items, key=sort_key, reverse=True)
     for idx, item in enumerate(ordered, start=1):
