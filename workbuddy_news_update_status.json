@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-07-05 18:56",
+  "updated_at": "2026-07-05 22:08",
   "status": "success",
-  "pulled": 449,
-  "added_net": 230,
-  "deduped": 214,
-  "trimmed": 0,
+  "pulled": 382,
+  "added_net": 131,
+  "deduped": 146,
+  "trimmed": 104,
   "sections": {
-    "domestic": 185,
-    "international": 184,
-    "ai": 192,
-    "entertainment": 158,
-    "stock": 143,
-    "henan": 25,
-    "csl": 34
+    "domestic": 200,
+    "international": 200,
+    "ai": 200,
+    "entertainment": 199,
+    "stock": 149,
+    "henan": 24,
+    "csl": 42
   },
-  "total_final": 921,
+  "total_final": 1014,
   "pushed_to_github": false,
   "target": "index.html",
   "notes": "滚动合并到本地新闻池，等待 Codex 审核排序"
