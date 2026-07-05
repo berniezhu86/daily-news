@@ -1,14 +1,8 @@
 {
-  "updated": "2026-07-05T23:28:36.921352+08:00",
-  "updated_display": "07月05日 23:28",
-  "count": 8,
+  "updated": "2026-07-05T23:55:31.788861+08:00",
+  "updated_display": "07月05日 23:55",
+  "count": 6,
   "news": [
-    {
-      "title": "深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之一",
-      "url": "https://www.news.cn/politics/leaders/20260705/8a76c6ea6fd34109b5687c6d310e6fe0/c.html",
-      "source": "新华社",
-      "date": "2026-07-05"
-    },
     {
       "title": "在庆祝中国共产党成立105周年大会上,习近平总书记以深厚的人民情怀,深刻揭示出我们党百余年奋斗的伟大成就和重大意义",
       "url": "https://www.news.cn/politics/leaders/20260705/8a76c6ea6fd34109b5687c6d310e6fe0/c.html",
@@ -22,22 +16,16 @@
       "date": "2026-07-05"
     },
     {
+      "title": "斯方嘉宾：《习近平谈治国理政》回应全球南方关切",
+      "url": "https://www.news.cn/world/20260705/0ea90731e9414d808a6ce929ecdf01f7/c.html",
+      "source": "新华社",
+      "date": "2026-07-05"
+    },
+    {
       "title": "纳米比亚总统恩代特瓦抵达广州开始访华",
       "url": "https://world.people.com.cn/n1/2026/0705/c1002-40753683.html",
       "source": "人民日报",
       "date": "2026-07-05"
-    },
-    {
-      "title": "习近平党建思想系列解读六丨如何用党的创新理论凝心铸魂？",
-      "url": "https://www.news.cn/sikepro/20260704/13b4fa9d9eea4f39a5262377735f1ce4/c.html",
-      "source": "新华社",
-      "date": "2026-07-04"
-    },
-    {
-      "title": "习近平总书记的话语贯穿大历史观、大时代观，鼓舞全党全国各族人民在新征程上只争朝夕、奋发有为。【阅读】",
-      "url": "http://opinion.people.com.cn/n1/2026/0702/c461529-40751864.html",
-      "source": "人民日报",
-      "date": "2026-07-02"
     },
     {
       "title": "浙江建德局部山洪 已紧急转移291人",
@@ -46,7 +34,7 @@
       "date": "2026-07-05"
     },
     {
-      "title": "四川德阳市绵竹市发生4.0级地震 震源深度15千米",
+      "title": "四川德阳市绵竹市发生4.5级地震 震源深度18千米",
       "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
       "source": "中国地震台网",
       "date": "2026-07-05"
