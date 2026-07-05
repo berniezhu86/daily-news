@@ -1,8 +1,20 @@
 {
-  "updated": "2026-07-05T20:50:43.454743+08:00",
-  "updated_display": "07月05日 20:50",
-  "count": 6,
+  "updated": "2026-07-05T22:48:16.449443+08:00",
+  "updated_display": "07月05日 22:48",
+  "count": 7,
   "news": [
+    {
+      "title": "深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之一",
+      "url": "https://www.news.cn/politics/leaders/20260705/8a76c6ea6fd34109b5687c6d310e6fe0/c.html",
+      "source": "新华社",
+      "date": "2026-07-05"
+    },
+    {
+      "title": "正如习近平总书记深刻指出：“今天，中国人民已经把命运牢牢掌握在自己手中，正以自信、自立、自强的姿态阔步迈向更加美好的未来。”",
+      "url": "https://www.news.cn/politics/leaders/20260705/8a76c6ea6fd34109b5687c6d310e6fe0/c.html",
+      "source": "新华社",
+      "date": "2026-07-05"
+    },
     {
       "title": "《习近平关于基层工作方法论述摘编》出版发行",
       "url": "https://www.news.cn/politics/leaders/20260705/3293652da55e4928b0075517c1fef53a/c.html",
@@ -11,8 +23,8 @@
     },
     {
       "title": "纳米比亚总统恩代特瓦抵达广州开始访华",
-      "url": "https://www.news.cn/world/20260705/641c8f4a80774ef8947b2169b4a4038f/c.html",
-      "source": "新华社",
+      "url": "https://world.people.com.cn/n1/2026/0705/c1002-40753683.html",
+      "source": "人民日报",
       "date": "2026-07-05"
     },
     {
@@ -30,12 +42,6 @@
     {
       "title": "浙江建德局部山洪 已紧急转移291人",
       "url": "https://www.news.cn/local/20260705/7bd6eed796fa4285ba21e9bf323642a7/c.html",
-      "source": "新华社",
-      "date": "2026-07-05"
-    },
-    {
-      "title": "内蒙古东乌珠穆沁旗硝酸铵运输车事故已致2死4伤",
-      "url": "https://www.news.cn/local/20260705/9af394c3837c49dba8eef8a786163a44/c.html",
       "source": "新华社",
       "date": "2026-07-05"
     }
