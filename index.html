@@ -5737,6 +5737,12 @@ function renderAuthBanner() {
   }
   if (banner) banner.style.display = 'block';
   var displayNews = authoritativeNews.slice(0, 4);
+  // 确保突发事件至少显示1条（用第4条替换为最近的突发事件）
+  var hasBreaking = displayNews.some(function(i) { return getAuthoritativePriority(i) === 1; });
+  if (!hasBreaking) {
+    var breaking = authoritativeNews.find(function(i) { return getAuthoritativePriority(i) === 1; });
+    if (breaking) displayNews[3] = breaking;
+  }
   if (list) {
     list.innerHTML = displayNews.map(function(item) {
       var cls = item.source === '新华社' ? 'auth-source-xinhua' : (item.source === '中国地震台网' ? 'auth-source-ceic' : 'auth-source-people');
