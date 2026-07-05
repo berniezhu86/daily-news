@@ -5736,7 +5736,7 @@ function renderAuthBanner() {
     return;
   }
   if (banner) banner.style.display = 'block';
-  var displayNews = authoritativeNews.slice(0, 5);
+  var displayNews = authoritativeNews.slice(0, 6);
   if (list) {
     list.innerHTML = displayNews.map(function(item) {
       var cls = item.source === '新华社' ? 'auth-source-xinhua' : (item.source === '中国地震台网' ? 'auth-source-ceic' : 'auth-source-people');
