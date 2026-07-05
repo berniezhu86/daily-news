@@ -5672,7 +5672,7 @@ function setupMarqueeClicks() {
 // 权威要闻缓存
 var authoritativeNews = [];
 var authLoadAttempted = false;
-var AUTHORITATIVE_NEWS_FALLBACK = {"updated":"2026-07-05T23:55:31.788861+08:00","updated_display":"07月05日 23:55","count":6,"news":[{"title":"在庆祝中国共产党成立105周年大会上,习近平总书记以深厚的人民情怀,深刻揭示出我们党百余年奋斗的伟大成就和重大意义","url":"https://www.news.cn/politics/leaders/20260705/8a76c6ea6fd34109b5687c6d310e6fe0/c.html","source":"新华社","date":"2026-07-05"},{"title":"《习近平关于基层工作方法论述摘编》出版发行","url":"https://www.news.cn/politics/leaders/20260705/3293652da55e4928b0075517c1fef53a/c.html","source":"新华社","date":"2026-07-05"},{"title":"斯方嘉宾：《习近平谈治国理政》回应全球南方关切","url":"https://www.news.cn/world/20260705/0ea90731e9414d808a6ce929ecdf01f7/c.html","source":"新华社","date":"2026-07-05"},{"title":"纳米比亚总统恩代特瓦抵达广州开始访华","url":"https://world.people.com.cn/n1/2026/0705/c1002-40753683.html","source":"人民日报","date":"2026-07-05"},{"title":"浙江建德局部山洪 已紧急转移291人","url":"https://www.news.cn/local/20260705/7bd6eed796fa4285ba21e9bf323642a7/c.html","source":"新华社","date":"2026-07-05"},{"title":"四川德阳市绵竹市发生4.5级地震 震源深度18千米","url":"https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao","source":"中国地震台网","date":"2026-07-05"}]};
+var AUTHORITATIVE_NEWS_FALLBACK = {"updated":"2026-07-05T23:55:31.788861+08:00","updated_display":"07月05日 23:55","count":4,"news":[{"title":"在庆祝中国共产党成立105周年大会上,习近平总书记以深厚的人民情怀,深刻揭示出我们党百余年奋斗的伟大成就和重大意义","url":"https://www.news.cn/politics/leaders/20260705/8a76c6ea6fd34109b5687c6d310e6fe0/c.html","source":"新华社","date":"2026-07-05"},{"title":"纳米比亚总统恩代特瓦抵达广州开始访华","url":"https://world.people.com.cn/n1/2026/0705/c1002-40753683.html","source":"人民日报","date":"2026-07-05"},{"title":"浙江建德局部山洪 已紧急转移291人","url":"https://www.news.cn/local/20260705/7bd6eed796fa4285ba21e9bf323642a7/c.html","source":"新华社","date":"2026-07-05"},{"title":"四川德阳市绵竹市发生4.5级地震 震源深度18千米","url":"https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao","source":"中国地震台网","date":"2026-07-05"}]};
 
 // ★ 控制开关：设为 true 时启用权威发布Banner + 跑马灯权威标签
 var AUTH_FEATURE_ENABLED = true;
@@ -5687,8 +5687,16 @@ function containsAnyKeyword(text, keywords) {
 
 function getAuthoritativePriority(item) {
   var text = [item && item.title, item && item.summary, item && item.source].join(' ');
+  // 权重 2.0：时政高层
   if (containsAnyKeyword(text, AUTH_HEAD_KEYWORDS)) return 2;
-  if (containsAnyKeyword(text, AUTH_BREAKING_TOPICS) && containsAnyKeyword(text, AUTH_BREAKING_SIGNALS)) return 1;
+  if (containsAnyKeyword(text, AUTH_BREAKING_TOPICS) && containsAnyKeyword(text, AUTH_BREAKING_SIGNALS)) {
+    // 权重 1.6：中国地震台网地震速报
+    if (item.source === '中国地震台网') return 1.6;
+    // 权重 1.5：自然灾害（地震/海啸/台风/洪水/山洪/暴雨/龙卷风/泥石流/滑坡）
+    if (containsAnyKeyword(text, ['地震','海啸','台风','洪水','山洪','暴雨','龙卷风','泥石流','滑坡'])) return 1.5;
+    // 权重 1.0：其他突发事件
+    return 1;
+  }
   return 0;
 }
 
