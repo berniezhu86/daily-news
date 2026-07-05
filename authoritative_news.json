@@ -1,11 +1,17 @@
 {
-  "updated": "2026-07-05T09:05:20.128103+08:00",
-  "updated_display": "07月05日 09:05",
-  "count": 4,
+  "updated": "2026-07-05T11:03:59.321996+08:00",
+  "updated_display": "07月05日 11:03",
+  "count": 6,
   "news": [
     {
       "title": "习近平总书记重要讲话凝聚中管企业、中管金融企业和中管高校干部职工实干笃行力量",
       "url": "https://www.news.cn/politics/leaders/20260704/e3cc85208f4b4cfb96abc7876e626d3f/c.html",
+      "source": "新华社",
+      "date": "2026-07-04"
+    },
+    {
+      "title": "习近平党建思想系列解读六丨如何用党的创新理论凝心铸魂？",
+      "url": "https://www.news.cn/sikepro/20260704/13b4fa9d9eea4f39a5262377735f1ce4/c.html",
       "source": "新华社",
       "date": "2026-07-04"
     },
@@ -20,6 +26,12 @@
       "url": "http://opinion.people.com.cn/n1/2026/0702/c461529-40751864.html",
       "source": "人民日报",
       "date": "2026-07-02"
+    },
+    {
+      "title": "广西发洪水黄色预警",
+      "url": "https://www.news.cn/politics/20260705/6531c1f5887f4d2388d321a214a7a35a/c.html",
+      "source": "新华社",
+      "date": "2026-07-05"
     },
     {
       "title": "委内瑞拉地震死亡人数升至2954人",
