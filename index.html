@@ -1667,7 +1667,7 @@ body.theme-dark .auth-banner {
       <img src="images/icon.jpg" alt="" class="brand-icon">
       <div class="brand-text">
         <span class="brand-name">每日简讯</span>
-        <span class="brand-version" id="brandVersion">20260705v8</span>
+        <span class="brand-version" id="brandVersion">20260705v9</span>
       </div>
     </div>
     <div class="topbar-right">
@@ -1977,7 +1977,7 @@ body.theme-dark .auth-banner {
               <div class="settings-row">
                 <div class="settings-row-left">
                   <span class="settings-row-title">当前资讯版本</span>
-                  <span class="settings-row-desc" id="settingsVersion">20260705v8</span>
+                  <span class="settings-row-desc" id="settingsVersion">20260705v9</span>
                 </div>
               </div>
             </div>
@@ -3305,7 +3305,7 @@ const mockStockIndices = {
     { name:"印度SENSEX", value:"76,580.41", change:"-0.19%", direction:"down" }
   ],
 };
-const content_version = 'v20260705v8'; // 部署验收标记
+const content_version = 'v20260705v9'; // 部署验收标记
 const stockUpdatedAt = '7月3日收盘 | 7月5日周末复核'; // 行情数据更新时间
 
 
@@ -3616,9 +3616,25 @@ function seededUnit(str) {
 function parseNewsTimeValue(item) {
   var raw = item && (item.time || item.date || item.collectedAt || item.publishedAt);
   if (!raw) return 0;
-  var d = new Date(String(raw).replace(' ', 'T'));
+  var text = String(raw).trim();
+  var d = new Date(text.replace(' ', 'T'));
   var t = d.getTime();
-  return isNaN(t) ? 0 : t;
+  if (!isNaN(t)) return t;
+  var cn = text.match(/(\d{1,2})月(\d{1,2})日\s*(\d{1,2})[:：](\d{2})/);
+  if (cn) {
+    var now = new Date();
+    var cd = new Date(now.getFullYear(), Number(cn[1]) - 1, Number(cn[2]), Number(cn[3]), Number(cn[4]));
+    var ct = cd.getTime();
+    return isNaN(ct) ? 0 : ct;
+  }
+  var md = text.match(/(\d{1,2})[-\/](\d{1,2})\s+(\d{1,2})[:：](\d{2})/);
+  if (md) {
+    var now2 = new Date();
+    var dd = new Date(now2.getFullYear(), Number(md[1]) - 1, Number(md[2]), Number(md[3]), Number(md[4]));
+    var dt = dd.getTime();
+    return isNaN(dt) ? 0 : dt;
+  }
+  return 0;
 }
 
 function getNewsEventKey(title, categoryKey) {
@@ -3655,6 +3671,16 @@ function isHighPoliticsNews(item) {
   return /(习近平|国家主席|中华人民共和国主席|主席令|国家元首|中共中央总书记|中央军委主席|国务院总理|李强|赵乐际|王沪宁|蔡奇|丁薛祥|李希|韩正|王毅|外交部长|国务院常务会议|中央政治局|中央深改委|全国人大常委会|全国政协|特朗普|普京|马克龙|斯塔默|冯德莱恩|泽连斯基|内塔尼亚胡|总统|总理|首相|外长)/.test(text);
 }
 
+function isBreakingDisasterNews(item) {
+  var text = [item && item.title, item && item.summary, item && item.source].join(" ");
+  var sportsContext = /(世界杯|国际足联|比赛|球队|球员|足球|中超|NBA|英格兰队|墨西哥队|vs)/i.test(text);
+  var lifeSafetyHit = /(死亡人数|遇难|受伤|失踪|预警|应急响应|救援|防汛|抗震救灾|山洪|泥石流|坍塌|沉船|矿难)/.test(text);
+  if (sportsContext && !lifeSafetyHit) return false;
+  var disasterHit = /(地震|强震|余震|震级|洪水|暴雨|台风|山洪|泥石流|滑坡|内涝|灾害|灾情|预警|应急响应|救援|伤亡|死亡人数|遇难|受伤|失踪|火灾|山火|爆炸|坍塌|沉船|矿难)/.test(text);
+  var seriousHit = /(黄色预警|橙色预警|红色预警|启动.*应急响应|死亡人数|遇难|受伤|失踪|强震|连发|重大|特大|救援|灾区|防汛|抗震救灾)/.test(text);
+  return disasterHit && seriousHit;
+}
+
 function getSourceAuthorityLevel(item) {
   var source = String(item && item.source || '').replace(/^(国内|国际|AI科技) · /, '');
   if (/(公众号|自媒体|博客|个人|主编|说|观察天下|科工|Copernicium|子桑|刘乐观|日新说|视界观|星辰视|中美聚焦|越南中文社|虎扑体育内容|IT之家（RSS）|今日头条|百家号|大鱼号|冲哥|吃瓜|译言|萨苏)/.test(source)) return -2;
@@ -3669,7 +3695,9 @@ function getNewsAuthorityPriority(categoryKey, item) {
   var sourceLevel = getSourceAuthorityLevel(item);
   if (sourceLevel < 0) return -1;
   var highPolitics = isHighPoliticsNews(item);
+  var breakingDisaster = isBreakingDisasterNews(item);
   var isDomesticStream = categoryKey === 'hotnews_domestic' || (categoryKey === 'hotnews_hotspot' && item && item.originalSection === 'domestic');
+  if (breakingDisaster && sourceLevel >= 2) return 5.2;
   if (isDomesticStream && highPolitics && sourceLevel >= 2) return 5;
   if (highPolitics && sourceLevel >= 2) return 4;
   if (highPolitics && sourceLevel >= 0) return 3;
@@ -3739,9 +3767,12 @@ function buildFreshNewsOrder(categoryKey, arr, extraArr) {
     var stableShuffle = seededUnit(categoryKey + '|' + seedDay + '|' + id) * 22;
     var rankBias = item.rank ? Math.max(0, 16 - item.rank) : 0;
     var authorityPriority = getNewsAuthorityPriority(categoryKey, item);
+    var breakingDisaster = isBreakingDisasterNews(item);
+    var ageHours = timeValue ? ((now - timeValue) / 3600000) : 999;
+    var disasterFreshnessBoost = breakingDisaster ? (freshnessScore * 2.5 - (ageHours > 48 ? 90 : 0)) : 0;
     var authorityScore = authorityPriority * 120;
     var selfMediaPenalty = authorityPriority < 0 ? 90 : 0;
-    return { item: item, idx: idx, authorityPriority: authorityPriority, score: heatScore + freshnessScore + stableShuffle + rankBias + authorityScore - fatiguePenalty - selfMediaPenalty };
+    return { item: item, idx: idx, authorityPriority: authorityPriority, score: heatScore + freshnessScore + disasterFreshnessBoost + stableShuffle + rankBias + authorityScore - fatiguePenalty - selfMediaPenalty };
   });
   scored.sort(function(a, b) {
     if (b.authorityPriority !== a.authorityPriority) return b.authorityPriority - a.authorityPriority;

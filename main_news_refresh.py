@@ -74,6 +74,29 @@ TOP_LEADER_PATTERNS = [
     "习近平", "国家主席", "中央军委主席", "中共中央总书记",
 ]
 
+DISASTER_PATTERNS = [
+    "地震", "强震", "余震", "震级", "洪水", "暴雨", "台风", "山洪",
+    "泥石流", "滑坡", "内涝", "灾害", "灾情", "预警", "应急响应",
+    "救援", "伤亡", "死亡人数", "遇难", "受伤", "失踪", "火灾",
+    "山火", "爆炸", "坍塌", "沉船", "矿难",
+]
+
+SERIOUS_DISASTER_PATTERNS = [
+    "黄色预警", "橙色预警", "红色预警", "启动", "应急响应",
+    "死亡人数", "遇难", "受伤", "失踪", "强震", "连发", "重大",
+    "特大", "救援", "灾区", "防汛", "抗震救灾",
+]
+
+SPORTS_CONTEXT_PATTERNS = [
+    "世界杯", "国际足联", "比赛", "球队", "球员", "足球", "中超",
+    "NBA", "英格兰队", "墨西哥队", "vs",
+]
+
+LIFE_SAFETY_PATTERNS = [
+    "死亡人数", "遇难", "受伤", "失踪", "预警", "应急响应", "救援",
+    "防汛", "抗震救灾", "山洪", "泥石流", "坍塌", "沉船", "矿难",
+]
+
 STOCK_REQUIRED_PATTERNS = [
     "股", "A股", "港股", "美股", "基金", "债", "期货", "证券", "交易所",
     "上市", "财报", "业绩", "净利", "营收", "融资", "投资", "金融", "经济",
@@ -168,6 +191,13 @@ def is_priority_high_politics(item: dict) -> bool:
     )
 
 
+def is_breaking_disaster(item: dict) -> bool:
+    text = f"{item.get('title','')} {item.get('summary','')} {item.get('source','')}"
+    if has_any(text, SPORTS_CONTEXT_PATTERNS) and not has_any(text, LIFE_SAFETY_PATTERNS):
+        return False
+    return has_any(text, DISASTER_PATTERNS) and has_any(text, SERIOUS_DISASTER_PATTERNS)
+
+
 def numeric_score(item: dict, *names: str) -> float:
     for name in names:
         try:
@@ -205,6 +235,9 @@ def item_quality(item: dict, now: datetime, state: dict, section: str) -> float:
         score += 4.0
     if is_low_quality(item):
         score -= 5.0
+    if is_breaking_disaster(item) and is_authoritative(item):
+        disaster_freshness = max(0.0, 48.0 - min(age, 96.0)) / 48.0
+        score += (24.0 + disaster_freshness * 12.0) if age <= 48 else 4.0
     if section == "domestic" and is_priority_high_politics(item):
         score += 18.0 if age <= 48 else 6.0
         importance = numeric_score(item, "importanceScore", "importance_score")
@@ -301,8 +334,9 @@ def sort_section(items: list[dict], now: datetime, state: dict, section: str) ->
         age = age_hours(item, now)
         politics_pin = 1 if section == "domestic" and is_priority_high_politics(item) and age <= 48 else 0
         top_leader_pin = 1 if section == "domestic" and is_top_leader_politics(item) and is_priority_high_politics(item) and age <= 48 else 0
+        disaster_pin = 1 if is_breaking_disaster(item) and is_authoritative(item) and age <= 48 else 0
         authority = 1 if is_authoritative(item) else 0
-        return (top_leader_pin, politics_pin, score, authority, -age)
+        return (top_leader_pin, disaster_pin, politics_pin, score, authority, -age)
 
     ordered = sorted(items, key=sort_key, reverse=True)
     for idx, item in enumerate(ordered, start=1):
