@@ -1,8 +1,14 @@
 {
-  "updated": "2026-07-06T04:40:14.162644+08:00",
-  "updated_display": "07月06日 04:40",
-  "count": 4,
+  "updated": "2026-07-06T06:37:08.502306+08:00",
+  "updated_display": "07月06日 06:37",
+  "count": 6,
   "news": [
+    {
+      "title": "芬兰总统斯图布会见王毅",
+      "url": "https://www.news.cn/politics/leaders/20260706/db78cb298a074583a64b3bc49a67448b/c.html",
+      "source": "新华社",
+      "date": "2026-07-06"
+    },
     {
       "title": "在庆祝中国共产党成立105周年大会上,习近平总书记以深厚的人民情怀,深刻揭示出我们党百余年奋斗的伟大成就和重大意义",
       "url": "https://www.news.cn/politics/leaders/20260705/8a76c6ea6fd34109b5687c6d310e6fe0/c.html",
@@ -14,6 +20,12 @@
       "url": "https://world.people.com.cn/n1/2026/0705/c1002-40753683.html",
       "source": "人民日报",
       "date": "2026-07-05"
+    },
+    {
+      "title": "委内瑞拉地震死亡人数升至3342人",
+      "url": "https://www.news.cn/world/20260706/442b30cea0744ee98cc4f7143dce6d89/c.html",
+      "source": "新华社",
+      "date": "2026-07-06"
     },
     {
       "title": "新疆喀什地区伽师县发生3.0级地震 震源深度26千米",
