@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 权威要闻采集脚本
-数据源：新华网 (news.cn) 首页 + 人民网 (people.com.cn) 首页
+数据源：新华网 (news.cn) 首页 + 人民网 (people.com.cn) 首页 + 中国地震台网
 输出：authoritative_news.json
 """
 import json
@@ -18,6 +18,10 @@ from urllib.parse import urljoin
 OUT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUT_FILE = os.path.join(OUT_DIR, "authoritative_news.json")
 MAX_NEWS = 10  # 每个源最多取10条（只保留重要新闻）
+
+# 中国地震台网数据源
+CEIC_URL = "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao"
+EARTHQUAKE_MAX = 1  # 灾害/地震等突发只取最新一条
 
 # 权威发布只承载两类内容：国家元首/政府高层，或突发重大事件。
 HEAD_OF_STATE_KEYWORDS = [
@@ -234,6 +238,87 @@ def deduplicate(news_list):
     return result
 
 
+def fetch_ceic_earthquake():
+    """
+    从中国地震台网中心 (data.earthquake.cn) 获取最新地震数据
+    返回格式与权威发布一致: [{title, url, source, date}]
+    """
+    print("  抓取中国地震台网地震数据...")
+    html = fetch_html(CEIC_URL)
+    if not html:
+        print("  ❌ 中国地震台网抓取失败")
+        return []
+
+    # 解析表格数据
+    tables = re.findall(r'<table[^>]*>.*?</table>', html, re.DOTALL)
+    if len(tables) < 2:
+        print("  ⚠️ 未找到地震数据表格")
+        return []
+
+    rows = re.findall(r'<tr[^>]*>(.*?)</tr>', tables[1], re.DOTALL)
+    earthquake_list = []
+
+    for row in rows[1:]:  # 跳过表头
+        cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.DOTALL)
+        if len(cells) < 7:
+            continue
+
+        # 从每个 td 中提取纯文本（去掉 div 标签）
+        def extract_text(html_cell):
+            return re.sub(r'<[^>]+>', '', html_cell).strip()
+
+        # cell索引: 0=序号, 1=(空隐藏列), 2=发震时刻, 3=经度, 4=纬度, 5=深度, 6=震级, 7=参考位置, 8=事件类型
+        eq_time = extract_text(cells[2])   # 发震时刻
+        depth = extract_text(cells[5])     # 深度(km)
+        mag = extract_text(cells[6])       # 震级(M)
+        location = extract_text(cells[7])  # 参考位置
+
+        if not eq_time or not mag or not location:
+            continue
+
+        try:
+            mag_float = float(mag)
+        except ValueError:
+            continue
+
+        # 过滤：国内有感地震 (M >= 3.0)
+        if mag_float < 3.0:
+            continue
+
+        # 提取日期（格式: "2026-7-05 23:20:13"）
+        date_str = ""
+        date_match = re.match(r'(\d{4})-(\d{1,2})-(\d{1,2})', eq_time)
+        if date_match:
+            y, m, d = date_match.group(1), date_match.group(2).zfill(2), date_match.group(3).zfill(2)
+            date_str = f"{y}-{m}-{d}"
+
+        # 构建标题
+        title = f"{location}发生{mag}级地震 震源深度{depth}千米"
+
+        earthquake_list.append({
+            "title": title,
+            "url": CEIC_URL,
+            "source": "中国地震台网",
+            "date": date_str,
+            "mag": mag_float,
+            "_eq_time": eq_time,
+        })
+
+    # 按时序倒序（最新在前），取前 EARTHQUAKE_MAX 条
+    earthquake_list.sort(key=lambda x: x.get("_eq_time", ""), reverse=True)
+    result = earthquake_list[:EARTHQUAKE_MAX]
+
+    print(f"  ✅ 获取 {len(result)} 条地震数据")
+    for eq in result:
+        print(f"     M{eq['mag']} {eq['title']}")
+
+    # 清理内部字段（打印之后）
+    for item in result:
+        item.pop("mag", None)
+        item.pop("_eq_time", None)
+    return result
+
+
 def main():
     now = datetime.now(timezone(timedelta(hours=8)))
     tz = timezone(timedelta(hours=8))
@@ -260,7 +345,12 @@ def main():
     else:
         print("  ❌ 人民网抓取失败")
 
-    # 3. 去重 + 最终过滤排序
+    # 3. 中国地震台网（地震实时消息）
+    print(f"[{now.strftime('%H:%M:%S')}] 抓取中国地震台网...")
+    earthquakes = fetch_ceic_earthquake()
+    all_news.extend(earthquakes)
+
+    # 4. 去重 + 最终过滤排序
     all_news = [n for n in deduplicate(all_news) if is_important_news(n.get("title", ""))]
     all_news.sort(key=lambda x: (get_authoritative_priority(x.get("title", "")), x.get("date", "")), reverse=True)
     print(f"  去重过滤后共 {len(all_news)} 条权威要闻")

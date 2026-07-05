@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-05T22:48:16.449443+08:00",
-  "updated_display": "07月05日 22:48",
-  "count": 7,
+  "updated": "2026-07-05T23:28:36.921352+08:00",
+  "updated_display": "07月05日 23:28",
+  "count": 8,
   "news": [
     {
       "title": "深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之一",
@@ -10,7 +10,7 @@
       "date": "2026-07-05"
     },
     {
-      "title": "正如习近平总书记深刻指出：“今天，中国人民已经把命运牢牢掌握在自己手中，正以自信、自立、自强的姿态阔步迈向更加美好的未来。”",
+      "title": "在庆祝中国共产党成立105周年大会上,习近平总书记以深厚的人民情怀,深刻揭示出我们党百余年奋斗的伟大成就和重大意义",
       "url": "https://www.news.cn/politics/leaders/20260705/8a76c6ea6fd34109b5687c6d310e6fe0/c.html",
       "source": "新华社",
       "date": "2026-07-05"
@@ -43,6 +43,12 @@
       "title": "浙江建德局部山洪 已紧急转移291人",
       "url": "https://www.news.cn/local/20260705/7bd6eed796fa4285ba21e9bf323642a7/c.html",
       "source": "新华社",
+      "date": "2026-07-05"
+    },
+    {
+      "title": "四川德阳市绵竹市发生4.0级地震 震源深度15千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
       "date": "2026-07-05"
     }
   ]
