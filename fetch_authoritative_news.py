@@ -100,12 +100,28 @@ OPINION_KEYWORDS = [
     "思想解读", "党建思想",
 ]
 
+# 次要时政：出版消息、一般性发言等，不纳入权威发布
+MINOR_POLITICS_KEYWORDS = [
+    "出版发行", "摘编",
+    "嘉宾", "回应",
+]
+
 
 def is_opinion_piece(title):
     """判断是否为社论/评论员文章/解读类内容（非纯新闻）"""
     if not title:
         return True
     for kw in OPINION_KEYWORDS:
+        if kw in title:
+            return True
+    return False
+
+
+def is_minor_politics(title):
+    """判断是否为次要时政新闻（出版消息、一般性发言等）"""
+    if not title:
+        return True
+    for kw in MINOR_POLITICS_KEYWORDS:
         if kw in title:
             return True
     return False
@@ -368,7 +384,7 @@ def main():
     all_news.extend(earthquakes)
 
     # 4. 去重 + 最终过滤排序
-    all_news = [n for n in deduplicate(all_news) if is_important_news(n.get("title", "")) and not is_opinion_piece(n.get("title", ""))]
+    all_news = [n for n in deduplicate(all_news) if is_important_news(n.get("title", "")) and not is_opinion_piece(n.get("title", "")) and not is_minor_politics(n.get("title", ""))]
     all_news.sort(key=lambda x: (get_authoritative_priority(x.get("title", "")), x.get("date", "")), reverse=True)
     print(f"  去重过滤后共 {len(all_news)} 条权威要闻")
 
