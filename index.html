@@ -5737,11 +5737,11 @@ function renderAuthBanner() {
   }
   if (banner) banner.style.display = 'block';
   var displayNews = authoritativeNews.slice(0, 4);
-  // 确保突发事件至少显示1条（用第4条替换为最近的突发事件）
-  var hasBreaking = displayNews.some(function(i) { return getAuthoritativePriority(i) === 1; });
-  if (!hasBreaking) {
-    var breaking = authoritativeNews.find(function(i) { return getAuthoritativePriority(i) === 1; });
-    if (breaking) displayNews[3] = breaking;
+  // 确保中国地震台网的地震速报一定显示（用第4条替换）
+  var hasSeismic = displayNews.some(function(i) { return i.source === '中国地震台网'; });
+  if (!hasSeismic) {
+    var seismic = authoritativeNews.find(function(i) { return i.source === '中国地震台网'; });
+    if (seismic) displayNews[3] = seismic;
   }
   if (list) {
     list.innerHTML = displayNews.map(function(item) {
