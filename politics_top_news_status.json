@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-05T06:03:31+08:00",
+  "updated_at": "2026-07-06T18:04:52+08:00",
   "window_hours": 48,
-  "window_start": "2026-07-03T06:03:31+08:00",
+  "window_start": "2026-07-04T18:04:52+08:00",
   "keywords": [
     "习近平",
     "国家主席",
@@ -19,6 +19,10 @@
     "国台办",
     "国务院批复",
     "纳米比亚总统访华",
+    "王毅芬兰",
+    "王毅挪威",
+    "王毅北欧",
+    "王毅瑞典",
     "美丽中国建设十五五规划",
     "循环经济发展十五五规划",
     "防汛抗旱习近平",
@@ -26,21 +30,21 @@
     "两优一先",
     "外交部例行记者会"
   ],
-  "candidate_count": 440,
-  "inserted_count": 13,
-  "new_or_updated_count": 2,
-  "removed_expired_count": 6,
-  "skipped_old_count": 314,
-  "skipped_duplicate_count": 74,
-  "skipped_irrelevant_or_low_quality_count": 35,
-  "pool_total": 13,
+  "candidate_count": 520,
+  "inserted_count": 11,
+  "new_or_updated_count": 9,
+  "removed_expired_count": 11,
+  "skipped_old_count": 418,
+  "skipped_duplicate_count": 35,
+  "skipped_irrelevant_or_low_quality_count": 56,
+  "pool_total": 11,
   "failed_queries": [],
   "notes": [
     "仅维护 politics_top_news.json 和 politics_top_news_status.json，未修改日报 HTML 或 index.html。",
     "腾讯新闻 CLI 在沙盒内 DNS 失败，按权限流程使用联网执行完成抓取。",
-    "移除48小时窗口外条目6条：7月2日国台办、中央军委通报、体育强国规划、残疾人保障规划、外交部日方印太构想、上海辰山国家植物园等。",
-    "新增王毅同瑞典外交大臣会谈、瑞典首相会见王毅两条新华社权威外事素材。",
-    "7月4日纳米比亚总统新闻人物、外交部例行记者会全文、国务院美丽中国/循环经济相关转发、部门防汛落实稿多为背景或重复内容，未重复入库。",
-    "李强、国务院常务会议、全国政协方向未发现新的48小时内高优先级权威稿。"
+    "当前文件较自动化记忆落后，本次以文件内容为准重建48小时素材池。",
+    "移除11条7月4日18:04前已过期素材，保留2条7月4日晚王毅瑞典外事素材。",
+    "新增或重建芬兰总统会见王毅、王毅同芬兰外长会谈、纳米比亚总统访华、王毅会见瑞典银瑞达集团主席、习近平祝贺美国独立250周年、外交部回应潜射战略导弹试射、美丽中国和循环经济十五五规划进展、外交部涉古巴表态等素材。",
+    "李强、国务院常务会议、全国政协、全国人大常委会方向未发现新的48小时内高优先级权威稿。"
   ]
 }
