@@ -104,6 +104,7 @@ OPINION_KEYWORDS = [
 MINOR_POLITICS_KEYWORDS = [
     "出版发行", "摘编",
     "嘉宾", "回应",
+    "数说",
 ]
 
 
