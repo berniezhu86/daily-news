@@ -1666,28 +1666,28 @@ const mockExclusiveNews = [
 ];
 
 const mockStockIndices = {
-  us: [
-    { name:"标普500", value:"7,440.43", change:"+1.18%", direction:"up" },
-    { name:"道琼斯", value:"52,182.74", change:"+0.59%", direction:"up" },
-    { name:"纳斯达克", value:"25,820.14", change:"+2.07%", direction:"up" }
+  us: [ // 7月2日收盘（7月3日独立日休市）
+    { name:"标普500", value:"7,483.24", change:"0.00%", direction:"flat" },
+    { name:"道琼斯", value:"52,900.07", change:"+1.14%", direction:"up" },
+    { name:"纳斯达克", value:"25,832.67", change:"-0.80%", direction:"down" }
   ],
-  cn: [
-    { name:"上证指数", value:"4,076.51", change:"+0.06%", direction:"up" },
-    { name:"深证成指", value:"16,144.81", change:"+2.10%", direction:"up" },
-    { name:"创业板指", value:"4,325.98", change:"+2.59%", direction:"up" },
-    { name:"沪深300", value:"4,968.32", change:"+0.84%", direction:"up" }
+  cn: [ // 7月6日收盘
+    { name:"上证指数", value:"4,041.24", change:"-0.06%", direction:"down" },
+    { name:"深证成指", value:"15,416.80", change:"-1.16%", direction:"down" },
+    { name:"创业板指", value:"3,948.86", change:"-1.77%", direction:"down" },
+    { name:"沪深300", value:"4,842.00", change:"0.00%", direction:"flat" }
   ],
-  global: [
-    { name:"恒生指数", value:"22,710.01", change:"-1.38%", direction:"down" },
-    { name:"日经225", value:"70,611.71", change:"+1.65%", direction:"up" },
-    { name:"英国富时", value:"10,484.22", change:"-0.23%", direction:"down" },
-    { name:"德国DAX", value:"24,626.89", change:"-0.18%", direction:"down" },
-    { name:"韩国KOSPI", value:"8,605.22", change:"+2.51%", direction:"up" },
-    { name:"印度SENSEX", value:"76,580.41", change:"-0.19%", direction:"down" }
+  global: [ // 7月6日；欧股交易中
+    { name:"恒生指数", value:"23,616.32", change:"+1.14%", direction:"up" },
+    { name:"日经225", value:"69,737.69", change:"-0.01%", direction:"down" },
+    { name:"英国富时", value:"10,643.42", change:"-0.33%", direction:"down", trading:true },
+    { name:"德国DAX", value:"25,768.58", change:"-0.04%", direction:"down", trading:true },
+    { name:"韩国KOSPI", value:"8,051.33", change:"-0.46%", direction:"down" },
+    { name:"印度SENSEX", value:"78,285.07", change:"+0.67%", direction:"up" }
   ],
 };
-const content_version = 'v20260706v6'; // 部署验收标记
-const stockUpdatedAt = '7月6日收盘 | 7月6日复核'; // 行情数据更新时间
+const content_version = 'v20260706v7'; // 部署验收标记
+const stockUpdatedAt = '7月6日收盘 | 东方财富实时'; // 行情数据更新时间
 
   const mockStockAI = [
     {name:"铖昌科技", score:93, value:"163.32", change:"+10.00%", direction:"up", rating:"偏强", reason:"涨停创60日新高，摘帽+业绩增长+卫星产业三重催化共振；长征十号乙7月10-13日首飞临近日程，盟升电子涨停；商业航天进入订单兑现+首飞验证双窗口，产业链确定性显著提升"},
@@ -3699,6 +3699,7 @@ var marqueeClickHandler = null;
 
 // 格式化指数变化方向
 function formatMarqueeChange(v, d) {
+  if (d === 'flat') return '→' + v;
   var arrow = d === 'up' ? '▲' : '▼';
   return arrow + v;
 }
@@ -3725,15 +3726,17 @@ function buildMarqueeItems() {
     });
   }
 
-  // 3) 财经行情 — A股主要指数
+  // 3) 财经行情 — A股主要指数（优先实时数据，fallback静态数据）
+  var cnStocks = (window._marqueeRealtimeStocks && window._marqueeRealtimeStocks.length > 0)
+    ? window._marqueeRealtimeStocks
+    : (mockStockIndices.cn || []);
+  cnStocks.slice(0, 2).forEach(function(s) {
+    items.push({ type:'finance', text:'🇨🇳 ' + s.name + ' ' + s.value + ' ' + formatMarqueeChange(s.change, s.direction), section:'finance-market' });
+  });
   if (typeof mockStockIndices !== 'undefined') {
-    (mockStockIndices.cn || []).slice(0, 2).forEach(function(s) {
-      items.push({ type:'finance', text:'🇨🇳 ' + s.name + ' ' + s.value + ' ' + formatMarqueeChange(s.change, s.direction), section:'finance-market' });
-    });
     (mockStockIndices.us || []).slice(0, 2).forEach(function(s) {
       items.push({ type:'finance', text:'🇺🇸 ' + s.name + ' ' + s.value + ' ' + formatMarqueeChange(s.change, s.direction), section:'finance-market' });
     });
-    // 全球指数取2个
     (mockStockIndices.global || []).slice(0, 2).forEach(function(s) {
       items.push({ type:'finance', text:'🌍 ' + s.name + ' ' + s.value + ' ' + formatMarqueeChange(s.change, s.direction), section:'finance-market' });
     });
@@ -5261,42 +5264,36 @@ function toggleExclusiveNotify() {
 var _marqueeRealtimeTimer = null;
 
 function fetchMarqueeStockData() {
-  // 使用东方财富API获取A股实时行情（新浪JSONP已被屏蔽，需Referer）
+  // 东方财富API获取A股实时行情，存储到全局变量供 buildMarqueeItems() 使用
   var url = 'https://push2.eastmoney.com/api/qt/ulist.np/get?fltt=2&fields=f2,f3,f4,f12,f14&secids=1.000001,0.399001,0.399006,1.000300&_=' + Date.now();
   fetch(url, { headers: { 'Referer': 'https://quote.eastmoney.com' } })
     .then(function(resp) { return resp.json(); })
     .then(function(json) {
       if (!json.data || !json.data.diff) return;
-      var headlines = [];
+      var items = [];
       var names = ['上证指数', '深证成指', '创业板指', '沪深300'];
       json.data.diff.forEach(function(item, i) {
-        var arrow = item.f3 >= 0 ? '▲' : '▼';
+        var name = names[i] || item.f14;
         var val = item.f2 ? parseFloat(item.f2).toFixed(2) : '--';
-        var chg = (item.f3 || 0).toFixed(2);
-        headlines.push('📈 ' + (names[i] || item.f14) + ' ' + val + ' ' + arrow + chg + '%');
+        var pct = (item.f3 || 0);
+        var change = (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%';
+        var direction = pct > 0 ? 'up' : (pct < 0 ? 'down' : 'flat');
+        items.push({ name: name, value: val, change: change, direction: direction });
       });
-
-      if (headlines.length > 0) {
-        // 保留非股票类快讯，替换股票类
-        var nonStock = [];
-        for (var i = 0; i < marqueeHeadlines.length; i++) {
-          if (marqueeHeadlines[i].indexOf('📈') !== 0 && marqueeHeadlines[i].indexOf('📉') !== 0) {
-            nonStock.push(marqueeHeadlines[i]);
-          }
-        }
-        marqueeHeadlines = headlines.concat(nonStock);
-        console.log('✅ 跑马灯股票数据已更新', headlines);
+      if (items.length > 0) {
+        window._marqueeRealtimeStocks = items;
+        console.log('✅ 跑马灯股票实时数据已更新', items);
         renderMarquee();
       }
     }).catch(function(e) {
-      console.warn('跑马灯股票数据获取失败（网络或接口异常），保留静态数据');
+      console.warn('跑马灯实时数据获取失败，使用静态数据');
     });
 }
 
 function startMarqueeRealtime() {
   fetchMarqueeStockData();
   if (_marqueeRealtimeTimer) clearInterval(_marqueeRealtimeTimer);
-  // 每2分钟刷新一次
+  // 每1分钟刷新一次（A股交易时段 9:30-15:00 数据变动频繁）
   _marqueeRealtimeTimer = setInterval(fetchMarqueeStockData, 60 * 1000);
 }
 
