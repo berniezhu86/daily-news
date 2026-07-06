@@ -133,6 +133,39 @@ def is_important_news(title):
     return get_authoritative_priority(title) > 0
 
 
+# 灾害关键词（与前端 JS 的 NATURAL_DISASTER_KEYWORDS 保持一致）
+DISASTER_KEYWORDS = ['地震', '海啸', '台风', '洪水', '山洪', '暴雨', '龙卷风', '泥石流', '滑坡']
+
+
+def is_stale_disaster(item, now):
+    """灾害新闻超过时效则不收录（地震2小时精确过滤已在采集端做，其他灾害按日期）
+    
+    返回 True 表示过时需过滤，False 表示保留。
+    """
+    title = item.get("title", "")
+    source = item.get("source", "")
+    date = item.get("date", "")
+    is_disaster = any(kw in title for kw in DISASTER_KEYWORDS)
+    if not is_disaster:
+        return False  # 非灾害新闻不过滤
+
+    # 中国地震台网的地震已在 fetch_ceic_earthquake 中按2小时精确过滤
+    if source == '中国地震台网':
+        return False
+
+    # 其他灾害类新闻（新华网/人民网），检查日期是否超过1天
+    if date:
+        try:
+            news_date = datetime.strptime(date, "%Y-%m-%d").replace(tzinfo=timezone(timedelta(hours=8)))
+            days_ago = (now - news_date).days
+            if days_ago >= 1:
+                print(f"    跳过过时灾害: {title[:50]}")
+                return True
+        except Exception:
+            pass
+    return False
+
+
 def extract_xinhua_news(html):
     """从新华网首页提取新闻标题和链接"""
     news_list = []
@@ -319,6 +352,20 @@ def fetch_ceic_earthquake():
         if mag_float < 3.0:
             continue
 
+        # 过滤：超过2小时的地震不收录
+        try:
+            parts = eq_time.replace("-", " ").replace(":", " ").split()
+            if len(parts) >= 5:
+                y, m, d, h, mi = int(parts[0]), int(parts[1]), int(parts[2]), int(parts[3]), int(parts[4])
+                eq_dt = datetime(y, m, d, h, mi, tzinfo=timezone(timedelta(hours=8)))
+                now = datetime.now(timezone(timedelta(hours=8)))
+                hours_ago = (now - eq_dt).total_seconds() / 3600
+                if hours_ago > 2:
+                    print(f"    跳过 {hours_ago:.1f}h 前的地震: {eq_time} {location}")
+                    continue
+        except Exception:
+            pass  # 时间解析失败则保留
+
         # 提取日期（格式: "2026-7-05 23:20:13"）
         date_str = ""
         date_match = re.match(r'(\d{4})-(\d{1,2})-(\d{1,2})', eq_time)
@@ -385,7 +432,7 @@ def main():
     all_news.extend(earthquakes)
 
     # 4. 去重 + 最终过滤排序
-    all_news = [n for n in deduplicate(all_news) if is_important_news(n.get("title", "")) and not is_opinion_piece(n.get("title", "")) and not is_minor_politics(n.get("title", ""))]
+    all_news = [n for n in deduplicate(all_news) if is_important_news(n.get("title", "")) and not is_opinion_piece(n.get("title", "")) and not is_minor_politics(n.get("title", "")) and not is_stale_disaster(n, now)]
     all_news.sort(key=lambda x: (get_authoritative_priority(x.get("title", "")), x.get("date", "")), reverse=True)
     print(f"  去重过滤后共 {len(all_news)} 条权威要闻")
 
