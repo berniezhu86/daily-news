@@ -54,6 +54,8 @@ AUTHORITY_PATTERNS = [
     "中国新闻网", "中新社", "央广网", "中国政府网", "国务院", "外交部",
     "国防部", "商务部", "发改委", "财政部", "教育部", "国家能源局",
     "国家统计局", "应急管理部", "中国人大网", "人民政协报",
+    "财联社", "证券时报", "中国证券报", "上海证券报", "第一财经",
+    "21世纪经济报道", "经济参考报", "中新经纬", "国际金融报",
 ]
 
 LOW_QUALITY_PATTERNS = [
@@ -102,6 +104,26 @@ STOCK_REQUIRED_PATTERNS = [
     "上市", "财报", "业绩", "净利", "营收", "融资", "投资", "金融", "经济",
     "资本市场", "利率", "汇率", "央行", "关税", "贸易", "新能源汽车",
     "消费", "产业", "价格", "航线燃油", "数字金融",
+]
+
+FINANCE_SOURCE_PATTERNS = [
+    "财联社", "证券时报", "中国证券报", "上海证券报", "第一财经",
+    "21世纪经济报道", "经济参考报", "中新经纬", "国际金融报",
+    "人民财讯", "证券日报", "每日经济新闻", "界面新闻", "澎湃财讯",
+    "读创", "北京商报", "财新",
+]
+
+STOCK_CORE_PATTERNS = [
+    "A股", "港股", "美股", "沪指", "深成指", "创业板", "科创板", "北交所",
+    "交易所", "IPO", "上市", "财报", "业绩", "净利", "营收", "公告",
+    "融资", "投资", "基金", "债券", "期货", "证券", "股东", "减持",
+    "增持", "回购", "分红", "利率", "汇率", "央行", "资本市场",
+]
+
+STOCK_OFFTOPIC_PATTERNS = [
+    "赛场", "足球", "世界杯", "友谊赛", "冠军赛", "温网", "NBA",
+    "文旅", "旅游", "游艇", "美食", "演唱会", "音乐会", "电影",
+    "电视剧", "综艺", "首店", "赏荷", "登山",
 ]
 
 SPORTS_EVENT_PATTERNS = [
@@ -252,6 +274,14 @@ def item_quality(item: dict, now: datetime, state: dict, section: str) -> float:
         score -= 4.0
     if section == "domestic" and not is_high_politics(item) and not is_authoritative(item):
         score -= 8.0
+    if section == "stock":
+        text = f"{item.get('title','')} {item.get('summary','')} {item.get('source','')}"
+        if has_any(text, FINANCE_SOURCE_PATTERNS):
+            score += 6.0
+        if has_any(text, STOCK_CORE_PATTERNS):
+            score += 4.0
+        if has_any(text, STOCK_OFFTOPIC_PATTERNS) and not has_any(text, STOCK_CORE_PATTERNS):
+            score -= 10.0
     if len((item.get("summary") or "").strip()) >= 60:
         score += 1.2
     if len((item.get("summary") or "").strip()) < 24:
@@ -274,10 +304,8 @@ def item_quality(item: dict, now: datetime, state: dict, section: str) -> float:
 def section_item_allowed(item: dict, section: str) -> bool:
     text = f"{item.get('title','')} {item.get('summary','')} {item.get('source','')}"
     if section == "stock":
-        if has_any(text, ["音乐会", "演唱会", "电影", "电视剧", "综艺"]):
-            return has_any(text, ["票房", "营收", "投资", "消费", "市场"])
-        if has_any(text, ["赛场", "足球", "世界杯", "友谊赛", "冠军赛", "文旅", "旅游季"]):
-            return has_any(text, ["经济", "赚钱", "产业", "消费", "投资", "市场"])
+        if has_any(text, STOCK_OFFTOPIC_PATTERNS) and not has_any(text, STOCK_CORE_PATTERNS):
+            return False
         return has_any(text, STOCK_REQUIRED_PATTERNS)
     if section in {"henan", "csl"}:
         if is_low_quality(item):
