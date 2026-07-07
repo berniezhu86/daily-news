@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-08T03:41:47.630208+08:00",
-  "updated_display": "07月08日 03:41",
-  "count": 4,
+  "updated": "2026-07-08T05:39:20.417098+08:00",
+  "updated_display": "07月08日 05:39",
+  "count": 5,
   "news": [
     {
       "title": "习近平对防汛救灾工作作出重要指示",
@@ -26,6 +26,12 @@
       "url": "https://www.news.cn/politics/leaders/20260706/37ad1eada26041a991f7d077f2aac775/c.html",
       "source": "新华社",
       "date": "2026-07-06"
+    },
+    {
+      "title": "四川宜宾市高县发生3.8级地震 震源深度6千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
+      "date": "2026-07-08"
     }
   ]
 }
