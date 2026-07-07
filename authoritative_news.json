@@ -1,8 +1,14 @@
 {
-  "updated": "2026-07-07T06:16:49.153930+08:00",
-  "updated_display": "07月07日 06:16",
-  "count": 4,
+  "updated": "2026-07-07T08:10:20.396036+08:00",
+  "updated_display": "07月07日 08:10",
+  "count": 7,
   "news": [
+    {
+      "title": "习近平同黑山总统就中国同黑山建交20周年互致贺电",
+      "url": "http://politics.people.com.cn/n1/2026/0707/c1024-40754628.html",
+      "source": "人民日报",
+      "date": "2026-07-07"
+    },
     {
       "title": "习近平总书记同科技工作者的故事",
       "url": "https://www.news.cn/politics/leaders/20260706/37ad1eada26041a991f7d077f2aac775/c.html",
@@ -22,8 +28,20 @@
       "date": "2026-07-06"
     },
     {
+      "title": "菲参议院启动对副总统莎拉的弹劾审判 莎拉未出席",
+      "url": "https://www.news.cn/world/20260706/955381d849004aed84e536e3251ff6b4/c.html",
+      "source": "新华社",
+      "date": "2026-07-06"
+    },
+    {
       "title": "委地震死亡人数升至3535人",
       "url": "https://www.news.cn/world/20260707/f743a7b5acec46ca94e9c9104fe796f4/c.html",
+      "source": "新华社",
+      "date": "2026-07-07"
+    },
+    {
+      "title": "基辅市和基辅州遭空袭死亡人数升至24人",
+      "url": "https://www.news.cn/world/20260707/40e97f53898b4d0ea0a964922ff1f77f/c.html",
       "source": "新华社",
       "date": "2026-07-07"
     }
