@@ -1,33 +1,33 @@
 {
-  "runAt": "2026-07-07 13:24:36",
+  "runAt": "2026-07-07 19:21:45",
   "sections": {
     "domestic": {
-      "before": 165,
-      "after": 165,
+      "before": 169,
+      "after": 169,
       "duplicates": 0,
       "authoritativeTop10": 9
     },
     "international": {
-      "before": 160,
-      "after": 160,
+      "before": 165,
+      "after": 165,
+      "duplicates": 0,
+      "authoritativeTop10": 6
+    },
+    "ai": {
+      "before": 165,
+      "after": 165,
+      "duplicates": 0,
+      "authoritativeTop10": 6
+    },
+    "entertainment": {
+      "before": 165,
+      "after": 165,
       "duplicates": 0,
       "authoritativeTop10": 5
     },
-    "ai": {
-      "before": 160,
-      "after": 160,
-      "duplicates": 0,
-      "authoritativeTop10": 7
-    },
-    "entertainment": {
-      "before": 160,
-      "after": 160,
-      "duplicates": 0,
-      "authoritativeTop10": 3
-    },
     "stock": {
-      "before": 154,
-      "after": 154,
+      "before": 163,
+      "after": 163,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
