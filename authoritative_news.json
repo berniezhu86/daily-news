@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-07T13:58:17.876475+08:00",
-  "updated_display": "07月07日 13:58",
-  "count": 8,
+  "updated": "2026-07-07T15:55:51.684873+08:00",
+  "updated_display": "07月07日 15:55",
+  "count": 9,
   "news": [
     {
       "title": "习近平对防汛救灾工作作出重要指示",
@@ -12,6 +12,12 @@
     {
       "title": "习近平：要全力组织抢险救援、伤员救治、群众安置",
       "url": "https://www.news.cn/politics/leaders/20260707/f4d56e283da748a7a6a9bd7bd65e580a/c.html",
+      "source": "新华社",
+      "date": "2026-07-07"
+    },
+    {
+      "title": "叙利亚首都发生爆炸 地点邻近法国总统下榻酒店",
+      "url": "https://www.news.cn/world/20260707/24f489d7f40b4b8a8f2e6a0baaa081eb/c.html",
       "source": "新华社",
       "date": "2026-07-07"
     },
@@ -46,9 +52,9 @@
       "date": "2026-07-07"
     },
     {
-      "title": "甘肃省宕昌县山体滑坡造成33人被埋 已有17人获救",
-      "url": "https://www.news.cn/politics/20260707/e7771cbdefd749bfba5dd94ade5def99/c.html",
-      "source": "新华社",
+      "title": "青海海西州直辖区发生3.6级地震 震源深度10千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
       "date": "2026-07-07"
     }
   ]
