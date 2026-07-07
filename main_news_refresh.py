@@ -53,9 +53,9 @@ AUTHORITY_PATTERNS = [
     "新华社", "新华网", "央视", "中央广播电视总台", "人民日报", "人民网",
     "中国新闻网", "中新社", "央广网", "中国政府网", "国务院", "外交部",
     "国防部", "商务部", "发改委", "财政部", "教育部", "国家能源局",
-    "国家统计局", "应急管理部", "中国人大网", "人民政协报",
+    "国家统计局", "应急管理部", "中国人大网", "人民政协报", "中国火箭军",
     "财联社", "证券时报", "中国证券报", "上海证券报", "第一财经",
-    "21世纪经济报道", "经济参考报", "中新经纬", "国际金融报",
+    "21世纪经济报道", "经济参考报", "中新经纬", "国际金融报", "界面新闻",
 ]
 
 LOW_QUALITY_PATTERNS = [
@@ -67,7 +67,7 @@ LOW_QUALITY_PATTERNS = [
 
 HIGH_POLITICS_PATTERNS = [
     "习近平", "国家主席", "中共中央总书记", "中央军委主席", "国家主席令",
-    "李强", "国务院总理", "国务院常务会议", "国务院", "中共中央",
+    "国务院总理", "国务院常务会议", "国务院", "中共中央",
     "全国人大常委会", "赵乐际", "王沪宁", "丁薛祥", "韩正", "蔡奇",
     "中央军委", "全国政协", "外交部", "中共中央政治局", "中央全面深化改革委员会",
 ]
@@ -197,7 +197,11 @@ def is_low_quality(item: dict) -> bool:
 
 def is_high_politics(item: dict) -> bool:
     text = f"{item.get('title','')} {item.get('summary','')} {item.get('source','')}"
-    return has_any(text, HIGH_POLITICS_PATTERNS)
+    if has_any(text, HIGH_POLITICS_PATTERNS):
+        return True
+    if "李强" not in text:
+        return False
+    return has_any(text, ["国务院总理", "国务院常务会议", "主持召开", "会见", "出席"])
 
 
 def is_top_leader_politics(item: dict) -> bool:
