@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-08T13:23:47.023537+08:00",
-  "updated_display": "07月08日 13:23",
-  "count": 13,
+  "updated": "2026-07-08T15:21:52.182223+08:00",
+  "updated_display": "07月08日 15:21",
+  "count": 10,
   "news": [
     {
       "title": "习近平为国家最高科学技术奖获得者等颁奖并发表重要讲话",
@@ -46,12 +46,6 @@
       "date": "2026-07-06"
     },
     {
-      "title": "台风“美莎克”致广西贵港内涝  多方力量紧急抢险救援",
-      "url": "https://www.news.cn/local/20260708/092373747ff546db91843ea1c7a3ae6f/c.html",
-      "source": "新华社",
-      "date": "2026-07-08"
-    },
-    {
       "title": "甘肃宕昌山体滑坡致21人遇难  7人轻伤",
       "url": "https://www.news.cn/local/20260708/34a9c4c08f9b40f5b61367e7305b48f3/c.html",
       "source": "新华社",
@@ -64,21 +58,9 @@
       "date": "2026-07-08"
     },
     {
-      "title": "台风“美莎克”致广西贵港内涝 多方力量紧急抢险救援",
-      "url": "https://www.news.cn/local/20260708/092373747ff546db91843ea1c7a3ae6f/c.html",
-      "source": "新华社",
-      "date": "2026-07-08"
-    },
-    {
       "title": "甘肃宕昌山体滑坡致21人遇难",
       "url": "http://society.people.com.cn/n1/2026/0708/c1008-40755906.html",
       "source": "人民日报",
-      "date": "2026-07-08"
-    },
-    {
-      "title": "四川宜宾市高县发生3.0级地震 震源深度6千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
       "date": "2026-07-08"
     }
   ]
