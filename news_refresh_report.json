@@ -1,9 +1,9 @@
 {
-  "runAt": "2026-07-08 07:23:08",
+  "runAt": "2026-07-08 13:25:13",
   "sections": {
     "domestic": {
-      "before": 206,
-      "after": 206,
+      "before": 200,
+      "after": 200,
       "duplicates": 0,
       "authoritativeTop10": 9
     },
@@ -11,7 +11,7 @@
       "before": 200,
       "after": 200,
       "duplicates": 0,
-      "authoritativeTop10": 8
+      "authoritativeTop10": 10
     },
     "ai": {
       "before": 200,
@@ -26,8 +26,8 @@
       "authoritativeTop10": 5
     },
     "stock": {
-      "before": 194,
-      "after": 194,
+      "before": 200,
+      "after": 200,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
