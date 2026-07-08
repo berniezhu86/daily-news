@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-08T15:21:52.182223+08:00",
-  "updated_display": "07月08日 15:21",
+  "updated": "2026-07-08T17:19:21.129929+08:00",
+  "updated_display": "07月08日 17:19",
   "count": 10,
   "news": [
     {
@@ -12,6 +12,18 @@
     {
       "title": "习近平总书记引领科技强国建设",
       "url": "http://politics.people.com.cn/n1/2026/0708/c1001-40755479.html",
+      "source": "人民日报",
+      "date": "2026-07-08"
+    },
+    {
+      "title": "习近平总书记同科技工作者的故事",
+      "url": "http://politics.people.com.cn/n1/2026/0708/c461001-40756113.html\n",
+      "source": "人民日报",
+      "date": "2026-07-08"
+    },
+    {
+      "title": "习近平对防汛救灾工作作出重要指示",
+      "url": "http://politics.people.com.cn/n1/2026/0708/c1024-40755476.html",
       "source": "人民日报",
       "date": "2026-07-08"
     },
@@ -34,19 +46,7 @@
       "date": "2026-07-07"
     },
     {
-      "title": "习近平对防汛救灾工作作出重要指示",
-      "url": "https://www.news.cn/politics/leaders/20260707/f4d56e283da748a7a6a9bd7bd65e580a/c.html",
-      "source": "新华社",
-      "date": "2026-07-07"
-    },
-    {
-      "title": "习近平总书记同科技工作者的故事",
-      "url": "https://www.news.cn/politics/leaders/20260706/37ad1eada26041a991f7d077f2aac775/c.html",
-      "source": "新华社",
-      "date": "2026-07-06"
-    },
-    {
-      "title": "甘肃宕昌山体滑坡致21人遇难  7人轻伤",
+      "title": "甘肃宕昌山体滑坡致21人遇难7人轻伤",
       "url": "https://www.news.cn/local/20260708/34a9c4c08f9b40f5b61367e7305b48f3/c.html",
       "source": "新华社",
       "date": "2026-07-08"
