@@ -1,39 +1,39 @@
 {
-  "runAt": "2026-07-09 19:26:48",
+  "runAt": "2026-07-10 07:23:39",
   "sections": {
     "domestic": {
-      "before": 200,
-      "after": 200,
+      "before": 208,
+      "after": 208,
       "duplicates": 0,
-      "authoritativeTop10": 10
+      "authoritativeTop10": 8
     },
     "international": {
       "before": 200,
       "after": 200,
       "duplicates": 0,
-      "authoritativeTop10": 5
+      "authoritativeTop10": 10
     },
     "ai": {
       "before": 200,
       "after": 200,
       "duplicates": 0,
-      "authoritativeTop10": 9
+      "authoritativeTop10": 6
     },
     "entertainment": {
-      "before": 99,
-      "after": 99,
+      "before": 109,
+      "after": 109,
       "duplicates": 0,
-      "authoritativeTop10": 1
+      "authoritativeTop10": 4
     },
     "stock": {
-      "before": 192,
-      "after": 192,
-      "duplicates": 0,
+      "before": 195,
+      "after": 194,
+      "duplicates": 1,
       "authoritativeTop10": 10
     },
     "henan": {
-      "before": 15,
-      "after": 15,
+      "before": 13,
+      "after": 13,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
@@ -41,10 +41,10 @@
       "before": 38,
       "after": 38,
       "duplicates": 0,
-      "authoritativeTop10": 1
+      "authoritativeTop10": 0
     }
   },
-  "duplicateMerged": 0,
+  "duplicateMerged": 1,
   "domesticHighPoliticsTop8": 8,
   "changedArrays": {
     "generated_news_arrays.js": [
