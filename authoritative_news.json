@@ -1,8 +1,14 @@
 {
-  "updated": "2026-07-10T00:37:39.532160+08:00",
-  "updated_display": "07月10日 00:37",
-  "count": 6,
+  "updated": "2026-07-10T02:35:10.160550+08:00",
+  "updated_display": "07月10日 02:35",
+  "count": 7,
   "news": [
+    {
+      "title": "习近平总书记重要讲话激励广大科技工作者勇担使命",
+      "url": "https://www.news.cn/politics/leaders/20260710/73d4824de31640de987326fe499daa9d/c.html",
+      "source": "新华社",
+      "date": "2026-07-10"
+    },
     {
       "title": "关于科技强国建设 习近平这样强调",
       "url": "https://www.news.cn/politics/leaders/20260709/f9ed3414a7554a97801a90426623010c/c.html",
@@ -16,7 +22,7 @@
       "date": "2026-07-09"
     },
     {
-      "title": "习近平：深入排查整治各类风险隐患 抓实抓细安全生产措施落实 坚决防止重特大事故发生",
+      "title": "习近平：要全力做好人员搜救、善后安抚等工作，尽快查明事故原因并严肃追责",
       "url": "https://www.news.cn/politics/leaders/20260709/231869b2963d48a1986fff5cf933c932/c.html",
       "source": "新华社",
       "date": "2026-07-09"
