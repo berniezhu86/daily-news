@@ -65,6 +65,10 @@ LOW_QUALITY_PATTERNS = [
     "懒喵体育", "第十一人", "侧身凌空斩", "乒烧足篮排", "奥拜尔",
 ]
 
+OFFICIAL_FOOTBALL_SOURCES = [
+    "河南足球俱乐部", "中超联赛", "中国足协",
+]
+
 HIGH_POLITICS_PATTERNS = [
     "习近平", "国家主席", "中共中央总书记", "中央军委主席", "国家主席令",
     "国务院总理", "国务院常务会议", "国务院", "中共中央",
@@ -124,6 +128,20 @@ STOCK_OFFTOPIC_PATTERNS = [
     "赛场", "足球", "世界杯", "友谊赛", "冠军赛", "温网", "NBA",
     "文旅", "旅游", "游艇", "美食", "演唱会", "音乐会", "电影",
     "电视剧", "综艺", "首店", "赏荷", "登山",
+]
+
+ENTERTAINMENT_OFFTOPIC_PATTERNS = [
+    "足球", "中超", "世界杯", "F1", "赛车", "排球", "网球", "自行车",
+    "NBA", "CBA", "夏联", "球员", "体育", "省运会", "体育+", "体育文化",
+    "体育旅游", "竞彩", "人工智能大会",
+    "AI科技", "财经", "基金", "A股", "法治", "法院", "施工合同", "研学",
+    "消费补贴", "文旅消费", "旅游季", "首发经济", "边境味道", "会客厅",
+]
+
+ENTERTAINMENT_CONTEXT_PATTERNS = [
+    "电影", "电视剧", "剧集", "综艺", "音乐", "演唱会", "演员", "导演",
+    "票房", "影院", "院线", "娱乐", "微电影", "团播", "舞台剧", "纪录片",
+    "首映", "公映", "定档", "百花奖", "黑神话", "主角", "约翰·传奇",
 ]
 
 SPORTS_EVENT_PATTERNS = [
@@ -192,7 +210,10 @@ def is_authoritative(item: dict) -> bool:
 
 def is_low_quality(item: dict) -> bool:
     text = f"{item.get('source','')} {item.get('title','')} {item.get('summary','')}"
-    return has_any(text, LOW_QUALITY_PATTERNS) or has_any(item.get("title", ""), GENERIC_TITLE_PATTERNS)
+    patterns = LOW_QUALITY_PATTERNS
+    if has_any(str(item.get("source", "")), OFFICIAL_FOOTBALL_SOURCES):
+        patterns = [p for p in LOW_QUALITY_PATTERNS if p != "球迷"]
+    return has_any(text, patterns) or has_any(item.get("title", ""), GENERIC_TITLE_PATTERNS)
 
 
 def is_high_politics(item: dict) -> bool:
@@ -308,6 +329,8 @@ def item_quality(item: dict, now: datetime, state: dict, section: str) -> float:
 def section_item_allowed(item: dict, section: str) -> bool:
     text = f"{item.get('title','')} {item.get('summary','')} {item.get('source','')}"
     if section == "stock":
+        if age_hours(item, now_local()) > 168:
+            return False
         if has_any(text, STOCK_OFFTOPIC_PATTERNS) and not has_any(text, STOCK_CORE_PATTERNS):
             return False
         return has_any(text, STOCK_REQUIRED_PATTERNS)
@@ -319,6 +342,9 @@ def section_item_allowed(item: dict, section: str) -> bool:
         if age_hours(item, now_local()) > 168:
             return False
         return has_any(text, SPORTS_EVENT_PATTERNS) and has_any(str(item.get("source", "")), SPORTS_TRUSTED_SOURCES)
+    if section == "entertainment":
+        if has_any(text, ENTERTAINMENT_OFFTOPIC_PATTERNS) and not has_any(text, ENTERTAINMENT_CONTEXT_PATTERNS):
+            return False
     return True
 
 
