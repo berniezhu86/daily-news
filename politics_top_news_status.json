@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-09T06:03:00+08:00",
+  "updated_at": "2026-07-09T12:04:00+08:00",
   "window_hours": 48,
-  "window_start": "2026-07-07T06:03:00+08:00",
+  "window_start": "2026-07-07T12:04:00+08:00",
   "keywords": [
     "习近平",
     "国家主席",
@@ -17,38 +17,32 @@
     "中央军委",
     "王毅",
     "国台办",
+    "国务院台办",
     "国务院批复",
     "纳米比亚总统访华",
-    "恩代特瓦 北京",
     "国家科学技术奖励大会",
-    "科技三会",
+    "中国科协",
+    "蔡奇 中国科协",
     "防汛救灾",
-    "习近平重要指示",
     "中央组织部",
     "财政部 应急管理部 5000万元",
-    "国务院台办",
-    "民族团结进步促进法",
-    "外交部例行记者会",
-    "中美 人文交流 外交部",
-    "中东局势 外交部 军事手段",
     "疾病预防控制 十五五 规划 国务院"
   ],
-  "candidate_count": 520,
-  "inserted_count": 19,
-  "new_or_updated_count": 9,
-  "removed_expired_count": 6,
-  "skipped_old_count": 246,
-  "skipped_duplicate_count": 104,
-  "skipped_irrelevant_or_low_quality_count": 151,
-  "pool_total": 19,
+  "candidate_count": 161,
+  "inserted_count": 18,
+  "new_or_updated_count": 3,
+  "removed_expired_count": 2,
+  "skipped_old_count": 58,
+  "skipped_duplicate_count": 62,
+  "skipped_irrelevant_or_low_quality_count": 38,
+  "pool_total": 18,
   "failed_queries": [
-    "恩代特瓦 北京 initial unquoted query failed with CLI argument count error; quoted retry succeeded"
+    "首次沙盒内搜索习近平因 DNS 解析 openapi.inews.qq.com 失败；按权限流程联网执行腾讯新闻 CLI 后成功"
   ],
   "notes": [
     "仅维护 politics_top_news.json 和 politics_top_news_status.json，未修改日报 HTML 或 index.html。",
-    "腾讯新闻 CLI 在沙盒内 DNS 失败，按权限流程使用联网执行完成抓取。",
-    "当前素材池按2026-07-09 06:03 CST前48小时窗口重建，移除7月6日及更早过期素材，保留7月7日06:03后的权威素材。",
-    "新增/更新9条重点素材：习近平出席科技三会并讲话、纳米比亚总统抵京、国务院疾控十五五规划批复、财政部和应急管理部5000万元救灾资金、国台办3条涉台表态、外交部中东局势表态、外交部中美人文交流表态。",
+    "按2026-07-09 12:04 CST前48小时窗口滚动，移除7月7日12:04前过期素材。",
+    "新增/更新3条重点素材：纳米比亚总统抵京升级为新华社稿，外交部中美人文交流升级为新华社稿，新增蔡奇代表党中央出席中国科协第十一次全国代表大会第二次全体会议。",
     "李强、国务院常务会议、全国人大常委会、全国政协、中央军委方向未发现新的48小时内高优先级权威稿；地方落实、评论述评、旧稿、视频重复和低权威自媒体未入库。"
   ]
 }
