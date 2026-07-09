@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-09T07:03:26.590528+08:00",
-  "updated_display": "07月09日 07:03",
-  "count": 4,
+  "updated": "2026-07-09T08:56:11.811506+08:00",
+  "updated_display": "07月09日 08:56",
+  "count": 6,
   "news": [
     {
       "title": "学习进行时丨建设科技强国，习近平总书记这样引领推动",
@@ -22,10 +22,22 @@
       "date": "2026-07-08"
     },
     {
-      "title": "习近平总书记引领科技强国建设纪实",
-      "url": "https://www.news.cn/politics/leaders/20260707/0f3a59dfecf14853abb3bbd547f878ae/c.html",
+      "title": "四川宜宾高县4.8级地震 暂未接到人员伤亡报告",
+      "url": "https://www.news.cn/politics/20260709/ba99c375ae7b4adfad33a9ff918b33f3/c.html",
       "source": "新华社",
-      "date": "2026-07-07"
+      "date": "2026-07-09"
+    },
+    {
+      "title": "中央气象台发布台风黄色预警",
+      "url": "http://society.people.com.cn/n1/2026/0709/c1008-40756330.html",
+      "source": "人民日报",
+      "date": "2026-07-09"
+    },
+    {
+      "title": "四川宜宾市高县发生4.8级地震 震源深度6千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
+      "date": "2026-07-09"
     }
   ]
 }
