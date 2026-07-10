@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-10T10:13:39.982569+08:00",
-  "updated_display": "07月10日 10:13",
-  "count": 11,
+  "updated": "2026-07-10T12:11:46.236614+08:00",
+  "updated_display": "07月10日 12:11",
+  "count": 7,
   "news": [
     {
       "title": "习近平总书记重要讲话激励广大科技工作者勇担使命",
@@ -10,8 +10,8 @@
       "date": "2026-07-10"
     },
     {
-      "title": "习近平：深入排查整治各类风险隐患，抓实抓细安全生产措施落实，坚决防止重特大事故发生，切实维护人民群众生命财产安全",
-      "url": "http://politics.people.com.cn/n1/2026/0710/c1024-40757124.html",
+      "title": "李强会见纳米比亚总统恩代特瓦",
+      "url": "http://politics.people.com.cn/n1/2026/0710/c1024-40757125.html",
       "source": "人民日报",
       "date": "2026-07-10"
     },
@@ -34,27 +34,9 @@
       "date": "2026-07-09"
     },
     {
-      "title": "习近平：要全力做好人员搜救、善后安抚等工作，尽快查明事故原因并严肃追责",
-      "url": "https://www.news.cn/politics/leaders/20260709/231869b2963d48a1986fff5cf933c932/c.html",
-      "source": "新华社",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "李强会见纳米比亚总统恩代特瓦",
-      "url": "https://www.news.cn/politics/leaders/20260709/8e33279f1a244813a760bda15d720a13/c.html",
-      "source": "新华社",
-      "date": "2026-07-09"
-    },
-    {
       "title": "委内瑞拉地震死亡人数升至3889人",
       "url": "https://www.news.cn/20260710/7980b9b2fea94e6bb1f9a8d1bb5218c7/c.html",
       "source": "新华社",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "应急管理部派联合工作组赴晋江指导事故救援",
-      "url": "http://society.people.com.cn/n1/2026/0710/c1008-40757136.html",
-      "source": "人民日报",
       "date": "2026-07-10"
     },
     {
@@ -62,12 +44,6 @@
       "url": "http://society.people.com.cn/n1/2026/0710/c1008-40757210.html",
       "source": "人民日报",
       "date": "2026-07-10"
-    },
-    {
-      "title": "火灾已致28人死亡",
-      "url": "https://www.news.cn/local/20260709/f1f4719e55944ed998deca280e701e63/c.html",
-      "source": "新华社",
-      "date": "2026-07-09"
     }
   ]
 }
