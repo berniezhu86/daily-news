@@ -48,11 +48,11 @@ const LOW_QUALITY_KEYWORDS = [
 
 // 池 section → mock 数组映射
 const SECTION_MAP = {
-  domestic:  { main: 'mockHotNewsDomestic',      extra: 'mockHotNewsDomesticExtra',      mainN: 30, extraN: 170 },
-  international: { main: 'mockHotNewsInternational',  extra: 'mockHotNewsInternationalExtra',  mainN: 30, extraN: 170 },
-  ai:          { main: 'mockHotNewsAI',            extra: 'mockHotNewsAIExtra',            mainN: 30, extraN: 170 },
-  entertainment: { main: 'mockEntertainment',         extra: 'mockEntertainmentExtra',         mainN: 30, extraN: 170 },
-  stock:       { main: 'mockStockNews',            extra: 'mockStockNewsExtra',            mainN: 30, extraN: 170 },
+  domestic:  { main: 'mockHotNewsDomestic',      extra: 'mockHotNewsDomesticExtra',      mainN: 30, extraN: 120 },
+  international: { main: 'mockHotNewsInternational',  extra: 'mockHotNewsInternationalExtra',  mainN: 30, extraN: 120 },
+  ai:          { main: 'mockHotNewsAI',            extra: 'mockHotNewsAIExtra',            mainN: 30, extraN: 120 },
+  entertainment: { main: 'mockEntertainment',         extra: 'mockEntertainmentExtra',         mainN: 30, extraN: 100 },
+  stock:       { main: 'mockStockNews',            extra: 'mockStockNewsExtra',            mainN: 30, extraN: 120 },
   henan:       { main: 'mockHenanNews',            extra: null,                            mainN: 50, extraN: 0 },
   csl:         { main: 'mockCslOtherTeams',        extra: null,                            mainN: 50, extraN: 0 },
 };
@@ -388,8 +388,8 @@ function main() {
     });
 
     var extraArr = [];
-    if (map.extra) {
-      extraArr = poolItems.slice(mainCount).map(function(item, idx) {
+    if (map.extra && map.extraN > 0) {
+      extraArr = poolItems.slice(mainCount, mainCount + map.extraN).map(function(item, idx) {
         var mock = toMockItem(item);
         mock.rank = mainCount + idx + 1;
         return mock;
