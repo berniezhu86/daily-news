@@ -1,35 +1,41 @@
 {
-  "updated": "2026-07-10T20:02:40.527858+08:00",
-  "updated_display": "07月10日 20:02",
+  "updated": "2026-07-10T22:00:08.781553+08:00",
+  "updated_display": "07月10日 22:00",
   "count": 11,
   "news": [
     {
       "title": "习近平同纳米比亚总统恩代特瓦会谈",
-      "url": "https://www.news.cn/politics/leaders/20260710/91c1271186924aa9b8a1efa02bd6d2f5/c.html",
+      "url": "https://www.news.cn/politics/leaders/20260710/2eccdf223fa0451cb13cafa607b34d3f/c.html",
       "source": "新华社",
       "date": "2026-07-10"
     },
     {
-      "title": "习近平同恩代特瓦共同出席合作文件签字仪式",
-      "url": "https://www.news.cn/politics/leaders/20260710/d50d9ef87c7a4b0b914985215a58f292/c.html",
-      "source": "新华社",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "习近平为恩代特瓦举行欢迎仪式",
-      "url": "https://www.news.cn/politics/leaders/20260710/cea4ddf2d74943fc81783e414bbaff6f/c.html",
+      "title": "习近平就构建新时代中纳命运共同体提出3点意见",
+      "url": "https://www.news.cn/politics/leaders/20260710/2eccdf223fa0451cb13cafa607b34d3f/c.html",
       "source": "新华社",
       "date": "2026-07-10"
     },
     {
       "title": "习近平会见朝鲜内阁总理朴泰成",
-      "url": "https://www.news.cn/politics/leaders/20260710/b7e5628a14fa4aa994e6d4295aaae7ca/c.html",
+      "url": "https://www.news.cn/politics/leaders/20260710/6818efbe4c11488aa1ba4aa489d15aee/c.html",
+      "source": "新华社",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "李书磊会见“习近平新时代中国特色社会主义思想与世界”国际研讨会外方代表",
+      "url": "https://www.news.cn/politics/leaders/20260710/c1916b9fc1d248b1810454a095ff39af/c.html",
       "source": "新华社",
       "date": "2026-07-10"
     },
     {
       "title": "乌克兰总统宣布将打造国产反导系统",
       "url": "https://www.news.cn/world/20260710/8219aef661ea4572ae56d849d7baed04/c.html",
+      "source": "新华社",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "赵乐际分别会见纳米比亚总统恩代特瓦、朝鲜内阁总理朴泰成",
+      "url": "https://www.news.cn/politics/leaders/20260710/38c86210548549fb9cb5a603a7b41949/c.html",
       "source": "新华社",
       "date": "2026-07-10"
     },
@@ -58,13 +64,7 @@
       "date": "2026-07-09"
     },
     {
-      "title": "新闻人物丨纳米比亚共和国总统恩代特瓦",
-      "url": "https://www.news.cn/world/20260704/09783de34dfc4b02bedfa9d8ec972e1d/c.html",
-      "source": "新华社",
-      "date": "2026-07-04"
-    },
-    {
-      "title": "四川宜宾市高县发生3.2级地震 震源深度6千米",
+      "title": "四川宜宾市高县发生3.1级地震 震源深度5千米",
       "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
       "source": "中国地震台网",
       "date": "2026-07-10"
