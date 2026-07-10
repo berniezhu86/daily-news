@@ -1,31 +1,49 @@
 {
-  "updated": "2026-07-10T16:06:43.763270+08:00",
-  "updated_display": "07月10日 16:06",
-  "count": 4,
+  "updated": "2026-07-10T18:04:10.253411+08:00",
+  "updated_display": "07月10日 18:04",
+  "count": 7,
   "news": [
     {
-      "title": "习近平总书记重要讲话激励广大科技工作者勇担使命",
-      "url": "https://www.news.cn/politics/leaders/20260710/73d4824de31640de987326fe499daa9d/c.html",
+      "title": "习近平同纳米比亚总统恩代特瓦会谈",
+      "url": "https://www.news.cn/politics/leaders/20260710/91c1271186924aa9b8a1efa02bd6d2f5/c.html",
       "source": "新华社",
       "date": "2026-07-10"
     },
     {
-      "title": "学习贯彻习近平总书记“科技三会”重要讲话系列学习快评",
-      "url": "https://www.news.cn/politics/leaders/20260710/4231c34083f54e58b47111d103a85365/c.html",
+      "title": "习近平为纳米比亚总统恩代特瓦举行欢迎仪式",
+      "url": "https://www.news.cn/politics/leaders/20260710/cea4ddf2d74943fc81783e414bbaff6f/c.html",
       "source": "新华社",
       "date": "2026-07-10"
     },
     {
-      "title": "习近平对福建晋江一鞋厂火灾事故作出重要指示",
-      "url": "https://www.news.cn/politics/leaders/20260709/231869b2963d48a1986fff5cf933c932/c.html",
+      "title": "习近平会见朝鲜内阁总理朴泰成",
+      "url": "https://www.news.cn/politics/leaders/20260710/b7e5628a14fa4aa994e6d4295aaae7ca/c.html",
       "source": "新华社",
-      "date": "2026-07-09"
+      "date": "2026-07-10"
     },
     {
       "title": "关于科技强国建设 习近平这样强调",
       "url": "https://www.news.cn/politics/leaders/20260709/f9ed3414a7554a97801a90426623010c/c.html",
       "source": "新华社",
       "date": "2026-07-09"
+    },
+    {
+      "title": "新闻人物丨纳米比亚共和国总统恩代特瓦",
+      "url": "https://www.news.cn/world/20260704/09783de34dfc4b02bedfa9d8ec972e1d/c.html",
+      "source": "新华社",
+      "date": "2026-07-04"
+    },
+    {
+      "title": "农业农村部紧急部署做好台风“巴威”防范应对工作",
+      "url": "https://www.news.cn/politics/20260710/33f6c92037794b879d515ba6b2d6aabc/c.html",
+      "source": "新华社",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "四川宜宾市高县发生3.3级地震 震源深度5千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
+      "date": "2026-07-10"
     }
   ]
 }
