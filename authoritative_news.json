@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-10T22:00:08.781553+08:00",
-  "updated_display": "07月10日 22:00",
+  "updated": "2026-07-10T23:57:10.287143+08:00",
+  "updated_display": "07月10日 23:57",
   "count": 11,
   "news": [
     {
@@ -18,6 +18,12 @@
     {
       "title": "习近平会见朝鲜内阁总理朴泰成",
       "url": "https://www.news.cn/politics/leaders/20260710/6818efbe4c11488aa1ba4aa489d15aee/c.html",
+      "source": "新华社",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "习近平总书记激励科技工作者为建设科技强国多立新功",
+      "url": "https://www.news.cn/politics/leaders/20260710/76414c0865f64703b361c4bb55cd38b2/c.html",
       "source": "新华社",
       "date": "2026-07-10"
     },
@@ -62,12 +68,6 @@
       "url": "https://www.news.cn/politics/leaders/20260709/f9ed3414a7554a97801a90426623010c/c.html",
       "source": "新华社",
       "date": "2026-07-09"
-    },
-    {
-      "title": "四川宜宾市高县发生3.1级地震 震源深度5千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
-      "date": "2026-07-10"
     }
   ]
 }
