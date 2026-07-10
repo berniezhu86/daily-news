@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-10T14:09:09.601989+08:00",
-  "updated_display": "07月10日 14:09",
-  "count": 3,
+  "updated": "2026-07-10T16:06:43.763270+08:00",
+  "updated_display": "07月10日 16:06",
+  "count": 4,
   "news": [
     {
       "title": "习近平总书记重要讲话激励广大科技工作者勇担使命",
@@ -10,14 +10,20 @@
       "date": "2026-07-10"
     },
     {
-      "title": "关于科技强国建设 习近平这样强调",
-      "url": "https://www.news.cn/politics/leaders/20260709/f9ed3414a7554a97801a90426623010c/c.html",
+      "title": "学习贯彻习近平总书记“科技三会”重要讲话系列学习快评",
+      "url": "https://www.news.cn/politics/leaders/20260710/4231c34083f54e58b47111d103a85365/c.html",
+      "source": "新华社",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "习近平对福建晋江一鞋厂火灾事故作出重要指示",
+      "url": "https://www.news.cn/politics/leaders/20260709/231869b2963d48a1986fff5cf933c932/c.html",
       "source": "新华社",
       "date": "2026-07-09"
     },
     {
-      "title": "习近平对福建泉州晋江市一鞋厂火灾事故作出重要指示",
-      "url": "https://www.news.cn/politics/leaders/20260709/231869b2963d48a1986fff5cf933c932/c.html",
+      "title": "关于科技强国建设 习近平这样强调",
+      "url": "https://www.news.cn/politics/leaders/20260709/f9ed3414a7554a97801a90426623010c/c.html",
       "source": "新华社",
       "date": "2026-07-09"
     }
