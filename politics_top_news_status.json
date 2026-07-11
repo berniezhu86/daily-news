@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-11T12:03:00+08:00",
+  "updated_at": "2026-07-11T18:03:00+08:00",
   "window_hours": 48,
-  "window_start": "2026-07-09T12:03:00+08:00",
+  "window_start": "2026-07-09T18:03:00+08:00",
   "keywords": [
     "习近平",
     "国家主席",
@@ -22,26 +22,33 @@
     "蔡奇",
     "赵乐际",
     "王沪宁",
-    "外交部例行记者会"
+    "外交部例行记者会",
+    "中朝条约65周年",
+    "福建晋江火灾",
+    "广西救灾",
+    "台风巴威",
+    "习近平金正恩互致贺电",
+    "中朝友好合作互助条约互致贺电",
+    "李强朴泰成会谈"
   ],
-  "candidate_count": 138,
+  "candidate_count": 270,
   "inserted_count": 20,
-  "new_or_updated_count": 4,
-  "removed_expired_count": 0,
-  "removed_replaced_count": 3,
-  "skipped_old_count": 67,
-  "skipped_duplicate_count": 49,
-  "skipped_irrelevant_or_low_quality_count": 18,
+  "new_or_updated_count": 2,
+  "removed_expired_count": 1,
+  "removed_replaced_count": 1,
+  "skipped_old_count": 141,
+  "skipped_duplicate_count": 58,
+  "skipped_irrelevant_or_low_quality_count": 49,
   "pool_total": 20,
   "failed_queries": [
     "首次沙盒内搜索习近平因 DNS 解析 openapi.inews.qq.com 失败；按权限流程联网执行腾讯新闻 CLI 后成功"
   ],
   "notes": [
     "仅维护 politics_top_news.json 和 politics_top_news_status.json，未修改日报 HTML 或 index.html。",
-    "按2026-07-11 12:03 CST前48小时窗口滚动，当前无新增过期素材需要移除。",
-    "升级国务院常务会议素材为人民网转新华社版本，新增张国清广西救灾、张国清调度台风巴威防范、蔡奇出席中央层面整治形式主义为基层减负会议。",
-    "为保持20条上限，移除一条较早且与7月10日北极/NATO回应重复的外交部素材，以及哈萨克斯坦外长、所罗门群岛外长访华两条较低优先级预告。",
+    "按2026-07-11 18:03 CST前48小时窗口滚动，移除2026-07-09 18:03前过期素材。",
+    "新增习近平同金正恩就中朝条约65周年互致贺电、李强同朝鲜内阁总理朴泰成会谈两条高层外交素材。",
+    "为保持20条上限，移除一条已过期外交部素材，并替换一条较弱的地方事故调查组素材；保留习近平重要指示作为晋江火灾高层主素材。",
     "全国人大常委会、全国政协、中央军委方向已交叉检索；除池内赵乐际、王沪宁、国防部相关权威稿外，未发现新的48小时内更高优先级入库项。",
-    "剔除评论述评、地方活动、历史旧稿、图片重复稿、财经炒作和与高层时政关联弱的内容。"
+    "剔除地方防台停航、救援花絮、评论述评、财经炒作、低质量自媒体、旧稿和与高层时政关联弱的内容。"
   ]
 }
