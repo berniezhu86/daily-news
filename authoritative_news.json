@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-12T01:33:42.876706+08:00",
-  "updated_display": "07月12日 01:33",
-  "count": 8,
+  "updated": "2026-07-12T03:29:44.150798+08:00",
+  "updated_display": "07月12日 03:29",
+  "count": 7,
   "news": [
     {
       "title": "习近平同金正恩就《中朝友好合作互助条约》签订65周年互致贺电",
@@ -44,12 +44,6 @@
       "url": "https://www.news.cn/politics/leaders/20260710/6818efbe4c11488aa1ba4aa489d15aee/c.html",
       "source": "新华社",
       "date": "2026-07-10"
-    },
-    {
-      "title": "新疆阿克苏地区拜城县发生4.2级地震 震源深度10千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
-      "date": "2026-07-11"
     }
   ]
 }
