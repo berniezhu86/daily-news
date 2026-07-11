@@ -155,31 +155,59 @@ def get_thepaper():
 
 # ---------- 数据源 B：新华网「社会」+「国际」----------
 def _parse_xh_page(url):
+    """按『同一图集 folder id』配对 h3 标题 / 链接 / 主图，杜绝图文错位。
+
+    新华图库每个条目是 <div class="product_list">，内部 <h3> 链接与 <img> 共用
+    同一个图集 ID（如 f6ecaff80c004eabaa7627bf17294af7），但 DOM 中 h3 与 img
+    的相对前后顺序不固定。因此先分别收集『标题表』和『主图表』，再用 folder id
+    关联，保证 title / url / img 同属一个图集。
+    """
     h = fetch_text(url)
     if not h:
         return []
-    res = []
+    # 1) 标题表：folder id -> {title, url, date}
+    entries = {}
     for m in re.finditer(
-            r'<img\s+src="(20\d{6}/[^"]+\.(?:JPG|jpg|jpeg|png))"', h):
+            r'<h3>\s*<a\s+href="/(?:photo/)?(\d{8})/([0-9a-z]+)/c\.html"[^>]*>(.*?)</a>\s*</h3>',
+            h, re.S):
+        date8, fid, title = m.group(1), m.group(2), m.group(3)
+        title = HTMLLIB.unescape(re.sub(r"<[^>]+>", "", title)).strip()
+        entries[fid] = {
+            "title": title,
+            "url": "https://www.news.cn/photo/%s/%s/c.html" % (date8, fid),
+            "date": date8,
+        }
+    # 2) 主图表：folder id -> img_url（跳过 icon 等小图标）
+    imgs = {}
+    for m in re.finditer(
+            r'<img\s+src="((?:\d{8}/)?[0-9a-z]+/[0-9a-z]+_[^"]+\.(?:JPG|jpg|jpeg|png))"',
+            h):
+        src = m.group(1)
+        if "icon" in src.lower():
+            continue
+        fm = re.search(r'/([0-9a-z]{16,})/', src) or re.search(r'^([0-9a-z]{16,})/', src)
+        if not fm:
+            continue
+        fid = fm.group(1)
+        if fid in imgs:
+            continue
+        imgs[fid] = src if src.startswith("http") else XHUA_IMG + src.lstrip("/")
+    # 3) 按 folder id 配对
+    res = []
+    for fid, e in entries.items():
+        if fid not in imgs:
+            continue
+        if is_sensitive(e["title"]):
+            continue
+        res.append({
+            "title": e["title"],
+            "url": e["url"],
+            "img": imgs[fid],
+            "timeAgo": fmt_date(e["date"]),
+        })
         if len(res) >= XH_PER:
             break
-        img = XHUA_IMG + m.group(1)
-        seg = h[m.start(): m.start() + 2000]
-        tm = re.search(r"<h3>(.*?)</h3>", seg, re.S)
-        if not tm:
-            continue
-        title = HTMLLIB.unescape(re.sub(r"<[^>]+>", "", tm.group(1))).strip()
-        if not title or is_sensitive(title):
-            continue
-        lm = re.search(r'href="(/photo/[^"]+?/c\.html)"', seg)
-        link = ("https://www.news.cn" + lm.group(1)) if lm else ""
-        date = m.group(1)[:8]
-        res.append({
-            "title": title,
-            "url": link,
-            "img": img,
-            "timeAgo": fmt_date(date),
-        })
+    log("  新华：配对成功 %d 条" % len(res))
     return res
 
 
