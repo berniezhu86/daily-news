@@ -1,8 +1,14 @@
 {
-  "updated": "2026-07-12T05:27:19.219210+08:00",
-  "updated_display": "07月12日 05:27",
-  "count": 8,
+  "updated": "2026-07-12T07:24:43.082145+08:00",
+  "updated_display": "07月12日 07:24",
+  "count": 6,
   "news": [
+    {
+      "title": "\"习近平新时代中国特色社会主义思想与世界\"国际研讨会综述",
+      "url": "http://world.people.com.cn/n1/2026/0712/c1002-40758589.html",
+      "source": "人民日报",
+      "date": "2026-07-12"
+    },
     {
       "title": "习近平同金正恩就《中朝友好合作互助条约》签订65周年互致贺电",
       "url": "https://www.news.cn/politics/leaders/20260711/e67aa219223b42dcba74e562be9104ad/c.html",
@@ -22,18 +28,6 @@
       "date": "2026-07-11"
     },
     {
-      "title": "摩尔多瓦总统提名瓦西里·托凡为新总理",
-      "url": "https://www.news.cn/world/20260711/dfb9918b9cd34666994b32c1f3d9ea96/c.html",
-      "source": "新华社",
-      "date": "2026-07-11"
-    },
-    {
-      "title": "习近平：无论国际形势如何变化，中国党和政府高度重视中朝传统友好的坚定立场不会改变",
-      "url": "http://politics.people.com.cn/n1/2026/0711/c1024-40758454.html",
-      "source": "人民日报",
-      "date": "2026-07-11"
-    },
-    {
       "title": "习近平同纳米比亚总统恩代特瓦会谈",
       "url": "https://www.news.cn/politics/leaders/20260710/5745f2ad8d0d4c929686784b21e062bd/c.html",
       "source": "新华社",
@@ -44,12 +38,6 @@
       "url": "https://www.news.cn/politics/leaders/20260710/6818efbe4c11488aa1ba4aa489d15aee/c.html",
       "source": "新华社",
       "date": "2026-07-10"
-    },
-    {
-      "title": "内蒙古呼伦贝尔市阿荣旗发生3.8级地震 震源深度10千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
-      "date": "2026-07-12"
     }
   ]
 }
