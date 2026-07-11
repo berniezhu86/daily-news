@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T11:52:14.492408+08:00",
-  "updated_display": "07月11日 11:52",
+  "updated": "2026-07-11T13:49:18.292769+08:00",
+  "updated_display": "07月11日 13:49",
   "count": 9,
   "news": [
     {
@@ -13,12 +13,6 @@
       "title": "习近平：65年来，双方秉持条约精神，相互支持、团结协作、并肩奋斗，生动诠释了中朝关系世代友好、命运与共、守望相助的鲜明特征",
       "url": "https://www.news.cn/politics/leaders/20260711/e67aa219223b42dcba74e562be9104ad/c.html",
       "source": "新华社",
-      "date": "2026-07-11"
-    },
-    {
-      "title": "习近平：无论国际形势如何变化，中国党和政府高度重视中朝传统友好的坚定立场不会改变",
-      "url": "http://politics.people.com.cn/n1/2026/0711/c1024-40758454.html",
-      "source": "人民日报",
       "date": "2026-07-11"
     },
     {
@@ -46,14 +40,20 @@
       "date": "2026-07-10"
     },
     {
-      "title": "四川乐山马边县发生暴雨灾情 暂未有人员伤亡报告",
-      "url": "https://www.news.cn/20260711/6cd18717585c42eba3bbad636a49863a/c.html",
+      "title": "中央气象台发布暴雨红色预警",
+      "url": "https://www.news.cn/politics/20260711/f8ad3b7005ef42a0842d727f090b0deb/c.html",
       "source": "新华社",
       "date": "2026-07-11"
     },
     {
-      "title": "委内瑞拉地震死亡人数升至4118人",
-      "url": "https://www.news.cn/20260711/8b5d4c798cf74fb48f3931a54f6499a7/c.html",
+      "title": "中央气象台升级发布暴雨红色预警",
+      "url": "https://www.news.cn/politics/20260711/f8ad3b7005ef42a0842d727f090b0deb/c.html",
+      "source": "新华社",
+      "date": "2026-07-11"
+    },
+    {
+      "title": "四川乐山马边县发生暴雨灾情 暂未有人员伤亡报告",
+      "url": "https://www.news.cn/20260711/6cd18717585c42eba3bbad636a49863a/c.html",
       "source": "新华社",
       "date": "2026-07-11"
     }
