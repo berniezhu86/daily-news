@@ -3781,18 +3781,6 @@
     },
     {
       "section": "international",
-      "title": "国际新闻早知道丨伊朗否认要求与美继续谈判 霍尔木兹海峡通航量继续下降",
-      "source": "央视新闻",
-      "summary": "○特朗普：美方已同意继续和伊朗谈判○伊朗外交部：从未提出与美谈判诉求 同意调解方访伊○以色列被曝在美要求下限制在黎军事行动○泽连斯基宣布成立乌军远程打击司令部 将打造国产反导系统○国际能源署：全球石油需求开始“复苏”○欧盟未就第21轮对俄制裁达成一致○英国高温天数破纪录 西欧遭遇最热6月特朗普...",
-      "url": "https://view.inews.qq.com/a/20260711A02A2300?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月11日 6:17",
-      "time": "7月11日 6:17",
-      "collectedAt": "2026-07-11T04:56:21.424Z",
-      "rank": 5
-    },
-    {
-      "section": "international",
       "title": "【特稿】美国追加对伊朗制裁　多方力促重返谈判",
       "source": "新华社新闻",
       "summary": "美国追加对伊朗制裁 多方力促重返谈判 刘曦 美国财政部10日宣布，在伊朗日前袭击通过霍尔木兹海峡的商船后，美方决定对伊朗实施新一轮制裁。伊朗伊斯兰议会议长卡利巴夫同一天表示，若美方背弃上月达成的谅解备忘录，伊方已做好“全面防御”准备。",
@@ -3801,7 +3789,7 @@
       "publishedAt": "7月11日 15:11",
       "time": "7月11日 15:11",
       "collectedAt": "2026-07-11T10:56:10.377Z",
-      "rank": 6
+      "rank": 5
     },
     {
       "section": "international",
@@ -3813,7 +3801,7 @@
       "publishedAt": "7月11日 15:03",
       "time": "7月11日 15:03",
       "collectedAt": "2026-07-11T10:56:10.377Z",
-      "rank": 7
+      "rank": 6
     },
     {
       "section": "international",
@@ -3825,7 +3813,43 @@
       "publishedAt": "7月11日 14:01",
       "time": "7月11日 14:01",
       "collectedAt": "2026-07-11T10:56:10.377Z",
+      "rank": 7
+    },
+    {
+      "section": "international",
+      "title": "国际新闻早知道丨伊朗否认要求与美继续谈判 霍尔木兹海峡通航量继续下降",
+      "source": "央视新闻",
+      "summary": "○特朗普：美方已同意继续和伊朗谈判○伊朗外交部：从未提出与美谈判诉求 同意调解方访伊○以色列被曝在美要求下限制在黎军事行动○泽连斯基宣布成立乌军远程打击司令部 将打造国产反导系统○国际能源署：全球石油需求开始“复苏”○欧盟未就第21轮对俄制裁达成一致○英国高温天数破纪录 西欧遭遇最热6月特朗普...",
+      "url": "https://view.inews.qq.com/a/20260711A02A2300?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月11日 6:17",
+      "time": "7月11日 6:17",
+      "collectedAt": "2026-07-11T04:56:21.424Z",
       "rank": 8
+    },
+    {
+      "section": "international",
+      "title": "美官员称外交努力仍在进行 如有必要将继续打击伊朗",
+      "source": "央视新闻",
+      "summary": "当地时间9日，据美国方面消息，一名美国官员表示，目前美伊冲突背后仍有外交努力在进行，以缓和紧张局势。该官员称，美国一直在有意进行打击后暂停，以避免局势升级，并给外交留下空间，同时保留目标清单作为筹码。",
+      "url": "https://view.inews.qq.com/a/20260710A029XE00?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月10日 7:07",
+      "time": "7月10日 7:07",
+      "collectedAt": "2026-07-11T04:56:21.424Z",
+      "rank": 9
+    },
+    {
+      "section": "international",
+      "title": "不该遭受这种对待",
+      "source": "央视新闻",
+      "summary": "当地时间8日，美国得克萨斯州休斯敦市爆发大规模抗议，上千名示威者走上街头，谴责美国移民与海关执法局特工7日在执法行动中枪杀一名墨西哥籍男子，要求政府展开独立、透明的调查。继8日上千名民众上街游行抗议后，9日，美国休斯敦市部分居民继续前...",
+      "url": "https://view.inews.qq.com/a/20260710A086M200?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月10日 15:38",
+      "time": "7月10日 15:38",
+      "collectedAt": "2026-07-11T10:56:10.377Z",
+      "rank": 10
     },
     {
       "section": "international",
@@ -3837,7 +3861,7 @@
       "publishedAt": "7月10日 20:12",
       "time": "7月10日 20:12",
       "collectedAt": "2026-07-10T22:55:48.163Z",
-      "rank": 9
+      "rank": 11
     },
     {
       "section": "international",
@@ -3853,7 +3877,7 @@
       "team": "",
       "rawTitle": "国际新闻早知道丨美官员称美伊将于30日会谈 普京称考虑全面禁止柴油出口",
       "rawSummary": "○美伊将于30日在卡塔尔会谈○伊朗外长：管理和恢复霍尔木兹海峡交通是伊朗的责任○普京称考虑全面禁止柴油出口○委内瑞拉强震遇难人数升至1450人○德国连续三天刷新本国最高气温纪录美官员称美伊30日将在卡塔尔会谈伊朗外长：管理霍尔木兹海峡仅由伊方负责 ○美官员：美伊计划于30日在卡塔尔首都举行会谈总台",
-      "rank": 10
+      "rank": 12
     },
     {
       "section": "international",
@@ -3865,7 +3889,7 @@
       "publishedAt": "7月10日 18:48",
       "time": "7月10日 18:48",
       "collectedAt": "2026-07-10T22:55:48.163Z",
-      "rank": 11
+      "rank": 13
     },
     {
       "section": "international",
@@ -3877,7 +3901,7 @@
       "publishedAt": "7月11日 5:30",
       "time": "7月11日 5:30",
       "collectedAt": "2026-07-10T22:55:48.163Z",
-      "rank": 12,
+      "rank": 14,
       "badge": "rising"
     },
     {
@@ -3890,20 +3914,32 @@
       "publishedAt": "7月11日 5:26",
       "time": "7月11日 5:26",
       "collectedAt": "2026-07-10T22:55:48.163Z",
-      "rank": 13,
+      "rank": 15,
       "badge": "rising"
     },
     {
       "section": "international",
-      "title": "美官员称外交努力仍在进行 如有必要将继续打击伊朗",
-      "source": "央视新闻",
-      "summary": "当地时间9日，据美国方面消息，一名美国官员表示，目前美伊冲突背后仍有外交努力在进行，以缓和紧张局势。该官员称，美国一直在有意进行打击后暂停，以避免局势升级，并给外交留下空间，同时保留目标清单作为筹码。",
-      "url": "https://view.inews.qq.com/a/20260710A029XE00?scene=news-skill",
+      "title": "乌克兰成美国新型武器试验场",
+      "source": "参考消息",
+      "summary": "参考消息网7月11日报道 据俄罗斯“皇城”电视台网站7月5日报道，近期，乌克兰使用美国先进技术的情况激增。乌克兰无人机操作员已开始通过平板电脑和智能手机，实时接收美国卫星的图像。",
+      "url": "https://view.inews.qq.com/a/20260711A062RM00?scene=news-skill",
       "heat": 10,
-      "publishedAt": "7月10日 7:07",
-      "time": "7月10日 7:07",
-      "collectedAt": "2026-07-11T04:56:21.424Z",
-      "rank": 14
+      "publishedAt": "7月11日 14:31",
+      "time": "7月11日 14:31",
+      "collectedAt": "2026-07-11T10:56:10.377Z",
+      "rank": 16
+    },
+    {
+      "section": "international",
+      "title": "因凡蒂诺或遭国际奥委会调查",
+      "source": "参考消息",
+      "summary": "参考消息网7月11日报道 据新加坡《联合早报》网站7月8日报道，在国际足联破例允许在前一场世界杯比赛中领到红牌的美国队前锋巴洛贡继续出战16强赛后，几十名欧洲议会议员联合发起行动，准备在欧洲议会上对国际足联主席因凡蒂诺展开正式调查。",
+      "url": "https://view.inews.qq.com/a/20260711A05V1Z00?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月11日 14:05",
+      "time": "7月11日 14:05",
+      "collectedAt": "2026-07-11T10:56:10.377Z",
+      "rank": 17
     },
     {
       "section": "international",
@@ -3915,7 +3951,7 @@
       "publishedAt": "7月9日 9:34",
       "time": "7月9日 9:34",
       "collectedAt": "2026-07-10T22:55:48.163Z",
-      "rank": 15
+      "rank": 18
     },
     {
       "section": "international",
@@ -3931,7 +3967,7 @@
       "team": "",
       "rawTitle": "全球媒体聚焦 | 欧洲天然气库存创15年新低",
       "rawSummary": "英国《金融时报》6月29日刊发的文章说，欧洲即将以至少15年来的最低天然气储存水平进入供暖季，这可能导致今年冬天企业和家庭的能源价格上涨。文章援引咨询公司伍德麦肯兹的预测称，欧盟的储存设施在关键的天然气补库季（通常为4月至10月）结束时，库存水平可能仅为76%。",
-      "rank": 16
+      "rank": 19
     },
     {
       "section": "international",
@@ -3947,7 +3983,7 @@
       "team": "",
       "rawTitle": "【观天下】热浪笼罩欧洲　高温或对经济造成三重影响",
       "rawSummary": "热浪笼罩欧洲 高温或对经济造成三重影响 胡若愚 热浪28日从西欧地区向中东欧地区扩散，德国、捷克、波兰等国出现创纪录高温。法新社估计，至少1.91亿人当天被超过35摄氏度的热浪笼罩。",
-      "rank": 17
+      "rank": 20
     },
     {
       "section": "international",
@@ -3963,7 +3999,7 @@
       "team": "",
       "rawTitle": "全球媒体聚焦 | “蓄热”住宅令英法民众难耐酷暑",
       "rawSummary": "欧洲多地再现新一轮热浪，英法等国接连打破高温纪录。频繁的热浪不仅带来健康风险，也令欧洲多国在社会、经济等多方面承压，其暴露出的问题持续引发外媒关注。",
-      "rank": 18
+      "rank": 21
     },
     {
       "section": "international",
@@ -3979,7 +4015,7 @@
       "team": "",
       "rawTitle": "经济热点问答｜霍尔木兹海峡风波再起　国际油价走向何方",
       "rawSummary": "伦敦6月29日电 经济热点问答｜霍尔木兹海峡风波再起 国际油价走向何方 新华社记者高文成 美国和伊朗本月早些时候达成谅解备忘录后，霍尔木兹海峡航运逐步恢复，但近日双方围绕海峡通航问题再起军事摩擦，导致原本已快速回落至接近冲突前水平的国际油价再次上涨。",
-      "rank": 19
+      "rank": 22
     },
     {
       "section": "international",
@@ -3995,7 +4031,7 @@
       "team": "",
       "rawTitle": "超40℃！欧洲“炙烤模式”持续 中国空调成了抢手货",
       "rawSummary": "近日，欧洲多地遭遇持续高温天气，多地打破高温纪录，发布高温预警。高温天气下，中国制造的移动空调、电扇等纳凉产品销量激增，甚至“一机难求”。",
-      "rank": 20
+      "rank": 23
     },
     {
       "section": "international",
@@ -4011,7 +4047,7 @@
       "team": "",
       "rawTitle": "【特稿】欧洲热浪向东蔓延　多国频创高温纪录",
       "rawSummary": "欧洲热浪向东蔓延 多国频创高温纪录 王一帆 近日席卷欧洲西部的热浪正逐渐向中欧、北欧、东欧等地区蔓延。捷克、德国和丹麦27日均刷新本国有记录气象数据以来最高温纪录，瑞士多地也创下六月最高温纪录。",
-      "rank": 21
+      "rank": 24
     },
     {
       "section": "international",
@@ -4023,7 +4059,7 @@
       "publishedAt": "7月10日 23:26",
       "time": "7月10日 23:26",
       "collectedAt": "2026-07-10T22:55:48.163Z",
-      "rank": 22
+      "rank": 25
     },
     {
       "section": "international",
@@ -4035,7 +4071,7 @@
       "publishedAt": "7月10日 22:56",
       "time": "7月10日 22:56",
       "collectedAt": "2026-07-10T22:55:48.163Z",
-      "rank": 23,
+      "rank": 26,
       "badge": "rising"
     },
     {
@@ -4048,7 +4084,7 @@
       "publishedAt": "7月10日 22:56",
       "time": "7月10日 22:56",
       "collectedAt": "2026-07-10T22:55:48.163Z",
-      "rank": 24
+      "rank": 27
     },
     {
       "section": "international",
@@ -4060,7 +4096,7 @@
       "publishedAt": "7月11日 8:04",
       "time": "7月11日 8:04",
       "collectedAt": "2026-07-11T04:56:21.424Z",
-      "rank": 25
+      "rank": 28
     },
     {
       "section": "international",
@@ -4072,7 +4108,7 @@
       "publishedAt": "7月11日 7:00",
       "time": "7月11日 7:00",
       "collectedAt": "2026-07-11T04:56:21.424Z",
-      "rank": 26
+      "rank": 29
     },
     {
       "section": "international",
@@ -4084,7 +4120,7 @@
       "publishedAt": "7月10日 21:23",
       "time": "7月10日 21:23",
       "collectedAt": "2026-07-10T22:55:48.163Z",
-      "rank": 27
+      "rank": 30
     },
     {
       "section": "international",
@@ -4096,7 +4132,7 @@
       "publishedAt": "7月10日 20:46",
       "time": "7月10日 20:46",
       "collectedAt": "2026-07-10T22:55:48.163Z",
-      "rank": 28
+      "rank": 31
     },
     {
       "section": "international",
@@ -4108,7 +4144,7 @@
       "publishedAt": "7月10日 23:09",
       "time": "7月10日 23:09",
       "collectedAt": "2026-07-10T22:55:48.163Z",
-      "rank": 29
+      "rank": 32
     },
     {
       "section": "international",
@@ -4120,7 +4156,7 @@
       "publishedAt": "7月3日 23:36",
       "time": "7月3日 23:36",
       "collectedAt": "2026-07-03T22:56:20.500Z",
-      "rank": 30
+      "rank": 33
     },
     {
       "section": "international",
@@ -4132,7 +4168,7 @@
       "publishedAt": "7月3日 23:32",
       "time": "7月3日 23:32",
       "collectedAt": "2026-07-04T04:56:12.747Z",
-      "rank": 31
+      "rank": 34
     },
     {
       "section": "international",
@@ -4144,7 +4180,7 @@
       "publishedAt": "7月10日 21:44",
       "time": "7月10日 21:44",
       "collectedAt": "2026-07-10T22:55:48.163Z",
-      "rank": 32
+      "rank": 35
     },
     {
       "section": "international",
@@ -4156,7 +4192,7 @@
       "publishedAt": "7月10日 11:56",
       "time": "7月10日 11:56",
       "collectedAt": "2026-07-10T10:55:41.030Z",
-      "rank": 33
+      "rank": 36
     },
     {
       "section": "international",
@@ -4168,7 +4204,7 @@
       "publishedAt": "7月8日 9:07",
       "time": "7月8日 9:07",
       "collectedAt": "2026-07-08T04:57:58.125Z",
-      "rank": 34
+      "rank": 37
     },
     {
       "section": "international",
@@ -4180,7 +4216,7 @@
       "publishedAt": "7月8日 8:23",
       "time": "7月8日 8:23",
       "collectedAt": "2026-07-08T04:57:58.125Z",
-      "rank": 35
+      "rank": 38
     },
     {
       "section": "international",
@@ -4192,7 +4228,7 @@
       "publishedAt": "7月8日 8:03",
       "time": "7月8日 8:03",
       "collectedAt": "2026-07-08T04:57:58.125Z",
-      "rank": 36
+      "rank": 39
     },
     {
       "section": "international",
@@ -4204,7 +4240,7 @@
       "publishedAt": "7月8日 6:13",
       "time": "7月8日 6:13",
       "collectedAt": "2026-07-08T04:57:58.125Z",
-      "rank": 37
+      "rank": 40
     },
     {
       "section": "international",
@@ -4216,7 +4252,7 @@
       "publishedAt": "7月8日 0:09",
       "time": "7月8日 0:09",
       "collectedAt": "2026-07-07T22:55:47.020Z",
-      "rank": 38
+      "rank": 41
     },
     {
       "section": "international",
@@ -4228,7 +4264,7 @@
       "publishedAt": "7月7日 23:40",
       "time": "7月7日 23:40",
       "collectedAt": "2026-07-07T22:55:47.020Z",
-      "rank": 39
+      "rank": 42
     },
     {
       "section": "international",
@@ -4240,7 +4276,7 @@
       "publishedAt": "7月7日 21:29",
       "time": "7月7日 21:29",
       "collectedAt": "2026-07-07T22:55:47.020Z",
-      "rank": 40
+      "rank": 43
     },
     {
       "section": "international",
@@ -4252,7 +4288,7 @@
       "publishedAt": "7月4日 6:38",
       "time": "7月4日 6:38",
       "collectedAt": "2026-07-04T04:56:12.747Z",
-      "rank": 41,
+      "rank": 44,
       "badge": "rising"
     },
     {
@@ -4265,7 +4301,7 @@
       "publishedAt": "7月3日 23:04",
       "time": "7月3日 23:04",
       "collectedAt": "2026-07-03T22:56:20.500Z",
-      "rank": 42
+      "rank": 45
     },
     {
       "section": "international",
@@ -4277,7 +4313,7 @@
       "publishedAt": "7月3日 17:27",
       "time": "7月3日 17:27",
       "collectedAt": "2026-07-03T10:56:27.056Z",
-      "rank": 43,
+      "rank": 46,
       "badge": "rising"
     },
     {
@@ -4290,7 +4326,7 @@
       "publishedAt": "7月3日 17:00",
       "time": "7月3日 17:00",
       "collectedAt": "2026-07-03T10:56:27.056Z",
-      "rank": 44
+      "rank": 47
     },
     {
       "section": "international",
@@ -4302,7 +4338,7 @@
       "publishedAt": "7月3日 16:52",
       "time": "7月3日 16:52",
       "collectedAt": "2026-07-03T10:56:27.056Z",
-      "rank": 45
+      "rank": 48
     },
     {
       "section": "international",
@@ -4314,7 +4350,7 @@
       "publishedAt": "7月3日 12:30",
       "time": "7月3日 12:30",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 46
+      "rank": 49
     },
     {
       "section": "international",
@@ -4326,7 +4362,7 @@
       "publishedAt": "7月3日 11:45",
       "time": "7月3日 11:45",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 47,
+      "rank": 50,
       "badge": "rising"
     },
     {
@@ -4339,7 +4375,7 @@
       "publishedAt": "7月3日 11:11",
       "time": "7月3日 11:11",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 48,
+      "rank": 51,
       "badge": "rising"
     },
     {
@@ -4352,7 +4388,7 @@
       "publishedAt": "7月3日 10:55",
       "time": "7月3日 10:55",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 49,
+      "rank": 52,
       "badge": "rising"
     },
     {
@@ -4365,7 +4401,7 @@
       "publishedAt": "7月3日 7:21",
       "time": "7月3日 7:21",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 50
+      "rank": 53
     },
     {
       "section": "international",
@@ -4377,7 +4413,7 @@
       "publishedAt": "7月2日 22:50",
       "time": "7月2日 22:50",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 51,
+      "rank": 54,
       "badge": "rising"
     },
     {
@@ -4390,7 +4426,7 @@
       "publishedAt": "7月2日 22:15",
       "time": "7月2日 22:15",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 52
+      "rank": 55
     },
     {
       "section": "international",
@@ -4402,7 +4438,7 @@
       "publishedAt": "7月2日 21:49",
       "time": "7月2日 21:49",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 53
+      "rank": 56
     },
     {
       "section": "international",
@@ -4414,44 +4450,8 @@
       "publishedAt": "7月2日 19:39",
       "time": "7月2日 19:39",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 54,
+      "rank": 57,
       "badge": "rising"
-    },
-    {
-      "section": "international",
-      "title": "乌克兰成美国新型武器试验场",
-      "source": "参考消息",
-      "summary": "参考消息网7月11日报道 据俄罗斯“皇城”电视台网站7月5日报道，近期，乌克兰使用美国先进技术的情况激增。乌克兰无人机操作员已开始通过平板电脑和智能手机，实时接收美国卫星的图像。",
-      "url": "https://view.inews.qq.com/a/20260711A062RM00?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月11日 14:31",
-      "time": "7月11日 14:31",
-      "collectedAt": "2026-07-11T10:56:10.377Z",
-      "rank": 55
-    },
-    {
-      "section": "international",
-      "title": "因凡蒂诺或遭国际奥委会调查",
-      "source": "参考消息",
-      "summary": "参考消息网7月11日报道 据新加坡《联合早报》网站7月8日报道，在国际足联破例允许在前一场世界杯比赛中领到红牌的美国队前锋巴洛贡继续出战16强赛后，几十名欧洲议会议员联合发起行动，准备在欧洲议会上对国际足联主席因凡蒂诺展开正式调查。",
-      "url": "https://view.inews.qq.com/a/20260711A05V1Z00?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月11日 14:05",
-      "time": "7月11日 14:05",
-      "collectedAt": "2026-07-11T10:56:10.377Z",
-      "rank": 56
-    },
-    {
-      "section": "international",
-      "title": "全球将面临石油过剩吗？",
-      "source": "参考消息",
-      "summary": "参考消息网7月10日报道 法国《回声报》网站7月6日刊登题为《全球将面临石油过剩吗》的文章，作者是奥尔唐丝·古拉尔，内容编译如下：危言耸听者错了。按照他们的说法，伊朗封锁霍尔木兹海峡本应导致石油和天然气价格飙升，而且这一飙升又将反过来扼杀全球经济。",
-      "url": "https://view.inews.qq.com/a/20260710A078DO00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月10日 15:04",
-      "time": "7月10日 15:04",
-      "collectedAt": "2026-07-10T10:55:41.030Z",
-      "rank": 57
     },
     {
       "section": "international",
@@ -4503,14 +4503,14 @@
     },
     {
       "section": "international",
-      "title": "不该遭受这种对待",
-      "source": "央视新闻",
-      "summary": "当地时间8日，美国得克萨斯州休斯敦市爆发大规模抗议，上千名示威者走上街头，谴责美国移民与海关执法局特工7日在执法行动中枪杀一名墨西哥籍男子，要求政府展开独立、透明的调查。继8日上千名民众上街游行抗议后，9日，美国休斯敦市部分居民继续前...",
-      "url": "https://view.inews.qq.com/a/20260710A086M200?scene=news-skill",
+      "title": "全球将面临石油过剩吗？",
+      "source": "参考消息",
+      "summary": "参考消息网7月10日报道 法国《回声报》网站7月6日刊登题为《全球将面临石油过剩吗》的文章，作者是奥尔唐丝·古拉尔，内容编译如下：危言耸听者错了。按照他们的说法，伊朗封锁霍尔木兹海峡本应导致石油和天然气价格飙升，而且这一飙升又将反过来扼杀全球经济。",
+      "url": "https://view.inews.qq.com/a/20260710A078DO00?scene=news-skill",
       "heat": 9,
-      "publishedAt": "7月10日 15:38",
-      "time": "7月10日 15:38",
-      "collectedAt": "2026-07-11T10:56:10.377Z",
+      "publishedAt": "7月10日 15:04",
+      "time": "7月10日 15:04",
+      "collectedAt": "2026-07-10T10:55:41.030Z",
       "rank": 62
     },
     {
@@ -5188,32 +5188,6 @@
     },
     {
       "section": "international",
-      "title": "伊朗谴责美军打击伊海事基础设施",
-      "source": "新华社新闻",
-      "summary": "伦敦7月9日电（记者高文成）伊朗代表9日在国际海事组织理事会第137届会议上发言，强烈谴责美国过去两天针对伊朗港口、沿海地区和海事基础设施实施的“军事侵略行为”。",
-      "url": "https://view.inews.qq.com/a/20260709A0C0GS00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月9日 23:28",
-      "time": "7月9日 23:28",
-      "collectedAt": "2026-07-09T22:56:01.362Z",
-      "rank": 116,
-      "badge": "rising"
-    },
-    {
-      "section": "international",
-      "title": "因凡蒂诺和国际足联陷入信任危机",
-      "source": "新华社全媒报道平台",
-      "summary": "世界杯战至八强，最引发关注的却不是比赛本身。从伊朗队因政治因素备战受阻，再到美国队巴洛贡“红牌缓期执行”令全球愕然，这届世界杯正在经历一场前所未有的舆论风暴。",
-      "url": "https://view.inews.qq.com/a/20260709A0BQ5W00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月9日 22:51",
-      "time": "7月9日 22:51",
-      "collectedAt": "2026-07-09T22:56:01.362Z",
-      "rank": 117,
-      "badge": "rising"
-    },
-    {
-      "section": "international",
       "title": "外媒：委内瑞拉地震死亡人数升至2645人",
       "source": "中国新闻网",
       "summary": "综合外媒报道，委内瑞拉全国代表大会主席豪尔赫·罗德里格斯3日在社交媒体上发布的官方统计数据显示，该国日前发生的两次强震已造成2645人死亡、12666人受伤。当地时间6月30日，搜救人员在废墟进行搜救作业。",
@@ -5222,7 +5196,7 @@
       "publishedAt": "7月4日 9:05",
       "time": "7月4日 9:05",
       "collectedAt": "2026-07-04T10:55:44.409Z",
-      "rank": 118,
+      "rank": 116,
       "badge": "rising"
     },
     {
@@ -5235,7 +5209,7 @@
       "publishedAt": "7月9日 8:09",
       "time": "7月9日 8:09",
       "collectedAt": "2026-07-09T04:56:56.783Z",
-      "rank": 119
+      "rank": 117
     },
     {
       "section": "international",
@@ -5247,7 +5221,7 @@
       "publishedAt": "7月9日 6:46",
       "time": "7月9日 6:46",
       "collectedAt": "2026-07-09T04:56:56.783Z",
-      "rank": 120
+      "rank": 118
     },
     {
       "section": "international",
@@ -5259,7 +5233,7 @@
       "publishedAt": "7月9日 6:44",
       "time": "7月9日 6:44",
       "collectedAt": "2026-07-09T04:56:56.783Z",
-      "rank": 121
+      "rank": 119
     },
     {
       "section": "international",
@@ -5271,7 +5245,7 @@
       "publishedAt": "7月8日 21:25",
       "time": "7月8日 21:25",
       "collectedAt": "2026-07-08T22:55:50.823Z",
-      "rank": 122
+      "rank": 120
     },
     {
       "section": "international",
@@ -5283,7 +5257,7 @@
       "publishedAt": "7月8日 20:29",
       "time": "7月8日 20:29",
       "collectedAt": "2026-07-08T22:55:50.823Z",
-      "rank": 123
+      "rank": 121
     },
     {
       "section": "international",
@@ -5295,7 +5269,7 @@
       "publishedAt": "7月8日 17:44",
       "time": "7月8日 17:44",
       "collectedAt": "2026-07-08T10:55:41.627Z",
-      "rank": 124
+      "rank": 122
     },
     {
       "section": "international",
@@ -5307,7 +5281,7 @@
       "publishedAt": "7月8日 15:39",
       "time": "7月8日 15:39",
       "collectedAt": "2026-07-08T10:55:41.627Z",
-      "rank": 125
+      "rank": 123
     },
     {
       "section": "international",
@@ -5319,7 +5293,7 @@
       "publishedAt": "7月8日 13:07",
       "time": "7月8日 13:07",
       "collectedAt": "2026-07-08T22:55:50.823Z",
-      "rank": 126
+      "rank": 124
     },
     {
       "section": "international",
@@ -5331,7 +5305,7 @@
       "publishedAt": "7月8日 11:31",
       "time": "7月8日 11:31",
       "collectedAt": "2026-07-08T10:55:41.627Z",
-      "rank": 127
+      "rank": 125
     },
     {
       "section": "international",
@@ -5343,7 +5317,7 @@
       "publishedAt": "7月8日 7:44",
       "time": "7月8日 7:44",
       "collectedAt": "2026-07-08T04:57:58.125Z",
-      "rank": 128
+      "rank": 126
     },
     {
       "section": "international",
@@ -5355,7 +5329,7 @@
       "publishedAt": "7月8日 6:58",
       "time": "7月8日 6:58",
       "collectedAt": "2026-07-08T04:57:58.125Z",
-      "rank": 129
+      "rank": 127
     },
     {
       "section": "international",
@@ -5367,7 +5341,7 @@
       "publishedAt": "7月7日 20:59",
       "time": "7月7日 20:59",
       "collectedAt": "2026-07-07T22:55:47.020Z",
-      "rank": 130
+      "rank": 128
     },
     {
       "section": "international",
@@ -5379,7 +5353,7 @@
       "publishedAt": "7月7日 15:37",
       "time": "7月7日 15:37",
       "collectedAt": "2026-07-07T10:56:01.655Z",
-      "rank": 131
+      "rank": 129
     },
     {
       "section": "international",
@@ -5391,7 +5365,7 @@
       "publishedAt": "7月7日 14:14",
       "time": "7月7日 14:14",
       "collectedAt": "2026-07-07T10:56:01.655Z",
-      "rank": 132
+      "rank": 130
     },
     {
       "section": "international",
@@ -5403,7 +5377,7 @@
       "publishedAt": "7月6日 23:44",
       "time": "7月6日 23:44",
       "collectedAt": "2026-07-06T22:55:49.159Z",
-      "rank": 133
+      "rank": 131
     },
     {
       "section": "international",
@@ -5415,7 +5389,7 @@
       "publishedAt": "7月6日 21:14",
       "time": "7月6日 21:14",
       "collectedAt": "2026-07-06T22:55:49.159Z",
-      "rank": 134
+      "rank": 132
     },
     {
       "section": "international",
@@ -5427,7 +5401,7 @@
       "publishedAt": "7月6日 20:04",
       "time": "7月6日 20:04",
       "collectedAt": "2026-07-06T22:55:49.159Z",
-      "rank": 135
+      "rank": 133
     },
     {
       "section": "international",
@@ -5439,7 +5413,7 @@
       "publishedAt": "7月6日 16:58",
       "time": "7月6日 16:58",
       "collectedAt": "2026-07-06T10:56:23.752Z",
-      "rank": 136
+      "rank": 134
     },
     {
       "section": "international",
@@ -5451,7 +5425,7 @@
       "publishedAt": "7月6日 7:49",
       "time": "7月6日 7:49",
       "collectedAt": "2026-07-06T10:56:23.752Z",
-      "rank": 137
+      "rank": 135
     },
     {
       "section": "international",
@@ -5463,7 +5437,7 @@
       "publishedAt": "7月6日 7:09",
       "time": "7月6日 7:09",
       "collectedAt": "2026-07-06T10:56:23.752Z",
-      "rank": 138
+      "rank": 136
     },
     {
       "section": "international",
@@ -5475,7 +5449,7 @@
       "publishedAt": "7月6日 6:53",
       "time": "7月6日 6:53",
       "collectedAt": "2026-07-06T10:56:23.752Z",
-      "rank": 139
+      "rank": 137
     },
     {
       "section": "international",
@@ -5487,7 +5461,7 @@
       "publishedAt": "7月5日 15:14",
       "time": "7月5日 15:14",
       "collectedAt": "2026-07-05T14:08:37.685Z",
-      "rank": 140
+      "rank": 138
     },
     {
       "section": "international",
@@ -5499,7 +5473,7 @@
       "publishedAt": "7月4日 20:39",
       "time": "7月4日 20:39",
       "collectedAt": "2026-07-04T22:56:03.907Z",
-      "rank": 141
+      "rank": 139
     },
     {
       "section": "international",
@@ -5511,7 +5485,7 @@
       "publishedAt": "7月4日 16:59",
       "time": "7月4日 16:59",
       "collectedAt": "2026-07-04T10:55:44.409Z",
-      "rank": 142
+      "rank": 140
     },
     {
       "section": "international",
@@ -5523,7 +5497,7 @@
       "publishedAt": "7月4日 16:03",
       "time": "7月4日 16:03",
       "collectedAt": "2026-07-04T10:55:44.409Z",
-      "rank": 143
+      "rank": 141
     },
     {
       "section": "international",
@@ -5535,7 +5509,7 @@
       "publishedAt": "7月4日 15:00",
       "time": "7月4日 15:00",
       "collectedAt": "2026-07-04T22:56:03.907Z",
-      "rank": 144
+      "rank": 142
     },
     {
       "section": "international",
@@ -5547,7 +5521,7 @@
       "publishedAt": "7月4日 14:01",
       "time": "7月4日 14:01",
       "collectedAt": "2026-07-04T10:55:44.409Z",
-      "rank": 145
+      "rank": 143
     },
     {
       "section": "international",
@@ -5559,7 +5533,7 @@
       "publishedAt": "7月4日 11:54",
       "time": "7月4日 11:54",
       "collectedAt": "2026-07-04T10:55:44.409Z",
-      "rank": 146
+      "rank": 144
     },
     {
       "section": "international",
@@ -5571,7 +5545,7 @@
       "publishedAt": "7月4日 10:02",
       "time": "7月4日 10:02",
       "collectedAt": "2026-07-04T04:56:12.747Z",
-      "rank": 147
+      "rank": 145
     },
     {
       "section": "international",
@@ -5583,7 +5557,7 @@
       "publishedAt": "7月4日 6:41",
       "time": "7月4日 6:41",
       "collectedAt": "2026-07-04T04:56:12.747Z",
-      "rank": 148
+      "rank": 146
     },
     {
       "section": "international",
@@ -5595,7 +5569,7 @@
       "publishedAt": "7月4日 6:32",
       "time": "7月4日 6:32",
       "collectedAt": "2026-07-04T04:56:12.747Z",
-      "rank": 149
+      "rank": 147
     },
     {
       "section": "international",
@@ -5607,7 +5581,7 @@
       "publishedAt": "7月4日 4:04",
       "time": "7月4日 4:04",
       "collectedAt": "2026-07-03T22:56:20.500Z",
-      "rank": 150
+      "rank": 148
     },
     {
       "section": "international",
@@ -5619,7 +5593,7 @@
       "publishedAt": "7月3日 15:53",
       "time": "7月3日 15:53",
       "collectedAt": "2026-07-03T22:56:20.500Z",
-      "rank": 151
+      "rank": 149
     },
     {
       "section": "international",
@@ -5631,7 +5605,7 @@
       "publishedAt": "7月3日 15:42",
       "time": "7月3日 15:42",
       "collectedAt": "2026-07-03T10:56:27.056Z",
-      "rank": 152
+      "rank": 150
     },
     {
       "section": "international",
@@ -5643,7 +5617,7 @@
       "publishedAt": "7月3日 15:05",
       "time": "7月3日 15:05",
       "collectedAt": "2026-07-03T10:56:27.056Z",
-      "rank": 153
+      "rank": 151
     },
     {
       "section": "international",
@@ -5655,7 +5629,7 @@
       "publishedAt": "7月3日 14:33",
       "time": "7月3日 14:33",
       "collectedAt": "2026-07-03T10:56:27.056Z",
-      "rank": 154
+      "rank": 152
     },
     {
       "section": "international",
@@ -5667,7 +5641,7 @@
       "publishedAt": "7月3日 11:03",
       "time": "7月3日 11:03",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 155
+      "rank": 153
     },
     {
       "section": "international",
@@ -5679,7 +5653,7 @@
       "publishedAt": "7月3日 9:58",
       "time": "7月3日 9:58",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 156
+      "rank": 154
     },
     {
       "section": "international",
@@ -5691,7 +5665,7 @@
       "publishedAt": "7月3日 6:53",
       "time": "7月3日 6:53",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 157
+      "rank": 155
     },
     {
       "section": "international",
@@ -5703,7 +5677,7 @@
       "publishedAt": "7月3日 6:51",
       "time": "7月3日 6:51",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 158
+      "rank": 156
     },
     {
       "section": "international",
@@ -5715,7 +5689,7 @@
       "publishedAt": "7月3日 6:41",
       "time": "7月3日 6:41",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 159
+      "rank": 157
     },
     {
       "section": "international",
@@ -5727,7 +5701,7 @@
       "publishedAt": "7月3日 6:30",
       "time": "7月3日 6:30",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 160
+      "rank": 158
     },
     {
       "section": "international",
@@ -5739,7 +5713,7 @@
       "publishedAt": "7月3日 5:44",
       "time": "7月3日 5:44",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 161
+      "rank": 159
     },
     {
       "section": "international",
@@ -5751,7 +5725,7 @@
       "publishedAt": "7月2日 17:14",
       "time": "7月2日 17:14",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 162
+      "rank": 160
     },
     {
       "section": "international",
@@ -5763,7 +5737,7 @@
       "publishedAt": "7月2日 6:45",
       "time": "7月2日 6:45",
       "collectedAt": "2026-07-03T06:33:44.003Z",
-      "rank": 163
+      "rank": 161
     },
     {
       "section": "international",
@@ -5779,7 +5753,7 @@
       "team": "",
       "rawTitle": "汇聚多国政商代表，成为重要国际平台，圣彼得堡国际经济论坛闭幕",
       "rawSummary": "6月3日至6日举办的2026年圣彼得堡国际经济论坛汇聚了来自100多个国家的代表团，商务活动框架内举行150多场会议，再次证明该论坛是讨论经济发展问题的关键国际平台之一。",
-      "rank": 164
+      "rank": 162
     },
     {
       "section": "international",
@@ -5795,7 +5769,33 @@
       "team": "",
       "rawTitle": "国际龙舟联合会总部落户香港",
       "rawSummary": "“香港国际龙舟邀请赛”6月27日起一连两天在尖东海滨举行，汇聚来自16个国家及地区的超过220支队伍，逾4500名龙舟健儿角逐21项赛事殊荣。",
-      "rank": 165
+      "rank": 163
+    },
+    {
+      "section": "international",
+      "title": "伊朗谴责美军打击伊海事基础设施",
+      "source": "新华社新闻",
+      "summary": "伦敦7月9日电（记者高文成）伊朗代表9日在国际海事组织理事会第137届会议上发言，强烈谴责美国过去两天针对伊朗港口、沿海地区和海事基础设施实施的“军事侵略行为”。",
+      "url": "https://view.inews.qq.com/a/20260709A0C0GS00?scene=news-skill",
+      "heat": 8,
+      "publishedAt": "7月9日 23:28",
+      "time": "7月9日 23:28",
+      "collectedAt": "2026-07-09T22:56:01.362Z",
+      "rank": 164,
+      "badge": "rising"
+    },
+    {
+      "section": "international",
+      "title": "因凡蒂诺和国际足联陷入信任危机",
+      "source": "新华社全媒报道平台",
+      "summary": "世界杯战至八强，最引发关注的却不是比赛本身。从伊朗队因政治因素备战受阻，再到美国队巴洛贡“红牌缓期执行”令全球愕然，这届世界杯正在经历一场前所未有的舆论风暴。",
+      "url": "https://view.inews.qq.com/a/20260709A0BQ5W00?scene=news-skill",
+      "heat": 8,
+      "publishedAt": "7月9日 22:51",
+      "time": "7月9日 22:51",
+      "collectedAt": "2026-07-09T22:56:01.362Z",
+      "rank": 165,
+      "badge": "rising"
     },
     {
       "section": "international",
@@ -6086,6 +6086,18 @@
     },
     {
       "section": "international",
+      "title": "俄罗斯尚未真正解决乌克兰的无人机威胁",
+      "source": "央广网",
+      "summary": "乌克兰近期持续对俄罗斯的炼油厂、航天通信中心、交通枢纽、后勤补给设施等目标发动无人机攻击。俄罗斯总统普京罕见承认，此类袭击已导致俄罗斯国内出现一定程度的燃油短缺。",
+      "url": "https://view.inews.qq.com/a/20260709A0AOUA00?scene=news-skill",
+      "heat": 8,
+      "publishedAt": "7月9日 20:59",
+      "time": "7月9日 20:59",
+      "collectedAt": "2026-07-11T10:56:10.377Z",
+      "rank": 189
+    },
+    {
+      "section": "international",
       "title": "日媒：中国金融科技专利领先优势明显",
       "source": "参考消息",
       "summary": "参考消息网7月9日报道 据《日本经济新闻》7月7日报道，中国已开始引领全球金融科技发展，这将决定下一代金融机构的竞争力。银行和科技公司不断推出新技术，中国金融科技专利申请数量已超过美国，成为全球领先者",
@@ -6094,7 +6106,7 @@
       "publishedAt": "7月9日 16:06",
       "time": "7月9日 16:06",
       "collectedAt": "2026-07-09T10:55:55.237Z",
-      "rank": 189
+      "rank": 190
     },
     {
       "section": "international",
@@ -6106,7 +6118,7 @@
       "publishedAt": "7月9日 13:45",
       "time": "7月9日 13:45",
       "collectedAt": "2026-07-09T10:55:55.237Z",
-      "rank": 190
+      "rank": 191
     },
     {
       "section": "international",
@@ -6118,7 +6130,7 @@
       "publishedAt": "7月9日 10:12",
       "time": "7月9日 10:12",
       "collectedAt": "2026-07-09T04:56:56.783Z",
-      "rank": 191
+      "rank": 192
     },
     {
       "section": "international",
@@ -6130,7 +6142,7 @@
       "publishedAt": "7月5日 16:54",
       "time": "7月5日 16:54",
       "collectedAt": "2026-07-05T14:08:37.685Z",
-      "rank": 192
+      "rank": 193
     },
     {
       "section": "international",
@@ -6146,7 +6158,7 @@
       "team": "",
       "rawTitle": "古巴学者：“建设性战略稳定”重塑中美关系",
       "rawSummary": "参考消息网6月29日报道 西班牙中国政策观察网站6月22日发表题为《建设性战略稳定：2026年北京峰会重塑中美关系》的文章，作者是古巴国际政策研究中心研究员爱德华多·雷加拉多·弗洛里多。文章摘编如下：美国总统特朗普5月访问中国。",
-      "rank": 193
+      "rank": 194
     },
     {
       "section": "international",
@@ -6158,7 +6170,7 @@
       "publishedAt": "7月9日 16:50",
       "time": "7月9日 16:50",
       "collectedAt": "2026-07-09T10:55:55.237Z",
-      "rank": 194,
+      "rank": 195,
       "badge": "rising"
     },
     {
@@ -6171,7 +6183,7 @@
       "publishedAt": "7月9日 16:23",
       "time": "7月9日 16:23",
       "collectedAt": "2026-07-09T10:55:55.237Z",
-      "rank": 195,
+      "rank": 196,
       "badge": "rising"
     },
     {
@@ -6184,20 +6196,8 @@
       "publishedAt": "7月9日 15:31",
       "time": "7月9日 15:31",
       "collectedAt": "2026-07-09T10:55:55.237Z",
-      "rank": 196,
+      "rank": 197,
       "badge": "rising"
-    },
-    {
-      "section": "international",
-      "title": "俄罗斯尚未真正解决乌克兰的无人机威胁",
-      "source": "央广网",
-      "summary": "乌克兰近期持续对俄罗斯的炼油厂、航天通信中心、交通枢纽、后勤补给设施等目标发动无人机攻击。俄罗斯总统普京罕见承认，此类袭击已导致俄罗斯国内出现一定程度的燃油短缺。",
-      "url": "https://view.inews.qq.com/a/20260709A0AOUA00?scene=news-skill",
-      "heat": 7,
-      "publishedAt": "7月9日 20:59",
-      "time": "7月9日 20:59",
-      "collectedAt": "2026-07-11T10:56:10.377Z",
-      "rank": 197
     },
     {
       "section": "international",
@@ -6547,130 +6547,6 @@
     },
     {
       "section": "ai",
-      "title": "北京成立人工智能等十大重点产业产教联盟  推进校企协同育人",
-      "source": "中国新闻网",
-      "summary": "中新网北京7月10日电 (记者 陈杭)10日，北京市重点产业产教联盟成立大会召开，宣布集成电路、人工智能、生物医药健康、绿色能源、高端科学仪器、商业航天、智能制造、具身智能机器人、智能网联汽车、...",
-      "url": "https://view.inews.qq.com/a/20260710A0BHBH00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月10日 21:09",
-      "time": "7月10日 21:09",
-      "collectedAt": "2026-07-10T22:55:48.364Z",
-      "rank": 26,
-      "badge": "rising"
-    },
-    {
-      "section": "ai",
-      "title": "2026年APEC数字和人工智能部长会议7月23日成都举行，我国时隔12年第三次担任APEC东道主",
-      "source": "IT之家（RSS）",
-      "summary": "工业和信息化部宣布，7月16日至24日将在四川成都举办APEC数字和人工智能部长会议及数字周相关活动。这是中国继2001、2014年后第三次担任APEC东道主，也是时隔24年再次主办电信部长会议。",
-      "url": "https://www.ithome.com/0/975/119.htm",
-      "heat": 9,
-      "publishedAt": "7月10日 16:16",
-      "time": "7月10日 16:16",
-      "collectedAt": "2026-07-10T10:55:41.236Z",
-      "rank": 27
-    },
-    {
-      "section": "ai",
-      "title": "特斯拉Cybercab又曝新硬件：搭载双频GPS 支撑L4自动驾驶",
-      "source": "驱动之家",
-      "summary": "快科技7月10日消息，notateslaapp今日发布博文称，特斯拉为提升无人驾驶出租车Cybercab的定位精度与冗余能力，将为其配备双频GPS方案。据悉，为支撑SAE Level 4自动驾驶能力，特斯拉为这款无人驾驶出租车提供双频GPS定位。",
-      "url": "https://view.inews.qq.com/a/20260710A087YT00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月10日 16:15",
-      "time": "7月10日 16:15",
-      "collectedAt": "2026-07-10T10:55:41.236Z",
-      "rank": 28
-    },
-    {
-      "section": "ai",
-      "title": "华为云Stack x openJiuwen：重新定义生产级AI Agent的政企落地路径",
-      "source": "环球网",
-      "summary": "当AI Agent不再是单打独斗的“聊天机器人”，而是一支能够自主分工、动态协商、持续进化的“数字军团”，企业智能化的想象空间将被彻底打开。openJiuwen作为面向生产级应用的开源AI Agent平台，围绕多智能体协同与群体智能方向，持续进行技术探索与生态建设。",
-      "url": "https://view.inews.qq.com/a/20260710A07SMD00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月10日 15:43",
-      "time": "7月10日 15:43",
-      "collectedAt": "2026-07-10T10:55:41.236Z",
-      "rank": 29
-    },
-    {
-      "section": "ai",
-      "title": "Apple 起诉 OpenAI 窃取商业机密",
-      "source": "TechCrunch：AI（RSS）",
-      "summary": "Apple 于周五向美国加州北区联邦法院提起诉讼，指控 OpenAI 窃取商业机密并违反合同。诉状称，OpenAI 高级领导层（包括首席硬件官 Tang Tan）指使前 Apple 员工在招聘过...",
-      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft",
-      "heat": 9,
-      "publishedAt": "7月11日 4:32",
-      "time": "7月11日 4:32",
-      "collectedAt": "2026-07-10T22:55:48.364Z",
-      "rank": 30
-    },
-    {
-      "section": "ai",
-      "title": "Kyutai 发布 MuScriptor：用于多乐器自动音乐转录的开源解码器专用 Transformer 模型",
-      "source": "MarkTechPost（RSS）",
-      "summary": "Kyutai 与 Mirelo 团队发布 MuScriptor，一款用于多乐器自动音乐转录（AMT）的开放权重解码器专用 Transformer 模型。它将音频转录建模为语言建模任务，采用 MT...",
-      "url": "https://www.marktechpost.com/2026/07/10/kyutai-releases-muscriptor-an-open-weight-decoder-only-transformer-for-multi-instrument-music-transcription-to-midi",
-      "heat": 9,
-      "publishedAt": "7月11日 4:21",
-      "time": "7月11日 4:21",
-      "collectedAt": "2026-07-10T22:55:48.364Z",
-      "rank": 31
-    },
-    {
-      "section": "ai",
-      "title": "OpenAI 论文：GPT-5.6 Sol Ultra 证明图论\"循环双覆盖猜想\"",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "summary": "OpenAI 发布论文，称 GPT-5.6 Sol Ultra 证明了图论中悬而未决的\"循环双覆盖猜想\"。该猜想断言每个无桥无向图都存在一组环，每条边恰好被覆盖两次。",
-      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
-      "heat": 9,
-      "publishedAt": "7月11日 3:59",
-      "time": "7月11日 3:59",
-      "collectedAt": "2026-07-10T22:55:48.364Z",
-      "rank": 32
-    },
-    {
-      "section": "ai",
-      "title": "财经聚焦|从“技术可用”到“商业可赚” AI智能体加速落地",
-      "source": "新华社新闻",
-      "summary": "题：从“技术可用”到“商业可赚” AI智能体加速落地 新华社记者张骁 今年以来，国内AI智能体不再局限于技术展示和辅助工作，加快走进实体产业与大众生活，开启规模化落地之路。",
-      "url": "https://view.inews.qq.com/a/20260710A08X7N00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月10日 17:12",
-      "time": "7月10日 17:12",
-      "collectedAt": "2026-07-10T10:55:41.236Z",
-      "rank": 33,
-      "badge": "rising"
-    },
-    {
-      "section": "ai",
-      "title": "AI周期走到“加时赛”，值得关注的四个资本开支泡沫预警信号",
-      "source": "第一财经",
-      "summary": "本周，三星电子二季度营业利润同比暴增约18倍、创下历史新高，当日股价却收跌近7%。分析认为，这显示出投资者的关注焦点已从业绩转向了人工智能（AI）基础设施的巨额投资能否足够快地产生回报、这轮热潮又能持续多久。",
-      "url": "https://view.inews.qq.com/a/20260710A08KTP00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月10日 16:43",
-      "time": "7月10日 16:43",
-      "collectedAt": "2026-07-10T10:55:41.236Z",
-      "rank": 34,
-      "badge": "rising"
-    },
-    {
-      "section": "ai",
-      "title": "OpenAI上线ChatGPT Work，企业级人工智能体竞争升级",
-      "source": "财联社",
-      "summary": "财联社7月10日讯（实习编辑 杨舒雯/编辑 齐灵）本周四，OpenAI推出一款全新的人工智能智能体——ChatGPT Work，由最先进的人工智能模型GPT-5.6提供支持。OpenAI表示，智能助手ChatGPT Work结合了其广受欢迎的聊天机器人和人工智能编码工具Codex，能够创建文档...",
-      "url": "https://view.inews.qq.com/a/20260710A089VG00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月10日 16:20",
-      "time": "7月10日 16:20",
-      "collectedAt": "2026-07-10T10:55:41.236Z",
-      "rank": 35,
-      "badge": "rising"
-    },
-    {
-      "section": "ai",
       "title": "当情感陪伴机器人投入量产时，欧洲正在为空调争吵 | 文化周报",
       "source": "界面新闻",
       "summary": "记者 李欣媛界面新闻编辑 | 李欣媛“文化周报”继续向你汇总呈现最近国内外文艺圈、出版界、书店业值得了解的大事小情。本周日，我们关注优必选推出的全球首款情感陪伴机器人；欧洲热浪引发关于空调的文化战争；第一座AI艺术博物馆开幕。",
@@ -6679,7 +6555,7 @@
       "publishedAt": "7月5日 11:04",
       "time": "7月5日 11:04",
       "collectedAt": "2026-07-05T14:08:37.845Z",
-      "rank": 36
+      "rank": 26
     },
     {
       "section": "ai",
@@ -6691,7 +6567,7 @@
       "publishedAt": "7月4日 9:17",
       "time": "7月4日 9:17",
       "collectedAt": "2026-07-04T04:56:12.909Z",
-      "rank": 37,
+      "rank": 27,
       "badge": "rising"
     },
     {
@@ -6704,7 +6580,7 @@
       "publishedAt": "7月3日 22:56",
       "time": "7月3日 22:56",
       "collectedAt": "2026-07-03T22:56:20.657Z",
-      "rank": 38
+      "rank": 28
     },
     {
       "section": "ai",
@@ -6716,31 +6592,131 @@
       "publishedAt": "7月2日 11:27",
       "time": "7月2日 11:27",
       "collectedAt": "2026-07-03T06:33:44.077Z",
-      "rank": 39
+      "rank": 29
     },
     {
       "section": "ai",
-      "title": "具身智能业务毛利率仅10.7%，上市后珞石机器人能讲好新故事吗？",
-      "source": "尺度商业",
-      "summary": "文 | 董武英 近年来，随着人形机器人行业持续火热，一众工业机器人公司开始布局这个领域，并开始冲刺IPO，奔向资本市场。近日刚刚港股上市的珞石机器人即是其中之一。",
-      "url": "https://view.inews.qq.com/a/20260710A08PV300?scene=news-skill",
+      "title": "北京成立人工智能等十大重点产业产教联盟  推进校企协同育人",
+      "source": "中国新闻网",
+      "summary": "中新网北京7月10日电 (记者 陈杭)10日，北京市重点产业产教联盟成立大会召开，宣布集成电路、人工智能、生物医药健康、绿色能源、高端科学仪器、商业航天、智能制造、具身智能机器人、智能网联汽车、...",
+      "url": "https://view.inews.qq.com/a/20260710A0BHBH00?scene=news-skill",
       "heat": 9,
-      "publishedAt": "7月10日 16:52",
-      "time": "7月10日 16:52",
-      "collectedAt": "2026-07-10T10:55:41.236Z",
-      "rank": 40
+      "publishedAt": "7月10日 21:09",
+      "time": "7月10日 21:09",
+      "collectedAt": "2026-07-10T22:55:48.364Z",
+      "rank": 30,
+      "badge": "rising"
     },
     {
       "section": "ai",
-      "title": "小米9款音箱及智能家庭屏已内置超级小爱，支持跨端多指令语控",
+      "title": "2026年APEC数字和人工智能部长会议7月23日成都举行，我国时隔12年第三次担任APEC东道主",
       "source": "IT之家（RSS）",
-      "summary": "小米宣布9款音箱及智能家庭屏设备已内置超级小爱，支持AI大模型问答、多轮连续对话与拟人语气、跨端多指令语控（一句话控车、控家、查信息），以及家中设备问答和语音创建智能场景。此外，超级小爱已接入微信A2A助手能力，支持一句话给微信好友发消息、打电话。",
-      "url": "https://www.ithome.com/0/975/166.htm",
+      "summary": "工业和信息化部宣布，7月16日至24日将在四川成都举办APEC数字和人工智能部长会议及数字周相关活动。这是中国继2001、2014年后第三次担任APEC东道主，也是时隔24年再次主办电信部长会议。",
+      "url": "https://www.ithome.com/0/975/119.htm",
       "heat": 9,
-      "publishedAt": "7月10日 16:39",
-      "time": "7月10日 16:39",
+      "publishedAt": "7月10日 16:16",
+      "time": "7月10日 16:16",
       "collectedAt": "2026-07-10T10:55:41.236Z",
-      "rank": 41
+      "rank": 31
+    },
+    {
+      "section": "ai",
+      "title": "特斯拉Cybercab又曝新硬件：搭载双频GPS 支撑L4自动驾驶",
+      "source": "驱动之家",
+      "summary": "快科技7月10日消息，notateslaapp今日发布博文称，特斯拉为提升无人驾驶出租车Cybercab的定位精度与冗余能力，将为其配备双频GPS方案。据悉，为支撑SAE Level 4自动驾驶能力，特斯拉为这款无人驾驶出租车提供双频GPS定位。",
+      "url": "https://view.inews.qq.com/a/20260710A087YT00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 16:15",
+      "time": "7月10日 16:15",
+      "collectedAt": "2026-07-10T10:55:41.236Z",
+      "rank": 32
+    },
+    {
+      "section": "ai",
+      "title": "华为云Stack x openJiuwen：重新定义生产级AI Agent的政企落地路径",
+      "source": "环球网",
+      "summary": "当AI Agent不再是单打独斗的“聊天机器人”，而是一支能够自主分工、动态协商、持续进化的“数字军团”，企业智能化的想象空间将被彻底打开。openJiuwen作为面向生产级应用的开源AI Agent平台，围绕多智能体协同与群体智能方向，持续进行技术探索与生态建设。",
+      "url": "https://view.inews.qq.com/a/20260710A07SMD00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 15:43",
+      "time": "7月10日 15:43",
+      "collectedAt": "2026-07-10T10:55:41.236Z",
+      "rank": 33
+    },
+    {
+      "section": "ai",
+      "title": "Apple 起诉 OpenAI 窃取商业机密",
+      "source": "TechCrunch：AI（RSS）",
+      "summary": "Apple 于周五向美国加州北区联邦法院提起诉讼，指控 OpenAI 窃取商业机密并违反合同。诉状称，OpenAI 高级领导层（包括首席硬件官 Tang Tan）指使前 Apple 员工在招聘过...",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft",
+      "heat": 9,
+      "publishedAt": "7月11日 4:32",
+      "time": "7月11日 4:32",
+      "collectedAt": "2026-07-10T22:55:48.364Z",
+      "rank": 34
+    },
+    {
+      "section": "ai",
+      "title": "Kyutai 发布 MuScriptor：用于多乐器自动音乐转录的开源解码器专用 Transformer 模型",
+      "source": "MarkTechPost（RSS）",
+      "summary": "Kyutai 与 Mirelo 团队发布 MuScriptor，一款用于多乐器自动音乐转录（AMT）的开放权重解码器专用 Transformer 模型。它将音频转录建模为语言建模任务，采用 MT...",
+      "url": "https://www.marktechpost.com/2026/07/10/kyutai-releases-muscriptor-an-open-weight-decoder-only-transformer-for-multi-instrument-music-transcription-to-midi",
+      "heat": 9,
+      "publishedAt": "7月11日 4:21",
+      "time": "7月11日 4:21",
+      "collectedAt": "2026-07-10T22:55:48.364Z",
+      "rank": 35
+    },
+    {
+      "section": "ai",
+      "title": "OpenAI 论文：GPT-5.6 Sol Ultra 证明图论\"循环双覆盖猜想\"",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "summary": "OpenAI 发布论文，称 GPT-5.6 Sol Ultra 证明了图论中悬而未决的\"循环双覆盖猜想\"。该猜想断言每个无桥无向图都存在一组环，每条边恰好被覆盖两次。",
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "heat": 9,
+      "publishedAt": "7月11日 3:59",
+      "time": "7月11日 3:59",
+      "collectedAt": "2026-07-10T22:55:48.364Z",
+      "rank": 36
+    },
+    {
+      "section": "ai",
+      "title": "财经聚焦|从“技术可用”到“商业可赚” AI智能体加速落地",
+      "source": "新华社新闻",
+      "summary": "题：从“技术可用”到“商业可赚” AI智能体加速落地 新华社记者张骁 今年以来，国内AI智能体不再局限于技术展示和辅助工作，加快走进实体产业与大众生活，开启规模化落地之路。",
+      "url": "https://view.inews.qq.com/a/20260710A08X7N00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 17:12",
+      "time": "7月10日 17:12",
+      "collectedAt": "2026-07-10T10:55:41.236Z",
+      "rank": 37,
+      "badge": "rising"
+    },
+    {
+      "section": "ai",
+      "title": "AI周期走到“加时赛”，值得关注的四个资本开支泡沫预警信号",
+      "source": "第一财经",
+      "summary": "本周，三星电子二季度营业利润同比暴增约18倍、创下历史新高，当日股价却收跌近7%。分析认为，这显示出投资者的关注焦点已从业绩转向了人工智能（AI）基础设施的巨额投资能否足够快地产生回报、这轮热潮又能持续多久。",
+      "url": "https://view.inews.qq.com/a/20260710A08KTP00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 16:43",
+      "time": "7月10日 16:43",
+      "collectedAt": "2026-07-10T10:55:41.236Z",
+      "rank": 38,
+      "badge": "rising"
+    },
+    {
+      "section": "ai",
+      "title": "OpenAI上线ChatGPT Work，企业级人工智能体竞争升级",
+      "source": "财联社",
+      "summary": "财联社7月10日讯（实习编辑 杨舒雯/编辑 齐灵）本周四，OpenAI推出一款全新的人工智能智能体——ChatGPT Work，由最先进的人工智能模型GPT-5.6提供支持。OpenAI表示，智能助手ChatGPT Work结合了其广受欢迎的聊天机器人和人工智能编码工具Codex，能够创建文档...",
+      "url": "https://view.inews.qq.com/a/20260710A089VG00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 16:20",
+      "time": "7月10日 16:20",
+      "collectedAt": "2026-07-10T10:55:41.236Z",
+      "rank": 39,
+      "badge": "rising"
     },
     {
       "section": "ai",
@@ -6752,7 +6728,7 @@
       "publishedAt": "7月10日 14:36",
       "time": "7月10日 14:36",
       "collectedAt": "2026-07-10T10:55:41.236Z",
-      "rank": 42
+      "rank": 40
     },
     {
       "section": "ai",
@@ -6764,7 +6740,7 @@
       "publishedAt": "7月10日 10:34",
       "time": "7月10日 10:34",
       "collectedAt": "2026-07-10T04:57:21.349Z",
-      "rank": 43,
+      "rank": 41,
       "badge": "rising"
     },
     {
@@ -6777,7 +6753,7 @@
       "publishedAt": "7月10日 10:14",
       "time": "7月10日 10:14",
       "collectedAt": "2026-07-10T04:57:21.349Z",
-      "rank": 44,
+      "rank": 42,
       "badge": "rising"
     },
     {
@@ -6790,7 +6766,7 @@
       "publishedAt": "7月10日 10:04",
       "time": "7月10日 10:04",
       "collectedAt": "2026-07-10T04:57:21.349Z",
-      "rank": 45,
+      "rank": 43,
       "badge": "rising"
     },
     {
@@ -6803,7 +6779,7 @@
       "publishedAt": "7月8日 21:21",
       "time": "7月8日 21:21",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 46
+      "rank": 44
     },
     {
       "section": "ai",
@@ -6815,7 +6791,7 @@
       "publishedAt": "7月8日 18:09",
       "time": "7月8日 18:09",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 47
+      "rank": 45
     },
     {
       "section": "ai",
@@ -6827,7 +6803,7 @@
       "publishedAt": "7月8日 17:41",
       "time": "7月8日 17:41",
       "collectedAt": "2026-07-08T10:55:41.820Z",
-      "rank": 48,
+      "rank": 46,
       "badge": "rising"
     },
     {
@@ -6840,7 +6816,7 @@
       "publishedAt": "7月8日 16:44",
       "time": "7月8日 16:44",
       "collectedAt": "2026-07-08T10:55:41.820Z",
-      "rank": 49,
+      "rank": 47,
       "badge": "rising"
     },
     {
@@ -6853,7 +6829,7 @@
       "publishedAt": "7月8日 16:32",
       "time": "7月8日 16:32",
       "collectedAt": "2026-07-08T10:55:41.820Z",
-      "rank": 50,
+      "rank": 48,
       "badge": "rising"
     },
     {
@@ -6866,7 +6842,7 @@
       "publishedAt": "7月8日 16:19",
       "time": "7月8日 16:19",
       "collectedAt": "2026-07-08T10:55:41.820Z",
-      "rank": 51
+      "rank": 49
     },
     {
       "section": "ai",
@@ -6878,7 +6854,7 @@
       "publishedAt": "7月8日 11:43",
       "time": "7月8日 11:43",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 52,
+      "rank": 50,
       "badge": "rising"
     },
     {
@@ -6891,7 +6867,7 @@
       "publishedAt": "7月8日 11:29",
       "time": "7月8日 11:29",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 53,
+      "rank": 51,
       "badge": "rising"
     },
     {
@@ -6904,7 +6880,7 @@
       "publishedAt": "7月8日 11:29",
       "time": "7月8日 11:29",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 54,
+      "rank": 52,
       "badge": "rising"
     },
     {
@@ -6917,7 +6893,7 @@
       "publishedAt": "7月8日 10:40",
       "time": "7月8日 10:40",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 55
+      "rank": 53
     },
     {
       "section": "ai",
@@ -6929,7 +6905,7 @@
       "publishedAt": "7月8日 9:49",
       "time": "7月8日 9:49",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 56
+      "rank": 54
     },
     {
       "section": "ai",
@@ -6941,7 +6917,7 @@
       "publishedAt": "7月8日 9:49",
       "time": "7月8日 9:49",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 57
+      "rank": 55
     },
     {
       "section": "ai",
@@ -6953,7 +6929,7 @@
       "publishedAt": "7月8日 9:42",
       "time": "7月8日 9:42",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 58
+      "rank": 56
     },
     {
       "section": "ai",
@@ -6965,7 +6941,7 @@
       "publishedAt": "7月7日 17:23",
       "time": "7月7日 17:23",
       "collectedAt": "2026-07-07T10:56:01.803Z",
-      "rank": 59,
+      "rank": 57,
       "badge": "rising"
     },
     {
@@ -6978,7 +6954,7 @@
       "publishedAt": "7月7日 16:18",
       "time": "7月7日 16:18",
       "collectedAt": "2026-07-07T10:56:01.803Z",
-      "rank": 60,
+      "rank": 58,
       "badge": "rising"
     },
     {
@@ -6991,7 +6967,7 @@
       "publishedAt": "7月6日 11:14",
       "time": "7月6日 11:14",
       "collectedAt": "2026-07-06T10:56:23.952Z",
-      "rank": 61
+      "rank": 59
     },
     {
       "section": "ai",
@@ -7003,7 +6979,7 @@
       "publishedAt": "7月6日 10:19",
       "time": "7月6日 10:19",
       "collectedAt": "2026-07-06T10:56:23.952Z",
-      "rank": 62
+      "rank": 60
     },
     {
       "section": "ai",
@@ -7015,7 +6991,7 @@
       "publishedAt": "7月6日 10:18",
       "time": "7月6日 10:18",
       "collectedAt": "2026-07-06T10:56:23.952Z",
-      "rank": 63,
+      "rank": 61,
       "badge": "rising"
     },
     {
@@ -7028,7 +7004,7 @@
       "publishedAt": "7月3日 22:54",
       "time": "7月3日 22:54",
       "collectedAt": "2026-07-05T14:08:37.845Z",
-      "rank": 64,
+      "rank": 62,
       "badge": "rising"
     },
     {
@@ -7041,7 +7017,7 @@
       "publishedAt": "7月3日 8:43",
       "time": "7月3日 8:43",
       "collectedAt": "2026-07-03T06:33:44.077Z",
-      "rank": 65
+      "rank": 63
     },
     {
       "section": "ai",
@@ -7053,7 +7029,7 @@
       "publishedAt": "7月10日 8:07",
       "time": "7月10日 8:07",
       "collectedAt": "2026-07-10T04:57:21.349Z",
-      "rank": 66
+      "rank": 64
     },
     {
       "section": "ai",
@@ -7065,7 +7041,7 @@
       "publishedAt": "7月10日 17:34",
       "time": "7月10日 17:34",
       "collectedAt": "2026-07-10T10:55:41.236Z",
-      "rank": 67
+      "rank": 65
     },
     {
       "section": "ai",
@@ -7077,7 +7053,7 @@
       "publishedAt": "7月10日 17:14",
       "time": "7月10日 17:14",
       "collectedAt": "2026-07-10T10:55:41.236Z",
-      "rank": 68
+      "rank": 66
     },
     {
       "section": "ai",
@@ -7088,6 +7064,30 @@
       "heat": 9,
       "publishedAt": "7月10日 17:11",
       "time": "7月10日 17:11",
+      "collectedAt": "2026-07-10T10:55:41.236Z",
+      "rank": 67
+    },
+    {
+      "section": "ai",
+      "title": "具身智能业务毛利率仅10.7%，上市后珞石机器人能讲好新故事吗？",
+      "source": "尺度商业",
+      "summary": "文 | 董武英 近年来，随着人形机器人行业持续火热，一众工业机器人公司开始布局这个领域，并开始冲刺IPO，奔向资本市场。近日刚刚港股上市的珞石机器人即是其中之一。",
+      "url": "https://view.inews.qq.com/a/20260710A08PV300?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 16:52",
+      "time": "7月10日 16:52",
+      "collectedAt": "2026-07-10T10:55:41.236Z",
+      "rank": 68
+    },
+    {
+      "section": "ai",
+      "title": "小米9款音箱及智能家庭屏已内置超级小爱，支持跨端多指令语控",
+      "source": "IT之家（RSS）",
+      "summary": "小米宣布9款音箱及智能家庭屏设备已内置超级小爱，支持AI大模型问答、多轮连续对话与拟人语气、跨端多指令语控（一句话控车、控家、查信息），以及家中设备问答和语音创建智能场景。此外，超级小爱已接入微信A2A助手能力，支持一句话给微信好友发消息、打电话。",
+      "url": "https://www.ithome.com/0/975/166.htm",
+      "heat": 9,
+      "publishedAt": "7月10日 16:39",
+      "time": "7月10日 16:39",
       "collectedAt": "2026-07-10T10:55:41.236Z",
       "rank": 69
     },
@@ -7177,54 +7177,6 @@
     },
     {
       "section": "ai",
-      "title": "GPT-5.6 与 GPT-6 进展及计算能源瓶颈",
-      "source": "X：Kim (@kimmonismus)",
-      "summary": "Kim 分析近期 AI 前沿动态：GPT-5.6 已完成训练两个月并开放早期访问，延迟发布或因 OpenAI 与政府及监管机构的早期协调。Anthropic 在此方面表现较差。",
-      "url": "https://x.com/kimmonismus/status/2075874332409020835",
-      "heat": 8,
-      "publishedAt": "7月11日 17:26",
-      "time": "7月11日 17:26",
-      "collectedAt": "2026-07-11T10:56:10.575Z",
-      "rank": 77
-    },
-    {
-      "section": "ai",
-      "title": "“人工智能造福人类全球峰会”在日内瓦举办 AI技术助力人道主义救援",
-      "source": "国际在线",
-      "summary": "2026年“人工智能造福人类全球峰会”7日至10日在日内瓦举行。会议展示人工智能在医疗保健、教育、食品安全、减少灾害风险等领域的应用，并围绕人工智能战略展开讨论。",
-      "url": "https://view.inews.qq.com/a/20260710A02BTJ00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月10日 7:44",
-      "time": "7月10日 7:44",
-      "collectedAt": "2026-07-10T04:57:21.349Z",
-      "rank": 78
-    },
-    {
-      "section": "ai",
-      "title": "推理成本下降将引发智能领域的杰文斯悖论",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "summary": "Rohan Paul 引用斯坦福报告指出，GPT-3.5 级别推理成本在不到两年内已下降 280 倍。他认为智能领域将出现杰文斯悖论：更便宜的推理会创造远超当前的需求。",
-      "url": "https://x.com/rohanpaul_ai/status/2075862510100476294",
-      "heat": 8,
-      "publishedAt": "7月11日 16:39",
-      "time": "7月11日 16:39",
-      "collectedAt": "2026-07-11T10:56:10.575Z",
-      "rank": 79
-    },
-    {
-      "section": "ai",
-      "title": "OpenAI Codex 团队在 Reddit AMA 中透露产品方向",
-      "source": "X：Kim (@kimmonismus)",
-      "summary": "OpenAI Codex 团队在 Reddit AMA 中透露，Codex 目前拥有超过 500 万周活跃用户，三个月内翻倍，并在此期间推出了 150 项改进。未来计划包括：开发 Linux 桌面应用（无时间表）、提升智能体持久性并降...",
-      "url": "https://x.com/kimmonismus/status/2075856282020389370",
-      "heat": 8,
-      "publishedAt": "7月11日 16:14",
-      "time": "7月11日 16:14",
-      "collectedAt": "2026-07-11T10:56:10.575Z",
-      "rank": 80
-    },
-    {
-      "section": "ai",
       "title": "涨幅远低于芯片指数！美银称英伟达“估值不合理”",
       "source": "华尔街见闻",
       "summary": "市场正在错误定价，英伟达的不合理“折价”正是黄金买点！尽管在人工智能领域占据绝对统治地位，英伟达今年迄今的股价仅上涨了3%，远远落后于暴涨82%的费城半导体指数。",
@@ -7233,7 +7185,7 @@
       "publishedAt": "7月9日 9:12",
       "time": "7月9日 9:12",
       "collectedAt": "2026-07-09T04:56:56.981Z",
-      "rank": 81
+      "rank": 77
     },
     {
       "section": "ai",
@@ -7245,7 +7197,7 @@
       "publishedAt": "7月9日 9:03",
       "time": "7月9日 9:03",
       "collectedAt": "2026-07-09T04:56:56.981Z",
-      "rank": 82
+      "rank": 78
     },
     {
       "section": "ai",
@@ -7257,7 +7209,7 @@
       "publishedAt": "7月9日 8:31",
       "time": "7月9日 8:31",
       "collectedAt": "2026-07-09T04:56:56.981Z",
-      "rank": 83
+      "rank": 79
     },
     {
       "section": "ai",
@@ -7269,7 +7221,7 @@
       "publishedAt": "7月9日 7:29",
       "time": "7月9日 7:29",
       "collectedAt": "2026-07-09T04:56:56.981Z",
-      "rank": 84
+      "rank": 80
     },
     {
       "section": "ai",
@@ -7281,7 +7233,7 @@
       "publishedAt": "7月9日 5:17",
       "time": "7月9日 5:17",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 85
+      "rank": 81
     },
     {
       "section": "ai",
@@ -7293,7 +7245,7 @@
       "publishedAt": "7月9日 3:17",
       "time": "7月9日 3:17",
       "collectedAt": "2026-07-09T04:56:56.981Z",
-      "rank": 86
+      "rank": 82
     },
     {
       "section": "ai",
@@ -7305,7 +7257,7 @@
       "publishedAt": "7月8日 21:06",
       "time": "7月8日 21:06",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 87
+      "rank": 83
     },
     {
       "section": "ai",
@@ -7317,7 +7269,7 @@
       "publishedAt": "7月8日 20:19",
       "time": "7月8日 20:19",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 88
+      "rank": 84
     },
     {
       "section": "ai",
@@ -7329,7 +7281,7 @@
       "publishedAt": "7月8日 20:08",
       "time": "7月8日 20:08",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 89
+      "rank": 85
     },
     {
       "section": "ai",
@@ -7341,7 +7293,7 @@
       "publishedAt": "7月8日 20:05",
       "time": "7月8日 20:05",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 90
+      "rank": 86
     },
     {
       "section": "ai",
@@ -7353,7 +7305,7 @@
       "publishedAt": "7月8日 17:55",
       "time": "7月8日 17:55",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 91
+      "rank": 87
     },
     {
       "section": "ai",
@@ -7365,7 +7317,7 @@
       "publishedAt": "7月8日 17:53",
       "time": "7月8日 17:53",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 92
+      "rank": 88
     },
     {
       "section": "ai",
@@ -7377,7 +7329,7 @@
       "publishedAt": "7月8日 17:48",
       "time": "7月8日 17:48",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 93
+      "rank": 89
     },
     {
       "section": "ai",
@@ -7389,7 +7341,7 @@
       "publishedAt": "7月8日 17:12",
       "time": "7月8日 17:12",
       "collectedAt": "2026-07-08T10:55:41.820Z",
-      "rank": 94
+      "rank": 90
     },
     {
       "section": "ai",
@@ -7401,7 +7353,7 @@
       "publishedAt": "7月8日 16:53",
       "time": "7月8日 16:53",
       "collectedAt": "2026-07-08T10:55:41.820Z",
-      "rank": 95
+      "rank": 91
     },
     {
       "section": "ai",
@@ -7413,7 +7365,7 @@
       "publishedAt": "7月8日 16:45",
       "time": "7月8日 16:45",
       "collectedAt": "2026-07-08T10:55:41.820Z",
-      "rank": 96
+      "rank": 92
     },
     {
       "section": "ai",
@@ -7425,7 +7377,7 @@
       "publishedAt": "7月8日 16:45",
       "time": "7月8日 16:45",
       "collectedAt": "2026-07-08T10:55:41.820Z",
-      "rank": 97
+      "rank": 93
     },
     {
       "section": "ai",
@@ -7437,7 +7389,7 @@
       "publishedAt": "7月8日 16:43",
       "time": "7月8日 16:43",
       "collectedAt": "2026-07-08T10:55:41.820Z",
-      "rank": 98
+      "rank": 94
     },
     {
       "section": "ai",
@@ -7449,7 +7401,7 @@
       "publishedAt": "7月8日 16:26",
       "time": "7月8日 16:26",
       "collectedAt": "2026-07-08T10:55:41.820Z",
-      "rank": 99
+      "rank": 95
     },
     {
       "section": "ai",
@@ -7461,7 +7413,7 @@
       "publishedAt": "7月8日 16:22",
       "time": "7月8日 16:22",
       "collectedAt": "2026-07-08T10:55:41.820Z",
-      "rank": 100
+      "rank": 96
     },
     {
       "section": "ai",
@@ -7473,7 +7425,7 @@
       "publishedAt": "7月8日 15:39",
       "time": "7月8日 15:39",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 101
+      "rank": 97
     },
     {
       "section": "ai",
@@ -7485,7 +7437,7 @@
       "publishedAt": "7月8日 15:15",
       "time": "7月8日 15:15",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 102
+      "rank": 98
     },
     {
       "section": "ai",
@@ -7497,7 +7449,7 @@
       "publishedAt": "7月8日 15:08",
       "time": "7月8日 15:08",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 103
+      "rank": 99
     },
     {
       "section": "ai",
@@ -7509,7 +7461,7 @@
       "publishedAt": "7月8日 12:32",
       "time": "7月8日 12:32",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 104
+      "rank": 100
     },
     {
       "section": "ai",
@@ -7521,7 +7473,7 @@
       "publishedAt": "7月8日 12:04",
       "time": "7月8日 12:04",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 105
+      "rank": 101
     },
     {
       "section": "ai",
@@ -7533,7 +7485,7 @@
       "publishedAt": "7月8日 11:42",
       "time": "7月8日 11:42",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 106
+      "rank": 102
     },
     {
       "section": "ai",
@@ -7545,7 +7497,7 @@
       "publishedAt": "7月8日 11:23",
       "time": "7月8日 11:23",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 107
+      "rank": 103
     },
     {
       "section": "ai",
@@ -7557,7 +7509,7 @@
       "publishedAt": "7月8日 11:05",
       "time": "7月8日 11:05",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 108
+      "rank": 104
     },
     {
       "section": "ai",
@@ -7569,7 +7521,7 @@
       "publishedAt": "7月8日 11:03",
       "time": "7月8日 11:03",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 109
+      "rank": 105
     },
     {
       "section": "ai",
@@ -7581,7 +7533,7 @@
       "publishedAt": "7月8日 10:57",
       "time": "7月8日 10:57",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 110
+      "rank": 106
     },
     {
       "section": "ai",
@@ -7593,7 +7545,7 @@
       "publishedAt": "7月8日 10:53",
       "time": "7月8日 10:53",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 111
+      "rank": 107
     },
     {
       "section": "ai",
@@ -7605,7 +7557,7 @@
       "publishedAt": "7月8日 10:51",
       "time": "7月8日 10:51",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 112
+      "rank": 108
     },
     {
       "section": "ai",
@@ -7617,7 +7569,7 @@
       "publishedAt": "7月8日 10:37",
       "time": "7月8日 10:37",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 113
+      "rank": 109
     },
     {
       "section": "ai",
@@ -7629,7 +7581,7 @@
       "publishedAt": "7月8日 10:33",
       "time": "7月8日 10:33",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 114
+      "rank": 110
     },
     {
       "section": "ai",
@@ -7641,7 +7593,7 @@
       "publishedAt": "7月8日 10:18",
       "time": "7月8日 10:18",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 115
+      "rank": 111
     },
     {
       "section": "ai",
@@ -7653,7 +7605,7 @@
       "publishedAt": "7月8日 10:14",
       "time": "7月8日 10:14",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 116
+      "rank": 112
     },
     {
       "section": "ai",
@@ -7665,7 +7617,7 @@
       "publishedAt": "7月8日 9:32",
       "time": "7月8日 9:32",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 117
+      "rank": 113
     },
     {
       "section": "ai",
@@ -7677,7 +7629,7 @@
       "publishedAt": "7月8日 9:05",
       "time": "7月8日 9:05",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 118
+      "rank": 114
     },
     {
       "section": "ai",
@@ -7689,7 +7641,7 @@
       "publishedAt": "7月8日 8:02",
       "time": "7月8日 8:02",
       "collectedAt": "2026-07-08T04:57:58.312Z",
-      "rank": 119
+      "rank": 115
     },
     {
       "section": "ai",
@@ -7701,7 +7653,7 @@
       "publishedAt": "7月8日 6:17",
       "time": "7月8日 6:17",
       "collectedAt": "2026-07-08T22:55:50.981Z",
-      "rank": 120
+      "rank": 116
     },
     {
       "section": "ai",
@@ -7713,7 +7665,7 @@
       "publishedAt": "7月8日 4:31",
       "time": "7月8日 4:31",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 121
+      "rank": 117
     },
     {
       "section": "ai",
@@ -7725,7 +7677,7 @@
       "publishedAt": "7月8日 4:04",
       "time": "7月8日 4:04",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 122
+      "rank": 118
     },
     {
       "section": "ai",
@@ -7737,7 +7689,7 @@
       "publishedAt": "7月8日 2:35",
       "time": "7月8日 2:35",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 123
+      "rank": 119
     },
     {
       "section": "ai",
@@ -7749,7 +7701,7 @@
       "publishedAt": "7月8日 1:46",
       "time": "7月8日 1:46",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 124
+      "rank": 120
     },
     {
       "section": "ai",
@@ -7761,7 +7713,7 @@
       "publishedAt": "7月8日 1:02",
       "time": "7月8日 1:02",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 125
+      "rank": 121
     },
     {
       "section": "ai",
@@ -7773,7 +7725,7 @@
       "publishedAt": "7月7日 23:45",
       "time": "7月7日 23:45",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 126
+      "rank": 122
     },
     {
       "section": "ai",
@@ -7785,7 +7737,7 @@
       "publishedAt": "7月7日 22:38",
       "time": "7月7日 22:38",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 127
+      "rank": 123
     },
     {
       "section": "ai",
@@ -7797,7 +7749,7 @@
       "publishedAt": "7月7日 21:55",
       "time": "7月7日 21:55",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 128
+      "rank": 124
     },
     {
       "section": "ai",
@@ -7809,7 +7761,7 @@
       "publishedAt": "7月7日 18:41",
       "time": "7月7日 18:41",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 129
+      "rank": 125
     },
     {
       "section": "ai",
@@ -7821,7 +7773,7 @@
       "publishedAt": "7月7日 18:32",
       "time": "7月7日 18:32",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 130
+      "rank": 126
     },
     {
       "section": "ai",
@@ -7833,7 +7785,7 @@
       "publishedAt": "7月7日 18:26",
       "time": "7月7日 18:26",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 131
+      "rank": 127
     },
     {
       "section": "ai",
@@ -7845,7 +7797,7 @@
       "publishedAt": "7月7日 18:01",
       "time": "7月7日 18:01",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 132
+      "rank": 128
     },
     {
       "section": "ai",
@@ -7857,7 +7809,7 @@
       "publishedAt": "7月7日 16:51",
       "time": "7月7日 16:51",
       "collectedAt": "2026-07-07T10:56:01.803Z",
-      "rank": 133
+      "rank": 129
     },
     {
       "section": "ai",
@@ -7869,7 +7821,7 @@
       "publishedAt": "7月7日 16:24",
       "time": "7月7日 16:24",
       "collectedAt": "2026-07-07T10:56:01.803Z",
-      "rank": 134
+      "rank": 130
     },
     {
       "section": "ai",
@@ -7881,7 +7833,7 @@
       "publishedAt": "7月7日 16:16",
       "time": "7月7日 16:16",
       "collectedAt": "2026-07-07T10:56:01.803Z",
-      "rank": 135
+      "rank": 131
     },
     {
       "section": "ai",
@@ -7893,7 +7845,7 @@
       "publishedAt": "7月7日 16:00",
       "time": "7月7日 16:00",
       "collectedAt": "2026-07-07T10:56:01.803Z",
-      "rank": 136
+      "rank": 132
     },
     {
       "section": "ai",
@@ -7905,7 +7857,7 @@
       "publishedAt": "7月7日 15:42",
       "time": "7月7日 15:42",
       "collectedAt": "2026-07-07T10:56:01.803Z",
-      "rank": 137
+      "rank": 133
     },
     {
       "section": "ai",
@@ -7917,7 +7869,7 @@
       "publishedAt": "7月7日 15:39",
       "time": "7月7日 15:39",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 138
+      "rank": 134
     },
     {
       "section": "ai",
@@ -7929,7 +7881,7 @@
       "publishedAt": "7月7日 14:50",
       "time": "7月7日 14:50",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 139
+      "rank": 135
     },
     {
       "section": "ai",
@@ -7941,7 +7893,7 @@
       "publishedAt": "7月7日 14:23",
       "time": "7月7日 14:23",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 140
+      "rank": 136
     },
     {
       "section": "ai",
@@ -7953,7 +7905,7 @@
       "publishedAt": "7月7日 12:19",
       "time": "7月7日 12:19",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 141
+      "rank": 137
     },
     {
       "section": "ai",
@@ -7965,7 +7917,7 @@
       "publishedAt": "7月7日 9:33",
       "time": "7月7日 9:33",
       "collectedAt": "2026-07-07T22:55:47.174Z",
-      "rank": 142
+      "rank": 138
     },
     {
       "section": "ai",
@@ -7977,7 +7929,7 @@
       "publishedAt": "7月7日 1:11",
       "time": "7月7日 1:11",
       "collectedAt": "2026-07-06T22:55:49.363Z",
-      "rank": 143
+      "rank": 139
     },
     {
       "section": "ai",
@@ -7989,7 +7941,7 @@
       "publishedAt": "7月7日 1:11",
       "time": "7月7日 1:11",
       "collectedAt": "2026-07-06T22:55:49.363Z",
-      "rank": 144
+      "rank": 140
     },
     {
       "section": "ai",
@@ -8001,7 +7953,7 @@
       "publishedAt": "7月6日 20:59",
       "time": "7月6日 20:59",
       "collectedAt": "2026-07-06T22:55:49.363Z",
-      "rank": 145
+      "rank": 141
     },
     {
       "section": "ai",
@@ -8013,7 +7965,7 @@
       "publishedAt": "7月6日 19:45",
       "time": "7月6日 19:45",
       "collectedAt": "2026-07-06T22:55:49.363Z",
-      "rank": 146
+      "rank": 142
     },
     {
       "section": "ai",
@@ -8025,7 +7977,7 @@
       "publishedAt": "7月6日 14:00",
       "time": "7月6日 14:00",
       "collectedAt": "2026-07-06T10:56:23.952Z",
-      "rank": 147
+      "rank": 143
     },
     {
       "section": "ai",
@@ -8037,7 +7989,7 @@
       "publishedAt": "7月6日 13:27",
       "time": "7月6日 13:27",
       "collectedAt": "2026-07-06T10:56:23.952Z",
-      "rank": 148
+      "rank": 144
     },
     {
       "section": "ai",
@@ -8049,7 +8001,7 @@
       "publishedAt": "7月6日 11:56",
       "time": "7月6日 11:56",
       "collectedAt": "2026-07-06T10:56:23.952Z",
-      "rank": 149
+      "rank": 145
     },
     {
       "section": "ai",
@@ -8061,7 +8013,7 @@
       "publishedAt": "7月6日 10:08",
       "time": "7月6日 10:08",
       "collectedAt": "2026-07-06T10:56:23.952Z",
-      "rank": 150
+      "rank": 146
     },
     {
       "section": "ai",
@@ -8073,7 +8025,7 @@
       "publishedAt": "7月6日 7:49",
       "time": "7月6日 7:49",
       "collectedAt": "2026-07-06T10:56:23.952Z",
-      "rank": 151
+      "rank": 147
     },
     {
       "section": "ai",
@@ -8085,7 +8037,7 @@
       "publishedAt": "7月6日 7:32",
       "time": "7月6日 7:32",
       "collectedAt": "2026-07-06T10:56:23.952Z",
-      "rank": 152
+      "rank": 148
     },
     {
       "section": "ai",
@@ -8097,7 +8049,7 @@
       "publishedAt": "7月4日 18:44",
       "time": "7月4日 18:44",
       "collectedAt": "2026-07-05T10:56:04.188Z",
-      "rank": 153
+      "rank": 149
     },
     {
       "section": "ai",
@@ -8109,7 +8061,7 @@
       "publishedAt": "7月4日 17:53",
       "time": "7月4日 17:53",
       "collectedAt": "2026-07-05T10:56:04.188Z",
-      "rank": 154
+      "rank": 150
     },
     {
       "section": "ai",
@@ -8121,7 +8073,7 @@
       "publishedAt": "7月4日 14:11",
       "time": "7月4日 14:11",
       "collectedAt": "2026-07-04T10:55:44.524Z",
-      "rank": 155
+      "rank": 151
     },
     {
       "section": "ai",
@@ -8133,7 +8085,7 @@
       "publishedAt": "7月4日 14:06",
       "time": "7月4日 14:06",
       "collectedAt": "2026-07-04T10:55:44.524Z",
-      "rank": 156
+      "rank": 152
     },
     {
       "section": "ai",
@@ -8145,7 +8097,7 @@
       "publishedAt": "7月4日 14:04",
       "time": "7月4日 14:04",
       "collectedAt": "2026-07-04T10:55:44.524Z",
-      "rank": 157
+      "rank": 153
     },
     {
       "section": "ai",
@@ -8157,7 +8109,7 @@
       "publishedAt": "7月4日 13:53",
       "time": "7月4日 13:53",
       "collectedAt": "2026-07-04T10:55:44.524Z",
-      "rank": 158
+      "rank": 154
     },
     {
       "section": "ai",
@@ -8169,7 +8121,7 @@
       "publishedAt": "7月4日 13:44",
       "time": "7月4日 13:44",
       "collectedAt": "2026-07-04T10:55:44.524Z",
-      "rank": 159
+      "rank": 155
     },
     {
       "section": "ai",
@@ -8181,7 +8133,7 @@
       "publishedAt": "7月4日 13:36",
       "time": "7月4日 13:36",
       "collectedAt": "2026-07-04T10:55:44.524Z",
-      "rank": 160
+      "rank": 156
     },
     {
       "section": "ai",
@@ -8193,7 +8145,7 @@
       "publishedAt": "7月4日 13:13",
       "time": "7月4日 13:13",
       "collectedAt": "2026-07-04T10:55:44.524Z",
-      "rank": 161
+      "rank": 157
     },
     {
       "section": "ai",
@@ -8205,6 +8157,54 @@
       "publishedAt": "7月4日 13:01",
       "time": "7月4日 13:01",
       "collectedAt": "2026-07-04T10:55:44.524Z",
+      "rank": 158
+    },
+    {
+      "section": "ai",
+      "title": "GPT-5.6 与 GPT-6 进展及计算能源瓶颈",
+      "source": "X：Kim (@kimmonismus)",
+      "summary": "Kim 分析近期 AI 前沿动态：GPT-5.6 已完成训练两个月并开放早期访问，延迟发布或因 OpenAI 与政府及监管机构的早期协调。Anthropic 在此方面表现较差。",
+      "url": "https://x.com/kimmonismus/status/2075874332409020835",
+      "heat": 8,
+      "publishedAt": "7月11日 17:26",
+      "time": "7月11日 17:26",
+      "collectedAt": "2026-07-11T10:56:10.575Z",
+      "rank": 159
+    },
+    {
+      "section": "ai",
+      "title": "“人工智能造福人类全球峰会”在日内瓦举办 AI技术助力人道主义救援",
+      "source": "国际在线",
+      "summary": "2026年“人工智能造福人类全球峰会”7日至10日在日内瓦举行。会议展示人工智能在医疗保健、教育、食品安全、减少灾害风险等领域的应用，并围绕人工智能战略展开讨论。",
+      "url": "https://view.inews.qq.com/a/20260710A02BTJ00?scene=news-skill",
+      "heat": 8,
+      "publishedAt": "7月10日 7:44",
+      "time": "7月10日 7:44",
+      "collectedAt": "2026-07-10T04:57:21.349Z",
+      "rank": 160
+    },
+    {
+      "section": "ai",
+      "title": "推理成本下降将引发智能领域的杰文斯悖论",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "summary": "Rohan Paul 引用斯坦福报告指出，GPT-3.5 级别推理成本在不到两年内已下降 280 倍。他认为智能领域将出现杰文斯悖论：更便宜的推理会创造远超当前的需求。",
+      "url": "https://x.com/rohanpaul_ai/status/2075862510100476294",
+      "heat": 8,
+      "publishedAt": "7月11日 16:39",
+      "time": "7月11日 16:39",
+      "collectedAt": "2026-07-11T10:56:10.575Z",
+      "rank": 161
+    },
+    {
+      "section": "ai",
+      "title": "OpenAI Codex 团队在 Reddit AMA 中透露产品方向",
+      "source": "X：Kim (@kimmonismus)",
+      "summary": "OpenAI Codex 团队在 Reddit AMA 中透露，Codex 目前拥有超过 500 万周活跃用户，三个月内翻倍，并在此期间推出了 150 项改进。未来计划包括：开发 Linux 桌面应用（无时间表）、提升智能体持久性并降...",
+      "url": "https://x.com/kimmonismus/status/2075856282020389370",
+      "heat": 8,
+      "publishedAt": "7月11日 16:14",
+      "time": "7月11日 16:14",
+      "collectedAt": "2026-07-11T10:56:10.575Z",
       "rank": 162
     },
     {
@@ -8685,30 +8685,6 @@
   "entertainment": [
     {
       "section": "entertainment",
-      "title": "中东报：切尔西报价沙特联金靴、墨西哥前锋基尼奥内斯",
-      "source": "懂球帝",
-      "summary": "据《中东报》报道，切尔西已报价求购卡迪西亚前锋胡利安-基尼奥内斯。《中东报》从知情人士处获悉，英格兰俱乐部切尔西已经提出报价，希望签下卡迪西亚和墨西哥国家队前锋胡利安-基尼奥内斯。",
-      "url": "https://view.inews.qq.com/a/20260711A02M8A00?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月11日 8:11",
-      "time": "7月11日 8:11",
-      "collectedAt": "2026-07-11T04:56:21.808Z",
-      "rank": 1
-    },
-    {
-      "section": "entertainment",
-      "title": "传奇小号手布雷克献演“都市艺术桃花源”，MISA城市草坪音乐会开幕",
-      "source": "新民晚报",
-      "summary": "7月10日晚8点，晚风裹挟蝉鸣吹散暑气，2026上海夏季音乐节（MISA）城市草坪系列演出在上海城市草坪音乐广场拉开帷幕。这片扎根市中心的露天绿地，被市民视作“都市艺术桃花源”，扩容后的1500个观众席爆满，格莱美传奇小号手兰迪·布雷克带来的爵士旋律，为申城奏响浪漫夏夜序曲。",
-      "url": "https://view.inews.qq.com/a/20260711A0458I00?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月11日 11:00",
-      "time": "7月11日 11:00",
-      "collectedAt": "2026-07-11T04:56:21.808Z",
-      "rank": 2
-    },
-    {
-      "section": "entertainment",
       "title": "周星驰导演电影《功夫女足》今日上映，半天票房突破 1 亿",
       "source": "IT之家",
       "summary": "IT之家 7 月 11 日消息，周星驰导演电影《功夫女足》今日正式上映。据灯塔专业版实时数据，截至 7 月 11 日 11 时 32 分，影片《功夫女足》票房突破 1 亿。",
@@ -8717,31 +8693,31 @@
       "publishedAt": "7月11日 15:45",
       "time": "7月11日 15:45",
       "collectedAt": "2026-07-11T10:56:10.766Z",
+      "rank": 1
+    },
+    {
+      "section": "entertainment",
+      "title": "马特·达蒙长得也不像希腊人，所以别再抱怨黑人演海伦了",
+      "source": "邸钞",
+      "summary": "特洛伊的海伦又要挑起战争了。但这一次，这位传说中美艳绝伦、半神半人的神话女王，因与特洛伊王子帕里斯私奔而引发了长达十年的特洛伊战争，如今却在推特上引发了几千条推文。",
+      "url": "https://view.inews.qq.com/a/20260711A03MUH00?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月11日 10:12",
+      "time": "7月11日 10:12",
+      "collectedAt": "2026-07-11T10:56:10.766Z",
+      "rank": 2
+    },
+    {
+      "section": "entertainment",
+      "title": "集均2000万成爆剧生死线，长剧观众抛弃古偶了？",
+      "source": "钛媒体APP",
+      "summary": "（本文作者为 极客电影Geekmovie，钛媒体经授权发布）文 | 极客电影Geekmovie，作者 | 无花果，编辑 | 连翘长剧集均播放量（云合集均V30）达到2000万，算“爆”吗？放在过去，一定不算。",
+      "url": "https://view.inews.qq.com/a/20260711A03G5S00?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月11日 10:01",
+      "time": "7月11日 10:01",
+      "collectedAt": "2026-07-11T10:56:10.766Z",
       "rank": 3
-    },
-    {
-      "section": "entertainment",
-      "title": "明星讨债，导演跑路，内部人士独家爆料",
-      "source": "中国新闻周刊",
-      "summary": "综艺爆雷，导演跑路，明星讨债，综艺圈正在上演一出魔幻戏码。近日，“多名艺人发声讨债”话题冲上热搜。",
-      "url": "https://view.inews.qq.com/a/20260711A06JN900?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月11日 17:16",
-      "time": "7月11日 17:16",
-      "collectedAt": "2026-07-11T10:56:10.766Z",
-      "rank": 4
-    },
-    {
-      "section": "entertainment",
-      "title": "AI是如何洗劫音乐人的？",
-      "source": "音乐先声",
-      "summary": "本世纪的音乐人“鬼故事”——你的音乐作品，正在悄悄成为AI的“养料”。最近，全球音乐产业掀起了一场创作者的集体自查潮。",
-      "url": "https://view.inews.qq.com/a/20260711A07UI400?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月11日 17:08",
-      "time": "7月11日 17:08",
-      "collectedAt": "2026-07-11T10:56:10.766Z",
-      "rank": 5
     },
     {
       "section": "entertainment",
@@ -8753,140 +8729,55 @@
       "publishedAt": "7月11日 13:40",
       "time": "7月11日 13:40",
       "collectedAt": "2026-07-11T10:56:10.766Z",
+      "rank": 4
+    },
+    {
+      "section": "entertainment",
+      "title": "明星讨债，导演跑路，内部人士独家爆料",
+      "source": "中国新闻周刊",
+      "summary": "综艺爆雷，导演跑路，明星讨债，综艺圈正在上演一出魔幻戏码。近日，“多名艺人发声讨债”话题冲上热搜。",
+      "url": "https://view.inews.qq.com/a/20260711A06JN900?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月11日 17:16",
+      "time": "7月11日 17:16",
+      "collectedAt": "2026-07-11T10:56:10.766Z",
+      "rank": 5
+    },
+    {
+      "section": "entertainment",
+      "title": "AI是如何洗劫音乐人的？",
+      "source": "音乐先声",
+      "summary": "本世纪的音乐人“鬼故事”——你的音乐作品，正在悄悄成为AI的“养料”。最近，全球音乐产业掀起了一场创作者的集体自查潮。",
+      "url": "https://view.inews.qq.com/a/20260711A07UI400?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月11日 17:08",
+      "time": "7月11日 17:08",
+      "collectedAt": "2026-07-11T10:56:10.766Z",
       "rank": 6
     },
     {
       "section": "entertainment",
-      "title": "综艺没录完导演“跑路” ！娄艺潇携众嘉宾自费盘活节目",
-      "source": "黑色玫瑰",
-      "summary": "近日，#娄艺潇回应综艺没录完导演跑路# 话题引爆全网，引发广泛热议。原定正常录制的创业纪实综艺《开放营业中》突发重大变故，节目录制中途导演资金链断裂失联跑路，项目彻底停摆。",
-      "url": "https://view.inews.qq.com/a/20260710A0BH2A00?scene=news-skill",
+      "title": "传奇小号手布雷克献演“都市艺术桃花源”，MISA城市草坪音乐会开幕",
+      "source": "新民晚报",
+      "summary": "7月10日晚8点，晚风裹挟蝉鸣吹散暑气，2026上海夏季音乐节（MISA）城市草坪系列演出在上海城市草坪音乐广场拉开帷幕。这片扎根市中心的露天绿地，被市民视作“都市艺术桃花源”，扩容后的1500个观众席爆满，格莱美传奇小号手兰迪·布雷克带来的爵士旋律，为申城奏响浪漫夏夜序曲。",
+      "url": "https://view.inews.qq.com/a/20260711A0458I00?scene=news-skill",
       "heat": 9,
-      "publishedAt": "7月10日 21:08",
-      "time": "7月10日 21:08",
+      "publishedAt": "7月11日 11:00",
+      "time": "7月11日 11:00",
       "collectedAt": "2026-07-11T04:56:21.808Z",
       "rank": 7
     },
     {
       "section": "entertainment",
-      "title": "上市五年股价猛跌96%，知名茶饮股东喊话创始人领1元年薪",
-      "source": "21世纪经济报道",
-      "summary": "记者丨易佳颖编辑丨陶力 张明艳视频丨柳润瑛奈雪的茶股东大会成骂战，股东当众喊话创始人赵林，公司连年亏损，能不能先领1元年薪共渡难关？2025年财报数据显示，赵林年薪137万元，而奈雪的茶上市五年股价暴跌96%，市值蒸发超300亿港元，2025年净亏2.4亿元。",
-      "url": "https://view.inews.qq.com/a/20260704A05XMH00?scene=news-skill",
+      "title": "综艺《开放营业中》摄制组跑路，普宁本地商家联合艺人接手重启",
+      "source": "封面新闻",
+      "summary": "近日，原定由娄艺潇、刘也、李振宁、刘彰、蒋依依、郜思雯、曹恩齐、高至霆等艺人担任常驻嘉宾的综艺节目《开放营业中》被曝出拖欠劳务报酬、摄制组跑路、项目停摆，引发热议。",
+      "url": "https://view.inews.qq.com/a/20260710A0BO6C00?scene=news-skill",
       "heat": 9,
-      "publishedAt": "7月4日 14:59",
-      "time": "7月4日 14:59",
-      "collectedAt": "2026-07-05T14:08:38.007Z",
-      "rank": 8,
-      "badge": "rising"
-    },
-    {
-      "section": "entertainment",
-      "title": "周星驰电影《功夫女足》今日上映，票房已突破9000万，AI预测总票房超10亿",
-      "source": "九派新闻",
-      "summary": "7月11日，足球与功夫无厘头碰撞。官博还发布“众神经归位”喜剧特辑，片场笑点密集。",
-      "url": "https://view.inews.qq.com/a/20260711A04FV300?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月11日 11:29",
-      "time": "7月11日 11:29",
-      "collectedAt": "2026-07-11T04:56:21.808Z",
-      "rank": 9
-    },
-    {
-      "section": "entertainment",
-      "title": "周星驰电影《功夫女足》今日上映，迪丽热巴称饰演女足角色是巨大挑战，增重8公斤、剪短发、拍摄全程...",
-      "source": "红星新闻",
-      "summary": "“我从来没有想过自己会参演周星驰导演的电影。要饰演一个女足的角色，对我来说是很大的挑战。",
-      "url": "https://view.inews.qq.com/a/20260711A03PDF00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月11日 10:17",
-      "time": "7月11日 10:17",
-      "collectedAt": "2026-07-11T04:56:21.808Z",
-      "rank": 10
-    },
-    {
-      "section": "entertainment",
-      "title": "17日晚，锡市有无人机灯光秀表演！",
-      "source": "锡林郭勒日报社",
-      "summary": "内蒙古自治区第36届旅游那达慕预热活动航空那达慕无人机编组灯光秀将于7月17日19:00在锡林浩特市锡林广场上空精彩上演欢迎市民、游客前来打卡观赏届时数百架无人机腾空编队草原明珠锡林浩特贝子庙、...",
-      "url": "https://view.inews.qq.com/a/20260710A0AXN200?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月10日 20:11",
-      "time": "7月10日 20:11",
-      "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 11
-    },
-    {
-      "section": "entertainment",
-      "title": "马特·达蒙长得也不像希腊人，所以别再抱怨黑人演海伦了",
-      "source": "邸钞",
-      "summary": "特洛伊的海伦又要挑起战争了。但这一次，这位传说中美艳绝伦、半神半人的神话女王，因与特洛伊王子帕里斯私奔而引发了长达十年的特洛伊战争，如今却在推特上引发了几千条推文。",
-      "url": "https://view.inews.qq.com/a/20260711A03MUH00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月11日 10:12",
-      "time": "7月11日 10:12",
+      "publishedAt": "7月10日 21:29",
+      "time": "7月10日 21:29",
       "collectedAt": "2026-07-11T10:56:10.766Z",
-      "rank": 12
-    },
-    {
-      "section": "entertainment",
-      "title": "集均2000万成爆剧生死线，长剧观众抛弃古偶了？",
-      "source": "钛媒体APP",
-      "summary": "（本文作者为 极客电影Geekmovie，钛媒体经授权发布）文 | 极客电影Geekmovie，作者 | 无花果，编辑 | 连翘长剧集均播放量（云合集均V30）达到2000万，算“爆”吗？放在过去，一定不算。",
-      "url": "https://view.inews.qq.com/a/20260711A03G5S00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月11日 10:01",
-      "time": "7月11日 10:01",
-      "collectedAt": "2026-07-11T10:56:10.766Z",
-      "rank": 13
-    },
-    {
-      "section": "entertainment",
-      "title": "为“二次元”奔赴上海，2026BW今天开幕，记者现场直击——",
-      "source": "上观新闻",
-      "summary": "展会现场“每年的BW都一定要来，喜欢同一款游戏的玩家们聚在一起，这种氛围感很好。”早上8点半，22岁的阳升就等在了国家会展中心（上海）的展馆门口，准备直奔游戏展台，购买早就看中的周边，“我提前一...",
-      "url": "https://view.inews.qq.com/a/20260710A0A3IP00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月10日 18:55",
-      "time": "7月10日 18:55",
-      "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 14
-    },
-    {
-      "section": "entertainment",
-      "title": "抖音开展清朗网络娱乐团播乱象整治专项行动",
-      "source": "IT时代网",
-      "summary": "IT时代网7月10日消息，抖音近日发布公告，宣布依照\"清朗·网络娱乐团播乱象整治\"专项行动要求，持续治理团播生态中的各类违规问题。团播作为多人协同的演艺直播新形式，承载着创业就业、文化消费升级等...",
-      "url": "https://view.inews.qq.com/a/20260710A0A13Q00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月10日 18:49",
-      "time": "7月10日 18:49",
-      "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 15
-    },
-    {
-      "section": "entertainment",
-      "title": "南艺毕业生特辑丨和“留声机奶奶”合唱走红，南艺女生高乐畅：音乐是祖孙俩的接力",
-      "source": "扬眼",
-      "summary": "“你问我爱你有多深，我爱你有几分……”一条爆款短视频，让南京艺术学院流行音乐研究专业毕业生高乐畅和她的奶奶走进了大众视野。视频里，奶奶的声音醇厚温暖，像一台上了年头的留声机，网友亲切地称她为“留...",
-      "url": "https://view.inews.qq.com/a/20260710A0A0PK00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月10日 18:48",
-      "time": "7月10日 18:48",
-      "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 16
-    },
-    {
-      "section": "entertainment",
-      "title": "“贵州村马” 首部微短剧《追风奇旅》7月11日在三都首映",
-      "source": "黔南热线",
-      "summary": "系列微短剧《追风奇旅》首映礼将在三都水族自治县人民大会堂隆重启幕《追风奇旅》是一部充满民族风情与热血成长的微短剧讲述了水族少女蒙阿朵与一匹名为“追风”的灵性小马在家族恩怨与赛马传统中共同成长的故...",
-      "url": "https://view.inews.qq.com/a/20260710A0967T00?scene=news-skill",
-      "heat": 9,
-      "publishedAt": "7月10日 17:38",
-      "time": "7月10日 17:38",
-      "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 17
+      "rank": 8
     },
     {
       "section": "entertainment",
@@ -8898,7 +8789,7 @@
       "publishedAt": "7月10日 15:34",
       "time": "7月10日 15:34",
       "collectedAt": "2026-07-10T10:55:41.411Z",
-      "rank": 18,
+      "rank": 9,
       "badge": "rising"
     },
     {
@@ -8911,7 +8802,19 @@
       "publishedAt": "7月11日 0:28",
       "time": "7月11日 0:28",
       "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 19
+      "rank": 10
+    },
+    {
+      "section": "entertainment",
+      "title": "周星驰电影《功夫女足》今日上映，票房已突破9000万，AI预测总票房超10亿",
+      "source": "九派新闻",
+      "summary": "7月11日，足球与功夫无厘头碰撞。官博还发布“众神经归位”喜剧特辑，片场笑点密集。",
+      "url": "https://view.inews.qq.com/a/20260711A04FV300?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月11日 11:29",
+      "time": "7月11日 11:29",
+      "collectedAt": "2026-07-11T04:56:21.808Z",
+      "rank": 11
     },
     {
       "section": "entertainment",
@@ -8923,7 +8826,19 @@
       "publishedAt": "7月10日 22:59",
       "time": "7月10日 22:59",
       "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 20
+      "rank": 12
+    },
+    {
+      "section": "entertainment",
+      "title": "周星驰电影《功夫女足》今日上映，迪丽热巴称饰演女足角色是巨大挑战，增重8公斤、剪短发、拍摄全程...",
+      "source": "红星新闻",
+      "summary": "“我从来没有想过自己会参演周星驰导演的电影。要饰演一个女足的角色，对我来说是很大的挑战。",
+      "url": "https://view.inews.qq.com/a/20260711A03PDF00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月11日 10:17",
+      "time": "7月11日 10:17",
+      "collectedAt": "2026-07-11T04:56:21.808Z",
+      "rank": 13
     },
     {
       "section": "entertainment",
@@ -8935,7 +8850,7 @@
       "publishedAt": "7月10日 21:54",
       "time": "7月10日 21:54",
       "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 21
+      "rank": 14
     },
     {
       "section": "entertainment",
@@ -8947,7 +8862,19 @@
       "publishedAt": "7月10日 21:44",
       "time": "7月10日 21:44",
       "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 22
+      "rank": 15
+    },
+    {
+      "section": "entertainment",
+      "title": "综艺没录完导演“跑路” ！娄艺潇携众嘉宾自费盘活节目",
+      "source": "黑色玫瑰",
+      "summary": "近日，#娄艺潇回应综艺没录完导演跑路# 话题引爆全网，引发广泛热议。原定正常录制的创业纪实综艺《开放营业中》突发重大变故，节目录制中途导演资金链断裂失联跑路，项目彻底停摆。",
+      "url": "https://view.inews.qq.com/a/20260710A0BH2A00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 21:08",
+      "time": "7月10日 21:08",
+      "collectedAt": "2026-07-11T04:56:21.808Z",
+      "rank": 16
     },
     {
       "section": "entertainment",
@@ -8959,7 +8886,7 @@
       "publishedAt": "7月10日 18:11",
       "time": "7月10日 18:11",
       "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 23
+      "rank": 17
     },
     {
       "section": "entertainment",
@@ -8971,7 +8898,7 @@
       "publishedAt": "7月10日 21:02",
       "time": "7月10日 21:02",
       "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 24
+      "rank": 18
     },
     {
       "section": "entertainment",
@@ -8983,7 +8910,19 @@
       "publishedAt": "7月10日 21:02",
       "time": "7月10日 21:02",
       "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 25
+      "rank": 19
+    },
+    {
+      "section": "entertainment",
+      "title": "17日晚，锡市有无人机灯光秀表演！",
+      "source": "锡林郭勒日报社",
+      "summary": "内蒙古自治区第36届旅游那达慕预热活动航空那达慕无人机编组灯光秀将于7月17日19:00在锡林浩特市锡林广场上空精彩上演欢迎市民、游客前来打卡观赏届时数百架无人机腾空编队草原明珠锡林浩特贝子庙、...",
+      "url": "https://view.inews.qq.com/a/20260710A0AXN200?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 20:11",
+      "time": "7月10日 20:11",
+      "collectedAt": "2026-07-10T22:55:48.544Z",
+      "rank": 20
     },
     {
       "section": "entertainment",
@@ -8995,7 +8934,7 @@
       "publishedAt": "7月7日 23:09",
       "time": "7月7日 23:09",
       "collectedAt": "2026-07-08T04:57:58.498Z",
-      "rank": 26,
+      "rank": 21,
       "badge": "rising"
     },
     {
@@ -9008,8 +8947,69 @@
       "publishedAt": "7月7日 23:07",
       "time": "7月7日 23:07",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 27,
+      "rank": 22,
       "badge": "rising"
+    },
+    {
+      "section": "entertainment",
+      "title": "上市五年股价猛跌96%，知名茶饮股东喊话创始人领1元年薪",
+      "source": "21世纪经济报道",
+      "summary": "记者丨易佳颖编辑丨陶力 张明艳视频丨柳润瑛奈雪的茶股东大会成骂战，股东当众喊话创始人赵林，公司连年亏损，能不能先领1元年薪共渡难关？2025年财报数据显示，赵林年薪137万元，而奈雪的茶上市五年股价暴跌96%，市值蒸发超300亿港元，2025年净亏2.4亿元。",
+      "url": "https://view.inews.qq.com/a/20260704A05XMH00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月4日 14:59",
+      "time": "7月4日 14:59",
+      "collectedAt": "2026-07-05T14:08:38.007Z",
+      "rank": 23,
+      "badge": "rising"
+    },
+    {
+      "section": "entertainment",
+      "title": "为“二次元”奔赴上海，2026BW今天开幕，记者现场直击——",
+      "source": "上观新闻",
+      "summary": "展会现场“每年的BW都一定要来，喜欢同一款游戏的玩家们聚在一起，这种氛围感很好。”早上8点半，22岁的阳升就等在了国家会展中心（上海）的展馆门口，准备直奔游戏展台，购买早就看中的周边，“我提前一...",
+      "url": "https://view.inews.qq.com/a/20260710A0A3IP00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 18:55",
+      "time": "7月10日 18:55",
+      "collectedAt": "2026-07-10T22:55:48.544Z",
+      "rank": 24
+    },
+    {
+      "section": "entertainment",
+      "title": "抖音开展清朗网络娱乐团播乱象整治专项行动",
+      "source": "IT时代网",
+      "summary": "IT时代网7月10日消息，抖音近日发布公告，宣布依照\"清朗·网络娱乐团播乱象整治\"专项行动要求，持续治理团播生态中的各类违规问题。团播作为多人协同的演艺直播新形式，承载着创业就业、文化消费升级等...",
+      "url": "https://view.inews.qq.com/a/20260710A0A13Q00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 18:49",
+      "time": "7月10日 18:49",
+      "collectedAt": "2026-07-10T22:55:48.544Z",
+      "rank": 25
+    },
+    {
+      "section": "entertainment",
+      "title": "南艺毕业生特辑丨和“留声机奶奶”合唱走红，南艺女生高乐畅：音乐是祖孙俩的接力",
+      "source": "扬眼",
+      "summary": "“你问我爱你有多深，我爱你有几分……”一条爆款短视频，让南京艺术学院流行音乐研究专业毕业生高乐畅和她的奶奶走进了大众视野。视频里，奶奶的声音醇厚温暖，像一台上了年头的留声机，网友亲切地称她为“留...",
+      "url": "https://view.inews.qq.com/a/20260710A0A0PK00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 18:48",
+      "time": "7月10日 18:48",
+      "collectedAt": "2026-07-10T22:55:48.544Z",
+      "rank": 26
+    },
+    {
+      "section": "entertainment",
+      "title": "“贵州村马” 首部微短剧《追风奇旅》7月11日在三都首映",
+      "source": "黔南热线",
+      "summary": "系列微短剧《追风奇旅》首映礼将在三都水族自治县人民大会堂隆重启幕《追风奇旅》是一部充满民族风情与热血成长的微短剧讲述了水族少女蒙阿朵与一匹名为“追风”的灵性小马在家族恩怨与赛马传统中共同成长的故...",
+      "url": "https://view.inews.qq.com/a/20260710A0967T00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 17:38",
+      "time": "7月10日 17:38",
+      "collectedAt": "2026-07-10T22:55:48.544Z",
+      "rank": 27
     },
     {
       "section": "entertainment",
@@ -9025,6 +9025,18 @@
     },
     {
       "section": "entertainment",
+      "title": "原唱亲自摇人！邓紫棋出道18周年直播为尤长靖打call，“邓紫棋的兵”刷屏《歌手》直播间",
+      "source": "娱乐嗑学家",
+      "summary": "7月10日晚，恰逢邓紫棋出道18周年纪念日。她原定在杭州奥体中心“大莲花”举办“I AM GLORIA”世界巡回演唱会2.0杭州站演出，这也是她巡演的第300场里程碑。",
+      "url": "https://view.inews.qq.com/a/20260710A0CN9K00?scene=news-skill",
+      "heat": 9,
+      "publishedAt": "7月10日 23:42",
+      "time": "7月10日 23:42",
+      "collectedAt": "2026-07-11T10:56:10.766Z",
+      "rank": 29
+    },
+    {
+      "section": "entertainment",
       "title": "火影忍者》真人电影要来了！全球海选鸣人、佐助、小樱",
       "source": "黑色玫瑰",
       "summary": "今日，狮门影业与导演德斯汀·丹尼尔·克雷顿于社交媒体宣布，将正式启动基于超人气漫画《火影忍者》改编的真人电影全球选角活动。本次全球选角将面向第七班的三个年轻忍者角色——鸣人、佐助和小樱进行招募。",
@@ -9033,7 +9045,7 @@
       "publishedAt": "7月10日 14:02",
       "time": "7月10日 14:02",
       "collectedAt": "2026-07-10T10:55:41.411Z",
-      "rank": 29
+      "rank": 30
     },
     {
       "section": "entertainment",
@@ -9045,7 +9057,7 @@
       "publishedAt": "7月10日 12:29",
       "time": "7月10日 12:29",
       "collectedAt": "2026-07-10T10:55:41.411Z",
-      "rank": 30
+      "rank": 31
     },
     {
       "section": "entertainment",
@@ -9057,7 +9069,7 @@
       "publishedAt": "7月10日 12:13",
       "time": "7月10日 12:13",
       "collectedAt": "2026-07-10T10:55:41.411Z",
-      "rank": 31
+      "rank": 32
     },
     {
       "section": "entertainment",
@@ -9069,7 +9081,7 @@
       "publishedAt": "7月10日 11:40",
       "time": "7月10日 11:40",
       "collectedAt": "2026-07-10T10:55:41.411Z",
-      "rank": 32
+      "rank": 33
     },
     {
       "section": "entertainment",
@@ -9081,7 +9093,7 @@
       "publishedAt": "7月9日 21:01",
       "time": "7月9日 21:01",
       "collectedAt": "2026-07-10T04:57:21.530Z",
-      "rank": 33
+      "rank": 34
     },
     {
       "section": "entertainment",
@@ -9093,81 +9105,7 @@
       "publishedAt": "7月9日 19:04",
       "time": "7月9日 19:04",
       "collectedAt": "2026-07-09T22:56:01.717Z",
-      "rank": 34
-    },
-    {
-      "section": "entertainment",
-      "title": "那达慕总体活动安排出炉！",
-      "source": "锡林郭勒日报社",
-      "summary": "内蒙古自治区第36届旅游那达慕7月18日在锡林浩特开幕主会场设在锡林郭勒旅游那达慕风情园总体活动安排航空那达慕活动时间：7月17日 —7月18日活动地点：锡林广场、那达慕风情园简要介绍：7月17日晚，。",
-      "url": "https://view.inews.qq.com/a/20260709A08SIV00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月9日 17:55",
-      "time": "7月9日 17:55",
-      "collectedAt": "2026-07-09T22:56:01.717Z",
       "rank": 35
-    },
-    {
-      "section": "entertainment",
-      "title": "王睿：从李安到蓝鸿春，两岸电影为何从“逃离父权”走向“回归阿嬷”？",
-      "source": "观察者网",
-      "summary": "《给阿嬷的情书》在大陆、香港、马来西亚，甚至新加坡等地都获得热烈好评；但在台湾这个中文识字圈却犹如“他者”的反应。这倒也不难理解，一方面是因为台湾每年初只限额10部大陆片，有人还不知道这部电影；另一方面，是两岸长年的隔阂乃至单方面的他者化，岛上民众的共情还需要一段恢复期。",
-      "url": "https://view.inews.qq.com/a/20260710A02N8E00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月10日 8:56",
-      "time": "7月10日 8:56",
-      "collectedAt": "2026-07-10T04:57:21.530Z",
-      "rank": 36
-    },
-    {
-      "section": "entertainment",
-      "title": "综艺还没录完，导演“跑路”了……“多名艺人发声讨债”！",
-      "source": "东方网",
-      "summary": "7月9日“多名艺人发声讨债”词条登上热搜据悉，娄艺潇、蒋依依等七位艺人因综艺《开放营业中》导演欠薪跑路被迫“打黑工”，于2026年7月9日直播宣布自费成为合伙人。",
-      "url": "https://view.inews.qq.com/a/20260710A02CJJ00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月10日 7:51",
-      "time": "7月10日 7:51",
-      "collectedAt": "2026-07-10T04:57:21.530Z",
-      "rank": 37
-    },
-    {
-      "section": "entertainment",
-      "title": "微纪录片｜从台湾来的炸货店",
-      "source": "新华社新闻",
-      "summary": "2016年，台湾青年彭毅超作为交换生来到大陆。2025年，根据自己的美食经验，在政府的帮助下，他很快在天津开起了一家炸货店。",
-      "url": "https://view.inews.qq.com/a/20260709A0B6XL00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月9日 21:54",
-      "time": "7月9日 21:54",
-      "collectedAt": "2026-07-09T22:56:01.717Z",
-      "rank": 38,
-      "badge": "rising"
-    },
-    {
-      "section": "entertainment",
-      "title": "第38届大众电影百花奖提名名单揭晓",
-      "source": "新华社新闻",
-      "summary": "北京7月9日电（记者邢拓、杨淑君）记者9日从第38届大众电影百花奖系列活动新闻发布会上获悉，本届百花奖系列活动将于8月7日至10日在北京举行。",
-      "url": "https://view.inews.qq.com/a/20260709A0B41B00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月9日 21:45",
-      "time": "7月9日 21:45",
-      "collectedAt": "2026-07-09T22:56:01.717Z",
-      "rank": 39,
-      "badge": "rising"
-    },
-    {
-      "section": "entertainment",
-      "title": "综艺《开放营业中》摄制组跑路，普宁本地商家联合艺人接手重启",
-      "source": "封面新闻",
-      "summary": "近日，原定由娄艺潇、刘也、李振宁、刘彰、蒋依依、郜思雯、曹恩齐、高至霆等艺人担任常驻嘉宾的综艺节目《开放营业中》被曝出拖欠劳务报酬、摄制组跑路、项目停摆，引发热议。",
-      "url": "https://view.inews.qq.com/a/20260710A0BO6C00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月10日 21:29",
-      "time": "7月10日 21:29",
-      "collectedAt": "2026-07-11T10:56:10.766Z",
-      "rank": 40
     },
     {
       "section": "entertainment",
@@ -9179,7 +9117,19 @@
       "publishedAt": "7月9日 17:58",
       "time": "7月9日 17:58",
       "collectedAt": "2026-07-10T10:55:41.411Z",
-      "rank": 41
+      "rank": 36
+    },
+    {
+      "section": "entertainment",
+      "title": "那达慕总体活动安排出炉！",
+      "source": "锡林郭勒日报社",
+      "summary": "内蒙古自治区第36届旅游那达慕7月18日在锡林浩特开幕主会场设在锡林郭勒旅游那达慕风情园总体活动安排航空那达慕活动时间：7月17日 —7月18日活动地点：锡林广场、那达慕风情园简要介绍：7月17日晚，。",
+      "url": "https://view.inews.qq.com/a/20260709A08SIV00?scene=news-skill",
+      "heat": 8,
+      "publishedAt": "7月9日 17:55",
+      "time": "7月9日 17:55",
+      "collectedAt": "2026-07-09T22:56:01.717Z",
+      "rank": 37
     },
     {
       "section": "entertainment",
@@ -9191,19 +9141,7 @@
       "publishedAt": "7月8日 21:20",
       "time": "7月8日 21:20",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 42
-    },
-    {
-      "section": "entertainment",
-      "title": "勇士旧将们签约",
-      "source": "静易墨",
-      "summary": "1.大前锋的签约 快船2年2800万签约八村塁，第二年球队选项 活塞3年5100万签约约翰·科林斯 马刺2年3100万签约托拜厄斯·哈里斯 马刺1年800万续",
-      "url": "https://view.inews.qq.com/a/20260708A0AO7Y00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月8日 20:58",
-      "time": "7月8日 20:58",
-      "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 43
+      "rank": 38
     },
     {
       "section": "entertainment",
@@ -9215,7 +9153,7 @@
       "publishedAt": "7月8日 19:33",
       "time": "7月8日 19:33",
       "collectedAt": "2026-07-08T22:55:51.104Z",
-      "rank": 44
+      "rank": 39
     },
     {
       "section": "entertainment",
@@ -9227,7 +9165,7 @@
       "publishedAt": "7月8日 17:18",
       "time": "7月8日 17:18",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 45
+      "rank": 40
     },
     {
       "section": "entertainment",
@@ -9239,7 +9177,7 @@
       "publishedAt": "7月8日 16:32",
       "time": "7月8日 16:32",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 46
+      "rank": 41
     },
     {
       "section": "entertainment",
@@ -9251,7 +9189,7 @@
       "publishedAt": "7月8日 16:21",
       "time": "7月8日 16:21",
       "collectedAt": "2026-07-08T10:55:42.002Z",
-      "rank": 47
+      "rank": 42
     },
     {
       "section": "entertainment",
@@ -9263,7 +9201,7 @@
       "publishedAt": "7月8日 11:38",
       "time": "7月8日 11:38",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 48
+      "rank": 43
     },
     {
       "section": "entertainment",
@@ -9275,7 +9213,7 @@
       "publishedAt": "7月8日 11:18",
       "time": "7月8日 11:18",
       "collectedAt": "2026-07-08T04:57:58.498Z",
-      "rank": 49
+      "rank": 44
     },
     {
       "section": "entertainment",
@@ -9287,7 +9225,7 @@
       "publishedAt": "7月8日 11:06",
       "time": "7月8日 11:06",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 50
+      "rank": 45
     },
     {
       "section": "entertainment",
@@ -9299,7 +9237,7 @@
       "publishedAt": "7月8日 10:56",
       "time": "7月8日 10:56",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 51
+      "rank": 46
     },
     {
       "section": "entertainment",
@@ -9311,7 +9249,7 @@
       "publishedAt": "7月8日 10:08",
       "time": "7月8日 10:08",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 52
+      "rank": 47
     },
     {
       "section": "entertainment",
@@ -9323,7 +9261,7 @@
       "publishedAt": "7月7日 22:30",
       "time": "7月7日 22:30",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 53
+      "rank": 48
     },
     {
       "section": "entertainment",
@@ -9335,7 +9273,7 @@
       "publishedAt": "7月7日 21:31",
       "time": "7月7日 21:31",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 54
+      "rank": 49
     },
     {
       "section": "entertainment",
@@ -9347,7 +9285,7 @@
       "publishedAt": "7月7日 21:02",
       "time": "7月7日 21:02",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 55
+      "rank": 50
     },
     {
       "section": "entertainment",
@@ -9359,7 +9297,7 @@
       "publishedAt": "7月7日 20:53",
       "time": "7月7日 20:53",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 56
+      "rank": 51
     },
     {
       "section": "entertainment",
@@ -9371,7 +9309,7 @@
       "publishedAt": "7月7日 20:48",
       "time": "7月7日 20:48",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 57
+      "rank": 52
     },
     {
       "section": "entertainment",
@@ -9383,7 +9321,7 @@
       "publishedAt": "7月7日 20:35",
       "time": "7月7日 20:35",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 58
+      "rank": 53
     },
     {
       "section": "entertainment",
@@ -9395,7 +9333,7 @@
       "publishedAt": "7月7日 20:29",
       "time": "7月7日 20:29",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 59
+      "rank": 54
     },
     {
       "section": "entertainment",
@@ -9407,7 +9345,7 @@
       "publishedAt": "7月7日 20:10",
       "time": "7月7日 20:10",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 60
+      "rank": 55
     },
     {
       "section": "entertainment",
@@ -9419,7 +9357,7 @@
       "publishedAt": "7月7日 18:43",
       "time": "7月7日 18:43",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 61
+      "rank": 56
     },
     {
       "section": "entertainment",
@@ -9431,7 +9369,7 @@
       "publishedAt": "7月7日 18:31",
       "time": "7月7日 18:31",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 62
+      "rank": 57
     },
     {
       "section": "entertainment",
@@ -9443,7 +9381,7 @@
       "publishedAt": "7月7日 18:04",
       "time": "7月7日 18:04",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 63
+      "rank": 58
     },
     {
       "section": "entertainment",
@@ -9455,7 +9393,7 @@
       "publishedAt": "7月7日 17:53",
       "time": "7月7日 17:53",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 64
+      "rank": 59
     },
     {
       "section": "entertainment",
@@ -9467,7 +9405,7 @@
       "publishedAt": "7月7日 17:05",
       "time": "7月7日 17:05",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 65
+      "rank": 60
     },
     {
       "section": "entertainment",
@@ -9479,7 +9417,7 @@
       "publishedAt": "7月7日 17:00",
       "time": "7月7日 17:00",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 66
+      "rank": 61
     },
     {
       "section": "entertainment",
@@ -9491,7 +9429,7 @@
       "publishedAt": "7月7日 13:52",
       "time": "7月7日 13:52",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 67
+      "rank": 62
     },
     {
       "section": "entertainment",
@@ -9503,7 +9441,7 @@
       "publishedAt": "7月6日 9:54",
       "time": "7月6日 9:54",
       "collectedAt": "2026-07-06T10:56:24.170Z",
-      "rank": 68
+      "rank": 63
     },
     {
       "section": "entertainment",
@@ -9515,7 +9453,7 @@
       "publishedAt": "7月5日 20:51",
       "time": "7月5日 20:51",
       "collectedAt": "2026-07-06T10:56:24.170Z",
-      "rank": 69
+      "rank": 64
     },
     {
       "section": "entertainment",
@@ -9527,7 +9465,7 @@
       "publishedAt": "7月5日 11:52",
       "time": "7月5日 11:52",
       "collectedAt": "2026-07-05T14:08:38.007Z",
-      "rank": 70
+      "rank": 65
     },
     {
       "section": "entertainment",
@@ -9539,7 +9477,7 @@
       "publishedAt": "7月4日 22:22",
       "time": "7月4日 22:22",
       "collectedAt": "2026-07-05T22:56:39.957Z",
-      "rank": 71
+      "rank": 66
     },
     {
       "section": "entertainment",
@@ -9551,7 +9489,7 @@
       "publishedAt": "7月4日 21:01",
       "time": "7月4日 21:01",
       "collectedAt": "2026-07-04T22:56:04.238Z",
-      "rank": 72
+      "rank": 67
     },
     {
       "section": "entertainment",
@@ -9563,7 +9501,7 @@
       "publishedAt": "7月4日 21:00",
       "time": "7月4日 21:00",
       "collectedAt": "2026-07-04T22:56:04.238Z",
-      "rank": 73
+      "rank": 68
     },
     {
       "section": "entertainment",
@@ -9575,7 +9513,7 @@
       "publishedAt": "7月4日 19:11",
       "time": "7月4日 19:11",
       "collectedAt": "2026-07-04T22:56:04.238Z",
-      "rank": 74
+      "rank": 69
     },
     {
       "section": "entertainment",
@@ -9587,7 +9525,7 @@
       "publishedAt": "7月4日 17:56",
       "time": "7月4日 17:56",
       "collectedAt": "2026-07-04T22:56:04.238Z",
-      "rank": 75
+      "rank": 70
     },
     {
       "section": "entertainment",
@@ -9599,7 +9537,7 @@
       "publishedAt": "7月4日 16:59",
       "time": "7月4日 16:59",
       "collectedAt": "2026-07-05T22:56:39.957Z",
-      "rank": 76
+      "rank": 71
     },
     {
       "section": "entertainment",
@@ -9611,7 +9549,7 @@
       "publishedAt": "7月4日 16:48",
       "time": "7月4日 16:48",
       "collectedAt": "2026-07-04T22:56:04.238Z",
-      "rank": 77
+      "rank": 72
     },
     {
       "section": "entertainment",
@@ -9623,7 +9561,7 @@
       "publishedAt": "7月4日 15:21",
       "time": "7月4日 15:21",
       "collectedAt": "2026-07-04T10:55:44.641Z",
-      "rank": 78
+      "rank": 73
     },
     {
       "section": "entertainment",
@@ -9635,7 +9573,7 @@
       "publishedAt": "7月4日 11:33",
       "time": "7月4日 11:33",
       "collectedAt": "2026-07-05T14:08:38.007Z",
-      "rank": 79
+      "rank": 74
     },
     {
       "section": "entertainment",
@@ -9647,7 +9585,7 @@
       "publishedAt": "7月3日 21:34",
       "time": "7月3日 21:34",
       "collectedAt": "2026-07-04T10:55:44.641Z",
-      "rank": 80
+      "rank": 75
     },
     {
       "section": "entertainment",
@@ -9659,7 +9597,7 @@
       "publishedAt": "7月3日 18:49",
       "time": "7月3日 18:49",
       "collectedAt": "2026-07-03T22:56:20.837Z",
-      "rank": 81
+      "rank": 76
     },
     {
       "section": "entertainment",
@@ -9671,7 +9609,7 @@
       "publishedAt": "7月3日 18:25",
       "time": "7月3日 18:25",
       "collectedAt": "2026-07-03T22:56:20.837Z",
-      "rank": 82
+      "rank": 77
     },
     {
       "section": "entertainment",
@@ -9683,7 +9621,7 @@
       "publishedAt": "7月3日 18:12",
       "time": "7月3日 18:12",
       "collectedAt": "2026-07-04T04:56:13.095Z",
-      "rank": 83
+      "rank": 78
     },
     {
       "section": "entertainment",
@@ -9695,7 +9633,7 @@
       "publishedAt": "7月3日 17:14",
       "time": "7月3日 17:14",
       "collectedAt": "2026-07-03T10:56:27.287Z",
-      "rank": 84
+      "rank": 79
     },
     {
       "section": "entertainment",
@@ -9707,7 +9645,7 @@
       "publishedAt": "7月3日 16:39",
       "time": "7月3日 16:39",
       "collectedAt": "2026-07-03T22:56:20.837Z",
-      "rank": 85
+      "rank": 80
     },
     {
       "section": "entertainment",
@@ -9719,7 +9657,7 @@
       "publishedAt": "7月3日 14:11",
       "time": "7月3日 14:11",
       "collectedAt": "2026-07-03T10:56:27.287Z",
-      "rank": 86
+      "rank": 81
     },
     {
       "section": "entertainment",
@@ -9731,7 +9669,7 @@
       "publishedAt": "7月3日 12:08",
       "time": "7月3日 12:08",
       "collectedAt": "2026-07-03T06:33:44.155Z",
-      "rank": 87
+      "rank": 82
     },
     {
       "section": "entertainment",
@@ -9743,7 +9681,7 @@
       "publishedAt": "7月3日 12:02",
       "time": "7月3日 12:02",
       "collectedAt": "2026-07-03T06:33:44.155Z",
-      "rank": 88
+      "rank": 83
     },
     {
       "section": "entertainment",
@@ -9755,7 +9693,19 @@
       "publishedAt": "7月3日 10:57",
       "time": "7月3日 10:57",
       "collectedAt": "2026-07-03T06:33:44.155Z",
-      "rank": 89
+      "rank": 84
+    },
+    {
+      "section": "entertainment",
+      "title": "王睿：从李安到蓝鸿春，两岸电影为何从“逃离父权”走向“回归阿嬷”？",
+      "source": "观察者网",
+      "summary": "《给阿嬷的情书》在大陆、香港、马来西亚，甚至新加坡等地都获得热烈好评；但在台湾这个中文识字圈却犹如“他者”的反应。这倒也不难理解，一方面是因为台湾每年初只限额10部大陆片，有人还不知道这部电影；另一方面，是两岸长年的隔阂乃至单方面的他者化，岛上民众的共情还需要一段恢复期。",
+      "url": "https://view.inews.qq.com/a/20260710A02N8E00?scene=news-skill",
+      "heat": 8,
+      "publishedAt": "7月10日 8:56",
+      "time": "7月10日 8:56",
+      "collectedAt": "2026-07-10T04:57:21.530Z",
+      "rank": 85
     },
     {
       "section": "entertainment",
@@ -9767,7 +9717,7 @@
       "publishedAt": "7月8日 18:45",
       "time": "7月8日 18:45",
       "collectedAt": "2026-07-08T22:55:51.104Z",
-      "rank": 90,
+      "rank": 86,
       "badge": "rising"
     },
     {
@@ -9780,7 +9730,7 @@
       "publishedAt": "7月8日 12:56",
       "time": "7月8日 12:56",
       "collectedAt": "2026-07-08T10:55:42.002Z",
-      "rank": 91
+      "rank": 87
     },
     {
       "section": "entertainment",
@@ -9792,7 +9742,45 @@
       "publishedAt": "7月7日 13:58",
       "time": "7月7日 13:58",
       "collectedAt": "2026-07-07T10:56:01.945Z",
-      "rank": 92,
+      "rank": 88,
+      "badge": "rising"
+    },
+    {
+      "section": "entertainment",
+      "title": "综艺还没录完，导演“跑路”了……“多名艺人发声讨债”！",
+      "source": "东方网",
+      "summary": "7月9日“多名艺人发声讨债”词条登上热搜据悉，娄艺潇、蒋依依等七位艺人因综艺《开放营业中》导演欠薪跑路被迫“打黑工”，于2026年7月9日直播宣布自费成为合伙人。",
+      "url": "https://view.inews.qq.com/a/20260710A02CJJ00?scene=news-skill",
+      "heat": 8,
+      "publishedAt": "7月10日 7:51",
+      "time": "7月10日 7:51",
+      "collectedAt": "2026-07-10T04:57:21.530Z",
+      "rank": 89
+    },
+    {
+      "section": "entertainment",
+      "title": "微纪录片｜从台湾来的炸货店",
+      "source": "新华社新闻",
+      "summary": "2016年，台湾青年彭毅超作为交换生来到大陆。2025年，根据自己的美食经验，在政府的帮助下，他很快在天津开起了一家炸货店。",
+      "url": "https://view.inews.qq.com/a/20260709A0B6XL00?scene=news-skill",
+      "heat": 8,
+      "publishedAt": "7月9日 21:54",
+      "time": "7月9日 21:54",
+      "collectedAt": "2026-07-09T22:56:01.717Z",
+      "rank": 90,
+      "badge": "rising"
+    },
+    {
+      "section": "entertainment",
+      "title": "第38届大众电影百花奖提名名单揭晓",
+      "source": "新华社新闻",
+      "summary": "北京7月9日电（记者邢拓、杨淑君）记者9日从第38届大众电影百花奖系列活动新闻发布会上获悉，本届百花奖系列活动将于8月7日至10日在北京举行。",
+      "url": "https://view.inews.qq.com/a/20260709A0B41B00?scene=news-skill",
+      "heat": 8,
+      "publishedAt": "7月9日 21:45",
+      "time": "7月9日 21:45",
+      "collectedAt": "2026-07-09T22:56:01.717Z",
+      "rank": 91,
       "badge": "rising"
     },
     {
@@ -9805,7 +9793,7 @@
       "publishedAt": "7月10日 6:22",
       "time": "7月10日 6:22",
       "collectedAt": "2026-07-10T04:57:21.530Z",
-      "rank": 93
+      "rank": 92
     },
     {
       "section": "entertainment",
@@ -9817,7 +9805,7 @@
       "publishedAt": "7月8日 10:29",
       "time": "7月8日 10:29",
       "collectedAt": "2026-07-08T04:57:58.498Z",
-      "rank": 94,
+      "rank": 93,
       "badge": "rising"
     },
     {
@@ -9830,7 +9818,7 @@
       "publishedAt": "7月6日 21:43",
       "time": "7月6日 21:43",
       "collectedAt": "2026-07-07T04:55:27.068Z",
-      "rank": 95,
+      "rank": 94,
       "badge": "rising"
     },
     {
@@ -9843,7 +9831,7 @@
       "publishedAt": "7月4日 22:37",
       "time": "7月4日 22:37",
       "collectedAt": "2026-07-04T22:56:04.238Z",
-      "rank": 96,
+      "rank": 95,
       "badge": "rising"
     },
     {
@@ -9856,7 +9844,7 @@
       "publishedAt": "7月4日 21:34",
       "time": "7月4日 21:34",
       "collectedAt": "2026-07-04T22:56:04.238Z",
-      "rank": 97,
+      "rank": 96,
       "badge": "rising"
     },
     {
@@ -9869,7 +9857,7 @@
       "publishedAt": "7月4日 16:37",
       "time": "7月4日 16:37",
       "collectedAt": "2026-07-04T10:55:44.641Z",
-      "rank": 98,
+      "rank": 97,
       "badge": "rising"
     },
     {
@@ -9882,7 +9870,7 @@
       "publishedAt": "7月3日 12:41",
       "time": "7月3日 12:41",
       "collectedAt": "2026-07-03T10:56:27.287Z",
-      "rank": 99,
+      "rank": 98,
       "badge": "rising"
     },
     {
@@ -9895,7 +9883,7 @@
       "publishedAt": "7月2日 22:12",
       "time": "7月2日 22:12",
       "collectedAt": "2026-07-03T06:33:44.155Z",
-      "rank": 100,
+      "rank": 99,
       "badge": "rising"
     },
     {
@@ -9908,19 +9896,7 @@
       "publishedAt": "7月2日 11:40",
       "time": "7月2日 11:40",
       "collectedAt": "2026-07-03T06:33:44.155Z",
-      "rank": 101
-    },
-    {
-      "section": "entertainment",
-      "title": "原唱亲自摇人！邓紫棋出道18周年直播为尤长靖打call，“邓紫棋的兵”刷屏《歌手》直播间",
-      "source": "娱乐嗑学家",
-      "summary": "7月10日晚，恰逢邓紫棋出道18周年纪念日。她原定在杭州奥体中心“大莲花”举办“I AM GLORIA”世界巡回演唱会2.0杭州站演出，这也是她巡演的第300场里程碑。",
-      "url": "https://view.inews.qq.com/a/20260710A0CN9K00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月10日 23:42",
-      "time": "7月10日 23:42",
-      "collectedAt": "2026-07-11T10:56:10.766Z",
-      "rank": 102
+      "rank": 100
     },
     {
       "section": "entertainment",
@@ -9932,7 +9908,7 @@
       "publishedAt": "7月10日 17:01",
       "time": "7月10日 17:01",
       "collectedAt": "2026-07-10T10:55:41.411Z",
-      "rank": 103
+      "rank": 101
     },
     {
       "section": "entertainment",
@@ -9944,7 +9920,7 @@
       "publishedAt": "7月10日 16:50",
       "time": "7月10日 16:50",
       "collectedAt": "2026-07-10T10:55:41.411Z",
-      "rank": 104
+      "rank": 102
     },
     {
       "section": "entertainment",
@@ -9956,7 +9932,7 @@
       "publishedAt": "7月9日 22:54",
       "time": "7月9日 22:54",
       "collectedAt": "2026-07-09T22:56:01.717Z",
-      "rank": 105
+      "rank": 103
     },
     {
       "section": "entertainment",
@@ -9968,7 +9944,7 @@
       "publishedAt": "7月9日 19:51",
       "time": "7月9日 19:51",
       "collectedAt": "2026-07-09T22:56:01.717Z",
-      "rank": 106
+      "rank": 104
     },
     {
       "section": "entertainment",
@@ -9980,7 +9956,7 @@
       "publishedAt": "7月11日 8:03",
       "time": "7月11日 8:03",
       "collectedAt": "2026-07-11T04:56:21.808Z",
-      "rank": 107
+      "rank": 105
     },
     {
       "section": "entertainment",
@@ -9992,7 +9968,7 @@
       "publishedAt": "7月9日 17:47",
       "time": "7月9日 17:47",
       "collectedAt": "2026-07-09T22:56:01.717Z",
-      "rank": 108
+      "rank": 106
     },
     {
       "section": "entertainment",
@@ -10004,7 +9980,7 @@
       "publishedAt": "7月9日 17:39",
       "time": "7月9日 17:39",
       "collectedAt": "2026-07-09T22:56:01.717Z",
-      "rank": 109
+      "rank": 107
     },
     {
       "section": "entertainment",
@@ -10016,7 +9992,7 @@
       "publishedAt": "7月9日 15:54",
       "time": "7月9日 15:54",
       "collectedAt": "2026-07-10T04:57:21.530Z",
-      "rank": 110
+      "rank": 108
     },
     {
       "section": "entertainment",
@@ -10028,7 +10004,7 @@
       "publishedAt": "7月9日 12:25",
       "time": "7月9日 12:25",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 111
+      "rank": 109
     },
     {
       "section": "entertainment",
@@ -10040,7 +10016,7 @@
       "publishedAt": "7月9日 10:08",
       "time": "7月9日 10:08",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 112
+      "rank": 110
     },
     {
       "section": "entertainment",
@@ -10052,7 +10028,7 @@
       "publishedAt": "7月8日 22:27",
       "time": "7月8日 22:27",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 113
+      "rank": 111
     },
     {
       "section": "entertainment",
@@ -10064,7 +10040,7 @@
       "publishedAt": "7月9日 21:35",
       "time": "7月9日 21:35",
       "collectedAt": "2026-07-09T22:56:01.717Z",
-      "rank": 114
+      "rank": 112
     },
     {
       "section": "entertainment",
@@ -10076,7 +10052,7 @@
       "publishedAt": "7月9日 21:09",
       "time": "7月9日 21:09",
       "collectedAt": "2026-07-09T22:56:01.717Z",
-      "rank": 115
+      "rank": 113
     },
     {
       "section": "entertainment",
@@ -10088,7 +10064,7 @@
       "publishedAt": "7月10日 10:56",
       "time": "7月10日 10:56",
       "collectedAt": "2026-07-10T04:57:21.530Z",
-      "rank": 116
+      "rank": 114
     },
     {
       "section": "entertainment",
@@ -10100,7 +10076,7 @@
       "publishedAt": "7月9日 15:15",
       "time": "7月9日 15:15",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 117
+      "rank": 115
     },
     {
       "section": "entertainment",
@@ -10112,7 +10088,7 @@
       "publishedAt": "7月9日 14:27",
       "time": "7月9日 14:27",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 118
+      "rank": 116
     },
     {
       "section": "entertainment",
@@ -10124,7 +10100,7 @@
       "publishedAt": "7月9日 12:48",
       "time": "7月9日 12:48",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 119
+      "rank": 117
     },
     {
       "section": "entertainment",
@@ -10136,7 +10112,7 @@
       "publishedAt": "7月9日 12:38",
       "time": "7月9日 12:38",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 120
+      "rank": 118
     },
     {
       "section": "entertainment",
@@ -10148,7 +10124,7 @@
       "publishedAt": "7月9日 8:25",
       "time": "7月9日 8:25",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 121
+      "rank": 119
     },
     {
       "section": "entertainment",
@@ -10160,7 +10136,7 @@
       "publishedAt": "7月9日 7:03",
       "time": "7月9日 7:03",
       "collectedAt": "2026-07-09T04:56:57.128Z",
-      "rank": 122
+      "rank": 120
     },
     {
       "section": "entertainment",
@@ -10172,7 +10148,7 @@
       "publishedAt": "7月9日 3:21",
       "time": "7月9日 3:21",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 123
+      "rank": 121
     },
     {
       "section": "entertainment",
@@ -10184,7 +10160,7 @@
       "publishedAt": "7月8日 22:44",
       "time": "7月8日 22:44",
       "collectedAt": "2026-07-08T22:55:51.104Z",
-      "rank": 124
+      "rank": 122
     },
     {
       "section": "entertainment",
@@ -10196,7 +10172,7 @@
       "publishedAt": "7月8日 21:27",
       "time": "7月8日 21:27",
       "collectedAt": "2026-07-09T04:56:57.128Z",
-      "rank": 125
+      "rank": 123
     },
     {
       "section": "entertainment",
@@ -10208,7 +10184,7 @@
       "publishedAt": "7月8日 21:15",
       "time": "7月8日 21:15",
       "collectedAt": "2026-07-08T22:55:51.104Z",
-      "rank": 126
+      "rank": 124
     },
     {
       "section": "entertainment",
@@ -10220,7 +10196,7 @@
       "publishedAt": "7月8日 17:07",
       "time": "7月8日 17:07",
       "collectedAt": "2026-07-08T10:55:42.002Z",
-      "rank": 127
+      "rank": 125
     },
     {
       "section": "entertainment",
@@ -10232,7 +10208,7 @@
       "publishedAt": "7月8日 2:00",
       "time": "7月8日 2:00",
       "collectedAt": "2026-07-07T22:55:47.323Z",
-      "rank": 128
+      "rank": 126
     },
     {
       "section": "entertainment",
@@ -10244,7 +10220,7 @@
       "publishedAt": "7月7日 16:45",
       "time": "7月7日 16:45",
       "collectedAt": "2026-07-07T10:56:01.945Z",
-      "rank": 129
+      "rank": 127
     },
     {
       "section": "entertainment",
@@ -10256,7 +10232,7 @@
       "publishedAt": "7月3日 18:18",
       "time": "7月3日 18:18",
       "collectedAt": "2026-07-03T22:56:20.837Z",
-      "rank": 130
+      "rank": 128
     },
     {
       "section": "entertainment",
@@ -10268,7 +10244,7 @@
       "publishedAt": "7月10日 9:02",
       "time": "7月10日 9:02",
       "collectedAt": "2026-07-10T04:57:21.530Z",
-      "rank": 131
+      "rank": 129
     },
     {
       "section": "entertainment",
@@ -10280,7 +10256,7 @@
       "publishedAt": "7月10日 16:50",
       "time": "7月10日 16:50",
       "collectedAt": "2026-07-11T04:56:21.808Z",
-      "rank": 132
+      "rank": 130
     },
     {
       "section": "entertainment",
@@ -10292,7 +10268,7 @@
       "publishedAt": "7月10日 16:01",
       "time": "7月10日 16:01",
       "collectedAt": "2026-07-11T04:56:21.808Z",
-      "rank": 133
+      "rank": 131
     },
     {
       "section": "entertainment",
@@ -10304,7 +10280,7 @@
       "publishedAt": "7月2日 2:19",
       "time": "7月2日 2:19",
       "collectedAt": "2026-07-03T06:33:44.155Z",
-      "rank": 134
+      "rank": 132
     },
     {
       "section": "entertainment",
@@ -10316,7 +10292,7 @@
       "publishedAt": "7月9日 12:56",
       "time": "7月9日 12:56",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 135,
+      "rank": 133,
       "badge": "rising"
     },
     {
@@ -10329,7 +10305,7 @@
       "publishedAt": "7月5日 13:02",
       "time": "7月5日 13:02",
       "collectedAt": "2026-07-05T14:08:38.007Z",
-      "rank": 136,
+      "rank": 134,
       "badge": "rising"
     },
     {
@@ -10342,7 +10318,7 @@
       "publishedAt": "7月3日 22:19",
       "time": "7月3日 22:19",
       "collectedAt": "2026-07-03T22:56:20.837Z",
-      "rank": 137,
+      "rank": 135,
       "badge": "rising"
     },
     {
@@ -10359,7 +10335,7 @@
       "team": "",
       "rawTitle": "",
       "rawSummary": "",
-      "rank": 138
+      "rank": 136
     },
     {
       "section": "entertainment",
@@ -10371,7 +10347,7 @@
       "publishedAt": "7月10日 19:29",
       "time": "7月10日 19:29",
       "collectedAt": "2026-07-10T22:55:48.544Z",
-      "rank": 139
+      "rank": 137
     },
     {
       "section": "entertainment",
@@ -10383,7 +10359,7 @@
       "publishedAt": "7月9日 15:32",
       "time": "7月9日 15:32",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 140
+      "rank": 138
     },
     {
       "section": "entertainment",
@@ -10395,7 +10371,7 @@
       "publishedAt": "7月9日 17:27",
       "time": "7月9日 17:27",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 141
+      "rank": 139
     },
     {
       "section": "entertainment",
@@ -10407,7 +10383,7 @@
       "publishedAt": "7月9日 17:17",
       "time": "7月9日 17:17",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 142
+      "rank": 140
     },
     {
       "section": "entertainment",
@@ -10419,7 +10395,7 @@
       "publishedAt": "7月9日 17:14",
       "time": "7月9日 17:14",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 143
+      "rank": 141
     },
     {
       "section": "entertainment",
@@ -10431,7 +10407,7 @@
       "publishedAt": "7月9日 17:07",
       "time": "7月9日 17:07",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 144
+      "rank": 142
     },
     {
       "section": "entertainment",
@@ -10443,7 +10419,7 @@
       "publishedAt": "7月9日 17:04",
       "time": "7月9日 17:04",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 145
+      "rank": 143
     },
     {
       "section": "entertainment",
@@ -10455,7 +10431,7 @@
       "publishedAt": "7月9日 15:52",
       "time": "7月9日 15:52",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 146
+      "rank": 144
     },
     {
       "section": "entertainment",
@@ -10467,7 +10443,7 @@
       "publishedAt": "7月9日 10:52",
       "time": "7月9日 10:52",
       "collectedAt": "2026-07-09T04:56:57.128Z",
-      "rank": 147
+      "rank": 145
     },
     {
       "section": "entertainment",
@@ -10479,19 +10455,7 @@
       "publishedAt": "7月9日 8:55",
       "time": "7月9日 8:55",
       "collectedAt": "2026-07-09T04:56:57.128Z",
-      "rank": 148
-    },
-    {
-      "section": "entertainment",
-      "title": "姆巴佩受伤“警报解除”！终场哨后起舞，已造11球，冲击金靴金球",
-      "source": "奥拜尔",
-      "summary": "凭借姆巴佩、登贝莱的进球，法国队战胜摩洛哥之后晋级半决赛。姆巴佩提前退场，引发了他是否受伤的猜测。",
-      "url": "https://view.inews.qq.com/a/20260710A0245S00?scene=news-skill",
-      "heat": 6,
-      "publishedAt": "7月10日 6:19",
-      "time": "7月10日 6:19",
-      "collectedAt": "2026-07-10T04:57:21.530Z",
-      "rank": 149
+      "rank": 146
     },
     {
       "section": "entertainment",
@@ -10503,10 +10467,23 @@
       "publishedAt": "7月7日 19:11",
       "time": "7月7日 19:11",
       "collectedAt": "2026-07-09T10:55:55.601Z",
-      "rank": 150
+      "rank": 147
     }
   ],
   "stock": [
+    {
+      "section": "stock",
+      "title": "SK海力士点燃存储芯片！英伟达市值重返5万亿美元，中概股冲高回落",
+      "source": "第一财经",
+      "summary": "*三大股指收高，标普500指数逼近7600点； *中长期美债收益率走高，2年期美债报4.21%； *Meta本周累计涨幅接近15%，创下2024年初以来最佳单周表现。周五美股收高，韩国存储芯片巨头SK 海力士于纳斯达克上市首日行情火爆...",
+      "url": "https://view.inews.qq.com/a/20260711A02HUM00?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月11日 7:33",
+      "time": "7月11日 7:33",
+      "collectedAt": "2026-07-11T10:56:10.871Z",
+      "rank": 1,
+      "badge": "rising"
+    },
     {
       "section": "stock",
       "title": "时隔三年，全球PE巨头再出手？华平投资拟增持中欧基金",
@@ -10517,7 +10494,7 @@
       "publishedAt": "7月11日 11:33",
       "time": "7月11日 11:33",
       "collectedAt": "2026-07-11T04:56:21.903Z",
-      "rank": 1,
+      "rank": 2,
       "badge": "rising"
     },
     {
@@ -10530,84 +10507,7 @@
       "publishedAt": "7月11日 10:19",
       "time": "7月11日 10:19",
       "collectedAt": "2026-07-11T04:56:21.903Z",
-      "rank": 2,
-      "badge": "rising"
-    },
-    {
-      "section": "stock",
-      "title": "SK海力士点燃存储芯片！英伟达市值重返5万亿美元，中概股冲高回落",
-      "source": "第一财经",
-      "summary": "*三大股指收高，标普500指数逼近7600点； *中长期美债收益率走高，2年期美债报4.21%； *Meta本周累计涨幅接近15%，创下2024年初以来最佳单周表现。周五美股收高，韩国存储芯片巨头SK 海力士于纳斯达克上市首日行情火爆...",
-      "url": "https://view.inews.qq.com/a/20260711A02HUM00?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月11日 7:33",
-      "time": "7月11日 7:33",
-      "collectedAt": "2026-07-11T10:56:10.871Z",
       "rank": 3,
-      "badge": "rising"
-    },
-    {
-      "section": "stock",
-      "title": "行业政策利好密集释放，A股、港股医药联袂大涨",
-      "source": "界面新闻",
-      "summary": "截至2026年7月10日 14:06，医药ETF华安(512120)上涨1.79%，盘中换手5.91%，成交2310.26万元。跟踪指数中证细分医药产业主题指数(000814)强势上涨2.07%...",
-      "url": "https://view.inews.qq.com/a/20260710A06JUK00?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月10日 14:14",
-      "time": "7月10日 14:14",
-      "collectedAt": "2026-07-10T22:55:48.639Z",
-      "rank": 4,
-      "badge": "rising"
-    },
-    {
-      "section": "stock",
-      "title": "配置还是套利？机构“扎堆”投公募基金背后的税差争议",
-      "source": "21世纪经济报道",
-      "summary": "“我们这边虽然发的也是公募属性的理财产品，但没享受到公募基金的免税待遇，”一位大行理财子公司投资经理近期对记者感慨道。“现在资产收益率越来越低，大家对税收成本的敏感度更高了——之前其实也在意，现...",
-      "url": "https://view.inews.qq.com/a/20260710A0B1CR00?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月10日 20:23",
-      "time": "7月10日 20:23",
-      "collectedAt": "2026-07-10T22:55:48.639Z",
-      "rank": 5,
-      "badge": "rising"
-    },
-    {
-      "section": "stock",
-      "title": "港股连续两周反弹，底部是否已至？",
-      "source": "21世纪经济报道",
-      "summary": "7月份的第二周，港股市场迎来强势反弹。截至7月10日收盘，​恒生指数报收24175.12点，单周上涨3.53%​；​恒生科技指数连续两周上涨，收于4721.66点，周涨幅达4.94%​；​恒生中...",
-      "url": "https://view.inews.qq.com/a/20260710A0AXW000?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月10日 20:13",
-      "time": "7月10日 20:13",
-      "collectedAt": "2026-07-10T22:55:48.639Z",
-      "rank": 6,
-      "badge": "rising"
-    },
-    {
-      "section": "stock",
-      "title": "V观财报｜创世纪及董事长夏军等被警示",
-      "source": "中新经纬",
-      "summary": "中新经纬7月10日电 因未及时披露重大诉讼进展情况，创世纪及董事长夏军等2人被警示。创世纪7月10日盘后公告，公司于近日收到广东证监局下发的《关于对广东创世纪智能装备集团股份有限公司及夏军、伍永...",
-      "url": "https://view.inews.qq.com/a/20260710A0AAGW00?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月10日 19:11",
-      "time": "7月10日 19:11",
-      "collectedAt": "2026-07-10T22:55:48.639Z",
-      "rank": 7
-    },
-    {
-      "section": "stock",
-      "title": "芯片板块高位回调，电子行业处于高拥挤区间，基金经理提示短期波动风险",
-      "source": "21世纪经济报道",
-      "summary": "7月10日午后，三大指数集体回调，芯片产业领跌，半导体设备、材料多股回落。半导体设备ETF招商（561980）昨日10cm涨停，早盘一度涨超3%、截至收盘跌超6%，盘中振幅高达9.95%。",
-      "url": "https://view.inews.qq.com/a/20260710A07LX100?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月10日 15:28",
-      "time": "7月10日 15:28",
-      "collectedAt": "2026-07-10T10:55:41.486Z",
-      "rank": 8,
       "badge": "rising"
     },
     {
@@ -10620,7 +10520,7 @@
       "publishedAt": "7月10日 15:03",
       "time": "7月10日 15:03",
       "collectedAt": "2026-07-10T10:55:41.486Z",
-      "rank": 9,
+      "rank": 4,
       "badge": "rising"
     },
     {
@@ -10633,7 +10533,20 @@
       "publishedAt": "7月10日 9:38",
       "time": "7月10日 9:38",
       "collectedAt": "2026-07-10T10:55:41.486Z",
-      "rank": 10
+      "rank": 5
+    },
+    {
+      "section": "stock",
+      "title": "行业政策利好密集释放，A股、港股医药联袂大涨",
+      "source": "界面新闻",
+      "summary": "截至2026年7月10日 14:06，医药ETF华安(512120)上涨1.79%，盘中换手5.91%，成交2310.26万元。跟踪指数中证细分医药产业主题指数(000814)强势上涨2.07%...",
+      "url": "https://view.inews.qq.com/a/20260710A06JUK00?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月10日 14:14",
+      "time": "7月10日 14:14",
+      "collectedAt": "2026-07-10T22:55:48.639Z",
+      "rank": 6,
+      "badge": "rising"
     },
     {
       "section": "stock",
@@ -10645,7 +10558,7 @@
       "publishedAt": "7月10日 13:39",
       "time": "7月10日 13:39",
       "collectedAt": "2026-07-10T10:55:41.486Z",
-      "rank": 11
+      "rank": 7
     },
     {
       "section": "stock",
@@ -10657,7 +10570,7 @@
       "publishedAt": "7月11日 4:01",
       "time": "7月11日 4:01",
       "collectedAt": "2026-07-10T22:55:48.639Z",
-      "rank": 12
+      "rank": 8
     },
     {
       "section": "stock",
@@ -10669,7 +10582,7 @@
       "publishedAt": "7月8日 10:09",
       "time": "7月8日 10:09",
       "collectedAt": "2026-07-08T04:57:58.682Z",
-      "rank": 13
+      "rank": 9
     },
     {
       "section": "stock",
@@ -10681,7 +10594,7 @@
       "publishedAt": "7月7日 16:18",
       "time": "7月7日 16:18",
       "collectedAt": "2026-07-07T10:56:02.078Z",
-      "rank": 14,
+      "rank": 10,
       "badge": "rising"
     },
     {
@@ -10694,7 +10607,7 @@
       "publishedAt": "7月6日 17:21",
       "time": "7月6日 17:21",
       "collectedAt": "2026-07-06T10:56:24.358Z",
-      "rank": 15,
+      "rank": 11,
       "badge": "rising"
     },
     {
@@ -10707,7 +10620,7 @@
       "publishedAt": "7月6日 15:18",
       "time": "7月6日 15:18",
       "collectedAt": "2026-07-06T10:56:24.358Z",
-      "rank": 16
+      "rank": 12
     },
     {
       "section": "stock",
@@ -10719,7 +10632,7 @@
       "publishedAt": "7月6日 12:49",
       "time": "7月6日 12:49",
       "collectedAt": "2026-07-06T10:56:24.358Z",
-      "rank": 17,
+      "rank": 13,
       "badge": "rising"
     },
     {
@@ -10732,7 +10645,7 @@
       "publishedAt": "7月6日 12:18",
       "time": "7月6日 12:18",
       "collectedAt": "2026-07-06T10:56:24.358Z",
-      "rank": 18
+      "rank": 14
     },
     {
       "section": "stock",
@@ -10744,7 +10657,7 @@
       "publishedAt": "7月6日 11:53",
       "time": "7月6日 11:53",
       "collectedAt": "2026-07-06T10:56:24.358Z",
-      "rank": 19
+      "rank": 15
     },
     {
       "section": "stock",
@@ -10756,7 +10669,7 @@
       "publishedAt": "7月6日 10:04",
       "time": "7月6日 10:04",
       "collectedAt": "2026-07-06T10:56:24.358Z",
-      "rank": 20
+      "rank": 16
     },
     {
       "section": "stock",
@@ -10768,7 +10681,7 @@
       "publishedAt": "7月6日 9:39",
       "time": "7月6日 9:39",
       "collectedAt": "2026-07-06T10:56:24.358Z",
-      "rank": 21,
+      "rank": 17,
       "badge": "rising"
     },
     {
@@ -10781,7 +10694,7 @@
       "publishedAt": "7月6日 9:39",
       "time": "7月6日 9:39",
       "collectedAt": "2026-07-06T10:56:24.358Z",
-      "rank": 22,
+      "rank": 18,
       "badge": "rising"
     },
     {
@@ -10794,7 +10707,7 @@
       "publishedAt": "7月5日 17:06",
       "time": "7月5日 17:06",
       "collectedAt": "2026-07-05T14:08:38.122Z",
-      "rank": 23,
+      "rank": 19,
       "badge": "rising"
     },
     {
@@ -10807,7 +10720,7 @@
       "publishedAt": "7月5日 17:01",
       "time": "7月5日 17:01",
       "collectedAt": "2026-07-05T14:08:38.122Z",
-      "rank": 24,
+      "rank": 20,
       "badge": "rising"
     },
     {
@@ -10820,7 +10733,7 @@
       "publishedAt": "7月5日 14:13",
       "time": "7月5日 14:13",
       "collectedAt": "2026-07-05T14:08:38.122Z",
-      "rank": 25,
+      "rank": 21,
       "badge": "rising"
     },
     {
@@ -10833,7 +10746,7 @@
       "publishedAt": "7月5日 11:03",
       "time": "7月5日 11:03",
       "collectedAt": "2026-07-05T04:57:54.307Z",
-      "rank": 26
+      "rank": 22
     },
     {
       "section": "stock",
@@ -10845,7 +10758,7 @@
       "publishedAt": "7月5日 10:43",
       "time": "7月5日 10:43",
       "collectedAt": "2026-07-05T04:57:54.307Z",
-      "rank": 27
+      "rank": 23
     },
     {
       "section": "stock",
@@ -10857,7 +10770,7 @@
       "publishedAt": "7月5日 5:22",
       "time": "7月5日 5:22",
       "collectedAt": "2026-07-04T22:56:04.351Z",
-      "rank": 28
+      "rank": 24
     },
     {
       "section": "stock",
@@ -10869,7 +10782,7 @@
       "publishedAt": "7月10日 9:06",
       "time": "7月10日 9:06",
       "collectedAt": "2026-07-10T10:55:41.486Z",
-      "rank": 29
+      "rank": 25
     },
     {
       "section": "stock",
@@ -10881,7 +10794,7 @@
       "publishedAt": "7月10日 17:10",
       "time": "7月10日 17:10",
       "collectedAt": "2026-07-10T10:55:41.486Z",
-      "rank": 30
+      "rank": 26
     },
     {
       "section": "stock",
@@ -10893,7 +10806,45 @@
       "publishedAt": "7月10日 16:49",
       "time": "7月10日 16:49",
       "collectedAt": "2026-07-10T10:55:41.486Z",
-      "rank": 31
+      "rank": 27
+    },
+    {
+      "section": "stock",
+      "title": "配置还是套利？机构“扎堆”投公募基金背后的税差争议",
+      "source": "21世纪经济报道",
+      "summary": "“我们这边虽然发的也是公募属性的理财产品，但没享受到公募基金的免税待遇，”一位大行理财子公司投资经理近期对记者感慨道。“现在资产收益率越来越低，大家对税收成本的敏感度更高了——之前其实也在意，现...",
+      "url": "https://view.inews.qq.com/a/20260710A0B1CR00?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月10日 20:23",
+      "time": "7月10日 20:23",
+      "collectedAt": "2026-07-10T22:55:48.639Z",
+      "rank": 28,
+      "badge": "rising"
+    },
+    {
+      "section": "stock",
+      "title": "港股连续两周反弹，底部是否已至？",
+      "source": "21世纪经济报道",
+      "summary": "7月份的第二周，港股市场迎来强势反弹。截至7月10日收盘，​恒生指数报收24175.12点，单周上涨3.53%​；​恒生科技指数连续两周上涨，收于4721.66点，周涨幅达4.94%​；​恒生中...",
+      "url": "https://view.inews.qq.com/a/20260710A0AXW000?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月10日 20:13",
+      "time": "7月10日 20:13",
+      "collectedAt": "2026-07-10T22:55:48.639Z",
+      "rank": 29,
+      "badge": "rising"
+    },
+    {
+      "section": "stock",
+      "title": "V观财报｜创世纪及董事长夏军等被警示",
+      "source": "中新经纬",
+      "summary": "中新经纬7月10日电 因未及时披露重大诉讼进展情况，创世纪及董事长夏军等2人被警示。创世纪7月10日盘后公告，公司于近日收到广东证监局下发的《关于对广东创世纪智能装备集团股份有限公司及夏军、伍永...",
+      "url": "https://view.inews.qq.com/a/20260710A0AAGW00?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月10日 19:11",
+      "time": "7月10日 19:11",
+      "collectedAt": "2026-07-10T22:55:48.639Z",
+      "rank": 30
     },
     {
       "section": "stock",
@@ -10904,6 +10855,19 @@
       "heat": 10,
       "publishedAt": "7月10日 16:34",
       "time": "7月10日 16:34",
+      "collectedAt": "2026-07-10T10:55:41.486Z",
+      "rank": 31,
+      "badge": "rising"
+    },
+    {
+      "section": "stock",
+      "title": "芯片板块高位回调，电子行业处于高拥挤区间，基金经理提示短期波动风险",
+      "source": "21世纪经济报道",
+      "summary": "7月10日午后，三大指数集体回调，芯片产业领跌，半导体设备、材料多股回落。半导体设备ETF招商（561980）昨日10cm涨停，早盘一度涨超3%、截至收盘跌超6%，盘中振幅高达9.95%。",
+      "url": "https://view.inews.qq.com/a/20260710A07LX100?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月10日 15:28",
+      "time": "7月10日 15:28",
       "collectedAt": "2026-07-10T10:55:41.486Z",
       "rank": 32,
       "badge": "rising"
@@ -11257,6 +11221,30 @@
     },
     {
       "section": "stock",
+      "title": "9个交易日跌掉1600亿市值，A股存储芯片龙头兆易创新怎么了？",
+      "source": "观察者网",
+      "summary": "(文/孙梅欣 编辑/吕栋）上半年业绩出现10倍预增的“存储设计一哥”兆易创新，股价却出现大跌。兆易创新在7月9日晚间发布的半年预增公告显示，今年上半年公司归母净利润预计为69亿元，同比增幅达到1099%，相当于上涨了10倍，业绩增幅惊人。",
+      "url": "https://view.inews.qq.com/a/20260711A076JH00?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月11日 16:09",
+      "time": "7月11日 16:09",
+      "collectedAt": "2026-07-11T10:56:10.871Z",
+      "rank": 61
+    },
+    {
+      "section": "stock",
+      "title": "海峡通不通航，为何要看战争险保费",
+      "source": "新华社新闻",
+      "summary": "伦敦7月11日电 经济热点问答｜海峡通不通航，为何要看战争险保费 新华社记者高文成 连日来，随着美伊军事冲突再度升级，通过霍尔木兹海峡的船舶战争险保险费率再次上涨。英国保险业人士告诉",
+      "url": "https://view.inews.qq.com/a/20260711A06NNA00?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月11日 15:30",
+      "time": "7月11日 15:30",
+      "collectedAt": "2026-07-11T10:56:10.871Z",
+      "rank": 62
+    },
+    {
+      "section": "stock",
       "title": "宁德时代天行Ⅱ轻商超充版电池发布，新能源车ETF平安备受关注",
       "source": "界面新闻",
       "summary": "截至2026年7月9日 10:05，中证新能源汽车产业指数(930997)成分股方面涨跌互现，联合动力领涨5.41%，宁德时代上涨0.89%，杭可科技上涨0.68%；天华新能领跌。新能源车ETF平安(515700)，最新报价2.25元。",
@@ -11265,7 +11253,7 @@
       "publishedAt": "7月9日 10:29",
       "time": "7月9日 10:29",
       "collectedAt": "2026-07-09T04:56:57.293Z",
-      "rank": 61
+      "rank": 63
     },
     {
       "section": "stock",
@@ -11277,7 +11265,7 @@
       "publishedAt": "7月9日 10:13",
       "time": "7月9日 10:13",
       "collectedAt": "2026-07-09T04:56:57.293Z",
-      "rank": 62
+      "rank": 64
     },
     {
       "section": "stock",
@@ -11289,7 +11277,19 @@
       "publishedAt": "7月8日 10:38",
       "time": "7月8日 10:38",
       "collectedAt": "2026-07-08T04:57:58.682Z",
-      "rank": 63
+      "rank": 65
+    },
+    {
+      "section": "stock",
+      "title": "全球“存王”SK海力士登陆纳斯达克，首日上涨逾12%",
+      "source": "时代周报",
+      "summary": "本文 作者：宋逸霆 韩迅6月的全球资本市场上屡现股市造富的惊喜故事。“有个韩国女孩发信息给我说，这是她成年以来最好的夏天，这一年她找到了工作，把所有的工资扔进了股市，赚了5年的薪水。",
+      "url": "https://view.inews.qq.com/a/20260711A05ZXX00?scene=news-skill",
+      "heat": 10,
+      "publishedAt": "7月11日 14:21",
+      "time": "7月11日 14:21",
+      "collectedAt": "2026-07-11T10:56:10.872Z",
+      "rank": 66
     },
     {
       "section": "stock",
@@ -11301,7 +11301,7 @@
       "publishedAt": "7月11日 10:29",
       "time": "7月11日 10:29",
       "collectedAt": "2026-07-11T04:56:21.903Z",
-      "rank": 64
+      "rank": 67
     },
     {
       "section": "stock",
@@ -11313,7 +11313,7 @@
       "publishedAt": "7月9日 11:39",
       "time": "7月9日 11:39",
       "collectedAt": "2026-07-09T04:56:57.293Z",
-      "rank": 65,
+      "rank": 68,
       "badge": "rising"
     },
     {
@@ -11326,7 +11326,7 @@
       "publishedAt": "7月9日 11:23",
       "time": "7月9日 11:23",
       "collectedAt": "2026-07-09T04:56:57.293Z",
-      "rank": 66
+      "rank": 69
     },
     {
       "section": "stock",
@@ -11338,7 +11338,7 @@
       "publishedAt": "7月9日 11:14",
       "time": "7月9日 11:14",
       "collectedAt": "2026-07-09T04:56:57.293Z",
-      "rank": 67,
+      "rank": 70,
       "badge": "rising"
     },
     {
@@ -11351,7 +11351,7 @@
       "publishedAt": "7月9日 11:08",
       "time": "7月9日 11:08",
       "collectedAt": "2026-07-09T04:56:57.293Z",
-      "rank": 68,
+      "rank": 71,
       "badge": "rising"
     },
     {
@@ -11364,7 +11364,7 @@
       "publishedAt": "7月9日 10:20",
       "time": "7月9日 10:20",
       "collectedAt": "2026-07-09T04:56:57.293Z",
-      "rank": 69
+      "rank": 72
     },
     {
       "section": "stock",
@@ -11376,7 +11376,7 @@
       "publishedAt": "7月9日 9:39",
       "time": "7月9日 9:39",
       "collectedAt": "2026-07-09T04:56:57.293Z",
-      "rank": 70
+      "rank": 73
     },
     {
       "section": "stock",
@@ -11388,7 +11388,7 @@
       "publishedAt": "7月9日 3:22",
       "time": "7月9日 3:22",
       "collectedAt": "2026-07-08T22:55:51.241Z",
-      "rank": 71
+      "rank": 74
     },
     {
       "section": "stock",
@@ -11400,7 +11400,7 @@
       "publishedAt": "7月8日 21:42",
       "time": "7月8日 21:42",
       "collectedAt": "2026-07-08T22:55:51.241Z",
-      "rank": 72
+      "rank": 75
     },
     {
       "section": "stock",
@@ -11412,7 +11412,7 @@
       "publishedAt": "7月8日 6:04",
       "time": "7月8日 6:04",
       "collectedAt": "2026-07-08T04:57:58.682Z",
-      "rank": 73
+      "rank": 76
     },
     {
       "section": "stock",
@@ -11424,7 +11424,7 @@
       "publishedAt": "7月8日 5:32",
       "time": "7月8日 5:32",
       "collectedAt": "2026-07-07T22:55:47.468Z",
-      "rank": 74
+      "rank": 77
     },
     {
       "section": "stock",
@@ -11436,7 +11436,7 @@
       "publishedAt": "7月7日 23:27",
       "time": "7月7日 23:27",
       "collectedAt": "2026-07-07T22:55:47.468Z",
-      "rank": 75
+      "rank": 78
     },
     {
       "section": "stock",
@@ -11448,7 +11448,7 @@
       "publishedAt": "7月7日 23:18",
       "time": "7月7日 23:18",
       "collectedAt": "2026-07-07T22:55:47.468Z",
-      "rank": 76
+      "rank": 79
     },
     {
       "section": "stock",
@@ -11460,7 +11460,7 @@
       "publishedAt": "7月7日 18:47",
       "time": "7月7日 18:47",
       "collectedAt": "2026-07-07T22:55:47.468Z",
-      "rank": 77
+      "rank": 80
     },
     {
       "section": "stock",
@@ -11472,7 +11472,7 @@
       "publishedAt": "7月7日 16:41",
       "time": "7月7日 16:41",
       "collectedAt": "2026-07-07T10:56:02.078Z",
-      "rank": 78
+      "rank": 81
     },
     {
       "section": "stock",
@@ -11484,7 +11484,7 @@
       "publishedAt": "7月7日 13:29",
       "time": "7月7日 13:29",
       "collectedAt": "2026-07-07T22:55:47.468Z",
-      "rank": 79,
+      "rank": 82,
       "badge": "rising"
     },
     {
@@ -11497,7 +11497,7 @@
       "publishedAt": "7月7日 11:40",
       "time": "7月7日 11:40",
       "collectedAt": "2026-07-07T04:55:27.253Z",
-      "rank": 80
+      "rank": 83
     },
     {
       "section": "stock",
@@ -11509,7 +11509,7 @@
       "publishedAt": "7月7日 9:29",
       "time": "7月7日 9:29",
       "collectedAt": "2026-07-07T04:55:27.253Z",
-      "rank": 81
+      "rank": 84
     },
     {
       "section": "stock",
@@ -11521,7 +11521,7 @@
       "publishedAt": "7月7日 5:04",
       "time": "7月7日 5:04",
       "collectedAt": "2026-07-06T22:55:49.740Z",
-      "rank": 82
+      "rank": 85
     },
     {
       "section": "stock",
@@ -11533,7 +11533,7 @@
       "publishedAt": "7月6日 8:39",
       "time": "7月6日 8:39",
       "collectedAt": "2026-07-06T10:56:24.358Z",
-      "rank": 83
+      "rank": 86
     },
     {
       "section": "stock",
@@ -11545,7 +11545,7 @@
       "publishedAt": "7月10日 9:39",
       "time": "7月10日 9:39",
       "collectedAt": "2026-07-10T04:57:21.601Z",
-      "rank": 84,
+      "rank": 87,
       "badge": "rising"
     },
     {
@@ -11558,7 +11558,7 @@
       "publishedAt": "7月11日 9:06",
       "time": "7月11日 9:06",
       "collectedAt": "2026-07-11T04:56:21.903Z",
-      "rank": 85
+      "rank": 88
     },
     {
       "section": "stock",
@@ -11570,19 +11570,7 @@
       "publishedAt": "7月11日 9:03",
       "time": "7月11日 9:03",
       "collectedAt": "2026-07-11T04:56:21.903Z",
-      "rank": 86
-    },
-    {
-      "section": "stock",
-      "title": "9个交易日跌掉1600亿市值，A股存储芯片龙头兆易创新怎么了？",
-      "source": "观察者网",
-      "summary": "(文/孙梅欣 编辑/吕栋）上半年业绩出现10倍预增的“存储设计一哥”兆易创新，股价却出现大跌。兆易创新在7月9日晚间发布的半年预增公告显示，今年上半年公司归母净利润预计为69亿元，同比增幅达到1099%，相当于上涨了10倍，业绩增幅惊人。",
-      "url": "https://view.inews.qq.com/a/20260711A076JH00?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月11日 16:09",
-      "time": "7月11日 16:09",
-      "collectedAt": "2026-07-11T10:56:10.871Z",
-      "rank": 87
+      "rank": 89
     },
     {
       "section": "stock",
@@ -11594,7 +11582,7 @@
       "publishedAt": "7月10日 11:08",
       "time": "7月10日 11:08",
       "collectedAt": "2026-07-10T10:55:41.486Z",
-      "rank": 88
+      "rank": 90
     },
     {
       "section": "stock",
@@ -11606,7 +11594,7 @@
       "publishedAt": "7月10日 3:17",
       "time": "7月10日 3:17",
       "collectedAt": "2026-07-09T22:56:01.780Z",
-      "rank": 89
+      "rank": 91
     },
     {
       "section": "stock",
@@ -11618,7 +11606,7 @@
       "publishedAt": "7月11日 5:33",
       "time": "7月11日 5:33",
       "collectedAt": "2026-07-10T22:55:48.639Z",
-      "rank": 90
+      "rank": 92
     },
     {
       "section": "stock",
@@ -11630,7 +11618,7 @@
       "publishedAt": "7月10日 3:44",
       "time": "7月10日 3:44",
       "collectedAt": "2026-07-09T22:56:01.780Z",
-      "rank": 91
+      "rank": 93
     },
     {
       "section": "stock",
@@ -11642,7 +11630,7 @@
       "publishedAt": "7月11日 2:37",
       "time": "7月11日 2:37",
       "collectedAt": "2026-07-10T22:55:48.639Z",
-      "rank": 92
+      "rank": 94
     },
     {
       "section": "stock",
@@ -11654,7 +11642,7 @@
       "publishedAt": "7月10日 1:24",
       "time": "7月10日 1:24",
       "collectedAt": "2026-07-09T22:56:01.780Z",
-      "rank": 93
+      "rank": 95
     },
     {
       "section": "stock",
@@ -11666,7 +11654,7 @@
       "publishedAt": "7月11日 0:29",
       "time": "7月11日 0:29",
       "collectedAt": "2026-07-10T22:55:48.639Z",
-      "rank": 94
+      "rank": 96
     },
     {
       "section": "stock",
@@ -11678,7 +11666,7 @@
       "publishedAt": "7月10日 23:22",
       "time": "7月10日 23:22",
       "collectedAt": "2026-07-10T22:55:48.639Z",
-      "rank": 95
+      "rank": 97
     },
     {
       "section": "stock",
@@ -11690,7 +11678,7 @@
       "publishedAt": "7月9日 22:02",
       "time": "7月9日 22:02",
       "collectedAt": "2026-07-09T22:56:01.780Z",
-      "rank": 96
+      "rank": 98
     },
     {
       "section": "stock",
@@ -11702,7 +11690,7 @@
       "publishedAt": "7月10日 21:03",
       "time": "7月10日 21:03",
       "collectedAt": "2026-07-10T22:55:48.639Z",
-      "rank": 97
+      "rank": 99
     },
     {
       "section": "stock",
@@ -11714,19 +11702,7 @@
       "publishedAt": "7月10日 20:28",
       "time": "7月10日 20:28",
       "collectedAt": "2026-07-10T22:55:48.639Z",
-      "rank": 98
-    },
-    {
-      "section": "stock",
-      "title": "海峡通不通航，为何要看战争险保费",
-      "source": "新华社新闻",
-      "summary": "伦敦7月11日电 经济热点问答｜海峡通不通航，为何要看战争险保费 新华社记者高文成 连日来，随着美伊军事冲突再度升级，通过霍尔木兹海峡的船舶战争险保险费率再次上涨。英国保险业人士告诉",
-      "url": "https://view.inews.qq.com/a/20260711A06NNA00?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月11日 15:30",
-      "time": "7月11日 15:30",
-      "collectedAt": "2026-07-11T10:56:10.871Z",
-      "rank": 99
+      "rank": 100
     },
     {
       "section": "stock",
@@ -11738,7 +11714,7 @@
       "publishedAt": "7月9日 15:49",
       "time": "7月9日 15:49",
       "collectedAt": "2026-07-09T10:55:55.663Z",
-      "rank": 100
+      "rank": 101
     },
     {
       "section": "stock",
@@ -11750,18 +11726,6 @@
       "publishedAt": "7月10日 19:13",
       "time": "7月10日 19:13",
       "collectedAt": "2026-07-10T22:55:48.639Z",
-      "rank": 101
-    },
-    {
-      "section": "stock",
-      "title": "全球“存王”SK海力士登陆纳斯达克，首日上涨逾12%",
-      "source": "时代周报",
-      "summary": "本文 作者：宋逸霆 韩迅6月的全球资本市场上屡现股市造富的惊喜故事。“有个韩国女孩发信息给我说，这是她成年以来最好的夏天，这一年她找到了工作，把所有的工资扔进了股市，赚了5年的薪水。",
-      "url": "https://view.inews.qq.com/a/20260711A05ZXX00?scene=news-skill",
-      "heat": 10,
-      "publishedAt": "7月11日 14:21",
-      "time": "7月11日 14:21",
-      "collectedAt": "2026-07-11T10:56:10.872Z",
       "rank": 102
     },
     {
@@ -12927,7 +12891,7 @@
       "source": "雷速体育",
       "summary": "雷速体育7月10日讯 中超联赛官方宣布，受台风巴威登陆影响，本轮武汉三镇vs河南、天津津门虎vs辽宁铁人、浙江vs青岛海牛三场比赛将延期举行。中超联赛官方公告：受台风“巴威”的影响，相关地区均发布了防汛、防台风等工作部署和要求。",
       "url": "https://view.inews.qq.com/a/20260710A08DM400?scene=news-skill",
-      "heat": 7,
+      "heat": 6,
       "publishedAt": "7月10日 16:29",
       "time": "7月10日 16:29",
       "collectedAt": "2026-07-10T10:55:41.657Z",
@@ -13011,83 +12975,11 @@
       "source": "雷速体育",
       "summary": "雷速体育7月11日讯 中超联赛第18轮，山东泰山在主场以4-3复仇云南玉昆。赛后，山东泰山主帅宿茂臻出席了新闻发布会。",
       "url": "https://view.inews.qq.com/a/20260711A02LG800?scene=news-skill",
-      "heat": 9,
+      "heat": 8,
       "publishedAt": "7月11日 8:04",
       "time": "7月11日 8:04",
       "collectedAt": "2026-07-11T04:56:22.075Z",
       "rank": 2
-    },
-    {
-      "section": "csl",
-      "title": "【中超】泽卡两射两传独造四球 泰山4比3胜玉昆",
-      "source": "体坛周报",
-      "summary": "19:35，中超联赛第18轮，山东泰山坐镇济南奥体中心体育场迎战云南玉昆。上半场泽卡状态火热独造三球，买乌郎轰出世界波，约尼查为玉昆扳回一城；下半场陈蒲再下一城，玉昆连追两球。",
-      "url": "https://view.inews.qq.com/a/20260710A0BYC600?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月10日 21:59",
-      "time": "7月10日 21:59",
-      "collectedAt": "2026-07-10T22:55:48.803Z",
-      "rank": 3
-    },
-    {
-      "section": "csl",
-      "title": "里程碑，山东泰山左后卫刘洋已在中超出战200场",
-      "source": "懂球帝",
-      "summary": "中超第18轮，山东泰山主场4-3战胜云南玉昆。本场比赛，山东泰山左后卫刘洋达成个人中超200场里程碑。",
-      "url": "https://view.inews.qq.com/a/20260711A00LZ400?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月11日 0:56",
-      "time": "7月11日 0:56",
-      "collectedAt": "2026-07-10T22:55:48.803Z",
-      "rank": 4
-    },
-    {
-      "section": "csl",
-      "title": "颜卓彬：中超和港超最大的区别是节奏；一直在向罗森文学习",
-      "source": "懂球帝",
-      "summary": "由香港电台制作、聚焦效力于中国香港代表队的纪录片《大港脚闯中超》正式面世。在青岛海牛队球员颜卓彬篇中，颜卓彬谈到了自己的一些感悟。",
-      "url": "https://view.inews.qq.com/a/20260711A01LXG00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月11日 3:26",
-      "time": "7月11日 3:26",
-      "collectedAt": "2026-07-10T22:55:48.803Z",
-      "rank": 5
-    },
-    {
-      "section": "csl",
-      "title": "王大雷：以老带新就是得有代价，希望大家多给我们时间",
-      "source": "懂球帝",
-      "summary": "北京时间7月10日晚，中超联赛第18轮角逐，山东泰山主场4-3击败云南玉昆。赛后，山东泰山队长王大雷在社交媒体里表示：“我们犯了很多错误，以老带新就是得有代价！",
-      "url": "https://view.inews.qq.com/a/20260711A00KO100?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月11日 0:51",
-      "time": "7月11日 0:51",
-      "collectedAt": "2026-07-10T22:55:48.803Z",
-      "rank": 6
-    },
-    {
-      "section": "csl",
-      "title": "中超京沪大战因台风“巴威”延期",
-      "source": "北京日报客户端",
-      "summary": "晚，上海市足协发布公告：原定于7月11日举行的北京国安队与上海申花队的2026赛季中超联赛第18轮比赛，因天气原因延期举行。目前，国安队暂时留在上海，补赛日期尚未确定。",
-      "url": "https://view.inews.qq.com/a/20260710A0AOZ600?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月10日 19:49",
-      "time": "7月10日 19:49",
-      "collectedAt": "2026-07-10T22:55:48.803Z",
-      "rank": 7
-    },
-    {
-      "section": "csl",
-      "title": "官方：深圳新鹏城中场张晓彬转会武汉三镇",
-      "source": "雷速体育",
-      "summary": "雷速体育7月10日讯 深圳新鹏城官方宣布，32岁的中场球员张晓彬已经离队，转为武汉三镇效力。官方公告经俱乐部友好协商并达成一致，即日起，球员张晓彬正式转会武汉三镇足球俱乐部。",
-      "url": "https://view.inews.qq.com/a/20260710A03G5500?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月10日 10:09",
-      "time": "7月10日 10:09",
-      "collectedAt": "2026-07-10T10:55:41.658Z",
-      "rank": 8
     },
     {
       "section": "csl",
@@ -13099,7 +12991,7 @@
       "publishedAt": "7月10日 19:41",
       "time": "7月10日 19:41",
       "collectedAt": "2026-07-10T22:55:48.803Z",
-      "rank": 9
+      "rank": 3
     },
     {
       "section": "csl",
@@ -13111,7 +13003,7 @@
       "publishedAt": "7月10日 16:29",
       "time": "7月10日 16:29",
       "collectedAt": "2026-07-10T10:55:41.658Z",
-      "rank": 10
+      "rank": 4
     },
     {
       "section": "csl",
@@ -13123,7 +13015,7 @@
       "publishedAt": "7月11日 0:01",
       "time": "7月11日 0:01",
       "collectedAt": "2026-07-10T22:55:48.803Z",
-      "rank": 11
+      "rank": 5
     },
     {
       "section": "csl",
@@ -13135,7 +13027,7 @@
       "publishedAt": "7月10日 22:44",
       "time": "7月10日 22:44",
       "collectedAt": "2026-07-10T22:55:48.803Z",
-      "rank": 12
+      "rank": 6
     },
     {
       "section": "csl",
@@ -13147,6 +13039,78 @@
       "publishedAt": "7月10日 19:29",
       "time": "7月10日 19:29",
       "collectedAt": "2026-07-10T22:55:48.803Z",
+      "rank": 7
+    },
+    {
+      "section": "csl",
+      "title": "【中超】泽卡两射两传独造四球 泰山4比3胜玉昆",
+      "source": "体坛周报",
+      "summary": "19:35，中超联赛第18轮，山东泰山坐镇济南奥体中心体育场迎战云南玉昆。上半场泽卡状态火热独造三球，买乌郎轰出世界波，约尼查为玉昆扳回一城；下半场陈蒲再下一城，玉昆连追两球。",
+      "url": "https://view.inews.qq.com/a/20260710A0BYC600?scene=news-skill",
+      "heat": 7,
+      "publishedAt": "7月10日 21:59",
+      "time": "7月10日 21:59",
+      "collectedAt": "2026-07-10T22:55:48.803Z",
+      "rank": 8
+    },
+    {
+      "section": "csl",
+      "title": "中超京沪大战因台风“巴威”延期",
+      "source": "北京日报客户端",
+      "summary": "晚，上海市足协发布公告：原定于7月11日举行的北京国安队与上海申花队的2026赛季中超联赛第18轮比赛，因天气原因延期举行。目前，国安队暂时留在上海，补赛日期尚未确定。",
+      "url": "https://view.inews.qq.com/a/20260710A0AOZ600?scene=news-skill",
+      "heat": 7,
+      "publishedAt": "7月10日 19:49",
+      "time": "7月10日 19:49",
+      "collectedAt": "2026-07-10T22:55:48.803Z",
+      "rank": 9
+    },
+    {
+      "section": "csl",
+      "title": "里程碑，山东泰山左后卫刘洋已在中超出战200场",
+      "source": "懂球帝",
+      "summary": "中超第18轮，山东泰山主场4-3战胜云南玉昆。本场比赛，山东泰山左后卫刘洋达成个人中超200场里程碑。",
+      "url": "https://view.inews.qq.com/a/20260711A00LZ400?scene=news-skill",
+      "heat": 7,
+      "publishedAt": "7月11日 0:56",
+      "time": "7月11日 0:56",
+      "collectedAt": "2026-07-10T22:55:48.803Z",
+      "rank": 10
+    },
+    {
+      "section": "csl",
+      "title": "颜卓彬：中超和港超最大的区别是节奏；一直在向罗森文学习",
+      "source": "懂球帝",
+      "summary": "由香港电台制作、聚焦效力于中国香港代表队的纪录片《大港脚闯中超》正式面世。在青岛海牛队球员颜卓彬篇中，颜卓彬谈到了自己的一些感悟。",
+      "url": "https://view.inews.qq.com/a/20260711A01LXG00?scene=news-skill",
+      "heat": 7,
+      "publishedAt": "7月11日 3:26",
+      "time": "7月11日 3:26",
+      "collectedAt": "2026-07-10T22:55:48.803Z",
+      "rank": 11
+    },
+    {
+      "section": "csl",
+      "title": "王大雷：以老带新就是得有代价，希望大家多给我们时间",
+      "source": "懂球帝",
+      "summary": "北京时间7月10日晚，中超联赛第18轮角逐，山东泰山主场4-3击败云南玉昆。赛后，山东泰山队长王大雷在社交媒体里表示：“我们犯了很多错误，以老带新就是得有代价！",
+      "url": "https://view.inews.qq.com/a/20260711A00KO100?scene=news-skill",
+      "heat": 7,
+      "publishedAt": "7月11日 0:51",
+      "time": "7月11日 0:51",
+      "collectedAt": "2026-07-10T22:55:48.803Z",
+      "rank": 12
+    },
+    {
+      "section": "csl",
+      "title": "官方：深圳新鹏城中场张晓彬转会武汉三镇",
+      "source": "雷速体育",
+      "summary": "雷速体育7月10日讯 深圳新鹏城官方宣布，32岁的中场球员张晓彬已经离队，转为武汉三镇效力。官方公告经俱乐部友好协商并达成一致，即日起，球员张晓彬正式转会武汉三镇足球俱乐部。",
+      "url": "https://view.inews.qq.com/a/20260710A03G5500?scene=news-skill",
+      "heat": 7,
+      "publishedAt": "7月10日 10:09",
+      "time": "7月10日 10:09",
+      "collectedAt": "2026-07-10T10:55:41.658Z",
       "rank": 13
     },
     {
@@ -13249,30 +13213,6 @@
     },
     {
       "section": "csl",
-      "title": "懂球帝2026赛季中超第17轮MVP：哈达斯",
-      "source": "懂球帝",
-      "summary": "大家好，欢迎来到懂球帝2026赛季中超MVP的评选现场。中超第17轮MVP的评选结果已经出炉，天津津门虎中场哈达斯凭借着比赛补时阶段的零度角爆射，成功当选本轮中超MVP！",
-      "url": "https://view.inews.qq.com/a/20260707A08O2N00?scene=news-skill",
-      "heat": 1,
-      "publishedAt": "7月7日 18:01",
-      "time": "7月7日 18:01",
-      "collectedAt": "2026-07-07T22:55:47.613Z",
-      "rank": 22
-    },
-    {
-      "section": "csl",
-      "title": "中超第17轮传球成功率榜：浙江登顶，北京国安排第二",
-      "source": "懂球帝",
-      "summary": "中超官方发布联赛第17轮球队传球成功率榜，浙江登顶，北京国安排第二。中超第17轮，浙江客场2-3不敌上海申花。",
-      "url": "https://view.inews.qq.com/a/20260707A07KYM00?scene=news-skill",
-      "heat": 1,
-      "publishedAt": "7月7日 16:36",
-      "time": "7月7日 16:36",
-      "collectedAt": "2026-07-07T10:56:02.213Z",
-      "rank": 23
-    },
-    {
-      "section": "csl",
       "title": "宿茂臻：前20分钟互有攻守，但一次处罚让我们少一个人比赛",
       "source": "雷速体育",
       "summary": "雷速体育7月4日讯 中超联赛第17轮，山东泰山0-2北京国安，赛后，宿茂臻出席新闻发布会。宿茂臻：“纵观整场比赛，我们前20分钟互有攻守，我们也有反击的机会，但一次关键的处罚，我们少一个人比赛，少一人让我们比赛的过程就很困难。",
@@ -13281,7 +13221,7 @@
       "publishedAt": "7月4日 23:19",
       "time": "7月4日 23:19",
       "collectedAt": "2026-07-05T14:08:38.191Z",
-      "rank": 24
+      "rank": 22
     },
     {
       "section": "csl",
@@ -13293,7 +13233,7 @@
       "publishedAt": "7月4日 22:49",
       "time": "7月4日 22:49",
       "collectedAt": "2026-07-04T22:56:04.444Z",
-      "rank": 25
+      "rank": 23
     },
     {
       "section": "csl",
@@ -13305,7 +13245,7 @@
       "publishedAt": "7月4日 22:29",
       "time": "7月4日 22:29",
       "collectedAt": "2026-07-04T22:56:04.444Z",
-      "rank": 26
+      "rank": 24
     },
     {
       "section": "csl",
@@ -13317,7 +13257,7 @@
       "publishedAt": "7月4日 22:04",
       "time": "7月4日 22:04",
       "collectedAt": "2026-07-04T22:56:04.444Z",
-      "rank": 27
+      "rank": 25
     },
     {
       "section": "csl",
@@ -13329,7 +13269,19 @@
       "publishedAt": "7月4日 21:19",
       "time": "7月4日 21:19",
       "collectedAt": "2026-07-04T22:56:04.444Z",
-      "rank": 28
+      "rank": 26
+    },
+    {
+      "section": "csl",
+      "title": "懂球帝2026赛季中超第17轮MVP：哈达斯",
+      "source": "懂球帝",
+      "summary": "大家好，欢迎来到懂球帝2026赛季中超MVP的评选现场。中超第17轮MVP的评选结果已经出炉，天津津门虎中场哈达斯凭借着比赛补时阶段的零度角爆射，成功当选本轮中超MVP！",
+      "url": "https://view.inews.qq.com/a/20260707A08O2N00?scene=news-skill",
+      "heat": 1,
+      "publishedAt": "7月7日 18:01",
+      "time": "7月7日 18:01",
+      "collectedAt": "2026-07-07T22:55:47.613Z",
+      "rank": 27
     },
     {
       "section": "csl",
@@ -13341,6 +13293,18 @@
       "publishedAt": "7月7日 8:51",
       "time": "7月7日 8:51",
       "collectedAt": "2026-07-07T04:55:27.429Z",
+      "rank": 28
+    },
+    {
+      "section": "csl",
+      "title": "中超第17轮传球成功率榜：浙江登顶，北京国安排第二",
+      "source": "懂球帝",
+      "summary": "中超官方发布联赛第17轮球队传球成功率榜，浙江登顶，北京国安排第二。中超第17轮，浙江客场2-3不敌上海申花。",
+      "url": "https://view.inews.qq.com/a/20260707A07KYM00?scene=news-skill",
+      "heat": 1,
+      "publishedAt": "7月7日 16:36",
+      "time": "7月7日 16:36",
+      "collectedAt": "2026-07-07T10:56:02.213Z",
       "rank": 29
     }
   ]
