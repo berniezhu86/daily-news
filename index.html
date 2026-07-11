@@ -1131,7 +1131,7 @@ const mockStockIndices = {
     { name:"印度SENSEX", value:"78,285.07", change:"+0.67%", direction:"up" }
   ],
 };
-const content_version = 'v20260711v2'; // 部署验收标记（图片防盗链修复：referrerpolicy + 失败兜底）
+const content_version = 'v20260711v4'; // 部署验收标记（禁止图片新闻跳转外链 + 防盗链修复）
 const stockUpdatedAt = '7月10日收盘 | 东方财富实时'; // 行情数据更新时间
   const mockStockAI = [{name:"双鹭药业",score:88,value:"涨停",change:"+10.00%",direction:"up",rating:"强势",reason:"7月10日创新药全天最强方向涨停；基药目录2026年版首次纳入创新药遴选方向+国产创新药上半年出海授权997亿美元（2024全年2倍），政策+产业双催化确立板块从防御转向进攻，CRO/减肥药/肝素全线联动，医药β风险释放后估值修复空间打开"},{name:"海兰信",score:82,value:"20cm涨停",change:"+20.00%",direction:"up",rating:"强势",reason:"7月10日算力概念+商业航天双催化20cm涨停；长征十号乙运载火箭成功发射回收引爆商业航天全线涨停潮（优机股份30cm），同时算力概念股集体走强，GPT-5.6全面开放+智能体产品催化AI应用端爆发，主力净流入AI应用超88亿"},{name:"众生药业",score:85,value:"涨停",change:"+10.02%",direction:"up",rating:"强势",reason:"7月10日创新药板块核心涨停标的；新版基药目录9月1日实施+首次纳入创新药方向是政策分水岭，国产创新药出海上半年授权997亿美元验证产业竞争力，板块β+个股α共振，医药从防御板块正式转为主攻方向"},{name:"浪潮信息",score:72,value:"冲高回落",change:"+2.50%",direction:"up",rating:"偏强",reason:"7月10日盘中冲+8%后午后科技跳水回落至+2.5%，算力方向相对抗跌（算力概念股集体走强/海兰信20cm涨停），尾盘主力回流中科曙光等算力股各10亿+；中报净利预增226%-288%硬验证仍在，但高位科技整体承压，短期需观察能否缩量企稳再确立方向"},{name:"中芯国际",score:50,value:"大跌",change:"-5.77%",direction:"down",rating:"偏弱",reason:"7月10日半导体午后暴跌中核心锚，科创50单日砸-5.53%；前日大涨12%创新高后高位兑现，兆易创新593亿天量出货+晶合集成-17%/华润微-14%，长鑫IPO募资近300亿临近抽血；半导体设备板块-7.81%，高位筹码松动非一日能换完，需等缩量企稳信号再考虑入场"},{name:"兆易创新",score:30,value:"大跌",change:"-7.79%",direction:"down",rating:"规避",reason:"7月10日存储芯片龙头暴跌，593.8亿天量成交居A股历史第四，主力净流出85.71亿集中兑现；半导体/存储芯片午后集体跳水（中际旭创-8.45%/寒武纪-7%/北方华创-8.81%），高位抱团筹码从兑现转入恐慌出逃，中期业绩逻辑仍在但短期杀跌未止，继续规避等缩量企稳"},]
 
@@ -3475,14 +3475,12 @@ function renderImageNewsCard() {
   card.style.display = "block";
   var html = "";
   imageNewsList.forEach(function(item, idx) {
-    var tag = item.url ? "a" : "div";
-    var href = item.url ? ' href="' + item.url + '"' : "";
-    html += '<' + tag + ' class="image-news-slide"' + href + '>';
+    html += '<div class="image-news-slide">';
     html += '<div class="image-news-img-wrap"><img class="image-news-img" src="' + (item.img||"") + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.classList.add(\'img-failed\');this.parentNode.classList.add(\'img-failed\')">';
     html += '<div class="image-news-overlay">';
     html += '<div class="image-news-title">' + (item.title||"") + '</div>';
     html += '<div class="image-news-time">' + (item.timeAgo||"") + '</div>';
-    html += '</div></div></' + tag + '>';
+    html += '</div></div></div>';
   });
   track.innerHTML = html;
   if (imageNewsList.length > 1) {
