@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-12T13:11:46.475485+08:00",
-  "updated_display": "07月12日 13:11",
-  "count": 5,
+  "updated": "2026-07-12T15:08:46.581584+08:00",
+  "updated_display": "07月12日 15:08",
+  "count": 6,
   "news": [
     {
       "title": "学习进行时丨习近平总书记这样指导防灾减灾救灾工作",
@@ -16,20 +16,26 @@
       "date": "2026-07-12"
     },
     {
+      "title": "卡塔尔前埃米尔哈马德逝世",
+      "url": "https://www.news.cn/world/20260712/656b463a1b66465a9f0fa77d724f0c3b/c.html",
+      "source": "新华社",
+      "date": "2026-07-12"
+    },
+    {
+      "title": "习言道|习近平再次强调\"破四唯\"",
+      "url": "http://politics.people.com.cn/n1/2026/0712/c461001-40758805.html",
+      "source": "人民日报",
+      "date": "2026-07-12"
+    },
+    {
       "title": "习近平总书记重要讲话为推动世界科技创新发展注入强劲动力",
       "url": "https://www.news.cn/politics/leaders/20260711/fd6cd1b8ce854021852e666f7de14cfd/c.html",
       "source": "新华社",
       "date": "2026-07-11"
     },
     {
-      "title": "北京市气象台解除分区暴雨红色预警信号",
-      "url": "https://www.news.cn/local/20260712/c710d198754e47269b6c7dece75f42d1/c.html",
-      "source": "新华社",
-      "date": "2026-07-12"
-    },
-    {
-      "title": "委内瑞拉地震死亡人数升至4333人",
-      "url": "https://www.news.cn/world/20260712/4652187d80944c168afd0e4a3e620581/c.html",
+      "title": "云南富源通报一起致6人死亡交通事故",
+      "url": "https://www.news.cn/legal/20260712/28c329007ccb4339ba248c1aa56cb8d5/c.html",
       "source": "新华社",
       "date": "2026-07-12"
     }
