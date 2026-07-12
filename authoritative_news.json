@@ -1,25 +1,25 @@
 {
-  "updated": "2026-07-12T07:24:43.082145+08:00",
-  "updated_display": "07月12日 07:24",
-  "count": 6,
+  "updated": "2026-07-12T09:17:15.515436+08:00",
+  "updated_display": "07月12日 09:17",
+  "count": 5,
   "news": [
+    {
+      "title": "学习进行时丨习近平总书记这样指导防灾减灾救灾工作",
+      "url": "https://www.news.cn/politics/xxjxs/20260712/fef5ecb12b7445da831177954621dcc5/c.html",
+      "source": "新华社",
+      "date": "2026-07-12"
+    },
+    {
+      "title": "防汛救灾关系人民生命财产安全，关系粮食安全、经济安全、社会安全、国家安全，习近平总书记始终高度重视，多次作出重要指示和重要部署，指导防灾减灾救灾工作",
+      "url": "https://www.news.cn/politics/xxjxs/20260712/fef5ecb12b7445da831177954621dcc5/c.html",
+      "source": "新华社",
+      "date": "2026-07-12"
+    },
     {
       "title": "\"习近平新时代中国特色社会主义思想与世界\"国际研讨会综述",
       "url": "http://world.people.com.cn/n1/2026/0712/c1002-40758589.html",
       "source": "人民日报",
       "date": "2026-07-12"
-    },
-    {
-      "title": "习近平同金正恩就《中朝友好合作互助条约》签订65周年互致贺电",
-      "url": "https://www.news.cn/politics/leaders/20260711/e67aa219223b42dcba74e562be9104ad/c.html",
-      "source": "新华社",
-      "date": "2026-07-11"
-    },
-    {
-      "title": "习近平：65年来，双方秉持条约精神，相互支持、团结协作、并肩奋斗，生动诠释了中朝关系世代友好、命运与共、守望相助的鲜明特征",
-      "url": "https://www.news.cn/politics/leaders/20260711/e67aa219223b42dcba74e562be9104ad/c.html",
-      "source": "新华社",
-      "date": "2026-07-11"
     },
     {
       "title": "习近平总书记重要讲话为推动世界科技创新发展注入强劲动力",
@@ -28,16 +28,10 @@
       "date": "2026-07-11"
     },
     {
-      "title": "习近平同纳米比亚总统恩代特瓦会谈",
-      "url": "https://www.news.cn/politics/leaders/20260710/5745f2ad8d0d4c929686784b21e062bd/c.html",
+      "title": "委内瑞拉地震死亡人数升至4333人",
+      "url": "https://www.news.cn/world/20260712/4652187d80944c168afd0e4a3e620581/c.html",
       "source": "新华社",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "习近平会见朝鲜内阁总理朴泰成",
-      "url": "https://www.news.cn/politics/leaders/20260710/6818efbe4c11488aa1ba4aa489d15aee/c.html",
-      "source": "新华社",
-      "date": "2026-07-10"
+      "date": "2026-07-12"
     }
   ]
 }
