@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-12T19:03:43.104723+08:00",
-  "updated_display": "07月12日 19:03",
-  "count": 5,
+  "updated": "2026-07-12T21:04:19.023003+08:00",
+  "updated_display": "07月12日 21:04",
+  "count": 9,
   "news": [
     {
       "title": "学习进行时丨习近平总书记这样指导防灾减灾救灾工作",
@@ -16,8 +16,26 @@
       "date": "2026-07-12"
     },
     {
+      "title": "习近平:打通科技加速向现实生产力转化通道",
+      "url": "http://politics.people.com.cn/n1/2026/0712/c461001-40758889.html",
+      "source": "人民日报",
+      "date": "2026-07-12"
+    },
+    {
       "title": "我在现场丨台风“美莎克”过境，亲历两场与时间赛跑的救援",
       "url": "https://www.news.cn/politics/20260712/f1a6629259024a8e871916c7af1fbb89/c.html",
+      "source": "新华社",
+      "date": "2026-07-12"
+    },
+    {
+      "title": "收到台风预警 居家应该怎么做？",
+      "url": "https://www.news.cn/politics/20260712/ca1bf892385141c0a0250a376f688ed2/c.html",
+      "source": "新华社",
+      "date": "2026-07-12"
+    },
+    {
+      "title": "红色山洪灾害预警",
+      "url": "https://www.news.cn/politics/20260712/e5a0d4511bbf446486e526503ee91d01/c.html",
       "source": "新华社",
       "date": "2026-07-12"
     },
@@ -28,8 +46,14 @@
       "date": "2026-07-12"
     },
     {
-      "title": "北京平谷继续发布山洪灾害红色预警",
-      "url": "http://bj.people.com.cn/n2/2026/0712/c14540-41636607.html",
+      "title": "红色山洪灾害气象预警发布",
+      "url": "http://society.people.com.cn/n1/2026/0712/c1008-40758888.html",
+      "source": "人民日报",
+      "date": "2026-07-12"
+    },
+    {
+      "title": "水利部升级发布洪水黄色预警",
+      "url": "http://society.people.com.cn/n1/2026/0712/c1008-40758883.html",
       "source": "人民日报",
       "date": "2026-07-12"
     }
