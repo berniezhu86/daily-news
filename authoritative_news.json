@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-12T21:04:19.023003+08:00",
-  "updated_display": "07月12日 21:04",
-  "count": 9,
+  "updated": "2026-07-12T23:12:14.923808+08:00",
+  "updated_display": "07月12日 23:12",
+  "count": 10,
   "news": [
     {
       "title": "学习进行时丨习近平总书记这样指导防灾减灾救灾工作",
@@ -12,6 +12,12 @@
     {
       "title": "防汛救灾关系人民生命财产安全，关系粮食安全、经济安全、社会安全、国家安全，习近平总书记始终高度重视，多次作出重要指示和重要部署，指导防灾减灾救灾工作",
       "url": "https://www.news.cn/politics/xxjxs/20260712/fef5ecb12b7445da831177954621dcc5/c.html",
+      "source": "新华社",
+      "date": "2026-07-12"
+    },
+    {
+      "title": "乌克兰总统泽连斯基宣布将重组内阁",
+      "url": "https://www.news.cn/world/20260712/e0aad14309524f8fbeaafd719e57a073/c.html",
       "source": "新华社",
       "date": "2026-07-12"
     },
@@ -40,12 +46,6 @@
       "date": "2026-07-12"
     },
     {
-      "title": "云南富源通报一起致6人死亡交通事故",
-      "url": "https://www.news.cn/legal/20260712/28c329007ccb4339ba248c1aa56cb8d5/c.html",
-      "source": "新华社",
-      "date": "2026-07-12"
-    },
-    {
       "title": "红色山洪灾害气象预警发布",
       "url": "http://society.people.com.cn/n1/2026/0712/c1008-40758888.html",
       "source": "人民日报",
@@ -55,6 +55,12 @@
       "title": "水利部升级发布洪水黄色预警",
       "url": "http://society.people.com.cn/n1/2026/0712/c1008-40758883.html",
       "source": "人民日报",
+      "date": "2026-07-12"
+    },
+    {
+      "title": "江苏盐城市东台市发生3.0级地震 震源深度25千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
       "date": "2026-07-12"
     }
   ]
