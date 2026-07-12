@@ -130,6 +130,12 @@ STOCK_OFFTOPIC_PATTERNS = [
     "电视剧", "综艺", "首店", "赏荷", "登山",
 ]
 
+STOCK_MARKETING_PATTERNS = [
+    "值得关注", "ETF基金日报", "强势上涨", "赛道景气度",
+    "捕捉", "布局低利率时代", "稳健投资新机遇",
+    "ETF平安", "ETF华夏", "ETF南方",
+]
+
 ENTERTAINMENT_OFFTOPIC_PATTERNS = [
     "足球", "中超", "世界杯", "F1", "赛车", "排球", "网球", "自行车",
     "NBA", "CBA", "夏联", "球员", "体育", "省运会", "体育+", "体育文化",
@@ -139,6 +145,8 @@ ENTERTAINMENT_OFFTOPIC_PATTERNS = [
     "球衣", "卖淫", "融资", "订单", "美食", "炸货店",
     "切尔西", "沙特联", "金靴", "勇士旧将",
     "股价", "股东", "茶饮股",
+    "探店", "推广遇套路", "布泽尔", "威尔逊初次交手",
+    "青创大赛",
 ]
 
 ENTERTAINMENT_CONTEXT_PATTERNS = [
@@ -336,6 +344,8 @@ def section_item_allowed(item: dict, section: str) -> bool:
             return False
         if has_any(text, STOCK_OFFTOPIC_PATTERNS) and not has_any(text, STOCK_CORE_PATTERNS):
             return False
+        if has_any(text, STOCK_MARKETING_PATTERNS):
+            return False
         return has_any(text, STOCK_REQUIRED_PATTERNS)
     if section in {"henan", "csl"}:
         if is_low_quality(item):
@@ -346,6 +356,8 @@ def section_item_allowed(item: dict, section: str) -> bool:
             return False
         return has_any(text, SPORTS_EVENT_PATTERNS) and has_any(str(item.get("source", "")), SPORTS_TRUSTED_SOURCES)
     if section == "entertainment":
+        if age_hours(item, now_local()) > 168:
+            return False
         if has_any(text, ENTERTAINMENT_OFFTOPIC_PATTERNS) and not has_any(text, ENTERTAINMENT_CONTEXT_PATTERNS):
             return False
     return True
