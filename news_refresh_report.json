@@ -1,9 +1,9 @@
 {
-  "runAt": "2026-07-12 07:23:50",
+  "runAt": "2026-07-12 13:24:47",
   "sections": {
     "domestic": {
-      "before": 205,
-      "after": 205,
+      "before": 200,
+      "after": 200,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
@@ -11,17 +11,17 @@
       "before": 200,
       "after": 200,
       "duplicates": 0,
-      "authoritativeTop10": 10
+      "authoritativeTop10": 9
     },
     "ai": {
       "before": 200,
       "after": 200,
       "duplicates": 0,
-      "authoritativeTop10": 10
+      "authoritativeTop10": 1
     },
     "entertainment": {
-      "before": 158,
-      "after": 158,
+      "before": 155,
+      "after": 155,
       "duplicates": 0,
       "authoritativeTop10": 3
     },
@@ -29,17 +29,17 @@
       "before": 190,
       "after": 190,
       "duplicates": 0,
-      "authoritativeTop10": 10
+      "authoritativeTop10": 5
     },
     "henan": {
-      "before": 6,
-      "after": 6,
+      "before": 4,
+      "after": 4,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
     "csl": {
-      "before": 23,
-      "after": 23,
+      "before": 25,
+      "after": 25,
       "duplicates": 0,
       "authoritativeTop10": 0
     }
