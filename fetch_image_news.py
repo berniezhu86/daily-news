@@ -234,15 +234,17 @@ def get_mfa():
     res = []
     pat = re.compile(
         r'<a\s+href="(\./[^\"]+\.shtml)"[^>]*>\s*'
-        r'<div class="thumb"><img\s+src="(\./[^\"]+\.(?:jpg|jpeg|png))"[^>]*>\s*</div>\s*'
-        r'<div class="title"[^>]*>(.*?)</div>\s*</a>', re.S)
+        r'<div class="thumb"><img\s+src="(\./[^\"]+\.(?:jpg|jpeg|png|JPG|JPEG|PNG))"[^>]*>\s*</div>\s*'
+        r'<div class="title"[^>]*>([^<]*)</div>', re.S)
     for m in pat.finditer(h):
         if len(res) >= MFA_TOP:
             break
         href = abs_url(m.group(1), MFA_BASE)
         img = abs_url(m.group(2), MFA_BASE)
-        title = HTMLLIB.unescape(re.sub(r"<[^>]+>", "", m.group(3))).strip()
+        title = HTMLLIB.unescape(m.group(3).strip()).strip()
         if not title or is_sensitive(title):
+            continue
+        if len(title) > 100:
             continue
         dm = re.search(r't(\d{8})_', m.group(1)) or re.search(r'/(\d{6})/', m.group(1))
         date = dm.group(1) if dm else ""
