@@ -68,6 +68,11 @@ def log(msg):
     print("[img-news] " + msg, flush=True)
 
 
+def norm(s):
+    """折叠所有空白（换行/回车/连续空格）为单个空格，杜绝标题内嵌换行破坏 JS 字符串字面值。"""
+    return re.sub(r"\s+", " ", (s or "")).strip()
+
+
 def is_sensitive(title):
     t = (title or "")
     for w in SENSITIVE_KW:
@@ -137,7 +142,7 @@ def get_thepaper():
             break
         if it.get("type") in {"澎湃防务", "打虎记", "大国外交", "澎湃世界观"}:
             continue
-        title = (it.get("title") or "").strip()
+        title = norm(it.get("title"))
         pic = (it.get("pic") or "").strip()
         link = (it.get("link") or "").strip()
         if not (title and link and pic):
@@ -171,7 +176,7 @@ def _parse_xh_page(url):
             r'<h3>\s*<a\s+href="/(?:photo/)?(\d{8})/([0-9a-z]+)/c\.html"[^>]*>(.*?)</a>\s*</h3>',
             h, re.S):
         date8, fid, title = m.group(1), m.group(2), m.group(3)
-        title = HTMLLIB.unescape(re.sub(r"<[^>]+>", "", title)).strip()
+        title = norm(HTMLLIB.unescape(re.sub(r"<[^>]+>", "", title)))
         entries[fid] = {
             "title": title,
             "url": "https://www.news.cn/photo/%s/%s/c.html" % (date8, fid),
@@ -241,7 +246,7 @@ def get_mfa():
             break
         href = abs_url(m.group(1), MFA_BASE)
         img = abs_url(m.group(2), MFA_BASE)
-        title = HTMLLIB.unescape(m.group(3).strip()).strip()
+        title = norm(HTMLLIB.unescape(m.group(3)))
         if not title or is_sensitive(title):
             continue
         if len(title) > 100:
@@ -275,8 +280,8 @@ def get_people_pics():
                 break
             link = abs_url(m.group(1), PEOPLE_LINK_BASE)
             img = abs_url(m.group(2), PEOPLE_IMG_BASE)
-            alt = HTMLLIB.unescape(m.group(3)).strip()
-            title = HTMLLIB.unescape(m.group(4)).strip()
+            alt = norm(HTMLLIB.unescape(m.group(3)))
+            title = norm(HTMLLIB.unescape(m.group(4)))
             if not title:
                 title = alt
             if not title or is_sensitive(title):
@@ -331,10 +336,10 @@ def inject_html(items):
     lines = ["var imageNewsList = ["]
     for it in items:
         lines.append('  { title: %s, url: %s, img: %s, timeAgo: %s },' % (
-            json.dumps(it["title"], ensure_ascii=False),
-            json.dumps(it["url"], ensure_ascii=False),
-            json.dumps(it["img"], ensure_ascii=False),
-            json.dumps(it["timeAgo"], ensure_ascii=False),
+            json.dumps(norm(it["title"]), ensure_ascii=False),
+            json.dumps(norm(it["url"]), ensure_ascii=False),
+            json.dumps(norm(it["img"]), ensure_ascii=False),
+            json.dumps(norm(it["timeAgo"]), ensure_ascii=False),
         ))
     lines.append("];")
     new_block = "\n".join(lines)
