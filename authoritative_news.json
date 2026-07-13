@@ -1,31 +1,19 @@
 {
-  "updated": "2026-07-13T13:06:20.137107+08:00",
-  "updated_display": "07月13日 13:06",
-  "count": 4,
+  "updated": "2026-07-13T15:03:26.828592+08:00",
+  "updated_display": "07月13日 15:03",
+  "count": 2,
   "news": [
+    {
+      "title": "习近平总书记讲话为推动世界科技创新发展注入强劲动力",
+      "url": "http://politics.people.com.cn/n1/2026/0713/c461001-40759594.html",
+      "source": "人民日报",
+      "date": "2026-07-13"
+    },
     {
       "title": "习近平总书记这样指导防灾减灾救灾工作",
       "url": "https://www.news.cn/politics/xxjxs/20260712/fef5ecb12b7445da831177954621dcc5/c.html",
       "source": "新华社",
       "date": "2026-07-12"
-    },
-    {
-      "title": "一周四次 美再袭伊朗 伊媒称袭击造成1死4伤",
-      "url": "https://www.news.cn/world/20260713/53e37bf4d5f947c784463c48a22c73af/c.html",
-      "source": "新华社",
-      "date": "2026-07-13"
-    },
-    {
-      "title": "委内瑞拉地震死亡人数升至4490人",
-      "url": "https://www.news.cn/world/20260713/d2b768162f7d4627b4a8c615925fc98e/c.html",
-      "source": "新华社",
-      "date": "2026-07-13"
-    },
-    {
-      "title": "曼谷市长：酒吧火灾确认27人遇难22人伤势危重",
-      "url": "https://www.news.cn/world/20260713/2c43b554634b42a68e4e3e8bb38b3d49/c.html",
-      "source": "新华社",
-      "date": "2026-07-13"
     }
   ]
 }
