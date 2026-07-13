@@ -1,9 +1,9 @@
 {
-  "runAt": "2026-07-13 19:23:37",
+  "runAt": "2026-07-14 07:22:42",
   "sections": {
     "domestic": {
-      "before": 204,
-      "after": 204,
+      "before": 200,
+      "after": 200,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
@@ -20,14 +20,14 @@
       "authoritativeTop10": 8
     },
     "entertainment": {
-      "before": 153,
-      "after": 153,
+      "before": 157,
+      "after": 157,
       "duplicates": 0,
-      "authoritativeTop10": 2
+      "authoritativeTop10": 0
     },
     "stock": {
-      "before": 190,
-      "after": 190,
+      "before": 187,
+      "after": 187,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
@@ -38,14 +38,14 @@
       "authoritativeTop10": 0
     },
     "csl": {
-      "before": 29,
-      "after": 29,
+      "before": 30,
+      "after": 30,
       "duplicates": 0,
       "authoritativeTop10": 0
     }
   },
   "duplicateMerged": 0,
-  "domesticHighPoliticsTop8": 8,
+  "domesticHighPoliticsTop8": 6,
   "changedArrays": {
     "generated_news_arrays.js": [
       "mockHotNewsDomestic",
