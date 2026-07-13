@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-13T06:02:00+08:00",
+  "updated_at": "2026-07-13T12:02:00+08:00",
   "window_hours": 48,
-  "window_start": "2026-07-11T06:02:00+08:00",
+  "window_start": "2026-07-11T12:02:00+08:00",
   "keywords": [
     "习近平",
     "国家主席",
@@ -29,32 +29,37 @@
     "国家发改委",
     "灾后应急恢复",
     "民政部防汛救灾",
-    "福建浙江抢险救灾",
-    "中华人民共和国外交部郑重声明",
+    "南海仲裁案",
     "外交部亚洲司严正交涉",
     "应急管理部防汛防台风调度",
-    "王毅科舍尔巴耶夫",
+    "中国驻欧盟使团南海仲裁案",
+    "中国驻英国使馆南海仲裁案",
+    "南海仲裁案裁决新批驳报告",
+    "外交部南海仲裁案裁决十年",
+    "国家防总巴威",
+    "国家防总天津安徽",
     "李强朴泰成",
-    "国家发展改革委浙江台风灾害灾后应急恢复"
+    "习近平金正恩",
+    "中共中央国务院防汛抗旱"
   ],
-  "candidate_count": 338,
-  "inserted_count": 15,
-  "new_or_updated_count": 8,
-  "removed_expired_count": 12,
+  "candidate_count": 286,
+  "inserted_count": 17,
+  "new_or_updated_count": 4,
+  "removed_expired_count": 1,
   "removed_replaced_count": 0,
-  "skipped_old_count": 177,
-  "skipped_duplicate_count": 86,
-  "skipped_irrelevant_or_low_quality_count": 60,
-  "pool_total": 15,
+  "skipped_old_count": 149,
+  "skipped_duplicate_count": 83,
+  "skipped_irrelevant_or_low_quality_count": 50,
+  "pool_total": 17,
   "failed_queries": [
-    "首次沙盒内批量搜索因 DNS 解析 openapi.inews.qq.com 失败；按权限流程联网执行腾讯新闻 CLI 后成功",
-    "3条精确查询因关键词含空格被 CLI 识别为多个参数失败，已用无空格关键词重跑成功"
+    "首次沙盒内批量搜索因 DNS 解析 openapi.inews.qq.com 失败；按权限流程联网执行腾讯新闻 CLI 后成功"
   ],
   "notes": [
     "仅维护 politics_top_news.json 和 politics_top_news_status.json，未修改日报 HTML 或 index.html。",
-    "按2026-07-13 06:02 CST前48小时窗口滚动，移除2026-07-11 06:02前过期素材。",
-    "新增外交部南海仲裁案声明、外交部亚洲司对日严正交涉、国家防办/应急管理部台风防汛调度、中央救灾/防汛物资调拨、国家发改委浙江和广西灾后恢复投资等素材。",
-    "剔除学习评论、地方台风实况、低质量转载、旧稿、重复稿和与高层时政弱相关内容。",
+    "按2026-07-13 12:02 CST前48小时窗口滚动，移除2026-07-11 12:02前过期素材。",
+    "新增中国驻欧盟使团、中国驻英国使馆涉南海仲裁案外交回应，以及中央组织部/国家防总办/应急管理部防汛抗旱干部培训素材。",
+    "将天津、安徽中央防汛物资调拨条目升级为国家发展改革委/国家粮食和物资储备局来源。",
+    "剔除学习评论、地方防汛实况、低质量转载、自媒体解读、旧稿、重复稿和与高层时政弱相关内容。",
     "池内无重复 URL 或标题；当前合格素材少于20条，未用低优先级地方稿强行补满。"
   ]
 }
