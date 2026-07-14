@@ -1,12 +1,30 @@
 {
-  "updated": "2026-07-14T22:12:38.513046+08:00",
-  "updated_display": "07月14日 22:12",
-  "count": 1,
+  "updated": "2026-07-15T00:10:10.377028+08:00",
+  "updated_display": "07月15日 00:10",
+  "count": 4,
   "news": [
+    {
+      "title": "习近平总书记指引人工智能发展与治理",
+      "url": "https://www.news.cn/politics/leaders/20260714/35bb44977f5f4e5faaf46f56313cb72c/c.html",
+      "source": "新华社",
+      "date": "2026-07-14"
+    },
     {
       "title": "习近平在“科技三会”上的讲话单行本出版",
       "url": "https://www.news.cn/politics/leaders/20260714/c4d388b08e1f48d49b09e1217eeca5c1/c.html",
       "source": "新华社",
+      "date": "2026-07-14"
+    },
+    {
+      "title": "“让读者感知当代中国的思想内核”——记《习近平谈治国理政》第五卷吉尔吉斯斯坦推介会",
+      "url": "https://www.news.cn/politics/leaders/20260714/abe2ec5e892945bba2588ba936b935a6/c.html",
+      "source": "新华社",
+      "date": "2026-07-14"
+    },
+    {
+      "title": "新疆乌鲁木齐市乌鲁木齐县发生3.0级地震 震源深度12千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
       "date": "2026-07-14"
     }
   ]
