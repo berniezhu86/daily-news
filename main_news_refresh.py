@@ -146,7 +146,12 @@ ENTERTAINMENT_OFFTOPIC_PATTERNS = [
     "切尔西", "沙特联", "金靴", "勇士旧将",
     "股价", "股东", "茶饮股",
     "探店", "推广遇套路", "布泽尔", "威尔逊初次交手",
-    "青创大赛",
+    "青创大赛", "消费券", "循环经济", "新三样", "文旅", "旅游",
+]
+
+ENTERTAINMENT_HARD_OFFTOPIC_PATTERNS = [
+    "国际足联", "世界杯", "西甲", "足球", "中超", "NBA", "CBA",
+    "雷速体育", "体坛周报", "懂球帝", "CSL中超联赛",
 ]
 
 ENTERTAINMENT_CONTEXT_PATTERNS = [
@@ -208,6 +213,15 @@ def news_key(item: dict) -> str:
     if url:
         return "url:" + url.split("?")[0].rstrip("/")
     return "title:" + norm_text(item.get("title"))[:80]
+
+
+def event_key(item: dict) -> str | None:
+    title = item.get("title") or ""
+    if "去世" in title:
+        match = re.search(r"([\u4e00-\u9fa5·]{2,4})去世", title)
+        if match:
+            return "death:" + match.group(1)
+    return None
 
 
 def has_any(text: str, patterns: list[str]) -> bool:
@@ -358,6 +372,9 @@ def section_item_allowed(item: dict, section: str) -> bool:
     if section == "entertainment":
         if age_hours(item, now_local()) > 168:
             return False
+        title_source = f"{item.get('title','')} {item.get('source','')}"
+        if has_any(title_source, ENTERTAINMENT_HARD_OFFTOPIC_PATTERNS):
+            return False
         if has_any(text, ENTERTAINMENT_OFFTOPIC_PATTERNS) and not has_any(text, ENTERTAINMENT_CONTEXT_PATTERNS):
             return False
     return True
@@ -382,6 +399,12 @@ def dedupe_section(items: list[dict], now: datetime, state: dict, section: str) 
     for raw in items:
         item = dict(raw)
         key = news_key(item)
+        event = event_key(item)
+        if event and event in by_key:
+            idx = by_key[event]
+            kept[idx] = better_duplicate(kept[idx], item, now, state, section)
+            duplicate_count += 1
+            continue
         if key in by_key:
             idx = by_key[key]
             kept[idx] = better_duplicate(kept[idx], item, now, state, section)
@@ -397,6 +420,8 @@ def dedupe_section(items: list[dict], now: datetime, state: dict, section: str) 
             duplicate_count += 1
             continue
         by_key[key] = len(kept)
+        if event:
+            by_key[event] = len(kept)
         kept.append(item)
     return kept, duplicate_count
 

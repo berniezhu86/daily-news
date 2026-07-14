@@ -1,31 +1,962 @@
 {
   "exposure": {
-    "url:https://view.inews.qq.com/a/20260708A03MJ300": {
-      "title": "小米全新汽车品牌亮相！港股通汽车ETF华夏捕捉港股汽车出海+高端化+智能化大趋势",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 7,
-      "last_seen": "2026-07-12 19:23:01"
-    },
     "url:https://view.inews.qq.com/a/20260708A0BVOT00": {
       "title": "河南省十五运会竞技组足球乙组即将开战 郑州代表队全力冲刺最佳",
       "section": "henan",
-      "front_count": 29,
+      "front_count": 33,
       "last_rank": 6,
-      "last_seen": "2026-07-14 07:22:42"
+      "last_seen": "2026-07-14 19:25:05"
     },
     "url:https://view.inews.qq.com/a/20260709A05UQY00": {
       "title": "远征须知｜河南球迷赴武汉观赛温馨提示",
       "section": "henan",
-      "front_count": 24,
+      "front_count": 28,
       "last_rank": 5,
-      "last_seen": "2026-07-14 07:22:42"
+      "last_seen": "2026-07-14 19:25:05"
     },
     "url:https://view.inews.qq.com/a/20260710A0445000": {
       "title": "已有3场中超确定延期：浙江vs海牛、三镇vs河南、津门虎vs铁人",
       "section": "henan",
-      "front_count": 21,
+      "front_count": 25,
       "last_rank": 4,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260710A08DM400": {
+      "title": "官方：受台风巴威影响，三镇vs河南等三场比赛将延期举行",
+      "section": "henan",
+      "front_count": 23,
+      "last_rank": 3,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260710A0B80V00": {
+      "title": "张国清赴广西指导救灾，要求细致保障受灾群众生活和抢修恢复",
+      "section": "domestic",
+      "front_count": 12,
+      "last_rank": 12,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260711A07PTW00": {
+      "title": "买乌郎表现非常出色，未来计划进行补强｜赛后谈",
+      "section": "csl",
+      "front_count": 13,
+      "last_rank": 12,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260711A0AMDU00": {
+      "title": "【中超】姚均晟远射杨一鸣破门 新鹏城3比0西海岸",
+      "section": "csl",
+      "front_count": 13,
+      "last_rank": 11,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260711A0A59S00": {
+      "title": "央视焦点访谈追踪晋江鞋厂火灾，聚焦习近平重要指示后的追责整改",
+      "section": "domestic",
+      "front_count": 10,
+      "last_rank": 11,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260712A02ENO00": {
+      "title": "罗比-尼尔森：韦斯利是中超最好的前锋之一，三连客也要争胜",
+      "section": "csl",
+      "front_count": 10,
+      "last_rank": 10,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260712A05LH600": {
+      "title": "官方：浙江队引进前河南中锋卡多索 曾入选巴西U20",
+      "section": "henan",
+      "front_count": 12,
+      "last_rank": 2,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260712A09KTZ00": {
+      "title": "外交部亚洲司就日方涉南海言行提出严正交涉，称将坚决维护领土主权和海洋权益",
+      "section": "domestic",
+      "front_count": 4,
+      "last_rank": 10,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260712A05KQJ00": {
+      "title": "超战报｜第18轮第二比赛日",
+      "section": "csl",
+      "front_count": 4,
+      "last_rank": 9,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A046LC00": {
+      "title": "股市波动加大，37%的“固收+权益”产品上半年回报低于1%",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 6,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://view.inews.qq.com/a/20260713A03MOV00": {
+      "title": "韩股大跌6%触发熔断，亚太芯片股重挫，SK海力士、港股兆易创新跌超10%",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://view.inews.qq.com/a/20260713A03I4I00": {
+      "title": "拓荆科技今日复牌，大涨！海力士美股首秀涨超12%！CEO发声：存储短缺或将延续至2030年后！...",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 6,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A02SLT00": {
+      "title": "文旅上新 出游正当时丨打造多元产品矩阵，跻身国内热门目的地第一梯队 来河南解锁花样暑期游",
+      "section": "henan",
+      "front_count": 7,
+      "last_rank": 1,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A04BXV00": {
+      "title": "尼尔森迎中超首胜：上升期正在到来",
+      "section": "csl",
+      "front_count": 7,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A03KNM00": {
+      "title": "韦斯利造3球助新鹏城大胜 换帅引援效果待检验",
+      "section": "csl",
+      "front_count": 7,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A074KU00": {
+      "title": "习近平将出席2026世界人工智能大会开幕式，阐述中国人工智能治理立场",
+      "section": "domestic",
+      "front_count": 6,
+      "last_rank": 2,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08C2F00": {
+      "title": "国务院印发《国民健康“十五五”规划》，部署加快建设健康中国",
+      "section": "domestic",
+      "front_count": 6,
+      "last_rank": 6,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08OJY00": {
+      "title": "国务院印发《扩大消费“十五五”规划》，提出未来五年促消费重点任务",
+      "section": "domestic",
+      "front_count": 6,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A07HJR00": {
+      "title": "中超官方：青岛西海岸vs成都蓉城的比赛调整至7月17日",
+      "section": "csl",
+      "front_count": 6,
+      "last_rank": 6,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A0AHC000": {
+      "title": "（外代一线）高温肆虐　欧洲6月下旬“超额死亡人数”破万",
+      "section": "international",
+      "front_count": 5,
+      "last_rank": 1,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A01QS100": {
+      "title": "美股收盘：美伊局势升级打压风险偏好 芯片股重挫纳指跌逾1.5%",
+      "section": "stock",
+      "front_count": 3,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:23:26"
+    },
+    "url:https://view.inews.qq.com/a/20260713A0A7DB00": {
+      "title": "官方：比利奇担任克罗地亚国家队新主帅；此前曾执教中超球队北京国安",
+      "section": "csl",
+      "front_count": 5,
+      "last_rank": 5,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A01X4A00": {
+      "title": "习近平将出席2026世界人工智能大会，阐述中国人工智能治理方案",
+      "section": "domestic",
+      "front_count": 4,
+      "last_rank": 1,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A040LI00": {
+      "title": "中共中央决定给予马兴瑞开除党籍、开除公职处分",
+      "section": "domestic",
+      "front_count": 4,
+      "last_rank": 3,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A0B80I00": {
+      "title": "李强主持经济形势专家和企业家座谈会，部署做好下半年经济工作",
+      "section": "domestic",
+      "front_count": 4,
+      "last_rank": 4,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A02RBP00": {
+      "title": "中办国办发文完善自然资源资产管理制度，推进安全高效永续利用",
+      "section": "domestic",
+      "front_count": 4,
+      "last_rank": 5,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A001CY00": {
+      "title": "王毅同哈萨克斯坦外长会谈，推进中哈命运共同体建设",
+      "section": "domestic",
+      "front_count": 4,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A0ALRR00": {
+      "title": "王沪宁会见世界华侨华人社团联谊大会代表，代表党中央问候海外侨胞",
+      "section": "domestic",
+      "front_count": 0,
+      "last_rank": 9,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A08XCI00": {
+      "title": "国际海事组织秘书长呼吁停止对国际航运的无端袭击",
+      "section": "international",
+      "front_count": 3,
+      "last_rank": 3,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A08VH100": {
+      "title": "视频丨美向乌授权生产爱国者导弹 专家：短期内影响有限",
+      "section": "international",
+      "front_count": 3,
+      "last_rank": 5,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A08LB800": {
+      "title": "美军称将恢复对伊海上封锁 伊朗打击中东美军基地",
+      "section": "international",
+      "front_count": 3,
+      "last_rank": 6,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A0430Z00": {
+      "title": "床单、毛毯、枕头……印度铁路4年丢失1270万件卧具",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 9,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A02EHO00": {
+      "title": "国际油价创6年来最大单日涨幅",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 10,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A03Y6C00": {
+      "title": "中方呼吁避免也门局势升级",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 11,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A03X2700": {
+      "title": "美伊冲突“外溢”也门 专家：警惕双海峡封锁重创全球航运",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 12,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A0BBI000": {
+      "title": "2026年国际网联U12团体锦标赛东亚区预选赛在京启幕",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A02THQ00": {
+      "title": "全球首款仿生听觉神经接口研制成功",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 6,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://view.inews.qq.com/a/20260714A02QL200": {
+      "title": "（图表）欧洲三大股指7月13日全线上涨",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://view.inews.qq.com/a/20260714A07WB700": {
+      "title": "科技创新打开消费产业新增长空间 专家解读更可持续发展",
+      "section": "ai",
+      "front_count": 4,
+      "last_rank": 1,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A04NGC00": {
+      "title": "7月14日A股午盘：沪指跌0.66%跌破3900点 创业板指收跌0.29%",
+      "section": "ai",
+      "front_count": 4,
+      "last_rank": 5,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A038KA00": {
+      "title": "AI人工智能ETF平安盘中回调，机构称本轮科技板块的调整空间已经比较充分",
+      "section": "ai",
+      "front_count": 3,
+      "last_rank": 9,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://www.ithome.com/0/976/586.htm": {
+      "title": "苹果起诉OpenAI刻意不提乔纳森·艾维，外媒称其或难置身事外",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 4,
+      "last_seen": "2026-07-14 19:23:26"
+    },
+    "url:https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder": {
+      "title": "Blume：一个开源、零配置的文档框架，从 Markdown 文件夹生成 AI 就绪文档",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 5,
+      "last_seen": "2026-07-14 19:23:26"
+    },
+    "url:https://www.ithome.com/0/976/566.htm": {
+      "title": "三星晶圆代工确认承接 Anthropic 自研 AI 芯片制造订单",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 6,
+      "last_seen": "2026-07-14 19:23:26"
+    },
+    "url:https://github.com/marcelpanse/youtube-guitar-tab-parser": {
+      "title": "YouTube 吉他谱解析器",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:23:26"
+    },
+    "url:https://view.inews.qq.com/a/20260714A08LM400": {
+      "title": "国际足联官方：LV为本届世界杯决赛提供特别定制的奖杯箱",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 2,
+      "last_seen": "2026-07-14 19:23:26"
+    },
+    "url:https://view.inews.qq.com/a/20260714A07ZI200": {
+      "title": "佛山“西甲”本周四精彩继续！免门票、巨型非遗鳌鱼秀、热点对战前瞻、闭幕式演员招募......",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 3,
+      "last_seen": "2026-07-14 19:23:26"
+    },
+    "url:https://view.inews.qq.com/a/20260714A04FFE00": {
+      "title": "这节目遇到张雅琪，也算是遇到综艺之神了",
+      "section": "entertainment",
+      "front_count": 3,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A03KET00": {
+      "title": "国产动画电影《八仙！》宣布提档至 7 月 18 日上映",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 9,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A074XE00": {
+      "title": "燃！鹿城文旅全区盛会亮眼出圈",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 4,
+      "last_seen": "2026-07-14 19:23:26"
+    },
+    "url:https://view.inews.qq.com/a/20260714A06UMO00": {
+      "title": "诺兰写《奥德赛》遭亲儿子锐评：你剧本又没拿过奖",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 5,
+      "last_seen": "2026-07-14 19:23:26"
+    },
+    "url:https://view.inews.qq.com/a/20260714A06IZU00": {
+      "title": "资深电影人施南生去世！曾与前夫徐克联手打造《英雄本色》《倩女幽魂》等经典作品",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 1,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://view.inews.qq.com/a/20260714A005C200": {
+      "title": "资深电影人施南生去世，终年75岁，因细菌感染引发多器官衰竭；曾与前夫徐克联手打造《英雄本色》《倩女幽魂》等经典作品",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://view.inews.qq.com/a/20260714A02TUB00": {
+      "title": "英国娱乐零售商协会谴责索尼PlayStation停产实体游戏：自私行为",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 10,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A0C1NA00": {
+      "title": "周星驰导演电影《功夫女足》登顶 2026 年暑期档票房榜",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://view.inews.qq.com/a/20260714A08VQK00": {
+      "title": "海外研选日报0714 | 法巴：美联储加息预期压制金价 2027年仍有望突破5000美元",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 1,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A08JZD00": {
+      "title": "别只盯着美股大型科技股了！投资者的目光正转向中小盘股",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 2,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A089ID00": {
+      "title": "三问半导体板块巨震：为何暴跌？见顶了吗？能买入吗？",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 3,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A07BDF00": {
+      "title": "美国或六年来首现环比“负CPI”？但今晚的重点不在这",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 4,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A07TPU00": {
+      "title": "全球半导体板块巨震，现在是入局好时机吗？",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 5,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A08RLV00": {
+      "title": "中国电车，英国爆火",
+      "section": "stock",
+      "front_count": 1,
+      "last_rank": 12,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A03M2S00": {
+      "title": "中超5月最佳：克雷桑MVP 约翰·阿洛伊西蝉联",
+      "section": "csl",
+      "front_count": 4,
+      "last_rank": 2,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A075E100": {
+      "title": "港脚黄皓隽：在中超踢球没有想象中开心，内地竞争更残酷",
+      "section": "csl",
+      "front_count": 4,
+      "last_rank": 1,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A034VV00": {
+      "title": "2026怡宝中超联赛五月最佳球员｜克雷桑·巴塞洛斯（山东泰山）",
+      "section": "csl",
+      "front_count": 4,
+      "last_rank": 3,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A02JFJ00": {
+      "title": "中超联赛前瞻：浙江对阵青岛海牛，实力相近的遭遇战",
+      "section": "csl",
+      "front_count": 4,
+      "last_rank": 4,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A02A9900": {
+      "title": "美军将恢复对伊朗海上封锁 特朗普宣布重新开战",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://view.inews.qq.com/a/20260714A06IZM00": {
+      "title": "全球媒体聚焦｜外媒：中国AI发展路径引全球关注",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:23:26"
+    },
+    "url:https://view.inews.qq.com/a/20260714A04CYB00": {
+      "title": "特斯拉确认开发轮椅无障碍自动驾驶汽车，残障出行或迎新变革",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 4,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://www.ithome.com/0/976/380.htm": {
+      "title": "OpenAI 反击 xAI 窃密诉讼，要求马斯克公司承担百万美元法律费用",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 5,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://www.ithome.com/0/976/367.htm": {
+      "title": "荣耀与阿里将官宣合作，或涉及下一代终端操作系统 Agentic OS 落地",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 6,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://www.ithome.com/0/976/364.htm": {
+      "title": "汤森路透因推广AI对工程部门进行小规模裁员",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://view.inews.qq.com/a/20260714A026VI00": {
+      "title": "纪念施南生｜香港电影真正的大女主，定义了制片人最体面最专业的模样",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 12,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A0233B00": {
+      "title": "义乌将连开两场演唱会！",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 6,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://view.inews.qq.com/a/20260714A08DRB00": {
+      "title": "男裤不好卖了？九牧王上半年归母净利润预降超七成 股价年内跌超34%",
+      "section": "stock",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:23:26"
+    },
+    "url:https://view.inews.qq.com/a/20260714A03Y7B00": {
+      "title": "TCL科技显示业务超预期，光伏板块迎来减亏拐点",
+      "section": "stock",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:24:12"
+    },
+    "url:https://view.inews.qq.com/a/20260713A04GFY00": {
+      "title": "银行半年不良资产处置规模超5000亿元，南方基金旗下司南投顾关注银行资产负债表优化下的资产配置",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:22:22"
+    },
+    "url:https://view.inews.qq.com/a/20260713A04GGE00": {
+      "title": "沃什改革开启：美联储公布五大改革工作组领导名单，南方基金旗下司南投顾关注政策路径演进与配置应对",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:22:22"
+    },
+    "url:https://view.inews.qq.com/a/20260714A01IRB00": {
+      "title": "总台记者观察丨“意愿联盟”巴黎峰会聚焦对乌军援 成员内部仍存分歧",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 2,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A0AUAF00": {
+      "title": "世界人工智能大会推动AI造福人类",
+      "section": "ai",
+      "front_count": 3,
+      "last_rank": 6,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A09WG400": {
+      "title": "新思想引领新征程丨人工智能蓬勃兴起 锻造高质量发展新引擎",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 11,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A0942A00": {
+      "title": "科技板块调整或进入后半程！人工智能ETF华富全产业链布局，静待景气验证",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 12,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://www.ithome.com/0/976/607.htm": {
+      "title": "土耳其 Tripy Mobility 将部署天瞳威视智驾方案，基于上汽大通大家 7 提供 L4...",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:22:22"
+    },
+    "url:https://view.inews.qq.com/a/20260714A08N1I00": {
+      "title": "报名通道已开启！“人工智能+医疗健康” 智能体开发大赛正式启动",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:22:22"
+    },
+    "url:https://view.inews.qq.com/a/20260714A08T3J00": {
+      "title": "徽动消费·乐享萧城 | 2026年萧县伏羊文化节惠民消费券即将开抢！",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 1,
+      "last_seen": "2026-07-14 19:22:22"
+    },
+    "url:https://view.inews.qq.com/a/20260714A03V4J00": {
+      "title": "首批“新三样”退役潮来袭，循环经济规划如何破题？",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 5,
+      "last_seen": "2026-07-14 19:22:22"
+    },
+    "url:https://view.inews.qq.com/a/20260707A0AP5000": {
+      "title": "中共中央组织部发通知，要求基层党组织和党员投入防汛救灾",
+      "section": "domestic",
+      "front_count": 10,
+      "last_rank": 10,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260711A01LXG00": {
+      "title": "颜卓彬：中超和港超最大的区别是节奏；一直在向罗森文学习",
+      "section": "csl",
+      "front_count": 11,
+      "last_rank": 10,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260711A00KO100": {
+      "title": "王大雷：以老带新就是得有代价，希望大家多给我们时间",
+      "section": "csl",
+      "front_count": 11,
+      "last_rank": 11,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260711A000EI00": {
+      "title": "买乌郎：虽然上轮表现不好，但球队上下一直鼓励我重新站起来",
+      "section": "csl",
+      "front_count": 9,
+      "last_rank": 12,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260710A0BANK00": {
+      "title": "张国清调度第9号台风“巴威”防范，应对防汛救灾多线作战",
+      "section": "domestic",
+      "front_count": 11,
+      "last_rank": 11,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260712A06JBK00": {
+      "title": "中超成渝德比，以和为贵",
+      "section": "csl",
+      "front_count": 8,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260709A0B6MN00": {
+      "title": "习近平对福建晋江鞋厂火灾作出重要指示，要求全力救治伤员并彻查原因",
+      "section": "domestic",
+      "front_count": 9,
+      "last_rank": 12,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260712A07EIF00": {
+      "title": "外交部就多国炒作“南海仲裁案”十年发表声明，重申中国南海主权和权益",
+      "section": "domestic",
+      "front_count": 4,
+      "last_rank": 5,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260712A06F5F00": {
+      "title": "国家发改委追加1亿元中央预算内投资，支持广西进一步做好灾后恢复",
+      "section": "domestic",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A0340S00": {
+      "title": "美军对伊朗发动新一轮打击 伊朗回击中东地区美军目标",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 11,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A02OWS00": {
+      "title": "视频丨中东战事推高能源成本 欧盟拟加速电气化转型减少油气依赖",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 12,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A03Y8100": {
+      "title": "A股低开，电子特气概念逆势走强",
+      "section": "ai",
+      "front_count": 3,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A03I1K00": {
+      "title": "2026世界人工智能大会即将举行，科创AIETF博时盘初快速拉升涨超1%",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 11,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08CUD00": {
+      "title": "中办国办发文完善自然资源资产管理制度，强调安全高效永续利用",
+      "section": "domestic",
+      "front_count": 2,
+      "last_rank": 4,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08RAM00": {
+      "title": "东京股市显著下跌",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08IZI00": {
+      "title": "国际乒联恢复俄罗斯运动员参赛资格",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A080IK00": {
+      "title": "视频丨中东局势推高燃料成本 日本农业生产承压",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 9,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A07KOH00": {
+      "title": "新闻分析｜全球能源供应面临三大短期冲击",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 10,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A06LBD00": {
+      "title": "新华读报｜美媒文章：中国引领全球人工智能治理",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 2,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A066CO00": {
+      "title": "如何验证《外层空间条约》履约？国际最新研发出微型卫星探测方法",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 3,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08PEW00": {
+      "title": "明日主题前瞻】2026世界人工智能大会将启幕，机构称AI应用层面Agent化加速",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 1,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A088NX00": {
+      "title": "新兴市场基金降低对AI三巨头的集中持仓 中国科技股等机会进入视野",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 2,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A080G800": {
+      "title": "云南将推动人工智能炼铝、制磷、炮制中药",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 3,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A0706T00": {
+      "title": "开“新”WAIC丨9个关键词，解锁2026世界人工智能大会新亮点",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 4,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A05PNI00": {
+      "title": "2026世界人工智能大会前瞻：厚积八载，未来已来",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 5,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08JZ500": {
+      "title": "低调回归？小杨哥徒弟「红绿灯的黄」国内正式复播，网友并不买账",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 9,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08I1R00": {
+      "title": "镇巴夏日旅居指南｜清凉一夏 山海好宿等您来",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 10,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08GVT00": {
+      "title": "“芒乡有情 让爱传递”——2026年百色·田东芒果文化活动月自家人明星公益演唱会温暖唱响",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 11,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A089JQ00": {
+      "title": "正式官宣！四川资阳银河左岸音乐节今年10月举行",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A06L4G00": {
+      "title": "侏罗纪公园》男主山姆·尼尔逝世享年78岁，曾抗癌成功感动影迷",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 1,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08U8R00": {
+      "title": "中信保诚基金吴秋君：关注阶段性利率下行窗口",
+      "section": "stock",
+      "front_count": 3,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08OL600": {
+      "title": "A股收评：深证成指下跌3.48%，超4600只个股下跌",
+      "section": "stock",
+      "front_count": 3,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08HRK00": {
+      "title": "海外研选日报0713 | 高盛：中东冲突通胀冲击趋弱 美联储年内料维持利率不变",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 9,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08HSP00": {
+      "title": "外资带头大举抛售，杠杆产品也跪了！SK海力士，股价为何崩了",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 10,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08GZJ00": {
+      "title": "双创同步下探，香农芯创20CM跌停！科创50ETF汇添富收跌超5%，创业板ETF汇添富收跌超3...",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 11,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08CUM00": {
+      "title": "SK海力士ADR盘前重挫超10%，美股存储芯片全线承压，国际油价大涨近3%",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A0817A00": {
+      "title": "SK海力士暴跌15%原因找到了？韩国券商称Q2盈利或“不及预期”",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260714A01DTY00": {
+      "title": "也门胡塞武装称袭击沙特艾卜哈国际机场",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 4,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260714A00ZWS00": {
+      "title": "伦敦股市13日上涨",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://neow.in/cWsyMTV3": {
+      "title": "三星强制用户同意健康数据用于AI训练，否则将删除数据",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://playcode.io/blog/real-price-of-frontier-models": {
+      "title": "前沿模型实际成本：tokenizer 差异导致隐性涨价",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 8,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai": {
+      "title": "微软CEO纳德拉警告企业使用专有AI模型会泄露专有知识",
+      "section": "ai",
+      "front_count": 0,
+      "last_rank": 10,
+      "last_seen": "2026-07-14 19:25:05"
+    },
+    "url:https://view.inews.qq.com/a/20260713A06DXK00": {
+      "title": "电影《想你了》发布终极海报 7月17日上映",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 2,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A06A5B00": {
+      "title": "年近80岁的易中天，为什么用百万积分做一部AI精品电影？｜独家专访",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 3,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A063X600": {
+      "title": "BW2026闭幕：外国游客远道而来，沉浸式感受中国动漫游戏展会活力",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 4,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260710A0CQUC00": {
+      "title": "好惨！TVB知名演员离巢后遭区别对待，新剧番位男二降级为男四",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 5,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260714A00OO700": {
+      "title": "电影人施南生离世，享年75岁，成龙、甄子丹、舒淇、李冰冰等众星发文悼念",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 6,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260714A00II400": {
+      "title": "施南生离世：香港电影重要推手，导演徐克灵魂拍档，众好友深情缅怀",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-14 07:22:42"
+    },
+    "url:https://view.inews.qq.com/a/20260713A0563U00": {
+      "title": "TVB前花旦回港红裙造型获赞，用10天录新歌，巡演12场目标红馆",
+      "section": "entertainment",
+      "front_count": 0,
+      "last_rank": 12,
       "last_seen": "2026-07-14 07:22:42"
     },
     "url:https://view.inews.qq.com/a/20260710A03UB300": {
@@ -35,82 +966,390 @@
       "last_rank": 7,
       "last_seen": "2026-07-13 19:23:37"
     },
-    "url:https://view.inews.qq.com/a/20260709A09JZG00": {
-      "title": "艺人讨债上热搜，综艺嘉宾被逼当“老板”，娱乐圈闹剧给打工人敲响警钟",
+    "url:https://view.inews.qq.com/a/20260712A02A7L00": {
+      "title": "胡荷韬百场感言：遗憾没拿下比赛，100场希望是新的起点",
+      "section": "csl",
+      "front_count": 8,
+      "last_rank": 10,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260712A013SO00": {
+      "title": "新华社聚焦各部门防汛防台风联动，国家防总和部委加码保障生命财产安全",
+      "section": "domestic",
+      "front_count": 3,
+      "last_rank": 3,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260712A07VGN00": {
+      "title": "第四届鹤岗小串烧烤节连嗨10天",
+      "section": "entertainment",
+      "front_count": 3,
+      "last_rank": 7,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260712A09FL300": {
+      "title": "赛出乡村文旅新活力！2026年“贵州村马”村级联赛火热开赛",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 9,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260712A019NJ00": {
+      "title": "民政部部署民政领域防汛救灾，要求排查养老儿童福利等服务机构风险",
+      "section": "domestic",
+      "front_count": 0,
+      "last_rank": 10,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260711A0B1BT00": {
+      "title": "国家防总对京津辽皖赣启动防汛三级应急响应，应对台风“巴威”北上影响",
+      "section": "domestic",
+      "front_count": 0,
+      "last_rank": 11,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A04ETY00": {
+      "title": "针对美国侵略性袭击，伊朗凌晨发表声明",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 6,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A04CUF00": {
+      "title": "伊朗强烈谴责美国“侵略性”袭击",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A03I8J00": {
+      "title": "联合国秘书长敦促伊朗和美国紧急恢复谈判",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A029MH00": {
+      "title": "中欧班列助力构建更可靠国际供应链",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 5,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A02V9900": {
+      "title": "AI中国绘开局丨半年创新答卷！人工智能赋能千行百业夯实新质生产力",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A03MHT00": {
+      "title": "英伟达季度收入正逼近1000亿美元，机器人ETF华夏震荡回调",
+      "section": "ai",
+      "front_count": 0,
+      "last_rank": 9,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A04H9I00": {
+      "title": "定了！她要来常州开演唱会",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A03O9X00": {
+      "title": "妮可基德曼与“穿普拉达的女王”安娜同框看温网，“波波头”经典造型抢镜",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 10,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A04N7R00": {
+      "title": "跌超10%！SK海力士赴美上市成功后，为何在韩国股市大幅下跌？",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08S0L00": {
+      "title": "2026世界人工智能大会启幕在即！1100余家企业参展，300余款产品将全球首发",
+      "section": "ai",
+      "front_count": 0,
+      "last_rank": 10,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://raymyers.org/post/zed-creator-calls-spade-a-spade": {
+      "title": "Zig创始人批评Anthropic的Bun从Zig迁移至Rust：代码混乱源于过度依赖AI智能体",
+      "section": "ai",
+      "front_count": 0,
+      "last_rank": 11,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08MXX00": {
+      "title": "国产大模型预训练“换芯”，英伟达的不可替代性正在松动？",
+      "section": "ai",
+      "front_count": 0,
+      "last_rank": 12,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A08B5L00": {
+      "title": "李健厦门演唱会即将开票！",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 4,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A07Z7300": {
+      "title": "曾主演《侏罗纪公园》的山姆•尼尔78岁去世，曾透露患血液癌，坦言还想再活十年",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 5,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260713A07W6S00": {
+      "title": "功夫女足》票房超5亿，登暑期档票房榜第二，迪丽热巴主演电影票房破10亿",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 6,
+      "last_seen": "2026-07-13 19:23:37"
+    },
+    "url:https://view.inews.qq.com/a/20260711A07ZJB00": {
+      "title": "习近平同金正恩就中朝条约65周年互致贺电，强调巩固发展传统友好",
+      "section": "domestic",
+      "front_count": 13,
+      "last_rank": 2,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260711A0699G00": {
+      "title": "李强同朝鲜内阁总理朴泰成会谈，围绕中朝关系和条约纪念活动沟通",
+      "section": "domestic",
+      "front_count": 11,
+      "last_rank": 5,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260712A008V700": {
+      "title": "郑智：雷森德已经去医院了，希望他别遭受重伤",
+      "section": "csl",
+      "front_count": 7,
+      "last_rank": 10,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260708A0A7XP00": {
+      "title": "景旺电子再谋港股上市 与立讯精密频现关联交易",
+      "section": "stock",
+      "front_count": 1,
+      "last_rank": 11,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260706A07PFG00": {
+      "title": "吴松：粤澳中医药产业园打造琴澳融合标杆｜活力中国调研行",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260710A031CI00": {
+      "title": "国务院印发“十五五”碳达峰方案｜新能源早参",
+      "section": "stock",
+      "front_count": 1,
+      "last_rank": 9,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260709A03FVI00": {
+      "title": "基金经理解读为何当前看好科创芯片细分赛道",
+      "section": "stock",
+      "front_count": 1,
+      "last_rank": 10,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260708A03IFF00": {
+      "title": "世界人工智能大会释放产业强音，人工智能ETF 涨超2%",
+      "section": "stock",
+      "front_count": 1,
+      "last_rank": 12,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260704A044H400": {
+      "title": "印度政府：正调查苹果手机信息泄露事件",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 11,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260704A03I1M00": {
+      "title": "全球媒体聚焦｜英媒：“美国梦”正在褪色",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 12,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260712A06KDH00": {
+      "title": "国家防办、应急管理部滚动调度台风“巴威”防范，调整多地防汛应急响应",
+      "section": "domestic",
+      "front_count": 1,
+      "last_rank": 10,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260712A090YB00": {
+      "title": "俄国防部：俄军大规模打击乌军设施",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 6,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260712A07LEZ00": {
+      "title": "美军称霍尔木兹海峡南部航道仍“开放”",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260712A077KW00": {
+      "title": "国际观察｜一周三轮互袭，美伊“灰色对抗”暗藏风险",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260712A090Y500": {
+      "title": "开源和人工智能边会探讨共建开放普惠的数字未来",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 4,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://simonwillison.net/2026/Jul/12/bump": {
+      "title": "Anthropic 再次延长 Claude Max 计划中 Fable 5 的可用时间",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 10,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html": {
+      "title": "我喜欢大型语言模型，讨厌炒作",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 11,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering": {
+      "title": "循环工程指南：autoresearch 与 Bilevel Autoresearch 让 AI...",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 12,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy": {
+      "title": "Lorde 在音乐节公开批评 Ray-Ban Meta AI 眼镜\"不够性感",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 6,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260712A09V6B00": {
+      "title": "游戏、动漫爱好者狂欢，BW展会拉动上海酒店预订量翻倍增长",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 10,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260712A09Q2B00": {
+      "title": "小黄人与大怪兽》正在热映，导演亲口证实：小黄人永生不死，繁殖方式保密、二战时躲在洞里",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 11,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260712A08RZT00": {
+      "title": "艺人在线公开讨薪，暴露内娱综艺深层危机",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 12,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260712A072EE00": {
+      "title": "从“千年文脉”到“山歌回响” 资中用两年打出三张文旅新名片｜遇见古城资中",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 8,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260712A0929S00": {
+      "title": "新产品配套英伟达产业链 液冷概念股斩获3天2板 本周机构密集调研相关上市公司",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260713A02AXU00": {
+      "title": "中国驻英国使馆回应英国联署涉南海仲裁案声明，反对为非法裁决背书",
+      "section": "domestic",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260712A06PH800": {
+      "title": "国家发改委安排1亿元中央预算内投资，支持浙江台风灾后应急恢复",
+      "section": "domestic",
+      "front_count": 1,
+      "last_rank": 8,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260713A03AQF00": {
+      "title": "中国持续提升旅游国际吸引力",
+      "section": "international",
+      "front_count": 0,
+      "last_rank": 10,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260713A048BC00": {
+      "title": "李大霄建议：推迟OpenAI和Anthropic上市，香港也均衡节奏，不要一周发15个",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 5,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://www.ithome.com/0/975/885.htm": {
+      "title": "努比亚 AI 宠物机器人 iMoochi 定档 7 月 17 日上线",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 6,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260713A03UYL00": {
+      "title": "专访DeepMind创始人：从被嘲落后到诺奖加身，哈萨比斯如何复盘Google的AI战略？｜投...",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260713A03QTL00": {
+      "title": "全球竞逐AI，中国的解法是什么？",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 8,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260713A034KW00": {
+      "title": "周星驰作品《功夫女足》上映2日票房破5亿，预测总票房超20亿！已打破9项影史纪录！周星驰路演现...",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 5,
+      "last_seen": "2026-07-13 13:23:18"
+    },
+    "url:https://view.inews.qq.com/a/20260713A03PVW00": {
+      "title": "功夫女足》上映，观众还欠周星驰一张电影票吗？",
       "section": "entertainment",
       "front_count": 1,
       "last_rank": 7,
-      "last_seen": "2026-07-12 19:24:34"
+      "last_seen": "2026-07-13 13:23:18"
     },
-    "url:https://view.inews.qq.com/a/20260707A0AP5000": {
-      "title": "中共中央组织部发通知，要求基层党组织和党员投入防汛救灾",
-      "section": "domestic",
-      "front_count": 10,
-      "last_rank": 10,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260708A02EKH00": {
-      "title": "报告指出，菲律宾领土扩张企图冲击国际法律体系",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-12 19:21:53"
-    },
-    "url:https://view.inews.qq.com/a/20260708A02WSJ00": {
-      "title": "国际能源署：今年全球天然气消费量预计下降0.5%",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-12 19:21:53"
-    },
-    "url:https://view.inews.qq.com/a/20260708A048DG00": {
-      "title": "南方基金旗下通信ETF南方标的指数强势上涨2.33%，光通信赛道景气度持续向上",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 6,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260708A0A78S00": {
-      "title": "央行：加强对扩大内需、科技创新、中小微企业等重点领域的金融支持",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 8,
-      "last_seen": "2026-07-12 19:21:53"
-    },
-    "url:https://view.inews.qq.com/a/20260708A07EC000": {
-      "title": "五月工业企业利润数据出炉，财报季哪些ETF值得关注？",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 4,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260708A05SH800": {
-      "title": "二级债基持续吸金，量化策略成增长极，鹏扬合利债券型证券投资基金布局低利率时代稳健投资新机遇",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 5,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260708A0BU2H00": {
-      "title": "今夜，27家A股公司提示风险",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 7,
-      "last_seen": "2026-07-12 19:21:53"
-    },
-    "url:https://view.inews.qq.com/a/20260709A0084U00": {
-      "title": "内需偏弱托举债市，中短久期品种配置价值突出",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 6,
-      "last_seen": "2026-07-12 19:21:53"
-    },
-    "url:https://view.inews.qq.com/a/20260708A01NHD00": {
-      "title": "俄总统新闻秘书：欧洲的军事化将迫使俄罗斯采取更多安全措施",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-12 19:21:53"
+    "url:https://view.inews.qq.com/a/20260713A03BFR00": {
+      "title": "带孩子看周星驰，不是笑笑就完了！他每一部电影都在教这件事！",
+      "section": "entertainment",
+      "front_count": 0,
+      "last_rank": 9,
+      "last_seen": "2026-07-13 13:23:18"
     },
     "url:https://view.inews.qq.com/a/20260708A0028A00": {
       "title": "国际奥委会暂时恢复俄罗斯奥委会会员资格",
@@ -133,13 +1372,6 @@
       "last_rank": 8,
       "last_seen": "2026-07-13 07:21:42"
     },
-    "url:https://view.inews.qq.com/a/20260708A01Z0300": {
-      "title": "温网：焦科维奇创纪录第15次晋级四强 将再战辛纳",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-12 19:21:53"
-    },
     "url:https://view.inews.qq.com/a/20260704A01YXU00": {
       "title": "山火蔓延 四千例超额死亡 欧洲陷入高温热浪危机",
       "section": "international",
@@ -147,26 +1379,187 @@
       "last_rank": 12,
       "last_seen": "2026-07-13 07:21:42"
     },
-    "url:https://view.inews.qq.com/a/20260710A02PD700": {
-      "title": "国内商品期货开盘，沪银涨超3%",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 5,
-      "last_seen": "2026-07-12 19:21:53"
-    },
-    "url:https://view.inews.qq.com/a/20260710A08DM400": {
-      "title": "官方：受台风巴威影响，三镇vs河南等三场比赛将延期举行",
-      "section": "henan",
-      "front_count": 19,
-      "last_rank": 3,
-      "last_seen": "2026-07-14 07:22:42"
-    },
     "url:https://view.inews.qq.com/a/20260710A08DUD00": {
       "title": "斯卢茨基：和国安队的比赛是拉锯战，比拼的是对失误的控制",
       "section": "csl",
       "front_count": 4,
       "last_rank": 8,
       "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260712A01RQL00": {
+      "title": "视频丨“电影+生活方式”深度融合 非票营收成电影产业新增长极",
+      "section": "entertainment",
+      "front_count": 6,
+      "last_rank": 10,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260712A06VTY00": {
+      "title": "德生科技：四部委印发“人工智能+人社”实施意见 公司全栈布局迎战略共振",
+      "section": "ai",
+      "front_count": 4,
+      "last_rank": 10,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260712A06G3B00": {
+      "title": "综述｜中国智慧促进人工智能向善普惠发展",
+      "section": "ai",
+      "front_count": 4,
+      "last_rank": 12,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260712A032X900": {
+      "title": "IPO前夕高管接连流失，OpenAI核心高层因病情恶化离职",
+      "section": "ai",
+      "front_count": 0,
+      "last_rank": 11,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260709A08SIV00": {
+      "title": "那达慕总体活动安排出炉！",
+      "section": "entertainment",
+      "front_count": 0,
+      "last_rank": 11,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260706A0ABW500": {
+      "title": "外交学院前院长王帆答21：美国战略收缩可能在局部更咄咄逼人",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260707A06XQ000": {
+      "title": "万亿抉择，浦东、海淀、南山“十五五”分野",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 6,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260707A06Q0T00": {
+      "title": "苹果大涨价 背后有何深层原因?|财经早察",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260710A08W9U00": {
+      "title": "外汇交易中心：继续暂免部分直接交易货币对交易手续费",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 4,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260710A05WEZ00": {
+      "title": "蔚来李斌：新能源技术路线很明显在往纯电上收敛",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 5,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260704A00PME00": {
+      "title": "各地各部门落实中央部署，推进防汛抗旱和抢险救灾工作",
+      "section": "domestic",
+      "front_count": 9,
+      "last_rank": 12,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260702A099V100": {
+      "title": "中国空调在欧洲热浪中硬核圈粉",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 3,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260704A03DB700": {
+      "title": "普京：俄军全面控制卢甘斯克地区及康斯坦丁诺夫卡重镇",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 11,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260703A0CI8300": {
+      "title": "台湾业者投身大陆AI微短剧 冀两岸共创讲好中国故事",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 5,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260703A08UZQ00": {
+      "title": "报告：AI大模型商业化“落地战”全面打响",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 6,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260703A058P600": {
+      "title": "探索两岸AI合作前景 2026年海峡两岸大学论坛在北京举办",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260702A09X5W00": {
+      "title": "中东欧国家新闻发言人在浙江遇见“未来机器人”",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260702A09SYE00": {
+      "title": "杭州何以成为国际合作“机会窗口”？",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 2,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260708A0AVF800": {
+      "title": "数字内容引流，商圈消费转化！元界夏日嘉年华开启",
+      "section": "entertainment",
+      "front_count": 0,
+      "last_rank": 12,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260707A03JV500": {
+      "title": "潘功胜：支持香港推出离岸人民币国债期货，支持香港建设综合性的金融交易平台",
+      "section": "stock",
+      "front_count": 1,
+      "last_rank": 3,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260703A02UKW00": {
+      "title": "湖北首个交通行业AI大模型发布",
+      "section": "ai",
+      "front_count": 0,
+      "last_rank": 9,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260712A086P500": {
+      "title": "张家界大庸古城焕新 演唱会音乐节接连上演，知名艺人纷纷亮相",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260712A08VC600": {
+      "title": "审批通过！佛山演唱会+2",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 8,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260711A08YXO00": {
+      "title": "国际金融观察 | 欧美政策步入“摇摆期”，中国市场产生结构性机会",
+      "section": "stock",
+      "front_count": 1,
+      "last_rank": 2,
+      "last_seen": "2026-07-13 07:21:42"
+    },
+    "url:https://view.inews.qq.com/a/20260709A09JZG00": {
+      "title": "艺人讨债上热搜，综艺嘉宾被逼当“老板”，娱乐圈闹剧给打工人敲响警钟",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-12 19:24:34"
     },
     "url:https://view.inews.qq.com/a/20260710A0B90600": {
       "title": "习近平同纳米比亚总统恩代特瓦会谈，宣布中纳关系升级为新时代命运共同体",
@@ -203,27 +1596,6 @@
       "last_rank": 1,
       "last_seen": "2026-07-12 19:24:34"
     },
-    "url:https://view.inews.qq.com/a/20260711A01LXG00": {
-      "title": "颜卓彬：中超和港超最大的区别是节奏；一直在向罗森文学习",
-      "section": "csl",
-      "front_count": 11,
-      "last_rank": 10,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260711A00KO100": {
-      "title": "王大雷：以老带新就是得有代价，希望大家多给我们时间",
-      "section": "csl",
-      "front_count": 11,
-      "last_rank": 11,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260711A000EI00": {
-      "title": "买乌郎：虽然上轮表现不好，但球队上下一直鼓励我重新站起来",
-      "section": "csl",
-      "front_count": 9,
-      "last_rank": 12,
-      "last_seen": "2026-07-14 07:22:42"
-    },
     "url:https://view.inews.qq.com/a/20260710A0CDSL00": {
       "title": "蓉城主帅：深知蓉渝德比的分量极重，会把天气的影响降到最低",
       "section": "csl",
@@ -252,89 +1624,12 @@
       "last_rank": 2,
       "last_seen": "2026-07-12 19:24:34"
     },
-    "url:https://view.inews.qq.com/a/20260710A0B80V00": {
-      "title": "张国清赴广西指导救灾，要求细致保障受灾群众生活和抢修恢复",
-      "section": "domestic",
-      "front_count": 12,
-      "last_rank": 9,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260710A0BANK00": {
-      "title": "张国清调度第9号台风“巴威”防范，应对防汛救灾多线作战",
-      "section": "domestic",
-      "front_count": 11,
-      "last_rank": 11,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260711A07ZJB00": {
-      "title": "习近平同金正恩就中朝条约65周年互致贺电，强调巩固发展传统友好",
-      "section": "domestic",
-      "front_count": 13,
-      "last_rank": 2,
-      "last_seen": "2026-07-13 13:23:18"
-    },
     "url:https://view.inews.qq.com/a/20260710A0AT0B00": {
       "title": "蔡奇出席中央层面整治形式主义为基层减负会议，部署纠治突出问题",
       "section": "domestic",
       "front_count": 11,
       "last_rank": 6,
       "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://view.inews.qq.com/a/20260711A0699G00": {
-      "title": "李强同朝鲜内阁总理朴泰成会谈，围绕中朝关系和条约纪念活动沟通",
-      "section": "domestic",
-      "front_count": 11,
-      "last_rank": 5,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260711A07PTW00": {
-      "title": "买乌郎表现非常出色，未来计划进行补强｜赛后谈",
-      "section": "csl",
-      "front_count": 13,
-      "last_rank": 9,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260710A029XE00": {
-      "title": "美官员称外交努力仍在进行 如有必要将继续打击伊朗",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 3,
-      "last_seen": "2026-07-12 19:21:53"
-    },
-    "url:https://view.inews.qq.com/a/20260710A086M200": {
-      "title": "不该遭受这种对待",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 2,
-      "last_seen": "2026-07-12 19:21:53"
-    },
-    "url:https://view.inews.qq.com/a/20260709A02VNN00": {
-      "title": "（图表）欧洲三大股指7月8日全线下跌",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-12 19:21:53"
-    },
-    "url:https://view.inews.qq.com/a/20260712A01RQL00": {
-      "title": "视频丨“电影+生活方式”深度融合 非票营收成电影产业新增长极",
-      "section": "entertainment",
-      "front_count": 6,
-      "last_rank": 10,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260711A0AMDU00": {
-      "title": "【中超】姚均晟远射杨一鸣破门 新鹏城3比0西海岸",
-      "section": "csl",
-      "front_count": 13,
-      "last_rank": 8,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260711A0A59S00": {
-      "title": "央视焦点访谈追踪晋江鞋厂火灾，聚焦习近平重要指示后的追责整改",
-      "section": "domestic",
-      "front_count": 10,
-      "last_rank": 8,
-      "last_seen": "2026-07-14 07:22:42"
     },
     "url:https://www.ithome.com/0/975/666.htm": {
       "title": "苹果起诉OpenAI挖角窃密，分析师称即使指控未证实也可能重创其硬件计划",
@@ -350,48 +1645,6 @@
       "last_rank": 11,
       "last_seen": "2026-07-12 19:24:34"
     },
-    "url:https://view.inews.qq.com/a/20260711A0AOE600": {
-      "title": "从“新”向“智”：中国方案拓展国际能源合作新空间",
-      "section": "ai",
-      "front_count": 3,
-      "last_rank": 7,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260712A03VLU00": {
-      "title": "浪姐7》“七公”来了！李小冉压轴三连唱，范玮琪演唱会变团建，女性群像戳人",
-      "section": "entertainment",
-      "front_count": 3,
-      "last_rank": 11,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260712A02IGX00": {
-      "title": "动画电影《小黄人与大怪兽》 上映 10 天总票房破 2 亿",
-      "section": "entertainment",
-      "front_count": 3,
-      "last_rank": 12,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260712A02ENO00": {
-      "title": "罗比-尼尔森：韦斯利是中超最好的前锋之一，三连客也要争胜",
-      "section": "csl",
-      "front_count": 10,
-      "last_rank": 6,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260712A02A7L00": {
-      "title": "胡荷韬百场感言：遗憾没拿下比赛，100场希望是新的起点",
-      "section": "csl",
-      "front_count": 8,
-      "last_rank": 10,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260712A008V700": {
-      "title": "郑智：雷森德已经去医院了，希望他别遭受重伤",
-      "section": "csl",
-      "front_count": 7,
-      "last_rank": 10,
-      "last_seen": "2026-07-13 13:23:18"
-    },
     "url:https://view.inews.qq.com/a/20260709A0AQSV00": {
       "title": "2026青春超燃巨星演唱会唐山站歌单公布！",
       "section": "entertainment",
@@ -405,27 +1658,6 @@
       "front_count": 1,
       "last_rank": 8,
       "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://view.inews.qq.com/a/20260705A07N9V00": {
-      "title": "多资产“固收+” 产品破解低利率时代投资难题",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 2,
-      "last_seen": "2026-07-12 19:21:53"
-    },
-    "url:https://view.inews.qq.com/a/20260712A06VTY00": {
-      "title": "德生科技：四部委印发“人工智能+人社”实施意见 公司全栈布局迎战略共振",
-      "section": "ai",
-      "front_count": 4,
-      "last_rank": 10,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260712A06G3B00": {
-      "title": "综述｜中国智慧促进人工智能向善普惠发展",
-      "section": "ai",
-      "front_count": 4,
-      "last_rank": 12,
-      "last_seen": "2026-07-13 07:21:42"
     },
     "url:https://view.inews.qq.com/a/20260712A06DU400": {
       "title": "杨杰：在智能时代，数据成为人工智能的“燃料”",
@@ -447,48 +1679,6 @@
       "front_count": 4,
       "last_rank": 5,
       "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs": {
-      "title": "OpenAI CEO Altman 改口称 AI 净创造就业，Anthropic CEO 也修正早期言论",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://www.ithome.com/0/975/626.htm": {
-      "title": "AI 策略模拟游戏《圣旨模拟器：一统天下》登陆 Steam，国区售价 42 元",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-12 19:23:42"
-    },
-    "url:https://the-decoder.com/grades-dropped-from-96-to-48-percent-when-a-brown-professor-made-students-take-the-exam-without-ai": {
-      "title": "布朗大学教授发现AI作弊：开卷考试平均96%，闭卷骤降至48.6%",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-12 19:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260712A032X900": {
-      "title": "IPO前夕高管接连流失，OpenAI核心高层因病情恶化离职",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 11,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260712A06RKT00": {
-      "title": "锦州有商家付费探店推广遇套路",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 1,
-      "last_seen": "2026-07-12 19:21:53"
-    },
-    "url:https://view.inews.qq.com/a/20260712A0684G00": {
-      "title": "26届故事线不止一条！布泽尔威尔逊初次交手显锋芒",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 2,
-      "last_seen": "2026-07-12 19:21:53"
     },
     "url:https://view.inews.qq.com/a/20260712A05J4300": {
       "title": "华夏电影开启深圳文旅地标世界杯沉浸式观赛盛宴",
@@ -525,19 +1715,460 @@
       "last_rank": 10,
       "last_seen": "2026-07-12 19:24:34"
     },
-    "url:https://view.inews.qq.com/a/20260712A05LH600": {
-      "title": "官方：浙江队引进前河南中锋卡多索 曾入选巴西U20",
-      "section": "henan",
-      "front_count": 8,
-      "last_rank": 2,
-      "last_seen": "2026-07-14 07:22:42"
+    "url:https://view.inews.qq.com/a/20260711A02HUM00": {
+      "title": "SK海力士点燃存储芯片！英伟达市值重返5万亿美元，中概股冲高回落",
+      "section": "stock",
+      "front_count": 5,
+      "last_rank": 9,
+      "last_seen": "2026-07-12 19:24:34"
     },
-    "url:https://view.inews.qq.com/a/20260712A06JBK00": {
-      "title": "中超成渝德比，以和为贵",
-      "section": "csl",
-      "front_count": 8,
+    "url:https://www.ithome.com/0/975/664.htm": {
+      "title": "特斯拉 46 天拆除 Model S/X 产线，为 Optimus 人形机器人量产铺路",
+      "section": "ai",
+      "front_count": 1,
+      "last_rank": 12,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260712A039MK00": {
+      "title": "公募基金经理“去明星化”提速",
+      "section": "stock",
+      "front_count": 2,
+      "last_rank": 12,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260706A0370600": {
+      "title": "国债期货早盘开盘",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 8,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260706A04V2L00": {
+      "title": "A股午评：创业板指下跌0.51%，青蒿素概念涨幅居前",
+      "section": "stock",
+      "front_count": 4,
       "last_rank": 7,
-      "last_seen": "2026-07-14 07:22:42"
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260706A0566B00": {
+      "title": "科创50指数，深V翻红！A股、港股医药股集体大涨",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 6,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260706A0893O00": {
+      "title": "美股盘前速递：道指期货涨0.2%，半导体、存储股盘前走高；国际油价跳水，金银价格回落",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 5,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260707A00DVA00": {
+      "title": "欧洲股市从纪录高位回落 投资者消化并购消息",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 4,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260707A018Z700": {
+      "title": "美联储理事回应沃什改革：前瞻指引仍有价值 但必须保持灵活",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 3,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260702A0A2WW00": {
+      "title": "高温天气带动浙江义乌创意降温产品出口",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 8,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260703A0BATB00": {
+      "title": "巴基斯坦前政要：中东安全不能外包，地区国家须携手掌控命运",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 2,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260703A0683800": {
+      "title": "日本宫古岛附近海域发生6.4级地震",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 3,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260703A03HXO00": {
+      "title": "水平不能低于“老司机”？有关自动驾驶的国际争议统一了",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 4,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260703A03DCV00": {
+      "title": "尼泊尔6月接待国际游客同比增长近两成",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 5,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260703A02B1300": {
+      "title": "视频丨美伊在安理会围绕霍尔木兹海峡等问题激烈交锋",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 6,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260703A01U7V00": {
+      "title": "北京发布人工智能赋能科学研究实施方案",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260708A09TV800": {
+      "title": "中山六院知识城院区公益支持 全网首部IBD公益短剧《我和我们》温暖上映",
+      "section": "entertainment",
+      "front_count": 0,
+      "last_rank": 11,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://view.inews.qq.com/a/20260708A0883300": {
+      "title": "首个动画电影主题唱演秀落地上海，演唱会能否成电影IP衍生新路径？",
+      "section": "entertainment",
+      "front_count": 0,
+      "last_rank": 12,
+      "last_seen": "2026-07-12 19:24:34"
+    },
+    "url:https://www.ithome.com/0/975/626.htm": {
+      "title": "AI 策略模拟游戏《圣旨模拟器：一统天下》登陆 Steam，国区售价 42 元",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 6,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://the-decoder.com/grades-dropped-from-96-to-48-percent-when-a-brown-professor-made-students-take-the-exam-without-ai": {
+      "title": "布朗大学教授发现AI作弊：开卷考试平均96%，闭卷骤降至48.6%",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260707A07EO700": {
+      "title": "“18个月负面周期迅速消失”，华尔街投行：全球投资者正重燃对印度资产兴趣",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 4,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260707A030Z900": {
+      "title": "A股三大指数低开，贵金属概念走弱",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 8,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260707A0486N00": {
+      "title": "潘功胜：支持香港金管局将人民币业务资金安排规模增至5000亿元",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 5,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260707A03HM400": {
+      "title": "新能源车ETF平安涨超1%，锂电产业链公司上半年业绩爆发",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 7,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260707A03RL600": {
+      "title": "潘功胜：支持更多优质企业到香港上市和发债 债券通“南向通”年度投资净额度提升至8000亿元",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 6,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260703A0639E00": {
+      "title": "中国整治网络娱乐团播乱象",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 4,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260702A03ZU700": {
+      "title": "《主角》刷屏背后 今夏你为哪部剧出了趟远门",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 5,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260703A0CHH400": {
+      "title": "两部门发文促进电影院多样化经营",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 3,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://www.people.com.cn/GB/59476": {
+      "title": "上海电视节揭晓白玉兰奖：《太平年》《沉默的荣耀》等获奖",
+      "section": "entertainment",
+      "front_count": 2,
+      "last_rank": 6,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260703A0CWJS00": {
+      "title": "（国际观察）新一轮热浪“烤验”法国 抢购电扇空调势头猛烈",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 5,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260704A00OHI00": {
+      "title": "视频丨全美超1.8亿人受高温影响 纽约开启“炙烤模式”",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 6,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260703A0CKOR00": {
+      "title": "“零关税”满两月 上海关区自53个非洲国家进口享惠货值超12亿元",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260703A0BMA100": {
+      "title": "国际赛事及文博研学带动江苏入境游热度攀升",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 8,
+      "last_seen": "2026-07-12 19:23:42"
+    },
+    "url:https://view.inews.qq.com/a/20260708A03MJ300": {
+      "title": "小米全新汽车品牌亮相！港股通汽车ETF华夏捕捉港股汽车出海+高端化+智能化大趋势",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 7,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260708A048DG00": {
+      "title": "南方基金旗下通信ETF南方标的指数强势上涨2.33%，光通信赛道景气度持续向上",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 6,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260708A07EC000": {
+      "title": "五月工业企业利润数据出炉，财报季哪些ETF值得关注？",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 4,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260708A05SH800": {
+      "title": "二级债基持续吸金，量化策略成增长极，鹏扬合利债券型证券投资基金布局低利率时代稳健投资新机遇",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 5,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260711A0AOE600": {
+      "title": "从“新”向“智”：中国方案拓展国际能源合作新空间",
+      "section": "ai",
+      "front_count": 3,
+      "last_rank": 7,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260712A03VLU00": {
+      "title": "浪姐7》“七公”来了！李小冉压轴三连唱，范玮琪演唱会变团建，女性群像戳人",
+      "section": "entertainment",
+      "front_count": 3,
+      "last_rank": 11,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260712A02IGX00": {
+      "title": "动画电影《小黄人与大怪兽》 上映 10 天总票房破 2 亿",
+      "section": "entertainment",
+      "front_count": 3,
+      "last_rank": 12,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs": {
+      "title": "OpenAI CEO Altman 改口称 AI 净创造就业，Anthropic CEO 也修正早期言论",
+      "section": "ai",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260708A03K6J00": {
+      "title": "科创半导体设备领涨，机构：设备需求持续释放丨ETF基金日报",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 8,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260707A03LTH00": {
+      "title": "农业ETF领涨，机构：生猪养殖行业基本面和估值有望得到修复丨ETF基金日报",
+      "section": "stock",
+      "front_count": 3,
+      "last_rank": 12,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260703A0CUUN00": {
+      "title": "第二届全球华语儿童故事大赛在悉尼启动",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 2,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260703A099RM00": {
+      "title": "尺素金声｜首次突破40亿千瓦！我国电力工业迎来标志性时刻",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 3,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260703A05XWC00": {
+      "title": "（外代一线）高温席卷美国大部分地区　约1.63亿人受影响",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 4,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260703A05DUA00": {
+      "title": "零时差 | 日元狂跌！高市“豪赌”之下，日本版“特拉斯时刻”是否将上演？",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 5,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260703A0549Q00": {
+      "title": "美拒绝承认国际刑事法院对美国人有司法管辖权",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 6,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260703A04OF600": {
+      "title": "高温天警惕“热中风”，专家：别把脑卒中当中暑",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 7,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260703A02CJF00": {
+      "title": "视频丨中方呼吁各方避免刺激中东紧张局势升级",
+      "section": "international",
+      "front_count": 1,
+      "last_rank": 8,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260702A0A2FR00": {
+      "title": "两岸青创大赛发邀约 “新融育汇”解锁全新赛程",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 5,
+      "last_seen": "2026-07-12 19:23:01"
+    },
+    "url:https://view.inews.qq.com/a/20260708A02EKH00": {
+      "title": "报告指出，菲律宾领土扩张企图冲击国际法律体系",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 5,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260708A02WSJ00": {
+      "title": "国际能源署：今年全球天然气消费量预计下降0.5%",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 6,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260708A0A78S00": {
+      "title": "央行：加强对扩大内需、科技创新、中小微企业等重点领域的金融支持",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 8,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260708A0BU2H00": {
+      "title": "今夜，27家A股公司提示风险",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 7,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260709A0084U00": {
+      "title": "内需偏弱托举债市，中短久期品种配置价值突出",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 6,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260708A01NHD00": {
+      "title": "俄总统新闻秘书：欧洲的军事化将迫使俄罗斯采取更多安全措施",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 8,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260708A01Z0300": {
+      "title": "温网：焦科维奇创纪录第15次晋级四强 将再战辛纳",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 7,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260710A02PD700": {
+      "title": "国内商品期货开盘，沪银涨超3%",
+      "section": "stock",
+      "front_count": 4,
+      "last_rank": 5,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260710A029XE00": {
+      "title": "美官员称外交努力仍在进行 如有必要将继续打击伊朗",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 3,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260710A086M200": {
+      "title": "不该遭受这种对待",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 2,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260709A02VNN00": {
+      "title": "（图表）欧洲三大股指7月8日全线下跌",
+      "section": "international",
+      "front_count": 2,
+      "last_rank": 4,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260705A07N9V00": {
+      "title": "多资产“固收+” 产品破解低利率时代投资难题",
+      "section": "stock",
+      "front_count": 1,
+      "last_rank": 2,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260712A06RKT00": {
+      "title": "锦州有商家付费探店推广遇套路",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 1,
+      "last_seen": "2026-07-12 19:21:53"
+    },
+    "url:https://view.inews.qq.com/a/20260712A0684G00": {
+      "title": "26届故事线不止一条！布泽尔威尔逊初次交手显锋芒",
+      "section": "entertainment",
+      "front_count": 1,
+      "last_rank": 2,
+      "last_seen": "2026-07-12 19:21:53"
     },
     "url:https://view.inews.qq.com/a/20260703A0D1JJ00": {
       "title": "总台记者观察丨波兰遭罕见高温干旱 农民：一周毁掉一年心血",
@@ -552,13 +2183,6 @@
       "front_count": 1,
       "last_rank": 8,
       "last_seen": "2026-07-12 13:24:47"
-    },
-    "url:https://view.inews.qq.com/a/20260709A08SIV00": {
-      "title": "那达慕总体活动安排出炉！",
-      "section": "entertainment",
-      "front_count": 0,
-      "last_rank": 11,
-      "last_seen": "2026-07-13 07:21:42"
     },
     "url:https://view.inews.qq.com/a/20260707A0BSPK00": {
       "title": "公益法治微电影《万里花开》在合肥首发",
@@ -637,13 +2261,6 @@
       "last_rank": 11,
       "last_seen": "2026-07-12 13:24:47"
     },
-    "url:https://view.inews.qq.com/a/20260711A02HUM00": {
-      "title": "SK海力士点燃存储芯片！英伟达市值重返5万亿美元，中概股冲高回落",
-      "section": "stock",
-      "front_count": 5,
-      "last_rank": 9,
-      "last_seen": "2026-07-12 19:24:34"
-    },
     "url:https://view.inews.qq.com/a/20260711A0AD2M00": {
       "title": "【微特稿】印尼反腐高级检察官因涉腐辞职",
       "section": "international",
@@ -700,13 +2317,6 @@
       "last_rank": 8,
       "last_seen": "2026-07-12 13:24:47"
     },
-    "url:https://www.ithome.com/0/975/664.htm": {
-      "title": "特斯拉 46 天拆除 Model S/X 产线，为 Optimus 人形机器人量产铺路",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 12,
-      "last_seen": "2026-07-12 19:24:34"
-    },
     "url:https://view.inews.qq.com/a/20260712A03NXX00": {
       "title": "努比亚倪飞谈 AI 智能体手机，称下半场将走向“原生智能体”方向",
       "section": "ai",
@@ -734,13 +2344,6 @@
       "front_count": 1,
       "last_rank": 4,
       "last_seen": "2026-07-12 13:24:47"
-    },
-    "url:https://view.inews.qq.com/a/20260712A039MK00": {
-      "title": "公募基金经理“去明星化”提速",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 12,
-      "last_seen": "2026-07-12 19:24:34"
     },
     "url:https://view.inews.qq.com/a/20260712A034B800": {
       "title": "致命陷阱！业绩暴增1810%，却换来股价暴跌！光伏踩过的坑，AI能否避开？",
@@ -790,13 +2393,6 @@
       "front_count": 1,
       "last_rank": 6,
       "last_seen": "2026-07-12 13:24:47"
-    },
-    "url:https://view.inews.qq.com/a/20260708A0A7XP00": {
-      "title": "景旺电子再谋港股上市 与立讯精密频现关联交易",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 11,
-      "last_seen": "2026-07-13 13:23:18"
     },
     "url:https://view.inews.qq.com/a/20260704A05XMH00": {
       "title": "上市五年股价猛跌96%，知名茶饮股东喊话创始人领1元年薪",
@@ -867,20 +2463,6 @@
       "front_count": 1,
       "last_rank": 12,
       "last_seen": "2026-07-12 13:23:44"
-    },
-    "url:https://view.inews.qq.com/a/20260706A0ABW500": {
-      "title": "外交学院前院长王帆答21：美国战略收缩可能在局部更咄咄逼人",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260706A07PFG00": {
-      "title": "吴松：粤澳中医药产业园打造琴澳融合标杆｜活力中国调研行",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-13 13:23:18"
     },
     "url:https://view.inews.qq.com/a/20260706A041IR00": {
       "title": "新能源车ETF平安交投活跃，板块近期催化不断",
@@ -1099,33 +2681,12 @@
       "last_rank": 8,
       "last_seen": "2026-07-12 07:23:50"
     },
-    "url:https://view.inews.qq.com/a/20260707A06XQ000": {
-      "title": "万亿抉择，浦东、海淀、南山“十五五”分野",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260707A06Q0T00": {
-      "title": "苹果大涨价 背后有何深层原因?|财经早察",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-13 07:21:42"
-    },
     "url:https://view.inews.qq.com/a/20260706A0370P00": {
       "title": "人工智能ETF华夏净流入48.01亿元，居可比基金首位",
       "section": "stock",
       "front_count": 3,
       "last_rank": 5,
       "last_seen": "2026-07-12 07:23:25"
-    },
-    "url:https://view.inews.qq.com/a/20260706A0370600": {
-      "title": "国债期货早盘开盘",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 8,
-      "last_seen": "2026-07-12 19:24:34"
     },
     "url:https://view.inews.qq.com/a/20260702A05VK600": {
       "title": "亚马逊公司加速部署AI，科创人工智能ETF华夏震荡下行",
@@ -1154,20 +2715,6 @@
       "front_count": 3,
       "last_rank": 4,
       "last_seen": "2026-07-12 07:23:25"
-    },
-    "url:https://view.inews.qq.com/a/20260706A04V2L00": {
-      "title": "A股午评：创业板指下跌0.51%，青蒿素概念涨幅居前",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 7,
-      "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://view.inews.qq.com/a/20260706A0566B00": {
-      "title": "科创50指数，深V翻红！A股、港股医药股集体大涨",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 6,
-      "last_seen": "2026-07-12 19:24:34"
     },
     "url:https://view.inews.qq.com/a/20260705A069DR00": {
       "title": "长安汽车：6月汽车销量20.2万辆 同比下降14.09%",
@@ -1204,26 +2751,12 @@
       "last_rank": 7,
       "last_seen": "2026-07-12 07:23:25"
     },
-    "url:https://view.inews.qq.com/a/20260706A0893O00": {
-      "title": "美股盘前速递：道指期货涨0.2%，半导体、存储股盘前走高；国际油价跳水，金银价格回落",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 5,
-      "last_seen": "2026-07-12 19:24:34"
-    },
     "url:https://view.inews.qq.com/a/20260706A06WF500": {
       "title": "红利资产的防御属性再度凸显，中证红利ETF招商、港股红利低波ETF招商有望联袂冲击四连阳",
       "section": "stock",
       "front_count": 3,
       "last_rank": 7,
       "last_seen": "2026-07-12 07:22:33"
-    },
-    "url:https://view.inews.qq.com/a/20260707A07EO700": {
-      "title": "“18个月负面周期迅速消失”，华尔街投行：全球投资者正重燃对印度资产兴趣",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 4,
-      "last_seen": "2026-07-12 19:23:42"
     },
     "url:https://view.inews.qq.com/a/20260708A0350X00": {
       "title": "南方基金旗下港股通创新药ETF 涨超2%，机构看好创新药产业链及医药科技主线",
@@ -1330,13 +2863,6 @@
       "last_rank": 3,
       "last_seen": "2026-07-12 07:22:33"
     },
-    "url:https://view.inews.qq.com/a/20260709A0B6MN00": {
-      "title": "习近平对福建晋江鞋厂火灾作出重要指示，要求全力救治伤员并彻查原因",
-      "section": "domestic",
-      "front_count": 9,
-      "last_rank": 12,
-      "last_seen": "2026-07-14 07:22:42"
-    },
     "url:https://view.inews.qq.com/a/20260709A0B6XJ00": {
       "title": "国防部就近期涉军问题答问，回应强军讲话、潜射导弹和远海训练",
       "section": "domestic",
@@ -1399,13 +2925,6 @@
       "front_count": 4,
       "last_rank": 6,
       "last_seen": "2026-07-11 19:25:33"
-    },
-    "url:https://view.inews.qq.com/a/20260710A031CI00": {
-      "title": "国务院印发“十五五”碳达峰方案｜新能源早参",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 9,
-      "last_seen": "2026-07-13 13:23:18"
     },
     "url:https://view.inews.qq.com/a/20260710A0CIOU00": {
       "title": "CINITY宣布暑期档片单 中外影片陆续登陆院线",
@@ -1757,13 +3276,6 @@
       "last_rank": 8,
       "last_seen": "2026-07-11 07:23:23"
     },
-    "url:https://view.inews.qq.com/a/20260710A08W9U00": {
-      "title": "外汇交易中心：继续暂免部分直接交易货币对交易手续费",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-13 07:21:42"
-    },
     "url:https://view.inews.qq.com/a/20260710A0C5IS00": {
       "title": "李强主持国务院常务会议，部署防汛救灾、数字中国和全民健身计划",
       "section": "domestic",
@@ -1847,13 +3359,6 @@
       "front_count": 1,
       "last_rank": 10,
       "last_seen": "2026-07-11 07:22:18"
-    },
-    "url:https://view.inews.qq.com/a/20260710A05WEZ00": {
-      "title": "蔚来李斌：新能源技术路线很明显在往纯电上收敛",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-13 07:21:42"
     },
     "url:https://www.marktechpost.com/2026/07/10/kyutai-releases-muscriptor-an-open-weight-decoder-only-transformer-for-multi-instrument-music-transcription-to-midi": {
       "title": "Kyutai 发布 MuScriptor：用于多乐器自动音乐转录的开源解码器专用 Transformer 模型",
@@ -2197,13 +3702,6 @@
       "front_count": 2,
       "last_rank": 2,
       "last_seen": "2026-07-10 13:25:02"
-    },
-    "url:https://view.inews.qq.com/a/20260708A03K6J00": {
-      "title": "科创半导体设备领涨，机构：设备需求持续释放丨ETF基金日报",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 8,
-      "last_seen": "2026-07-12 19:23:01"
     },
     "url:https://view.inews.qq.com/a/20260708A07P0400": {
       "title": "国台办批驳“台独”歪曲民族团结法，强调依法维护国家统一",
@@ -3367,13 +4865,6 @@
       "last_rank": 12,
       "last_seen": "2026-07-09 13:24:31"
     },
-    "url:https://view.inews.qq.com/a/20260709A03FVI00": {
-      "title": "基金经理解读为何当前看好科创芯片细分赛道",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 10,
-      "last_seen": "2026-07-13 13:23:18"
-    },
     "url:https://view.inews.qq.com/a/20260708A0AXKB00": {
       "title": "群星演唱会，众星齐聚枣庄，即将璀璨登场",
       "section": "entertainment",
@@ -3822,13 +5313,6 @@
       "last_rank": 12,
       "last_seen": "2026-07-08 19:22:35"
     },
-    "url:https://view.inews.qq.com/a/20260708A03IFF00": {
-      "title": "世界人工智能大会释放产业强音，人工智能ETF 涨超2%",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 12,
-      "last_seen": "2026-07-13 13:23:18"
-    },
     "url:https://view.inews.qq.com/a/20260706A06YL700": {
       "title": "习近平致电祝贺美国独立250周年，外交部介绍中方立场",
       "section": "domestic",
@@ -4130,13 +5614,6 @@
       "last_rank": 11,
       "last_seen": "2026-07-07 19:21:45"
     },
-    "url:https://view.inews.qq.com/a/20260707A00DVA00": {
-      "title": "欧洲股市从纪录高位回落 投资者消化并购消息",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 4,
-      "last_seen": "2026-07-12 19:24:34"
-    },
     "url:https://view.inews.qq.com/a/20260707A008PP00": {
       "title": "国际海事组织：44名海员仍被索马里海盗等扣押",
       "section": "international",
@@ -4165,33 +5642,12 @@
       "last_rank": 9,
       "last_seen": "2026-07-07 19:21:45"
     },
-    "url:https://view.inews.qq.com/a/20260707A030Z900": {
-      "title": "A股三大指数低开，贵金属概念走弱",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 8,
-      "last_seen": "2026-07-12 19:23:42"
-    },
     "url:https://view.inews.qq.com/a/20260707A03MDS00": {
       "title": "上海市经信委主任汤文侃：本届世界人工智能大会浦东张江分会场侧重展示AI芯片和硬核产品",
       "section": "ai",
       "front_count": 3,
       "last_rank": 4,
       "last_seen": "2026-07-07 19:21:45"
-    },
-    "url:https://view.inews.qq.com/a/20260707A0486N00": {
-      "title": "潘功胜：支持香港金管局将人民币业务资金安排规模增至5000亿元",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 5,
-      "last_seen": "2026-07-12 19:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260707A03HM400": {
-      "title": "新能源车ETF平安涨超1%，锂电产业链公司上半年业绩爆发",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 7,
-      "last_seen": "2026-07-12 19:23:42"
     },
     "url:https://view.inews.qq.com/a/20260706A04CGG00": {
       "title": "AI人工智能ETF平安近3日“吸金”2.2亿，华为发布“韬定律”V2版本",
@@ -4403,20 +5859,6 @@
       "last_rank": 6,
       "last_seen": "2026-07-07 13:24:36"
     },
-    "url:https://view.inews.qq.com/a/20260707A03RL600": {
-      "title": "潘功胜：支持更多优质企业到香港上市和发债 债券通“南向通”年度投资净额度提升至8000亿元",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 6,
-      "last_seen": "2026-07-12 19:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260707A03LTH00": {
-      "title": "农业ETF领涨，机构：生猪养殖行业基本面和估值有望得到修复丨ETF基金日报",
-      "section": "stock",
-      "front_count": 3,
-      "last_rank": 12,
-      "last_seen": "2026-07-12 19:23:01"
-    },
     "url:https://view.inews.qq.com/a/20260706A0788B00": {
       "title": "外交部回应所谓中国境内培训俄军报道，强调德方应客观理性看待中方作用",
       "section": "domestic",
@@ -4500,13 +5942,6 @@
       "front_count": 3,
       "last_rank": 8,
       "last_seen": "2026-07-07 13:24:02"
-    },
-    "url:https://view.inews.qq.com/a/20260707A018Z700": {
-      "title": "美联储理事回应沃什改革：前瞻指引仍有价值 但必须保持灵活",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 3,
-      "last_seen": "2026-07-12 19:24:34"
     },
     "url:https://www.ithome.com/0/973/430.htm": {
       "title": "Claude Sonnet 5 上线后遭大量投诉：总爱唱反调，还想教用户做事",
@@ -4983,13 +6418,6 @@
       "front_count": 8,
       "last_rank": 10,
       "last_seen": "2026-07-06 13:22:53"
-    },
-    "url:https://view.inews.qq.com/a/20260704A00PME00": {
-      "title": "各地各部门落实中央部署，推进防汛抗旱和抢险救灾工作",
-      "section": "domestic",
-      "front_count": 9,
-      "last_rank": 12,
-      "last_seen": "2026-07-13 07:21:42"
     },
     "url:https://view.inews.qq.com/a/20260704A063UY00": {
       "title": "视频丨委内瑞拉稳步推进震后重建 启动建筑安全评估",
@@ -5572,2470 +7000,92 @@
       "last_rank": 8,
       "last_seen": "2026-07-06 07:22:10"
     },
-    "url:https://www.dongqiudi.com/article/5989812.html": {
-      "title": "官方：CCTV16转播京鲁大战，CCTV5+转播申花vs浙江",
-      "section": "henan",
-      "front_count": 5,
-      "last_rank": 7,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09OXU00": {
-      "title": "【中超】热菲尼奥梅开二度 铁人3比1逆转十人铜梁龙",
-      "section": "csl",
-      "front_count": 3,
-      "last_rank": 11,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A00LNB00": {
-      "title": "13场7球，马莱莱本赛季中超进球数已超越上赛季",
-      "section": "csl",
-      "front_count": 4,
-      "last_rank": 8,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03K6V00": {
-      "title": "6月中国大宗商品价格指数环比下跌1.7%",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 8,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03DHG00": {
-      "title": "2026全球数字经济大会数字金融论坛在北京举办",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 10,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02VKN00": {
-      "title": "国内航线燃油附加费今起下调 最高每航段降50元",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 12,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A0397P00": {
-      "title": "执法法国vs巴拉圭的裁判曾赴中超执法，两场比赛出示7黄牌",
-      "section": "csl",
-      "front_count": 4,
-      "last_rank": 12,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260703A08YN400": {
-      "title": "三部门调整节能汽车、新能源汽车车船税优惠政策",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 9,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03VYR00": {
-      "title": "A股交易规则调整，明天起实施！一图梳理",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A0404H00": {
-      "title": "凤凰传奇南京演唱会全场“蹦迪”，新伙伴“丢丢”首秀萌翻全场",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 3,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A0406K00": {
-      "title": "陈盈骏：中国男篮加入了NBA球员杨瀚森，我们首先要做好自己",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03LB500": {
-      "title": "东北超级酷，王者荣耀战！南北客扎堆22℃的长春",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03J5000": {
-      "title": "佛得角足协：中国足球需要坚持系统性青训，5到10年足以抗衡世界强队",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03GRM00": {
-      "title": "为世界杯而生！姆巴佩三届世界杯全进八强！法国队力争再次夺冠！",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02T1U00": {
-      "title": "5战轰7球！姆巴佩强势追平梅西 率法国挺进8强",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02K4Y00": {
-      "title": "历史第一！姆巴佩一战刷爆8大纪录：金靴+冠军都想要？",
-      "section": "entertainment",
-      "front_count": 0,
-      "last_rank": 9,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02ILZ00": {
-      "title": "苏超徐州队VS南京队首发出炉，苗润东回归苏超替补待命",
-      "section": "entertainment",
-      "front_count": 0,
-      "last_rank": 11,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02IQA00": {
-      "title": "俄罗斯缺油加剧！民众抢购中国电动车 插混车销量已翻倍",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03PS000": {
-      "title": "今年我国电影全产业链产值超2000亿元",
-      "section": "stock",
-      "front_count": 0,
-      "last_rank": 11,
-      "last_seen": "2026-07-06 07:21:37"
-    },
-    "url:https://view.inews.qq.com/a/20260701A06B2B00": {
-      "title": "中共中央决定授予“七一勋章”，党内最高荣誉第二次颁授",
-      "section": "domestic",
-      "front_count": 3,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0ASOT00": {
-      "title": "国务院印发美丽中国建设“十五五”规划，部署生态环境质量全面改善目标",
-      "section": "domestic",
-      "front_count": 9,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://www.dongqiudi.com/article/5986712.html": {
-      "title": "博主：河南新援佩德罗随队出征云南，迈达纳和乃比江伤愈复出",
-      "section": "henan",
-      "front_count": 4,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0D5XK00": {
-      "title": "全国人大常委会副委员长何维代表中方出席哈梅内伊葬礼",
-      "section": "domestic",
-      "front_count": 6,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0C3O900": {
-      "title": "丹麦国王会见王毅，双方强调深化中丹经贸、人文和绿色合作",
-      "section": "domestic",
-      "front_count": 9,
-      "last_rank": 3,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0B78200": {
-      "title": "中央和国家机关“两优一先”表彰大会在京召开，蔡奇出席并讲话",
-      "section": "domestic",
-      "front_count": 9,
-      "last_rank": 1,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A025QP00": {
-      "title": "以方称内塔尼亚胡近期将与特朗普会面",
-      "section": "international",
-      "front_count": 3,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai": {
-      "title": "Google 广告虚构开国元勋用 Workspace 起草《独立宣言》，AI 元素引争议",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A0A9XX00": {
-      "title": "曹岩说说丨可看 可玩 可体验 电影院要大变样了！",
-      "section": "entertainment",
-      "front_count": 3,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09TQN00": {
-      "title": "【中超】郑铮染红塞鸟林良铭破门 国安2比0完胜泰山",
-      "section": "csl",
-      "front_count": 4,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A075JN00": {
-      "title": "俄罗斯驻华大使：全球南方国家有能力解决全球性问题",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 2,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09QLF00": {
-      "title": "辽宁铁人17岁小将张洪福完成个人中超首秀，并且打满全场",
-      "section": "csl",
-      "front_count": 4,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09YZW00": {
-      "title": "主场2-1力克海港后，青岛西海岸本赛季中超已13轮不败",
-      "section": "csl",
-      "front_count": 4,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A01OHV00": {
-      "title": "内塔尼亚胡近期将访美与特朗普会晤",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03K6Y00": {
-      "title": "刘冲：科技主导权成为大国竞争关键",
-      "section": "ai",
-      "front_count": 4,
-      "last_rank": 1,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor": {
-      "title": "Mistral AI：法国AI公司走Palantir路线，估值约231.5亿美元",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 2,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03EAI00": {
-      "title": "经济热点问答｜一届更赚钱的世界杯为何争议这么大",
-      "section": "entertainment",
-      "front_count": 4,
-      "last_rank": 1,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03DN900": {
-      "title": "2026京台青年匹克球友谊赛在北京举办",
-      "section": "entertainment",
-      "front_count": 4,
-      "last_rank": 2,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03WPI00": {
-      "title": "王力宏成都演唱会惊魂一幕：血洒舞台仍唱足3小时，敬业精神佩服",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03QYK00": {
-      "title": "人民论坛实评 | “五官”岂能带偏“三观”",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03OZG00": {
-      "title": "电影极端舆情，是戾气外露还是因果报应？",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03OAA00": {
-      "title": "NBA夏联：榜眼彼得森首秀28分8失误 布泽尔15+4+4",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03EFB00": {
-      "title": "NBA疯狂收割市场！上赛季营收116.8亿美刀！萧华运营封神得意坏了",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 9,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A037H100": {
-      "title": "16年换12队！姚明火箭队友结束NBA生涯，无缝加入独行侠教练组",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 10,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02FNZ00": {
-      "title": "山东省暑期文旅消费促进主场活动举办",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02YO400": {
-      "title": "赛事火了 消费热了",
-      "section": "stock",
-      "front_count": 3,
-      "last_rank": 9,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02TDZ00": {
-      "title": "视频丨6月份中国大宗商品价格指数小幅回落",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A033QK00": {
-      "title": "韩资半年28.19亿美元加仓中国AI硬科技，外资配置逻辑发生根本转变",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09JVX00": {
-      "title": "美媒：借贷狂潮将美股推向危险高位",
-      "section": "stock",
-      "front_count": 0,
-      "last_rank": 10,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A07JUW00": {
-      "title": "【财经分析】摩根大通预测黄金价格将在今年第四季度达到每盎司4500美元",
-      "section": "stock",
-      "front_count": 0,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02CJT00": {
-      "title": "国际新闻早知道丨伊在其境内捣毁美以有关组织窝点 莫斯科再遭袭",
-      "section": "international",
-      "front_count": 3,
-      "last_rank": 3,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02C4T00": {
-      "title": "视频丨加速走向全球 今年前5个月我国机器人出口近200亿元",
-      "section": "international",
-      "front_count": 3,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09WPI00": {
-      "title": "昆仑万维方汉：AIGC Agent被系统性低估",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 3,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A036LB00": {
-      "title": "国际足联官媒：10场11球，姆巴佩世界杯淘汰赛太强了",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 11,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09RBG00": {
-      "title": "【中超】张源染红内尔松戴维森破门 西海岸2比1海港",
-      "section": "csl",
-      "front_count": 3,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A067L000": {
-      "title": "当硅谷企业也烧不起Token，中国大模型成新选项",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A05VQ200": {
-      "title": "工信部285个人工智能应用案例，成都数量排全国第三！除了研发硬核，更有场景给力",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://www.ithome.com/0/972/570.htm": {
-      "title": "全国首个全场景开源鸿蒙养老护理院落地深圳龙岗，支持无感监测、主动预警",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09TSU00": {
-      "title": "王雷、印小天来通州啦！电影《四渡》全国热映",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 3,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09MV700": {
-      "title": "静观NBA | 火箭按计划行事，湖人清洗阵容，独行侠用东契奇换回了什么",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260704A02T0L00": {
-      "title": "视频丨遭遇持续高温天气 欧洲多国山火蔓延",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03V9H00": {
-      "title": "法国拟终身禁售烟草给09后，打造无烟一代；英国通过了《烟草与电子烟法案》，禁止…",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02VO000": {
-      "title": "特朗普：内塔尼亚胡请求在白宫与我会面，他知道“谁是老大”",
-      "section": "international",
-      "front_count": 0,
-      "last_rank": 11,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260705A0395L00": {
-      "title": "张家乐77米94收获钻石联赛金牌：第三次刷新世界青年纪录",
-      "section": "international",
-      "front_count": 0,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks": {
-      "title": "NVIDIA 联合多所大学提出 ASPIRE：自我改进机器人框架，零样本成功率最高提升 77 分",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://www.ithome.com/0/972/543.htm": {
-      "title": "中国移动发起成立业内首个AI-eSIM产业协同平台",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 9,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://www.ithome.com/0/972/542.htm": {
-      "title": "微软将重构Copilot：合并消费者与企业版本，8月发布，新增AutoPilot智能体",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 10,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://www.ithome.com/0/972/540.htm": {
-      "title": "宇树科技陈立谈具身智能的\"ChatGPT 时刻\"：需达成两个 80%",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 11,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://www.ithome.com/0/972/536.htm": {
-      "title": "Epoch AI报告：2026年6月高危漏洞数是此前纪录3.5倍，与Anthropic抓虫AI有关",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 19:22:15"
-    },
-    "url:https://view.inews.qq.com/a/20260703A096D200": {
-      "title": "外交部介绍纳米比亚总统恩代特瓦访华安排，习近平将举行欢迎仪式和会谈",
-      "section": "domestic",
-      "front_count": 5,
-      "last_rank": 2,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0A9GC00": {
-      "title": "国家发改委解读循环经济发展“十五五”规划，明确2030年资源循环利用目标",
-      "section": "domestic",
-      "front_count": 5,
-      "last_rank": 10,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260703A09CDS00": {
-      "title": "外交部反对美国所谓中国“非法捕捞”认定，称其恶意打压中国远洋渔业",
-      "section": "domestic",
-      "front_count": 3,
-      "last_rank": 11,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09VTM00": {
-      "title": "2026全球数字经济大会出海国际合作论坛在京举办 多国商机释放",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 3,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09Q0M00": {
-      "title": "欧洲百姓抢着买，欧盟忙着拦：中国“物美价廉”动了谁的蛋糕？｜真相",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09CKE00": {
-      "title": "郑铮染红离场，泰山队0比0暂平北京国安｜半场战报",
-      "section": "csl",
-      "front_count": 3,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03V3K00": {
-      "title": "国际刑警组织对摩纳哥爆炸案嫌犯发出红色通缉令",
-      "section": "international",
-      "front_count": 3,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03S9700": {
-      "title": "国际研究可能发现古人类性别特定墓葬习俗最早例证",
-      "section": "international",
-      "front_count": 3,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02Z1S00": {
-      "title": "国际锐评丨“中国制造”为何圈粉全球？",
-      "section": "international",
-      "front_count": 3,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02TW100": {
-      "title": "特朗普与普京通话 称愿促成尽快结束乌克兰危机",
-      "section": "international",
-      "front_count": 3,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03WDA00": {
-      "title": "大模型降价背后的“暴力美学”：为什么参数越多反而越便宜？",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 9,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta": {
-      "title": "Anthropic推出Claude Science公测版：用于可重复基因组学、蛋白质组学和化学信息学流程的多智能体AI工作台",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion": {
-      "title": "NVIDIA HORIZON：免人工干预的硬件设计 AI 智能体框架，Git 工作流驱动，RTL 基准100%通过",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://github.com/anthropics/claude-code/issues/74066": {
-      "title": "AI编码助手2.1.199被曝会话/缓存泄漏漏洞",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://the-decoder.com/anthropic-developer-shares-prompting-tips-for-fable-5-that-focus-on-finding-your-own-blind-spots-first": {
-      "title": "Anthropic开发者分享Fable5提示技巧：先找出自己的盲点",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://danluu.com/ai-coding": {
-      "title": "使用AI编码代理的体验：伪造测试与模糊测试实践",
+    "url:https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again": {
+      "title": "多位已功成名就的科技创始人重返一线投身AI",
       "section": "ai",
       "front_count": 1,
       "last_rank": 8,
-      "last_seen": "2026-07-05 13:27:58"
+      "last_seen": "2026-07-14 19:24:12"
     },
-    "url:https://view.inews.qq.com/a/20260705A01OYD00": {
-      "title": "三笔交易盘活三支球队！保罗-乔治才是NBA行走的建队教科书！",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 3,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260704A0AE9500": {
-      "title": "如果将世界杯的十六强移师到网球场来对决会怎样？",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260704A0AC9500": {
-      "title": "羽聚双奥之城 共赴全民赛场！2026全国东西南北中羽毛球大赛精英赛北京站开幕",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260704A0A79R00": {
-      "title": "王力宏演唱会上摔倒，脸部、耳朵出血，本人回应",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09ZSE00": {
-      "title": "从资源咖到奥斯卡影后，杨紫琼这一路经历了什么？",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09WPM00": {
-      "title": "突发！王力宏演唱会意外摔倒，面部耳朵受伤流血，简单包扎后继续唱，本人现场回应",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 13:27:58"
-    },
-    "url:https://view.inews.qq.com/a/20260704A0AE2C00": {
-      "title": "主播说联播丨不止于观影！电影院要成为“潮玩新地标”",
-      "section": "ai",
-      "front_count": 4,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 13:27:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09SJZ00": {
-      "title": "视频丨暑期档这些电影适合带娃一起去看",
-      "section": "entertainment",
-      "front_count": 3,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 13:27:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09ZTC00": {
-      "title": "美加墨世界杯32强赛综述：亚足联球队全军覆没  “金靴”之争升温",
-      "section": "entertainment",
-      "front_count": 3,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 13:27:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A063AN00": {
-      "title": "台风“美莎克”预计4日晚再次登陆 国家防总办公室调度部署重点地区防汛防台风工作",
-      "section": "domestic",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 13:27:28"
-    },
-    "url:https://view.inews.qq.com/a/20260703A09XAX00": {
-      "title": "2026年新疆“人工智能+”创新融合应用大赛正式启动",
-      "section": "domestic",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 13:27:28"
-    },
-    "url:https://view.inews.qq.com/a/20260705A0301G00": {
-      "title": "从“问答机”到“破局者”：AI Agent的自主进化",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 3,
-      "last_seen": "2026-07-05 13:27:28"
-    },
-    "url:https://view.inews.qq.com/a/20260705A02ZKP00": {
-      "title": "科幻巨匠特德·姜你错了！子非AI，安知AI之悲？给大模型“凿七窍”的傲慢与代价",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 13:27:28"
-    },
-    "url:https://view.inews.qq.com/a/20260705A03ZMY00": {
-      "title": "针对操作？剑指马刺！雷霆的杀机！复仇文班亚马？",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 13:27:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A062UA00": {
-      "title": "金融投资联盟2026年浙江省投融资对接活动在杭举行",
-      "section": "stock",
-      "front_count": 3,
-      "last_rank": 11,
-      "last_seen": "2026-07-05 13:26:41"
-    },
-    "url:https://view.inews.qq.com/a/20260704A0A8S500": {
-      "title": "伊朗驻华大使：计划按国际通行标准对霍尔木兹海峡通航收服务费",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 13:26:41"
-    },
-    "url:https://view.inews.qq.com/a/20260705A00B9Z00": {
-      "title": "时空观察丨国际油价震荡 为何外媒称“中国第二次拯救了世界经济”？",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 13:26:41"
-    },
-    "url:https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70": {
-      "title": "开源工具 pxpipe 将文本隐藏到 PNG 中，削减 Claude Code 和 Fable 5 的 token 成本高达 70%",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 13:26:41"
-    },
-    "url:https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage": {
-      "title": "Midjourney 要求好莱坞制片厂披露自身 AI 使用细节",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 13:26:41"
-    },
-    "url:https://javoriuski.com/post/youtube": {
-      "title": "YouTube Studio AI助手Ask Studio存在提示注入漏洞，可泄露创作者私密视频",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 13:26:41"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0503200": {
-      "title": "国家发改委下达2000亿元“两新”设备更新资金，支持约1.1万个项目",
-      "section": "domestic",
-      "front_count": 5,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A01S3500": {
-      "title": "知情人士：部分欧洲国家认为霍尔木兹海峡收费“几乎不可避免”",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 10,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A03DBN00": {
-      "title": "美国30年期贷款利率降至6.43% 创七周以来最低值",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 3,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A029QX00": {
-      "title": "新能源汽车应从“拼重量”转向“拼效率”",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A037B500": {
-      "title": "从1%蓄力 公募量化基金走向舞台中央",
-      "section": "stock",
-      "front_count": 3,
-      "last_rank": 2,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260702A0A0MR00": {
-      "title": "台湾专家：两岸AI产业发展，软硬件协同是关键",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260702A044IF00": {
-      "title": "佩德罗-马拉尼昂：迫不及待想要登场，尽自己所能帮助河南队",
-      "section": "henan",
-      "front_count": 3,
-      "last_rank": 1,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260702A09Y9G00": {
-      "title": "2026年“上海环球美食汇·亚洲风味季活动”启幕",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 11,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A08VJ700": {
-      "title": "以军：詹迪亚被炸死",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A094F100": {
-      "title": "温布尔登网球公开赛第8比赛日",
-      "section": "entertainment",
-      "front_count": 0,
-      "last_rank": 10,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A093AD00": {
-      "title": "泰国部长推动娱乐业改革：拟限定拍摄时长不超过12小时，解决欠薪问题",
-      "section": "entertainment",
-      "front_count": 0,
-      "last_rank": 11,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A08S9S00": {
-      "title": "19:30丨中日男篮对抗赛：日本男篮两NBA球员缺席，对手已布局未来",
-      "section": "entertainment",
-      "front_count": 0,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0821L00": {
-      "title": "数读中国开局新活力｜3.13亿人次打卡、超5433亿元文旅消费，这份半年文旅答卷“热力值”从何而来？",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://www.dongqiudi.com/article/5992170.html": {
-      "title": "「猜比分，赢好酒」俱乐部携手仰韶，送球迷一份“陶...",
-      "section": "henan",
-      "front_count": 3,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0CUOJ00": {
-      "title": "再遭逆转 河南彩陶坊三连败",
-      "section": "henan",
-      "front_count": 3,
-      "last_rank": 2,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://www.dongqiudi.com/article/5995338.html": {
-      "title": "郑达伦：高原客场确实比较难踢，我们有一些细节做得不太到位",
-      "section": "henan",
-      "front_count": 2,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A02L4U00": {
-      "title": "“十五五”能源蓝图落地 地方竞逐新型能源体系",
-      "section": "stock",
-      "front_count": 4,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A06WTS00": {
-      "title": "美丽乡村开启夏日荷文化旅游季",
-      "section": "entertainment",
-      "front_count": 3,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A02FZ000": {
-      "title": "网球——温网：辛纳晋级男单十六强",
-      "section": "entertainment",
-      "front_count": 3,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A0710W00": {
-      "title": "温布尔登网球公开赛青年赛结束资格赛 | 中国队无人晋级",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A06TOJ00": {
-      "title": "遵义有20个“圈”，圈圈有特色！",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A06IN400": {
-      "title": "世界杯16强对阵，欧洲、拉美豪门各守半区",
-      "section": "entertainment",
-      "front_count": 0,
-      "last_rank": 9,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A06Z8M00": {
-      "title": "上海建国际航运绿色燃料“三中心”，需保障供给、服务升级",
-      "section": "csl",
-      "front_count": 1,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A0557V00": {
-      "title": "日媒：高市早苗访印拒喝印度水，“漱口也不行”",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A04JM100": {
-      "title": "报告：全球38国1.4万余名受访者高度肯定中国共产党治理的理念与实践",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://www.ithome.com/0/972/001.htm": {
-      "title": "曝特斯拉紧急限流 AI 开支：员工每周使用费封顶 200 美元，xAI 测试版除外",
+    "url:https://view.inews.qq.com/a/20260714A03KTI00": {
+      "title": "2026世界人工智能大会CityWalk将启松江两大影视特色点位亮相",
       "section": "ai",
       "front_count": 1,
       "last_rank": 2,
-      "last_seen": "2026-07-05 07:23:42"
+      "last_seen": "2026-07-14 19:25:05"
     },
-    "url:https://scottaaronson.blog": {
-      "title": "美国的隐私危机：Cynthia Dwork等专家谴责商务部禁止差分隐私",
+    "url:https://www.ithome.com/0/976/309.htm": {
+      "title": "三星健康被指存\"霸王条款\"：拒绝 AI 训练授权恐失去备份能力",
       "section": "ai",
       "front_count": 1,
       "last_rank": 3,
-      "last_seen": "2026-07-05 07:23:42"
+      "last_seen": "2026-07-14 19:25:05"
     },
-    "url:https://www.ithome.com/0/971/991.htm": {
-      "title": "小鹏 MONA L03 预售价 14.38 万元起，7 月 16 日上市",
+    "url:https://view.inews.qq.com/a/20260714A02MA800": {
+      "title": "美媒：中国引领全球人工智能治理",
       "section": "ai",
       "front_count": 1,
       "last_rank": 4,
-      "last_seen": "2026-07-05 07:23:42"
+      "last_seen": "2026-07-14 19:25:05"
     },
-    "url:https://view.inews.qq.com/a/20260703A02W4600": {
-      "title": "「可灵 AI」落地近 30 亿美元融资，创全球多模态大模型公司单轮融资规模新纪录，...",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A08WI700": {
-      "title": "（体育）赛车——国际汽联电动方程式世界锦标赛上海站赛况",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09TTD00": {
-      "title": "2比0完胜山东 国安赢下京鲁大战",
-      "section": "csl",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://cdn.arstechnica.net/wp-content/uploads/2026/07/EFF-letter-to-FTC-on-X-consent-order-7-2-26.pdf": {
-      "title": "EFF等15组织致信FTC反对X Corp.撤销2022年和解令",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A02NDF00": {
-      "title": "狂喷大模型巨头！Palantir CEO：他们商业模式有巨大问题，不顾企业风险向企业“收税”",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://www.anthropic.com/news/fable-safeguards-jailbreak-framework": {
-      "title": "Claude Fable 5 网络安全分类器与越狱严重性框架详解",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 9,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A034DB00": {
-      "title": "A股业绩预告密集披露 多家公司上半年净利大幅预增",
-      "section": "stock",
-      "front_count": 0,
-      "last_rank": 9,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A01WEA00": {
-      "title": "许维鸿：中国资本市场发展之路格外珍贵",
-      "section": "stock",
-      "front_count": 0,
-      "last_rank": 10,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A07EW400": {
-      "title": "美国非农数据远逊预期，市场削减美联储加息押注",
-      "section": "stock",
-      "front_count": 0,
-      "last_rank": 11,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A03EFX00": {
-      "title": "告别“新能源特权”，汽车税制改革进入下半场",
-      "section": "stock",
-      "front_count": 0,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://www.dongqiudi.com/article/5995388.html": {
-      "title": "拉莫斯：输球不是个人责任 我们会一起承担",
-      "section": "henan",
-      "front_count": 0,
-      "last_rank": 10,
-      "last_seen": "2026-07-05 07:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260702A0ADBD00": {
-      "title": "普京已获悉打击基辅情况 俄称欧洲正在升级局势",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260703A01CF000": {
-      "title": "大语言模型“安全体检”报告为AI治理提供参考",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 10,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260703A037D400": {
-      "title": "人民币资产全球吸引力稳步攀升",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260703A08XBS00": {
-      "title": "“龙计划”国际学术会议聚焦中欧地球观测合作新进展",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0CEJX00": {
-      "title": "1-2，河南队3连败重陷保级困境，叶力江低级失误 王国明神扑难救主",
-      "section": "henan",
-      "front_count": 2,
-      "last_rank": 11,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0CJ4A00": {
-      "title": "18岁新星斩处子球，叶力江“梦游”送礼，玉昆2-1逆转河南暂升第三",
-      "section": "henan",
-      "front_count": 2,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A03EGT00": {
-      "title": "从“口传心授”到“数字AI” 人工智能解锁传统戏曲新潮玩法",
-      "section": "ai",
-      "front_count": 4,
-      "last_rank": 3,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A02OA400": {
-      "title": "（体育）网球——温网：蒋欣玗/徐一璠女双首轮晋级",
-      "section": "entertainment",
-      "front_count": 4,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A01YKD00": {
-      "title": "太扎心！河南1-2遭云南逆转，叶力江致命失误送礼，新援马拉尼昂首秀0存在感！",
-      "section": "henan",
-      "front_count": 3,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260703A029YG00": {
-      "title": "得州特斯拉致命车祸司机被控过失杀人：曾嫌FSD“太保守”",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://www.ithome.com/0/972/010.htm": {
-      "title": "人社部拟发布12个新职业，含数字孪生工程技术人员、具身智能机器人应用技术员等",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260703A03MVW00": {
-      "title": "特斯拉车主猛踩油门超速撞塌民宅致人死亡：曾嫌FSD开车太保守",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260703A03BR700": {
-      "title": "阿里云宣布AI原生数据库服务产品Databridge Agent功能收费",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A07K2000": {
-      "title": "“一字之变”看治理升级 中国“十五五”规划为何引世界关注？| 世界观",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A07ELD00": {
-      "title": "东西问｜特朗普访华期间为何特意提到孔子？",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A0721P00": {
-      "title": "热浪来袭　美国建国250周年庆祝活动“缩水”",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A04H5X00": {
-      "title": "上海国际具身智能产业博览会开幕",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260705A01VSS00": {
-      "title": "拉希米本届替补出场造3球，创造非洲球员世界杯替补纪录",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A07J7D00": {
-      "title": "“饮歌-香港影视流行音乐会”唱响贵阳",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A0A0Z900": {
-      "title": "随着津门虎3-0，国安2-0，大连3-2，海港1-2，中超最新积分榜出炉",
-      "section": "csl",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09M9A00": {
-      "title": "津门虎3-0新鹏城！摆脱中超垫底 补时连进2球+哈达斯0度角神仙球",
-      "section": "csl",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09Y4000": {
-      "title": "随着比分定格3-0，中超第16完胜中超第10，天津津门虎终结2连败",
-      "section": "csl",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09RSG00": {
-      "title": "0-2，泰山队延续10年客场不胜国安，郑铮红牌有争议 王大雷尽力了",
-      "section": "csl",
-      "front_count": 0,
-      "last_rank": 9,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A09R6L00": {
-      "title": "射门38-3！中超强强对决：争议红牌改变局面 老牌劲旅2-0迎3连胜",
-      "section": "csl",
-      "front_count": 0,
-      "last_rank": 10,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260704A08SBE00": {
-      "title": "中超：铁人3-1逆转十人铜梁龙 向余望、安以恩破门，热菲尼奥双响",
-      "section": "csl",
-      "front_count": 0,
-      "last_rank": 12,
-      "last_seen": "2026-07-05 07:22:28"
-    },
-    "url:https://view.inews.qq.com/a/20260702A09CR900": {
-      "title": "国台办解读习近平涉台讲话：团结台胞共创祖国统一和民族复兴未来",
-      "section": "domestic",
-      "front_count": 7,
-      "last_rank": 12,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260703A01UD400": {
-      "title": "王毅同丹麦外交大臣拉斯穆森会谈，推动中丹绿色转型和中欧合作",
-      "section": "domestic",
-      "front_count": 5,
-      "last_rank": 11,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260702A0297E00": {
-      "title": "2026年新能源汽车下乡在两地同步启动",
-      "section": "stock",
-      "front_count": 3,
-      "last_rank": 6,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260701A09PWW00": {
-      "title": "7月1日起执行 两项电动汽车新国标来了",
-      "section": "stock",
-      "front_count": 3,
-      "last_rank": 7,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260701A0897900": {
-      "title": "上半年中国百城新房价格累计微涨 二手房价下跌",
-      "section": "stock",
-      "front_count": 3,
-      "last_rank": 8,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260703A03YNC00": {
-      "title": "博主：二转期间，江文豪外租到陕西联合，魏家傲外租到北理工",
-      "section": "csl",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260703A048S700": {
-      "title": "8场！郑智继续停赛，青岛球迷乐开花，隐身幕后当“影子”更厉害",
-      "section": "csl",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260702A0831P00": {
-      "title": "官方：1球1助攻，英博球员毛伟杰当选中超4月最佳青年球员",
-      "section": "csl",
-      "front_count": 3,
-      "last_rank": 8,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260701A0BM8400": {
-      "title": "韦斯利：期待新鹏城未来拿中超冠军，我很尊重中国队友",
-      "section": "csl",
-      "front_count": 2,
-      "last_rank": 11,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260701A044GW00": {
-      "title": "梅开二度+绝杀，官方：韦世豪当选中超联赛第16轮最佳球员",
-      "section": "csl",
-      "front_count": 2,
-      "last_rank": 12,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://www.dongqiudi.com/article/5990955.html": {
-      "title": "【赛前发布会】拉莫斯：细节决定比赛成败 新外援首...",
-      "section": "henan",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://www.dongqiudi.com/article/5990953.html": {
-      "title": "离队公告经俱乐部与球员协商一致，球员姆布拉即日起...",
-      "section": "henan",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://www.dongqiudi.com/article/5990972.html": {
-      "title": "拉莫斯：不确定马拉尼昂明天是否出场，会根据体能状况做安排",
-      "section": "henan",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260701A09WCZ00": {
-      "title": "（国际观察）中东局势推高国际油价  印尼结束连续六年贸易顺差",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260703A07ZTN00": {
-      "title": "专家：欧洲持续极端高温或带来结构性冲击",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260703A06DY900": {
-      "title": "年度票房超175亿！“电影+”加出消费新场景",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0CFXI00": {
-      "title": "人形机器人概念强势爆发，雷赛智能、日盈电子、明新旭腾、中超控股、杭齿前进、大洋电机领涨，概念相关企业整理",
-      "section": "csl",
-      "front_count": 3,
-      "last_rank": 7,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0AP9J00": {
-      "title": "新鹏城主帅：球队正处于上升期，希望良好的势头能延续下去",
-      "section": "csl",
-      "front_count": 2,
-      "last_rank": 9,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0C6N800": {
-      "title": "一天3款新车上市，造手机的都沉默了",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260704A033T300": {
-      "title": "视频丨循环经济迈入新阶段！“十五五”规划印发 产业体系再升级",
-      "section": "stock",
-      "front_count": 3,
-      "last_rank": 2,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260704A02HKJ00": {
-      "title": "中国体育“两个博览会”11月中在苏州举办",
-      "section": "stock",
-      "front_count": 3,
-      "last_rank": 5,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260704A0231J00": {
-      "title": "冯博轩右路全能，当第二个刘祝润用，大连引援还差中后卫，斯坦丘别冒险出战",
-      "section": "csl",
-      "front_count": 2,
-      "last_rank": 3,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0D5KF00": {
-      "title": "北京国安主帅透露两将缺席 坦言泰山队有很多出色球员",
-      "section": "csl",
-      "front_count": 3,
-      "last_rank": 6,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260704A02KSH00": {
-      "title": "哈尔滨国际啤酒节开幕 游客在“交易所”抄底畅饮",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260704A02AHA00": {
-      "title": "湖北省成立6G国际科技合作产业技术联盟",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260704A076ZF00": {
-      "title": "四大AI预测加拿大vs摩洛哥：三家看好摩洛哥，Deepseek猜平局",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 2,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://epoch.ai/data-insights/cve-severity-spike": {
-      "title": "Claude Mythos Preview 发布前后，严重漏洞披露数量激增",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 3,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface": {
-      "title": "26000名学生研究显示AI隐藏学习成本需两年才显现",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://www.ithome.com/0/972/606.htm": {
-      "title": "Anthropic 进军药物研发：瞄准被忽视疾病领域",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable": {
-      "title": "Anthropic启动自有药物发现项目，专注制药公司认为无利可图的疾病",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260704A0207D00": {
-      "title": "单双：警惕AR游戏侵蚀国家安全",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260704A01Y8R00": {
-      "title": "国际清算银行年度经济报告指出——全球财政和金融脆弱性加剧",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260704A073IF00": {
-      "title": "CD记录|电影《四渡》热映 带动贵州旅游热潮",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260704A06W0Q00": {
-      "title": "又一省级赛事在宜宾高县开赛！设特奥游泳、盲人足球等五个项目",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260704A07C6D00": {
-      "title": "周慧敏、邰正宵、伍思凯……温州又一场演唱会来了！",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260704A078A300": {
-      "title": "跻身世界杯32强，佛得角队共能从国际足联得到1350万美元",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-04 19:23:05"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0CUUN00": {
-      "title": "第二届全球华语儿童故事大赛在悉尼启动",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 2,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260703A099RM00": {
-      "title": "尺素金声｜首次突破40亿千瓦！我国电力工业迎来标志性时刻",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 3,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260703A05XWC00": {
-      "title": "（外代一线）高温席卷美国大部分地区　约1.63亿人受影响",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260703A05DUA00": {
-      "title": "零时差 | 日元狂跌！高市“豪赌”之下，日本版“特拉斯时刻”是否将上演？",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0549Q00": {
-      "title": "美拒绝承认国际刑事法院对美国人有司法管辖权",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260703A04OF600": {
-      "title": "高温天警惕“热中风”，专家：别把脑卒中当中暑",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260703A02CJF00": {
-      "title": "视频丨中方呼吁各方避免刺激中东紧张局势升级",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260702A0A2WW00": {
-      "title": "高温天气带动浙江义乌创意降温产品出口",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://view.inews.qq.com/a/20260702A099V100": {
-      "title": "中国空调在欧洲热浪中硬核圈粉",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 3,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A044H400": {
-      "title": "印度政府：正调查苹果手机信息泄露事件",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 11,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260704A03I1M00": {
-      "title": "全球媒体聚焦｜英媒：“美国梦”正在褪色",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 12,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0639E00": {
-      "title": "中国整治网络娱乐团播乱象",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-12 19:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260702A0A2FR00": {
-      "title": "两岸青创大赛发邀约 “新融育汇”解锁全新赛程",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-12 19:23:01"
-    },
-    "url:https://view.inews.qq.com/a/20260702A03ZU700": {
-      "title": "《主角》刷屏背后 今夏你为哪部剧出了趟远门",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-12 19:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0CHH400": {
-      "title": "两部门发文促进电影院多样化经营",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 3,
-      "last_seen": "2026-07-12 19:23:42"
-    },
-    "url:https://www.people.com.cn/GB/59476": {
-      "title": "上海电视节揭晓白玉兰奖：《太平年》《沉默的荣耀》等获奖",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-12 19:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A03DB700": {
-      "title": "普京：俄军全面控制卢甘斯克地区及康斯坦丁诺夫卡重镇",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 11,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0CWJS00": {
-      "title": "（国际观察）新一轮热浪“烤验”法国 抢购电扇空调势头猛烈",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-12 19:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260704A00OHI00": {
-      "title": "视频丨全美超1.8亿人受高温影响 纽约开启“炙烤模式”",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-12 19:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0CKOR00": {
-      "title": "“零关税”满两月 上海关区自53个非洲国家进口享惠货值超12亿元",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-12 19:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0BMA100": {
-      "title": "国际赛事及文博研学带动江苏入境游热度攀升",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-12 19:23:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0BATB00": {
-      "title": "巴基斯坦前政要：中东安全不能外包，地区国家须携手掌控命运",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 2,
-      "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0683800": {
-      "title": "日本宫古岛附近海域发生6.4级地震",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 3,
-      "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://view.inews.qq.com/a/20260703A03HXO00": {
-      "title": "水平不能低于“老司机”？有关自动驾驶的国际争议统一了",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://view.inews.qq.com/a/20260703A03DCV00": {
-      "title": "尼泊尔6月接待国际游客同比增长近两成",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://view.inews.qq.com/a/20260703A0CI8300": {
-      "title": "台湾业者投身大陆AI微短剧 冀两岸共创讲好中国故事",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A08UZQ00": {
-      "title": "报告：AI大模型商业化“落地战”全面打响",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A058P600": {
-      "title": "探索两岸AI合作前景 2026年海峡两岸大学论坛在北京举办",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260702A09X5W00": {
-      "title": "中东欧国家新闻发言人在浙江遇见“未来机器人”",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260703A02B1300": {
-      "title": "视频丨美伊在安理会围绕霍尔木兹海峡等问题激烈交锋",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://view.inews.qq.com/a/20260703A01U7V00": {
-      "title": "北京发布人工智能赋能科学研究实施方案",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://view.inews.qq.com/a/20260702A09SYE00": {
-      "title": "杭州何以成为国际合作“机会窗口”？",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 2,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260708A0AVF800": {
-      "title": "数字内容引流，商圈消费转化！元界夏日嘉年华开启",
-      "section": "entertainment",
-      "front_count": 0,
-      "last_rank": 12,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260708A09TV800": {
-      "title": "中山六院知识城院区公益支持 全网首部IBD公益短剧《我和我们》温暖上映",
-      "section": "entertainment",
-      "front_count": 0,
-      "last_rank": 11,
-      "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://view.inews.qq.com/a/20260708A0883300": {
-      "title": "首个动画电影主题唱演秀落地上海，演唱会能否成电影IP衍生新路径？",
-      "section": "entertainment",
-      "front_count": 0,
-      "last_rank": 12,
-      "last_seen": "2026-07-12 19:24:34"
-    },
-    "url:https://view.inews.qq.com/a/20260707A03JV500": {
-      "title": "潘功胜：支持香港推出离岸人民币国债期货，支持香港建设综合性的金融交易平台",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 3,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260712A013SO00": {
-      "title": "新华社聚焦各部门防汛防台风联动，国家防总和部委加码保障生命财产安全",
-      "section": "domestic",
-      "front_count": 3,
-      "last_rank": 3,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260712A07EIF00": {
-      "title": "外交部就多国炒作“南海仲裁案”十年发表声明，重申中国南海主权和权益",
-      "section": "domestic",
-      "front_count": 4,
-      "last_rank": 5,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260712A09KTZ00": {
-      "title": "外交部亚洲司就日方涉南海言行提出严正交涉，称将坚决维护领土主权和海洋权益",
-      "section": "domestic",
-      "front_count": 4,
-      "last_rank": 6,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260712A06KDH00": {
-      "title": "国家防办、应急管理部滚动调度台风“巴威”防范，调整多地防汛应急响应",
-      "section": "domestic",
-      "front_count": 1,
-      "last_rank": 10,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260712A090YB00": {
-      "title": "俄国防部：俄军大规模打击乌军设施",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260712A07LEZ00": {
-      "title": "美军称霍尔木兹海峡南部航道仍“开放”",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260712A077KW00": {
-      "title": "国际观察｜一周三轮互袭，美伊“灰色对抗”暗藏风险",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260712A090Y500": {
-      "title": "开源和人工智能边会探讨共建开放普惠的数字未来",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://simonwillison.net/2026/Jul/12/bump": {
-      "title": "Anthropic 再次延长 Claude Max 计划中 Fable 5 的可用时间",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 10,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html": {
-      "title": "我喜欢大型语言模型，讨厌炒作",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 11,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering": {
-      "title": "循环工程指南：autoresearch 与 Bilevel Autoresearch 让 AI...",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 12,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260703A02UKW00": {
-      "title": "湖北首个交通行业AI大模型发布",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 9,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260712A07VGN00": {
-      "title": "第四届鹤岗小串烧烤节连嗨10天",
-      "section": "entertainment",
-      "front_count": 3,
-      "last_rank": 7,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260712A09FL300": {
-      "title": "赛出乡村文旅新活力！2026年“贵州村马”村级联赛火热开赛",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 9,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy": {
-      "title": "Lorde 在音乐节公开批评 Ray-Ban Meta AI 眼镜\"不够性感",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260712A09V6B00": {
-      "title": "游戏、动漫爱好者狂欢，BW展会拉动上海酒店预订量翻倍增长",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 10,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260712A09Q2B00": {
-      "title": "小黄人与大怪兽》正在热映，导演亲口证实：小黄人永生不死，繁殖方式保密、二战时躲在洞里",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 11,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260712A08RZT00": {
-      "title": "艺人在线公开讨薪，暴露内娱综艺深层危机",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 12,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260712A086P500": {
-      "title": "张家界大庸古城焕新 演唱会音乐节接连上演，知名艺人纷纷亮相",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260712A08VC600": {
-      "title": "审批通过！佛山演唱会+2",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260712A072EE00": {
-      "title": "从“千年文脉”到“山歌回响” 资中用两年打出三张文旅新名片｜遇见古城资中",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260712A0929S00": {
-      "title": "新产品配套英伟达产业链 液冷概念股斩获3天2板 本周机构密集调研相关上市公司",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260711A08YXO00": {
-      "title": "国际金融观察 | 欧美政策步入“摇摆期”，中国市场产生结构性机会",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 2,
-      "last_seen": "2026-07-13 07:21:42"
-    },
-    "url:https://view.inews.qq.com/a/20260712A05KQJ00": {
-      "title": "超战报｜第18轮第二比赛日",
-      "section": "csl",
-      "front_count": 4,
-      "last_rank": 5,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A02AXU00": {
-      "title": "中国驻英国使馆回应英国联署涉南海仲裁案声明，反对为非法裁决背书",
-      "section": "domestic",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260712A06PH800": {
-      "title": "国家发改委安排1亿元中央预算内投资，支持浙江台风灾后应急恢复",
-      "section": "domestic",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260712A06F5F00": {
-      "title": "国家发改委追加1亿元中央预算内投资，支持广西进一步做好灾后恢复",
-      "section": "domestic",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260712A019NJ00": {
-      "title": "民政部部署民政领域防汛救灾，要求排查养老儿童福利等服务机构风险",
-      "section": "domestic",
-      "front_count": 0,
-      "last_rank": 10,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260711A0B1BT00": {
-      "title": "国家防总对京津辽皖赣启动防汛三级应急响应，应对台风“巴威”北上影响",
-      "section": "domestic",
-      "front_count": 0,
-      "last_rank": 11,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A04ETY00": {
-      "title": "针对美国侵略性袭击，伊朗凌晨发表声明",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A04CUF00": {
-      "title": "伊朗强烈谴责美国“侵略性”袭击",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03I8J00": {
-      "title": "联合国秘书长敦促伊朗和美国紧急恢复谈判",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A0340S00": {
-      "title": "美军对伊朗发动新一轮打击 伊朗回击中东地区美军目标",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 11,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A02OWS00": {
-      "title": "视频丨中东战事推高能源成本 欧盟拟加速电气化转型减少油气依赖",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 12,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A029MH00": {
-      "title": "中欧班列助力构建更可靠国际供应链",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03AQF00": {
-      "title": "中国持续提升旅游国际吸引力",
-      "section": "international",
-      "front_count": 0,
-      "last_rank": 10,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03Y8100": {
-      "title": "A股低开，电子特气概念逆势走强",
-      "section": "ai",
-      "front_count": 3,
-      "last_rank": 8,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03I1K00": {
-      "title": "2026世界人工智能大会即将举行，科创AIETF博时盘初快速拉升涨超1%",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 11,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A02V9900": {
-      "title": "AI中国绘开局丨半年创新答卷！人工智能赋能千行百业夯实新质生产力",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A048BC00": {
-      "title": "李大霄建议：推迟OpenAI和Anthropic上市，香港也均衡节奏，不要一周发15个",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://www.ithome.com/0/975/885.htm": {
-      "title": "努比亚 AI 宠物机器人 iMoochi 定档 7 月 17 日上线",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03UYL00": {
-      "title": "专访DeepMind创始人：从被嘲落后到诺奖加身，哈萨比斯如何复盘Google的AI战略？｜投...",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03QTL00": {
-      "title": "全球竞逐AI，中国的解法是什么？",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03MHT00": {
-      "title": "英伟达季度收入正逼近1000亿美元，机器人ETF华夏震荡回调",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 9,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A04H9I00": {
-      "title": "定了！她要来常州开演唱会",
-      "section": "entertainment",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03O9X00": {
-      "title": "妮可基德曼与“穿普拉达的女王”安娜同框看温网，“波波头”经典造型抢镜",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 10,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A034KW00": {
-      "title": "周星驰作品《功夫女足》上映2日票房破5亿，预测总票房超20亿！已打破9项影史纪录！周星驰路演现...",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03PVW00": {
-      "title": "功夫女足》上映，观众还欠周星驰一张电影票吗？",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03BFR00": {
-      "title": "带孩子看周星驰，不是笑笑就完了！他每一部电影都在教这件事！",
-      "section": "entertainment",
-      "front_count": 0,
-      "last_rank": 9,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260713A04N7R00": {
-      "title": "跌超10%！SK海力士赴美上市成功后，为何在韩国股市大幅下跌？",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A04GFY00": {
-      "title": "银行半年不良资产处置规模超5000亿元，南方基金旗下司南投顾关注银行资产负债表优化下的资产配置",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 9,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A04GGE00": {
-      "title": "沃什改革开启：美联储公布五大改革工作组领导名单，南方基金旗下司南投顾关注政策路径演进与配置应对",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 10,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A046LC00": {
-      "title": "股市波动加大，37%的“固收+权益”产品上半年回报低于1%",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 11,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03MOV00": {
-      "title": "韩股大跌6%触发熔断，亚太芯片股重挫，SK海力士、港股兆易创新跌超10%",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 12,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03I4I00": {
-      "title": "拓荆科技今日复牌，大涨！海力士美股首秀涨超12%！CEO发声：存储短缺或将延续至2030年后！...",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-13 13:23:18"
-    },
-    "url:https://view.inews.qq.com/a/20260713A02SLT00": {
-      "title": "文旅上新 出游正当时丨打造多元产品矩阵，跻身国内热门目的地第一梯队 来河南解锁花样暑期游",
-      "section": "henan",
-      "front_count": 3,
-      "last_rank": 1,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A04BXV00": {
-      "title": "尼尔森迎中超首胜：上升期正在到来",
-      "section": "csl",
-      "front_count": 3,
-      "last_rank": 3,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A03KNM00": {
-      "title": "韦斯利造3球助新鹏城大胜 换帅引援效果待检验",
-      "section": "csl",
-      "front_count": 3,
-      "last_rank": 4,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A074KU00": {
-      "title": "习近平将出席2026世界人工智能大会开幕式，阐述中国人工智能治理立场",
-      "section": "domestic",
-      "front_count": 2,
-      "last_rank": 1,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08C2F00": {
-      "title": "国务院印发《国民健康“十五五”规划》，部署加快建设健康中国",
-      "section": "domestic",
-      "front_count": 2,
-      "last_rank": 2,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08OJY00": {
-      "title": "国务院印发《扩大消费“十五五”规划》，提出28条促消费重点任务",
-      "section": "domestic",
-      "front_count": 2,
-      "last_rank": 3,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08CUD00": {
-      "title": "中办国办发文完善自然资源资产管理制度，强调安全高效永续利用",
-      "section": "domestic",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08RAM00": {
-      "title": "东京股市显著下跌",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08IZI00": {
-      "title": "国际乒联恢复俄罗斯运动员参赛资格",
-      "section": "international",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A080IK00": {
-      "title": "视频丨中东局势推高燃料成本 日本农业生产承压",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 9,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A07KOH00": {
-      "title": "新闻分析｜全球能源供应面临三大短期冲击",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 10,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A06LBD00": {
-      "title": "新华读报｜美媒文章：中国引领全球人工智能治理",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 2,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A066CO00": {
-      "title": "如何验证《外层空间条约》履约？国际最新研发出微型卫星探测方法",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 3,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08PEW00": {
-      "title": "明日主题前瞻】2026世界人工智能大会将启幕，机构称AI应用层面Agent化加速",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 1,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A088NX00": {
-      "title": "新兴市场基金降低对AI三巨头的集中持仓 中国科技股等机会进入视野",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 2,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A080G800": {
-      "title": "云南将推动人工智能炼铝、制磷、炮制中药",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 3,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A0706T00": {
-      "title": "开“新”WAIC丨9个关键词，解锁2026世界人工智能大会新亮点",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A05PNI00": {
-      "title": "2026世界人工智能大会前瞻：厚积八载，未来已来",
-      "section": "ai",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08S0L00": {
-      "title": "2026世界人工智能大会启幕在即！1100余家企业参展，300余款产品将全球首发",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 10,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://raymyers.org/post/zed-creator-calls-spade-a-spade": {
-      "title": "Zig创始人批评Anthropic的Bun从Zig迁移至Rust：代码混乱源于过度依赖AI智能体",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 11,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08MXX00": {
-      "title": "国产大模型预训练“换芯”，英伟达的不可替代性正在松动？",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 12,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08JZ500": {
-      "title": "低调回归？小杨哥徒弟「红绿灯的黄」国内正式复播，网友并不买账",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 9,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08I1R00": {
-      "title": "镇巴夏日旅居指南｜清凉一夏 山海好宿等您来",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 10,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08GVT00": {
-      "title": "“芒乡有情 让爱传递”——2026年百色·田东芒果文化活动月自家人明星公益演唱会温暖唱响",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 11,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08B5L00": {
-      "title": "李健厦门演唱会即将开票！",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A07Z7300": {
-      "title": "曾主演《侏罗纪公园》的山姆•尼尔78岁去世，曾透露患血液癌，坦言还想再活十年",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A07W6S00": {
-      "title": "功夫女足》票房超5亿，登暑期档票房榜第二，迪丽热巴主演电影票房破10亿",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-13 19:23:37"
-    },
-    "url:https://view.inews.qq.com/a/20260713A089JQ00": {
-      "title": "正式官宣！四川资阳银河左岸音乐节今年10月举行",
-      "section": "entertainment",
-      "front_count": 1,
-      "last_rank": 8,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A06L4G00": {
-      "title": "侏罗纪公园》男主山姆·尼尔逝世享年78岁，曾抗癌成功感动影迷",
+    "url:https://view.inews.qq.com/a/20260714A04APJ00": {
+      "title": "周星驰在回血，可《功夫女足》不是一部“好电影”",
       "section": "entertainment",
       "front_count": 1,
       "last_rank": 1,
-      "last_seen": "2026-07-14 07:22:42"
+      "last_seen": "2026-07-14 19:25:05"
     },
-    "url:https://view.inews.qq.com/a/20260713A08U8R00": {
-      "title": "中信保诚基金吴秋君：关注阶段性利率下行窗口",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 2,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08OL600": {
-      "title": "A股收评：深证成指下跌3.48%，超4600只个股下跌",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 3,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08HRK00": {
-      "title": "海外研选日报0713 | 高盛：中东冲突通胀冲击趋弱 美联储年内料维持利率不变",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 4,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08HSP00": {
-      "title": "外资带头大举抛售，杠杆产品也跪了！SK海力士，股价为何崩了",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 5,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08GZJ00": {
-      "title": "双创同步下探，香农芯创20CM跌停！科创50ETF汇添富收跌超5%，创业板ETF汇添富收跌超3...",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 6,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A08CUM00": {
-      "title": "SK海力士ADR盘前重挫超10%，美股存储芯片全线承压，国际油价大涨近3%",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 7,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A0817A00": {
-      "title": "SK海力士暴跌15%原因找到了？韩国券商称Q2盈利或“不及预期”",
-      "section": "stock",
-      "front_count": 2,
-      "last_rank": 8,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A07HJR00": {
-      "title": "中超官方：青岛西海岸vs成都蓉城的比赛调整至7月17日",
-      "section": "csl",
-      "front_count": 2,
-      "last_rank": 1,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A0AHC000": {
-      "title": "（外代一线）高温肆虐　欧洲6月下旬“超额死亡人数”破万",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 1,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260714A01IRB00": {
-      "title": "总台记者观察丨“意愿联盟”巴黎峰会聚焦对乌军援 成员内部仍存分歧",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 4,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260714A01DTY00": {
-      "title": "也门胡塞武装称袭击沙特艾卜哈国际机场",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 5,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260714A00ZWS00": {
-      "title": "伦敦股市13日上涨",
-      "section": "international",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A0AUAF00": {
-      "title": "世界人工智能大会推动AI造福人类",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 6,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A09WG400": {
-      "title": "新思想引领新征程丨人工智能蓬勃兴起 锻造高质量发展新引擎",
-      "section": "ai",
-      "front_count": 1,
-      "last_rank": 7,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://neow.in/cWsyMTV3": {
-      "title": "三星强制用户同意健康数据用于AI训练，否则将删除数据",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 9,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://playcode.io/blog/real-price-of-frontier-models": {
-      "title": "前沿模型实际成本：tokenizer 差异导致隐性涨价",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 10,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai": {
-      "title": "微软CEO纳德拉警告企业使用专有AI模型会泄露专有知识",
-      "section": "ai",
-      "front_count": 0,
-      "last_rank": 12,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A06DXK00": {
-      "title": "电影《想你了》发布终极海报 7月17日上映",
+    "url:https://view.inews.qq.com/a/20260713A0C18300": {
+      "title": "电影人施南生去世，享年75岁，曾监制《英雄本色》《倩女幽魂》《黄飞鸿》等作品",
       "section": "entertainment",
       "front_count": 1,
       "last_rank": 2,
-      "last_seen": "2026-07-14 07:22:42"
+      "last_seen": "2026-07-14 19:25:05"
     },
-    "url:https://view.inews.qq.com/a/20260713A06A5B00": {
-      "title": "年近80岁的易中天，为什么用百万积分做一部AI精品电影？｜独家专访",
+    "url:https://view.inews.qq.com/a/20260713A0BV7800": {
+      "title": "揭秘短剧演员的“新日子”：头部转型综艺，腰部回乡卖菜",
       "section": "entertainment",
       "front_count": 1,
       "last_rank": 3,
-      "last_seen": "2026-07-14 07:22:42"
+      "last_seen": "2026-07-14 19:25:05"
     },
-    "url:https://view.inews.qq.com/a/20260713A063X600": {
-      "title": "BW2026闭幕：外国游客远道而来，沉浸式感受中国动漫游戏展会活力",
+    "url:https://view.inews.qq.com/a/20260713A0BMRZ00": {
+      "title": "激动！云南2026年演唱会又上新！",
       "section": "entertainment",
       "front_count": 1,
       "last_rank": 4,
-      "last_seen": "2026-07-14 07:22:42"
+      "last_seen": "2026-07-14 19:25:05"
     },
-    "url:https://view.inews.qq.com/a/20260710A0CQUC00": {
-      "title": "好惨！TVB知名演员离巢后遭区别对待，新剧番位男二降级为男四",
+    "url:https://view.inews.qq.com/a/20260711A090GU00": {
+      "title": "电影《功夫女足》首日票房破2亿",
       "section": "entertainment",
       "front_count": 1,
       "last_rank": 5,
-      "last_seen": "2026-07-14 07:22:42"
+      "last_seen": "2026-07-14 19:25:05"
     },
-    "url:https://view.inews.qq.com/a/20260714A00OO700": {
-      "title": "电影人施南生离世，享年75岁，成龙、甄子丹、舒淇、李冰冰等众星发文悼念",
+    "url:https://view.inews.qq.com/a/20260713A0AEE400": {
+      "title": "《功夫女足》爆火！暑期档电影又行了？",
       "section": "entertainment",
       "front_count": 1,
       "last_rank": 6,
-      "last_seen": "2026-07-14 07:22:42"
+      "last_seen": "2026-07-14 19:25:05"
     },
-    "url:https://view.inews.qq.com/a/20260714A00II400": {
-      "title": "施南生离世：香港电影重要推手，导演徐克灵魂拍档，众好友深情缅怀",
+    "url:https://view.inews.qq.com/a/20260713A09SHF00": {
+      "title": "“汉尼拔”竟然发单曲了，88岁安东尼·霍普金斯将发布个人专辑",
       "section": "entertainment",
       "front_count": 1,
       "last_rank": 7,
-      "last_seen": "2026-07-14 07:22:42"
+      "last_seen": "2026-07-14 19:25:05"
     },
-    "url:https://view.inews.qq.com/a/20260713A0563U00": {
-      "title": "TVB前花旦回港红裙造型获赞，用10天录新歌，巡演12场目标红馆",
+    "url:https://view.inews.qq.com/a/20260713A064JU00": {
+      "title": "电影《功夫女足》进入年度票房榜前十 票房预测再上调",
       "section": "entertainment",
       "front_count": 0,
-      "last_rank": 12,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260714A01QS100": {
-      "title": "美股收盘：美伊局势升级打压风险偏好 芯片股重挫纳指跌逾1.5%",
-      "section": "stock",
-      "front_count": 1,
-      "last_rank": 1,
-      "last_seen": "2026-07-14 07:22:42"
-    },
-    "url:https://view.inews.qq.com/a/20260713A0A7DB00": {
-      "title": "官方：比利奇担任克罗地亚国家队新主帅；此前曾执教中超球队北京国安",
-      "section": "csl",
-      "front_count": 1,
-      "last_rank": 2,
-      "last_seen": "2026-07-14 07:22:42"
+      "last_rank": 11,
+      "last_seen": "2026-07-14 19:25:05"
     }
   },
   "runs": [
-    {
-      "time": "2026-07-08 19:22:35"
-    },
-    {
-      "time": "2026-07-09 07:22:03"
-    },
-    {
-      "time": "2026-07-09 13:22:53"
-    },
-    {
-      "time": "2026-07-09 13:23:59"
-    },
     {
       "time": "2026-07-09 13:24:31"
     },
@@ -8113,6 +7163,18 @@
     },
     {
       "time": "2026-07-14 07:22:42"
+    },
+    {
+      "time": "2026-07-14 19:22:22"
+    },
+    {
+      "time": "2026-07-14 19:23:26"
+    },
+    {
+      "time": "2026-07-14 19:24:12"
+    },
+    {
+      "time": "2026-07-14 19:25:05"
     }
   ]
 }
