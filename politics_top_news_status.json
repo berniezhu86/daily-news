@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-14T18:04:00+08:00",
+  "updated_at": "2026-07-15T06:02:43+08:00",
   "window_hours": 48,
-  "window_start": "2026-07-12T18:04:00+08:00",
+  "window_start": "2026-07-13T06:02:43+08:00",
   "keywords": [
     "习近平",
     "国家主席",
@@ -27,38 +27,38 @@
     "习近平人工智能大会",
     "泰国总理访华",
     "中哈外长",
+    "王毅所罗门群岛",
+    "王沪宁访问朝鲜",
+    "南海仲裁案外交部",
     "霍尔木兹海峡",
-    "港口国监督检查",
+    "巴拉圭网络攻击",
     "自然资源资产",
     "国民健康十五五",
     "扩大消费十五五",
-    "王沪宁访问朝鲜",
-    "王沪宁华侨华人社团",
-    "王毅所罗门群岛",
-    "南海仲裁案外交部",
-    "巴拉圭网络攻击",
     "国家防总吉林",
-    "应急管理部安全生产"
+    "中央防汛物资",
+    "国务院政策例行吹风会"
   ],
-  "candidate_count": 274,
-  "unique_candidate_count": 238,
-  "in_window_candidate_count": 114,
+  "candidate_count": 350,
+  "unique_candidate_count": 308,
+  "in_window_candidate_count": 141,
   "inserted_count": 20,
-  "new_or_updated_count": 12,
-  "removed_expired_count": 8,
-  "removed_replaced_count": 4,
-  "skipped_old_count": 124,
-  "skipped_duplicate_count": 36,
-  "skipped_irrelevant_or_low_quality_count": 95,
+  "new_or_updated_count": 8,
+  "removed_expired_count": 0,
+  "removed_replaced_count": 2,
+  "skipped_old_count": 167,
+  "skipped_duplicate_count": 42,
+  "skipped_irrelevant_or_low_quality_count": 147,
   "pool_total": 20,
   "failed_queries": [
-    "首次沙盒内批量搜索因 DNS 解析 openapi.inews.qq.com 失败；按权限流程联网执行腾讯新闻 CLI 后成功"
+    "首次沙盒内搜索因 DNS 解析 openapi.inews.qq.com 失败；按权限流程联网执行腾讯新闻 CLI 后成功"
   ],
   "notes": [
     "仅维护 politics_top_news.json 和 politics_top_news_status.json，未修改日报 HTML 或 index.html。",
-    "按2026-07-14 18:04 CST前48小时窗口滚动，移除2026-07-12 18:04前过期素材。",
-    "新增/更新李强经济形势座谈会、王沪宁访朝和侨务活动、王毅同哈萨克斯坦及所罗门群岛外长会谈、外交部霍尔木兹/南海/网络安全表态、中共中央处分马兴瑞、自然资源资产制度、吉林防汛响应等。",
-    "剔除旧稿、地方琐事、市场解读、学习述评、自媒体评论、重复稿和与高层时政弱相关内容。",
+    "按2026-07-15 06:02 CST前48小时窗口滚动；现有池内素材均仍在窗口内，本次未因过期移除。",
+    "新增王沪宁会见越南共产党代表团、蔡奇出席中央党校春季学期毕业典礼、国家防办和应急管理部滚动调度台风强降雨等。",
+    "将马兴瑞处分、王毅同所罗门群岛外长会谈、霍尔木兹海峡表态、南海仲裁案表态、国家防总吉林防汛响应等升级为更权威或更新来源。",
+    "剔除旧稿、地方琐事、市场解读、交通管制/展会服务信息、学习述评、自媒体评论和与高层时政弱相关内容。",
     "池内无重复 URL、标题或 ID；保留20条48小时内素材。"
   ]
 }

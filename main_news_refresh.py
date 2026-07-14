@@ -139,6 +139,7 @@ STOCK_MARKETING_PATTERNS = [
 ENTERTAINMENT_OFFTOPIC_PATTERNS = [
     "足球", "中超", "世界杯", "F1", "赛车", "排球", "网球", "自行车",
     "NBA", "CBA", "夏联", "球员", "体育", "省运会", "体育+", "体育文化",
+    "羽毛球", "男篮", "全国冠军赛", "国家队", "后卫",
     "体育旅游", "竞彩", "人工智能大会",
     "AI科技", "财经", "基金", "A股", "法治", "法院", "施工合同", "研学",
     "消费补贴", "文旅消费", "旅游季", "首发经济", "边境味道", "会客厅",
@@ -152,6 +153,7 @@ ENTERTAINMENT_OFFTOPIC_PATTERNS = [
 ENTERTAINMENT_HARD_OFFTOPIC_PATTERNS = [
     "国际足联", "世界杯", "西甲", "足球", "中超", "NBA", "CBA",
     "雷速体育", "体坛周报", "懂球帝", "CSL中超联赛",
+    "羽毛球", "男篮", "新秀观察",
 ]
 
 ENTERTAINMENT_CONTEXT_PATTERNS = [
@@ -368,7 +370,11 @@ def section_item_allowed(item: dict, section: str) -> bool:
             return False
         if age_hours(item, now_local()) > 168:
             return False
-        return has_any(text, SPORTS_EVENT_PATTERNS) and has_any(str(item.get("source", "")), SPORTS_TRUSTED_SOURCES)
+        if not has_any(str(item.get("source", "")), SPORTS_TRUSTED_SOURCES):
+            return False
+        if section == "henan":
+            return has_any(text, ["河南队", "河南足球", "河南俱乐部", "河南球迷", "三镇vs河南", "武汉三镇vs河南"])
+        return has_any(text, SPORTS_EVENT_PATTERNS)
     if section == "entertainment":
         if age_hours(item, now_local()) > 168:
             return False
