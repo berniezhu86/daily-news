@@ -1,8 +1,20 @@
 {
-  "updated": "2026-07-15T23:39:42.448924+08:00",
-  "updated_display": "07月15日 23:39",
+  "updated": "2026-07-16T01:39:13.041089+08:00",
+  "updated_display": "07月16日 01:39",
   "count": 10,
   "news": [
+    {
+      "title": "习近平总书记在上海考察时的重要讲话激励广大干部群众奋力创造美好新生活",
+      "url": "https://www.news.cn/politics/leaders/20260716/8cf6e08cce7c4a8e8a7c1f57949f266d/c.html",
+      "source": "新华社",
+      "date": "2026-07-16"
+    },
+    {
+      "title": "金色相框｜习近平在上海考察",
+      "url": "https://www.news.cn/politics/leaders/20260716/c909c1a95bb5499b924c9e919846482b/c.html",
+      "source": "新华社",
+      "date": "2026-07-16"
+    },
     {
       "title": "习近平在上海考察",
       "url": "https://www.news.cn/politics/leaders/20260715/b291748948564a4ca1562d010d635d3a/c.html",
@@ -24,12 +36,6 @@
     {
       "title": "《习近平谈治国理政》第五卷哈萨克斯坦推介会在阿斯塔纳举行",
       "url": "https://www.news.cn/politics/leaders/20260715/aca991b76c864708971f0d8e22185055/c.html",
-      "source": "新华社",
-      "date": "2026-07-15"
-    },
-    {
-      "title": "伊朗前总统内贾德否认与以色列情报机构存在联系",
-      "url": "https://www.news.cn/world/20260715/af34070a2fa34f4c9cb93461f2404b4a/c.html",
       "source": "新华社",
       "date": "2026-07-15"
     },
@@ -56,12 +62,6 @@
       "url": "https://www.news.cn/politics/leaders/20260714/35bb44977f5f4e5faaf46f56313cb72c/c.html",
       "source": "新华社",
       "date": "2026-07-14"
-    },
-    {
-      "title": "暴雨预警 多省份筑牢防汛“安全堤”",
-      "url": "https://www.news.cn/politics/20260715/63381dbf6d40425186e34a772d61ebd2/c.html",
-      "source": "新华社",
-      "date": "2026-07-15"
     }
   ]
 }
