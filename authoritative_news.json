@@ -1,10 +1,16 @@
 {
-  "updated": "2026-07-16T01:39:13.041089+08:00",
-  "updated_display": "07月16日 01:39",
-  "count": 10,
+  "updated": "2026-07-16T03:36:14.553800+08:00",
+  "updated_display": "07月16日 03:36",
+  "count": 11,
   "news": [
     {
-      "title": "习近平总书记在上海考察时的重要讲话激励广大干部群众奋力创造美好新生活",
+      "title": "习近平总书记引领推动城市更新的故事",
+      "url": "https://www.news.cn/politics/xxjxs/20260716/fa7223990f8c43ec9ebdca0f0a90b6a2/c.html",
+      "source": "新华社",
+      "date": "2026-07-16"
+    },
+    {
+      "title": "习近平总书记上海考察重要讲话激励干部群众创造美好新生活",
       "url": "https://www.news.cn/politics/leaders/20260716/8cf6e08cce7c4a8e8a7c1f57949f266d/c.html",
       "source": "新华社",
       "date": "2026-07-16"
@@ -17,12 +23,6 @@
     },
     {
       "title": "习近平在上海考察",
-      "url": "https://www.news.cn/politics/leaders/20260715/b291748948564a4ca1562d010d635d3a/c.html",
-      "source": "新华社",
-      "date": "2026-07-15"
-    },
-    {
-      "title": "习近平：全面践行人民城市理念 高质量推进城市更新",
       "url": "https://www.news.cn/politics/leaders/20260715/b291748948564a4ca1562d010d635d3a/c.html",
       "source": "新华社",
       "date": "2026-07-15"
@@ -43,6 +43,12 @@
       "title": "《求是》杂志发表习近平总书记重要文章《在庆祝中国共产党成立105周年大会上的讲话》",
       "url": "https://www.news.cn/politics/20260715/4cb1437a2d854cd2b048b5f4d11705aa/c.html",
       "source": "新华社",
+      "date": "2026-07-15"
+    },
+    {
+      "title": "习近平：全面践行人民城市理念 高质量推进城市更新",
+      "url": "http://politics.people.com.cn/n1/2026/0715/c1024-40761353.html",
+      "source": "人民日报",
       "date": "2026-07-15"
     },
     {
