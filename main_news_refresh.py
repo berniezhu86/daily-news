@@ -174,6 +174,11 @@ SPORTS_TRUSTED_SOURCES = [
     "正观新闻", "河南足球俱乐部", "中超联赛", "中国足协",
 ]
 
+FOOTBALL_OFFTOPIC_PATTERNS = [
+    "啤酒节", "演唱会", "音乐节", "文旅", "旅游", "美食", "会场",
+    "开幕式", "电影", "电视剧", "综艺", "消费券",
+]
+
 GENERIC_TITLE_PATTERNS = [
     "关注最新进展", "快讯：", "国际快讯", "财经快讯", "AI科技快讯",
 ]
@@ -367,6 +372,8 @@ def section_item_allowed(item: dict, section: str) -> bool:
         if is_low_quality(item):
             return False
         if has_any(text, ["航运", "绿色燃料", "港口", "船舶"]):
+            return False
+        if has_any(text, FOOTBALL_OFFTOPIC_PATTERNS) and not has_any(text, ["中超", "足球", "河南队", "河南足球", "赛程", "积分榜", "联赛"]):
             return False
         if age_hours(item, now_local()) > 168:
             return False
