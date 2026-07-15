@@ -197,6 +197,13 @@ def parse_time(value: str | None) -> datetime | None:
     if not value:
         return None
     value = str(value).strip()
+    try:
+        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        if dt.tzinfo is not None:
+            dt = dt.astimezone().replace(tzinfo=None)
+        return dt
+    except ValueError:
+        pass
     for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M", "%Y/%m/%d %H:%M", "%m-%d %H:%M", "%m月%d日 %H:%M"):
         try:
             dt = datetime.strptime(value, fmt)
