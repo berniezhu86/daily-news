@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-15T09:58:17.319728+08:00",
-  "updated_display": "07月15日 09:58",
-  "count": 7,
+  "updated": "2026-07-15T11:55:43.203987+08:00",
+  "updated_display": "07月15日 11:55",
+  "count": 5,
   "news": [
     {
       "title": "习近平总书记指引人工智能发展与治理",
@@ -28,21 +28,9 @@
       "date": "2026-07-14"
     },
     {
-      "title": "委内瑞拉地震死亡人数升至4734人",
-      "url": "https://www.news.cn/world/20260715/ec92b02c815b45979e53f0986c8fde4d/c.html",
-      "source": "新华社",
-      "date": "2026-07-15"
-    },
-    {
       "title": "比利时首都布鲁塞尔市中心大楼火灾造成6人死亡",
       "url": "https://www.news.cn/world/20260715/973fa7c589a245bda3984cb410c4b2d6/c.html",
       "source": "新华社",
-      "date": "2026-07-15"
-    },
-    {
-      "title": "青海海西州直辖区发生3.0级地震 震源深度10千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
       "date": "2026-07-15"
     }
   ]
