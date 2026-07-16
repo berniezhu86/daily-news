@@ -1,8 +1,11 @@
 {
-  "updated_at": "2026-07-16T18:03:00+08:00",
+  "updated_at": "2026-07-17T06:02:22+08:00",
   "window_hours": 48,
-  "window_start": "2026-07-14T18:03:00+08:00",
+  "window_start": "2026-07-15T06:02:22+08:00",
   "keywords": [
+    "习近平"
+  ],
+  "planned_keywords": [
     "习近平",
     "国家主席",
     "中央军委主席",
@@ -23,46 +26,58 @@
     "何立峰",
     "张国清",
     "世界人工智能大会",
-    "习近平人工智能大会",
-    "上海考察习近平",
-    "李强泰国总理",
-    "王沪宁金正恩",
-    "王沪宁朝鲜",
-    "国防部",
     "国务院台办",
     "国台办",
     "外交部例行记者会",
     "国家防总",
     "应急管理部",
-    "吉林灾后恢复",
     "中央救灾物资",
     "职业教育法执法检查",
     "全国人大职业教育法",
-    "中央纪委",
-    "蔡赴朝",
-    "APEC数字周",
-    "港澳研究中心"
+    "中央纪委"
   ],
-  "query_count": 39,
+  "query_count": 1,
   "candidate_count": 0,
   "unique_candidate_count": 0,
   "in_window_candidate_count": 0,
-  "inserted_count": 19,
+  "inserted_count": 15,
   "new_or_updated_count": 0,
-  "removed_expired_count": 1,
+  "removed_expired_count": 4,
   "removed_replaced_count": 0,
-  "skipped_old_count": 1,
+  "skipped_old_count": 4,
   "skipped_duplicate_count": 0,
   "skipped_irrelevant_or_low_quality_count": 0,
-  "pool_total": 19,
+  "pool_total": 15,
   "failed_queries": [
     "首次沙盒内搜索因 DNS 解析 openapi.inews.qq.com 失败。",
-    "联网执行腾讯新闻 CLI 后 API 返回 code 4007：积分余额不足，全部检索关键词未返回候选。按 tencent-news 技能要求，本轮未改用 WebSearch 或其他来源补抓。"
+    "联网执行腾讯新闻 CLI 后 API 返回 code 4007：积分余额不足。按 tencent-news 技能要求，本轮未继续重试，也未改用 WebSearch 或其他来源补抓。"
+  ],
+  "removed_items": [
+    {
+      "id": "politics-top-20260715-0608",
+      "title": "王沪宁会见越南共产党代表团，推进中越党际交流",
+      "published_at": "2026-07-14T19:37:07+08:00"
+    },
+    {
+      "id": "politics-top-20260715-0611",
+      "title": "王毅同所罗门群岛外长会谈，强调中国同太平洋岛国合作不受第三方干扰",
+      "published_at": "2026-07-14T18:11:07+08:00"
+    },
+    {
+      "id": "politics-top-20260715-0609",
+      "title": "蔡奇出席中央党校春季学期毕业典礼，为学员颁发毕业证书",
+      "published_at": "2026-07-14T20:00:12+08:00"
+    },
+    {
+      "id": "politics-top-20260715-0613",
+      "title": "外交部就霍尔木兹海峡局势表态，呼吁尽早恢复正常安全通行",
+      "published_at": "2026-07-14T19:32:11+08:00"
+    }
   ],
   "notes": [
     "仅维护 politics_top_news.json 和 politics_top_news_status.json，未修改日报 HTML 或 index.html。",
-    "按2026-07-16 18:03 CST前48小时窗口滚动；移除1条7月14日18:03前发布素材。",
+    "按2026-07-17 06:02 CST前48小时窗口滚动；移除4条7月15日06:02前发布素材。",
     "因腾讯新闻 API 积分不足，本轮未新增或更新新闻条目。",
-    "池内保留19条，均在48小时窗口内，无重复URL、标题或ID。"
+    "池内保留15条，均在48小时窗口内。"
   ]
 }

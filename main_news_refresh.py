@@ -134,6 +134,9 @@ STOCK_MARKETING_PATTERNS = [
     "值得关注", "ETF基金日报", "强势上涨", "赛道景气度",
     "捕捉", "布局低利率时代", "稳健投资新机遇",
     "ETF平安", "ETF华夏", "ETF南方",
+    "ETF汇添富", "ETF易方达", "ETF富国",
+    "主力资金净流", "净申购超", "低费率", "投顾关注",
+    "配置应对", "资产配置", "可比基金前",
 ]
 
 ENTERTAINMENT_OFFTOPIC_PATTERNS = [
