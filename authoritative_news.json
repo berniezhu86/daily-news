@@ -1,31 +1,37 @@
 {
-  "updated": "2026-07-16T17:12:16.584030+08:00",
-  "updated_display": "07月16日 17:12",
-  "count": 4,
+  "updated": "2026-07-16T21:06:04.259096+08:00",
+  "updated_display": "07月16日 21:06",
+  "count": 5,
   "news": [
     {
-      "title": "学习进行时丨习近平总书记引领推动城市更新的故事",
-      "url": "https://www.news.cn/politics/xxjxs/20260716/fa7223990f8c43ec9ebdca0f0a90b6a2/c.html",
-      "source": "新华社",
-      "date": "2026-07-16"
-    },
-    {
       "title": "习近平会见哈萨克斯坦总统托卡耶夫",
-      "url": "https://www.news.cn/politics/leaders/20260716/7798bfa00ad943d49048c02410884a83/c.html",
+      "url": "https://www.news.cn/politics/leaders/20260716/f5edc05ecec44058aa432596e46f26dc/c.html",
       "source": "新华社",
       "date": "2026-07-16"
     },
     {
-      "title": "习近平同志\"四个宁可\"理念的实践伟力",
-      "url": "http://politics.people.com.cn/n1/2026/0716/c461001-40761426.html",
+      "title": "7月16日下午，国家主席习近平在上海西郊宾馆会见来华出席2026世界人工智能大会暨人工智能全球治理高级别会议的哈萨克斯坦总统托卡耶夫",
+      "url": "https://www.news.cn/politics/leaders/20260716/f5edc05ecec44058aa432596e46f26dc/c.html",
+      "source": "新华社",
+      "date": "2026-07-16"
+    },
+    {
+      "title": "习近平：中哈双方要加强发展战略和政策对接，不断提升务实合作水平，助力共同发展，推动中哈战略协作不断迈上新台阶、取得新成果",
+      "url": "http://politics.people.com.cn/n1/2026/0716/c1024-40762145.html",
       "source": "人民日报",
       "date": "2026-07-16"
     },
     {
       "title": "习近平在上海考察",
-      "url": "https://www.news.cn/politics/leaders/20260715/b291748948564a4ca1562d010d635d3a/c.html",
+      "url": "https://www.news.cn/politics/leaders/20260715/3218832ddd45443d9f3c747002d0291f/c.html",
       "source": "新华社",
       "date": "2026-07-15"
+    },
+    {
+      "title": "云南大理州宾川县发生3.2级地震 震源深度9千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
+      "date": "2026-07-16"
     }
   ]
 }
