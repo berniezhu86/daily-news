@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-16T21:06:04.259096+08:00",
-  "updated_display": "07月16日 21:06",
-  "count": 5,
+  "updated": "2026-07-16T23:03:15.754478+08:00",
+  "updated_display": "07月16日 23:03",
+  "count": 3,
   "news": [
     {
       "title": "习近平会见哈萨克斯坦总统托卡耶夫",
@@ -16,22 +16,10 @@
       "date": "2026-07-16"
     },
     {
-      "title": "习近平：中哈双方要加强发展战略和政策对接，不断提升务实合作水平，助力共同发展，推动中哈战略协作不断迈上新台阶、取得新成果",
-      "url": "http://politics.people.com.cn/n1/2026/0716/c1024-40762145.html",
-      "source": "人民日报",
-      "date": "2026-07-16"
-    },
-    {
       "title": "习近平在上海考察",
       "url": "https://www.news.cn/politics/leaders/20260715/3218832ddd45443d9f3c747002d0291f/c.html",
       "source": "新华社",
       "date": "2026-07-15"
-    },
-    {
-      "title": "云南大理州宾川县发生3.2级地震 震源深度9千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
-      "date": "2026-07-16"
     }
   ]
 }
