@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-16T06:04:00+08:00",
+  "updated_at": "2026-07-16T12:04:00+08:00",
   "window_hours": 48,
-  "window_start": "2026-07-14T06:04:00+08:00",
+  "window_start": "2026-07-14T12:04:00+08:00",
   "keywords": [
     "习近平",
     "国家主席",
@@ -46,7 +46,6 @@
     "台风巴威",
     "中央军委主席习近平",
     "全国人大常委会委员长赵乐际",
-    "三部门调拨9000件中央救灾物资",
     "七下八上防汛关键期国家防总",
     "泰国总理阿努廷访华",
     "阿努廷抵达北京",
@@ -55,28 +54,36 @@
     "蔡赴朝审查调查",
     "港澳研究中心揭牌",
     "外交部古巴制裁",
-    "APEC数字周外交部"
+    "APEC数字周外交部",
+    "城市更新习近平",
+    "上海考察习近平",
+    "全国人大职业教育法执法检查",
+    "习近平上海城市更新",
+    "铁凝职业教育法宁夏",
+    "7月16日李强",
+    "王沪宁金正恩"
   ],
-  "candidate_count": 550,
-  "unique_candidate_count": 462,
-  "in_window_candidate_count": 271,
+  "query_count": 59,
+  "candidate_count": 1172,
+  "unique_candidate_count": 514,
+  "in_window_candidate_count": 286,
   "inserted_count": 20,
-  "new_or_updated_count": 6,
-  "removed_expired_count": 3,
-  "removed_replaced_count": 5,
-  "skipped_old_count": 279,
-  "skipped_duplicate_count": 88,
-  "skipped_irrelevant_or_low_quality_count": 174,
+  "new_or_updated_count": 2,
+  "removed_expired_count": 2,
+  "removed_replaced_count": 0,
+  "skipped_old_count": 610,
+  "skipped_duplicate_count": 264,
+  "skipped_irrelevant_or_low_quality_count": 296,
   "pool_total": 20,
   "failed_queries": [
-    "首次沙盒内搜索因 DNS 解析 openapi.inews.qq.com 失败；联网执行后接口提示 CLI 缺少 Skill-Request-Id，请求更新客户端。",
-    "按技能说明将腾讯新闻 CLI 从 v1.0.13 更新到 v1.0.14 后，联网搜索成功。"
+    "首次沙盒内搜索因 DNS 解析 openapi.inews.qq.com 失败；按技能要求改用联网执行后搜索成功。"
   ],
   "notes": [
     "仅维护 politics_top_news.json 和 politics_top_news_status.json，未修改日报 HTML 或 index.html。",
-    "按2026-07-16 06:04 CST前48小时窗口滚动；移除3条7月13日过窗素材。",
-    "新增/更新国家防总“七下八上”防汛部署、APEC数字周外交部表态、外交部古巴制裁表态、吉林中央救灾物资、港澳研究中心揭牌、蔡赴朝审查调查。",
-    "替换5条过窗、低优先级或被新进展覆盖的旧素材；未收录地方琐事、评论解读、旧闻、纯视频弱信息稿和与高层时政弱相关内容。",
+    "按2026-07-16 12:04 CST前48小时窗口滚动；移除2条7月14日12:04前发布素材。",
+    "新增/更新中国新闻网7月15日世界人工智能大会跟进稿、人民网7月16日全国人大常委会职业教育法执法检查稿。",
+    "剔除习近平上海城市更新相关地方社论/学习贯彻稿，因当前检索结果主要为评论或地方延展稿，未见更权威主消息。",
+    "未收录地方琐事、纯评论解读、旧闻、低质量自媒体和与高层时政弱相关内容。",
     "池内保留20条，均在48小时窗口内，无重复URL、标题或ID。"
   ]
 }
