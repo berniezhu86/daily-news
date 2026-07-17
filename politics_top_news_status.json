@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-17T06:02:22+08:00",
+  "updated_at": "2026-07-17T12:03:34+08:00",
   "window_hours": 48,
-  "window_start": "2026-07-15T06:02:22+08:00",
+  "window_start": "2026-07-15T12:03:34+08:00",
   "keywords": [
     "习近平"
   ],
@@ -34,50 +34,42 @@
     "中央救灾物资",
     "职业教育法执法检查",
     "全国人大职业教育法",
-    "中央纪委"
+    "中央纪委",
+    "国务院政策例行吹风会",
+    "人工智能全球治理高级别会议"
   ],
   "query_count": 1,
   "candidate_count": 0,
   "unique_candidate_count": 0,
   "in_window_candidate_count": 0,
-  "inserted_count": 15,
+  "inserted_count": 13,
   "new_or_updated_count": 0,
-  "removed_expired_count": 4,
+  "removed_expired_count": 2,
   "removed_replaced_count": 0,
-  "skipped_old_count": 4,
+  "skipped_old_count": 2,
   "skipped_duplicate_count": 0,
   "skipped_irrelevant_or_low_quality_count": 0,
-  "pool_total": 15,
+  "pool_total": 13,
   "failed_queries": [
-    "首次沙盒内搜索因 DNS 解析 openapi.inews.qq.com 失败。",
-    "联网执行腾讯新闻 CLI 后 API 返回 code 4007：积分余额不足。按 tencent-news 技能要求，本轮未继续重试，也未改用 WebSearch 或其他来源补抓。"
+    "沙盒内搜索“习近平”“外交部”因 DNS 解析 openapi.inews.qq.com 失败。",
+    "联网执行腾讯新闻 CLI 搜索“习近平”后 API 返回 code 4007：积分余额不足。按 tencent-news 技能要求，本轮停止抓取，未改用 WebSearch 或其他来源补抓。"
   ],
   "removed_items": [
     {
-      "id": "politics-top-20260715-0608",
-      "title": "王沪宁会见越南共产党代表团，推进中越党际交流",
-      "published_at": "2026-07-14T19:37:07+08:00"
+      "id": "politics-top-20260715-1201",
+      "title": "自然资源部解读中办国办意见，明确自然资源资产管理“五项改革”",
+      "published_at": "2026-07-15T10:01:11+08:00"
     },
     {
-      "id": "politics-top-20260715-0611",
-      "title": "王毅同所罗门群岛外长会谈，强调中国同太平洋岛国合作不受第三方干扰",
-      "published_at": "2026-07-14T18:11:07+08:00"
-    },
-    {
-      "id": "politics-top-20260715-0609",
-      "title": "蔡奇出席中央党校春季学期毕业典礼，为学员颁发毕业证书",
-      "published_at": "2026-07-14T20:00:12+08:00"
-    },
-    {
-      "id": "politics-top-20260715-0613",
-      "title": "外交部就霍尔木兹海峡局势表态，呼吁尽早恢复正常安全通行",
-      "published_at": "2026-07-14T19:32:11+08:00"
+      "id": "politics-top-20260715-1203",
+      "title": "国台办驳斥民进党“改变台海现状”说法，强调一个中国原则",
+      "published_at": "2026-07-15T10:22:04+08:00"
     }
   ],
   "notes": [
     "仅维护 politics_top_news.json 和 politics_top_news_status.json，未修改日报 HTML 或 index.html。",
-    "按2026-07-17 06:02 CST前48小时窗口滚动；移除4条7月15日06:02前发布素材。",
+    "按2026-07-17 12:03 CST前48小时窗口滚动，移除窗口外素材。",
     "因腾讯新闻 API 积分不足，本轮未新增或更新新闻条目。",
-    "池内保留15条，均在48小时窗口内。"
+    "池内保留13条，均在48小时窗口内。"
   ]
 }
