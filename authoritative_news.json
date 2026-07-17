@@ -1,31 +1,61 @@
 {
-  "updated": "2026-07-17T06:51:46.771151+08:00",
-  "updated_display": "07月17日 06:51",
-  "count": 4,
+  "updated": "2026-07-17T08:43:45.666254+08:00",
+  "updated_display": "07月17日 08:43",
+  "count": 9,
   "news": [
     {
-      "title": "习近平会见哈萨克斯坦总统托卡耶夫",
-      "url": "https://www.news.cn/politics/leaders/20260716/f5edc05ecec44058aa432596e46f26dc/c.html",
-      "source": "新华社",
-      "date": "2026-07-16"
-    },
-    {
-      "title": "7月16日下午，国家主席习近平在上海西郊宾馆会见来华出席2026世界人工智能大会暨人工智能全球治理高级别会议的哈萨克斯坦总统托卡耶夫",
-      "url": "https://www.news.cn/politics/leaders/20260716/f5edc05ecec44058aa432596e46f26dc/c.html",
-      "source": "新华社",
-      "date": "2026-07-16"
-    },
-    {
       "title": "习近平总书记在上海考察纪实",
+      "url": "http://politics.people.com.cn/n1/2026/0717/c461001-40762221.html",
+      "source": "人民日报",
+      "date": "2026-07-17"
+    },
+    {
+      "title": "《习近平谈治国理政》第五卷哈萨克斯坦推介会在阿斯塔纳举行",
+      "url": "https://world.people.com.cn/n1/2026/0717/c1002-40762224.html",
+      "source": "人民日报",
+      "date": "2026-07-17"
+    },
+    {
+      "title": "“老百姓的生活是家事，更是国事”——习近平总书记在上海考察纪实",
       "url": "https://www.news.cn/politics/leaders/20260716/4f303eb41db549b29344f6080f980abb/c.html",
       "source": "新华社",
       "date": "2026-07-16"
     },
     {
-      "title": "习近平在上海考察",
-      "url": "https://www.news.cn/politics/leaders/20260715/3218832ddd45443d9f3c747002d0291f/c.html",
+      "title": "学习进行时丨习近平总书记引领推动城市更新的故事",
+      "url": "https://www.news.cn/politics/xxjxs/20260716/fa7223990f8c43ec9ebdca0f0a90b6a2/c.html",
       "source": "新华社",
-      "date": "2026-07-15"
+      "date": "2026-07-16"
+    },
+    {
+      "title": "习近平会见哈萨克斯坦总统托卡耶夫",
+      "url": "https://www.news.cn/politics/leaders/20260716/75a3a8c3db224cbeb309545e35c97d82/c.html",
+      "source": "新华社",
+      "date": "2026-07-16"
+    },
+    {
+      "title": "记《习近平谈治国理政》第五卷哈萨克斯坦推介会：“得以深入了解一个国家的治理思想体系”",
+      "url": "https://www.news.cn/politics/leaders/20260716/524354818847433cbd620e346ba716f2/c.html",
+      "source": "新华社",
+      "date": "2026-07-16"
+    },
+    {
+      "title": "习近平：欢迎托卡耶夫总统出席2026世界人工智能大会",
+      "url": "http://politics.people.com.cn/n1/2026/0716/c461001-40762195.html\n",
+      "source": "人民日报",
+      "date": "2026-07-16"
+    },
+    {
+      "title": "台风“美莎克”已致广西260多万人受灾",
+      "url": "https://www.news.cn/local/20260717/007c738f4e994699ab7723ae48b33ec3/c.html",
+      "source": "新华社",
+      "date": "2026-07-17"
+    },
+    {
+      "title": "委内瑞拉地震死亡人数升至4930人",
+      "url": "https://www.news.cn/world/20260717/d9a6b3b2a2ca407fa71500bff495d919/c.html",
+      "source": "新华社",
+      "date": "2026-07-17"
     }
   ]
 }
