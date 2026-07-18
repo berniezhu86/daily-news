@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-18 12:55",
+  "updated_at": "2026-07-18 13:05",
   "status": "success",
-  "pulled": 735,
+  "pulled": 197,
   "added_net": 0,
-  "deduped": 735,
-  "trimmed": 0,
+  "deduped": 81,
+  "trimmed": 116,
   "sections": {
     "domestic": 200,
     "international": 200,
@@ -15,7 +15,13 @@
     "csl": 29
   },
   "total_final": 956,
-  "pushed_to_github": false,
+  "pushed_to_github": true,
   "target": "index.html",
-  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序"
+  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序",
+  "deploy_status": "success",
+  "deploy_commit": "cf6762b",
+  "deploy_content_version": "v20260718v2",
+  "deploy_url": "https://berniezhu86.github.io/daily-news/",
+  "deploy_verified_at": "2026-07-18 13:06",
+  "checked_at": "2026-07-18 13:06"
 }

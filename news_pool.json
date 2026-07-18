@@ -1603,6 +1603,39 @@
     },
     {
       "section": "domestic",
+      "title": "亚马逊 Zoox 自动驾驶出租车因烟雾识别缺陷召回 105 辆车",
+      "source": "IT之家（RSS）",
+      "summary": "亚马逊旗下自动驾驶公司 Zoox 宣布召回 105 辆自动驾驶出租车软件，原因是车辆存在无法识别浓烟的风险，曾直接驶入被烟雾遮挡的火灾现场。该缺陷在 6 月 20 日拉斯维加斯一起事故中被发现，当时一辆空载 Zoox 车辆驶入浓烟覆盖的火灾现场后紧急制动，无人员受伤。",
+      "url": "https://www.ithome.com/0/978/427.htm",
+      "heat": 9,
+      "publishedAt": "7月18日 11:38",
+      "time": "7月18日 11:38",
+      "collectedAt": "2026-07-18T05:05:10.240Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Claude Fable 5 订阅政策更新：Max 永久包含",
+      "source": "X：小互 (@xiaohu)",
+      "summary": "7月20日起，Claude Fable 5 将永久包含在所有 Max 和 Team Premium 订阅中，不再被取消，使用额度为原上限的50%。Pro 和 Team Standard 用户仍可通过充值积分访问，并获得一次性100美元积分。",
+      "url": "https://x.com/xiaohu/status/2078309553066979838",
+      "heat": 9,
+      "publishedAt": "7月18日 10:43",
+      "time": "7月18日 10:43",
+      "collectedAt": "2026-07-18T05:05:10.240Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Kimi K3 前端盲测登顶，非对称竞争挑战 Fable 5",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "summary": "Kimi K3 在 Frontend Code Arena 人类盲测中以 1679 Elo 登顶第一，7 个前端赛道拿下 6 个第一，但综合智能指数仅排第 4。",
+      "url": "https://x.com/AYi_AInotes/status/2078330884726431967",
+      "heat": 9,
+      "publishedAt": "7月18日 12:07",
+      "time": "7月18日 12:07",
+      "collectedAt": "2026-07-18T05:05:10.240Z"
+    },
+    {
+      "section": "domestic",
       "title": "习近平在2026世界AI大会反对美国限制，推动开源AI",
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "summary": "习近平在上海2026世界AI大会上发表讲话，反对美国主导的AI限制措施，并倡导开源AI与全球治理。他警告，以国家安全为由的广泛主张可能让强国限制他国获取AI技术。",
@@ -2323,25 +2356,14 @@
     },
     {
       "section": "domestic",
-      "title": "亚马逊 Zoox 自动驾驶出租车因烟雾识别缺陷召回 105 辆车",
+      "title": "腾讯发布具身 VLM 基座模型 Hy-Embodied-VLM-1.0，A3B 规模性能接近上一代 A32B 模型",
       "source": "IT之家（RSS）",
-      "summary": "亚马逊旗下自动驾驶公司 Zoox 宣布召回 105 辆自动驾驶出租车软件，原因是车辆存在无法识别浓烟的风险，曾直接驶入被烟雾遮挡的火灾现场。",
-      "url": "https://www.ithome.com/0/978/427.htm",
-      "heat": 9,
-      "publishedAt": "7月18日 11:38",
-      "time": "7月18日 11:38",
-      "collectedAt": "2026-07-18T04:47:05.939Z"
-    },
-    {
-      "section": "domestic",
-      "title": "Claude Fable 5 订阅政策更新：Max 永久包含",
-      "source": "X：小互 (@xiaohu)",
-      "summary": "7月20日起，Claude Fable 5 将永久包含在所有 Max 和 Team Premium 订阅中，不再被取消，使用额度为原上限的50%。",
-      "url": "https://x.com/xiaohu/status/2078309553066979838",
-      "heat": 9,
-      "publishedAt": "7月18日 10:43",
-      "time": "7月18日 10:43",
-      "collectedAt": "2026-07-18T04:47:05.939Z"
+      "summary": "腾讯 Robotics X 实验室与福田实验室联合发布第二代具身 VLM 基座模型 Hy-Embodied-VLM-1.0。该模型仅采用 A3B 规模，在 37 个评测任务中综合平均得分 65.6，整体性能接近上一代 A32B 旗舰模型。",
+      "url": "https://www.ithome.com/0/978/080.htm",
+      "heat": 6,
+      "publishedAt": "7月17日 15:22",
+      "time": "7月17日 15:22",
+      "collectedAt": "2026-07-18T05:05:10.240Z"
     },
     {
       "section": "domestic",
@@ -2462,18 +2484,6 @@
       "time": "7月16日 11:59",
       "collectedAt": "2026-07-16T22:55:51.297Z",
       "rank": 150
-    },
-    {
-      "section": "domestic",
-      "title": "腾讯发布具身 VLM 基座模型 Hy-Embodied-VLM-1.0，A3B 规模性能接近上...",
-      "source": "IT之家（RSS）",
-      "summary": "腾讯 Robotics X 实验室与福田实验室联合发布第二代具身 VLM 基座模型 Hy-Embodied-VLM-1.0。该模型仅采用 A3B 规模，在 37 个评测任务中综合平均得分 65.6，整体性能接近上一代 A32B 旗舰模型。",
-      "url": "https://www.ithome.com/0/978/080.htm",
-      "heat": 5,
-      "publishedAt": "7月17日 15:22",
-      "time": "7月17日 15:22",
-      "collectedAt": "2026-07-17T10:55:20.163Z",
-      "rank": 151
     },
     {
       "section": "domestic",
@@ -2642,18 +2652,6 @@
       "time": "7月17日 7:29",
       "collectedAt": "2026-07-17T10:55:20.163Z",
       "rank": 167
-    },
-    {
-      "section": "domestic",
-      "title": "Impossible Research 发布 ARC-AGI-3 智能体框架",
-      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-      "summary": "各位，开始构建你们的 harness 吧。构建 harness 中有大量 alpha。Schema 是一种自定义 harness，能让智能体像物理学家一样\"思考\"。",
-      "url": "https://x.com/omarsar0/status/2077892734979846306",
-      "heat": 5,
-      "publishedAt": "7月17日 7:06",
-      "time": "7月17日 7:06",
-      "collectedAt": "2026-07-17T10:55:20.163Z",
-      "rank": 168
     }
   ],
   "international": [
@@ -7191,6 +7189,17 @@
     },
     {
       "section": "ai",
+      "title": "乔帮主评测Kimi K3：强大但有限制",
+      "source": "X：Vista (@vista8)",
+      "summary": "乔帮主发布Kimi K3详细评测，基于6个真实场景项目。K3因训练方式与Kimi Code匹配最佳，接入Claude Code效果可能折损；优化了长程高难任务，但面对简单模糊需求易过度发挥。",
+      "url": "https://x.com/vista8/status/2078337668942094436",
+      "heat": 9,
+      "publishedAt": "7月18日 12:34",
+      "time": "7月18日 12:34",
+      "collectedAt": "2026-07-18T05:05:10.532Z"
+    },
+    {
+      "section": "ai",
       "title": "集邦咨询：预估陪伴型人形机器人 2030 年产值达 11 亿美元",
       "source": "IT之家（RSS）",
       "summary": "集邦咨询预估，陪伴型人形机器人产值将于 2030 年达到 11 亿美元（约合 74.56 亿元人民币）。报告指出，中国厂商如松延动力、春水堂和优必选已推出仿生外观、情绪表达及情感大模型等产品，但该领域仍面临续航、情感互动自然度、隐私及成本平衡等挑战。",
@@ -7608,18 +7617,6 @@
       "time": "7月13日 17:41",
       "collectedAt": "2026-07-13T10:55:45.214Z",
       "rank": 137
-    },
-    {
-      "section": "ai",
-      "title": "Zig创始人批评Anthropic的Bun从Zig迁移至Rust：代码混乱源于过度依赖AI智能体",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "summary": "Anthropic旗下Bun运行时从Zig迁移至Rust引发争议。Zig创始人Andrew Kelley罕见直言批评，认为Bun代码混乱源于过度依赖AI智能体编写和审查代码，而非Zig本身缺陷。",
-      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade",
-      "heat": 8,
-      "publishedAt": "7月13日 17:41",
-      "time": "7月13日 17:41",
-      "collectedAt": "2026-07-13T10:55:45.214Z",
-      "rank": 138
     }
   ],
   "entertainment": [
@@ -7719,6 +7716,17 @@
       "publishedAt": "7月18日 10:39",
       "time": "7月18日 10:39",
       "collectedAt": "2026-07-18T04:47:06.526Z"
+    },
+    {
+      "section": "entertainment",
+      "title": "英特尔前 CEO 盖尔辛格承认当年看不上英伟达 GPU",
+      "source": "IT之家（RSS）",
+      "summary": "英特尔前 CEO 帕特·盖尔辛格在 All-In Podcast 中承认，英特尔主导行业时曾对英伟达 GPU 不屑一顾，认为那只是游戏发烧友用的产品。他批评公司在他回归前五六年向股东发放了 1000 亿美元股息，而非投入制造业务。",
+      "url": "https://www.ithome.com/0/978/364.htm",
+      "heat": 9,
+      "publishedAt": "7月18日 10:22",
+      "time": "7月18日 10:22",
+      "collectedAt": "2026-07-18T05:05:10.744Z"
     },
     {
       "section": "entertainment",
@@ -8726,17 +8734,6 @@
     },
     {
       "section": "entertainment",
-      "title": "英特尔前 CEO 盖尔辛格承认当年看不上英伟达 GPU",
-      "source": "IT之家（RSS）",
-      "summary": "英特尔前 CEO 帕特·盖尔辛格在 All-In Podcast 中承认，英特尔主导行业时曾对英伟达 GPU 不屑一顾，认为那只是游戏发烧友用的产品。",
-      "url": "https://www.ithome.com/0/978/364.htm",
-      "heat": 9,
-      "publishedAt": "7月18日 10:22",
-      "time": "7月18日 10:22",
-      "collectedAt": "2026-07-18T04:47:06.526Z"
-    },
-    {
-      "section": "entertainment",
       "title": "审批通过！厦门演唱会+2！演唱会最新排期表",
       "source": "厦门本地宝",
       "summary": "各位歌迷朋友注意啦厦门演唱会又有新消息啦！TizzyT、王赫野厦门演唱会审批通过李健演唱会即将开票厦宝带来了厦门演唱会最新排期表来看看有你喜欢的歌手吗？",
@@ -9390,6 +9387,17 @@
     },
     {
       "section": "entertainment",
+      "title": "世界杯 | 西班牙主帅：决赛要忠于自我 亚马尔身体状况良好",
+      "source": "新京报",
+      "summary": "世界杯 | 西班牙主帅：决赛要忠于自我 亚马尔身体状况良好",
+      "url": "https://www.bjnews.com.cn/detail/1784335903129659.html",
+      "heat": 9,
+      "publishedAt": "7月18日 13:01",
+      "time": "7月18日 13:01",
+      "collectedAt": "2026-07-18T05:05:10.744Z"
+    },
+    {
+      "section": "entertainment",
       "title": "宏远速递！陈老板做重要决定，正式敲定两外援，易建联罕见发声",
       "source": "体坛黑马",
       "summary": "广东宏远的球迷这几天别死盯官微刷新了，杜锋下课的事儿早就是篮球圈公开的秘密，只是宏远到现在没发正式通告而已。",
@@ -9430,17 +9438,6 @@
       "source": "新京报",
       "summary": "世界杯｜法国主帅德尚：争第三也是一种责任",
       "url": "https://www.bjnews.com.cn/detail/1784336475129661.html",
-      "heat": 8,
-      "publishedAt": "7月18日 9:44",
-      "time": "7月18日 9:44",
-      "collectedAt": "2026-07-18T04:47:06.526Z"
-    },
-    {
-      "section": "entertainment",
-      "title": "世界杯 | 西班牙主帅：决赛要忠于自我 亚马尔身体状况良好",
-      "source": "新京报",
-      "summary": "世界杯 | 西班牙主帅：决赛要忠于自我 亚马尔身体状况良好",
-      "url": "https://www.bjnews.com.cn/detail/1784335903129659.html",
       "heat": 8,
       "publishedAt": "7月18日 9:44",
       "time": "7月18日 9:44",
