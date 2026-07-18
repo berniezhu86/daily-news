@@ -15,7 +15,12 @@
     "csl": 25
   },
   "total_final": 927,
-  "pushed_to_github": false,
+  "pushed_to_github": true,
   "target": "index.html",
-  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序"
+  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序",
+  "deploy_status": "failed",
+  "deploy_error": "远程页面缺少核心数据: mockTrackingEvents, mockStockIndices",
+  "deploy_commit": "d0bcb60",
+  "deploy_content_version": "20260719v3",
+  "checked_at": "2026-07-19 07:01"
 }
