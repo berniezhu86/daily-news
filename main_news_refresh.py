@@ -35,6 +35,17 @@ MAIN_LIMITS = {
     "csl": 30,
 }
 
+# Extra array caps (reduced from merge_news_pool.js extraN to keep index.html <800KB)
+EXTRA_LIMITS = {
+    "domestic": 80,
+    "international": 80,
+    "ai": 80,
+    "entertainment": 80,
+    "stock": 80,
+    "henan": 0,
+    "csl": 0,
+}
+
 ARRAY_MAP = {
     "domestic": ("mockHotNewsDomestic", "mockHotNewsDomesticExtra"),
     "international": ("mockHotNewsInternational", "mockHotNewsInternationalExtra"),
@@ -584,7 +595,9 @@ def write_arrays_files(pool: dict[str, list[dict]]) -> dict[str, list[str]]:
         limit = MAIN_LIMITS.get(section, 20)
         replacements[main_var] = to_js_array(main_var, items[:limit])
         if extra_var:
-            replacements[extra_var] = to_js_array(extra_var, items[limit:])
+            extra_limit = EXTRA_LIMITS.get(section, 100)
+            extra_items = items[limit:limit + extra_limit]
+            replacements[extra_var] = to_js_array(extra_var, extra_items)
 
     changed = {"generated_news_arrays.js": [], "index.html": []}
     for file in (ARRAYS_FILE, INDEX_FILE):

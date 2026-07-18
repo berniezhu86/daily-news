@@ -19,9 +19,9 @@
   "target": "index.html",
   "notes": "滚动合并到本地新闻池，等待 Codex 审核排序",
   "deploy_status": "success",
-  "deploy_commit": "cf6762b",
-  "deploy_content_version": "v20260718v2",
+  "deploy_commit": "24e7860",
+  "deploy_content_version": "v20260718v3",
   "deploy_url": "https://berniezhu86.github.io/daily-news/",
-  "deploy_verified_at": "2026-07-18 13:06",
-  "checked_at": "2026-07-18 13:06"
+  "deploy_verified_at": "2026-07-18 14:57",
+  "checked_at": "2026-07-18 14:57"
 }
