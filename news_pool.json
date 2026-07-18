@@ -1,29 +1,6 @@
 {
   "domestic": [
     {
-      "title": "外交部称APEC“中国年”下半场同样精彩，成都数字周即将举行",
-      "source": "新华社新闻",
-      "summary": "新华社7月15日报道，外交部发言人林剑在例行记者会上介绍，APEC数字周系列活动即将在四川成都举行，是APEC系列专业部长会中分量最重、安排最丰富的活动之一。中方表示，中国作为2026年APEC东道主，各领域合作扎实推进，将继续推动亚太数字和人工智能合作。",
-      "publishedAt": "2026-07-15T19:15:10+08:00",
-      "time": "2026-07-15T19:15:10+08:00",
-      "url": "https://view.inews.qq.com/a/20260715A0AG4700?scene=news-skill",
-      "badge": "hot",
-      "heat": 10,
-      "collectedAt": "2026-07-16T06:04:00+08:00",
-      "sourceRegion": "politics_top_pool",
-      "fromPoliticsTopPool": true,
-      "importanceScore": 90,
-      "authorityScore": 98,
-      "keywords": [
-        "外交部",
-        "APEC中国年",
-        "APEC数字周",
-        "成都",
-        "人工智能合作"
-      ],
-      "rank": 7
-    },
-    {
       "rank": 18,
       "title": "全国人大常委会副委员长铁凝在宁夏检查职业教育法实施",
       "source": "人民网",
@@ -45,6 +22,29 @@
         "执法检查",
         "宁夏"
       ]
+    },
+    {
+      "title": "外交部称APEC“中国年”下半场同样精彩，成都数字周即将举行",
+      "source": "新华社新闻",
+      "summary": "新华社7月15日报道，外交部发言人林剑在例行记者会上介绍，APEC数字周系列活动即将在四川成都举行，是APEC系列专业部长会中分量最重、安排最丰富的活动之一。中方表示，中国作为2026年APEC东道主，各领域合作扎实推进，将继续推动亚太数字和人工智能合作。",
+      "publishedAt": "2026-07-15T19:15:10+08:00",
+      "time": "2026-07-15T19:15:10+08:00",
+      "url": "https://view.inews.qq.com/a/20260715A0AG4700?scene=news-skill",
+      "badge": "hot",
+      "heat": 10,
+      "collectedAt": "2026-07-16T06:04:00+08:00",
+      "sourceRegion": "politics_top_pool",
+      "fromPoliticsTopPool": true,
+      "importanceScore": 90,
+      "authorityScore": 98,
+      "keywords": [
+        "外交部",
+        "APEC中国年",
+        "APEC数字周",
+        "成都",
+        "人工智能合作"
+      ],
+      "rank": 7
     },
     {
       "title": "韩正会见新西兰前总理约翰·基，推动中新全面战略伙伴关系合作",
@@ -1548,6 +1548,28 @@
     },
     {
       "section": "domestic",
+      "title": "设置备用 Mac 让 Claude Code 完全控制：分步指南",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "summary": "一篇分步指南介绍如何将备用 Mac 设置为可由 Claude Code 完全控制的常开机器，启用 computer use 功能。该方案通过 SSH 从主 Mac 连接，",
+      "url": "https://ykdojo.github.io/claude-controls-mac",
+      "heat": 8,
+      "publishedAt": "7月19日 3:37",
+      "time": "7月19日 3:37",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "SQLite Query Explainer：交互式查询计划解读工具",
+      "source": "Simon Willison 博客",
+      "summary": "Julia Evans 基于 Fable 构建了 SQLite Query Explainer，一个在浏览器中通过 Pyodide 运行 SQLite 的交互式工具。",
+      "url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer",
+      "heat": 8,
+      "publishedAt": "7月19日 1:19",
+      "time": "7月19日 1:19",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
       "title": "习近平在2026世界AI大会反对美国限制，推动开源AI",
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "summary": "习近平在上海2026世界AI大会上发表讲话，反对美国主导的AI限制措施，并倡导开源AI与全球治理。他警告，以国家安全为由的广泛主张可能让强国限制他国获取AI技术。",
@@ -1726,6 +1748,105 @@
       "publishedAt": "7月18日 8:24",
       "time": "7月18日 8:24",
       "collectedAt": "2026-07-18T10:56:28.264Z"
+    },
+    {
+      "section": "domestic",
+      "title": "K3 可作为教师模型训练更小稠密模型",
+      "source": "X：Emad Mostaque (@EMostaque)",
+      "summary": "K3 可作为教师模型（含 logits）训练更小稠密模型，甚至可用于生成万亿 token 的完整预训练和后训练数据集以训练更优模型。引用推文指出，K3 是专为递归迭代构建的出色基座，",
+      "url": "https://x.com/EMostaque/status/2078517620509233232",
+      "heat": 7,
+      "publishedAt": "7月19日 0:29",
+      "time": "7月19日 0:29",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "商汤发布原生多模态旗舰模型SenseNova U1 Pro",
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "summary": "商汤发布旗舰原生多模态基础模型SenseNova U1 Pro，基于NEO-Unify架构，统一理解、生成与行动能力，并支持原生交织视觉-语言推理。相比U1 Lite，",
+      "url": "https://x.com/SenseTime_AI/status/2078510614889238997",
+      "heat": 7,
+      "publishedAt": "7月19日 0:02",
+      "time": "7月19日 0:02",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Gemini Live 登陆网页版，Skills 功能升级",
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "summary": "Google 正为 Gemini 网页版准备 Gemini Live 功能，桌面端也已进入可信测试阶段。此外，普通聊天中可能开放 Skills 功能，并迎来 Gemini Flash 3.6 升级。",
+      "url": "https://x.com/testingcatalog/status/2078486709604434250",
+      "heat": 7,
+      "publishedAt": "7月18日 22:27",
+      "time": "7月18日 22:27",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Claude 写了个二手 Mac 验机工具",
+      "source": "X：Berry Xia (@berryxia)",
+      "summary": "开发者用 Claude 生成了一款 Swift 原生 Mac 验机工具 MacCheck，专为二手 Mac 交易场景设计。该工具可自动读取硬件规格，支持交互测试与报告导出，",
+      "url": "https://x.com/berryxia/status/2078484123459731640",
+      "heat": 7,
+      "publishedAt": "7月18日 22:16",
+      "time": "7月18日 22:16",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "图表展示：AI 对 Stack Overflow 的影响",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "summary": "一张来自 data.stackexchange.com 的图表展示了 AI 对 Stack Overflow 的影响。该图表数据在 Hacker News 上获得 102 个点赞，",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1953768",
+      "heat": 7,
+      "publishedAt": "7月18日 21:29",
+      "time": "7月18日 21:29",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "高文院士 WAIC 2026 发言：中国算力网第一阶段已完成 70%，全面落地或需二十年",
+      "source": "IT之家（RSS）",
+      "summary": "中国工程院院士高文在 WAIC 2026 上表示，中国算力网第一阶段\"算力资源汇聚\"已完成 70%，全国约七成智能算力已纳入统一数据库。第二阶段\"算力任务可调度\"预计还需五年推进，",
+      "url": "https://www.ithome.com/0/978/576.htm",
+      "heat": 7,
+      "publishedAt": "7月18日 20:35",
+      "time": "7月18日 20:35",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "可灵AI大赛获奖作品《三峡》诗意呈现水下175米故乡",
+      "source": "X：可灵 Kling AI (@Kling_ai)",
+      "summary": "他的家位于水下175米深处🌫️ 探索杨邹与王艺辉的《三峡：归不去的故乡》--一段穿越记忆、梦境与归属的诗意旅程。祝贺荣获可灵AI NEXTGEN 2026校园AIGC创作大赛巅峰奖！",
+      "url": "https://x.com/Kling_ai/status/2078449710432444669",
+      "heat": 7,
+      "publishedAt": "7月18日 20:00",
+      "time": "7月18日 20:00",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "网易有道 OpenPods 亮相 WAIC：国内首款苹果 MFi 认证开放式 AI 耳机，耳机盒可独立录音翻译",
+      "source": "IT之家（RSS）",
+      "summary": "网易有道在 WAIC 展出国内首款苹果 MFi 认证开放式 AI 耳机 OpenPods，支持十余种语种实时互译与同传，录音转写准确率达 98%，可自动生成结构化纪要与思维导图。",
+      "url": "https://www.ithome.com/0/978/567.htm",
+      "heat": 7,
+      "publishedAt": "7月18日 19:22",
+      "time": "7月18日 19:22",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "蓝思智能与上纬新材合作建万台级产线，全球首个可变形个人机器人启元 T1 量产",
+      "source": "IT之家（RSS）",
+      "summary": "蓝思智能与上纬新材签约，首期规划万台级机器人产线合作。双方将围绕启元 Q1 人形个人机器人和启元 T1 可变形个人机器人开展精密零部件加工、关节模组生产及整机组装。",
+      "url": "https://www.ithome.com/0/978/566.htm",
+      "heat": 7,
+      "publishedAt": "7月18日 19:18",
+      "time": "7月18日 19:18",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
     },
     {
       "section": "domestic",
@@ -2107,12 +2228,78 @@
       "section": "domestic",
       "title": "PixVerse V6与C1生成效果惊艳",
       "source": "X：PixVerse (@PixVerse_)",
-      "summary": "【引用 @applete77191758】：借用了Zeto的提示词，也用Pixverse生成了一下。成本约为Seedance2.",
+      "summary": "【引用 @applete77191758】：借用了Zeto的提示词，也用Pixverse生成了一下。成本约为Seedance2.0的三分之一，我认为已经足够漂亮了🙌✨ @PixVerse_ #pixverse #PixVerseCPP",
       "url": "https://x.com/PixVerse_/status/2078398870782914692",
-      "heat": 9,
+      "heat": 6,
       "publishedAt": "7月18日 16:38",
       "time": "7月18日 16:38",
-      "collectedAt": "2026-07-18T10:56:28.264Z"
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Codex 团队推文揭示AI写代码现状",
+      "source": "X：宝玉 (@dotey)",
+      "summary": "如果你惊讶于为什么 Codex 一天能发布几个版本，从这条 Codex 团队成员的推文你大概可以看出，现在绝大部分具体代码已经都是 Codex 在实现了。我的体验也差不多，日常开发更多变成了产品经理和 QA 的角色：定义功能+验证结果。",
+      "url": "https://x.com/dotey/status/2078382113171091735",
+      "heat": 6,
+      "publishedAt": "7月18日 15:31",
+      "time": "7月18日 15:31",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "防 AI 爬取字体 Decoy Font 问世，灵感源于玛丽莲·梦露和爱因斯坦混合照",
+      "source": "IT之家（RSS）",
+      "summary": "Mixfont 于 7 月 15 日推出 TTF 格式的 Decoy Font 字体，通过叠加两层不同空间频率信息，让 AI 无法正确读取文字。该字体基于混合图像技术，将真实字母隐藏在诱饵字母之后，利用 AI 依赖近距离像素信息而人眼在稍远距离更易识别隐藏信息的差异，防止文字被 AI 爬取。",
+      "url": "https://www.ithome.com/0/978/461.htm",
+      "heat": 6,
+      "publishedAt": "7月18日 14:29",
+      "time": "7月18日 14:29",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Claude 将 Fable 5 永久纳入订阅计划",
+      "source": "Simon Willison 博客",
+      "summary": "自 7 月 20 日起，Claude Fable 5 将永久包含在 Max 和 Team Premium 订阅计划中，但使用额度限制为原有限额的 50%。Pro 和 Team Standard 用户仍可通过使用额度访问 Fable，并将获得一次性 100 美元额度。",
+      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent",
+      "heat": 6,
+      "publishedAt": "7月18日 14:00",
+      "time": "7月18日 14:00",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Kimi 3 3D生成惊艳演示，效果绝佳",
+      "source": "X：Berry Xia (@berryxia)",
+      "summary": "Berry Xia 发布多个 Demo，展示 Kimi 3 在 3D 生成方面的惊艳效果，认为\"真的很绝\"。具体模型版本、参数规模、benchmark 分数等数字未在推文中提及。",
+      "url": "https://x.com/berryxia/status/2078428187768553902",
+      "heat": 6,
+      "publishedAt": "7月18日 18:34",
+      "time": "7月18日 18:34",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "美国AI token价格是开源对手的50倍",
+      "source": "X：Emad Mostaque (@EMostaque)",
+      "summary": "Emad Mostaque指出，若美国关闭开源大门，美国公司需为每百万token支付26-56美元，而全球竞争对手仅需0.50-1美元。这种成本差距在经济和军事上均不可持续，",
+      "url": "https://x.com/EMostaque/status/2078419430338400670",
+      "heat": 6,
+      "publishedAt": "7月18日 17:59",
+      "time": "7月18日 17:59",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
+    },
+    {
+      "section": "domestic",
+      "title": "After Labs 走出隐身模式，获 NFAI 300 万欧元资助",
+      "source": "X：Francois Chollet (@fchollet)",
+      "summary": "After Labs 正式走出隐身模式，致力于开发具备内置自适应机制、能实时高效学习的新一代模型，而非依赖当前主流的暴力 RL 训练。该实验室已入选 NFAI 十大 AI 实验室之一，",
+      "url": "https://x.com/fchollet/status/2078256981480182250",
+      "heat": 6,
+      "publishedAt": "7月18日 7:14",
+      "time": "7月18日 7:14",
+      "collectedAt": "2026-07-18T22:56:27.844Z"
     },
     {
       "section": "domestic",
@@ -2437,218 +2624,6 @@
       "time": "7月16日 19:44",
       "collectedAt": "2026-07-16T22:55:51.297Z",
       "rank": 149
-    },
-    {
-      "section": "domestic",
-      "title": "Codex 团队推文揭示AI写代码现状",
-      "source": "X：宝玉 (@dotey)",
-      "summary": "如果你惊讶于为什么 Codex 一天能发布几个版本，从这条 Codex 团队成员的推文你大概可以看出，现在绝大部分具体代码已经都是 Codex 在实现了。",
-      "url": "https://x.com/dotey/status/2078382113171091735",
-      "heat": 8,
-      "publishedAt": "7月18日 15:31",
-      "time": "7月18日 15:31",
-      "collectedAt": "2026-07-18T10:56:28.264Z"
-    },
-    {
-      "section": "domestic",
-      "title": "防 AI 爬取字体 Decoy Font 问世，灵感源于玛丽莲·梦露和爱因斯坦混合照",
-      "source": "IT之家（RSS）",
-      "summary": "Mixfont 于 7 月 15 日推出 TTF 格式的 Decoy Font 字体，通过叠加两层不同空间频率信息，让 AI 无法正确读取文字。",
-      "url": "https://www.ithome.com/0/978/461.htm",
-      "heat": 8,
-      "publishedAt": "7月18日 14:29",
-      "time": "7月18日 14:29",
-      "collectedAt": "2026-07-18T10:56:28.264Z"
-    },
-    {
-      "section": "domestic",
-      "title": "Claude 将 Fable 5 永久纳入订阅计划",
-      "source": "Simon Willison 博客",
-      "summary": "自 7 月 20 日起，Claude Fable 5 将永久包含在 Max 和 Team Premium 订阅计划中，但使用额度限制为原有限额的 50%。",
-      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent",
-      "heat": 8,
-      "publishedAt": "7月18日 14:00",
-      "time": "7月18日 14:00",
-      "collectedAt": "2026-07-18T10:56:28.264Z"
-    },
-    {
-      "section": "domestic",
-      "title": "19世纪《博物学家图书馆》1300幅精美插画经AI修复后上线",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "summary": "设计师Nicholas Rougeux完成了对19世纪《博物学家图书馆》40余卷、1300余幅彩色插画的修复与数字化，并免费上线。修复过程中使用了AI工具来挖掘资料来源、填补视觉空白以及构思封面方案。",
-      "url": "https://www.openculture.com/2026/07/explore-1300-beautiful-wildlife-illustrations-from-the-19th-century.html",
-      "heat": 4,
-      "publishedAt": "7月16日 18:16",
-      "time": "7月16日 18:16",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 150
-    },
-    {
-      "section": "domestic",
-      "title": "因谷歌与美国国防部达成AI合作，DeepMind研究员Alex Turner辞职",
-      "source": "IT之家（RSS）",
-      "summary": "谷歌DeepMind研究科学家Alex Turner因公司与美国国防部签署AI合作协议，于今年6月辞职。Turner曾提出军事AI应用框架，要求确保人类控制目标识别与打击系统，但未获采纳。",
-      "url": "https://www.ithome.com/0/977/627.htm",
-      "heat": 4,
-      "publishedAt": "7月16日 17:33",
-      "time": "7月16日 17:33",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 151
-    },
-    {
-      "section": "domestic",
-      "title": "Google DeepMind 与 Isomorphic Labs 公布生物弹性联合方案：用 AI 预防、检测和应对疫情",
-      "source": "Google DeepMind：Blog（RSS）",
-      "summary": "Google DeepMind 与 Isomorphic Labs 公布生物弹性联合方案，通过防止模型滥用、利用 AlphaFold 和 IsoDDE 等技术加速疫苗与药物设计，以及借助 Alp...",
-      "url": "https://deepmind.google/blog/our-approach-to-bioresilience",
-      "heat": 4,
-      "publishedAt": "7月16日 17:30",
-      "time": "7月16日 17:30",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 152
-    },
-    {
-      "section": "domestic",
-      "title": "靳玉志梳理华为乾崑合作模式，主分全栈和部件两大路线",
-      "source": "IT之家（RSS）",
-      "summary": "华为智能汽车解决方案BU CEO靳玉志在2026华为乾崑媒体日上梳理了合作模式。华为乾崑合作车型已达50款，搭载乾崑智驾的车辆超过190万辆，合作模式主分全栈和部件两大路线，覆盖鸿蒙智行、阿维塔...",
-      "url": "https://www.ithome.com/0/977/608.htm",
-      "heat": 4,
-      "publishedAt": "7月16日 17:17",
-      "time": "7月16日 17:17",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 153
-    },
-    {
-      "section": "domestic",
-      "title": "华为靳玉志：L3 与 L4 规模商用预计 2027 年、2028 年实现",
-      "source": "IT之家（RSS）",
-      "summary": "华为靳玉志预计，L3 规模商用将在 2027 年实现，L4 2B（Robotaxi 部分城市试点）与 L4 2C（低速 L4 部分城市商用）同年开启；2028 年 Robotaxi 或迎来部分城...",
-      "url": "https://www.ithome.com/0/977/584.htm",
-      "heat": 4,
-      "publishedAt": "7月16日 16:53",
-      "time": "7月16日 16:53",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 154
-    },
-    {
-      "section": "domestic",
-      "title": "华为乾崑发布2026上半年安全出行报告：辅助驾驶活跃用户占比97.5%",
-      "source": "IT之家（RSS）",
-      "summary": "华为乾崑2026上半年安全出行报告显示，累计辅助驾驶里程达123.5亿公里，半年度辅助驾驶活跃用户数占比97.5%。半年度车位到车位使用次数超5441万，同比增长760%；半年度辅助泊车次数3....",
-      "url": "https://www.ithome.com/0/977/557.htm",
-      "heat": 4,
-      "publishedAt": "7月16日 16:09",
-      "time": "7月16日 16:09",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 155
-    },
-    {
-      "section": "domestic",
-      "title": "Puter Labs 上线 Firefox in WebAssembly 实验项目，可在 Chrome 中运行完整火狐浏览器",
-      "source": "IT之家（RSS）",
-      "summary": "Puter Labs 上线 Firefox in WebAssembly 实验项目，将完整的 Gecko 内核编译为 Wasm，可在 Chrome 浏览器中启动完整火狐浏览器。",
-      "url": "https://www.ithome.com/0/977/534.htm",
-      "heat": 4,
-      "publishedAt": "7月16日 15:45",
-      "time": "7月16日 15:45",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 156
-    },
-    {
-      "section": "domestic",
-      "title": "Patter SDK 教程：构建餐厅预订电话智能体，支持动态变量、护栏、延迟仪表盘与评估检查",
-      "source": "MarkTechPost（RSS）",
-      "summary": "Patter SDK 发布教程，演示如何构建一个餐厅预订场景的语音智能体工作流。该流程支持动态调用变量、注册可调用工具、应用输出护栏（如PII脱敏、脏话过滤、话题范围限制），并可在无需实时电话凭...",
-      "url": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks",
-      "heat": 4,
-      "publishedAt": "7月16日 15:42",
-      "time": "7月16日 15:42",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 157
-    },
-    {
-      "section": "domestic",
-      "title": "华为乾崑智驾 ADS 5 公布 OTA 年度计划，首个版本推送",
-      "source": "IT之家（RSS）",
-      "summary": "华为在 2026 乾崑媒体日上公布了乾崑智驾 ADS 5 的 OTA 年度计划。2026.7 版本（ADS V5.0）将新增后向主动防被撞辅助、随时随地 NCA 等功能；后续版本计划在 2026...",
-      "url": "https://www.ithome.com/0/977/515.htm",
-      "heat": 4,
-      "publishedAt": "7月16日 15:08",
-      "time": "7月16日 15:08",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 158
-    },
-    {
-      "section": "domestic",
-      "title": "AI 聊天 5 分钟耗一瓶水，全产业链用水量超三峡水库防洪库容",
-      "source": "IT之家（RSS）",
-      "summary": "央视网《此刻中国》节目指出，跟 AI 聊天 5 分钟消耗 1 瓶水，AI 全产业链 1 秒用掉 150 万瓶矿泉水。2025 年全年 AI 产业用水量达 237 亿立方米，略高于三峡水库的防洪库容。",
-      "url": "https://www.ithome.com/0/977/461.htm",
-      "heat": 4,
-      "publishedAt": "7月16日 12:56",
-      "time": "7月16日 12:56",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 159
-    },
-    {
-      "section": "domestic",
-      "title": "百度文库、网盘升级 GenFlow，7 月底内测面向金融等行业推出独立客户端",
-      "source": "IT之家（RSS）",
-      "summary": "百度文库与网盘将于7月底启动重大升级，面向金融、教育、办公等专业从业者推出独立网页端和客户端。核心升级是再次升级 GenFlow，初步为金融行业人士提供深度研究、财务模型制作、AI 会议助理及云...",
-      "url": "https://www.ithome.com/0/977/460.htm",
-      "heat": 4,
-      "publishedAt": "7月16日 12:56",
-      "time": "7月16日 12:56",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 160
-    },
-    {
-      "section": "domestic",
-      "title": "小米发布具身基座模型 Xiaomi-Robotics-1，基于 10 万小时数据实现\"开箱即用\"",
-      "source": "IT之家（RSS）",
-      "summary": "小米技术发布具身基座模型 Xiaomi-Robotics-1，基于 10 万小时真实世界操作数据预训练，结合约 10000 小时跨本体后训练，实现根据自然语言指令直接执行移动操作任务。在 Rob...",
-      "url": "https://www.ithome.com/0/977/453.htm",
-      "heat": 4,
-      "publishedAt": "7月16日 12:00",
-      "time": "7月16日 12:00",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 161
-    },
-    {
-      "section": "domestic",
-      "title": "小米语音首席科学家 Daniel Povey 当选 2026 ISCA Fellow",
-      "source": "IT之家（RSS）",
-      "summary": "小米语音首席科学家 Daniel Povey 当选 2026 ISCA Fellow，全球仅 100 余人获此殊荣。他因在语音识别声学建模、序列训练创新方法及开源工具 Kaldi 的贡献入选，是...",
-      "url": "https://www.ithome.com/0/977/452.htm",
-      "heat": 4,
-      "publishedAt": "7月16日 11:59",
-      "time": "7月16日 11:59",
-      "collectedAt": "2026-07-16T22:55:51.297Z",
-      "rank": 162
-    },
-    {
-      "rank": 163,
-      "title": "国家发改委安排3000万元中央预算内投资，支持吉林灾后应急恢复",
-      "source": "新京报",
-      "summary": "新京报据国家发展改革委7月15日消息，针对台风“巴威”及强降雨对吉林造成的严重影响，国家发改委紧急安排中央预算内投资3000万元，支持受损道路、水利、学校、医院等基础设施和公共服务设施应急恢复。",
-      "badge": "hot",
-      "heat": 4,
-      "publishedAt": "2026-07-15T15:16:07+08:00",
-      "time": "2026-07-15T15:16:07+08:00",
-      "url": "https://view.inews.qq.com/a/20260715A07I1G00?scene=news-skill",
-      "collectedAt": "2026-07-15T18:04:00+08:00",
-      "sourceRegion": "politics_top_pool",
-      "fromPoliticsTopPool": true,
-      "authorityScore": 86,
-      "importanceScore": 88,
-      "keywords": [
-        "国家发展改革委",
-        "中央预算内投资",
-        "吉林灾后恢复",
-        "台风巴威",
-        "防汛救灾"
-      ]
     }
   ],
   "international": [
@@ -6840,6 +6815,39 @@
     },
     {
       "section": "ai",
+      "title": "开源工具ProofAgent-Harness评估AI智能体上下文可靠性",
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "summary": "DAIR.AI推出开源评估工具ProofAgent-Harness，通过七项标准（角色清晰度、护栏覆盖、指令一致性、工具架构质量、基础充分性、注入防护、token效率）对智能体上下文质量进行多…",
+      "url": "https://x.com/omarsar0/status/2078585861315432645",
+      "heat": 9,
+      "publishedAt": "7月19日 5:01",
+      "time": "7月19日 5:01",
+      "collectedAt": "2026-07-18T22:56:28.126Z"
+    },
+    {
+      "section": "ai",
+      "title": "Dave Eggers 对 OpenAI 员工称 ChatGPT 对教育工作者影响\"灾难性\"",
+      "source": "The Verge：AI（RSS）",
+      "summary": "作家 Dave Eggers 去年应 Sam Altman 邀请，向约 200 名 OpenAI 员工发表演讲。他称 ChatGPT 对教育工作者的影响是\"灾难性的\"，",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "heat": 9,
+      "publishedAt": "7月19日 4:54",
+      "time": "7月19日 4:54",
+      "collectedAt": "2026-07-18T22:56:28.126Z"
+    },
+    {
+      "section": "ai",
+      "title": "DAIR.AI 发布 X 智能体技能：自动追踪 AI 前沿动态",
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "summary": "DAIR.AI 创始人 Elvis Saravia 发布了一款名为\"x-agent-intelligence\"的 AI 智能体技能，可自动追踪 X 平台高信号账号的 AI 新闻、论文和项目。",
+      "url": "https://x.com/omarsar0/status/2078573267015885136",
+      "heat": 9,
+      "publishedAt": "7月19日 4:10",
+      "time": "7月19日 4:10",
+      "collectedAt": "2026-07-18T22:56:28.126Z"
+    },
+    {
+      "section": "ai",
       "title": "支付宝与阶跃达成系统级合作，AI版\"阿宝\"首期接入点外卖、出行等高频服务",
       "source": "IT之家（RSS）",
       "summary": "支付宝与阶跃达成系统级合作，AI版\"阿宝\"与阶跃大模型及原生AI终端实现跨端互联，用户一句话即可跨应用执行多任务。合作首期已接入点外卖、出行、本地生活等高频日常服务。",
@@ -7586,42 +7594,6 @@
       "time": "7月16日 10:59",
       "collectedAt": "2026-07-16T04:56:16.619Z",
       "rank": 175
-    },
-    {
-      "section": "ai",
-      "title": "国地中心联合华为打造国内首个具身智能实训场样板点，机器人ETF华夏震荡上行",
-      "source": "每日经济新闻",
-      "summary": "肖芮冬截至10:46，机器人ETF华夏（562500）上涨0.57%，最新价报1.05元。成分股埃斯顿上涨4.96%，科沃斯上涨4.23%，鸣志电器上涨3.61%，晶品特装上涨3.50%，机器人上涨3.05%。",
-      "url": "https://view.inews.qq.com/a/20260716A04JD300?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月16日 10:58",
-      "time": "7月16日 10:58",
-      "collectedAt": "2026-07-16T04:56:16.619Z",
-      "rank": 176
-    },
-    {
-      "section": "ai",
-      "title": "5张图看懂中国人工智能进化之路",
-      "source": "澎湃新闻",
-      "summary": "2026世界人工智能大会进入倒计时，上海再次成为观察全球AI发展的重要窗口。过去几年，全球AI产业经历了一轮由大模型点燃的狂飙：资本涌入、模型迭代、算力竞赛、应用爆发，AI公司估值不断刷新。",
-      "url": "https://view.inews.qq.com/a/20260715A0A5C600?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月16日 10:25",
-      "time": "7月16日 10:25",
-      "collectedAt": "2026-07-16T04:56:16.619Z",
-      "rank": 177
-    },
-    {
-      "section": "ai",
-      "title": "何恺明参与：谷歌DeepMind将视频生成模型变通用视觉智能",
-      "source": "AIGC开放社区",
-      "summary": "专注AIGC技术的专业社区，关注大语言模型（LLM）的发展和应用落地，聚焦LLM及AI技术的市场研究和开发者生态，欢迎关注！AI视觉模型，正在从专用模型原生统一，转变成视觉通用智能。",
-      "url": "https://view.inews.qq.com/a/20260716A03Y4R00?scene=news-skill",
-      "heat": 8,
-      "publishedAt": "7月16日 10:13",
-      "time": "7月16日 10:13",
-      "collectedAt": "2026-07-16T04:56:16.619Z",
-      "rank": 178
     }
   ],
   "entertainment": [
@@ -8588,6 +8560,17 @@
     },
     {
       "section": "entertainment",
+      "title": "英特尔前 CEO 盖尔辛格承认当年看不上英伟达 GPU",
+      "source": "IT之家（RSS）",
+      "summary": "英特尔前 CEO 帕特·盖尔辛格在 All-In Podcast 中承认，英特尔主导行业时曾对英伟达 GPU 不屑一顾，认为那只是游戏发烧友用的产品。他批评公司在他回归前五六年向股东发放了 1000 亿美元股息，而非投入制造业务。",
+      "url": "https://www.ithome.com/0/978/364.htm",
+      "heat": 6,
+      "publishedAt": "7月18日 10:22",
+      "time": "7月18日 10:22",
+      "collectedAt": "2026-07-18T22:56:28.330Z"
+    },
+    {
+      "section": "entertainment",
       "title": "乒乓球全锦赛：王楚钦/孙颖莎晋级混双四强",
       "source": "新京报",
       "summary": "乒乓球全锦赛：王楚钦/孙颖莎晋级混双四强。乒乓球全锦赛：王楚钦/孙颖莎晋级混双四强引发广泛关注，相关讨论持续升温。该事件引发广泛讨论。",
@@ -9074,17 +9057,6 @@
     },
     {
       "section": "entertainment",
-      "title": "英特尔前 CEO 盖尔辛格承认当年看不上英伟达 GPU",
-      "source": "IT之家（RSS）",
-      "summary": "英特尔前 CEO 帕特·盖尔辛格在 All-In Podcast 中承认，英特尔主导行业时曾对英伟达 GPU 不屑一顾，认为那只是游戏发烧友用的产品。",
-      "url": "https://www.ithome.com/0/978/364.htm",
-      "heat": 7,
-      "publishedAt": "7月18日 10:22",
-      "time": "7月18日 10:22",
-      "collectedAt": "2026-07-18T10:56:28.822Z"
-    },
-    {
-      "section": "entertainment",
       "title": "Viggle 推出自研文本转动作模型",
       "source": "X：Viggle AI (@ViggleAI)",
       "summary": "介绍我们内部自研的全新文本转动作模型，现已上线 @Viggle_PINOC！输入动作描述，即可生成动画，该技术进展正在推动人工智能行业加速发展。",
@@ -9229,6 +9201,28 @@
     },
     {
       "section": "entertainment",
+      "title": "乒乓球全锦赛：王楚钦/孙颖莎不敌袁励岑/王艺迪 ，止步半决赛",
+      "source": "新京报",
+      "summary": "乒乓球全锦赛：王楚钦/孙颖莎不敌袁励岑/王艺迪 ，止步半决赛",
+      "url": "https://www.bjnews.com.cn/detail/1784384604129045.html",
+      "heat": 9,
+      "publishedAt": "7月19日 5:55",
+      "time": "7月19日 5:55",
+      "collectedAt": "2026-07-18T22:56:28.330Z"
+    },
+    {
+      "section": "entertainment",
+      "title": "受特朗普邀请，墨西哥总统将赴美观看世界杯决赛",
+      "source": "新京报",
+      "summary": "受特朗普邀请，墨西哥总统将赴美观看世界杯决赛",
+      "url": "https://www.bjnews.com.cn/detail/1784377863129982.html",
+      "heat": 9,
+      "publishedAt": "7月19日 5:55",
+      "time": "7月19日 5:55",
+      "collectedAt": "2026-07-18T22:56:28.330Z"
+    },
+    {
+      "section": "entertainment",
       "title": "宏远速递！陈老板做重要决定，正式敲定两外援，易建联罕见发声",
       "source": "体坛黑马",
       "summary": "广东宏远的球迷这几天别死盯官微刷新了，杜锋下课的事儿早就是篮球圈公开的秘密，只是宏远到现在没发正式通告而已。",
@@ -9277,6 +9271,17 @@
     },
     {
       "section": "entertainment",
+      "title": "PixVerse 新片：梅西最后一届世界杯与亚马尔首秀",
+      "source": "X：PixVerse (@PixVerse_)",
+      "summary": "我们拍摄了一部关于一代人退场、下一代人走向聚光灯下的影片。梅西的最后一届世界杯。",
+      "url": "https://x.com/PixVerse_/status/2078504770424414336",
+      "heat": 7,
+      "publishedAt": "7月18日 23:38",
+      "time": "7月18日 23:38",
+      "collectedAt": "2026-07-18T22:56:28.330Z"
+    },
+    {
+      "section": "entertainment",
       "title": "《孤岛惊魂》真人剧曝首批阵容 《大西洋帝国》男星加盟",
       "source": "黑色玫瑰",
       "summary": "育碧和FX电视台公布了《孤岛惊魂》游戏改编真人剧集首批阵容，《大西洋帝国》男星史蒂夫·布西密加盟。",
@@ -9286,6 +9291,17 @@
       "time": "7月16日 15:26",
       "collectedAt": "2026-07-16T10:56:09.094Z",
       "rank": 95
+    },
+    {
+      "section": "entertainment",
+      "title": "乒乓球全锦赛：马龙/许昕晋级男双4强",
+      "source": "新京报",
+      "summary": "乒乓球全锦赛：马龙/许昕晋级男双4强",
+      "url": "https://www.bjnews.com.cn/detail/1784372500129940.html",
+      "heat": 9,
+      "publishedAt": "7月19日 5:55",
+      "time": "7月19日 5:55",
+      "collectedAt": "2026-07-18T22:56:28.330Z"
     }
   ],
   "stock": [
@@ -11121,6 +11137,28 @@
     },
     {
       "section": "stock",
+      "title": "英伟达 N1X 首个 Cinebench 2026 跑分曝光：微软 Surface Ultra 工程样机单核成绩接近苹果 M3 Max",
+      "source": "IT之家（RSS）",
+      "summary": "英伟达 N1X 芯片在 Surface Ultra 工程样机上的 Cinebench 2026 跑分曝光，单核 540 分、多核 5771 分，单核性能据称与苹果 M3 Max 相当。",
+      "url": "https://www.ithome.com/0/978/600.htm",
+      "heat": 7,
+      "publishedAt": "7月18日 23:36",
+      "time": "7月18日 23:36",
+      "collectedAt": "2026-07-18T22:56:28.400Z"
+    },
+    {
+      "section": "stock",
+      "title": "摩尔线程联合创始人王东：推理市场没有\"万能芯片\"，而是解决方案的组合",
+      "source": "IT之家（RSS）",
+      "summary": "摩尔线程联合创始人王东指出，推理市场不存在\"万能芯片\"，而是需要软硬协同的解决方案组合。该公司旗舰产品MTT S5000已实现规模量产，单卡AI算力最高达1000 TFLOPS，配备80GB显存。",
+      "url": "https://www.ithome.com/0/978/597.htm",
+      "heat": 7,
+      "publishedAt": "7月18日 23:06",
+      "time": "7月18日 23:06",
+      "collectedAt": "2026-07-18T22:56:28.400Z"
+    },
+    {
+      "section": "stock",
       "title": "博通2028年转单乐高，替代台积电制造AI芯片",
       "source": "X：SemiAnalysis (@SemiAnalysis_)",
       "summary": "博通宣布2028年起将旗舰超大规模ASIC产品制造从台积电转向乐高。博通半导体总裁已在巴黎RAISE峰会展出封装样品。。博通2028年转单乐高，替代台积电制造AI芯片引发广泛关注，相关讨论持续升温。",
@@ -11151,6 +11189,17 @@
       "publishedAt": "7月17日 19:12",
       "time": "7月17日 19:12",
       "collectedAt": "2026-07-18T10:56:28.884Z"
+    },
+    {
+      "section": "stock",
+      "title": "RoboSense 发布第二代全固态数字化激光雷达 E2，可无缝嵌入机器人头部、腕部",
+      "source": "IT之家（RSS）",
+      "summary": "RoboSense 速腾聚创发布第二代全固态数字化激光雷达 E2，基于自研超大面阵 SPAD-SoC\"孔雀\"芯片打造。E2 整机体积缩小 60%、重量减少 40%，",
+      "url": "https://www.ithome.com/0/978/546.htm",
+      "heat": 6,
+      "publishedAt": "7月18日 18:07",
+      "time": "7月18日 18:07",
+      "collectedAt": "2026-07-18T22:56:28.400Z"
     },
     {
       "section": "stock",
