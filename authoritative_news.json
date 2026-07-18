@@ -1,8 +1,14 @@
 {
-  "updated": "2026-07-19T02:51:40.641981+08:00",
-  "updated_display": "07月19日 02:51",
+  "updated": "2026-07-19T05:41:14.474743+08:00",
+  "updated_display": "07月19日 05:41",
   "count": 10,
   "news": [
+    {
+      "title": "匈牙利总统签署宪法修正案 其任期即将终止",
+      "url": "https://www.news.cn/world/20260719/1b55748f93204fa88074524df9324e69/c.html",
+      "source": "新华社",
+      "date": "2026-07-19"
+    },
     {
       "title": "携手推动人工智能向上向善造福人类——习近平主席重要讲话为加强全球人工智能治理贡献中国智慧",
       "url": "https://www.news.cn/politics/leaders/20260718/de20b8f3f6204db1b6e793d8d4bb45a5/c.html",
@@ -54,12 +60,6 @@
     {
       "title": "习近平对重庆彭水县山体崩塌作出重要指示",
       "url": "https://www.news.cn/politics/leaders/20260717/a3ddf774d4f84ed1b1644bdbc71ccd1c/c.html",
-      "source": "新华社",
-      "date": "2026-07-17"
-    },
-    {
-      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话",
-      "url": "https://www.news.cn/politics/leaders/20260717/9829b3f5f30545d794e486c5c43a134d/c.html",
       "source": "新华社",
       "date": "2026-07-17"
     }
