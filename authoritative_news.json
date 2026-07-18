@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-18T12:58:26.372912+08:00",
-  "updated_display": "07月18日 12:58",
-  "count": 9,
+  "updated": "2026-07-18T14:55:41.865064+08:00",
+  "updated_display": "07月18日 14:55",
+  "count": 11,
   "news": [
     {
       "title": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记",
@@ -13,6 +13,12 @@
       "title": "近镜头｜读懂习近平主席的人工智能“千里马”之喻",
       "url": "https://www.news.cn/politics/leaders/20260718/adb414efd0294715bc17f7eb849bf469/c.html",
       "source": "新华社",
+      "date": "2026-07-18"
+    },
+    {
+      "title": "人工智能发展带来时代之问,习近平这样作答",
+      "url": "http://politics.people.com.cn/n1/2026/0718/c461001-40763309.html",
+      "source": "人民日报",
       "date": "2026-07-18"
     },
     {
@@ -46,15 +52,21 @@
       "date": "2026-07-17"
     },
     {
+      "title": "习近平总书记在上海考察纪实",
+      "url": "https://www.news.cn/politics/leaders/20260716/4f303eb41db549b29344f6080f980abb/c.html",
+      "source": "新华社",
+      "date": "2026-07-16"
+    },
+    {
       "title": "俄一物流中心遭无人机袭击 至少7人死亡24人受伤",
       "url": "https://www.news.cn/world/20260718/3379d8b13ad44fa0aebb213ff67a3584/c.html",
       "source": "新华社",
       "date": "2026-07-18"
     },
     {
-      "title": "委内瑞拉地震死亡人数升至5069人",
-      "url": "https://www.news.cn/world/20260718/28e1f8174900422b85eaaec00c3f53b1/c.html",
-      "source": "新华社",
+      "title": "新疆克孜勒苏州阿克陶县发生4.3级地震 震源深度10千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
       "date": "2026-07-18"
     }
   ]
