@@ -1,26 +1,21 @@
 {
-  "updated_at": "2026-07-19 06:56",
+  "updated_at": "2026-07-19 12:56",
   "status": "success",
-  "pulled": 195,
-  "added_net": 7,
-  "deduped": 79,
-  "trimmed": 109,
+  "pulled": 222,
+  "added_net": 21,
+  "deduped": 103,
+  "trimmed": 97,
   "sections": {
     "domestic": 200,
     "international": 200,
     "ai": 200,
-    "entertainment": 143,
-    "stock": 158,
-    "henan": 1,
-    "csl": 25
+    "entertainment": 138,
+    "stock": 149,
+    "henan": 11,
+    "csl": 33
   },
-  "total_final": 927,
-  "pushed_to_github": true,
+  "total_final": 931,
+  "pushed_to_github": false,
   "target": "index.html",
-  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序",
-  "deploy_status": "failed",
-  "deploy_error": "远程页面缺少核心数据: mockTrackingEvents, mockStockIndices",
-  "deploy_commit": "d0bcb60",
-  "deploy_content_version": "20260719v3",
-  "checked_at": "2026-07-19 07:01"
+  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序"
 }
