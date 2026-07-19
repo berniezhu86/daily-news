@@ -17,6 +17,7 @@ const path = require('path');
 
 const REPO_DIR = __dirname;
 const INDEX_HTML = path.join(REPO_DIR, 'index.html');
+const ARRAYS_JS = path.join(REPO_DIR, 'generated_news_arrays.js');
 const NEWS_JSON = path.join(REPO_DIR, 'news_data.json');
 
 // ============================================================
@@ -255,6 +256,69 @@ function updateVersion(content) {
 }
 
 // ============================================================
+// 将数组注入 index.html 的 <script> 块中
+// ============================================================
+function insertArrayIntoScript(content, arrayName, newCode) {
+  // 查找 <script> 标签
+  const scriptMatch = content.match(/<script>[\s\S]*?<\/script>/);
+  if (!scriptMatch) {
+    console.error(`  ERROR: index.html 中找不到 <script> 块`);
+    return null;
+  }
+  
+  // 生成 const 声明
+  const declaration = `const ${arrayName} = ${newCode};`;
+  
+  // 在 </script> 之前插入
+  const insertPos = scriptMatch.index + scriptMatch[0].length - '</script>'.length;
+  const before = content.substring(0, insertPos);
+  const after = content.substring(insertPos);
+  return before + '\n' + declaration + '\n' + after;
+}
+
+// ============================================================
+// 更新 generated_news_arrays.js
+// ============================================================
+function updateArraysJs(sections) {
+  if (!fs.existsSync(ARRAYS_JS)) {
+    console.log('  SKIP: generated_news_arrays.js 不存在，跳过');
+    return;
+  }
+  
+  let content = fs.readFileSync(ARRAYS_JS, 'utf-8');
+  let replaced = 0;
+  
+  for (const arrayName of ALLOWED_ARRAYS) {
+    const items = sections[arrayName];
+    if (!items || items.length === 0) {
+      const emptyResult = replaceArray(content, arrayName, '[]');
+      if (emptyResult.found) {
+        content = emptyResult.content;
+        console.log(`  [arrays.js] CLEARED: ${arrayName}`);
+      }
+      continue;
+    }
+    
+    items.forEach((item, idx) => {
+      if (!item.rank) item.rank = idx + 1;
+    });
+    
+    const newCode = itemsToCode(items);
+    const result = replaceArray(content, arrayName, newCode);
+    
+    if (result.found) {
+      content = result.content;
+      replaced++;
+    }
+  }
+  
+  if (replaced > 0) {
+    fs.writeFileSync(ARRAYS_JS, content, 'utf-8');
+    console.log(`  [arrays.js] 已更新 ${replaced} 个数组`);
+  }
+}
+
+// ============================================================
 // 主函数
 // ============================================================
 function main() {
@@ -269,6 +333,9 @@ function main() {
   const newsData = JSON.parse(fs.readFileSync(NEWS_JSON, 'utf-8'));
   const sections = newsData.sections || newsData;
   
+  // 先更新 generated_news_arrays.js（确保 JS 数据文件同步更新）
+  updateArraysJs(sections);
+  
   // 读取 index.html
   if (!fs.existsSync(INDEX_HTML)) {
     console.error('ERROR: index.html 不存在!');
@@ -277,6 +344,45 @@ function main() {
   
   let content = fs.readFileSync(INDEX_HTML, 'utf-8');
   const originalLength = content.length;
+  let needsArraysInserted = false;
+  
+  // 检查 index.html 是否包含数组
+  for (const arrayName of ALLOWED_ARRAYS) {
+    const patterns = [
+      new RegExp(`const\\s+${arrayName}\\s*=\\s*\\[`, 'g'),
+      new RegExp(`var\\s+${arrayName}\\s*=\\s*\\[`, 'g'),
+      new RegExp(`let\\s+${arrayName}\\s*=\\s*\\[`, 'g'),
+    ];
+    let found = false;
+    for (const p of patterns) {
+      if (p.test(content)) { found = true; break; }
+    }
+    if (!found && sections[arrayName] && sections[arrayName].length > 0) {
+      needsArraysInserted = true;
+      break;
+    }
+  }
+  
+  // 如果 index.html 中没有数组，先注入
+  if (needsArraysInserted) {
+    console.log('  index.html 中未找到 JS 新闻数组，开始注入...');
+    for (const arrayName of ALLOWED_ARRAYS) {
+      const items = sections[arrayName];
+      if (!items || items.length === 0) continue;
+      
+      items.forEach((item, idx) => {
+        if (!item.rank) item.rank = idx + 1;
+      });
+      
+      const newCode = itemsToCode(items);
+      const result = insertArrayIntoScript(content, arrayName, newCode);
+      if (result) {
+        content = result;
+        console.log(`  INSERTED: ${arrayName} ← ${items.length} 条`);
+      }
+    }
+    console.log('  数组注入完成');
+  }
   
   // 提前提取所有旧标题（用于检测新条目）
   const oldTitlesMap = {};

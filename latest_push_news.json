@@ -1,72 +1,46 @@
 {
-  "updated_at": "2026-07-19 11:52:31",
+  "updated_at": "2026-07-19 13:15:25",
   "source": "zhenbao-main-news",
   "max_daily_normal": 5,
   "items": [
     {
-      "id": "20260719-domestic-https-view-inews-qq-com-a-20260715A099CC00-scene-news-skill",
-      "title": "王沪宁将访问朝鲜，率中国党政代表团延续中朝高层互动",
-      "summary": "央广网7月15日消息，应朝鲜劳动党中央委员会和朝鲜政府邀请，中共中央政治局常委、全国政协主席王沪宁将率中国党政代表团于7月15日至17日对朝鲜进行正式友好访问。此访延续中朝条约纪念…",
+      "id": "20260719-domestic-https-x-com-rohanpaul-ai-status-2078036940381900871",
+      "title": "习近平在2026世界AI大会反对美国限制，推动开源AI",
+      "summary": "习近平在上海2026世界AI大会上发表讲话，反对美国主导的AI限制措施，并倡导开源AI与全球治理。他警告，以国家安全为由的广泛主张可能让强国限制他国获取AI技术。",
       "section": "国内",
       "type": "high_politics",
-      "url": "https://view.inews.qq.com/a/20260715A099CC00?scene=news-skill",
+      "url": "https://x.com/rohanpaul_ai/status/2078036940381900871",
       "open_url": "index.html#hotnews",
       "priority": "high",
-      "published_at": "2026-07-19 11:52:31",
-      "source": "央广网",
-      "score": 32
+      "published_at": "2026-07-19 13:15:25",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "score": 26
     },
     {
-      "id": "20260719-domestic-https-view-inews-qq-com-a-20260714A0AIC500-scene-news-skill",
-      "title": "王沪宁会见越南共产党代表团，推进中越党际交流",
-      "summary": "新华社7月14日报道，中共中央政治局常委、全国政协主席王沪宁在北京会见由越共中央政治局委员、中央内政部部长黎明智率领的越南共产党代表团。这是中越高层党际交往的最新活动，有助于延续两…",
-      "section": "国内",
-      "type": "high_politics",
-      "url": "https://view.inews.qq.com/a/20260714A0AIC500?scene=news-skill",
-      "open_url": "index.html#hotnews",
+      "id": "20260719-entertainment-https-view-inews-qq-com-a-20260715A0AY2F00-scene-news-skill",
+      "title": "喜剧探案动画电影《大唐妖探》释出“限时解谜”版预告 8月8日上映",
+      "summary": "喜剧探案动画电影《大唐妖探》释出“限时解谜”版预告。离奇案件突发，大理寺实习捕快狼妖阿萨被冤枉成罪犯，幸好有天才侦探狄少提供帮助。",
+      "section": "娱乐",
+      "type": "breaking",
+      "url": "https://view.inews.qq.com/a/20260715A0AY2F00?scene=news-skill",
+      "open_url": "index.html#entertainment",
       "priority": "high",
-      "published_at": "2026-07-19 11:52:31",
-      "source": "新华社新闻",
-      "score": 32
+      "published_at": "2026-07-19 13:15:25",
+      "source": "新黄河",
+      "score": 23
     },
     {
-      "id": "20260719-domestic-https-view-inews-qq-com-a-20260715A097HC00-scene-news-skill",
-      "title": "习近平将出席世界人工智能大会，上海会场进入开幕倒计时",
-      "summary": "中国新闻网7月15日报道，2026世界人工智能大会暨人工智能全球治理高级别会议将于7月17日至20日在上海举行，国家主席习近平将出席开幕式并发表主旨讲话。报道聚焦大会开幕前夕各方期…",
-      "section": "国内",
-      "type": "high_politics",
-      "url": "https://view.inews.qq.com/a/20260715A097HC00?scene=news-skill",
-      "open_url": "index.html#hotnews",
-      "priority": "high",
-      "published_at": "2026-07-19 11:52:31",
-      "source": "中国新闻网",
-      "score": 32
-    },
-    {
-      "id": "20260719-domestic-https-view-inews-qq-com-a-20260709A07HTC00-scene-news-skill",
-      "title": "受台风“巴威”影响 四条两岸“小三通”客运航线停航",
-      "summary": "(郑江洛)受今年第9号台风“巴威”影响，福建省防汛抗旱指挥部9日9时启动防台风Ⅳ级应急响应，四条两岸“小三通”客运航线自9日起陆续停航。福建省气象台9日9时发布台风Ⅳ级预警",
+      "id": "20260719-domestic-https-www-ithome-com-0-978-611-htm",
+      "title": "AI 湍流预测系统 SkyPath 正改变飞机安全带指示灯\"亮得太晚\"的困境",
+      "summary": "多家航空公司采用 AI 湍流预测系统 SkyPath，其模型能以约 90% 的准确率预测未来 24 小时内的湍流情况。系统通过收集空中飞机上传的实时数据，提前 13 分钟向飞行员预…",
       "section": "国内",
       "type": "breaking",
-      "url": "https://view.inews.qq.com/a/20260709A07HTC00?scene=news-skill",
+      "url": "https://www.ithome.com/0/978/611.htm",
       "open_url": "index.html#hotnews",
       "priority": "high",
-      "published_at": "2026-07-19 11:52:31",
-      "source": "中国新闻网",
-      "score": 28
-    },
-    {
-      "id": "20260719-domestic-https-view-inews-qq-com-a-20260708A0335P00-scene-news-skill",
-      "title": "直击湖北龙卷风灾后现场：多方力量连夜抢险救援",
-      "summary": "中新网黄冈7月8日电 题：直击湖北龙卷风灾后现场：多方力量连夜抢险救援 作者 王梦媛 宿佩君 7月6日夜间，湖北东部多地遭遇极端强对流天气，黄石、黄冈、鄂州、咸宁等地出现雷暴大风。",
-      "section": "国内",
-      "type": "breaking",
-      "url": "https://view.inews.qq.com/a/20260708A0335P00?scene=news-skill",
-      "open_url": "index.html#hotnews",
-      "priority": "high",
-      "published_at": "2026-07-19 11:52:31",
-      "source": "中国新闻网",
-      "score": 28
+      "published_at": "2026-07-19 13:15:25",
+      "source": "IT之家（RSS）",
+      "score": 22
     },
     {
       "id": "20260719-stock-https-view-inews-qq-com-a-20260714A08YO100-scene-news-skill",
@@ -77,7 +51,7 @@
       "url": "https://view.inews.qq.com/a/20260714A08YO100?scene=news-skill",
       "open_url": "index.html#finance",
       "priority": "normal",
-      "published_at": "2026-07-19 11:52:31",
+      "published_at": "2026-07-19 13:15:25",
       "source": "中国新闻网",
       "score": 22
     },
@@ -90,7 +64,7 @@
       "url": "https://view.inews.qq.com/a/20260716A041GM00?scene=news-skill",
       "open_url": "index.html#finance",
       "priority": "normal",
-      "published_at": "2026-07-19 11:52:31",
+      "published_at": "2026-07-19 13:15:25",
       "source": "中新经纬",
       "score": 20
     },
@@ -103,9 +77,22 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNOVcwNFA2ZXdEWkpxTDFkY28tYVFlcmNXNnJYanE3eGtMeUlzOUMwUnBVcXFFaHZFVWpVaVJ5cmh3X21kS05LVHRXN1NoTFVJdjN4dG9STXhzY1l3c2JucHBXODFKN3VU?oc=5",
       "open_url": "index.html#football",
       "priority": "normal",
-      "published_at": "2026-07-19 11:52:31",
+      "published_at": "2026-07-19 13:15:25",
       "source": "chinanews.com.cn",
-      "score": 20
+      "score": 19
+    },
+    {
+      "id": "20260719-henan-https-news-google-com-rss-articles-CBMickFVX3lxTE1kZTN6YnJTRFh0MHA1TFlJb2RlUmNMc",
+      "title": "中超第19轮：河南大胜海牛终结连败，国安遭铁人逼平，蓉城三连平引发关注",
+      "summary": "中超第19轮：河南大胜海牛终结连败，国安遭铁人逼平，蓉城三连平引发关注",
+      "section": "足球",
+      "type": "football",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kZTN6YnJTRFh0MHA1TFlJb2RlUmNMcFgtS29GLTZSZkszT0poMHZQNElLOGJZdGgyWUY2dnpPVGppMUdMZ2k1STh0MDU2OGREYmljajRkNzJNcDR6WEFPMHUxSV9HaExveS1FWW5LNGYxZw?oc=5",
+      "open_url": "index.html#football",
+      "priority": "normal",
+      "published_at": "2026-07-19 13:15:25",
+      "source": "手机新浪网",
+      "score": 19
     }
   ]
 }

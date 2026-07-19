@@ -15,7 +15,13 @@
     "csl": 33
   },
   "total_final": 931,
-  "pushed_to_github": false,
+  "pushed_to_github": true,
   "target": "index.html",
-  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序"
+  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序",
+  "deploy_status": "success",
+  "deploy_commit": "ab8108e",
+  "deploy_content_version": "20260719v8",
+  "deploy_url": "https://berniezhu86.github.io/daily-news/",
+  "deploy_verified_at": "2026-07-19 13:00",
+  "checked_at": "2026-07-19 13:00"
 }
