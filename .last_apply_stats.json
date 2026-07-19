@@ -1,20 +1,19 @@
 {
-  "applied_at": "2026-06-29T23:07:36.344Z",
-  "replaced_arrays": 13,
+  "applied_at": "2026-07-19T03:48:01.344Z",
+  "replaced_arrays": 12,
   "not_found_arrays": 0,
   "stats": {
     "mockHotNewsDomestic": 30,
-    "mockHotNewsDomesticExtra": 50,
+    "mockHotNewsDomesticExtra": 120,
     "mockHotNewsInternational": 30,
-    "mockHotNewsInternationalExtra": 50,
+    "mockHotNewsInternationalExtra": 120,
     "mockHotNewsAI": 30,
-    "mockHotNewsAIExtra": 50,
+    "mockHotNewsAIExtra": 120,
     "mockEntertainment": 30,
-    "mockEntertainmentExtra": 50,
-    "mockHenanNews": 3,
-    "mockCslOtherTeams": 30,
+    "mockEntertainmentExtra": 100,
+    "mockHenanNews": 11,
+    "mockCslOtherTeams": 33,
     "mockStockNews": 30,
-    "mockStockNewsExtra": 50,
-    "mockStockAI": 6
+    "mockStockNewsExtra": 120
   }
 }

@@ -1,7 +1,7 @@
 {
-  "extracted_at": "2026-07-18T22:56:28.477Z",
+  "extracted_at": "2026-07-19T03:48:01.287Z",
   "source_file": "/Users/bainian/WorkBuddy/2026-06-28-16-31-12/outputs/news-daily-mrjb.html",
-  "total_items": 927,
+  "total_items": 955,
   "sections": {
     "mockHotNewsDomestic": [
       {
@@ -935,6 +935,69 @@
       },
       {
         "rank": 104,
+        "title": "Claude Code v2.1.215 发布",
+        "source": "Claude Code：GitHub Releases（RSS）",
+        "summary": "Claude Code v2.1.215 发布，该终端智能编码工具可通过自然语言指令执行日常任务、解释复杂代码并处理 git 工作流。新版本未在正文中提及具体功能变更或修复细节。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
+        "heat": 9,
+        "time": "7月19日 10:56"
+      },
+      {
+        "rank": 105,
+        "title": "商汤发布旗舰原生多模态模型U1 Pro",
+        "source": "X：商汤 SenseTime (@SenseTime_AI)",
+        "summary": "商汤发布旗舰原生多模态基模SenseNova U1 Pro，基于NEO-Unify架构统一理解、生成与行动，并支持原生交织的视觉-语言推理。相比U1 Lite，U1 Pro支持智能体生成循环中的数十轮长程推理、8K原生分辨率输出，且渲染文字错误率极低。",
+        "url": "https://x.com/SenseTime_AI/status/2078681943680704993",
+        "heat": 9,
+        "time": "7月19日 11:22"
+      },
+      {
+        "rank": 106,
+        "title": "千问APP推出\"夏日专享\"AI点单活动，10元可购肯德基、蜜雪冰城、瑞幸",
+        "source": "公众号：千问APP（阿里）",
+        "summary": "千问APP上线\"夏日专享\"AI点单活动，用户可用10元同时购买肯德基吮指原味鸡3块、蜜雪冰城柠檬水1杯和瑞幸咖啡1杯。活动仅限7月18日至7月22日每天10：00-20：00，三个品牌各限1次，需到店取餐。",
+        "url": "https://mp.weixin.qq.com/s/7LzodaLik9temD9OQ7MHyA",
+        "heat": 9,
+        "time": "7月19日 10:00"
+      },
+      {
+        "rank": 107,
+        "title": "本田推出商用自动驾驶电动割草机，售价32999美元",
+        "source": "IT之家（RSS）",
+        "summary": "本田发布自动驾驶纯电动割草机ProZision Autonomous ZTR，售价32999美元，已开始向经销商发货。该设备通过GPS、激光雷达和360度视觉传感器实现约3厘米误差的自主作业，提供54英寸和60英寸两种割草宽度。",
+        "url": "https://www.ithome.com/0/978/627.htm",
+        "heat": 9,
+        "time": "7月19日 9:14"
+      },
+      {
+        "rank": 108,
+        "title": "澳大利亚高校为防AI作弊重新拥抱口试和线下考试",
+        "source": "IT之家（RSS）",
+        "summary": "澳大利亚高校正加快调整考试和评估方式，以应对学生利用AI完成作业甚至作弊的问题。澳大利亚国立大学提出将课程评估划分为\"安全\"和\"不安全\"两类，并鼓励恢复线下考试；昆士兰大学和墨尔本大学也已推进\"安全评估\"改革，增加口试等互动式考试。",
+        "url": "https://www.ithome.com/0/978/625.htm",
+        "heat": 9,
+        "time": "7月19日 9:02"
+      },
+      {
+        "rank": 109,
+        "title": "小鹏汽车第二代 VLA 模型打通中国与欧洲，目标 2027 年向海外交付",
+        "source": "IT之家（RSS）",
+        "summary": "小鹏汽车发布图灵第二代 VLA 模型，已实现同一套模型打通中国与欧洲市场。该模型通过世界模型与 VLA 一体两面设计，可在训练数据不足的海外市场自主生成训练数据加速泛化。",
+        "url": "https://www.ithome.com/0/978/655.htm",
+        "heat": 9,
+        "time": "7月19日 11:41"
+      },
+      {
+        "rank": 110,
+        "title": "阿里开放式世界模型快乐生蚝 HappyOyster 1.0 登陆百炼平台",
+        "source": "IT之家（RSS）",
+        "summary": "阿里巴巴发布开放式世界模型 HappyOyster 1.0（快乐生蚝），已登陆阿里云百炼面向企业和开发者开启灰测。模型提供世界探索与实时导演两大模式，支持用户通过一句话或一张图生成可实时交互的开放世界，并可用文字指令操控镜头与剧情。",
+        "url": "https://www.ithome.com/0/978/644.htm",
+        "heat": 9,
+        "time": "7月19日 10:53"
+      },
+      {
+        "rank": 111,
         "title": "腾讯 WorkBuddy 正式版 App 发布，安卓 / iOS / 鸿蒙三端同步上线",
         "source": "IT之家（RSS）",
         "summary": "腾讯 WorkBuddy 正式版 App 现已发布，安卓、iOS、鸿蒙三端同步上线，是首个登陆鸿蒙系统的通用智能体应用。App 支持连接电脑调用桌面端完整能力，或通过云端工作模式开箱即用，具备。",
@@ -943,7 +1006,7 @@
         "time": "7月18日 14:47"
       },
       {
-        "rank": 105,
+        "rank": 112,
         "title": "Sakana AI 的 Error Diffusion 训练符合 Dale 原则的双流网络，无需反向传播",
         "source": "MarkTechPost（RSS）",
         "summary": "Sakana AI 提出 Error Diffusion （ED） 局部学习规则，训练符合 Dale 原则的双流网络，完全避免权重传输。该方法在 MNIST 上达 96.",
@@ -952,7 +1015,7 @@
         "time": "7月18日 14:32"
       },
       {
-        "rank": 106,
+        "rank": 113,
         "title": "三星 One UI 9 版 My FanCam 曝光：Galaxy AI 智能追踪视频拍摄主体并自动重新构图",
         "source": "IT之家（RSS）",
         "summary": "三星 One UI 9 内测版截图曝光了名为 My FanCam 的 AI 功能，该功能依赖 Galaxy AI，可在用户完成视频拍摄后，从成片中智能识别并持续追踪主体，自动重新构图确保主体始。",
@@ -961,7 +1024,7 @@
         "time": "7月18日 14:08"
       },
       {
-        "rank": 107,
+        "rank": 114,
         "title": "设置备用 Mac 让 Claude Code 完全控制：分步指南",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "summary": "一篇分步指南介绍如何将备用 Mac 设置为可由 Claude Code 完全控制的常开机器，启用 computer use 功能。该方案通过 SSH 从主 Mac 连接，",
@@ -970,7 +1033,7 @@
         "time": "7月19日 3:37"
       },
       {
-        "rank": 108,
+        "rank": 115,
         "title": "SQLite Query Explainer：交互式查询计划解读工具",
         "source": "Simon Willison 博客",
         "summary": "Julia Evans 基于 Fable 构建了 SQLite Query Explainer，一个在浏览器中通过 Pyodide 运行 SQLite 的交互式工具。",
@@ -979,7 +1042,106 @@
         "time": "7月19日 1:19"
       },
       {
-        "rank": 109,
+        "rank": 116,
+        "title": "谷歌安卓系统漏洞曝光：Gemini 可绕过锁屏密码发送短信，官方即将修复",
+        "source": "IT之家（RSS）",
+        "summary": "谷歌安卓系统存在一项身份验证绕过漏洞，攻击者在拥有物理访问权限时，可不输入锁屏密码通过 Gemini 发送短信或 WhatsApp 消息。该漏洞自今年5月起被发现，最初在 Android 16 系统、Pixel 6a 手机中复现，触发方式为在锁屏界面同时按下\"继续\"和\"添加附件\"按钮。",
+        "url": "https://www.ithome.com/0/978/622.htm",
+        "heat": 8,
+        "time": "7月19日 8:35"
+      },
+      {
+        "rank": 117,
+        "title": "纽约市长马姆达尼：房东不得使用AI生成或编辑的图片进行租赁广告宣传",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "summary": "纽约市长Zohran Mamdani发布\"租赁欺诈报告\"，要求房东和中介披露在房源广告中使用AI生成或编辑的图片。该措施旨在打击利用AI美化房产、欺骗租户的行为，尤其保护需远程签约的租户。",
+        "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties",
+        "heat": 8,
+        "time": "7月19日 8:25"
+      },
+      {
+        "rank": 118,
+        "title": "开放权重模型逼近前沿，部署治理成新焦点",
+        "source": "X：洪明 (@hongming731)",
+        "summary": "Mozilla 报告指出，开放权重模型在编码等任务上已逼近顶尖闭源模型，但生产采用仍有差距，竞争正从权重本身转向部署、权限、合规等 Agent harness 能力。报告强调，评估开放模型需综合考虑算力利用率、运维成本与数据主权等收益，而非仅比较单次推理 token 成本。",
+        "url": "https://x.com/hongming731/status/2078635024623231068",
+        "heat": 8,
+        "time": "7月19日 8:16"
+      },
+      {
+        "rank": 119,
+        "title": "华为 Pura X Max、智慧屏 S7 Pro 获国标人工智能 L3 等级手机、电视首证",
+        "source": "IT之家（RSS）",
+        "summary": "华为 Pura X Max、MateBook Pro 及智慧屏 S7 Pro 获国标人工智能 L3 等级手机、电脑、电视首证。该分级标准由工信部等部门于今年 5 月联合发布，将终端智能化水平划分为 L1 响应级至 L4 协同级，L3 级为目前有明确划分标准的最高智能化水平。",
+        "url": "https://www.ithome.com/0/978/615.htm",
+        "heat": 8,
+        "time": "7月19日 7:58"
+      },
+      {
+        "rank": 120,
+        "title": "分析师：苹果 AI 策略\"保守\"反而是优势，可降低资本压力并驱动硬件升级",
+        "source": "IT之家（RSS）",
+        "summary": "BRI Wealth Management 分析师 Toni Meadows 认为，市场对苹果 AI 策略的看法已发生转变，其相对保守的策略降低了资本支出压力，无需像其他超大规模云计算公司那样持续投入数十亿美元维持 AI 竞争力。苹果通过\"软硬件一体\"策略将 AI 能力整合到自家服务中，有望推动更多硬件升级需求，并依托强大的服务业务开辟新收入来源。",
+        "url": "https://www.ithome.com/0/978/613.htm",
+        "heat": 8,
+        "time": "7月19日 7:42"
+      },
+      {
+        "rank": 121,
+        "title": "AI 湍流预测系统 SkyPath 正改变飞机安全带指示灯\"亮得太晚\"的困境",
+        "source": "IT之家（RSS）",
+        "summary": "多家航空公司采用 AI 湍流预测系统 SkyPath，其模型能以约 90% 的准确率预测未来 24 小时内的湍流情况。系统通过收集空中飞机上传的实时数据，提前 13 分钟向飞行员预警，使其能提前通知空乘并开启安全带指示灯。",
+        "url": "https://www.ithome.com/0/978/611.htm",
+        "heat": 8,
+        "time": "7月19日 7:29"
+      },
+      {
+        "rank": 122,
+        "title": "Kimi K3 中文请求下思维链 95.5% 为英文",
+        "source": "X：Ethan Mollick (@emollick)",
+        "summary": "有趣的是，当我用中文请求 Kimi K3 挑选两首适用于大语言模型的非陈腐诗歌时，其思维链中 95.5% 的字符（88% 的词汇）为英文，即便它明确是在为中文读者考虑中文诗歌。",
+        "url": "https://x.com/emollick/status/2078621842508587318",
+        "heat": 8,
+        "time": "7月19日 7:24"
+      },
+      {
+        "rank": 123,
+        "title": "可灵AI大赛获奖作品《玛纳斯》发布",
+        "source": "X：可灵 Kling AI (@Kling_ai)",
+        "summary": "Where legends take flight. 🦅 探索王世奇、贾子博、杨一航、王培泽与胡金龙创作的《玛纳斯》--一部关于传承、勇气以及人与自然纽带的有力故事。祝贺可灵AI NEXTGEN 2026校园AIGC创作大赛巅峰奖得主！",
+        "url": "https://x.com/Kling_ai/status/2078615808268230717",
+        "heat": 8,
+        "time": "7月19日 7:00"
+      },
+      {
+        "rank": 124,
+        "title": "小米 17 Max 获首批《人工智能终端智能化分级》国家标准 L3 认证证书",
+        "source": "IT之家（RSS）",
+        "summary": "小米 17 Max 手机荣获首批《人工智能终端智能化分级》系列国家标准 L3 评级证书，L3 级为目前有明确划分标准的最高智能化水平。该标准由工信部等部门于今年 5 月联合发布，将终端智能化水平划分为 L1 响应级至 L4 协同级，其中 L4 级将在后续修订中明确。",
+        "url": "https://www.ithome.com/0/978/603.htm",
+        "heat": 8,
+        "time": "7月19日 6:52"
+      },
+      {
+        "rank": 125,
+        "title": "中国AI实验室资本效率远超美国同行",
+        "source": "X：Nathan Lambert (@natolambert)",
+        "summary": "我认为相当明显的一点是，中国实验室在资本效率上远超对手。在一个实验室规模与智能水平取决于有效资本（用于购买算力、数据和人才）的世界里，这可能是你的AI产业所能拥有的最大优势。",
+        "url": "https://x.com/natolambert/status/2078609413884297639",
+        "heat": 8,
+        "time": "7月19日 6:34"
+      },
+      {
+        "rank": 126,
+        "title": "无人机表演效果惊艳，飞行特技逼真",
+        "source": "X：fofr (@fofrAI)",
+        "summary": "这些无人机表演越来越精彩了 >； 穿着飞行服的啦啦队员在游乐场上空的无人机上进行特技表演，最后组成人塔，由地面业余摄像师拍摄，白天，镜头稍微拉近并重新对焦 （SD2）",
+        "url": "https://x.com/fofrAI/status/2078606329665442267",
+        "heat": 8,
+        "time": "7月19日 6:22"
+      },
+      {
+        "rank": 127,
         "title": "习近平在2026世界AI大会反对美国限制，推动开源AI",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "summary": "习近平在上海2026世界AI大会上发表讲话，反对美国主导的AI限制措施，并倡导开源AI与全球治理。他警告，以国家安全为由的广泛主张可能让强国限制他国获取AI技术。",
@@ -988,7 +1150,7 @@
         "time": "7月17日 16:39"
       },
       {
-        "rank": 110,
+        "rank": 128,
         "title": "乐奇 YodaOS 亮相 WAIC 2026，全球首款专为智能眼镜打造的原生 AI 系统",
         "source": "IT之家（RSS）",
         "summary": "乐奇 Rokid 在 WAIC 2026 推出全球首款专为智能眼镜打造的原生 AI 操作系统 YodaOS，以图形化沉浸式交互替代传统文字输出，支持行程自动记录与定时主动提醒，也是全球首款支持 AIU",
@@ -997,7 +1159,7 @@
         "time": "7月18日 11:51"
       },
       {
-        "rank": 111,
+        "rank": 129,
         "title": "亚马逊 Zoox 自动驾驶出租车因烟雾识别缺陷召回 105 辆车",
         "source": "IT之家（RSS）",
         "summary": "亚马逊旗下自动驾驶公司 Zoox 宣布召回 105 辆自动驾驶出租车软件，原因是车辆存在无法识别浓烟的风险，曾直接驶入被烟雾遮挡的火灾现场。该缺陷在 6 月 20 日拉斯维加斯一起事故中被发现，当时一辆空载 Zoox 车辆驶入浓烟覆盖的火灾现场后紧急制动，无人员受伤。",
@@ -1006,7 +1168,7 @@
         "time": "7月18日 11:38"
       },
       {
-        "rank": 112,
+        "rank": 130,
         "title": "荣耀 Robot Phone 开启预约，购机享终身 YOYO AI 会员 SVIP",
         "source": "IT之家（RSS）",
         "summary": "荣耀 Robot Phone 于 WAIC 2026 期间开启预约，购机可享终身 YOYO AI 会员 SVIP 等权益。该机顶部集成行业最小四自由度钛合金机械云台，0.8 秒展开，支持 360° 追",
@@ -1015,16 +1177,7 @@
         "time": "7月18日 11:11"
       },
       {
-        "rank": 113,
-        "title": "Claude Code v2.1.214 发布：修复权限绕过、添加 EndConversation 工具与多项 Bash 权限检查改进",
-        "source": "Claude Code：GitHub Releases（RSS）",
-        "summary": "Claude Code v2.1.214 修复了 Windows PowerShell 5.1 中的权限检查绕过漏洞，以及 Bash 权限检查对超长命令（超过 10，000 字符）和 zsh 变量下标比较的误判问题。",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
-        "heat": 7,
-        "time": "7月18日 9:20"
-      },
-      {
-        "rank": 114,
+        "rank": 131,
         "title": "超4500名谷歌员工联名致信皮查伊，要求在AI浪潮中保障被裁员者权益",
         "source": "IT之家（RSS）",
         "summary": "超过4500名谷歌员工联名致信CEO桑达尔·皮查伊，要求在AI热潮中保障被裁员者权益。请愿书要求谷歌制定更透明的离职补偿政策，在强制裁员前先提供自愿离职和买断机制，并允许被裁员工将遣散费转为等。",
@@ -1033,7 +1186,7 @@
         "time": "7月18日 8:25"
       },
       {
-        "rank": 115,
+        "rank": 132,
         "title": "凯泽医疗中心护士称AI与工作场所监控正损害护理质量",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "summary": "凯泽医疗中心（Kaiser Permanente）的七名现任及前任护士向CalMatters反映，接听咨询与分诊电话时若通话超过15分钟，常遭管理层批评或约谈绩效。",
@@ -1042,7 +1195,7 @@
         "time": "7月18日 7:38"
       },
       {
-        "rank": 116,
+        "rank": 133,
         "title": "Kimi K3 前端盲测登顶，非对称竞争挑战 Fable 5",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
         "summary": "Kimi K3 在 Frontend Code Arena 人类盲测中以 1679 Elo 登顶第一，7 个前端赛道拿下 6 个第一，但综合智能指数仅排第 4。",
@@ -1051,7 +1204,7 @@
         "time": "7月18日 12:07"
       },
       {
-        "rank": 117,
+        "rank": 134,
         "title": "实测Kimi K3搭配7个设计Skill，最佳组合出炉",
         "source": "公众号：卡尔的AI沃茨",
         "summary": "用同一份Prompt和Kimi K3，依次搭配7个设计Skill生成网页，每轮只跑一次不返工。结果显示，design-taste-frontend和Impeccable表现最佳，分别以克制与大。",
@@ -1060,7 +1213,7 @@
         "time": "7月18日 12:04"
       },
       {
-        "rank": 118,
+        "rank": 135,
         "title": "Codex/ChatGPT 重置付费用户用量限制",
         "source": "X：Tibo (@thsottiaux)",
         "summary": "哎呀……我又来了。所有付费用户的 Codex 和 ChatGPT Work 用量限制已重置。非常感激这支不可思议的团队，以光速迭代，并在我们以史无前例的速度扩张时保持基础设施稳定。",
@@ -1069,7 +1222,7 @@
         "time": "7月18日 11:28"
       },
       {
-        "rank": 119,
+        "rank": 136,
         "title": "Codex 电脑操控演示：安装 Blender 制作 3D 动画",
         "source": "X：Ethan Mollick (@emollick)",
         "summary": "Computer use with Codex 真的令人印象深刻：\"我从未用过 Blender，用你的电脑控制下载安装它，然后用它制作一个 3D 水獭并做成小动画\" 我只需点击一次，授予 Wi。",
@@ -1078,7 +1231,7 @@
         "time": "7月18日 11:20"
       },
       {
-        "rank": 120,
+        "rank": 137,
         "title": "Codex 用浏览器上传图片引热议",
         "source": "X：Peter Steinberger (@steipete)",
         "summary": "看着 Codex 用浏览器 + 电脑操作打开 Chrome，进入我的 PR，点击评论，再与 macOS 选择器周旋--这一切只是为了上传一张图片，既令人惊叹又令人痛苦。",
@@ -1087,7 +1240,7 @@
         "time": "7月18日 11:19"
       },
       {
-        "rank": 121,
+        "rank": 138,
         "title": "Oracle Stargate 项目因许可问题面临延迟",
         "source": "X：SemiAnalysis (@SemiAnalysis_)",
         "summary": "Oracle 的 Stargate 站点和 Bloom Energy 面临重大延迟警报🚨🚨 Oracle 位于新墨西哥州的 Project Jupiter 表后数据中心项目计划使用 Bloom。",
@@ -1096,7 +1249,7 @@
         "time": "7月18日 11:00"
       },
       {
-        "rank": 122,
+        "rank": 139,
         "title": "Claude Fable 5 7月20日起纳入Max和Team Premium计划",
         "source": "X：宝玉 (@dotey)",
         "summary": "从7月20日起，Claude Fable 5 将包含在所有 Max 和 Team Premium 计划中，限额为50%。Pro 和 Team Standard 用户仍可通过使用额度访问 Fab。",
@@ -1105,7 +1258,7 @@
         "time": "7月18日 10:52"
       },
       {
-        "rank": 123,
+        "rank": 140,
         "title": "西西弗斯完整故事：AI 查到的神话细节",
         "source": "X：Oran Ge (@oran_ge)",
         "summary": "西西弗斯是科林斯建城者，因泄露宙斯秘密、捆住死神、骗过冥后三次逃脱惩罚，最终被罚永推巨石。故事核心在于惩罚精准回应了他的一生：一个永远在制造出口的人，被安排了一个永远没有出口的循环。",
@@ -1114,7 +1267,7 @@
         "time": "7月18日 10:50"
       },
       {
-        "rank": 124,
+        "rank": 141,
         "title": "开放权重主导不会导致AI崩溃",
         "source": "X：Ethan Mollick (@emollick)",
         "summary": "我对一种观点感到困惑：如果开放权重最终占据主导，将导致AI的崩溃。如果实验室输了（目前并未发生），那并非因为AI毫无用处：算力仍是瓶颈，而算力提供商会捕获价值，而非实验室。",
@@ -1123,7 +1276,7 @@
         "time": "7月18日 8:24"
       },
       {
-        "rank": 125,
+        "rank": 142,
         "title": "K3 可作为教师模型训练更小稠密模型",
         "source": "X：Emad Mostaque (@EMostaque)",
         "summary": "K3 可作为教师模型（含 logits）训练更小稠密模型，甚至可用于生成万亿 token 的完整预训练和后训练数据集以训练更优模型。引用推文指出，K3 是专为递归迭代构建的出色基座，",
@@ -1132,16 +1285,7 @@
         "time": "7月19日 0:29"
       },
       {
-        "rank": 126,
-        "title": "商汤发布原生多模态旗舰模型SenseNova U1 Pro",
-        "source": "X：商汤 SenseTime (@SenseTime_AI)",
-        "summary": "商汤发布旗舰原生多模态基础模型SenseNova U1 Pro，基于NEO-Unify架构，统一理解、生成与行动能力，并支持原生交织视觉-语言推理。相比U1 Lite，",
-        "url": "https://x.com/SenseTime_AI/status/2078510614889238997",
-        "heat": 7,
-        "time": "7月19日 0:02"
-      },
-      {
-        "rank": 127,
+        "rank": 143,
         "title": "Gemini Live 登陆网页版，Skills 功能升级",
         "source": "X：Testing Catalog (@testingcatalog)",
         "summary": "Google 正为 Gemini 网页版准备 Gemini Live 功能，桌面端也已进入可信测试阶段。此外，普通聊天中可能开放 Skills 功能，并迎来 Gemini Flash 3.6 升级。",
@@ -1150,7 +1294,7 @@
         "time": "7月18日 22:27"
       },
       {
-        "rank": 128,
+        "rank": 144,
         "title": "Claude 写了个二手 Mac 验机工具",
         "source": "X：Berry Xia (@berryxia)",
         "summary": "开发者用 Claude 生成了一款 Swift 原生 Mac 验机工具 MacCheck，专为二手 Mac 交易场景设计。该工具可自动读取硬件规格，支持交互测试与报告导出，",
@@ -1159,7 +1303,7 @@
         "time": "7月18日 22:16"
       },
       {
-        "rank": 129,
+        "rank": 145,
         "title": "图表展示：AI 对 Stack Overflow 的影响",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "summary": "一张来自 data.stackexchange.com 的图表展示了 AI 对 Stack Overflow 的影响。该图表数据在 Hacker News 上获得 102 个点赞，",
@@ -1168,7 +1312,7 @@
         "time": "7月18日 21:29"
       },
       {
-        "rank": 130,
+        "rank": 146,
         "title": "高文院士 WAIC 2026 发言：中国算力网第一阶段已完成 70%，全面落地或需二十年",
         "source": "IT之家（RSS）",
         "summary": "中国工程院院士高文在 WAIC 2026 上表示，中国算力网第一阶段\"算力资源汇聚\"已完成 70%，全国约七成智能算力已纳入统一数据库。第二阶段\"算力任务可调度\"预计还需五年推进，",
@@ -1177,7 +1321,7 @@
         "time": "7月18日 20:35"
       },
       {
-        "rank": 131,
+        "rank": 147,
         "title": "可灵AI大赛获奖作品《三峡》诗意呈现水下175米故乡",
         "source": "X：可灵 Kling AI (@Kling_ai)",
         "summary": "他的家位于水下175米深处🌫️ 探索杨邹与王艺辉的《三峡：归不去的故乡》--一段穿越记忆、梦境与归属的诗意旅程。祝贺荣获可灵AI NEXTGEN 2026校园AIGC创作大赛巅峰奖！",
@@ -1186,7 +1330,7 @@
         "time": "7月18日 20:00"
       },
       {
-        "rank": 132,
+        "rank": 148,
         "title": "网易有道 OpenPods 亮相 WAIC：国内首款苹果 MFi 认证开放式 AI 耳机，耳机盒可独立录音翻译",
         "source": "IT之家（RSS）",
         "summary": "网易有道在 WAIC 展出国内首款苹果 MFi 认证开放式 AI 耳机 OpenPods，支持十余种语种实时互译与同传，录音转写准确率达 98%，可自动生成结构化纪要与思维导图。",
@@ -1195,7 +1339,7 @@
         "time": "7月18日 19:22"
       },
       {
-        "rank": 133,
+        "rank": 149,
         "title": "蓝思智能与上纬新材合作建万台级产线，全球首个可变形个人机器人启元 T1 量产",
         "source": "IT之家（RSS）",
         "summary": "蓝思智能与上纬新材签约，首期规划万台级机器人产线合作。双方将围绕启元 Q1 人形个人机器人和启元 T1 可变形个人机器人开展精密零部件加工、关节模组生产及整机组装。",
@@ -1204,155 +1348,11 @@
         "time": "7月18日 19:18"
       },
       {
-        "rank": 134,
+        "rank": 150,
         "title": "Zyphra 发布 ZUNA1.1：Apache 2.0 许可的 EEG 基础模型，支持 0.5 至 30 秒可变长度输入",
         "source": "MarkTechPost（RSS）",
         "summary": "Zyphra 发布 ZUNA1.1，一个 3.8 亿参数的掩码扩散自编码器，用于头皮 EEG 信号。相比固定 5 秒输入的 ZUNA1，新模型支持 0.5 至 30 秒可变长度输入，并采用 4D 旋转",
         "url": "https://www.marktechpost.com/2026/07/17/zyphra-releases-zuna1-1-an-apache-2-0-eeg-foundation-model-with-variable-length-inputs-from-0-5-to-30-seconds",
-        "heat": 6,
-        "time": "7月18日 5:35"
-      },
-      {
-        "rank": 135,
-        "title": "AI 内存需求冲击印度智能手机市场，出货量创六年最大降幅",
-        "source": "TechCrunch：AI（RSS）",
-        "summary": "印度智能手机市场 4-6 月出货量同比下降 10%，为六年来最大六月季度降幅。三星、SK 海力士和美光等厂商将产能转向利润更高的 AI 数据中心高带宽内存，导致手机 RAM 和存储成本上升，推动终端价格上涨。",
-        "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market",
-        "heat": 6,
-        "time": "7月18日 4:09"
-      },
-      {
-        "rank": 136,
-        "title": "旧金山要求苹果和谷歌从应用商店下架\"脱衣\"AI应用",
-        "source": "Ars Technica：AI（RSS）",
-        "summary": "旧金山市检察官办公室正式要求苹果和谷歌从其应用商店移除\"脱衣\"应用（nudify apps），这些应用利用AI技术将照片中的人物衣物移除。官方估计，两家公司可能从这些应用的销售中获利数百万美元。",
-        "url": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says",
-        "heat": 6,
-        "time": "7月18日 0:10"
-      },
-      {
-        "rank": 137,
-        "title": "Kimi K3 拒绝泄露系统提示词，反问用户\"今天有什么我能帮你的吗？\"",
-        "source": "Simon Willison 博客",
-        "summary": "Kimi K3 在被要求泄露其系统提示词时直接拒绝，并反问用户\"今天有什么我能帮你的吗？这一行为展示了该模型在安全对齐方面的严格设计，使其能够识别并规避试图提取内部指令的越狱尝试。",
-        "url": "https://simonwillison.net/2026/Jul/17/kimi-k3",
-        "heat": 6,
-        "time": "7月17日 21:43"
-      },
-      {
-        "rank": 138,
-        "title": "工信部召开重点车企座谈会，强调抵制非理性竞争、加强自动驾驶安全评估",
-        "source": "IT之家（RSS）",
-        "summary": "工信部装备工业一司近日召开重点汽车生产企业座谈会，要求车企坚决抵制非理性竞争，加强产品测试验证与安全评估。会议特别强调要加强组合驾驶辅助和自动驾驶功能安全评估，强化企业在功能安全、网络安全、数据安全等",
-        "url": "https://www.ithome.com/0/978/299.htm",
-        "heat": 6,
-        "time": "7月17日 21:09"
-      },
-      {
-        "rank": 139,
-        "title": "抖音严打 AI 生成虚假灾害画面，发布防汛期涉灾信息治理公告",
-        "source": "IT之家（RSS）",
-        "summary": "抖音发布防汛期涉灾信息治理公告，重点打击利用 AI 生成虚假灾害画面、翻炒旧闻编造灾情等行为。平台通过 AI 技术识别、人工复核及权威信息交叉比对，已累计核验典型涉灾谣言 71 起，处置相关谣言内容 ",
-        "url": "https://www.ithome.com/0/978/291.htm",
-        "heat": 6,
-        "time": "7月17日 20:37"
-      },
-      {
-        "rank": 140,
-        "title": "九识智能实现全球首个L4级无图方案规模化量产，无人驾驶进入\"无图时代\"",
-        "source": "IT之家（RSS）",
-        "summary": "九识智能在WAIC现场宣布实现L4级无人驾驶无图方案规模化量产，成为全球首个达成该里程碑的企业。该方案已在新增运营路线中实现30%渗透率，预计至本月底累计L4无图运营里程将突破4万公里。",
-        "url": "https://www.ithome.com/0/978/233.htm",
-        "heat": 6,
-        "time": "7月17日 18:11"
-      },
-      {
-        "rank": 141,
-        "title": "Meta 拟聘请亚马逊 AWS 高管戴夫·布朗，筹备进军云市场",
-        "source": "IT之家（RSS）",
-        "summary": "亚马逊云科技资深高管戴夫·布朗（Dave Brown）计划于未来几周内加入 Meta，专注于数据中心建设。Meta 正规划一项全新的云基础设施业务，拟对外提供 AI 算力和模型使用权。",
-        "url": "https://www.ithome.com/0/978/208.htm",
-        "heat": 6,
-        "time": "7月17日 17:37"
-      },
-      {
-        "rank": 142,
-        "title": "Netflix 在约 300 个制作项目中应用 AI，主要用于后期制作",
-        "source": "The Decoder：AI News（RSS）",
-        "summary": "Netflix 联合 CEO Ted Sarandos 在财报电话会上透露，公司目前约有 300 个制作项目使用了 AI，主要用于后期制作，包括扩展群众场景和历史战斗序列。纪录片《The American Experiment》中 17 分钟的 AI 辅助镜头制作速度提升一倍、成本降低一半。",
-        "url": "https://the-decoder.com/netflixs-300-ai-productions-show-how-fast-the-technology-is-spreading-through-entertainment",
-        "heat": 6,
-        "time": "7月17日 16:53"
-      },
-      {
-        "rank": 143,
-        "title": "阶跃终端首款智能体手机 STEPX Neo 现场实拍，Amoo 助手可与飞书等 App 深度联动",
-        "source": "IT之家（RSS）",
-        "summary": "阶跃终端发布首款智能体手机 STEPX Neo，运行智能体原生系统 Step AOS。其 Amoo 助手可与飞书等 App 深度联动，用户通过语音指令即可让助手读取日历、群消息并生成 PPT、同步改期事件到群聊。",
-        "url": "https://www.ithome.com/0/978/081.htm",
-        "heat": 6,
-        "time": "7月17日 15:25"
-      },
-      {
-        "rank": 144,
-        "title": "比亚迪大唐盛世版下线，官方指导价 30.99 万元",
-        "source": "IT之家（RSS）",
-        "summary": "比亚迪王朝网首款 D 级旗舰 SUV 大唐盛世版今日下线并开始发运全国，官方指导价 30.99 万元。该车搭载第二代刀片电池与全域 1000V 高压架构，采用 2+2+3 七座布局及多屏交互系统，全系标配车顶激光雷达与天神之眼 5.0 高阶智驾系统，支持无图城市 NOA 和高速 NOA。",
-        "url": "https://www.ithome.com/0/978/050.htm",
-        "heat": 6,
-        "time": "7月17日 14:51"
-      },
-      {
-        "rank": 145,
-        "title": "强化学习小书》发布，从基础到PPO的PyTorch实现开源",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "summary": "《The Little Book of Reinforcement Learning》在GitHub发布，提供从MC到PPO的PyTorch算法实现及动态规划详细证明。该书为强化学习入门读物，采用CC BY-SA 4.0非商业许可，V1版本于2026年6月发布。",
-        "url": "https://github.com/alxndrTL/little-book-rl",
-        "heat": 6,
-        "time": "7月17日 14:50"
-      },
-      {
-        "rank": 146,
-        "title": "优酷总裁吴倩：积极拥抱 AI，但 AI 无法取代真人演员",
-        "source": "IT之家（RSS）",
-        "summary": "优酷总裁吴倩在\"HorsePower·AI 影像大赛\"开营仪式上表示，AI 正加速影响影视行业，但无法取代真人演员。她认为，AI 能提升创作效率和工业化流程，但真人演员的共情能力、生活经验和情感洞察是作品打动人心的根基。",
-        "url": "https://www.ithome.com/0/978/040.htm",
-        "heat": 6,
-        "time": "7月17日 14:37"
-      },
-      {
-        "rank": 147,
-        "title": "Inkling 上线 OpenRouter，975B 参数 MoE 模型",
-        "source": "X：OpenRouter (@OpenRouter)",
-        "summary": "Inkling from @thinkymachines is live on OpenRouter. 一款开放权重的 MoE 模型，总参数量 975B / 激活参数 41B，支持 1M 上下。",
-        "url": "https://x.com/OpenRouter/status/2078243886338806056",
-        "heat": 6,
-        "time": "7月18日 6:22"
-      },
-      {
-        "rank": 148,
-        "title": "LM Studio 推出首个桌面Agent产品Bionic",
-        "source": "X：Berry Xia (@berryxia)",
-        "summary": "LM Studio 发布其首个桌面Agent产品Bionic，专为开源模型打造。该产品旨在让模型在工具中发挥Agent能力，而非仅扮演聊天角色，以提升模型价值与用户体验。",
-        "url": "https://x.com/berryxia/status/2078239695662948602",
-        "heat": 6,
-        "time": "7月18日 6:05"
-      },
-      {
-        "rank": 149,
-        "title": "Kimi K3 在 Zyloo 免费体验 7 小时",
-        "source": "X：Berry Xia (@berryxia)",
-        "summary": "Kimi K3 将于 0 点（北京时间）在 Zyloo 平台免费开放 7 小时。用户可在此期间通过 https://zyloo.io 免费使用该模型，网站届时会显示免费通知。",
-        "url": "https://x.com/berryxia/status/2078236833771823407",
-        "heat": 6,
-        "time": "7月18日 5:54"
-      },
-      {
-        "rank": 150,
-        "title": "SpaceX 与五角大楼洽谈 AI 数据中心合作",
-        "source": "X：cb_doge (@cb_doge)",
-        "summary": "NEWS： 据路透社报道，SpaceX 正与五角大楼洽谈，为其 AI 项目提供价值数十亿美元的数据中心算力。这笔交易可能让美军获得 SpaceX 基础设施的访问权限。",
-        "url": "https://x.com/cb_doge/status/2078232114563289260",
         "heat": 6,
         "time": "7月18日 5:35"
       }
@@ -3958,6 +3958,69 @@
       },
       {
         "rank": 139,
+        "title": "Kimi K3 写 H100 CUDA 内核速度比优化 PyTorch 快 14.82 倍",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "summary": "Kimi K3 在 KernelBench 测试中，生成 H100 CUDA 内核的速度比优化后的 PyTorch 快 14.82 倍，性能几乎追平 Claude Opus 4.8。KernelBench 要求 AI 智能体基于可读的 PyTorch 实现，生成既正确又更快的自定义 GPU 实现，代码必须通过编译、数值正确性验证并在实际硬件上超越基准。",
+        "url": "https://x.com/rohanpaul_ai/status/2078679499320013136",
+        "heat": 9,
+        "time": "7月19日 11:13"
+      },
+      {
+        "rank": 140,
+        "title": "国内 Coding Agent 产品盘点：TRAE、ZCode、Qcoder、Kimi Code 等",
+        "source": "X：邵猛 (@shao__meng)",
+        "summary": "博主邵猛询问国内除 TRAE、ZCode、Qcoder、Kimi Code 外，还有哪些创业公司的 Coding Agent 产品。这些产品形态对标 Cursor、Codex、Claude Code、Devin 等海外工具。",
+        "url": "https://x.com/shao__meng/status/2078671736216965205",
+        "heat": 9,
+        "time": "7月19日 10:42"
+      },
+      {
+        "rank": 141,
+        "title": "马斯克确认特斯拉 FSD 将学习驾驶员操作习惯，实现个性化自动驾驶",
+        "source": "IT之家（RSS）",
+        "summary": "马斯克确认特斯拉 FSD 将从通用型驾驶系统转向个性化系统，其神经网络将学习并记住每位车主的个人驾驶习惯与偏好。系统会记录用户的具体人工干预行为，并据此调整驾驶策略，覆盖停车、车道选择等多种场景。",
+        "url": "https://www.ithome.com/0/978/642.htm",
+        "heat": 9,
+        "time": "7月19日 10:36"
+      },
+      {
+        "rank": 142,
+        "title": "Grok视频生成进化，质感丝滑可战Seedance",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "summary": "Grok视频生成能力大幅进化，生成的视频在质感和分镜丝滑程度上已可与Seedance一战。示例中，Grok根据详细提示词生成了超现实主义纪录片风格的网球观众席片段，包含精确的首帧锁定、手持抖动、自动对焦搜索等2000年代DV质感。",
+        "url": "https://x.com/AYi_AInotes/status/2078669737194631628",
+        "heat": 9,
+        "time": "7月19日 10:34"
+      },
+      {
+        "rank": 143,
+        "title": "Kimi K3 法律基准测试近乎翻倍领先 Claude Fable 5",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "summary": "Kimi K3 在自主法律工作基准测试中以 26.7% 的成绩近乎翻倍领先 Claude Fable 5 的 14.2%。该测试涵盖 24 个法律领域的 120 项私有任务，要求模型自主处理案卷并生成法律文件，每项评分标准必须全部通过。",
+        "url": "https://x.com/rohanpaul_ai/status/2078657023370232135",
+        "heat": 9,
+        "time": "7月19日 9:43"
+      },
+      {
+        "rank": 144,
+        "title": "Kimi K3、DeepSeek V4 Pro 与 GLM-5.2 三款开源万亿参数 MoE 模型对比",
+        "source": "MarkTechPost（RSS）",
+        "summary": "Kimi K3、DeepSeek V4 Pro 与 GLM-5.2 三款开源万亿参数 MoE 模型在多项基准上对比。Kimi K3 在 MMLU 和 HumanEval 上领先，DeepSeek V4 Pro 在 GPQA 和 AIME 上表现突出，GLM-5.2 在 SWE-bench 上最优。",
+        "url": "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost",
+        "heat": 9,
+        "time": "7月19日 9:41"
+      },
+      {
+        "rank": 145,
+        "title": "安谋科技发起\"开源 AIOS 联盟\"，瑞芯微、紫光展锐等加入",
+        "source": "IT之家（RSS）",
+        "summary": "安谋科技在2026世界人工智能大会期间宣布发起\"开源 AIOS 联盟\"，已吸引超20家生态伙伴入驻。联盟聚焦AI模型能力、传感与运控等四大技术模块，牵头单位包括芯发科技、紫光展锐、瑞芯微等芯片厂商及面壁智能等软硬件方案提供商。",
+        "url": "https://www.ithome.com/0/978/628.htm",
+        "heat": 9,
+        "time": "7月19日 9:19"
+      },
+      {
+        "rank": 146,
         "title": "支付宝与阶跃达成系统级合作，AI版\"阿宝\"首期接入点外卖、出行等高频服务",
         "source": "IT之家（RSS）",
         "summary": "支付宝与阶跃达成系统级合作，AI版\"阿宝\"与阶跃大模型及原生AI终端实现跨端互联，用户一句话即可跨应用执行多任务。合作首期已接入点外卖、出行、本地生活等高频日常服务。",
@@ -3966,7 +4029,7 @@
         "time": "7月17日 17:39"
       },
       {
-        "rank": 140,
+        "rank": 147,
         "title": "智能体互信互联互操作全球合作倡议发布，中国网信办提出十大行动方向",
         "source": "IT之家（RSS）",
         "summary": "中国网信办在2026世界人工智能大会上正式提出《智能体互信互联互操作全球合作倡议》，围绕技术研发、标准互认、安全伦理等十个方面提出行动方向。倡议呼吁加大智能体身份标识与协作互认等共性技术投入，推动多智能体从\"可控交互\"向\"自主协同\"演进，并优先将成果用于气候变化、公共卫生等全球性议题。",
@@ -3975,7 +4038,7 @@
         "time": "7月17日 17:13"
       },
       {
-        "rank": 141,
+        "rank": 148,
         "title": "阿里千问输入法移动版上线：无广告无弹窗无需注册，支持 AI 自动润色",
         "source": "IT之家（RSS）",
         "summary": "阿里旗下千问输入法 iOS 版 7 月 16 日上线 App Store，安卓版同日陆续上架各大商店。该输入法基于自研 CosyVoice 语音大模型，语音输入最快每分钟 300 字，支持 9 种方言及中英混合识别，单次录音最长 3 分钟。",
@@ -3984,7 +4047,7 @@
         "time": "7月17日 17:03"
       },
       {
-        "rank": 142,
+        "rank": 149,
         "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "summary": "Schema 框架在 ARC-AGI-3 公开集上，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6 Sol 达到 95.35%。该框架不修改模型权重，而是将原始观测转化为可编辑程序，联合解决状态归因和机制发现问题。",
@@ -3993,76 +4056,13 @@
         "time": "7月17日 16:41"
       },
       {
-        "rank": 143,
+        "rank": 150,
         "title": "创下全球视频大模型公司最大额融资纪录，快手旗下可灵AI落地近30亿美元融资，其3月ARR已达5亿美元，...",
         "source": "财联社V说",
         "summary": "【快手：旗下视频生成大模型可灵AI落地近30亿美元融资】财联社7月2日电，快手在港交所公告，快手旗下领先的视频生成大模型可灵AI落地近30亿美元融资，投后估值有望达到180亿",
         "url": "https://view.inews.qq.com/a/20260703A02PGT00?scene=news-skill",
         "heat": 8,
         "time": "7月3日 8:43"
-      },
-      {
-        "rank": 144,
-        "title": "华为 MateBook Pro 获国家级人工智能终端 L3 级首证",
-        "source": "IT之家（RSS）",
-        "summary": "华为 MateBook Pro 获得国家级人工智能终端智能化分级 L3 辅助级首证，成为首批通过该标准认证的终端产品。该标准由工信部等部门于今年 5 月联合发布，将终端智能化水平划分为 L1 至 L4 四个等级。",
-        "url": "https://www.ithome.com/0/978/446.htm",
-        "heat": 8,
-        "time": "7月18日 12:30"
-      },
-      {
-        "rank": 145,
-        "title": "国家能源局：加快构建新型能源体系，为AI发展提供绿色算力支撑",
-        "source": "IT之家（RSS）",
-        "summary": "国家能源局在2026世界人工智能大会上表示，将加快构建新型能源体系，统筹智能算力、大模型等核心要素一体化布局。\"十五五\"时期推理负荷将超过训练负荷，算电协同需转向\"多维协同\"。",
-        "url": "https://www.ithome.com/0/978/416.htm",
-        "heat": 8,
-        "time": "7月18日 11:29"
-      },
-      {
-        "rank": 146,
-        "title": "多家国际出版商就AI训练引发的侵权问题向谷歌提起诉讼",
-        "source": "新京报书评周刊",
-        "summary": "据英国《卫报》报道，多家出版商已对谷歌提起诉讼，指控该公司在训练其Gemini人工智能模型的过程中，非法使用数百万本受版权保护的书籍。出版商们称，此举是“历史上最严重的版权侵权之一”。",
-        "url": "https://view.inews.qq.com/a/20260716A03TSV00?scene=news-skill",
-        "heat": 8,
-        "time": "7月16日 10:06"
-      },
-      {
-        "rank": 147,
-        "title": "速递｜获软银支持，印度AI应用创建初创Emergent融资1.3亿美元，估值15亿美元",
-        "source": "ZPotentials",
-        "summary": "图片 是一家帮助小型企业利用人工智能构建应用程序的初创公司，近日完成 1.3 亿美元融资，跻身为数不多达到独角兽估值的印度 AI 初创公司之列。本轮融资由 Creaegis 领投，Emergent 在周三的声明中表示，此次融资对公司的估值为 15 亿美元。",
-        "url": "https://view.inews.qq.com/a/20260716A03O4Z00?scene=news-skill",
-        "heat": 8,
-        "time": "7月16日 9:59"
-      },
-      {
-        "rank": 148,
-        "title": "DeepSeek已启动IPO筹备！人工智能ETF天弘标的指数盘中跌近1%",
-        "source": "每日经济新闻",
-        "summary": "肖芮冬盘面上，两市探底回升，人工智能板块下跌。相关ETF方面，人工智能ETF天弘（561460）标的指数盘中跌0.88%，成交额达320.73万元；换手率达1.28%。",
-        "url": "https://view.inews.qq.com/a/20260716A03MYH00?scene=news-skill",
-        "heat": 8,
-        "time": "7月16日 9:58"
-      },
-      {
-        "rank": 149,
-        "title": "小米发布具身智能模型Xiaomi-Robotics-U0",
-        "source": "北京商报",
-        "summary": "王天逸）7月15日，正式发布拥有 380 亿参数的多模态自回归具身生成基础模型Xiaomi-Robotics-U0。据称，该模型是具身领域首个覆盖四类任务的统一生成模型，打通了机器人图片和视频数据的生成与编辑链路。",
-        "url": "https://view.inews.qq.com/a/20260715A09EM400?scene=news-skill",
-        "heat": 8,
-        "time": "7月15日 17:45"
-      },
-      {
-        "rank": 150,
-        "title": "腾讯启动2027\"青云计划\"校招，实习生可享正式员工薪资，聚焦大模型与智能体",
-        "source": "IT之家（RSS）",
-        "summary": "腾讯宣布启动面向2026年1月至2027年12月毕业生的\"青云计划\"2027校园招聘，聚焦大语言模型、多模态、智能体等六大技术领域。入选实习生有机会享受正式员工薪资待遇，岗位覆盖北上广深及美国、新加坡、英国、荷兰多地。",
-        "url": "https://www.ithome.com/0/977/157.htm",
-        "heat": 8,
-        "time": "7月15日 17:41"
       }
     ],
     "mockEntertainment": [
@@ -4113,6 +4113,15 @@
       },
       {
         "rank": 6,
+        "title": "WaytoAGI直播：12个AI Coding作品与FDE案例",
+        "source": "X：Vista (@vista8)",
+        "summary": "WaytoAGI\"未来硅世界\"直播中，12位分享者展示了10个AI Coding作品和2个FDE案例。作品涵盖音乐可视化工具、长视频转图文总结、亲子习惯养成小程序、AI私域运营工具等。",
+        "url": "https://x.com/vista8/status/2078677845073899640",
+        "heat": 9,
+        "time": "7月19日 11:06"
+      },
+      {
+        "rank": 7,
         "title": "多位知名音乐人将轮番登台，2026张北草原音乐节蓄势启幕",
         "source": "北京日报客户端",
         "summary": "7月17日至19日，2026第十五届张北草原音乐节将在张北中都草原燃情上演。作为京张体育文化旅游带标杆文旅IP，本届音乐节全方位升级场地配套、场景体验、智慧服务和惠民举措，以全新风貌迎接八方乐迷赴夏日草原之约。",
@@ -4121,7 +4130,7 @@
         "time": "7月15日 18:34"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "title": "Lorde 在 Mad Cool 音乐节上直言 AI 眼镜\"不性感",
         "source": "TechCrunch：AI（RSS）",
         "summary": "歌手 Lorde 在上周马德里 Mad Cool 音乐节演出期间公开批评 AI 眼镜，称其\"不性感\"。她表示越来越难分辨他人佩戴的是普通太阳镜还是 AI 眼镜。",
@@ -4130,7 +4139,7 @@
         "time": "7月15日 7:10"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "好惨！TVB知名演员离巢后遭区别对待，新剧番位男二降级为男四",
         "source": "剧透社娱乐",
         "summary": "由高海宁、马国明等人领衔主演的TVB最新情感复仇剧《夫妻的博弈》已经正式迎来首播。这部剧集翻拍的韩剧《请和我的老公结婚》，所以播出之后，自然也是引发了不少热议。",
@@ -4139,7 +4148,7 @@
         "time": "7月14日 1:50"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "电影人施南生离世，享年75岁，成龙、甄子丹、舒淇、李冰冰等众星发文悼念",
         "source": "极目新闻",
         "summary": "华语电影传奇人物施南生7月13日不幸离世，当晚11时30分，施南生的前夫、著名导演徐克在医院门口会见传媒。神情哀伤的徐克透露，施南生自从2022年开始身体免疫力衰退，",
@@ -4148,7 +4157,7 @@
         "time": "7月14日 1:09"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "title": "电影人施南生去世，享年75岁，曾监制《英雄本色》《倩女幽魂》《黄飞鸿》等作品",
         "source": "极目新闻",
         "summary": "电影工作室有限公司发出声明：我们最敬爱的 施南生女士，自2022年起因免疫系统出现问题，健康状况一直未如理想。近月因细菌感染，引发多重器官衰竭，已于2026年7月13日星期一，",
@@ -4157,7 +4166,7 @@
         "time": "7月13日 23:44"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "title": "激动！云南2026年演唱会又上新！",
         "source": "昆明本地宝",
         "summary": "接下来云南又要热闹啦演唱会接连不断这不又有新的演唱会上新快和昆宝看看温馨提示本地宝仅整理信息参考不作售票如歌的旅程——东风韵演唱会演出时间：2026年7月25日举办地点：云南弥勒东风韵景区演出嘉…",
@@ -4166,7 +4175,7 @@
         "time": "7月13日 22:31"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "title": "“汉尼拔”竟然发单曲了，88岁安东尼·霍普金斯将发布个人专辑",
         "source": "现代快报",
         "summary": "，88岁的两届奥斯卡奖得主安东尼·霍普金斯以作曲家身份发行了他的首支单曲。据唱片公司介绍，这首名为《Bracken Road》的单曲选自其“跨越六十余年创作的管弦乐作品集”，",
@@ -4175,7 +4184,7 @@
         "time": "7月13日 19:04"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "title": "低调回归？小杨哥徒弟「红绿灯的黄」国内正式复播，网友并不买账",
         "source": "雷科技",
         "summary": "日前，三只羊旗下曾经的头部主播黄婧妍，也就是大家熟悉的“红绿灯的黄”，正式在视频号复播了。图源：微博截图2022 年 10 月她被小杨哥签下，成了三只羊的大徒弟。",
@@ -4184,7 +4193,7 @@
         "time": "7月13日 17:21"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "title": "李健厦门演唱会即将开票！",
         "source": "海西晨报",
         "summary": "李健巡回演唱会厦门站将于7月15日10:18开启预售！你准备好了吗？演出时间：2026年8月8日19:30演出地点：厦门奥林匹克体育中心-凤凰体育馆※ 编辑：胡婧 ※ 校对：刘子纯※ 审核：廖桂金 陈祥旺※",
@@ -4193,7 +4202,7 @@
         "time": "7月13日 16:57"
       },
       {
-        "rank": 15,
+        "rank": 16,
         "title": "功夫女足》票房超5亿，登暑期档票房榜第二，迪丽热巴主演电影票房破10亿",
         "source": "红星新闻",
         "summary": "据猫眼专业版数据，2026年暑期档（6月1日-8月31日）总票房超30亿，《给阿嬷的情书》《功夫女足》《玩具总动员5》分列暑期档票房榜前三位。《功夫女足》上映首周登顶票房周榜。",
@@ -4202,7 +4211,7 @@
         "time": "7月13日 16:23"
       },
       {
-        "rank": 16,
+        "rank": 17,
         "title": "侏罗纪公园》男主山姆·尼尔逝世享年78岁，曾抗癌成功感动影迷",
         "source": "爱德华Action",
         "summary": "7月13日，曾主演《侏罗纪公园》、《钢琴课》等经典电影的知名好莱坞男演员山姆·尼尔（Sam Neill）在悉尼去世，享年78岁。他的家人随后公开发表声明确认了这一不幸的消息。",
@@ -4211,7 +4220,7 @@
         "time": "7月13日 14:35"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "title": "电影《想你了》发布终极海报 7月17日上映",
         "source": "新黄河",
         "summary": "电影《想你了》发布终极海报，画面中高凡(章若楠饰)与汪美丽(金靖饰)共戴一副有线耳机，在温润如琥珀的暖色光晕下侧头相视而笑。一条小小的黑色连线，巧妙勾勒出女孩之间无需言语的深层默契。",
@@ -4220,7 +4229,7 @@
         "time": "7月13日 14:14"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "title": "年近80岁的易中天，为什么用百万积分做一部AI精品电影？｜独家专访",
         "source": "极客电影",
         "summary": "这不是“老先生赶AI热潮”是如何用AI把传统文化故事进行现代化创新落地 文 | 子路编辑 | 佛耶戈欢迎在小宇宙APP订阅：FoST未来叙事收听我们出品的播客节目《AI超创快上车！》 AI超创圈子越来越扩大了。",
@@ -4229,7 +4238,7 @@
         "time": "7月13日 14:06"
       },
       {
-        "rank": 19,
+        "rank": 20,
         "title": "电影《功夫女足》进入年度票房榜前十 票房预测再上调",
         "source": "新黄河",
         "summary": "据猫眼专业版数据，电影《功夫女足》上映第2天，累计票房(含预售)超3.45亿元，进入2026年度票房榜前十。据灯塔专业版实时数据，截至7月12日22时44分，影片《功夫女足.... 共 50 条搜索结果，还有更多结果",
@@ -4238,7 +4247,7 @@
         "time": "7月13日 13:49"
       },
       {
-        "rank": 20,
+        "rank": 21,
         "title": "小黄人与大怪兽》正在热映，导演亲口证实：小黄人永生不死，繁殖方式保密、二战时躲在洞里",
         "source": "娱乐嗑学家",
         "summary": "2026年暑期档，小黄人系列新作《小黄人与大怪兽》正在热映。这部由环球影业与照明娱乐联合打造的动画电影，将标志性黄萌军团首次带入了1920年代的好莱坞默片时代。",
@@ -4247,7 +4256,7 @@
         "time": "7月12日 23:02"
       },
       {
-        "rank": 21,
+        "rank": 22,
         "title": "艺人在线公开讨薪，暴露内娱综艺深层危机",
         "source": "北京日报客户端",
         "summary": "近日，一档综艺节目因录制中断、艺人纷纷在线讨薪而成为舆论焦点。正在录制中的《开放营业中》因资金链断裂导致拍摄中止，艺人停录罢演，留守的部分艺人也无奈成为自费“合伙人”，被迫打起了“黑工”，更有艺人在社交媒体曝出，该节目总导演两年前就曾有欠薪行为。",
@@ -4256,7 +4265,16 @@
         "time": "7月12日 20:49"
       },
       {
-        "rank": 22,
+        "rank": 23,
+        "title": "无人机编队表演舞蹈与特技",
+        "source": "X：fofr (@fofrAI)",
+        "summary": "在繁忙交通堵塞上空，小型无人机搭载舞者表演宝莱坞舞蹈，每架无人机一人，聚焦舞蹈动作。（SD2） 啦啦队员身穿飞行服，在游乐园上空的无人机上进行特技表演，最后组成人塔，由地面业余电影人拍摄，白天。",
+        "url": "https://x.com/fofrAI/status/2078624943021928715",
+        "heat": 8,
+        "time": "7月19日 7:36"
+      },
+      {
+        "rank": 24,
         "title": "Anthropic 为 IPO 铺路，以最高 60 万美元年薪重金招聘投资者关系总监",
         "source": "IT之家（RSS）",
         "summary": "Anthropic 正为最早于今年秋季启动的 IPO 扩建投资者关系团队，最新发布的总监职位基本年薪达 42.5 万至 60 万美元。新总监需构建说服资本市场的\"投资叙事\"，并充当大型投资者与管理层的主要沟通渠道。",
@@ -4265,7 +4283,7 @@
         "time": "7月18日 8:59"
       },
       {
-        "rank": 23,
+        "rank": 25,
         "title": "Codex 5.6 Sol 让《过山车大亨2》原生登陆iPad",
         "source": "X：Ethan Mollick (@emollick)",
         "summary": "开发者用 Codex 5.6 Sol 将《过山车大亨2》编译为原生 ARM64 iPad 应用，并构建了触控操作层。过山车建造、场景和公园管理均可通过触控完成，这是该游戏首次在 iPad 上原生运行。",
@@ -4274,7 +4292,7 @@
         "time": "7月18日 1:24"
       },
       {
-        "rank": 24,
+        "rank": 26,
         "title": "东莞2场大型演唱会即将开票！",
         "source": "东莞本地宝",
         "summary": "宝子们注意啦黎明ROBBABA东莞站演唱会明日即将公售还有A‑Lin黄丽玲歌迹Journey巡演东莞站加场预售快和小编一起来看看吧~注：演唱会、演出如有变动，请以主办方最新通知为准！",
@@ -4283,7 +4301,7 @@
         "time": "7月15日 21:21"
       },
       {
-        "rank": 25,
+        "rank": 27,
         "title": "AL首秀击败DK！难解问题老秀打不动新秀小心脏",
         "source": "游戏马蹄铁",
         "summary": "★游戏马蹄铁原创AL首秀对战DK​赛前看起来倒像是一场势均力敌的较量，各有一些长处，也都有各自的问题。而显然DK的问题更大，尤其是每当一到关键的比赛对局中，这些在常规赛表现很勇猛的新人，就像是缩水了一样，表现很糟糕。",
@@ -4292,7 +4310,7 @@
         "time": "7月15日 21:03"
       },
       {
-        "rank": 26,
+        "rank": 28,
         "title": "当一部悬疑剧放弃反转与爽感，《悬案》凭啥还能让人欲罢不能？",
         "source": "扬眼",
         "summary": "不靠流量明星吸睛，不用花式反转堆砌，正在优酷与CCTV-8同步热播的《悬案》，凭借纪实质感的镜头语言与反套路叙事，在悬疑赛道中走出了一条“慢”路。改编自两起历时22年才告破的真实积案，《悬案》把“时间”本身推到台前，看似放弃了“爽剧快感”，却让观众在漫长的追凶岁月里，品出了正义的重量。",
@@ -4301,7 +4319,7 @@
         "time": "7月15日 20:18"
       },
       {
-        "rank": 27,
+        "rank": 29,
         "title": "AI剧又撞明星脸！生成角色神似胡歌引争议",
         "source": "鞭牛士",
         "summary": "7月15日消息，有网友发现某部AI剧的男主五官、气质神态高度神似演员胡歌，在社交平台发布相关内容：从剧照来看，确实很像胡歌：在这之前，也有网友发现某AI剧使用了胡歌肖像：相似度很高：在AI剧快速发展的环境下，AI虚拟角色外形神似知名明星早已不是个例。",
@@ -4310,16 +4328,18 @@
         "time": "7月15日 19:28"
       },
       {
-        "rank": 28,
+        "rank": 30,
         "title": "Vista 邀请多位朋友直播展示 Vibe Coding 作品",
         "source": "X：Vista (@vista8)",
         "summary": "Vista 于今晚20：00在飞书会议举办直播，邀请多位朋友每人用7分钟介绍自己的 Vibe Coding 作品或 FDE 项目。直播链接已公布，参与者可在开始前5分钟进入。",
         "url": "https://x.com/vista8/status/2078309612374433883",
         "heat": 7,
         "time": "7月18日 10:43"
-      },
+      }
+    ],
+    "mockEntertainmentExtra": [
       {
-        "rank": 29,
+        "rank": 31,
         "title": "ChatGPT 网站创作有奖征集活动",
         "source": "X：ChatGPT (@ChatGPTapp)",
         "summary": "ChatGPT 推出\"ChatGPT sites\"功能，用户可快速搭建游戏、展示摄影、发布研究等多种网站。官方发起有奖征集，分享你的网站即有机会赢取限量版周边礼盒（含已售罄的 ChatGPT 篮球）。",
@@ -4328,18 +4348,16 @@
         "time": "7月18日 7:44"
       },
       {
-        "rank": 30,
+        "rank": 32,
         "title": "Roblox 移动版将推出 AI 游戏创作工具\"Build\"，7 月 28 日开启 Alpha 测试",
         "source": "IT之家（RSS）",
         "summary": "Roblox 宣布移动版客户端将推出\"Build\"功能，用户通过简单提示词即可用 AI 生成基础游戏，无需编程技能。该功能由多种 AI 模型（含开源和自研模型）驱动，支持生成玩法、环境、角色、视觉风格和音效。",
         "url": "https://www.ithome.com/0/977/876.htm",
         "heat": 7,
         "time": "7月17日 9:31"
-      }
-    ],
-    "mockEntertainmentExtra": [
+      },
       {
-        "rank": 31,
+        "rank": 33,
         "title": "今天下午，加场开票！沈阳演唱会最新消息",
         "source": "指尖新闻沈阳晚报",
         "summary": "21万余名歌迷狂欢汪苏泷6场演唱会的热度未散这个周末开始任贤齐的六场演唱会要来了还有一个好消息8月的谢霆锋沈阳演唱会开票瞬间数万张门票售罄 也紧急加场了 今天下午，加场开票！",
@@ -4348,7 +4366,7 @@
         "time": "7月16日 12:12"
       },
       {
-        "rank": 32,
+        "rank": 34,
         "title": "2500万元电影消费券正式发放！2026年浙江省暑期电影消费季在温岭启幕",
         "source": "九派财经",
         "summary": "7月15日晚，东海之滨的温岭石塘镇小箬村七彩拾光广场灯光璀璨、人声鼎沸。海浪伴着渔歌，石屋映着光影，2026年浙江省暑期电影消费季启动仪式暨“跟着电影游浙江品美食”主题活动在此拉开帷幕。",
@@ -4357,7 +4375,7 @@
         "time": "7月16日 11:27"
       },
       {
-        "rank": 33,
+        "rank": 35,
         "title": "来青岛奥帆中心围观米其林PK黑珍珠！ 《百厨大战》美食嘉年华连办十天！可免票参与！",
         "source": "信网",
         "summary": "综艺《百厨大战》海报。（ 爆款综艺《百厨大战》线下美食嘉年华登陆青岛奥帆海洋文化旅游区，活动7月17日至26日免费对外开放，以美食精酿打造夏日滨海文旅消费新场景。",
@@ -4366,7 +4384,7 @@
         "time": "7月16日 9:46"
       },
       {
-        "rank": 34,
+        "rank": 36,
         "title": "正式官宣！周深2026巡回演唱会济南站，来了",
         "source": "爱济南",
         "summary": "燥热盛夏泉城音乐重磅福利来袭又一演唱会正式官宣实力歌手周深2026「深深的」巡回演唱会济南站震撼来袭无数歌迷和济南网友激动刷屏满屏都是期待与欢喜温柔歌声遇上济南盛夏晚风这场双向奔赴的音乐之约早已让人满心期待 实力歌手周深2026「深深的」巡回演唱会济南站演出时间：2026年8月22日/ 23日...",
@@ -4375,7 +4393,7 @@
         "time": "7月16日 9:44"
       },
       {
-        "rank": 35,
+        "rank": 37,
         "title": "Fountain 0 用 AI 生成《奥德赛》改编电影《Odysseus： The Fall》",
         "source": "The Verge：AI（RSS）",
         "summary": "电影工作室 Fountain 0 宣布正在制作一部 AI 生成的《奥德赛》改编电影《Odysseus： The Fall》，试图借克里斯托弗·诺兰新片《奥德赛》的热度吸引关注。这类 AI 生成电...",
@@ -4384,7 +4402,7 @@
         "time": "7月16日 4:00"
       },
       {
-        "rank": 36,
+        "rank": 38,
         "title": "为什么周星驰电影，他自己演就很搞笑，其他人演就“巨尴尬”?",
         "source": "令狐伯光",
         "summary": "文|令狐伯光我前段时间写了不少《功夫女足》的文章，关于周星驰电影演员演技已经写过了。一部影视作品，为什么演员的表演会让观众觉得别扭，很多时候并不是因为演员演技完全不行，甚至都不是演员演得不认真，就像《功夫女足》一样，张小斐不用说了，你都不能说迪丽热巴，张艺兴这两个流量明星演得不认真。",
@@ -4393,7 +4411,7 @@
         "time": "7月16日 0:35"
       },
       {
-        "rank": 37,
+        "rank": 39,
         "title": "DC电影《新蝙蝠侠 2》首曝先导预告片，影片延至2028年2月18日上映",
         "source": "红星新闻",
         "summary": "DC 独立宇宙超英电影《新蝙蝠侠2》今日放出一支先导预告片，由罗伯特 · 帕丁森饰演的蝙蝠侠出镜。不过令影迷感到失落的是，本片也迎来了又一次延期，现定于2028年2月18日上映。",
@@ -4402,7 +4420,7 @@
         "time": "7月15日 23:29"
       },
       {
-        "rank": 38,
+        "rank": 40,
         "title": "观影+旅游+美食，2026浙江暑期电影消费季在温岭启幕",
         "source": "极目新闻",
         "summary": "7月15日晚，东海之滨的浙江温岭石塘镇小箬村七彩拾光广场灯光璀璨、人声鼎沸。海浪伴着渔歌，石屋映着光影，2026年浙江省暑期电影消费季启动仪式暨“跟着电影游浙江品美食”主题活动在此拉开帷幕。",
@@ -4411,7 +4429,7 @@
         "time": "7月15日 23:04"
       },
       {
-        "rank": 39,
+        "rank": 41,
         "title": "跟着电影过暑假！2026年浙江省暑期电影消费季在温岭启动",
         "source": "潮新闻",
         "summary": "潮新闻客户端 记者 金然 何晓婷 郑天一 刘小小 7月15日晚，2026年浙江省暑期电影消费季启动仪式暨“跟着电影游浙江品美食”主题活动，在台州温岭石塘镇小箬村七彩拾光广场盛大启幕，在美食",
@@ -4420,7 +4438,7 @@
         "time": "7月15日 23:02"
       },
       {
-        "rank": 40,
+        "rank": 42,
         "title": "期待！合肥新一批演唱会定档/开票！",
         "source": "合肥本地宝",
         "summary": "合肥演唱会上新啦王赫野WINDY巡回演唱会林志炫ONEtake3.0《耳顺Golden Years》巡回演唱会已经审批通过此外还有两场演唱会明日开票陈楚生“荒芜之境”2026巡回演唱会-合肥站首开徐良“时间折叠”巡回演唱会-合肥站二开详细内容一起来看王赫野WINDY巡回演唱会截图源文化和旅游部...",
@@ -4429,7 +4447,7 @@
         "time": "7月15日 21:30"
       },
       {
-        "rank": 41,
+        "rank": 43,
         "title": "Reelful 利用 AI 将相册内容自动剪辑成短视频",
         "source": "TechCrunch：AI（RSS）",
         "summary": "前 Snapchat 工程师 Kate Deyneka 推出 iOS 应用 Reelful，用户输入提示词并录制 30 秒语音样本后，AI 即可自动规划脚本、添加配音和特效，将照片和视频剪辑成适配 TikTok 的短视频。该应用提供一次性购买（5 个视频 15 美元起）和订阅计划（Creato...",
@@ -4438,7 +4456,7 @@
         "time": "7月15日 21:00"
       },
       {
-        "rank": 42,
+        "rank": 44,
         "title": "周星驰《功夫女足》路演遇“初代郭靖”白彪，星爷变小影迷：从小看你电影长大",
         "source": "爱德华Action",
         "summary": "周星驰自编自导新作《功夫女足》自7月11日上映以来票房势头强劲，已经破7亿票房。连日来，周星驰带领一众演员四处谢票，在成都一站，一位香港武侠片传奇人物的意外现身，成为全场最大惊喜。",
@@ -4447,7 +4465,7 @@
         "time": "7月15日 15:16"
       },
       {
-        "rank": 43,
+        "rank": 45,
         "title": "大麦娱乐启动“麦芒计划”  直播招募新生代演艺人才",
         "source": "TechWeb",
         "summary": "7月13日消息，大麦娱乐今日宣布正式启动“麦芒计划”，通过网络直播形式公开招募新生代演艺人才，为行业输送更多兼具唱、跳、演实力与现场舞台感染力的演艺新人。根据官方介绍，“麦芒计划”即日起开放报名。",
@@ -4456,7 +4474,7 @@
         "time": "7月15日 13:08"
       },
       {
-        "rank": 44,
+        "rank": 46,
         "title": "天使的翅膀》原唱安琥巡演「相信你还在这里」威海站正式开票 相约8月8日蹦迪狂欢",
         "source": "诚利千代",
         "summary": "近日，华语乐坛实力唱作人、全能艺人安琥2026 年个人巡演威海站场次正式官宣开票，将于 8 月 8 日登陆山东威海核心音乐演出地标 66livehouse，带来「相信你还在这里」主题个人演唱会。",
@@ -4465,7 +4483,7 @@
         "time": "7月15日 11:00"
       },
       {
-        "rank": 45,
+        "rank": 47,
         "title": "迪士尼+：Faker将首次固定出演综艺节目——《谋杀俱乐部",
         "source": "虎扑体育内容",
         "summary": "虎扑07月15日讯 韩媒发文称Faker选手将首次固定出演综艺节目，原文具体内容如下： 15日，迪士尼+宣布《谋杀俱乐部》将于29日公开上线，并同步发布了主海报和主预告片。",
@@ -4474,7 +4492,7 @@
         "time": "7月15日 9:09"
       },
       {
-        "rank": 46,
+        "rank": 48,
         "title": "功夫女足》票房破7亿，又一档“黑马”电影定档，堪比《哪吒",
         "source": "楚楚号",
         "summary": "暑期档已经到来，多部电视剧都已经播出，开启同期对打模式，电影市场竞争也非常激烈，《功夫女足》票房直接突破7亿，正在稳步上升中，让大家没想到的是，又一部“黑马”电影定档，被指堪比《哪吒》，大家期待吗？",
@@ -4483,7 +4501,7 @@
         "time": "7月15日 6:53"
       },
       {
-        "rank": 47,
+        "rank": 49,
         "title": "尺度太大了！《姐姐当家2》能否为生活观察综艺破题？",
         "source": "新黄河",
         "summary": "《姐姐当家》第二季刚开播就成为今年夏天综艺市场的一匹黑马，尤其是明星嘉宾中邹市明夫妇和小鹿夫妇相关的短视频切片引发热议，从女性备孕的身心压力、生育年龄焦虑，到夫妻亲密相处细节、生育健康、婚姻真实经营",
@@ -4492,7 +4510,7 @@
         "time": "7月14日 20:49"
       },
       {
-        "rank": 48,
+        "rank": 50,
         "title": "诺兰写《奥德赛》遭亲儿子锐评：你剧本又没拿过奖",
         "source": "黑色玫瑰",
         "summary": "正在筹备史诗巨制《奥德赛》的导演克里斯托弗·诺兰近日分享了一段关于创作压力的趣事。他透露，在撰写《奥德赛》剧本期间，自己曾把办公室里的奥斯卡奖杯暂时移走，因为这些奖杯让他感到压力巨大，而儿子的回应却意外扎心。",
@@ -4501,7 +4519,7 @@
         "time": "7月14日 14:36"
       },
       {
-        "rank": 49,
+        "rank": 51,
         "title": "英国娱乐零售商协会谴责索尼PlayStation停产实体游戏：自私行为",
         "source": "IT之家",
         "summary": "IT之家 7 月 14 日消息，据外媒 VGC 今天（14 日）报道，代表英国实体及数字娱乐产品零售业的娱乐零售商协会（下称 ERA）公开抨击索尼停止生产 PlayStation 游戏光盘版的行为。该协会认为，索尼为了自身方便牺牲了玩家的选择权。",
@@ -4510,7 +4528,7 @@
         "time": "7月14日 9:35"
       },
       {
-        "rank": 50,
+        "rank": 52,
         "title": "纪念施南生｜香港电影真正的大女主，定义了制片人最体面最专业的模样",
         "source": "澎湃新闻",
         "summary": "施南生识人有度、成人之美，是香港影坛的 “定盘星”，谈起制片人的成功秘诀，她答得直白：“不要亏本，不要丢脸，多年之后回头看自己的作品时不后悔。”她代表了电影工业里最专业的制片人：不是资本的传声筒，不是创作的绊脚石，而是创作者的铠甲与后盾，相信电影的价值和专业的力量。",
@@ -4519,7 +4537,7 @@
         "time": "7月14日 7:56"
       },
       {
-        "rank": 51,
+        "rank": 53,
         "title": "义乌将连开两场演唱会！",
         "source": "爱义乌",
         "summary": "你的歌单里是华语流行歌曲多？还是经典英文歌曲更多？从《Take Me To You Heart》到《海阔天空》从卡朋特到刘若英这些耳熟能详的歌马上就能在义乌听现场版7月18日15:00、19:30《昨日重现》经典英文歌曲演唱会《我们的爱》流行经典金曲演唱会同一天，同一个舞台两场演唱会在义乌文化...",
@@ -4528,7 +4546,7 @@
         "time": "7月14日 7:02"
       },
       {
-        "rank": 52,
+        "rank": 54,
         "title": "定了！她要来常州开演唱会",
         "source": "常观",
         "summary": "“我是女生，漂亮的女生～”没错~满载我们青春回忆的“天后”徐怀钰要来常州啦光致蜕变2026个人巡回演唱会常州站正式定档8月29日登陆新龙湖演艺中心提到徐怀钰谁的记忆里没有几首她的歌？",
@@ -4537,7 +4555,7 @@
         "time": "7月13日 11:29"
       },
       {
-        "rank": 53,
+        "rank": 55,
         "title": "Lorde 在音乐节公开批评 Ray-Ban Meta AI 眼镜\"不够性感",
         "source": "The Verge：AI（RSS）",
         "summary": "歌手 Lorde 在马德里 Real Cool 音乐节演出期间公开批评 AI 眼镜。她未点名具体品牌，但矛头很可能指向音乐节赞助商 Ray-Ban 与 Meta 合作推出的 AI 智能眼镜。",
@@ -4546,7 +4564,7 @@
         "time": "7月13日 4:10"
       },
       {
-        "rank": 54,
+        "rank": 56,
         "title": "东方算芯展出全球首颗软件定义近存计算3D AI芯片DF1000，算力达520 TFLOPS",
         "source": "IT之家（RSS）",
         "summary": "东方算芯在WAIC 2026首次展出全球首颗软件定义近存计算3D AI芯片DF1000，并获2026 SAIL奖。该芯片基于全国产供应链，采用3D混合键合晶圆级堆叠，在14nm工艺下实现520。",
@@ -4555,7 +4573,7 @@
         "time": "7月18日 10:39"
       },
       {
-        "rank": 55,
+        "rank": 57,
         "title": "ChatGPT 站点功能：一键搭建各类项目",
         "source": "X：ChatGPT (@ChatGPTapp)",
         "summary": "有了 ChatGPT 站点，你可以直接： 构建一个游戏。启动你的小生意。制作一个 OOO 交接页面。。ChatGPT 站点功能：一键搭建各类项目引发广泛关注，相关讨论持续升温。",
@@ -4564,7 +4582,7 @@
         "time": "7月18日 6:01"
       },
       {
-        "rank": 56,
+        "rank": 58,
         "title": "PixVerse Live 7月23日回归，聚焦Agent与Canvas",
         "source": "X：PixVerse (@PixVerse_)",
         "summary": "PixVerse Live 回归 - 7月23日周四，上午10-11点（太平洋时间）。从创意到可投入生产的视频直播。探索Agent、Canvas和Apps，以及社区机会。",
@@ -4573,7 +4591,7 @@
         "time": "7月17日 2:41"
       },
       {
-        "rank": 57,
+        "rank": 59,
         "title": "PixVerse 推出 AI 互动直播体验 Live Party",
         "source": "X：PixVerse (@PixVerse_)",
         "summary": "PixVerse 推出 PixVerse Live Party，一种早期互动直播式体验，由 AI 粉丝主持人 Reina 驱动。该实验性项目探索 AI 视频从生成质量转向用户参与的可能性，展示了...",
@@ -4582,7 +4600,7 @@
         "time": "7月16日 23:56"
       },
       {
-        "rank": 58,
+        "rank": 60,
         "title": "官宣！知名歌手要来福州开演唱会！",
         "source": "海峡都市报",
         "summary": "“我们依旧是少年”主题演唱会定档啦将于9月5日在福州举办演唱会将在福州海峡奥体中心体育场举办由知名歌手苏醒、王栎鑫、王铮亮陆虎、俞灏明、姚政演唱2007年快男选秀，是承载一代人热血与梦想的超级文化符号。成员历经岁月沉淀，已成为华语乐坛具有影响力的情怀标杆，拥有跨越年龄层的广泛受众与较高国民度。",
@@ -4591,7 +4609,7 @@
         "time": "7月16日 17:38"
       },
       {
-        "rank": 59,
+        "rank": 61,
         "title": "《生化危机》新电影细节公布！时间不长 僵尸不太多",
         "source": "黑色玫瑰",
         "summary": "《生化危机：爆发夜》是一部由《凶器》导演扎克·克雷格自编自导的动作恐怖片，改编自我们耳熟能详的《生化危机》游戏系列，同时也是《生化危机》电影的一次“重启”，影片即将于9月18日在美国正式上映。据IGN报道，美国大型连锁电影院线AMC也终于在近日公布了本片的片长，为1小时35分（95分钟）。",
@@ -4600,7 +4618,7 @@
         "time": "7月16日 17:15"
       },
       {
-        "rank": 60,
+        "rank": 62,
         "title": "分房、难孕、生意亏本…全员跌落滤镜的《姐姐当家2》哪有什么剧本？",
         "source": "伊姐看电影",
         "summary": "了解伊姐本人最新动态、参与线下活动加伊姐微信：eemoviekf04（不闲聊） 你如此特别，我又怎会失望 文 | 伊姐（周桂伊）《姐姐当家2》，开播第一期，就给我看哭了好几次。",
@@ -4609,7 +4627,7 @@
         "time": "7月16日 16:33"
       },
       {
-        "rank": 61,
+        "rank": 63,
         "title": "观众线下买到《功夫女足》空白票，怀疑被电影院“偷票房”；电影院称系误会：票纸潮湿没打上墨，相关员工已被停职",
         "source": "红星新闻",
         "summary": "电影《功夫女足》票房破8.8亿元，近期，有网友发帖质疑有电影院以手写票、空白票、不通过电影发行系统出机打票等方式“偷票房”。福建漳州一位网友吐槽，他在柜台买票时，打出来的票是空白的，朋友在网上买的票则是正常的。",
@@ -4618,7 +4636,7 @@
         "time": "7月16日 15:24"
       },
       {
-        "rank": 62,
+        "rank": 64,
         "title": "期待！又一演唱会定档广州白云！",
         "source": "白云融媒",
         "summary": "他是华语摇滚的传奇歌者是自带岁月力量的“音乐武侠”是无数人青春里最赤诚的声音11月7日赵传将在广州用最纯粹的嗓音复刻一代人的青春记忆带我们重回热血滚烫的年少时光赵传2026《当我们年轻的时候 》巡回演唱会·广州站他的歌声，懂你的崎岖；他的音乐，重播往事共情。",
@@ -4627,7 +4645,7 @@
         "time": "7月16日 15:21"
       },
       {
-        "rank": 63,
+        "rank": 65,
         "title": "诺兰的巅峰之作！ 媒体盛赞《奥德赛》电影",
         "source": "黑色玫瑰",
         "summary": "近日，知名好莱坞导演克里斯托弗·诺兰新片《奥德赛》首批影评出炉，不出所料，该片获得了影评人的一致好评。在烂番茄上，《奥德赛》新鲜度高达惊人的98%，而在评分网站Metacritic上也斩获了坚实的88分。",
@@ -4636,7 +4654,7 @@
         "time": "7月16日 15:07"
       },
       {
-        "rank": 64,
+        "rank": 66,
         "title": "“指环王”新电影《指环王：猎捕咕噜》正式开拍",
         "source": "Lee奇奥观影",
         "summary": "“指环王”新电影《指环王：猎捕咕噜》（Lord of the Rings: The Hunt for Gollum）于近日正式开拍，安迪·瑟金斯回归饰演咕噜并担任导演一职。",
@@ -4645,7 +4663,7 @@
         "time": "7月15日 16:21"
       },
       {
-        "rank": 65,
+        "rank": 67,
         "title": "浪姐7》“七公”来了！李小冉压轴三连唱，范玮琪演唱会变团建，女性群像戳人",
         "source": "烤娱",
         "summary": "都说《浪姐》“成团即解散”，但对于第7季参赛的姐姐来说，属于她们的故事还在延续。《浪姐7》已于6月27日正式收官，曾沛慈、张月、李小冉、叶一茜、徐洁儿等12位姐姐最终拿下成团席位。",
@@ -4654,7 +4672,7 @@
         "time": "7月12日 11:00"
       },
       {
-        "rank": 66,
+        "rank": 68,
         "title": "动画电影《小黄人与大怪兽》 上映 10 天总票房破 2 亿",
         "source": "IT之家",
         "summary": "IT之家 7 月 12 日消息，电影《小黄人大眼萌》 主角官方微博昨晚宣布，新片《小黄人与大怪兽》 上映 10 天，总票房破 2 亿。IT之家查询获悉，《小黄人与大怪兽》是《神偷奶爸》的衍生动画电影，由《神偷奶爸》系列和《小黄人大眼萌》导演之一皮埃尔 · 柯芬执导，他也是所有小黄人的配音，编剧...",
@@ -4663,7 +4681,7 @@
         "time": "7月12日 7:05"
       },
       {
-        "rank": 67,
+        "rank": 69,
         "title": "“在出生地和成长地汇报演出”，动画电影《八仙！》成都首映反响热烈",
         "source": "红星新闻",
         "summary": "7月11日下午，动画电影《八仙！》在成都举办了首映礼，现场观众反响热烈，更有影迷在互动环节玩梗片中神仙“有求必应”的设定，请配音演员用角色的声音为自己“现场赐福”。",
@@ -4672,7 +4690,7 @@
         "time": "7月11日 21:00"
       },
       {
-        "rank": 68,
+        "rank": 70,
         "title": "他要来长春开演唱会了",
         "source": "长春晚报",
         "summary": "7月10日，吉林省文化和旅游厅网站发布《吉文旅审〔2026〕350号关于准予北京锦华丽晟国际文化传媒有限公司举办2026宝石Gem「原石季节」巡回演唱会—长春站演出的许可决定》。",
@@ -4681,7 +4699,7 @@
         "time": "7月11日 20:45"
       },
       {
-        "rank": 69,
+        "rank": 71,
         "title": "突发！郑秀文演唱会延期，临时答谢会唱足十首歌，刘德华惊喜现身",
         "source": "光影娱说",
         "summary": "7月10日晚启德主场馆灯光亮起时，四万多歌迷攥着郑秀文《You & Mi》亚洲巡演终点站的门票进场，原定三天的正式演唱会因舞台故障刚官宣延期，换进来的是场连刘德华都空降的免费答谢会，前一秒还",
@@ -4690,7 +4708,7 @@
         "time": "7月11日 19:18"
       },
       {
-        "rank": 70,
+        "rank": 72,
         "title": "全新电影、剧集、游戏、出版及音乐巡演，《伍六七》亮相BW",
         "source": "澎湃新闻",
         "summary": "7月10日至12日，二次元文化盛会BilibiliWorld 2026在上海举办。啊哈娱乐携旗下人气IP“伍六七”参展，围绕《伍六七》世界打造沉浸式主题场景，并设置官方手游试玩、官方Coser互。",
@@ -4699,7 +4717,7 @@
         "time": "7月11日 19:04"
       },
       {
-        "rank": 71,
+        "rank": 73,
         "title": "网易MuMu模拟器与百度云手机达成战略合作，手游云玩新标杆",
         "source": "公众号：百度智能云（文心）",
         "summary": "网易MuMu模拟器与百度云手机达成战略合作，百度云手机全栈服务将集成至「掌上MuMu」客户端，支持游戏7x24小时云端运行，用户无需下载额外软件即可在任意设备获得旗舰级体验。百度云手机提供4K ...",
@@ -4708,7 +4726,7 @@
         "time": "7月16日 20:17"
       },
       {
-        "rank": 72,
+        "rank": 74,
         "title": "京东数字人技术助力「热血看球季」系列直播，品牌IP可自主走进直播间",
         "source": "公众号：京东JoyAI",
         "summary": "7月17日，京东数字人将技术支持「热血看球季・AI观赛团 陪你嗨看球」系列直播，让品牌IP以数字人形态自主进入直播间参与互动。该技术使品牌无需真人主播即可实现直播，降低运营成本并提升用户参与度。",
@@ -4717,7 +4735,7 @@
         "time": "7月16日 17:59"
       },
       {
-        "rank": 73,
+        "rank": 75,
         "title": "Roblox 在移动端推出 AI 游戏创建功能\"Build\"",
         "source": "TechCrunch：AI（RSS）",
         "summary": "Roblox 发布新功能\"Build\"，允许用户通过手机输入文字提示（如\"制作一个森林中的舒适冒险游戏\"）直接生成基础游戏，无需编程经验。该功能由开源和 Roblox 自有的 AI 模型驱动，可...",
@@ -4726,7 +4744,7 @@
         "time": "7月17日 2:22"
       },
       {
-        "rank": 74,
+        "rank": 76,
         "title": "MeDo黑客松获奖项目Craf-te发布",
         "source": "X：百度 Baidu (@Baidu_Inc)",
         "summary": "Build with MeDo 黑客松的获奖项目之一？Craf-te，一个五天建成的 AI 驱动设计平台。@Bioba_daniel 创建它，旨在帮助用户更快制作传单、海报和营销物料，无需从零开始。",
@@ -4735,7 +4753,7 @@
         "time": "7月15日 22:00"
       },
       {
-        "rank": 75,
+        "rank": 77,
         "title": "本周日，五华区图书馆邀您免费看电影",
         "source": "昆明五华发布",
         "summary": "各位小伙伴7月19日（本周日） 14:00五华区图书馆将上映《奶奶的家》五小布邀请您免费看电影来源 | 区图书馆编辑 | 胡韦弦编审 | 孙啸武 崔志超终审 | 卢婵 黄元杰转载请联系我们或注明出处！",
@@ -4744,7 +4762,7 @@
         "time": "7月15日 16:19"
       },
       {
-        "rank": 76,
+        "rank": 78,
         "title": "阿里云AI视频方案：成本降47%",
         "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
         "summary": "阿里云推出AI视频生产方案，支持电影级画面与多镜头叙事，适用于游戏、营销、媒体和电商场景。该方案承诺在高批量AI视频创作中可节省高达47%的成本，旨在以更低投入实现规模化视频制作。",
@@ -4753,7 +4771,7 @@
         "time": "7月15日 11:24"
       },
       {
-        "rank": 77,
+        "rank": 79,
         "title": "Atomic Chat 将腾讯 Hy3 模型压缩至 1-bit 本地运行，速度超云 API 2...",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "summary": "Atomic Chat 将腾讯开源 295B 参数 MoE（21B 活跃参数）模型 Hy3 极端压缩至 1-bit，生成 92GB GGUF 文件。在 4 块 RTX 5090（128GB VRAM）上本地运行，速度达同模型云 API 的 2.2 倍。",
@@ -4762,7 +4780,7 @@
         "time": "7月15日 7:01"
       },
       {
-        "rank": 78,
+        "rank": 80,
         "title": "开发者用AI Coding复刻Mastermind猜颜色游戏",
         "source": "X：Vista (@vista8)",
         "summary": "开发者@vista8用AI Coding复刻了《世界游戏大全51》中的猜颜色游戏Mastermind，并新增3D效果与鼠标交互。项目已开源，支持手机端在线游玩。",
@@ -4771,7 +4789,7 @@
         "time": "7月15日 2:16"
       },
       {
-        "rank": 79,
+        "rank": 81,
         "title": "AI Coding复刻《世界游戏大全51》猜颜色游戏",
         "source": "X：Vista (@vista8)",
         "summary": "用户用AI Coding复刻了《世界游戏大全51》中的猜颜色游戏（原名Mastermind）。复刻版采用Three.js实现3D效果，并针对鼠标操作优化了交互体验。",
@@ -4780,7 +4798,7 @@
         "time": "7月14日 23:51"
       },
       {
-        "rank": 80,
+        "rank": 82,
         "title": "可灵AI助力新片《ODYSEEUS》预告发布",
         "source": "X：可灵 Kling AI (@Kling_ai)",
         "summary": "一个月前，Fountain 0 在翠贝卡电影节凭借《Dreams of Violets》创造了历史，这是首部被主流电影节接纳的 AI 长片。现在他们回来了--由 Ash Koosha 执导、可灵 AI 驱动的最新长片《ODYSEEUS： The Fall》预告片刚刚发布！",
@@ -4789,7 +4807,7 @@
         "time": "7月14日 23:00"
       },
       {
-        "rank": 81,
+        "rank": 83,
         "title": "英特尔前 CEO 盖尔辛格承认当年看不上英伟达 GPU",
         "source": "IT之家（RSS）",
         "summary": "英特尔前 CEO 帕特·盖尔辛格在 All-In Podcast 中承认，英特尔主导行业时曾对英伟达 GPU 不屑一顾，认为那只是游戏发烧友用的产品。他批评公司在他回归前五六年向股东发放了 1000 亿美元股息，而非投入制造业务。",
@@ -4798,7 +4816,7 @@
         "time": "7月18日 10:22"
       },
       {
-        "rank": 82,
+        "rank": 84,
         "title": "乒乓球全锦赛：王楚钦/孙颖莎晋级混双四强",
         "source": "新京报",
         "summary": "乒乓球全锦赛：王楚钦/孙颖莎晋级混双四强。乒乓球全锦赛：王楚钦/孙颖莎晋级混双四强引发广泛关注，相关讨论持续升温。该事件引发广泛讨论。",
@@ -4807,7 +4825,7 @@
         "time": "7月18日 17:55"
       },
       {
-        "rank": 83,
+        "rank": 85,
         "title": "中国足协通报申思、祁宏等“禁足”人员参与足球青训活动相关事件",
         "source": "新京报",
         "summary": "中国足协通报申思、祁宏等“禁足”人员参与足球青训活动相关事件。中国足协通报申思、祁宏等“禁足”人员参与足球青训活动相关事件引发广泛关注，相关讨论持续升温。",
@@ -4816,7 +4834,7 @@
         "time": "7月18日 17:55"
       },
       {
-        "rank": 84,
+        "rank": 86,
         "title": "世界杯｜图赫尔：英格兰队要力争60年来的最佳战绩",
         "source": "新京报",
         "summary": "世界杯｜图赫尔：英格兰队要力争60年来的最佳战绩。世界杯｜图赫尔：英格兰队要力争60年来的最佳战绩引发广泛关注，相关讨论持续升温。",
@@ -4825,7 +4843,7 @@
         "time": "7月18日 17:55"
       },
       {
-        "rank": 85,
+        "rank": 87,
         "title": "世界杯｜阿根廷主帅：希望决赛让所有人都能享受其中",
         "source": "新京报",
         "summary": "世界杯｜阿根廷主帅：希望决赛让所有人都能享受其中。世界杯｜阿根廷主帅：希望决赛让所有人都能享受其中引发广泛关注，相关讨论持续升温。",
@@ -4834,7 +4852,7 @@
         "time": "7月18日 17:55"
       },
       {
-        "rank": 86,
+        "rank": 88,
         "title": "世界杯｜法国主帅德尚：争第三也是一种责任",
         "source": "新京报",
         "summary": "世界杯｜法国主帅德尚：争第三也是一种责任。世界杯｜法国主帅德尚：争第三也是一种责任引发广泛关注，相关讨论持续升温。该事件引发广泛讨论。",
@@ -4843,7 +4861,7 @@
         "time": "7月18日 17:55"
       },
       {
-        "rank": 87,
+        "rank": 89,
         "title": "世界杯 | 西班牙主帅：决赛要忠于自我 亚马尔身体状况良好",
         "source": "新京报",
         "summary": "世界杯 | 西班牙主帅：决赛要忠于自我 亚马尔身体状况良好。世界杯 | 西班牙主帅：决赛要忠于自我 亚马尔身体状况良好引发广泛关注，相关讨论持续升温。",
@@ -4852,7 +4870,7 @@
         "time": "7月18日 17:55"
       },
       {
-        "rank": 88,
+        "rank": 90,
         "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一",
         "source": "MarkTechPost（RSS）",
         "summary": "NVIDIA 发布 Nemotron 3 Embed 系列，包含三个开源 checkpoint，其中 8B-BF16 版本在 RTEB 基准上以 78.46 的平均 NDCG@10 排名第一。",
@@ -4861,7 +4879,7 @@
         "time": "7月17日 15:53"
       },
       {
-        "rank": 89,
+        "rank": 91,
         "title": "电影《功夫女足》票房破8亿，领跑2026暑期档票房榜",
         "source": "极目新闻",
         "summary": "据灯塔专业版实时数据，截至7月15日16时23分，影片《功夫女足》票房突破8亿元。据灯塔专业版，截至7月15日，持续领跑2026暑期档票房榜。",
@@ -4870,7 +4888,7 @@
         "time": "7月15日 19:09"
       },
       {
-        "rank": 90,
+        "rank": 92,
         "title": "潮评丨动画电影屡屡出圈，真人电影该反思",
         "source": "潮新闻",
         "summary": "潮新闻客户端 评论员 王彬 图源：电影《八仙！》官博 截至目前，今年暑期档口碑最亮眼的，是《三国第一部：争洛阳》《八仙！",
@@ -4879,7 +4897,7 @@
         "time": "7月14日 14:52"
       },
       {
-        "rank": 91,
+        "rank": 93,
         "title": "施南生离世：香港电影重要推手，导演徐克灵魂拍档，众好友深情缅怀",
         "source": "尧耳的娱乐天堂",
         "summary": "7月13日深夜，香港电影制作公司“电影工作室”发布哀告： 我们最敬爱的施南生女士，自2022年起因免疫系统出现问题，健康状况一直未如理想。",
@@ -4888,7 +4906,7 @@
         "time": "7月14日 0:58"
       },
       {
-        "rank": 92,
+        "rank": 94,
         "title": "周星驰导演电影《功夫女足》登顶 2026 年暑期档票房榜",
         "source": "IT之家",
         "summary": "IT之家 7 月 13 日消息，据猫眼专业版数据，电影《功夫女足》上映 3 天，总票房（含预售）超 5.6841 亿，登顶 2026 年暑期档票房榜。",
@@ -4897,7 +4915,7 @@
         "time": "7月13日 23:50"
       },
       {
-        "rank": 93,
+        "rank": 95,
         "title": "揭秘短剧演员的“新日子”：头部转型综艺，腰部回乡卖菜",
         "source": "娱乐资本论",
         "summary": "揭秘短剧演员的“新日子”：头部转型综艺，腰部回乡卖菜。“已经解约了。” 这是最近小娱在各个短剧公司打听之前熟悉的演员名字时，得到的最多的答案。",
@@ -4906,7 +4924,7 @@
         "time": "7月13日 23:10"
       },
       {
-        "rank": 94,
+        "rank": 96,
         "title": "《功夫女足》爆火！暑期档电影又行了？",
         "source": "十块爱吃瓜",
         "summary": "《功夫女足》爆火！暑期档电影又行了？。朋友们，今年的电影圈有点冷。春节档之后，只有一部《给阿嬷的情书》票房口碑双丰收。（十块爱吃瓜报道）",
@@ -4915,7 +4933,7 @@
         "time": "7月13日 20:04"
       },
       {
-        "rank": 95,
+        "rank": 97,
         "title": "“芒乡有情 让爱传递”——2026年百色·田东芒果文化活动月自家人明星公益演唱会温暖唱响",
         "source": "广西卫视",
         "summary": "7月10日晚，田东县草坪集市歌声飞扬、爱心涌动。“芒乡有情 让爱传递”——2026年百色·田东芒果文化活动月自家人明星公益演唱会温情上演。",
@@ -4924,7 +4942,7 @@
         "time": "7月13日 17:12"
       },
       {
-        "rank": 96,
+        "rank": 98,
         "title": "曾主演《侏罗纪公园》的山姆•尼尔78岁去世，曾透露患血液癌，坦言还想再活十年",
         "source": "红星新闻",
         "summary": "新西兰知名演员山姆•尼尔于当地时间13日离世，享年78岁。尼尔出演过多部奥斯卡获奖影片，并因《侏罗纪公园》系列等票房大作广受全球观众喜爱。",
@@ -4933,7 +4951,7 @@
         "time": "7月13日 16:30"
       },
       {
-        "rank": 97,
+        "rank": 99,
         "title": "BW2026闭幕：外国游客远道而来，沉浸式感受中国动漫游戏展会活力",
         "source": "新民晚报",
         "summary": "7月12日，为期三天的2026 BilibiliWorld（BW）在上海国家会展中心落下帷幕。本届展会启用8个展馆，展览总面积达24万平方米。",
@@ -4942,7 +4960,7 @@
         "time": "7月13日 13:47"
       },
       {
-        "rank": 98,
+        "rank": 100,
         "title": "TVB前花旦回港红裙造型获赞，用10天录新歌，巡演12场目标红馆",
         "source": "剧透社娱乐",
         "summary": "41岁的钟嘉欣结婚后长期与丈夫及三个子女生活在加拿大，近年明显减少拍剧，把更多时间留给家庭。不过她没有完全离开娱乐圈，只是把工作重心慢慢转到音乐和演唱会。",
@@ -4951,7 +4969,7 @@
         "time": "7月13日 12:22"
       },
       {
-        "rank": 99,
+        "rank": 101,
         "title": "上海暑假（7-8月）演唱会汇总",
         "source": "上海本地宝",
         "summary": "暑假期间上海超多精彩演唱会来袭 一起来看看有你喜欢的歌手吗～ 温馨提示 本地宝仅整理信息参考，不作售票 文旅局审批仅供参考 以主办方官宣定档为准",
@@ -4960,7 +4978,7 @@
         "time": "7月13日 12:01"
       },
       {
-        "rank": 100,
+        "rank": 102,
         "title": "审批通过！厦门演唱会+2！演唱会最新排期表",
         "source": "厦门本地宝",
         "summary": "各位歌迷朋友注意啦厦门演唱会又有新消息啦！TizzyT、王赫野厦门演唱会审批通过李健演唱会即将开票厦宝带来了厦门演唱会最新排期表来看看有你喜欢的歌手吗？",
@@ -4969,7 +4987,7 @@
         "time": "7月13日 11:52"
       },
       {
-        "rank": 101,
+        "rank": 103,
         "title": "妮可基德曼与“穿普拉达的女王”安娜同框看温网，“波波头”经典造型抢镜",
         "source": "娱乐嗑学家",
         "summary": "当地时间7月12日，2026年温布尔登网球锦标赛男单决赛在全英俱乐部中心球场打响。世界排名第一的卫冕冠军辛纳与二号种子兹维列夫上演巅峰对决。",
@@ -4978,7 +4996,7 @@
         "time": "7月13日 10:17"
       },
       {
-        "rank": 102,
+        "rank": 104,
         "title": "周星驰作品《功夫女足》上映2日票房破5亿，预测总票房超20亿！已打破9项影史纪录！周星驰路演现...",
         "source": "经视直播",
         "summary": "据灯塔专业版实时数据，截至7月12日22时44分，影片《功夫女足》票房突破5亿，总票房预测大幅上调至超20亿，位列2026年度电影票房榜第8！",
@@ -4987,7 +5005,7 @@
         "time": "7月13日 9:18"
       },
       {
-        "rank": 103,
+        "rank": 105,
         "title": "游戏、动漫爱好者狂欢，BW展会拉动上海酒店预订量翻倍增长",
         "source": "南方都市报",
         "summary": "7月12日，泛指二次元）展会BilibiliWorld2026（以下简称 “BW”）于上海国家会展中心结束为期三天的展出。",
@@ -4996,7 +5014,7 @@
         "time": "7月12日 23:49"
       },
       {
-        "rank": 104,
+        "rank": 106,
         "title": "张家界大庸古城焕新 演唱会音乐节接连上演，知名艺人纷纷亮相",
         "source": "封面新闻",
         "summary": "张家界报道 7月12日晚，《大庸青春芒果音乐节》在张家界大庸古城开启，万妮达、盘尼西林、乌兰图雅、邓典等音乐人亮相，与游客共享夏日热辣。",
@@ -5005,7 +5023,7 @@
         "time": "7月12日 19:34"
       },
       {
-        "rank": 105,
+        "rank": 107,
         "title": "电影《功夫女足》首日票房破2亿",
         "source": "界面新闻",
         "summary": "据灯塔专业版实时数据，影片《功夫女足》今日上映，首日票房已突破2亿元。... 共 50 条搜索结果，还有更多结果",
@@ -5014,7 +5032,7 @@
         "time": "7月11日 18:54"
       },
       {
-        "rank": 106,
+        "rank": 108,
         "title": "半年三度换帅，郑钦文开启美网抢分关键战",
         "source": "潮新闻",
         "summary": "潮新闻客户端 记者 王萍琴 北京时间7月13日，郑钦文首轮将对阵6号种子、西班牙选手博萨斯·马内罗。",
@@ -5023,7 +5041,7 @@
         "time": "7月13日 7:37"
       },
       {
-        "rank": 107,
+        "rank": 109,
         "title": "喜剧探案动画电影《大唐妖探》释出“限时解谜”版预告 8月8日上映",
         "source": "新黄河",
         "summary": "喜剧探案动画电影《大唐妖探》释出“限时解谜”版预告。离奇案件突发，大理寺实习捕快狼妖阿萨被冤枉成罪犯，幸好有天才侦探狄少提供帮助。",
@@ -5032,7 +5050,7 @@
         "time": "7月15日 20:04"
       },
       {
-        "rank": 108,
+        "rank": 110,
         "title": "赵本山彻底退出演艺工作，沈腾能接棒新一代喜剧王者吗？",
         "source": "窥娱",
         "summary": "赵本山的女儿球球在最近的一次直播中表示，赵本山已经彻底退出了演艺事业，进入到处遛弯阶段。7月13日，透露赵本山目前已彻底退出演艺工作。",
@@ -5041,7 +5059,7 @@
         "time": "7月15日 19:50"
       },
       {
-        "rank": 109,
+        "rank": 111,
         "title": "影迷大喊欠周星驰一张电影票，周星驰现场回应：有没有搞错啊？《功夫女足》票房破8亿元，预测票房已...",
         "source": "每日经济新闻",
         "summary": "据灯塔专业版实时数据，截至7月15日16时23分，影片《功夫女足》票房突破8亿元。另据猫眼专业版，《功夫女足》最新预测总票房已超30亿元。",
@@ -5050,7 +5068,7 @@
         "time": "7月15日 19:28"
       },
       {
-        "rank": 110,
+        "rank": 112,
         "title": "片尾有南京“彩蛋”，电影《八仙！》主创来宁畅聊“凡人八仙”",
         "source": "扬眼",
         "summary": "近日，东方梦工厂总裁、电影《八仙！》总监制应旭珺、导演兼编剧牟正洋、制片人曹林林携影片亮相南京站路演。",
@@ -5059,7 +5077,7 @@
         "time": "7月16日 11:38"
       },
       {
-        "rank": 111,
+        "rank": 113,
         "title": "审批定档！成都多场演唱会上新啦！",
         "source": "成都本地宝",
         "summary": "最新消息 成都多场演唱会官宣定档 罗云熙、王赫野、李荣浩、温岚等 另外张韶涵开票时间定了 快看有你想去的吗？",
@@ -5068,7 +5086,7 @@
         "time": "7月15日 20:59"
       },
       {
-        "rank": 112,
+        "rank": 114,
         "title": "暑期档只需要一种电影",
         "source": "方君荐电影",
         "summary": "（本文回答提问：“如何看待喜剧动画电影《八仙！》提档到 2026 年 7 月 18 日上映，票房能否赶超周星驰新电影？",
@@ -5077,7 +5095,7 @@
         "time": "7月15日 18:39"
       },
       {
-        "rank": 113,
+        "rank": 115,
         "title": "南京八大匹克球场地，总有一片让你“挥拍上瘾”",
         "source": "看法视频",
         "summary": "暑假到了，空调房待腻了吧？别急着回答“是”，先想想——上次出汗是什么时候？上次和朋友笑到肚子疼是什么时候？",
@@ -5086,7 +5104,7 @@
         "time": "7月15日 13:05"
       },
       {
-        "rank": 114,
+        "rank": 116,
         "title": "麦当娜，撑不起一部音乐传记片？",
         "source": "音乐先声",
         "summary": "麦当娜的传记片，终于还是黄了。刚发新专辑的传奇天后麦当娜确认，其亲自编剧、执导、选角的个人传记电影项目正式终止。",
@@ -5095,7 +5113,7 @@
         "time": "7月14日 22:45"
       },
       {
-        "rank": 115,
+        "rank": 117,
         "title": "施南生走后，香港电影再无「女频顶流」？",
         "source": "四味毒叔",
         "summary": "有了施南生，新艺城、徐克乃至香港电影人才知道“到人民群众中找好故事”的重要性。以及——“这事，你一个人说了不算。",
@@ -5104,7 +5122,7 @@
         "time": "7月14日 19:43"
       },
       {
-        "rank": 116,
+        "rank": 118,
         "title": "周星驰在回血，可《功夫女足》不是一部“好电影”",
         "source": "邑人电影院",
         "summary": "2002年，日韩世界杯是中国队唯一打进决赛圈的一次经历。决赛圈中的表现没啥好说的，0分0进球3连败结束了世界杯之旅。",
@@ -5113,7 +5131,7 @@
         "time": "7月14日 11:19"
       },
       {
-        "rank": 117,
+        "rank": 119,
         "title": "央视将播！55集历史大剧来了！于和伟、王劲松领衔，这剧不爆都难",
         "source": "草本纪年",
         "summary": "这一段时间，影视圈最火的，讨论度最高的，无疑是星爷的新电影——《功夫女足》。就目前看来，25亿票房，问题应该不大。",
@@ -5122,7 +5140,7 @@
         "time": "7月13日 19:18"
       },
       {
-        "rank": 118,
+        "rank": 120,
         "title": "带孩子看周星驰，不是笑笑就完了！他每一部电影都在教这件事！",
         "source": "哈喽王叔",
         "summary": "昨天，《功夫女足》上映了。还没来得及看，但我想写写这个话题。首先，我是为数不多不欠周星驰电影票的人。",
@@ -5131,7 +5149,7 @@
         "time": "7月13日 9:49"
       },
       {
-        "rank": 119,
+        "rank": 121,
         "title": "43岁安妮·海瑟薇挺孕肚亮相红毯！官宣怀三胎宝宝是“最美配饰”",
         "source": "爱德华Action",
         "summary": "近日，由克里斯托弗·诺兰（Christopher Nolan）执导的史诗巨制《奥德赛》（Odyssey）在纽约举行了盛大的首映礼。",
@@ -5140,7 +5158,7 @@
         "time": "7月15日 13:11"
       },
       {
-        "rank": 120,
+        "rank": 122,
         "title": "一周演出推荐 | 夏日好戏开演，各类京彩任您选！",
         "source": "北京日报客户端",
         "summary": "夏日好戏开演！去京西首钢园看场杂技大秀，化身《武林外传》《茶馆》里的“剧中人”，到国家体育馆赏洛天依演唱会与国风“锦绣”的融合……我们现场见！",
@@ -5149,7 +5167,7 @@
         "time": "7月15日 11:38"
       },
       {
-        "rank": 121,
+        "rank": 123,
         "title": "喜剧动画电影 《八仙！》提档7月18日，预售总票房破3000万",
         "source": "潮新闻",
         "summary": "潮新闻客户端 记者 陆芳 据猫眼专业版数据，喜剧动画电影《八仙！》提档至7月18日上映，截止7月14日19时57分，映前4天点映及预售总票房破3000万。",
@@ -5158,7 +5176,7 @@
         "time": "7月14日 21:17"
       },
       {
-        "rank": 122,
+        "rank": 124,
         "title": "国产动画电影《八仙！》宣布提档至 7 月 18 日上映",
         "source": "IT之家",
         "summary": "IT之家 7 月 14 日消息，国产动画电影《八仙！》今日发布乘风破浪版海报，并宣布提档至 7 月 18 日上映（原定 7 月 24 日）。",
@@ -5167,7 +5185,7 @@
         "time": "7月14日 10:25"
       },
       {
-        "rank": 123,
+        "rank": 125,
         "title": "Viggle 推出自研文本转动作模型",
         "source": "X：Viggle AI (@ViggleAI)",
         "summary": "介绍我们内部自研的全新文本转动作模型，现已上线 @Viggle_PINOC！输入动作描述，即可生成动画，该技术进展正在推动人工智能行业加速发展。",
@@ -5176,7 +5194,7 @@
         "time": "7月16日 23:50"
       },
       {
-        "rank": 124,
+        "rank": 126,
         "title": "“刘姥姥”沙玉华去世",
         "source": "北京日报客户端",
         "summary": "7月15日凌晨，一级演员、87版电视剧《红楼梦》中刘姥姥扮演者沙玉华在北京去世，享年95岁。沙玉华在87版《红楼梦》中饰演刘姥姥。",
@@ -5185,7 +5203,7 @@
         "time": "7月16日 17:04"
       },
       {
-        "rank": 125,
+        "rank": 127,
         "title": "昔日奥斯卡女神佩吉“变身”后亮相！罕见携女友走红毯十指紧扣显默契",
         "source": "爱德华Action",
         "summary": "7月15日，由克里斯托弗·诺兰执导的史诗巨制《奥德赛》（The Odyssey）在纽约举办了盛大的首映礼。除主创团队外，现场更是星光璀璨。",
@@ -5194,7 +5212,7 @@
         "time": "7月16日 16:35"
       },
       {
-        "rank": 126,
+        "rank": 128,
         "title": "电影《功夫女足》刚上映就遭遇严重盗摄！直播盗摄超50分钟、“枪版”资源公然售卖低至0.8元……法律怎么看？",
         "source": "法治日报",
         "summary": "由周星驰执导的新片《功夫女足》上映第四天累计票房就突破了7亿元，势头强劲。高热度背后，《功夫女足》却遭遇了严重的院线盗摄。",
@@ -5203,7 +5221,7 @@
         "time": "7月15日 15:17"
       },
       {
-        "rank": 127,
+        "rank": 129,
         "title": "这节目遇到张雅琪，也算是遇到综艺之神了",
         "source": "星宿影视鸭",
         "summary": "文案|冻冻 编辑|潇声 《中餐厅10》正在热播，其实这一季节目看点挺少的。除了王俊凯这个流量大咖之外，其他嘉宾都没什么话题度。",
@@ -5212,31 +5230,13 @@
         "time": "7月14日 11:27"
       },
       {
-        "rank": 128,
+        "rank": 130,
         "title": "7.18 AI Coding 实战直播分享会",
         "source": "X：Vista (@vista8)",
         "summary": "六（7.18）晚8点，11位朋友将进行AI Coding作品展示、技巧分享及FDE落地项目避坑经验直播。每人7分钟，只讲一手实战干货。",
         "url": "https://x.com/vista8/status/2077728143352447115",
         "heat": 6,
         "time": "7月16日 20:12"
-      },
-      {
-        "rank": 129,
-        "title": "模型token赠送成惊喜，规划支出如赌博",
-        "source": "X：Ethan Mollick (@emollick)",
-        "summary": "我觉得有趣的是，大家总是意外收到更多模型token作为惊喜礼物，但奇怪的是，规划token支出如今成了一场赌博游戏，该技术进展正在推动人工智能行业加速发展。",
-        "url": "https://x.com/emollick/status/2077629800508801471",
-        "heat": 6,
-        "time": "7月16日 13:41"
-      },
-      {
-        "rank": 130,
-        "title": "等待AI输出时人类该玩点放置游戏",
-        "source": "X：Ethan Mollick (@emollick)",
-        "summary": "等待30分钟就能完成几周的工作，这种感觉真是漫长又好笑。真的需要在Codex里集成放置点击游戏，让我们在等待输出时有事可做。",
-        "url": "https://x.com/emollick/status/2077411651834232843",
-        "heat": 6,
-        "time": "7月15日 23:15"
       }
     ],
     "mockStockNews": [
@@ -6585,12 +6585,12 @@
       },
       {
         "rank": 150,
-        "title": "谷歌 DeepMind CEO 哈萨比斯：AI 不会令 STEM 学位失去价值",
-        "source": "IT之家（RSS）",
-        "summary": "谷歌 DeepMind CEO 德米斯·哈萨比斯表示，AI 虽在重塑科技行业，但 STEM 学位不会因此失去价值。他认为掌握软件和计算机科学基础知识能帮助人们更有效使用 AI，深入理解技术的人。",
-        "url": "https://www.ithome.com/0/978/332.htm",
-        "heat": 7,
-        "time": "7月18日 7:11"
+        "title": "开源模型降低token价格或拖慢AGI进程",
+        "source": "X：Nathan Lambert (@natolambert)",
+        "summary": "Nathan Lambert 认同\"开源权重模型可能延缓AGI\"的逻辑链：开源模型压低可接受的token价格，导致利润率下降，进而减少大实验室的投资与收入，最终拖慢研究进度。他认为美国在投资上仍可能领先，因此开源模型+美国领导力+更多理解AI的时间，对各方都是胜利。",
+        "url": "https://x.com/natolambert/status/2078611093988233639",
+        "heat": 8,
+        "time": "7月19日 6:41"
       }
     ],
     "mockHenanNews": [
@@ -6602,6 +6602,96 @@
         "url": "https://view.inews.qq.com/a/20260716A02ZEH00?scene=news-skill",
         "heat": 5,
         "time": "7月16日 8:51"
+      },
+      {
+        "rank": 2,
+        "title": "中超第19轮：成都蓉城战平青岛西海岸 河南队大胜青岛海牛",
+        "source": "chinanews.com.cn",
+        "summary": "中超第19轮：成都蓉城战平青岛西海岸 河南队大胜青岛海牛",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNOVcwNFA2ZXdEWkpxTDFkY28tYVFlcmNXNnJYanE3eGtMeUlzOUMwUnBVcXFFaHZFVWpVaVJ5cmh3X21kS05LVHRXN1NoTFVJdjN4dG9STXhzY1l3c2JucHBXODFKN3VU?oc=5",
+        "heat": 6,
+        "time": "7月18日 21:31"
+      },
+      {
+        "rank": 3,
+        "title": "中超第19轮：河南大胜海牛终结连败，国安遭铁人逼平，蓉城三连平引发关注",
+        "source": "手机新浪网",
+        "summary": "中超第19轮：河南大胜海牛终结连败，国安遭铁人逼平，蓉城三连平引发关注",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kZTN6YnJTRFh0MHA1TFlJb2RlUmNMcFgtS29GLTZSZkszT0poMHZQNElLOGJZdGgyWUY2dnpPVGppMUdMZ2k1STh0MDU2OGREYmljajRkNzJNcDR6WEFPMHUxSV9HaExveS1FWW5LNGYxZw?oc=5",
+        "heat": 6,
+        "time": "7月18日 17:42"
+      },
+      {
+        "rank": 4,
+        "title": "2026赛季中超联赛：河南俱乐部彩陶坊5比1胜青岛海牛",
+        "source": "搜狐网",
+        "summary": "2026赛季中超联赛：河南俱乐部彩陶坊5比1胜青岛海牛",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcV81Sk5DR0hEWnJlSnBybDZ2NGRhUXVoaTZHUmpSMlVHN0s2R0M1dk9rQWZCaXZQb2RUU3RMYkFXQk9jd0tWWFEzUGRmLUNwZlQyaWYwaWR6Slpwb3VHNFJLUXgwTkNCZHp6VDBpX180aG16ejRMdGZGNVpVYUhvVW9SSEs5N3dyNUVj?oc=5",
+        "heat": 5,
+        "time": "7月18日 2:55"
+      },
+      {
+        "rank": 5,
+        "title": "河南5-1青岛海牛，纳萨里奥传射，古斯塔沃双响",
+        "source": "懂球帝",
+        "summary": "河南5-1青岛海牛，纳萨里奥传射，古斯塔沃双响",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5VM1REVmlUb2RwWlAwTzI4M2I3X01PMTdfQ1RSWVRJSm1naFl3WnU0d2FGR1I0UVJWZ0RzTEREWE9PTFFmdmVxc24wM2pBS1JsMVUyQlNfaw?oc=5",
+        "heat": 5,
+        "time": "7月17日 13:39"
+      },
+      {
+        "rank": 6,
+        "title": "中超-纳萨里奥世界波古斯塔沃双响 河南5-1海牛终结3连败",
+        "source": "搜狐网",
+        "summary": "中超-纳萨里奥世界波古斯塔沃双响 河南5-1海牛终结3连败",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pUEVGNXowMVN5b0xTWEhfbGtiRXduVHRHMy1rbVQtYnE4VFhXSVlSZHVmS21tdUtwRV96ZkdtSzhNNE92YnB2dkNwTjV3SE5vVUE?oc=5",
+        "heat": 5,
+        "time": "7月17日 13:41"
+      },
+      {
+        "rank": 7,
+        "title": "纳萨里奥古斯塔沃分别梅开二度 河南5比1大胜海牛",
+        "source": "qq.com",
+        "summary": "纳萨里奥古斯塔沃分别梅开二度 河南5比1大胜海牛",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUHR3ZU1HWG95b3ZCRWxKbUdYRGFoMXc0Y01qeWpGMThobTFoak9UelpoMVIxbU9rYzhsaTVWbE1QRGh2WDcxaEZrZ0ppeW90cUZ0cG90aXY3SFVUWWYwLU9HaldqVVFWUEpyU0M1TUppQVZ6UTZhVWRRUUxYblNOcnJ2TmlhSHQ5YVJia2laYw?oc=5",
+        "heat": 5,
+        "time": "7月17日 13:48"
+      },
+      {
+        "rank": 8,
+        "title": "1-5！青岛海牛遭河南队“暴捶”，只剩2外援，17岁小将成全村希望",
+        "source": "Sina Sports",
+        "summary": "1-5！青岛海牛遭河南队“暴捶”，只剩2外援，17岁小将成全村希望",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ0psQ0o1Vl81d1Z6RFVxcUg3Y2tGbGtzbWNwR2dhTE5IaXZIT0F0bkp1QnZBb25DTTd4STZVYlNOY19VWEExblh0YVRwaktKMFZIMlh1QkZoc0ozQW1zdW1XZGxxOThLcktPVWNfYjh2SF9rWFBIQlNqYkR0aVNqNFpHcE5iYy1MdFdFaGZtX0JDMms?oc=5",
+        "heat": 5,
+        "time": "7月18日 8:37"
+      },
+      {
+        "rank": 9,
+        "title": "中超第19轮战报：成都蓉城平局不减领跑优势，河南大胜显实力",
+        "source": "搜狐网",
+        "summary": "中超第19轮战报：成都蓉城平局不减领跑优势，河南大胜显实力",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT19PbXBOaElDaEtTSGY1N216RGpDbUlVeWNGbThpSkI2OWJLb3ZwdEZFWGdRYXFRQTR5QzB5RERaYmFXby12M1h4c1VlYnNBRDVMd1VuMXBaQWljZXFZdFBFaDVEWGxjVE9vODRISWxwaTd6R3I0MHQ5Qjd3WHdVaVN0NFgwN0tQaWc5cQ?oc=5",
+        "heat": 5,
+        "time": "7月18日 0:33"
+      },
+      {
+        "rank": 10,
+        "title": "中超：河南俱乐部彩陶坊队胜青岛海牛队",
+        "source": "手机新浪网",
+        "summary": "中超：河南俱乐部彩陶坊队胜青岛海牛队",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYW9XaEJRQnhoXzUtb2o1SWNBS3hjX2VmMWVSREpsYkVlLVVqU0xfRGNzVHpab0hrS1FmT3NySTBLR0NnUkJWblhQWXQ4R2ZXSGt2dnhhRU4zVGVPaHdTQVNYRkRzdmhjLVhfRTd5QmtaTFBGbFhJdFI2cjJCMThTeGlxbm93VFFoQlJSTVlSOVJQdldhV1M3QlJSZXBXbnV6UU1WSVB4SnJlWFNUUGFCdjBsdU84RkVkRFA3WVFVOUdoTk92bFhRQndQWGtkRHBCWV9McmZIUHdhZEswN0E?oc=5",
+        "heat": 6,
+        "time": "7月18日 16:14"
+      },
+      {
+        "rank": 11,
+        "title": "单场五球，河南队彻底释放！",
+        "source": "手机新浪网",
+        "summary": "单场五球，河南队彻底释放！",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmVDTVdmU0lHakJBYUJpUndmMzJSY3pUMldsN3RnZGEyV3YxNm1kTi1wQWFEME5iU3NkU1BjZFVuMktybXBmMHl2V0hvT0hpTjdiZnZlc0hza2NwU0RDelU1QzNQeXlPT1hwMjhab0xtXzJCUi1mOER2LUMzOHdFenZrV3ptVTAyeUpLdmpqcHRhUQ?oc=5",
+        "heat": 5,
+        "time": "7月18日 4:11"
       }
     ],
     "mockCslOtherTeams": [
@@ -6661,6 +6751,33 @@
       },
       {
         "rank": 7,
+        "title": "【中超联赛第19轮】上海申花vs天津津门虎比赛结果：上海申花(0-2)天津津门虎比分战报(2026年07月18日)",
+        "source": "球迷屋",
+        "summary": "【中超联赛第19轮】上海申花vs天津津门虎比赛结果：上海申花(0-2)天津津门虎比分战报(2026年07月18日)",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4dXF6NG9ZRzZHajdkcnVteGp5VWwyeTNra0FxR2JFVE1WLTdPMWhRNWZjQjZRWXF4dl84cVhlSDA0NU5OaDJZcWhjS0RrSXV2b0txaQ?oc=5",
+        "heat": 6,
+        "time": "7月18日 14:42"
+      },
+      {
+        "rank": 8,
+        "title": "【中超联赛第19轮】武汉三镇vs深圳新鹏城比赛结果：武汉三镇(2-0)深圳新鹏城比分战报(2026年07月18日)",
+        "source": "球迷屋",
+        "summary": "【中超联赛第19轮】武汉三镇vs深圳新鹏城比赛结果：武汉三镇(2-0)深圳新鹏城比分战报(2026年07月18日)",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93ZWNnMmFkMlFZQjQxQm1GTDlUdjJQYUk5N0poaTcxV2MyNlFub0VvYU9RY25NaTFfcFk1cXhEeWgxcGZ1R0RyVGxoREFfVERaZzVtOQ?oc=5",
+        "heat": 6,
+        "time": "7月18日 14:10"
+      },
+      {
+        "rank": 9,
+        "title": "【中超联赛第19轮】大连英博vs山东泰山比赛结果：大连英博(3-1)山东泰山比分战报(2026年07月18日)",
+        "source": "球迷屋",
+        "summary": "【中超联赛第19轮】大连英博vs山东泰山比赛结果：大连英博(3-1)山东泰山比分战报(2026年07月18日)",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9sUnFkUWQtNjBmeFVBVW12QUI0c2pNTVRjTUo2SWRnYTh6aWtPRkJiOGRfNmhsbFczTzZwYmVSd2dueUhfZW00MnJyWHFzY192NlBQVg?oc=5",
+        "heat": 6,
+        "time": "7月18日 13:54"
+      },
+      {
+        "rank": 10,
         "title": "津媒：津门虎有望落实引进一名之前持续关注的年轻球员",
         "source": "懂球帝",
         "summary": "据《天津日报》报道，利用这个夏窗，天津津门虎俱乐部有望落实引进一名之前持续关注的年轻球员。7月18日晚19:35，中超第19轮，天津津门虎将客场挑战上海申花。",
@@ -6669,7 +6786,7 @@
         "time": "7月16日 5:01"
       },
       {
-        "rank": 8,
+        "rank": 11,
         "title": "郑龙：颜卓彬态度与防守状态很好，但他仍然需要适应中超强度",
         "source": "懂球帝",
         "summary": "由香港电台制作、聚焦效力于中国香港代表队的纪录片《大港脚闯中超》正式面世。在青岛海牛队球员颜卓彬篇中，球队助理教练郑龙谈到了对他的看法。",
@@ -6678,7 +6795,7 @@
         "time": "7月15日 2:26"
       },
       {
-        "rank": 9,
+        "rank": 12,
         "title": "德尔加多：感谢泰山给予我的机会，离开时我已是一个男人",
         "source": "雷速体育",
         "summary": "雷速体育7月14日讯 山东泰山官方宣布，球队中场外援德尔加多租借至大连英博。德尔加多原本的合同将在今年年底到期，租借官宣后，德尔加多在个人社媒告别了山东泰山。",
@@ -6687,7 +6804,7 @@
         "time": "7月14日 20:49"
       },
       {
-        "rank": 10,
+        "rank": 13,
         "title": "快乐男孩回来了！巴坎布：17号晚上我会回到工体，现场为国安助威",
         "source": "雷速体育",
         "summary": "雷速体育7月14日讯 巴坎布在个人社媒透露，他将于17号晚上重回工体，在中超第19轮对阵辽宁铁人的比赛中为老东家国安助威。",
@@ -6696,7 +6813,7 @@
         "time": "7月14日 17:49"
       },
       {
-        "rank": 11,
+        "rank": 14,
         "title": "陶强龙：罗斯教练对我有更高期望，所以定下了进球上双的目标",
         "source": "懂球帝",
         "summary": "7月14日晚，中超第18轮补赛，浙江队主场3-2击败青岛海牛。赛后混采区，浙江队球员陶强龙接受了咪咕视频",
@@ -6705,7 +6822,7 @@
         "time": "7月15日 0:06"
       },
       {
-        "rank": 12,
+        "rank": 15,
         "title": "【中超】米特里策传射陶强龙绝杀 浙江补赛3比2海牛",
         "source": "体坛周报",
         "summary": "7月14日，浙江队3比2惊险取胜。第2分钟，海牛前场起高球吊入禁区，埃朱马头球攻门顶得太正被对方门将获得。",
@@ -6714,7 +6831,7 @@
         "time": "7月14日 21:58"
       },
       {
-        "rank": 13,
+        "rank": 16,
         "title": "港脚黄皓隽：在中超踢球没有想象中开心，内地竞争更残酷",
         "source": "懂球帝",
         "summary": "去年在青岛海牛效力的黄皓隽表示，自己在中超踢球没有想象中开心，如今重返港超加盟冠忠南区，他希望找回踢球的初心。24岁的黄皓隽去年为青岛海牛出场13次，其中只有3次首发，机会不多。",
@@ -6723,7 +6840,7 @@
         "time": "7月14日 15:06"
       },
       {
-        "rank": 14,
+        "rank": 17,
         "title": "中超5月最佳：克雷桑MVP 约翰·阿洛伊西蝉联",
         "source": "体坛周报",
         "summary": "7月14日，王钰栋为月度最佳年轻球员。5月最佳球员｜克雷桑·巴塞洛斯（山东泰山） 5月的7场比赛中，山东泰山取得3胜2平2负，克雷桑·巴塞洛斯出战全部7场比赛，共完成28次射门，11次射正，打入7球并送出4次助攻。",
@@ -6732,7 +6849,7 @@
         "time": "7月14日 10:29"
       },
       {
-        "rank": 15,
+        "rank": 18,
         "title": "2026怡宝中超联赛五月最佳球员｜克雷桑·巴塞洛斯（山东泰山）",
         "source": "CSL中超联赛",
         "summary": "2026怡宝中超联赛5月的7场比赛中，山东泰山取得3胜2平2负，克雷桑·巴塞洛斯出战全部7场比赛，共完成28次射门，11次射正，打入7球并送出4次助攻。在面对上海申花的比赛中，克雷桑·巴塞洛斯打入3球上演帽子戏法，在对阵深圳新鹏城和武汉三镇均完成梅开二度。",
@@ -6741,7 +6858,7 @@
         "time": "7月14日 9:58"
       },
       {
-        "rank": 16,
+        "rank": 19,
         "title": "中超联赛前瞻：浙江对阵青岛海牛，实力相近的遭遇战",
         "source": "懂球帝",
         "summary": "战意先看积分位置：浙江第9、17分，青岛海牛第14、13分，前者离上半区更近，后者还要防止继续被身后追近。浙江主场8战12分，黄龙体育场这块地面对他们更友好；海牛客场8战只拿4分，客场压力明显更大。",
@@ -6750,7 +6867,7 @@
         "time": "7月14日 9:06"
       },
       {
-        "rank": 17,
+        "rank": 20,
         "title": "官方：比利奇担任克罗地亚国家队新主帅；此前曾执教中超球队北京国安",
         "source": "雷速体育",
         "summary": "官方：比利奇担任克罗地亚国家队新主帅；此前曾执教中超球队北京国安。雷速体育7月13日讯 官方：比利奇担任克罗地亚国家队新主帅；此前曾执教中超球队北京国安更多消息，稍后带来>>>",
@@ -6759,7 +6876,7 @@
         "time": "7月13日 19:44"
       },
       {
-        "rank": 18,
+        "rank": 21,
         "title": "中超官方：青岛西海岸vs成都蓉城的比赛调整至7月17日",
         "source": "雷速体育",
         "summary": "雷速体育7月13日讯 中超官方宣布，中超第19轮青岛西海岸对阵成都蓉城的比赛日期有所调整，由原定的7月18日调整至7月17日，现决定调整2026怡宝中超联赛第19轮青岛西海岸对阵成都",
@@ -6768,7 +6885,7 @@
         "time": "7月13日 15:54"
       },
       {
-        "rank": 19,
+        "rank": 22,
         "title": "尼尔森迎中超首胜：上升期正在到来",
         "source": "足球报",
         "summary": "记者王伟报道 7月11日晚，中超联赛第18轮，深圳新鹏城坐镇深圳市体育场迎战状态不错的青岛西海岸队。全队上下发挥出色，以3比0完胜对手，迎来新帅罗比·尼尔森上任以来的首场中超联赛胜利。",
@@ -6777,7 +6894,7 @@
         "time": "7月13日 11:17"
       },
       {
-        "rank": 20,
+        "rank": 23,
         "title": "韦斯利造3球助新鹏城大胜 换帅引援效果待检验",
         "source": "体坛周报",
         "summary": "中超联赛第18轮，深圳新鹏城面对青岛西海岸打出了一场久违的大胜。夏窗换帅、引援的调整，以及队内“锋霸”韦斯利的出色状态，让新鹏城收获了难得的大胜，全队积蓄了许久的压抑情绪终于找到了出口。",
@@ -6786,7 +6903,7 @@
         "time": "7月13日 10:09"
       },
       {
-        "rank": 21,
+        "rank": 24,
         "title": "超战报｜第18轮第二比赛日",
         "source": "CSL中超联赛",
         "summary": "7月11日19:35，2026怡宝中超联赛第18轮第二比赛日，深圳新鹏城对阵青岛西海岸的比赛在深圳市体育中心体育场进行。深圳新鹏城阵中的姚均晟、杨一鸣建功，加布里埃尔破门收获加盟中超首球。",
@@ -6795,7 +6912,7 @@
         "time": "7月12日 14:54"
       },
       {
-        "rank": 22,
+        "rank": 25,
         "title": "【中超】姚均晟远射杨一鸣破门 新鹏城3比0西海岸",
         "source": "体坛周报",
         "summary": "7月11日19:35，中超联赛第18轮，深圳新鹏城坐镇主场迎战青岛西海岸。上半场比赛，韦斯利先是错失单刀机会，随后送出助攻，姚均晟远射破门，杨一鸣紧接着再入一球帮助球队扩大领先优势。",
@@ -6804,7 +6921,7 @@
         "time": "7月11日 21:59"
       },
       {
-        "rank": 23,
+        "rank": 26,
         "title": "北青：中超拟增设2名亚冠专属外援名额，提升洲际赛事竞争力",
         "source": "懂球帝",
         "summary": "《北京青年报》报道：7月15日，按照中足联进一步完善亚冠参赛俱乐部外援政策的想法",
@@ -6813,7 +6930,43 @@
         "time": "7月16日 0:06"
       },
       {
-        "rank": 24,
+        "rank": 27,
+        "title": "中超最新积分战报 叒是1：1！成都蓉城3连平 放慢夺冠脚步",
+        "source": "手机新浪网",
+        "summary": "中超最新积分战报 叒是1：1！成都蓉城3连平 放慢夺冠脚步",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb0lDY19mdk9vekl1OWtsUWJ5YW1sSmFpWU4tY0wzRHFkWXpEMFdna3hVOVB1b2dhTm9YdmpwMWN5eDlLRUZnUjRGcUZURWZ6QmxqbHVWaUtST3A4MWFlaEUxUkN6MEpOcmJaVE1wc0JsekJrSlYwWUd3NU95amVHYXQtSk5oc0JPQ3ExSG8zdVd2QQ?oc=5",
+        "heat": 5,
+        "time": "7月18日 2:10"
+      },
+      {
+        "rank": 28,
+        "title": "超战报｜第19轮第一比赛日：青岛西海岸与成都蓉城的较量及其他精彩对决",
+        "source": "搜狐网",
+        "summary": "超战报｜第19轮第一比赛日：青岛西海岸与成都蓉城的较量及其他精彩对决",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUThPQmFfMHVNS2ZPb1BfR0FUY3pzQWJFRHB0UzhGTEV3Wl9HMXRmc21nMl92Q29uU1VfLWxpTkVSSFozYV9fNHlkSlJEcElRLUkwcC1wQnp5aGFJTHl1cUN4cTI0eFIwVGJOUF9EZ0MybTNVTTFUWnJIM21RbDdsaWsybG05dnNGTmxISw?oc=5",
+        "heat": 5,
+        "time": "7月18日 6:17"
+      },
+      {
+        "rank": 29,
+        "title": "战报 | 塞尔吉尼奥建功 北京国安1-1辽宁铁人楠波湾",
+        "source": "手机网易网",
+        "summary": "战报 | 塞尔吉尼奥建功 北京国安1-1辽宁铁人楠波湾",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ncGJqcUFWTGZjN3lTSDhjSTZReU14bjZLYVpIX2R2a192dDBoLTBhdGtkN3I1NHIxcWYyMmUyYmR1RXlUV1lKN2Y3bDB4VENIbS0zWWNqRm5ONnJ3MkVnc2ZQSWprdFlkbnR1WWN1Yk9DZllmRDJNc25Ddw?oc=5",
+        "heat": 5,
+        "time": "7月17日 17:53"
+      },
+      {
+        "rank": 30,
+        "title": "中超最新积分出炉！蓉城独自领跑，亚冠名额陷入大乱战",
+        "source": "手机新浪网",
+        "summary": "中超最新积分出炉！蓉城独自领跑，亚冠名额陷入大乱战",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdkIyV216cGZtSVJRVmlleXlZU1VzYkRPdXVZR2ktTVRrY2k1eEkzNjJ6X3J3MW81M0Zhd1I1ZWZxMGE1b2tBQW9FdVREbmQ0bjZLR1NaM25neW10WWZQYll5Z0hxWjRVbnkyRGJrb1hMbUFsUDZaTUJMNzVuUGVkb0F3?oc=5",
+        "heat": 5,
+        "time": "7月17日 19:30"
+      },
+      {
+        "rank": 31,
         "title": "火爆川渝德比平局收场 赛后双方谁也没服谁",
         "source": "体坛周报",
         "summary": "由于台风和极端天气的影响，中超第18轮5场比赛推迟进行，剩下的比赛中唯一的重头戏就是川渝德比。7月11日晚，在成都凤凰山。",
@@ -6822,13 +6975,22 @@
         "time": "7月13日 8:59"
       },
       {
-        "rank": 25,
+        "rank": 32,
         "title": "中超成渝德比，以和为贵",
         "source": "足球报",
         "summary": "记者鲁蜜报道中超第18轮，多场比赛因天气原因而延期，而“成渝德比”的如期而至，成为了本轮联赛的最大看点。",
         "url": "https://view.inews.qq.com/a/20260712A06JBK00?scene=news-skill",
         "heat": 1,
         "time": "7月12日 16:32"
+      },
+      {
+        "rank": 33,
+        "title": "战报·云南玉昆2:2上海海港",
+        "source": "ZhiBo8",
+        "summary": "战报·云南玉昆2:2上海海港",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE93REJyMENPdHFiZVFrdGQ3OXNFSUtPZzdHZ2lFNzY3S2RWNlhtOEF1Z3lPLWVIZi03NU50U2ZEaHQ4a0RzeWlsZ2hrdXFvcV91U2llcGpaM3FYbGQwc3ItTU1rWE5vNmhKZmpUekdNNGdEdw?oc=5",
+        "heat": 5,
+        "time": "7月17日 14:38"
       }
     ]
   }
