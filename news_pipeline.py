@@ -1443,7 +1443,7 @@ def build() -> Dict[str, List[NewsItem]]:
             # reappearing while still allowing us to add high-value sources.
             old_items = [x for x in old_items if x.sourceRegion == "cn" and is_recent(x, require_published=True) and is_trusted_domestic_item(x)]
         elif section in ("international", "ai", "stock"):
-            old_items = [x for x in old_items if x.sourceRegion == "global"]
+            old_items = [x for x in old_items if x.sourceRegion == "global" and is_recent(x)]
         pool[section] = merge_dedupe(section, incoming.get(section, []), old_items)
     return pool
 
