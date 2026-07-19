@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T09:32:43.369407+08:00",
-  "updated_display": "07月19日 09:32",
+  "updated": "2026-07-19T11:30:12.422524+08:00",
+  "updated_display": "07月19日 11:30",
   "count": 10,
   "news": [
     {
@@ -13,6 +13,18 @@
       "title": "匈牙利总统签署宪法修正案 其任期即将终止",
       "url": "https://www.news.cn/world/20260719/1b55748f93204fa88074524df9324e69/c.html",
       "source": "新华社",
+      "date": "2026-07-19"
+    },
+    {
+      "title": "习近平主席讲话为全球人工智能治理贡献中国智慧",
+      "url": "http://politics.people.com.cn/n1/2026/0719/c461001-40763525.html",
+      "source": "人民日报",
+      "date": "2026-07-19"
+    },
+    {
+      "title": "读懂习近平主席的人工智能“千里马”之喻",
+      "url": "http://politics.people.com.cn/n1/2026/0719/c461001-40763512.html",
+      "source": "人民日报",
       "date": "2026-07-19"
     },
     {
@@ -40,22 +52,10 @@
       "date": "2026-07-18"
     },
     {
-      "title": "拾光纪·直面时代之问，习近平提出4点意见",
-      "url": "http://politics.people.com.cn/n1/2026/0718/c461001-40763340.html",
-      "source": "人民日报",
-      "date": "2026-07-18"
-    },
-    {
-      "title": "习近平会见泰国总理阿努廷",
-      "url": "https://www.news.cn/politics/leaders/20260717/c5803f8418d64dc8b548117645cfb134/c.html",
+      "title": "习近平总书记在上海考察纪实",
+      "url": "https://www.news.cn/politics/leaders/20260716/4f303eb41db549b29344f6080f980abb/c.html",
       "source": "新华社",
-      "date": "2026-07-17"
-    },
-    {
-      "title": "习近平会见柬埔寨首相洪玛奈",
-      "url": "https://www.news.cn/politics/leaders/20260717/ac5edb284e81403dbf106a9a67371cd0/c.html",
-      "source": "新华社",
-      "date": "2026-07-17"
+      "date": "2026-07-16"
     },
     {
       "title": "俄称乌无人机袭击致9人死亡",
