@@ -1,29 +1,11 @@
 {
-  "extracted_at": "2026-07-19T03:48:01.287Z",
+  "extracted_at": "2026-07-19T03:52:19.212Z",
   "source_file": "/Users/bainian/WorkBuddy/2026-06-28-16-31-12/outputs/news-daily-mrjb.html",
-  "total_items": 955,
+  "total_items": 939,
   "sections": {
     "mockHotNewsDomestic": [
       {
         "rank": 1,
-        "title": "全国人大常委会副委员长铁凝在宁夏检查职业教育法实施",
-        "source": "人民网",
-        "summary": "人民网7月16日报道，7月13日至15日，全国人大常委会副委员长铁凝率职业教育法执法检查组在宁夏开展检查。她强调要深入学习贯彻习近平总书记关于职业教育的重要论述和重要指示批示精神，全面有效实施职业教育法，推动职业教育适应经济社会发展和产业升级需要。",
-        "url": "https://view.inews.qq.com/a/20260716A032FJ00?scene=news-skill",
-        "heat": 10,
-        "time": "2026-07-16T09:02:12+08:00"
-      },
-      {
-        "rank": 2,
-        "title": "外交部称APEC“中国年”下半场同样精彩，成都数字周即将举行",
-        "source": "新华社新闻",
-        "summary": "新华社7月15日报道，外交部发言人林剑在例行记者会上介绍，APEC数字周系列活动即将在四川成都举行，是APEC系列专业部长会中分量最重、安排最丰富的活动之一。中方表示，中国作为2026年APEC东道主，各领域合作扎实推进，将继续推动亚太数字和人工智能合作。",
-        "url": "https://view.inews.qq.com/a/20260715A0AG4700?scene=news-skill",
-        "heat": 10,
-        "time": "2026-07-15T19:15:10+08:00"
-      },
-      {
-        "rank": 3,
         "title": "韩正会见新西兰前总理约翰·基，推动中新全面战略伙伴关系合作",
         "source": "新华社新闻",
         "summary": "新华社7月15日报道，国家副主席韩正在北京会见新西兰前总理约翰·基。韩正表示，中方愿同新方落实两国领导人重要共识，拓展深化各领域交流合作，推动中新关系不断向前发展。",
@@ -32,7 +14,7 @@
         "time": "2026-07-15T17:48:09+08:00"
       },
       {
-        "rank": 4,
+        "rank": 2,
         "title": "王沪宁将访问朝鲜，率中国党政代表团延续中朝高层互动",
         "source": "央广网",
         "summary": "央广网7月15日消息，应朝鲜劳动党中央委员会和朝鲜政府邀请，中共中央政治局常委、全国政协主席王沪宁将率中国党政代表团于7月15日至17日对朝鲜进行正式友好访问。此访延续中朝条约纪念节点后的高层交往。",
@@ -41,7 +23,7 @@
         "time": "2026-07-15T17:34:13+08:00"
       },
       {
-        "rank": 5,
+        "rank": 3,
         "title": "王沪宁会见越南共产党代表团，推进中越党际交流",
         "source": "新华社新闻",
         "summary": "新华社7月14日报道，中共中央政治局常委、全国政协主席王沪宁在北京会见由越共中央政治局委员、中央内政部部长黎明智率领的越南共产党代表团。这是中越高层党际交往的最新活动，有助于延续两党两国战略沟通。",
@@ -50,7 +32,7 @@
         "time": "2026-07-14T19:37:07+08:00"
       },
       {
-        "rank": 6,
+        "rank": 4,
         "title": "李强签署国务院令，公布《退役军人就业创业促进条例》",
         "source": "新华社新闻",
         "summary": "国务院总理李强日前签署国务院令，公布《退役军人就业创业促进条例》，条例自2026年8月1日起施行。条例明确教育培训、就业支持、创业扶持和服务保障等制度安排，旨在维护退役军人权益、发挥退役军人人力资源作用。",
@@ -59,7 +41,7 @@
         "time": "2026-06-30 17:00"
       },
       {
-        "rank": 7,
+        "rank": 5,
         "title": "习近平将出席世界人工智能大会，上海会场进入开幕倒计时",
         "source": "中国新闻网",
         "summary": "中国新闻网7月15日报道，2026世界人工智能大会暨人工智能全球治理高级别会议将于7月17日至20日在上海举行，国家主席习近平将出席开幕式并发表主旨讲话。报道聚焦大会开幕前夕各方期待，延续中方围绕人工智能发展与全球治理阐述政策主张的核心议题。",
@@ -68,7 +50,7 @@
         "time": "2026-07-15T17:30:09+08:00"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "title": "中共中央政治局研究部署防汛抗旱工作，要求把人民生命安全放在首位",
         "source": "人民网",
         "summary": "中共中央政治局6月30日召开会议，研判主汛期极端天气偏多、旱涝并重形势，部署防汛抗旱和抢险救灾工作。会议强调强化监测预报、转移避险和重点工程防守，对各地进入主汛期后的防灾减灾工作具有直接指导意义。",
@@ -77,7 +59,16 @@
         "time": "2026-07-01 06:16"
       },
       {
-        "rank": 9,
+        "rank": 7,
+        "title": "外交部称APEC“中国年”下半场同样精彩，成都数字周即将举行",
+        "source": "新华社新闻",
+        "summary": "新华社7月15日报道，外交部发言人林剑在例行记者会上介绍，APEC数字周系列活动即将在四川成都举行，是APEC系列专业部长会中分量最重、安排最丰富的活动之一。中方表示，中国作为2026年APEC东道主，各领域合作扎实推进，将继续推动亚太数字和人工智能合作。",
+        "url": "https://view.inews.qq.com/a/20260715A0AG4700?scene=news-skill",
+        "heat": 10,
+        "time": "2026-07-15T19:15:10+08:00"
+      },
+      {
+        "rank": 8,
         "title": "外交部回应全球产供链问题，强调反对“脱钩断链”",
         "source": "新华社新闻",
         "summary": "新华社7月15日报道，外交部发言人林剑在例行记者会上表示，维护全球产供链安全稳定畅通是各国共同责任。中方将继续扩大高水平对外开放，愿同各国摒弃阵营对抗逻辑，推动全球产供链成为“共赢链”。",
@@ -86,7 +77,7 @@
         "time": "2026-07-15T16:05:07+08:00"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "title": "蔡奇出席中央党校春季学期毕业典礼，为学员颁发毕业证书",
         "source": "新华社新闻",
         "summary": "新华社7月14日报道，中共中央党校（国家行政学院）举行2026年春季学期毕业典礼，中共中央政治局常委、中央党校（国家行政学院）校长蔡奇出席并为学员颁发毕业证书。本期毕业学员1940人，活动体现中央干部教育培训工作安排。",
@@ -95,7 +86,7 @@
         "time": "2026-07-14T20:00:12+08:00"
       },
       {
-        "rank": 11,
+        "rank": 10,
         "title": "外交部就霍尔木兹海峡局势表态，呼吁尽早恢复正常安全通行",
         "source": "新华社新闻",
         "summary": "新华社7月14日报道，外交部发言人林剑在例行记者会上表示，中方对海湾地区军事冲突再起深表关切，呼吁有关各方保持理性克制、维护停火局面。中方强调，尽早恢复霍尔木兹海峡正常安全通行符合国际社会共同愿望。",
@@ -104,7 +95,7 @@
         "time": "2026-07-14T19:32:11+08:00"
       },
       {
-        "rank": 12,
+        "rank": 11,
         "title": "王毅同瑞典外交大臣会谈，推动中瑞关系、中欧合作和北欧访问议程",
         "source": "新华社新闻",
         "summary": "当地时间7月4日，中共中央政治局委员、外交部长王毅在斯德哥尔摩同瑞典外交大臣斯蒂纳加德会谈。双方围绕中瑞关系、经贸投资、绿色转型、人文交流以及中欧关系交换意见，是王毅北欧四国访问期间的重要双边外事活动。",
@@ -113,7 +104,7 @@
         "time": "2026-07-04 22:40"
       },
       {
-        "rank": 13,
+        "rank": 12,
         "title": "外交部反对非法单边制裁，回应美方针对俄罗斯能源买家法案",
         "source": "央视新闻",
         "summary": "央视新闻7月15日报道，外交部发言人林剑在例行记者会上表示，中方坚决反对没有国际法依据、未经联合国安理会授权的非法单边制裁，将采取一切必要措施维护本国企业和公民正当权益。",
@@ -122,7 +113,7 @@
         "time": "2026-07-15T15:18:22+08:00"
       },
       {
-        "rank": 14,
+        "rank": 13,
         "title": "外交部回应美国升级对古巴制裁，支持古巴维护国家主权",
         "source": "新华网",
         "summary": "新华网7月15日报道，外交部发言人林剑表示，美国对古巴实施60多年的全面封锁和非法制裁，近期又升级封锁和制裁措施，严重冲击古巴基本民生。中方敦促美方停止封锁和胁迫施压，表示坚定支持古巴维护国家主权、反对外来干涉。",
@@ -131,7 +122,7 @@
         "time": "2026-07-15T15:23:05+08:00"
       },
       {
-        "rank": 15,
+        "rank": 14,
         "title": "瑞典首相会见王毅，双方释放加强对话和经贸创新合作信号",
         "source": "新华社新闻",
         "summary": "当地时间7月4日，瑞典首相克里斯特松在斯德哥尔摩会见中共中央政治局委员、外交部长王毅。瑞方表示坚持一个中国政策，愿同中方加强对话并拓展经贸、创新等领域合作；中方强调推动中瑞关系健康稳定发展。",
@@ -140,7 +131,7 @@
         "time": "2026-07-04 22:35"
       },
       {
-        "rank": 16,
+        "rank": 15,
         "title": "国台办驳斥民进党“改变台海现状”说法，强调一个中国原则",
         "source": "央视新闻",
         "summary": "央视新闻7月15日报道，国务院台办举行例行新闻发布会。针对民进党政客所谓“大陆改变台海现状”的说法，发言人朱凤莲表示，世界上只有一个中国、台湾是中国的一部分才是真正的台海现状，批评民进党当局以新的“两国论”界定所谓现状、勾连外部势力谋“独”挑衅。",
@@ -149,7 +140,7 @@
         "time": "2026-07-15T10:22:04+08:00"
       },
       {
-        "rank": 17,
+        "rank": 16,
         "title": "中方向委内瑞拉追加1亿元紧急无偿物资援助，并提供灾区卫星图像",
         "source": "新华社新闻",
         "summary": "外交部发言人郭嘉昆6月29日表示，委内瑞拉地震后伤亡人数持续上升，中方高度关注灾情。习近平主席已向委内瑞拉代总统罗德里格斯致慰问电，中国政府决定在此前现汇援助基础上追加1亿元人民币紧急无偿物资援助。",
@@ -158,13 +149,22 @@
         "time": "2026-06-29 17:54"
       },
       {
-        "rank": 18,
+        "rank": 17,
         "title": "港澳研究中心在北京揭牌，服务“一国两制”理论研究",
         "source": "央视新闻",
         "summary": "央视新闻7月15日报道，中央港澳工作办公室、中国社会科学院在北京举行港澳研究中心揭牌仪式并发布研究成果。该中心由中央港澳办支持中国社科院组建，重点加强习近平总书记关于港澳工作重要论述研究阐释，构建“一国两制”基础理论和学术话语体系。",
         "url": "https://view.inews.qq.com/a/20260715A0AEEW00?scene=news-skill",
         "heat": 10,
         "time": "2026-07-15T18:48:13+08:00"
+      },
+      {
+        "rank": 18,
+        "title": "全国人大常委会副委员长铁凝在宁夏检查职业教育法实施",
+        "source": "人民网",
+        "summary": "人民网7月16日报道，7月13日至15日，全国人大常委会副委员长铁凝率职业教育法执法检查组在宁夏开展检查。她强调要深入学习贯彻习近平总书记关于职业教育的重要论述和重要指示批示精神，全面有效实施职业教育法，推动职业教育适应经济社会发展和产业升级需要。",
+        "url": "https://view.inews.qq.com/a/20260716A032FJ00?scene=news-skill",
+        "heat": 10,
+        "time": "2026-07-16T09:02:12+08:00"
       },
       {
         "rank": 19,
@@ -926,12 +926,12 @@
       },
       {
         "rank": 103,
-        "title": "中兴发布\"中兴星仔\"人形机器人：1.6米高、自重30余千克，为同规格最轻",
+        "title": "小鹏汽车第二代 VLA 模型打通中国与欧洲，目标 2027 年向海外交付",
         "source": "IT之家（RSS）",
-        "summary": "中兴通讯发布轻量化全尺寸人形机器人\"中兴星仔\"，身高1.6米、自重30余千克，为当前业内同规格尺寸下最轻产品。该机器人采用腱绳驱动轻量化架构与柔性晶格皮肤，标配仿生拟人步态和智能避障系统，适配。",
-        "url": "https://www.ithome.com/0/978/521.htm",
+        "summary": "小鹏汽车发布图灵第二代 VLA 模型，已实现同一套模型打通中国与欧洲市场。该模型通过世界模型与 VLA 一体两面设计，可在训练数据不足的海外市场自主生成训练数据加速泛化。",
+        "url": "https://www.ithome.com/0/978/655.htm",
         "heat": 9,
-        "time": "7月18日 17:08"
+        "time": "7月19日 11:41"
       },
       {
         "rank": 104,
@@ -944,51 +944,6 @@
       },
       {
         "rank": 105,
-        "title": "商汤发布旗舰原生多模态模型U1 Pro",
-        "source": "X：商汤 SenseTime (@SenseTime_AI)",
-        "summary": "商汤发布旗舰原生多模态基模SenseNova U1 Pro，基于NEO-Unify架构统一理解、生成与行动，并支持原生交织的视觉-语言推理。相比U1 Lite，U1 Pro支持智能体生成循环中的数十轮长程推理、8K原生分辨率输出，且渲染文字错误率极低。",
-        "url": "https://x.com/SenseTime_AI/status/2078681943680704993",
-        "heat": 9,
-        "time": "7月19日 11:22"
-      },
-      {
-        "rank": 106,
-        "title": "千问APP推出\"夏日专享\"AI点单活动，10元可购肯德基、蜜雪冰城、瑞幸",
-        "source": "公众号：千问APP（阿里）",
-        "summary": "千问APP上线\"夏日专享\"AI点单活动，用户可用10元同时购买肯德基吮指原味鸡3块、蜜雪冰城柠檬水1杯和瑞幸咖啡1杯。活动仅限7月18日至7月22日每天10：00-20：00，三个品牌各限1次，需到店取餐。",
-        "url": "https://mp.weixin.qq.com/s/7LzodaLik9temD9OQ7MHyA",
-        "heat": 9,
-        "time": "7月19日 10:00"
-      },
-      {
-        "rank": 107,
-        "title": "本田推出商用自动驾驶电动割草机，售价32999美元",
-        "source": "IT之家（RSS）",
-        "summary": "本田发布自动驾驶纯电动割草机ProZision Autonomous ZTR，售价32999美元，已开始向经销商发货。该设备通过GPS、激光雷达和360度视觉传感器实现约3厘米误差的自主作业，提供54英寸和60英寸两种割草宽度。",
-        "url": "https://www.ithome.com/0/978/627.htm",
-        "heat": 9,
-        "time": "7月19日 9:14"
-      },
-      {
-        "rank": 108,
-        "title": "澳大利亚高校为防AI作弊重新拥抱口试和线下考试",
-        "source": "IT之家（RSS）",
-        "summary": "澳大利亚高校正加快调整考试和评估方式，以应对学生利用AI完成作业甚至作弊的问题。澳大利亚国立大学提出将课程评估划分为\"安全\"和\"不安全\"两类，并鼓励恢复线下考试；昆士兰大学和墨尔本大学也已推进\"安全评估\"改革，增加口试等互动式考试。",
-        "url": "https://www.ithome.com/0/978/625.htm",
-        "heat": 9,
-        "time": "7月19日 9:02"
-      },
-      {
-        "rank": 109,
-        "title": "小鹏汽车第二代 VLA 模型打通中国与欧洲，目标 2027 年向海外交付",
-        "source": "IT之家（RSS）",
-        "summary": "小鹏汽车发布图灵第二代 VLA 模型，已实现同一套模型打通中国与欧洲市场。该模型通过世界模型与 VLA 一体两面设计，可在训练数据不足的海外市场自主生成训练数据加速泛化。",
-        "url": "https://www.ithome.com/0/978/655.htm",
-        "heat": 9,
-        "time": "7月19日 11:41"
-      },
-      {
-        "rank": 110,
         "title": "阿里开放式世界模型快乐生蚝 HappyOyster 1.0 登陆百炼平台",
         "source": "IT之家（RSS）",
         "summary": "阿里巴巴发布开放式世界模型 HappyOyster 1.0（快乐生蚝），已登陆阿里云百炼面向企业和开发者开启灰测。模型提供世界探索与实时导演两大模式，支持用户通过一句话或一张图生成可实时交互的开放世界，并可用文字指令操控镜头与剧情。",
@@ -997,52 +952,52 @@
         "time": "7月19日 10:53"
       },
       {
+        "rank": 106,
+        "title": "本田推出商用自动驾驶电动割草机，售价32999美元",
+        "source": "IT之家（RSS）",
+        "summary": "本田发布自动驾驶纯电动割草机ProZision Autonomous ZTR，售价32999美元，已开始向经销商发货。该设备通过GPS、激光雷达和360度视觉传感器实现约3厘米误差的自主作业，提供54英寸和60英寸两种割草宽度。",
+        "url": "https://www.ithome.com/0/978/627.htm",
+        "heat": 9,
+        "time": "7月19日 9:14"
+      },
+      {
+        "rank": 107,
+        "title": "澳大利亚高校为防AI作弊重新拥抱口试和线下考试",
+        "source": "IT之家（RSS）",
+        "summary": "澳大利亚高校正加快调整考试和评估方式，以应对学生利用AI完成作业甚至作弊的问题。澳大利亚国立大学提出将课程评估划分为\"安全\"和\"不安全\"两类，并鼓励恢复线下考试；昆士兰大学和墨尔本大学也已推进\"安全评估\"改革，增加口试等互动式考试。",
+        "url": "https://www.ithome.com/0/978/625.htm",
+        "heat": 9,
+        "time": "7月19日 9:02"
+      },
+      {
+        "rank": 108,
+        "title": "中兴发布\"中兴星仔\"人形机器人：1.6米高、自重30余千克，为同规格最轻",
+        "source": "IT之家（RSS）",
+        "summary": "中兴通讯发布轻量化全尺寸人形机器人\"中兴星仔\"，身高1.6米、自重30余千克，为当前业内同规格尺寸下最轻产品。该机器人采用腱绳驱动轻量化架构与柔性晶格皮肤，标配仿生拟人步态和智能避障系统，适配。",
+        "url": "https://www.ithome.com/0/978/521.htm",
+        "heat": 9,
+        "time": "7月18日 17:08"
+      },
+      {
+        "rank": 109,
+        "title": "商汤发布旗舰原生多模态模型U1 Pro",
+        "source": "X：商汤 SenseTime (@SenseTime_AI)",
+        "summary": "商汤发布旗舰原生多模态基模SenseNova U1 Pro，基于NEO-Unify架构统一理解、生成与行动，并支持原生交织的视觉-语言推理。相比U1 Lite，U1 Pro支持智能体生成循环中的数十轮长程推理、8K原生分辨率输出，且渲染文字错误率极低。",
+        "url": "https://x.com/SenseTime_AI/status/2078681943680704993",
+        "heat": 9,
+        "time": "7月19日 11:22"
+      },
+      {
+        "rank": 110,
+        "title": "千问APP推出\"夏日专享\"AI点单活动，10元可购肯德基、蜜雪冰城、瑞幸",
+        "source": "公众号：千问APP（阿里）",
+        "summary": "千问APP上线\"夏日专享\"AI点单活动，用户可用10元同时购买肯德基吮指原味鸡3块、蜜雪冰城柠檬水1杯和瑞幸咖啡1杯。活动仅限7月18日至7月22日每天10：00-20：00，三个品牌各限1次，需到店取餐。",
+        "url": "https://mp.weixin.qq.com/s/7LzodaLik9temD9OQ7MHyA",
+        "heat": 9,
+        "time": "7月19日 10:00"
+      },
+      {
         "rank": 111,
-        "title": "腾讯 WorkBuddy 正式版 App 发布，安卓 / iOS / 鸿蒙三端同步上线",
-        "source": "IT之家（RSS）",
-        "summary": "腾讯 WorkBuddy 正式版 App 现已发布，安卓、iOS、鸿蒙三端同步上线，是首个登陆鸿蒙系统的通用智能体应用。App 支持连接电脑调用桌面端完整能力，或通过云端工作模式开箱即用，具备。",
-        "url": "https://www.ithome.com/0/978/468.htm",
-        "heat": 8,
-        "time": "7月18日 14:47"
-      },
-      {
-        "rank": 112,
-        "title": "Sakana AI 的 Error Diffusion 训练符合 Dale 原则的双流网络，无需反向传播",
-        "source": "MarkTechPost（RSS）",
-        "summary": "Sakana AI 提出 Error Diffusion （ED） 局部学习规则，训练符合 Dale 原则的双流网络，完全避免权重传输。该方法在 MNIST 上达 96.",
-        "url": "https://www.marktechpost.com/2026/07/17/sakana-ais-error-diffusion-trains-dale-compliant-dual-stream-networks-reaching-96-7-mnist-and-61-7-cifar-10-without-backpropagation",
-        "heat": 8,
-        "time": "7月18日 14:32"
-      },
-      {
-        "rank": 113,
-        "title": "三星 One UI 9 版 My FanCam 曝光：Galaxy AI 智能追踪视频拍摄主体并自动重新构图",
-        "source": "IT之家（RSS）",
-        "summary": "三星 One UI 9 内测版截图曝光了名为 My FanCam 的 AI 功能，该功能依赖 Galaxy AI，可在用户完成视频拍摄后，从成片中智能识别并持续追踪主体，自动重新构图确保主体始。",
-        "url": "https://www.ithome.com/0/978/458.htm",
-        "heat": 8,
-        "time": "7月18日 14:08"
-      },
-      {
-        "rank": 114,
-        "title": "设置备用 Mac 让 Claude Code 完全控制：分步指南",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "summary": "一篇分步指南介绍如何将备用 Mac 设置为可由 Claude Code 完全控制的常开机器，启用 computer use 功能。该方案通过 SSH 从主 Mac 连接，",
-        "url": "https://ykdojo.github.io/claude-controls-mac",
-        "heat": 8,
-        "time": "7月19日 3:37"
-      },
-      {
-        "rank": 115,
-        "title": "SQLite Query Explainer：交互式查询计划解读工具",
-        "source": "Simon Willison 博客",
-        "summary": "Julia Evans 基于 Fable 构建了 SQLite Query Explainer，一个在浏览器中通过 Pyodide 运行 SQLite 的交互式工具。",
-        "url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer",
-        "heat": 8,
-        "time": "7月19日 1:19"
-      },
-      {
-        "rank": 116,
         "title": "谷歌安卓系统漏洞曝光：Gemini 可绕过锁屏密码发送短信，官方即将修复",
         "source": "IT之家（RSS）",
         "summary": "谷歌安卓系统存在一项身份验证绕过漏洞，攻击者在拥有物理访问权限时，可不输入锁屏密码通过 Gemini 发送短信或 WhatsApp 消息。该漏洞自今年5月起被发现，最初在 Android 16 系统、Pixel 6a 手机中复现，触发方式为在锁屏界面同时按下\"继续\"和\"添加附件\"按钮。",
@@ -1051,7 +1006,7 @@
         "time": "7月19日 8:35"
       },
       {
-        "rank": 117,
+        "rank": 112,
         "title": "纽约市长马姆达尼：房东不得使用AI生成或编辑的图片进行租赁广告宣传",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "summary": "纽约市长Zohran Mamdani发布\"租赁欺诈报告\"，要求房东和中介披露在房源广告中使用AI生成或编辑的图片。该措施旨在打击利用AI美化房产、欺骗租户的行为，尤其保护需远程签约的租户。",
@@ -1060,16 +1015,7 @@
         "time": "7月19日 8:25"
       },
       {
-        "rank": 118,
-        "title": "开放权重模型逼近前沿，部署治理成新焦点",
-        "source": "X：洪明 (@hongming731)",
-        "summary": "Mozilla 报告指出，开放权重模型在编码等任务上已逼近顶尖闭源模型，但生产采用仍有差距，竞争正从权重本身转向部署、权限、合规等 Agent harness 能力。报告强调，评估开放模型需综合考虑算力利用率、运维成本与数据主权等收益，而非仅比较单次推理 token 成本。",
-        "url": "https://x.com/hongming731/status/2078635024623231068",
-        "heat": 8,
-        "time": "7月19日 8:16"
-      },
-      {
-        "rank": 119,
+        "rank": 113,
         "title": "华为 Pura X Max、智慧屏 S7 Pro 获国标人工智能 L3 等级手机、电视首证",
         "source": "IT之家（RSS）",
         "summary": "华为 Pura X Max、MateBook Pro 及智慧屏 S7 Pro 获国标人工智能 L3 等级手机、电脑、电视首证。该分级标准由工信部等部门于今年 5 月联合发布，将终端智能化水平划分为 L1 响应级至 L4 协同级，L3 级为目前有明确划分标准的最高智能化水平。",
@@ -1078,7 +1024,7 @@
         "time": "7月19日 7:58"
       },
       {
-        "rank": 120,
+        "rank": 114,
         "title": "分析师：苹果 AI 策略\"保守\"反而是优势，可降低资本压力并驱动硬件升级",
         "source": "IT之家（RSS）",
         "summary": "BRI Wealth Management 分析师 Toni Meadows 认为，市场对苹果 AI 策略的看法已发生转变，其相对保守的策略降低了资本支出压力，无需像其他超大规模云计算公司那样持续投入数十亿美元维持 AI 竞争力。苹果通过\"软硬件一体\"策略将 AI 能力整合到自家服务中，有望推动更多硬件升级需求，并依托强大的服务业务开辟新收入来源。",
@@ -1087,7 +1033,7 @@
         "time": "7月19日 7:42"
       },
       {
-        "rank": 121,
+        "rank": 115,
         "title": "AI 湍流预测系统 SkyPath 正改变飞机安全带指示灯\"亮得太晚\"的困境",
         "source": "IT之家（RSS）",
         "summary": "多家航空公司采用 AI 湍流预测系统 SkyPath，其模型能以约 90% 的准确率预测未来 24 小时内的湍流情况。系统通过收集空中飞机上传的实时数据，提前 13 分钟向飞行员预警，使其能提前通知空乘并开启安全带指示灯。",
@@ -1096,7 +1042,70 @@
         "time": "7月19日 7:29"
       },
       {
+        "rank": 116,
+        "title": "小米 17 Max 获首批《人工智能终端智能化分级》国家标准 L3 认证证书",
+        "source": "IT之家（RSS）",
+        "summary": "小米 17 Max 手机荣获首批《人工智能终端智能化分级》系列国家标准 L3 评级证书，L3 级为目前有明确划分标准的最高智能化水平。该标准由工信部等部门于今年 5 月联合发布，将终端智能化水平划分为 L1 响应级至 L4 协同级，其中 L4 级将在后续修订中明确。",
+        "url": "https://www.ithome.com/0/978/603.htm",
+        "heat": 8,
+        "time": "7月19日 6:52"
+      },
+      {
+        "rank": 117,
+        "title": "设置备用 Mac 让 Claude Code 完全控制：分步指南",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "summary": "一篇分步指南介绍如何将备用 Mac 设置为可由 Claude Code 完全控制的常开机器，启用 computer use 功能。该方案通过 SSH 从主 Mac 连接，",
+        "url": "https://ykdojo.github.io/claude-controls-mac",
+        "heat": 8,
+        "time": "7月19日 3:37"
+      },
+      {
+        "rank": 118,
+        "title": "SQLite Query Explainer：交互式查询计划解读工具",
+        "source": "Simon Willison 博客",
+        "summary": "Julia Evans 基于 Fable 构建了 SQLite Query Explainer，一个在浏览器中通过 Pyodide 运行 SQLite 的交互式工具。",
+        "url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer",
+        "heat": 8,
+        "time": "7月19日 1:19"
+      },
+      {
+        "rank": 119,
+        "title": "腾讯 WorkBuddy 正式版 App 发布，安卓 / iOS / 鸿蒙三端同步上线",
+        "source": "IT之家（RSS）",
+        "summary": "腾讯 WorkBuddy 正式版 App 现已发布，安卓、iOS、鸿蒙三端同步上线，是首个登陆鸿蒙系统的通用智能体应用。App 支持连接电脑调用桌面端完整能力，或通过云端工作模式开箱即用，具备。",
+        "url": "https://www.ithome.com/0/978/468.htm",
+        "heat": 8,
+        "time": "7月18日 14:47"
+      },
+      {
+        "rank": 120,
+        "title": "Sakana AI 的 Error Diffusion 训练符合 Dale 原则的双流网络，无需反向传播",
+        "source": "MarkTechPost（RSS）",
+        "summary": "Sakana AI 提出 Error Diffusion （ED） 局部学习规则，训练符合 Dale 原则的双流网络，完全避免权重传输。该方法在 MNIST 上达 96.",
+        "url": "https://www.marktechpost.com/2026/07/17/sakana-ais-error-diffusion-trains-dale-compliant-dual-stream-networks-reaching-96-7-mnist-and-61-7-cifar-10-without-backpropagation",
+        "heat": 8,
+        "time": "7月18日 14:32"
+      },
+      {
+        "rank": 121,
+        "title": "三星 One UI 9 版 My FanCam 曝光：Galaxy AI 智能追踪视频拍摄主体并自动重新构图",
+        "source": "IT之家（RSS）",
+        "summary": "三星 One UI 9 内测版截图曝光了名为 My FanCam 的 AI 功能，该功能依赖 Galaxy AI，可在用户完成视频拍摄后，从成片中智能识别并持续追踪主体，自动重新构图确保主体始。",
+        "url": "https://www.ithome.com/0/978/458.htm",
+        "heat": 8,
+        "time": "7月18日 14:08"
+      },
+      {
         "rank": 122,
+        "title": "开放权重模型逼近前沿，部署治理成新焦点",
+        "source": "X：洪明 (@hongming731)",
+        "summary": "Mozilla 报告指出，开放权重模型在编码等任务上已逼近顶尖闭源模型，但生产采用仍有差距，竞争正从权重本身转向部署、权限、合规等 Agent harness 能力。报告强调，评估开放模型需综合考虑算力利用率、运维成本与数据主权等收益，而非仅比较单次推理 token 成本。",
+        "url": "https://x.com/hongming731/status/2078635024623231068",
+        "heat": 8,
+        "time": "7月19日 8:16"
+      },
+      {
+        "rank": 123,
         "title": "Kimi K3 中文请求下思维链 95.5% 为英文",
         "source": "X：Ethan Mollick (@emollick)",
         "summary": "有趣的是，当我用中文请求 Kimi K3 挑选两首适用于大语言模型的非陈腐诗歌时，其思维链中 95.5% 的字符（88% 的词汇）为英文，即便它明确是在为中文读者考虑中文诗歌。",
@@ -1105,22 +1114,13 @@
         "time": "7月19日 7:24"
       },
       {
-        "rank": 123,
+        "rank": 124,
         "title": "可灵AI大赛获奖作品《玛纳斯》发布",
         "source": "X：可灵 Kling AI (@Kling_ai)",
         "summary": "Where legends take flight. 🦅 探索王世奇、贾子博、杨一航、王培泽与胡金龙创作的《玛纳斯》--一部关于传承、勇气以及人与自然纽带的有力故事。祝贺可灵AI NEXTGEN 2026校园AIGC创作大赛巅峰奖得主！",
         "url": "https://x.com/Kling_ai/status/2078615808268230717",
         "heat": 8,
         "time": "7月19日 7:00"
-      },
-      {
-        "rank": 124,
-        "title": "小米 17 Max 获首批《人工智能终端智能化分级》国家标准 L3 认证证书",
-        "source": "IT之家（RSS）",
-        "summary": "小米 17 Max 手机荣获首批《人工智能终端智能化分级》系列国家标准 L3 评级证书，L3 级为目前有明确划分标准的最高智能化水平。该标准由工信部等部门于今年 5 月联合发布，将终端智能化水平划分为 L1 响应级至 L4 协同级，其中 L4 级将在后续修订中明确。",
-        "url": "https://www.ithome.com/0/978/603.htm",
-        "heat": 8,
-        "time": "7月19日 6:52"
       },
       {
         "rank": 125,
@@ -1142,168 +1142,6 @@
       },
       {
         "rank": 127,
-        "title": "习近平在2026世界AI大会反对美国限制，推动开源AI",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "summary": "习近平在上海2026世界AI大会上发表讲话，反对美国主导的AI限制措施，并倡导开源AI与全球治理。他警告，以国家安全为由的广泛主张可能让强国限制他国获取AI技术。",
-        "url": "https://x.com/rohanpaul_ai/status/2078036940381900871",
-        "heat": 7,
-        "time": "7月17日 16:39"
-      },
-      {
-        "rank": 128,
-        "title": "乐奇 YodaOS 亮相 WAIC 2026，全球首款专为智能眼镜打造的原生 AI 系统",
-        "source": "IT之家（RSS）",
-        "summary": "乐奇 Rokid 在 WAIC 2026 推出全球首款专为智能眼镜打造的原生 AI 操作系统 YodaOS，以图形化沉浸式交互替代传统文字输出，支持行程自动记录与定时主动提醒，也是全球首款支持 AIU",
-        "url": "https://www.ithome.com/0/978/439.htm",
-        "heat": 7,
-        "time": "7月18日 11:51"
-      },
-      {
-        "rank": 129,
-        "title": "亚马逊 Zoox 自动驾驶出租车因烟雾识别缺陷召回 105 辆车",
-        "source": "IT之家（RSS）",
-        "summary": "亚马逊旗下自动驾驶公司 Zoox 宣布召回 105 辆自动驾驶出租车软件，原因是车辆存在无法识别浓烟的风险，曾直接驶入被烟雾遮挡的火灾现场。该缺陷在 6 月 20 日拉斯维加斯一起事故中被发现，当时一辆空载 Zoox 车辆驶入浓烟覆盖的火灾现场后紧急制动，无人员受伤。",
-        "url": "https://www.ithome.com/0/978/427.htm",
-        "heat": 7,
-        "time": "7月18日 11:38"
-      },
-      {
-        "rank": 130,
-        "title": "荣耀 Robot Phone 开启预约，购机享终身 YOYO AI 会员 SVIP",
-        "source": "IT之家（RSS）",
-        "summary": "荣耀 Robot Phone 于 WAIC 2026 期间开启预约，购机可享终身 YOYO AI 会员 SVIP 等权益。该机顶部集成行业最小四自由度钛合金机械云台，0.8 秒展开，支持 360° 追",
-        "url": "https://www.ithome.com/0/978/394.htm",
-        "heat": 7,
-        "time": "7月18日 11:11"
-      },
-      {
-        "rank": 131,
-        "title": "超4500名谷歌员工联名致信皮查伊，要求在AI浪潮中保障被裁员者权益",
-        "source": "IT之家（RSS）",
-        "summary": "超过4500名谷歌员工联名致信CEO桑达尔·皮查伊，要求在AI热潮中保障被裁员者权益。请愿书要求谷歌制定更透明的离职补偿政策，在强制裁员前先提供自愿离职和买断机制，并允许被裁员工将遣散费转为等。",
-        "url": "https://www.ithome.com/0/978/345.htm",
-        "heat": 7,
-        "time": "7月18日 8:25"
-      },
-      {
-        "rank": 132,
-        "title": "凯泽医疗中心护士称AI与工作场所监控正损害护理质量",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "summary": "凯泽医疗中心（Kaiser Permanente）的七名现任及前任护士向CalMatters反映，接听咨询与分诊电话时若通话超过15分钟，常遭管理层批评或约谈绩效。",
-        "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse",
-        "heat": 7,
-        "time": "7月18日 7:38"
-      },
-      {
-        "rank": 133,
-        "title": "Kimi K3 前端盲测登顶，非对称竞争挑战 Fable 5",
-        "source": "X：阿易 AI Notes (@AYi_AInotes)",
-        "summary": "Kimi K3 在 Frontend Code Arena 人类盲测中以 1679 Elo 登顶第一，7 个前端赛道拿下 6 个第一，但综合智能指数仅排第 4。",
-        "url": "https://x.com/AYi_AInotes/status/2078330884726431967",
-        "heat": 7,
-        "time": "7月18日 12:07"
-      },
-      {
-        "rank": 134,
-        "title": "实测Kimi K3搭配7个设计Skill，最佳组合出炉",
-        "source": "公众号：卡尔的AI沃茨",
-        "summary": "用同一份Prompt和Kimi K3，依次搭配7个设计Skill生成网页，每轮只跑一次不返工。结果显示，design-taste-frontend和Impeccable表现最佳，分别以克制与大。",
-        "url": "https://mp.weixin.qq.com/s/MkqpZv3fsCcnlpQu2tGM1A",
-        "heat": 7,
-        "time": "7月18日 12:04"
-      },
-      {
-        "rank": 135,
-        "title": "Codex/ChatGPT 重置付费用户用量限制",
-        "source": "X：Tibo (@thsottiaux)",
-        "summary": "哎呀……我又来了。所有付费用户的 Codex 和 ChatGPT Work 用量限制已重置。非常感激这支不可思议的团队，以光速迭代，并在我们以史无前例的速度扩张时保持基础设施稳定。",
-        "url": "https://x.com/thsottiaux/status/2078320950488297917",
-        "heat": 7,
-        "time": "7月18日 11:28"
-      },
-      {
-        "rank": 136,
-        "title": "Codex 电脑操控演示：安装 Blender 制作 3D 动画",
-        "source": "X：Ethan Mollick (@emollick)",
-        "summary": "Computer use with Codex 真的令人印象深刻：\"我从未用过 Blender，用你的电脑控制下载安装它，然后用它制作一个 3D 水獭并做成小动画\" 我只需点击一次，授予 Wi。",
-        "url": "https://x.com/emollick/status/2078318882473796029",
-        "heat": 7,
-        "time": "7月18日 11:20"
-      },
-      {
-        "rank": 137,
-        "title": "Codex 用浏览器上传图片引热议",
-        "source": "X：Peter Steinberger (@steipete)",
-        "summary": "看着 Codex 用浏览器 + 电脑操作打开 Chrome，进入我的 PR，点击评论，再与 macOS 选择器周旋--这一切只是为了上传一张图片，既令人惊叹又令人痛苦。",
-        "url": "https://x.com/steipete/status/2078318731785359634",
-        "heat": 7,
-        "time": "7月18日 11:19"
-      },
-      {
-        "rank": 138,
-        "title": "Oracle Stargate 项目因许可问题面临延迟",
-        "source": "X：SemiAnalysis (@SemiAnalysis_)",
-        "summary": "Oracle 的 Stargate 站点和 Bloom Energy 面临重大延迟警报🚨🚨 Oracle 位于新墨西哥州的 Project Jupiter 表后数据中心项目计划使用 Bloom。",
-        "url": "https://x.com/SemiAnalysis_/status/2078313861556355134",
-        "heat": 7,
-        "time": "7月18日 11:00"
-      },
-      {
-        "rank": 139,
-        "title": "Claude Fable 5 7月20日起纳入Max和Team Premium计划",
-        "source": "X：宝玉 (@dotey)",
-        "summary": "从7月20日起，Claude Fable 5 将包含在所有 Max 和 Team Premium 计划中，限额为50%。Pro 和 Team Standard 用户仍可通过使用额度访问 Fab。",
-        "url": "https://x.com/dotey/status/2078311802933285059",
-        "heat": 7,
-        "time": "7月18日 10:52"
-      },
-      {
-        "rank": 140,
-        "title": "西西弗斯完整故事：AI 查到的神话细节",
-        "source": "X：Oran Ge (@oran_ge)",
-        "summary": "西西弗斯是科林斯建城者，因泄露宙斯秘密、捆住死神、骗过冥后三次逃脱惩罚，最终被罚永推巨石。故事核心在于惩罚精准回应了他的一生：一个永远在制造出口的人，被安排了一个永远没有出口的循环。",
-        "url": "https://x.com/oran_ge/status/2078311484418048157",
-        "heat": 7,
-        "time": "7月18日 10:50"
-      },
-      {
-        "rank": 141,
-        "title": "开放权重主导不会导致AI崩溃",
-        "source": "X：Ethan Mollick (@emollick)",
-        "summary": "我对一种观点感到困惑：如果开放权重最终占据主导，将导致AI的崩溃。如果实验室输了（目前并未发生），那并非因为AI毫无用处：算力仍是瓶颈，而算力提供商会捕获价值，而非实验室。",
-        "url": "https://x.com/emollick/status/2078274765475709035",
-        "heat": 7,
-        "time": "7月18日 8:24"
-      },
-      {
-        "rank": 142,
-        "title": "K3 可作为教师模型训练更小稠密模型",
-        "source": "X：Emad Mostaque (@EMostaque)",
-        "summary": "K3 可作为教师模型（含 logits）训练更小稠密模型，甚至可用于生成万亿 token 的完整预训练和后训练数据集以训练更优模型。引用推文指出，K3 是专为递归迭代构建的出色基座，",
-        "url": "https://x.com/EMostaque/status/2078517620509233232",
-        "heat": 7,
-        "time": "7月19日 0:29"
-      },
-      {
-        "rank": 143,
-        "title": "Gemini Live 登陆网页版，Skills 功能升级",
-        "source": "X：Testing Catalog (@testingcatalog)",
-        "summary": "Google 正为 Gemini 网页版准备 Gemini Live 功能，桌面端也已进入可信测试阶段。此外，普通聊天中可能开放 Skills 功能，并迎来 Gemini Flash 3.6 升级。",
-        "url": "https://x.com/testingcatalog/status/2078486709604434250",
-        "heat": 7,
-        "time": "7月18日 22:27"
-      },
-      {
-        "rank": 144,
-        "title": "Claude 写了个二手 Mac 验机工具",
-        "source": "X：Berry Xia (@berryxia)",
-        "summary": "开发者用 Claude 生成了一款 Swift 原生 Mac 验机工具 MacCheck，专为二手 Mac 交易场景设计。该工具可自动读取硬件规格，支持交互测试与报告导出，",
-        "url": "https://x.com/berryxia/status/2078484123459731640",
-        "heat": 7,
-        "time": "7月18日 22:16"
-      },
-      {
-        "rank": 145,
         "title": "图表展示：AI 对 Stack Overflow 的影响",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "summary": "一张来自 data.stackexchange.com 的图表展示了 AI 对 Stack Overflow 的影响。该图表数据在 Hacker News 上获得 102 个点赞，",
@@ -1312,7 +1150,16 @@
         "time": "7月18日 21:29"
       },
       {
-        "rank": 146,
+        "rank": 128,
+        "title": "习近平在2026世界AI大会反对美国限制，推动开源AI",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "summary": "习近平在上海2026世界AI大会上发表讲话，反对美国主导的AI限制措施，并倡导开源AI与全球治理。他警告，以国家安全为由的广泛主张可能让强国限制他国获取AI技术。",
+        "url": "https://x.com/rohanpaul_ai/status/2078036940381900871",
+        "heat": 7,
+        "time": "7月17日 16:39"
+      },
+      {
+        "rank": 129,
         "title": "高文院士 WAIC 2026 发言：中国算力网第一阶段已完成 70%，全面落地或需二十年",
         "source": "IT之家（RSS）",
         "summary": "中国工程院院士高文在 WAIC 2026 上表示，中国算力网第一阶段\"算力资源汇聚\"已完成 70%，全国约七成智能算力已纳入统一数据库。第二阶段\"算力任务可调度\"预计还需五年推进，",
@@ -1321,16 +1168,7 @@
         "time": "7月18日 20:35"
       },
       {
-        "rank": 147,
-        "title": "可灵AI大赛获奖作品《三峡》诗意呈现水下175米故乡",
-        "source": "X：可灵 Kling AI (@Kling_ai)",
-        "summary": "他的家位于水下175米深处🌫️ 探索杨邹与王艺辉的《三峡：归不去的故乡》--一段穿越记忆、梦境与归属的诗意旅程。祝贺荣获可灵AI NEXTGEN 2026校园AIGC创作大赛巅峰奖！",
-        "url": "https://x.com/Kling_ai/status/2078449710432444669",
-        "heat": 7,
-        "time": "7月18日 20:00"
-      },
-      {
-        "rank": 148,
+        "rank": 130,
         "title": "网易有道 OpenPods 亮相 WAIC：国内首款苹果 MFi 认证开放式 AI 耳机，耳机盒可独立录音翻译",
         "source": "IT之家（RSS）",
         "summary": "网易有道在 WAIC 展出国内首款苹果 MFi 认证开放式 AI 耳机 OpenPods，支持十余种语种实时互译与同传，录音转写准确率达 98%，可自动生成结构化纪要与思维导图。",
@@ -1339,7 +1177,7 @@
         "time": "7月18日 19:22"
       },
       {
-        "rank": 149,
+        "rank": 131,
         "title": "蓝思智能与上纬新材合作建万台级产线，全球首个可变形个人机器人启元 T1 量产",
         "source": "IT之家（RSS）",
         "summary": "蓝思智能与上纬新材签约，首期规划万台级机器人产线合作。双方将围绕启元 Q1 人形个人机器人和启元 T1 可变形个人机器人开展精密零部件加工、关节模组生产及整机组装。",
@@ -1348,13 +1186,175 @@
         "time": "7月18日 19:18"
       },
       {
+        "rank": 132,
+        "title": "乐奇 YodaOS 亮相 WAIC 2026，全球首款专为智能眼镜打造的原生 AI 系统",
+        "source": "IT之家（RSS）",
+        "summary": "乐奇 Rokid 在 WAIC 2026 推出全球首款专为智能眼镜打造的原生 AI 操作系统 YodaOS，以图形化沉浸式交互替代传统文字输出，支持行程自动记录与定时主动提醒，也是全球首款支持 AIU",
+        "url": "https://www.ithome.com/0/978/439.htm",
+        "heat": 7,
+        "time": "7月18日 11:51"
+      },
+      {
+        "rank": 133,
+        "title": "亚马逊 Zoox 自动驾驶出租车因烟雾识别缺陷召回 105 辆车",
+        "source": "IT之家（RSS）",
+        "summary": "亚马逊旗下自动驾驶公司 Zoox 宣布召回 105 辆自动驾驶出租车软件，原因是车辆存在无法识别浓烟的风险，曾直接驶入被烟雾遮挡的火灾现场。该缺陷在 6 月 20 日拉斯维加斯一起事故中被发现，当时一辆空载 Zoox 车辆驶入浓烟覆盖的火灾现场后紧急制动，无人员受伤。",
+        "url": "https://www.ithome.com/0/978/427.htm",
+        "heat": 7,
+        "time": "7月18日 11:38"
+      },
+      {
+        "rank": 134,
+        "title": "荣耀 Robot Phone 开启预约，购机享终身 YOYO AI 会员 SVIP",
+        "source": "IT之家（RSS）",
+        "summary": "荣耀 Robot Phone 于 WAIC 2026 期间开启预约，购机可享终身 YOYO AI 会员 SVIP 等权益。该机顶部集成行业最小四自由度钛合金机械云台，0.8 秒展开，支持 360° 追",
+        "url": "https://www.ithome.com/0/978/394.htm",
+        "heat": 7,
+        "time": "7月18日 11:11"
+      },
+      {
+        "rank": 135,
+        "title": "超4500名谷歌员工联名致信皮查伊，要求在AI浪潮中保障被裁员者权益",
+        "source": "IT之家（RSS）",
+        "summary": "超过4500名谷歌员工联名致信CEO桑达尔·皮查伊，要求在AI热潮中保障被裁员者权益。请愿书要求谷歌制定更透明的离职补偿政策，在强制裁员前先提供自愿离职和买断机制，并允许被裁员工将遣散费转为等。",
+        "url": "https://www.ithome.com/0/978/345.htm",
+        "heat": 7,
+        "time": "7月18日 8:25"
+      },
+      {
+        "rank": 136,
+        "title": "凯泽医疗中心护士称AI与工作场所监控正损害护理质量",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "summary": "凯泽医疗中心（Kaiser Permanente）的七名现任及前任护士向CalMatters反映，接听咨询与分诊电话时若通话超过15分钟，常遭管理层批评或约谈绩效。",
+        "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse",
+        "heat": 7,
+        "time": "7月18日 7:38"
+      },
+      {
+        "rank": 137,
+        "title": "K3 可作为教师模型训练更小稠密模型",
+        "source": "X：Emad Mostaque (@EMostaque)",
+        "summary": "K3 可作为教师模型（含 logits）训练更小稠密模型，甚至可用于生成万亿 token 的完整预训练和后训练数据集以训练更优模型。引用推文指出，K3 是专为递归迭代构建的出色基座，",
+        "url": "https://x.com/EMostaque/status/2078517620509233232",
+        "heat": 7,
+        "time": "7月19日 0:29"
+      },
+      {
+        "rank": 138,
+        "title": "Gemini Live 登陆网页版，Skills 功能升级",
+        "source": "X：Testing Catalog (@testingcatalog)",
+        "summary": "Google 正为 Gemini 网页版准备 Gemini Live 功能，桌面端也已进入可信测试阶段。此外，普通聊天中可能开放 Skills 功能，并迎来 Gemini Flash 3.6 升级。",
+        "url": "https://x.com/testingcatalog/status/2078486709604434250",
+        "heat": 7,
+        "time": "7月18日 22:27"
+      },
+      {
+        "rank": 139,
+        "title": "Claude 写了个二手 Mac 验机工具",
+        "source": "X：Berry Xia (@berryxia)",
+        "summary": "开发者用 Claude 生成了一款 Swift 原生 Mac 验机工具 MacCheck，专为二手 Mac 交易场景设计。该工具可自动读取硬件规格，支持交互测试与报告导出，",
+        "url": "https://x.com/berryxia/status/2078484123459731640",
+        "heat": 7,
+        "time": "7月18日 22:16"
+      },
+      {
+        "rank": 140,
+        "title": "可灵AI大赛获奖作品《三峡》诗意呈现水下175米故乡",
+        "source": "X：可灵 Kling AI (@Kling_ai)",
+        "summary": "他的家位于水下175米深处🌫️ 探索杨邹与王艺辉的《三峡：归不去的故乡》--一段穿越记忆、梦境与归属的诗意旅程。祝贺荣获可灵AI NEXTGEN 2026校园AIGC创作大赛巅峰奖！",
+        "url": "https://x.com/Kling_ai/status/2078449710432444669",
+        "heat": 7,
+        "time": "7月18日 20:00"
+      },
+      {
+        "rank": 141,
+        "title": "Kimi K3 前端盲测登顶，非对称竞争挑战 Fable 5",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "summary": "Kimi K3 在 Frontend Code Arena 人类盲测中以 1679 Elo 登顶第一，7 个前端赛道拿下 6 个第一，但综合智能指数仅排第 4。",
+        "url": "https://x.com/AYi_AInotes/status/2078330884726431967",
+        "heat": 7,
+        "time": "7月18日 12:07"
+      },
+      {
+        "rank": 142,
+        "title": "实测Kimi K3搭配7个设计Skill，最佳组合出炉",
+        "source": "公众号：卡尔的AI沃茨",
+        "summary": "用同一份Prompt和Kimi K3，依次搭配7个设计Skill生成网页，每轮只跑一次不返工。结果显示，design-taste-frontend和Impeccable表现最佳，分别以克制与大。",
+        "url": "https://mp.weixin.qq.com/s/MkqpZv3fsCcnlpQu2tGM1A",
+        "heat": 7,
+        "time": "7月18日 12:04"
+      },
+      {
+        "rank": 143,
+        "title": "Codex/ChatGPT 重置付费用户用量限制",
+        "source": "X：Tibo (@thsottiaux)",
+        "summary": "哎呀……我又来了。所有付费用户的 Codex 和 ChatGPT Work 用量限制已重置。非常感激这支不可思议的团队，以光速迭代，并在我们以史无前例的速度扩张时保持基础设施稳定。",
+        "url": "https://x.com/thsottiaux/status/2078320950488297917",
+        "heat": 7,
+        "time": "7月18日 11:28"
+      },
+      {
+        "rank": 144,
+        "title": "Codex 电脑操控演示：安装 Blender 制作 3D 动画",
+        "source": "X：Ethan Mollick (@emollick)",
+        "summary": "Computer use with Codex 真的令人印象深刻：\"我从未用过 Blender，用你的电脑控制下载安装它，然后用它制作一个 3D 水獭并做成小动画\" 我只需点击一次，授予 Wi。",
+        "url": "https://x.com/emollick/status/2078318882473796029",
+        "heat": 7,
+        "time": "7月18日 11:20"
+      },
+      {
+        "rank": 145,
+        "title": "Codex 用浏览器上传图片引热议",
+        "source": "X：Peter Steinberger (@steipete)",
+        "summary": "看着 Codex 用浏览器 + 电脑操作打开 Chrome，进入我的 PR，点击评论，再与 macOS 选择器周旋--这一切只是为了上传一张图片，既令人惊叹又令人痛苦。",
+        "url": "https://x.com/steipete/status/2078318731785359634",
+        "heat": 7,
+        "time": "7月18日 11:19"
+      },
+      {
+        "rank": 146,
+        "title": "Oracle Stargate 项目因许可问题面临延迟",
+        "source": "X：SemiAnalysis (@SemiAnalysis_)",
+        "summary": "Oracle 的 Stargate 站点和 Bloom Energy 面临重大延迟警报🚨🚨 Oracle 位于新墨西哥州的 Project Jupiter 表后数据中心项目计划使用 Bloom。",
+        "url": "https://x.com/SemiAnalysis_/status/2078313861556355134",
+        "heat": 7,
+        "time": "7月18日 11:00"
+      },
+      {
+        "rank": 147,
+        "title": "Claude Fable 5 7月20日起纳入Max和Team Premium计划",
+        "source": "X：宝玉 (@dotey)",
+        "summary": "从7月20日起，Claude Fable 5 将包含在所有 Max 和 Team Premium 计划中，限额为50%。Pro 和 Team Standard 用户仍可通过使用额度访问 Fab。",
+        "url": "https://x.com/dotey/status/2078311802933285059",
+        "heat": 7,
+        "time": "7月18日 10:52"
+      },
+      {
+        "rank": 148,
+        "title": "西西弗斯完整故事：AI 查到的神话细节",
+        "source": "X：Oran Ge (@oran_ge)",
+        "summary": "西西弗斯是科林斯建城者，因泄露宙斯秘密、捆住死神、骗过冥后三次逃脱惩罚，最终被罚永推巨石。故事核心在于惩罚精准回应了他的一生：一个永远在制造出口的人，被安排了一个永远没有出口的循环。",
+        "url": "https://x.com/oran_ge/status/2078311484418048157",
+        "heat": 7,
+        "time": "7月18日 10:50"
+      },
+      {
+        "rank": 149,
+        "title": "开放权重主导不会导致AI崩溃",
+        "source": "X：Ethan Mollick (@emollick)",
+        "summary": "我对一种观点感到困惑：如果开放权重最终占据主导，将导致AI的崩溃。如果实验室输了（目前并未发生），那并非因为AI毫无用处：算力仍是瓶颈，而算力提供商会捕获价值，而非实验室。",
+        "url": "https://x.com/emollick/status/2078274765475709035",
+        "heat": 7,
+        "time": "7月18日 8:24"
+      },
+      {
         "rank": 150,
-        "title": "Zyphra 发布 ZUNA1.1：Apache 2.0 许可的 EEG 基础模型，支持 0.5 至 30 秒可变长度输入",
-        "source": "MarkTechPost（RSS）",
-        "summary": "Zyphra 发布 ZUNA1.1，一个 3.8 亿参数的掩码扩散自编码器，用于头皮 EEG 信号。相比固定 5 秒输入的 ZUNA1，新模型支持 0.5 至 30 秒可变长度输入，并采用 4D 旋转",
-        "url": "https://www.marktechpost.com/2026/07/17/zyphra-releases-zuna1-1-an-apache-2-0-eeg-foundation-model-with-variable-length-inputs-from-0-5-to-30-seconds",
+        "title": "京东发布 JoyAI-Talker 实时语音交互模型与 JoyAI-Video-Edit 视频编辑模型",
+        "source": "IT之家（RSS）",
+        "summary": "京东在 WAIC 2026 上推出 JoyAI-Talker 实时语音交互模型与 JoyAI-Video-Edit 实时视频编辑模型。JoyAI-Talker 具备低延迟对话、情绪理解、工具调用和记忆能力，支持声纹识别用户身份；JoyAI-Video-Edit 支持自定义画面和边预览边修改，用户可用自然语言增删物体、替换人物、重构场景。",
+        "url": "https://www.ithome.com/0/978/593.htm",
         "heat": 6,
-        "time": "7月18日 5:35"
+        "time": "7月18日 22:44"
       }
     ],
     "mockHotNewsInternational": [
@@ -2714,33 +2714,6 @@
     "mockHotNewsAI": [
       {
         "rank": 1,
-        "title": "贵州抢滩具身智能数据新赛道",
-        "source": "新华网",
-        "summary": "在贵阳市区的一套住宅内，21岁的大学毕业生王军堡戴着全景采集头环，手上重复着收纳、洗碗等日常家务动作。作为一名具身智能数据采集员，他的任务是用第一视角记录人类姿态——如何抓握、如何发力、如何避开障碍物。",
-        "url": "https://view.inews.qq.com/a/20260715A03Q7W00?scene=news-skill",
-        "heat": 9,
-        "time": "7月15日 10:14"
-      },
-      {
-        "rank": 2,
-        "title": "人工智能为文旅消费注入新玩法",
-        "source": "央广网",
-        "summary": "在新疆赛里木湖景区，游客只需登录一个网页就能进行客流查询、聆听智能讲解、生成专属游记；在上海虹口今潮8弄滨港商业中心，体验者戴上MR（混合现实）眼镜可以瞬间“穿越”到火星，与外星生物进行“交流”；在北京国家体育场的舞台上，机器人舞团整齐划一地完成高难度动作，引得观众连声喝彩……7月8日至10日...",
-        "url": "https://view.inews.qq.com/a/20260715A02ZA400?scene=news-skill",
-        "heat": 9,
-        "time": "7月15日 9:19"
-      },
-      {
-        "rank": 3,
-        "title": "云南将推动人工智能炼铝、制磷、炮制中药",
-        "source": "中国新闻网",
-        "summary": "中新网昆明7月13日电 (陆希成)云南省工业和信息化厅等十部门近日印发《云南省“人工智能+制造”专项行动实施方案》(下称《方案》)，为有色金属、稀贵金属、磷化工、中药材等高原特色优势产业“量身定制”人工智能应用场景，推动大模型向生产核心环节纵深渗透。",
-        "url": "https://view.inews.qq.com/a/20260713A080G800?scene=news-skill",
-        "heat": 9,
-        "time": "7月13日 16:33"
-      },
-      {
-        "rank": 4,
         "title": "开“新”WAIC丨9个关键词，解锁2026世界人工智能大会新亮点",
         "source": "央视新闻",
         "summary": "2026世界人工智能大会（WAIC）暨人工智能全球治理高级别会议将于7月17日至20日在上海举行作为全球人工智能领域的顶级盛会世界人工智能大会已成功举办八届今年将有哪些前沿首发？9个关键词，带你抢先解锁！",
@@ -2749,7 +2722,7 @@
         "time": "7月13日 15:17"
       },
       {
-        "rank": 5,
+        "rank": 2,
         "title": "2026世界人工智能大会前瞻：厚积八载，未来已来",
         "source": "中国新闻网",
         "summary": "中新网上海7月13日电 (记者 郑莹莹)自2018年以来，世界人工智能大会(WAIC)的“种子”在上海萌芽、成长。大会见证AI从技术试点、场景试水，到产业深耕、生态成熟的发展轨迹。",
@@ -2758,7 +2731,7 @@
         "time": "7月13日 13:15"
       },
       {
-        "rank": 6,
+        "rank": 3,
         "title": "AI中国绘开局丨半年创新答卷！人工智能赋能千行百业夯实新质生产力",
         "source": "央广网",
         "summary": "2026年已过半程回望这半年新质生产力拔节生长融入千行百业从田间地头的智慧农田到生产线上的数字孪生工厂从城市上空的无人机航线到深空探测的自主导航轨道各行各业正在被人工智能技术深度重塑新质生产力的核心是创新“人工智能+”正是驱动这场创新浪潮的重要引擎2026年上半年从育种到收获人工智能正加速贯穿...",
@@ -2767,7 +2740,7 @@
         "time": "7月13日 8:49"
       },
       {
-        "rank": 7,
+        "rank": 4,
         "title": "开源和人工智能边会探讨共建开放普惠的数字未来",
         "source": "新华社新闻",
         "summary": "日内瓦7月12日电（记者王露）以“开源和人工智能促进可持续发展：数字基础设施、开放数据和多利益相关方合作”为主题的2026年信息社会世界峰会论坛边会近日在日内瓦举办。",
@@ -2776,7 +2749,7 @@
         "time": "7月12日 21:27"
       },
       {
-        "rank": 8,
+        "rank": 5,
         "title": "活力中国调研行丨从“能动”变“能用” 具身智能加速走进生产生活",
         "source": "央视新闻",
         "summary": "近年来，上海着力实施创新驱动发展战略，正加速向具有全球影响力的科技创新中心迈进。作为我国人工智能产业的高地，上海在具身智能领域，尤其是人形机器人的研发卓有成效。",
@@ -2785,7 +2758,7 @@
         "time": "7月8日 16:44"
       },
       {
-        "rank": 9,
+        "rank": 6,
         "title": "四部门印发《关于加快推进“人工智能＋人社”应用发展的实施意见》",
         "source": "央视新闻",
         "summary": "近日，人力资源社会保障部、国家发展改革委、工业和信息化部、国家数据局联合印发《关于加快推进“人工智能＋人社”应用发展的实施意见》。加快推进人工智能在人力资源社会保障行业领域应用发展，支撑人社事业高质量发展。",
@@ -2794,7 +2767,7 @@
         "time": "7月8日 16:19"
       },
       {
-        "rank": 10,
+        "rank": 7,
         "title": "AI深度融入业务场景 乐信获评“人工智能创新企业奖”",
         "source": "央广网",
         "summary": "，格隆汇在2026中期策略峰会发布“金格奖”卓越公司榜单。凭借人工智能技术在业务全流程的深度应用，以及持续推动金融服务智能化升级的创新实践，乐信（NASDAQ：LX）荣获“人工智能创新企业奖”。",
@@ -2803,7 +2776,7 @@
         "time": "7月7日 18:34"
       },
       {
-        "rank": 11,
+        "rank": 8,
         "title": "医疗与人工智能（AI）研讨会在北京举办",
         "source": "中国新闻网",
         "summary": "中新网北京7月5日电 (记者 刘亮)由瞭望周刊社瞭望财经与德适科技联合主办的一场医疗与人工智能(AI)研讨会在北京举办。与会人士表示，随着AI深度融入医学影像领域，数据资源价值持续凸显",
@@ -2812,7 +2785,7 @@
         "time": "7月5日 19:36"
       },
       {
-        "rank": 12,
+        "rank": 9,
         "title": "主播说联播丨不止于观影！电影院要成为“潮玩新地标”",
         "source": "央视新闻",
         "summary": "近日，国家电影局、市场监管总局联合发文，要给电影院赋能，目标很明确：促进多样化经营，把电影院搞得红红火火。具体怎么干？主播说联播丨不止于观影！电影院要成为“潮玩新地标”",
@@ -2821,7 +2794,7 @@
         "time": "7月4日 22:50"
       },
       {
-        "rank": 13,
+        "rank": 10,
         "title": "台湾业者投身大陆AI微短剧 冀两岸共创讲好中国故事",
         "source": "中国新闻网",
         "summary": "中新社北京7月3日电 (记者 徐雪莹)“同样一部动画，原先15个人做，现在三四人就够了。”2026两岸青年峰会期间，台湾导演薛颖穜向记者展示他借助Seedance、豆包等AI大模型完成的动画作品...",
@@ -2830,7 +2803,7 @@
         "time": "7月3日 22:22"
       },
       {
-        "rank": 14,
+        "rank": 11,
         "title": "报告：AI大模型商业化“落地战”全面打响",
         "source": "央广网",
         "summary": "7月3日发布的一份行业报告指出，2026年上半年，中国 AI大模型产业竞争激化，在延续技术竞赛、流量争夺、生态抢滩的同时，全面打响大规模商业化“落地战”，应用前景得以验证，行业泡沫则开始出清。",
@@ -2839,7 +2812,7 @@
         "time": "7月3日 16:54"
       },
       {
-        "rank": 15,
+        "rank": 12,
         "title": "探索两岸AI合作前景 2026年海峡两岸大学论坛在北京举办",
         "source": "中国新闻网",
         "summary": "中新社北京7月3日电 (记者 张杨彬)“大陆的AI短剧很火，我的学生们也在看”“这是我用AI创作的新歌曲”……在北京的一场聚焦人工智能与两岸发展的论坛上，多位两岸学者谈起AI在日常生活中的应用，很快打开了话匣子。",
@@ -2848,7 +2821,7 @@
         "time": "7月3日 11:34"
       },
       {
-        "rank": 16,
+        "rank": 13,
         "title": "中东欧国家新闻发言人在浙江遇见“未来机器人”",
         "source": "中国新闻网",
         "summary": "中新社杭州7月2日电 (郭其钰 吴瑾熠)在浙江省杭州市具身智能展示与应用推广中心的一场“人机对弈”中，斯洛文尼亚国民议会秘书长媒体事务负责人马蒂亚·米克拉夫契奇落下一子，对面的机器人很快完成回应。几回合下来，他笑着摊手：“跟它下棋我赢不了，它太聪明了。",
@@ -2857,16 +2830,34 @@
         "time": "7月2日 21:43"
       },
       {
-        "rank": 17,
-        "title": "12个新职业向社会公示 包括具身智能机器人应用技术员等",
-        "source": "中国新闻网",
-        "summary": "中新网北京7月3日电 (记者 谢雁冰)近日，人力资源和社会保障部办公厅发布《关于对拟发布船舶岸基管理工程技术人员等职业信息进行公示的公告》(以下简称“公告”)，公告拟发布12个新职业，并将信息面向全社会公示，征集公众意见建议，公示反馈截止时间为7月17日。",
-        "url": "https://view.inews.qq.com/a/20260703A0CRKC00?scene=news-skill",
-        "heat": 8,
-        "time": "7月3日 22:54"
+        "rank": 14,
+        "title": "贵州抢滩具身智能数据新赛道",
+        "source": "新华网",
+        "summary": "在贵阳市区的一套住宅内，21岁的大学毕业生王军堡戴着全景采集头环，手上重复着收纳、洗碗等日常家务动作。作为一名具身智能数据采集员，他的任务是用第一视角记录人类姿态——如何抓握、如何发力、如何避开障碍物。",
+        "url": "https://view.inews.qq.com/a/20260715A03Q7W00?scene=news-skill",
+        "heat": 9,
+        "time": "7月15日 10:14"
       },
       {
-        "rank": 18,
+        "rank": 15,
+        "title": "人工智能为文旅消费注入新玩法",
+        "source": "央广网",
+        "summary": "在新疆赛里木湖景区，游客只需登录一个网页就能进行客流查询、聆听智能讲解、生成专属游记；在上海虹口今潮8弄滨港商业中心，体验者戴上MR（混合现实）眼镜可以瞬间“穿越”到火星，与外星生物进行“交流”；在北京国家体育场的舞台上，机器人舞团整齐划一地完成高难度动作，引得观众连声喝彩……7月8日至10日...",
+        "url": "https://view.inews.qq.com/a/20260715A02ZA400?scene=news-skill",
+        "heat": 9,
+        "time": "7月15日 9:19"
+      },
+      {
+        "rank": 16,
+        "title": "云南将推动人工智能炼铝、制磷、炮制中药",
+        "source": "中国新闻网",
+        "summary": "中新网昆明7月13日电 (陆希成)云南省工业和信息化厅等十部门近日印发《云南省“人工智能+制造”专项行动实施方案》(下称《方案》)，为有色金属、稀贵金属、磷化工、中药材等高原特色优势产业“量身定制”人工智能应用场景，推动大模型向生产核心环节纵深渗透。",
+        "url": "https://view.inews.qq.com/a/20260713A080G800?scene=news-skill",
+        "heat": 9,
+        "time": "7月13日 16:33"
+      },
+      {
+        "rank": 17,
         "title": "芯片不够用！英伟达内部抢算力，黄仁勋需要亲自协调",
         "source": "环球网",
         "summary": "7月16日消息，据The Verge报道，英伟达汽车业务负责人吴新宙近日在播客节目中透露，受全球人工智能产业高速发展带动，英伟达 GPU 芯片供需持续趋紧，公司内部各业务团队也需竞争获取算力资源，部分资源调配分歧需由公司首席执行官黄仁勋出面协调。",
@@ -2875,7 +2866,7 @@
         "time": "7月16日 15:02"
       },
       {
-        "rank": 19,
+        "rank": 18,
         "title": "全球媒体聚焦 | 世界人工智能大会将聚焦AI治理框架",
         "source": "国际在线",
         "summary": "2026世界人工智能大会暨人工智能全球治理高级别会议将于7月17日至20日在上海举行。多家媒体报道称，人工智能是全球治理的关键领域之一，此次大会将为未来人工智能治理作出贡献。",
@@ -2884,7 +2875,7 @@
         "time": "7月16日 8:04"
       },
       {
-        "rank": 20,
+        "rank": 19,
         "title": "公司以“AI替岗”为由裁员 劳动者被判获双倍赔偿",
         "source": "中国青年报",
         "summary": "随着生成式人工智能全面落地应用，用人单位依托AI工具简化基础工作、压缩用工规模已成普遍现象，由此衍生的“AI替岗”劳动纠纷持续增多。世界经济论坛（WEF）发布《2023年未来就业报告》预判，至2027年全球将有8300万个传统岗位被人工智能替代，同时诞生6900万个新型就业岗位。",
@@ -2893,7 +2884,7 @@
         "time": "7月16日 6:14"
       },
       {
-        "rank": 21,
+        "rank": 20,
         "title": "西媒：中国推动国际合作共塑AI未来",
         "source": "参考消息",
         "summary": "参考消息网7月15日报道 西班牙知华讲堂网站7月13日发表文章《中国在世界人工智能大会上寄望于国际合作，以塑造人工智能的未来》，作者为费尔南多·莫拉莱斯。文章编译如下：7月17日至20日，上海将成为国际人工智能(AI)发展讨论的中心。",
@@ -2902,7 +2893,7 @@
         "time": "7月15日 15:59"
       },
       {
-        "rank": 22,
+        "rank": 21,
         "title": "新媒：中国为何能引领人工智能应用？",
         "source": "参考消息",
         "summary": "参考消息网7月15日报道 新加坡“思想中国”网站7月9日发表题为《价格低、速度快、无处不在：为何中国能引领AI应用》的文章，作者是彭慧娟。文章摘编如下：美国与中国在生成式人工智能（AI）领域的竞争，通常被描述为一场打造更强模型的竞赛。",
@@ -2911,7 +2902,7 @@
         "time": "7月15日 9:44"
       },
       {
-        "rank": 23,
+        "rank": 22,
         "title": "全球媒体聚焦︱外媒：AI热潮助推中国外贸数据攀升",
         "source": "国际在线",
         "summary": "中国海关总署14日发布的外贸数据显示，我国6月进出口数据表现强劲，引发多家外媒关注。欧洲新闻电视台的报道援引凯投宏观中国区首席经济学家朱利安·埃文斯-普里查德的观点称，中国6月份贸易额再度大幅攀升，主要得益于人工智能热潮推动半导体价格近期暴涨。",
@@ -2920,7 +2911,7 @@
         "time": "7月15日 7:59"
       },
       {
-        "rank": 24,
+        "rank": 23,
         "title": "从“关键变量”到“强劲增量”——我国人工智能产业发展观察",
         "source": "经济日报",
         "summary": "DeepSeek、通义千问、豆包等大语言模型多项关键指标进入全球前列，一批国产芯片万卡集群建成，人工智能（AI）相关产业规模超万亿元，重点行业人工智能整体渗透率突破80%……“十四五”以来，我国人工智能技术从“全面跟跑”走向“全面并跑、部分领跑”，深度赋能千行百业。",
@@ -2929,7 +2920,7 @@
         "time": "7月15日 6:30"
       },
       {
-        "rank": 25,
+        "rank": 24,
         "title": "俄媒分析：中美应对人工智能发展难题路径迥异",
         "source": "参考消息",
         "summary": "参考消息网7月13日报道 俄罗斯战略文化基金会网站7月2日发表题为《中国的统筹规划与美国的茫然失措——中美如何应对人工智能发展难题》的文章，作者是维克托·皮罗任科。全文摘编如下：人工智能（AI）经济的发展，不仅对经济金融政策本身，而且对整个国家的治理都提出了特殊的、日益严格的要求。",
@@ -2938,7 +2929,7 @@
         "time": "7月13日 14:50"
       },
       {
-        "rank": 26,
+        "rank": 25,
         "title": "纯视觉自动驾驶方案迎来重大危机，特斯拉Robotaxi或被美新泽西州拒之门外",
         "source": "环球网",
         "summary": "7月13日，据外媒The Verge报道，近日，美国新泽西州拟出台自动驾驶新规，计划立法强制全自动无人车搭载多套融合传感器，此举或将直接封杀特斯拉纯视觉自动驾驶方案，引发全球自动驾驶行业热议。",
@@ -2947,7 +2938,7 @@
         "time": "7月13日 12:03"
       },
       {
-        "rank": 27,
+        "rank": 26,
         "title": "华为云Stack x openJiuwen：重新定义生产级AI Agent的政企落地路径",
         "source": "环球网",
         "summary": "当AI Agent不再是单打独斗的“聊天机器人”，而是一支能够自主分工、动态协商、持续进化的“数字军团”，企业智能化的想象空间将被彻底打开。openJiuwen作为面向生产级应用的开源AI Agent平台，围绕多智能体协同与群体智能方向，持续进行技术探索与生态建设。",
@@ -2956,7 +2947,7 @@
         "time": "7月10日 15:43"
       },
       {
-        "rank": 28,
+        "rank": 27,
         "title": "三星正式量产将搭载于英伟达Vera Rubin平台的存储硬盘",
         "source": "环球网",
         "summary": "7月8日消息，据彭博社报道，三星电子已启动旗下最先进的数据中心专用存储设备的量产工作，这款专为AI场景打造的企业级固态硬盘PM1763，将被应用于英伟达即将推出的Vera Rubin平台中，为高性能AI运算提供核心存储支撑",
@@ -2965,7 +2956,7 @@
         "time": "7月8日 11:42"
       },
       {
-        "rank": 29,
+        "rank": 28,
         "title": "人工智能会挑选哪种支付方式",
         "source": "参考消息",
         "summary": "参考消息网7月8日报道 西班牙《经济学家报》网站6月25日刊登题为《人工智能会挑选哪种支付方式？》的文章，作者是维克托·阿尔瓦尔·冈萨雷斯，内容编译如下：是的，你没看错：未来的支付方式将由人工智能(AI)“挑选”",
@@ -2974,27 +2965,27 @@
         "time": "7月8日 9:32"
       },
       {
-        "rank": 30,
+        "rank": 29,
         "title": "阿米奥机器人刘方：具身智能不是大模型，更不是智驾",
         "source": "环球网",
         "summary": "过去两年，具身智能常被放进两个熟悉的叙事里理解：它要么是“大模型的下一站”，要么是“自动驾驶向工厂的迁移”。前者强调模型、数据和规模效应，后者强调感知、预测、规划与端到端闭环。",
         "url": "https://view.inews.qq.com/a/20260707A06ZA900?scene=news-skill",
         "heat": 8,
         "time": "7月7日 15:42"
-      }
-    ],
-    "mockHotNewsAIExtra": [
+      },
       {
-        "rank": 31,
+        "rank": 30,
         "title": "两岸青年以科技为桥 携手创未来",
         "source": "国际在线",
         "summary": "2026两岸青年峰会在北京开幕（摄影：母曼晔） “大陆科技非常先进！”首次到访北京的台湾学生陈冠铭近距离了解大陆的人工智能产业后不禁赞叹，“亲眼见到与想象中完全不一样",
         "url": "https://view.inews.qq.com/a/20260706A0AHKQ00?scene=news-skill",
         "heat": 8,
         "time": "7月6日 20:59"
-      },
+      }
+    ],
+    "mockHotNewsAIExtra": [
       {
-        "rank": 32,
+        "rank": 31,
         "title": "秘鲁前总理：人工智能规则关乎人类未来",
         "source": "中国日报网",
         "summary": "秘鲁共和国前总理、前司法与人权部部长爱德华多·阿拉纳·伊萨7月6日在《中国日报》撰文称，人工智能已从机器学习演进至深度学习，成为一股变革性力量，日益深刻地塑造着我们的社会",
@@ -3003,7 +2994,7 @@
         "time": "7月6日 19:45"
       },
       {
-        "rank": 33,
+        "rank": 32,
         "title": "2026全球数字经济大会在北京举行",
         "source": "参考消息",
         "summary": "参考消息网7月5日报道 据土库曼斯坦东方通讯社网站7月3日报道，人工智能（AI）正在重塑商业模式与产业实践，在北京举行的2026全球数字经济大会上，AI驱动的创业和具身智能已成为核心议题。当技术不再只是工具，而是化为一种环境时，商业便不再循线性轨迹运行，变得鲜活、富有适应性且极其迅捷。",
@@ -3012,7 +3003,7 @@
         "time": "7月5日 16:54"
       },
       {
-        "rank": 34,
+        "rank": 33,
         "title": "上海国际具身智能产业博览会开幕",
         "source": "参考消息",
         "summary": "参考消息网7月4日报道 据塔斯社7月2日报道，上海国际具身智能产业博览会于当日开幕，来自中国及其他国家的约200家企业参与其中。参展企业覆盖整条产业链，包括机器人制造技术公司，人工智能、感知系统和决策认知系统开发商，以及电池储能系统和高科技零部件制造商，分布于九个主题展区。",
@@ -3021,7 +3012,7 @@
         "time": "7月4日 12:10"
       },
       {
-        "rank": 35,
+        "rank": 34,
         "title": "单双：警惕AR游戏侵蚀国家安全",
         "source": "环球网",
         "summary": "近期有媒体披露，日本某知名动漫IP衍生AR（增强现实）游戏的海量用户环境扫描数据，或将被用于训练识别物理空间的人工智能（AI）模型。令人警觉的是，这家AI公司与某国军工企业存在合作关系，意味着由普通玩家在娱乐中采集的真实场景数据，存在被用于军事目的的可能。",
@@ -3030,7 +3021,7 @@
         "time": "7月4日 6:55"
       },
       {
-        "rank": 36,
+        "rank": 35,
         "title": "国际清算银行年度经济报告指出——全球财政和金融脆弱性加剧",
         "source": "经济日报",
         "summary": "日前，国际清算银行发布《2026年年度经济报告》指出，过去一年，全球经济增长在关税冲击和地缘政治不确定性下展现出了韧性，主要得益于人工智能（AI）投资热潮。但地缘政治逆风、财政和金融脆弱性上升，政策制定者的决策重心需要从追求“被动韧性”转向构建“主动稳健性”。",
@@ -3039,7 +3030,7 @@
         "time": "7月4日 6:30"
       },
       {
-        "rank": 37,
+        "rank": 36,
         "title": "中国拟推进人工智能全学段教育",
         "source": "参考消息",
         "summary": "道 据新加坡《联合早报》网站6月30日报道，中国计划将人工智能（AI）教育纳入各级学校教学体系，提升学生AI素养，以配合中国领导层推动科技创新、抢占AI发展制高点的战略布局。",
@@ -3048,7 +3039,7 @@
         "time": "7月3日 16:06"
       },
       {
-        "rank": 38,
+        "rank": 37,
         "title": "省应急管理厅举办首期人工智能大模型在应急领域应用公开交流日活动",
         "source": "山西经济日报",
         "summary": "近日，省应急管理厅举办首期人工智能大模型在应急管理领域应用公开交流日活动，省内外多家人工智能技术研发、产品落地及行业应用企业专家代表受邀参会。本次活动旨在搭建技术供需对接桥梁，聚焦人工智能大模型在应急管理实战场景的落地赋能，加快推动应急管理工作由“人防”向“智防”转型升级。",
@@ -3057,7 +3048,7 @@
         "time": "7月3日 9:30"
       },
       {
-        "rank": 39,
+        "rank": 38,
         "title": "大模型“出海”怕踩雷？江苏昆山这场AI角把安全、合规、机遇讲透了",
         "source": "光明网",
         "summary": "大模型很聪明，但安全怎么守？数据要出境，合规的门往哪开？6月30日，在“昆城数盾・跨境护航”2026年江苏省昆山市“AI 角”第十八期——大模型安全与跨境新机遇专场上，有了清晰的回答。",
@@ -3066,7 +3057,7 @@
         "time": "7月2日 13:32"
       },
       {
-        "rank": 40,
+        "rank": 39,
         "title": "瑞银：六成企业缩减 AI 支出 DeepSeek 等开源模型受益",
         "source": "环球网",
         "summary": "7月2日消息，据Business Insider报道，瑞银近日发布行业调研研报显示，通过走访多家企业信息技术负责人发现，约六成市场主体出台管控举措，针对性收紧人工智能相关开支，行业迎来一轮良性调整。成本高企成为企业收紧 AI 预算的核心动因。",
@@ -3075,7 +3066,7 @@
         "time": "7月2日 10:53"
       },
       {
-        "rank": 41,
+        "rank": 40,
         "title": "为何“上帝之手”难以再现球场？",
         "source": "参考消息",
         "summary": "参考消息网6月29日报道 据《日本经济新闻》6月27日报道，包括人工智能(AI)在内的尖端技术正在为美加墨世界杯的赛事运作提供支持。这些技术不仅能对肉眼难以判断的情况进行精准判罚，还能提供沉浸式的视频画面。",
@@ -3084,7 +3075,7 @@
         "time": "2026-06-29 19:38"
       },
       {
-        "rank": 42,
+        "rank": 41,
         "title": "专访｜中国在人工智能领域发挥引领作用——访塞尔维亚信息和电信部长布拉蒂纳",
         "source": "新华社新闻",
         "summary": "贝尔格莱德7月16日电 专访｜中国在人工智能领域发挥引领作用——访塞尔维亚信息和电信部长布拉蒂纳 新华社记者张璇 石中玉 塞尔维亚信息和电信部长博里斯·布拉蒂纳日前接受",
@@ -3093,7 +3084,7 @@
         "time": "7月16日 13:55"
       },
       {
-        "rank": 43,
+        "rank": 42,
         "title": "“三地四馆”联动 2026世界人工智能大会规模和影响力双突破",
         "source": "央视新闻",
         "summary": "2026世界人工智能大会暨人工智能全球治理高级别会议将于7月17日至20日在上海举行，四个展馆分别是上海世博展览馆、世博中心、张江科学会堂、西岸国际会展中心。本届大会展览总面积首次突破10万平方米，较上届增长超40%，展览汇聚全球20余个国家1100余家龙头企业、科创团队参展，集中首发超300款全球顶尖AI新品。",
@@ -3102,7 +3093,7 @@
         "time": "7月15日 15:46"
       },
       {
-        "rank": 44,
+        "rank": 43,
         "title": "机器人学校配备智能“助教” 机器人加速赋能千行百业",
         "source": "央视新闻",
         "summary": "作为人工智能重点发展方向，人形机器人与具身智能产业在北京加速布局。在人工智能从“感知智能”向“具身智能”迈进的关键窗口期，高质量数据成为驱动人形机器人产业发展的关键资源。",
@@ -3111,7 +3102,7 @@
         "time": "7月15日 14:53"
       },
       {
-        "rank": 45,
+        "rank": 44,
         "title": "新思想引领新征程丨人工智能蓬勃兴起 锻造高质量发展新引擎",
         "source": "央视新闻",
         "summary": "习近平总书记强调，加快发展新一代人工智能是我们赢得全球科技竞争主动权的重要战略抓手，是推动我国科技跨越发展、产业优化升级、生产力整体跃升的重要战略资源。“十五五”开局之年，",
@@ -3120,7 +3111,7 @@
         "time": "7月13日 19:14"
       },
       {
-        "rank": 46,
+        "rank": 45,
         "title": "从“新”向“智”：中国方案拓展国际能源合作新空间",
         "source": "新华社新闻",
         "summary": "成都7月11日电 题：从“新”向“智”：中国方案拓展国际能源合作新空间 新华社记者卢宥伊 “人工智能与能源融合，正由‘AI赋能能源’迈向‘能源与AI双向赋能’的新阶段。”中海油能源经济研究院副院长胡森林在此间举办的国际会议期间说，随着能源产业经历数字化变革，国际能源合作领域也在发生新变化。",
@@ -3129,7 +3120,7 @@
         "time": "7月11日 22:06"
       },
       {
-        "rank": 47,
+        "rank": 46,
         "title": "人工智能学会“使坏”，我们怎么办",
         "source": "人民网",
         "summary": "丁 效 徐 骏绘(新华社发) AI(人工智能)走出实验室，潜在风险也日益显现。从AI换脸诈骗、算法诱导沉迷，到生成看似合理却事实错误的虚假内容，AI“使坏”带来的安全隐患引发担忧。",
@@ -3138,7 +3129,7 @@
         "time": "7月11日 6:06"
       },
       {
-        "rank": 48,
+        "rank": 47,
         "title": "北京成立人工智能等十大重点产业产教联盟  推进校企协同育人",
         "source": "中国新闻网",
         "summary": "中新网北京7月10日电 (记者 陈杭)10日，北京市重点产业产教联盟成立大会召开，宣布集成电路、人工智能、生物医药健康、绿色能源、高端科学仪器、商业航天、智能制造、具身智能机器人、智能网联汽车、...",
@@ -3147,7 +3138,7 @@
         "time": "7月10日 21:09"
       },
       {
-        "rank": 49,
+        "rank": 48,
         "title": "财经聚焦|从“技术可用”到“商业可赚” AI智能体加速落地",
         "source": "新华社新闻",
         "summary": "题：从“技术可用”到“商业可赚” AI智能体加速落地 新华社记者张骁 今年以来，国内AI智能体不再局限于技术展示和辅助工作，加快走进实体产业与大众生活，开启规模化落地之路。",
@@ -3156,7 +3147,7 @@
         "time": "7月10日 17:12"
       },
       {
-        "rank": 50,
+        "rank": 49,
         "title": "人工智能向善：中央广播电视总台受邀推出《赢在AI+》海外特别节目",
         "source": "央视新闻",
         "summary": "当地时间7月8日至11日，由国际电信联盟联合多个联合国机构共同举办的\"人工智能向善\"全球峰会在瑞士日内瓦举行。来自全球的科研机构、企业和国际组织围绕人工智能创新应用展开交流，探讨如何让人工智能更好服务人类社会。",
@@ -3165,7 +3156,7 @@
         "time": "7月10日 8:07"
       },
       {
-        "rank": 51,
+        "rank": 50,
         "title": "俄罗斯国家杜马通过人工智能监管法案",
         "source": "新华社新闻",
         "summary": "莫斯科7月8日电 俄罗斯国家杜马（议会下院）8日在全体会议上通过人工智能监管法案，为人工智能基础大模型的开发和应用奠定法律基础。该法案当日在国家杜马官网上予以公布。",
@@ -3174,7 +3165,7 @@
         "time": "7月9日 10:32"
       },
       {
-        "rank": 52,
+        "rank": 51,
         "title": "东京股市显著下跌",
         "source": "新华社新闻",
         "summary": "东京7月7日电（记者李诗萌 蓝建中）日本东京股市两大股指7日显著下跌。日经225种股票平均价格指数收盘下跌2.12%，东京证券交易所股票价格指数下跌0.97%。",
@@ -3183,7 +3174,7 @@
         "time": "7月7日 16:18"
       },
       {
-        "rank": 53,
+        "rank": 52,
         "title": "活力中国调研行｜不炫技，真干事——看具身机器人多场景“打工”",
         "source": "新华社新闻",
         "summary": "近年来，中国具身智能机器人加速进化，在给人们带来惊喜的同时，也在不断拓展产业应用。7月6日，乃至进入生活的最新实践。活力中国调研行｜不炫技，真干事——看具身机器人多场景“打工”",
@@ -3192,13 +3183,22 @@
         "time": "7月6日 22:47"
       },
       {
-        "rank": 54,
+        "rank": 53,
         "title": "总台记者观察丨贝利预言巴西世界杯夺冠？人工智能迎来真实性之问",
         "source": "央视新闻",
         "summary": "当地时间5日，美加墨世界杯八分之一决赛巴西队对阵挪威队的比赛中，巴西队以1:2比分不敌挪威，止步16强。而就在今年5月，一段通过人工智能生成的已故“球王”贝利“预言巴西夺冠”视频",
         "url": "https://view.inews.qq.com/a/20260706A0BF3N00?scene=news-skill",
         "heat": 8,
         "time": "7月6日 22:22"
+      },
+      {
+        "rank": 54,
+        "title": "12个新职业向社会公示 包括具身智能机器人应用技术员等",
+        "source": "中国新闻网",
+        "summary": "中新网北京7月3日电 (记者 谢雁冰)近日，人力资源和社会保障部办公厅发布《关于对拟发布船舶岸基管理工程技术人员等职业信息进行公示的公告》(以下简称“公告”)，公告拟发布12个新职业，并将信息面向全社会公示，征集公众意见建议，公示反馈截止时间为7月17日。",
+        "url": "https://view.inews.qq.com/a/20260703A0CRKC00?scene=news-skill",
+        "heat": 8,
+        "time": "7月3日 22:54"
       },
       {
         "rank": 55,
@@ -3337,15 +3337,6 @@
       },
       {
         "rank": 70,
-        "title": "视频丨打卡社区AI食堂、逛AI应用商店 解锁人工智能“成长密码”",
-        "source": "央视新闻",
-        "summary": "比利时游客：口袋云台相机，我们昨天刚刚在中国买了一台。挪威游客：中国正在开发新事物、新技术，这些技术正在改善我们的社会。",
-        "url": "https://view.inews.qq.com/a/20260715A0BXTF00?scene=news-skill",
-        "heat": 9,
-        "time": "7月15日 21:52"
-      },
-      {
-        "rank": 71,
         "title": "视频丨更高效更智能 AI助力巴西社会治理",
         "source": "央视新闻",
         "summary": "人工智能、大数据等新一代信息技术的快速发展，为提升社会治理能力提供了技术机遇。如今，人工智能已进入巴西公共安全领域。视频丨更高效更智能AI助力巴西社会治理",
@@ -3354,7 +3345,7 @@
         "time": "7月7日 23:25"
       },
       {
-        "rank": 72,
+        "rank": 71,
         "title": "数智潮涌催新绿——盐城亭湖以人工智能赋能绿色发展",
         "source": "新华网",
         "summary": "在江苏省盐城市亭湖区“双碳”大厦内，碳达峰碳中和数据监测分析平台大屏上辖区重点耗能企业能耗、碳排放数据实时跳动，AI算法自动完成全域归集、精准核算与风险预警",
@@ -3363,13 +3354,22 @@
         "time": "7月6日 10:18"
       },
       {
-        "rank": 73,
+        "rank": 72,
         "title": "从“口传心授”到“数字AI” 人工智能解锁传统戏曲新潮玩法",
         "source": "央广网",
         "summary": "央视网消息：当传统戏曲遇上前沿AI科技，古老梨园正焕发全新活力。眼下，各大戏曲院团、院校借力人工智能、数字预演、VR技术等，让传统戏曲有了全新的打开方式。",
         "url": "https://view.inews.qq.com/a/20260704A03EGT00?scene=news-skill",
         "heat": 9,
         "time": "7月4日 10:24"
+      },
+      {
+        "rank": 73,
+        "title": "视频丨打卡社区AI食堂、逛AI应用商店 解锁人工智能“成长密码”",
+        "source": "央视新闻",
+        "summary": "比利时游客：口袋云台相机，我们昨天刚刚在中国买了一台。挪威游客：中国正在开发新事物、新技术，这些技术正在改善我们的社会。",
+        "url": "https://view.inews.qq.com/a/20260715A0BXTF00?scene=news-skill",
+        "heat": 9,
+        "time": "7月15日 21:52"
       },
       {
         "rank": 74,
@@ -3490,24 +3490,6 @@
       },
       {
         "rank": 87,
-        "title": "刘冲：科技主导权成为大国竞争关键",
-        "source": "央广网",
-        "summary": "当前，新一轮科技革命和产业变革加速演进，主要大国密集出台政策、加紧战略布局。",
-        "url": "https://view.inews.qq.com/a/20260705A03K6Y00?scene=news-skill",
-        "heat": 8,
-        "time": "7月5日 10:39"
-      },
-      {
-        "rank": 88,
-        "title": "湖北首个交通行业AI大模型发布",
-        "source": "央广网",
-        "summary": "原标题：湖北首个交通行业AI大模型发布 三大数智场景畅行荆楚高速路“云端鹰眼”系统路况巡查。",
-        "url": "https://view.inews.qq.com/a/20260703A02UKW00?scene=news-skill",
-        "heat": 8,
-        "time": "7月3日 8:59"
-      },
-      {
-        "rank": 89,
         "title": "新闻1+1丨全球人工智能 进入“上海时间”",
         "source": "央广网",
         "summary": "过去我们总说AI走进生活，这样的生活是什么样的？在即将开启的世界人工智能大会上，",
@@ -3516,13 +3498,31 @@
         "time": "7月16日 9:49"
       },
       {
-        "rank": 90,
+        "rank": 88,
         "title": "财经老王丨探店AI超市 账单里藏着什么秘密？",
         "source": "央视新闻",
         "summary": "2026世界人工智能大会就要开幕了。这几天，上海的AI浓度越来越高，产品丰富多彩。",
         "url": "https://view.inews.qq.com/a/20260715A04LTX00?scene=news-skill",
         "heat": 8,
         "time": "7月15日 11:15"
+      },
+      {
+        "rank": 89,
+        "title": "刘冲：科技主导权成为大国竞争关键",
+        "source": "央广网",
+        "summary": "当前，新一轮科技革命和产业变革加速演进，主要大国密集出台政策、加紧战略布局。",
+        "url": "https://view.inews.qq.com/a/20260705A03K6Y00?scene=news-skill",
+        "heat": 8,
+        "time": "7月5日 10:39"
+      },
+      {
+        "rank": 90,
+        "title": "湖北首个交通行业AI大模型发布",
+        "source": "央广网",
+        "summary": "原标题：湖北首个交通行业AI大模型发布 三大数智场景畅行荆楚高速路“云端鹰眼”系统路况巡查。",
+        "url": "https://view.inews.qq.com/a/20260703A02UKW00?scene=news-skill",
+        "heat": 8,
+        "time": "7月3日 8:59"
       },
       {
         "rank": 91,
@@ -3535,393 +3535,42 @@
       },
       {
         "rank": 92,
-        "title": "阿里通义实验室发布 Wan-Streamer v0.2，AI 视频电话响应延迟仅 550ms",
+        "title": "马斯克确认特斯拉 FSD 将学习驾驶员操作习惯，实现个性化自动驾驶",
         "source": "IT之家（RSS）",
-        "summary": "阿里通义实验室发布 Wan-Streamer v0.2，端到端响应延迟仅 550ms。该模型将输出分辨率从 v0.1 的 192×336 提升至 640×368 @ 25FPS，并通过\"快慢分工、时序重叠\"架构在提升画质的同时不增加用户可感知延迟。",
-        "url": "https://www.ithome.com/0/978/125.htm",
-        "heat": 9,
-        "time": "7月17日 16:02"
+        "summary": "马斯克确认特斯拉 FSD 将从通用型驾驶系统转向个性化系统，其神经网络将学习并记住每位车主的个人驾驶习惯与偏好。系统会记录用户的具体人工干预行为，并据此调整驾驶策略，覆盖停车、车道选择等多种场景。",
+        "url": "https://www.ithome.com/0/978/642.htm",
+        "heat": 10,
+        "time": "7月19日 10:36"
       },
       {
         "rank": 93,
-        "title": "人工智能ETF华富近5日累计净流入近4亿元，国产大模型商业化进程加速，国产算力与大模型企业迎来...",
-        "source": "界面新闻",
-        "summary": "场内ETF方面，截至2026年7月15日 09:51，中证人工智能产业指数(931071)下跌0.96%。成分股方面涨跌互现，金山办公领涨4.85%，剑桥科技上涨4.03%，吉比特上涨3.18%。",
-        "url": "https://view.inews.qq.com/a/20260715A03Q5400?scene=news-skill",
-        "heat": 9,
-        "time": "7月15日 10:14"
+        "title": "Kimi K3、DeepSeek V4 Pro 与 GLM-5.2 三款开源万亿参数 MoE 模型对比",
+        "source": "MarkTechPost（RSS）",
+        "summary": "Kimi K3、DeepSeek V4 Pro 与 GLM-5.2 三款开源万亿参数 MoE 模型在多项基准上对比。Kimi K3 在 MMLU 和 HumanEval 上领先，DeepSeek V4 Pro 在 GPQA 和 AIME 上表现突出，GLM-5.2 在 SWE-bench 上最优。",
+        "url": "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost",
+        "heat": 10,
+        "time": "7月19日 9:41"
       },
       {
         "rank": 94,
-        "title": "AI人工智能ETF平安最新份额达48.41亿份，上半年算力硬件进出口增长55.6%",
-        "source": "界面新闻",
-        "summary": "截至2026年7月15日 09:47，中证人工智能主题指数(930713)成分股方面涨跌互现，金山办公领涨4.94%，深信服上涨3.83%，浪潮信息上涨2.99%；拓维信息领跌。AI人工智能ETF平安(512930)最新报价0.74元，最新份额达48.41亿份，创近1年新高。",
-        "url": "https://view.inews.qq.com/a/20260715A03N6Y00?scene=news-skill",
-        "heat": 9,
-        "time": "7月15日 10:09"
+        "title": "安谋科技发起\"开源 AIOS 联盟\"，瑞芯微、紫光展锐等加入",
+        "source": "IT之家（RSS）",
+        "summary": "安谋科技在2026世界人工智能大会期间宣布发起\"开源 AIOS 联盟\"，已吸引超20家生态伙伴入驻。联盟聚焦AI模型能力、传感与运控等四大技术模块，牵头单位包括芯发科技、紫光展锐、瑞芯微等芯片厂商及面壁智能等软硬件方案提供商。",
+        "url": "https://www.ithome.com/0/978/628.htm",
+        "heat": 10,
+        "time": "7月19日 9:19"
       },
       {
         "rank": 95,
-        "title": "新兴市场基金降低对AI三巨头的集中持仓 中国科技股等机会进入视野",
-        "source": "财联社",
-        "summary": "财联社7月13日电，投资者正逐渐将目光从新兴市场中的人工智能(AI)明星股转向更广泛的投资领域。目前，仅三家总市值高达4.4万亿美元的韩国和中国台湾科技公司，就贡献了新兴市场指数中相当大比例的回报。",
-        "url": "https://view.inews.qq.com/a/20260713A088NX00?scene=news-skill",
-        "heat": 9,
-        "time": "7月13日 16:52"
+        "title": "Dave Eggers 对 OpenAI 员工称 ChatGPT 对教育工作者影响\"灾难性\"",
+        "source": "The Verge：AI（RSS）",
+        "summary": "作家 Dave Eggers 去年应 Sam Altman 邀请，向约 200 名 OpenAI 员工发表演讲。他称 ChatGPT 对教育工作者的影响是\"灾难性的\"，",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+        "heat": 10,
+        "time": "7月19日 4:54"
       },
       {
         "rank": 96,
-        "title": "2026世界人工智能大会即将举行，科创AIETF博时盘初快速拉升涨超1%",
-        "source": "界面新闻",
-        "summary": "截至2026年7月13日 09:44，上证科创板人工智能指数(950180)强势上涨1.20%，成分股恒玄科技上涨7.50%，沐曦股份上涨6.56%，寒武纪上涨4.49%，海光信息，晶晨股份等个股跟涨。科创AIETF博时(588790)盘初涨超1%，现涨0.82%。",
-        "url": "https://view.inews.qq.com/a/20260713A03I1K00?scene=news-skill",
-        "heat": 9,
-        "time": "7月13日 10:04"
-      },
-      {
-        "rank": 97,
-        "title": "国家地方共建人形机器人创新中心将发布与华为共建的具身智能实训场样板点",
-        "source": "证券时报e公司",
-        "summary": "人民财讯7月8日电，记者7月8日从国家地方共建人形机器人创新中心（以下简称 “国地中心”）了解到，国地中心已完成对全国首个异构人形机器人训练场——麒麟训练场的改造升级。",
-        "url": "https://view.inews.qq.com/a/20260708A0AVOY00?scene=news-skill",
-        "heat": 9,
-        "time": "7月8日 21:21"
-      },
-      {
-        "rank": 98,
-        "title": "英伟达市值不到两个月蒸发1万亿美元，估值回落至AI热潮掀起之前的水平",
-        "source": "界面新闻",
-        "summary": "在不到两个月的时间里市值蒸发约1万亿美元后，英伟达股票触及自AI热潮掀起并推动该股飙升以来的最低廉水平。这家芯片制造商的图形处理器（GPU）仍然主导着人工智能数据中心市场。",
-        "url": "https://view.inews.qq.com/a/20260708A08T0K00?scene=news-skill",
-        "heat": 9,
-        "time": "7月8日 18:09"
-      },
-      {
-        "rank": 99,
-        "title": "英伟达挑战者SambaNova融资10亿美元 估值升至110亿美元",
-        "source": "财联社",
-        "summary": "财联社7月8日讯 （实习编辑 叶可/ 编辑 齐灵）AI芯片赛道诞生一家百亿美元独角兽。SambaNova周三宣布完成10亿美元融资，公司最新估值升至110亿美元，成为资本押注英伟达挑战者的又一大宗交易。",
-        "url": "https://view.inews.qq.com/a/20260708A08GC400?scene=news-skill",
-        "heat": 9,
-        "time": "7月8日 17:41"
-      },
-      {
-        "rank": 100,
-        "title": "【明日主题前瞻】今年我国人工智能相关产业规模预计增速超30%",
-        "source": "财联社",
-        "summary": "今年我国人工智能相关产业规模预计增速超30%高端AI芯片下半年集中量产，高密度算力强制拉动液冷需求存储模组龙头称Q3内存将涨价20%-30%机构称AI PCB产业链拉货节奏提速恒瑞医药口服小分子GLP-1药物III期成功AI单机柜功率半导体价值量有望提升6-8倍【主题详情】今年我国人工智能相关产业规模预计增速超30%近日，",
-        "url": "https://view.inews.qq.com/a/20260708A07PHG00?scene=news-skill",
-        "heat": 9,
-        "time": "7月8日 16:32"
-      },
-      {
-        "rank": 101,
-        "title": "深圳发布15个政务领域人工智能应用场景，港股AI应用爆发，金蝶国际、智谱大涨超 8%",
-        "source": "21世纪经济报道",
-        "summary": "截至发稿，恒生指数上涨1.54%，港股AI应用部分个股表现不俗：金蝶国际（0268.HK）上涨8.68%、智谱（2513.HK）上涨8.32%、金山云（3896.HK）上涨6.95%、明源云（0909.HK）上涨4.84%、商汤-W（0020.HK）上涨4.00%、金山软件（3888.HK）上涨2.80%",
-        "url": "https://view.inews.qq.com/a/20260708A04DIZ00?scene=news-skill",
-        "heat": 9,
-        "time": "7月8日 11:43"
-      },
-      {
-        "rank": 102,
-        "title": "创业板人工智能ETF 涨超3%，我国AI产业持续扩容，2026年核心产业规模增速预计超30%",
-        "source": "界面新闻",
-        "summary": "截至2026年7月8日 10:47，创业板人工智能ETF大成(159242)一度涨超3%，现涨2.86%，盘中换手3.56%，成交4831.43万元。ETF所踪的标的指数创业板人工智能指数(970070)强势上涨2.71%，成分股网宿科技上涨19.97%，深信服上涨17.92%，锐捷网络上涨13.17%，东田微，奥飞数据等个股跟涨",
-        "url": "https://view.inews.qq.com/a/20260708A045IP00?scene=news-skill",
-        "heat": 9,
-        "time": "7月8日 11:29"
-      },
-      {
-        "rank": 103,
-        "title": "南方基金旗下创业板人工智能ETF 涨超3%，AI主题从概念驱动转向业绩验证阶段",
-        "source": "界面新闻",
-        "summary": "截至2026年7月8日 11:05，创业板人工智能指数(970070)一度涨超3%，现涨2.15%，创业板人工智能ETF南方(159382)盘中换手4.28%，成交1.02亿元。",
-        "url": "https://view.inews.qq.com/a/20260708A045JL00?scene=news-skill",
-        "heat": 9,
-        "time": "7月8日 11:29"
-      },
-      {
-        "rank": 104,
-        "title": "Perplexity宣布将使用英伟达新款CPU 全新设计更符合AI代理需求",
-        "source": "财联社",
-        "summary": "财联社7月8日讯（编辑 马兰）人工智能初创公司Perplexity周二宣布，该公司计划使用英伟达的新型CPU芯片。这将帮助英伟达撬动由英特尔和AMD等传统芯片制造商主导的CPU市场。",
-        "url": "https://view.inews.qq.com/a/20260708A03J1100?scene=news-skill",
-        "heat": 9,
-        "time": "7月8日 10:40"
-      },
-      {
-        "rank": 105,
-        "title": "人工智能ETF 涨超2%，AI基础设施到2026年仍将维持高景气，产业链有望逐步进入再配置区间",
-        "source": "界面新闻",
-        "summary": "场内ETF方面，截至2026年7月8日 09:32，中证人工智能产业指数(931071)强势上涨2.41%，成分股紫光股份、浪潮信息、华勤技术10cm涨停，中科曙光，瑞芯微等个股跟涨。人工智能ETF华富(515980)高开高走上涨2.40%",
-        "url": "https://view.inews.qq.com/a/20260708A02V2200?scene=news-skill",
-        "heat": 9,
-        "time": "7月8日 9:49"
-      },
-      {
-        "rank": 106,
-        "title": "AI人工智能ETF平安张超2.2%，Meta推出AI图像生成模型",
-        "source": "界面新闻",
-        "summary": "截至2026年7月8日 09:38，中证人工智能主题指数(930713)强势上涨2.31%，成分股网宿科技上涨17.92%，浪潮信息上涨10.01%，紫光股份上涨9.34%，瑞芯微，复旦微电等个股跟涨。AI人工智能ETF平安(512930)上涨2.23%，最新价报0.73元",
-        "url": "https://view.inews.qq.com/a/20260708A02V3X00?scene=news-skill",
-        "heat": 9,
-        "time": "7月8日 9:49"
-      },
-      {
-        "rank": 107,
-        "title": "沉睡巨人正在苏醒？英伟达逆势抗跌 看涨期权酝酿“大干一场”",
-        "source": "财联社",
-        "summary": "财联社7月8日讯（编辑 潇湘）全球科技界最大的“沉睡巨人”似乎正在苏醒……行情数据显示，尽管追踪一篮子芯片股表现的VanEck半导体ETF(SMH)在周二大跌了近4%，但英伟达股价仍奋力收涨0.7%。",
-        "url": "https://view.inews.qq.com/a/20260708A02SHW00?scene=news-skill",
-        "heat": 9,
-        "time": "7月8日 9:42"
-      },
-      {
-        "rank": 108,
-        "title": "【季报高增长】LPU推理芯片+人形机器人，战略投资国内领先的LPU企业，已围绕英伟达旗下平台推出具身智能控制器，有望卡位机器人“大脑”和“大小脑”控制器环节，这家公司上半年净利润同比增长近300%",
-        "source": "财联社V说",
-        "summary": "LPU推理芯片+人形机器人，战略投资国内领先的LPU企业，已围绕英伟达旗下平台推出具身智能控制器，有望卡位机器人“大脑”和“大小脑”控制器环节，这家公司上半年净利润同比增长近",
-        "url": "https://view.inews.qq.com/a/20260707A0BMFX00?scene=news-skill",
-        "heat": 9,
-        "time": "7月7日 22:50"
-      },
-      {
-        "rank": 109,
-        "title": "“人工智能经济学”奠基人乔·韦曼：无论是否存在泡沫，人工智能技术仍将滚滚向前",
-        "source": "证券时报e公司",
-        "summary": "人民财讯7月7日电，，美国未来产业研究院创始人乔·韦曼在“智联全球根筑苏州”AI生态研究分享会上表示，没有任何一项技术比人工智能更能颠覆性地改变企业、社会和世界。",
-        "url": "https://view.inews.qq.com/a/20260707A0B78V00?scene=news-skill",
-        "heat": 9,
-        "time": "7月7日 22:01"
-      },
-      {
-        "rank": 110,
-        "title": "2026世界投资报告：全球FDI反弹6%，AI等行业成吸金主力",
-        "source": "第一财经",
-        "summary": "联合国贸易和发展会议（UNCTAD）7月7日发布的《2026年世界投资报告》显示，2025年，全球外国直接投资（FDI）经历两年连续下滑后实现反弹，增长6%，达到1.6万亿美元。然而，这轮复苏呈现出高度集中的特征，很大程度上由少数超大型项目推动，尤其是人工智能（AI）相关的数字基础设施。",
-        "url": "https://view.inews.qq.com/a/20260707A0848E00?scene=news-skill",
-        "heat": 9,
-        "time": "7月7日 17:23"
-      },
-      {
-        "rank": 111,
-        "title": "腾讯、美团、阿里巴巴开盘大涨！高盛：国内大模型竞争重心发生变化",
-        "source": "界面新闻",
-        "summary": "7月7日（周二），恒生科技、恒生互联网科技业指数低开高走，权重股腾讯控股、美团-W开盘大涨超3%，阿里巴巴-W涨超1%。消息面上，，中国大模型更新迭代集体加速。",
-        "url": "https://view.inews.qq.com/a/20260707A02Y8500?scene=news-skill",
-        "heat": 9,
-        "time": "7月7日 9:49"
-      },
-      {
-        "rank": 112,
-        "title": "【机构龙虎榜解读】液冷+CPU+华为，参股国产CPU领军企业，拥有浸没式液冷散热服务器电源等全系列产品，实现DeepSeek大模型与国产算力深度耦合，成功交付多款AI训推一体机，这家公司获净买入",
-        "source": "财联社V说",
-        "summary": "液冷+CPU+华为，参股国产CPU领军企业，拥有浸没式液冷散热服务器电源等全系列产品，实现DeepSeek大模型与国产算力深度耦合，成功交付多款AI训推一体机，这家公司获净买",
-        "url": "https://view.inews.qq.com/a/20260706A09PPX00?scene=news-skill",
-        "heat": 9,
-        "time": "7月6日 19:28"
-      },
-      {
-        "rank": 113,
-        "title": "AI人工智能ETF平安连续3天净流入，2026中国互联网大会将举办，聚焦AI产业化落地等议题",
-        "source": "界面新闻",
-        "summary": "截至2026年7月6日 10:02，中证人工智能主题指数(930713)成分股方面涨跌互现，昆仑万维领涨5.27%，海光信息上涨4.92%，龙芯中科上涨2.21%；奥比中光领跌",
-        "url": "https://view.inews.qq.com/a/20260706A03PJL00?scene=news-skill",
-        "heat": 9,
-        "time": "7月6日 10:19"
-      },
-      {
-        "rank": 114,
-        "title": "当情感陪伴机器人投入量产时，欧洲正在为空调争吵 | 文化周报",
-        "source": "界面新闻",
-        "summary": "记者 李欣媛界面新闻编辑 | 李欣媛“文化周报”继续向你汇总呈现最近国内外文艺圈、出版界、书店业值得了解的大事小情。本周日，我们关注优必选推出的全球首款情感陪伴机器人；欧洲热浪引发关于空调的文化战争；第一座AI艺术博物馆开幕。",
-        "url": "https://view.inews.qq.com/a/20260705A03PPD00?scene=news-skill",
-        "heat": 9,
-        "time": "7月5日 11:04"
-      },
-      {
-        "rank": 115,
-        "title": "人工智能落地稳了？工业互联网又迎政策东风 算力设施成关键底座",
-        "source": "财联社",
-        "summary": "《科创板日报》7月4日讯 工业互联网有望成为人工智能落地的重要抓手和应用场景。就在日前，工信部等八部门印发《关于推动工业互联网高质量发展的实施意见》，其中提出，深化人工智能与工业互联网融合应用，到2030年推动核心产业增加值突破2.5万亿元，成为新质生产力的重要组成。",
-        "url": "https://view.inews.qq.com/a/20260704A02OJ700?scene=news-skill",
-        "heat": 9,
-        "time": "7月4日 9:17"
-      },
-      {
-        "rank": 116,
-        "title": "AI发展速度过于惊人！欧洲监管层警告：传统金融监管已跟不上技术演进",
-        "source": "财联社",
-        "summary": "财联社7月3日讯（编辑 牛占林）欧洲多位政策制定者最新警告称，人工智能(AI)的快速发展正令金融监管难以跟上技术演进的步伐，他们正努力在支持技术应用的同时，将风险控制在市场诚信与金融稳定范围之内。",
-        "url": "https://view.inews.qq.com/a/20260703A0CRZN00?scene=news-skill",
-        "heat": 9,
-        "time": "7月3日 22:56"
-      },
-      {
-        "rank": 117,
-        "title": "AI人工智能ETF平安红盘向上，机器人、存储概念领涨市场",
-        "source": "界面新闻",
-        "summary": "截至2026年7月3日 14:34，中证人工智能主题指数(930713)上涨0.82%，成分股奥比中光上涨13.15%，北京君正上涨10.59%，均胜电子上涨7.55%，科沃斯上涨6.89%，德赛西威上涨6.25%。AI人工智能ETF平安(512930)上涨0.28%，最新价报0.73元。",
-        "url": "https://view.inews.qq.com/a/20260703A07J7E00?scene=news-skill",
-        "heat": 9,
-        "time": "7月3日 14:54"
-      },
-      {
-        "rank": 118,
-        "title": "中信建投首次覆盖明略科技，公司Agentic Services业务未来有望快速发展",
-        "source": "界面新闻",
-        "summary": "从去年开始，明略科技完成了一场从传统数据智能企业向Agentic AI服务商的系统性转型。明略科技创始人吴明辉在2025年年报中发文表示，“2025年，公司完成了一次关键转型——从帮助客户‘看懂数据’，到帮助客户‘拿到结果’。",
-        "url": "https://view.inews.qq.com/a/20260703A070Z600?scene=news-skill",
-        "heat": 9,
-        "time": "7月3日 14:09"
-      },
-      {
-        "rank": 119,
-        "title": "数字经济ETF鹏扬涨超2%，ASML上调全年指引+DeepSeek-V4高峰API翻倍，AI算力芯片成时代引擎国产替代加速",
-        "source": "界面新闻",
-        "summary": "截至2026年7月3日13:05，中证数字经济主题指数(931582)强势上涨2.60%，成分股卧龙电驱上涨10.01%，江波龙上涨7.55%，浪潮信息上涨6.66%，佰维存储，汇川技术等个股跟涨。数字经济ETF鹏扬(560800)上涨2.14%。",
-        "url": "https://view.inews.qq.com/a/20260703A06I7D00?scene=news-skill",
-        "heat": 9,
-        "time": "7月3日 13:19"
-      },
-      {
-        "rank": 120,
-        "title": "亚马逊公司加速部署AI，科创人工智能ETF华夏震荡下行",
-        "source": "界面新闻",
-        "summary": "截至2026年7月2日 14:15，成分股方面涨跌互现，云天励飞领涨2.80%，石头科技上涨0.52%，奇安信上涨0.46%；澜起科技领跌12.36%，天准科技下跌11.25%，芯原股份下跌7.97%。科创人工智能ETF华夏（589010）下跌5.21%，最新报价1.71元。",
-        "url": "https://view.inews.qq.com/a/20260702A05VK600?scene=news-skill",
-        "heat": 9,
-        "time": "7月2日 14:34"
-      },
-      {
-        "rank": 121,
-        "title": "港股半导体、光通信、大模型股大跳水，智谱重挫近15%",
-        "source": "21世纪经济报道",
-        "summary": "7月2日早盘，港股两大指数高开，截至10点50分，恒生指数、恒生科技指数涨超1%。科网股多数上涨，比亚迪股份涨超9%，地平线机器人涨超6%，小米集团涨超5%，美团、快手、京东等多个热门个股上涨。",
-        "url": "https://view.inews.qq.com/a/20260702A03VDO00?scene=news-skill",
-        "heat": 9,
-        "time": "7月2日 11:27"
-      },
-      {
-        "rank": 122,
-        "title": "人工智能ETF华富单日获资金净流入超6500万元，2026年AI需求持续超预期，韩国宣布“万亿级”芯片投资计划",
-        "source": "界面新闻",
-        "summary": "场内ETF方面，截至2026年7月2日 10:36，中证人工智能产业指数(931071)下跌3.01%。成分股方面涨跌互现，天娱数科10cm涨停，慧博云通上涨5.73%，吉比特上涨3.97%。",
-        "url": "https://view.inews.qq.com/a/20260702A03H2500?scene=news-skill",
-        "heat": 9,
-        "time": "7月2日 10:54"
-      },
-      {
-        "rank": 123,
-        "title": "科网股领涨港股反弹，国产大模型集中释放技术利好",
-        "source": "界面新闻",
-        "summary": "截至2026年7月2日10:10，恒生互联网ETF华安(159688)上涨3.51%，盘中换手8.61%，成交9239.40万元。跟踪指数恒生互联网科技业指数(HSIII)强势上涨3.58%，成分股新意网集团上涨10.80%，速腾聚创上涨7.74%，美图公司上涨7.73%，万国数据-SW，禾赛-W等个股跟涨。",
-        "url": "https://view.inews.qq.com/a/20260702A03CPM00?scene=news-skill",
-        "heat": 9,
-        "time": "7月2日 10:44"
-      },
-      {
-        "rank": 124,
-        "title": "全球半导体市场加速向AI驱动转型，AI人工智能ETF平安最新规模创近3月新高",
-        "source": "界面新闻",
-        "summary": "截至2026年7月2日 09:40，中证人工智能主题指数(930713)成分股方面涨跌互现，吉比特领涨2.23%，拓维信息上涨1.93%，德赛西威上涨1.64%；光迅科技领跌。AI人工智能ETF平安(512930)最新报价0.75元，最新规模达33.43亿元，创近3月新高。",
-        "url": "https://view.inews.qq.com/a/20260702A02WCH00?scene=news-skill",
-        "heat": 9,
-        "time": "7月2日 10:04"
-      },
-      {
-        "rank": 125,
-        "title": "微软CEO纳德拉内部会议吐槽Anthropic Fable模型内容管控过于严苛",
-        "source": "IT之家（RSS）",
-        "summary": "微软CEO萨提亚·纳德拉在周三内部会议上批评Anthropic的Fable模型内容管控过于严苛，称其会因\"莫名其妙的原因\"拒绝回答。Anthropic官方表示，用户询问AI大模型开发等话题时可能被旧版模型返回结果。",
-        "url": "https://www.ithome.com/0/978/002.htm",
-        "heat": 9,
-        "time": "7月17日 11:37"
-      },
-      {
-        "rank": 126,
-        "title": "Kimi K3 展示\"AI 为 AI 设计芯片\"能力：2 天完成构建、优化、验证",
-        "source": "IT之家（RSS）",
-        "summary": "月之暗面在 Kimi K3 技术博客中展示了其模型芯片设计能力。K3 在 48 小时内利用开源 EDA 工具，基于 Nangate 45nm 库自主完成了 nano 模型专用芯片的构建、优化和验证。",
-        "url": "https://www.ithome.com/0/977/961.htm",
-        "heat": 9,
-        "time": "7月17日 11:03"
-      },
-      {
-        "rank": 127,
-        "title": "数据科学的数学基础》--一本系统梳理机器学习与高维数据分析数学原理的专著",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "summary": "该书由Afonso S. Bandeira、Amit Singer和Thomas Strohmer撰写，系统覆盖数据科学数学基础，包括高维诅咒与祝福、SVD与PCA、线性回归与正则化、图与聚类、非线性降维、随机投影、优化、分类、深度学习数学导论、图拉普拉斯大样本极限、测度集中与高斯分析、矩阵集...",
-        "url": "https://arxiv.org/abs/2607.11938",
-        "heat": 9,
-        "time": "7月17日 10:33"
-      },
-      {
-        "rank": 128,
-        "title": "金山办公 CEO 章庆元：订阅与 Token 计费长期并存，AI 办公商业模式将更灵活",
-        "source": "IT之家（RSS）",
-        "summary": "金山办公在\"2026 AI 生产力大会\"上发布面向个人的灵犀专业版和面向企业的 WPS Comate，后者在 WPS 365 中落地\"企业大脑\"概念。CEO 章庆元表示，金山办公定位为\"模型连接器\"，不自研大模型，而是与多家主流模型厂商合作。",
-        "url": "https://www.ithome.com/0/977/946.htm",
-        "heat": 9,
-        "time": "7月17日 10:23"
-      },
-      {
-        "rank": 129,
-        "title": "用6GB显存旧显卡训练AI底鼓模型：KickWithReverb项目全解析",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "summary": "作者在配备7年前NVIDIA GTX 1660 SUPER（6GB显存）的Linux台式机上，从零训练并部署了一个生成式潜在扩散底鼓模型。模型基于超过13，000个个人采样库中的底鼓样本，采用VAE压缩频谱图、扩散U-Net生成潜在张量、HiFi-GAN声码器还原音频的三阶段流水线。",
-        "url": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
-        "heat": 9,
-        "time": "7月17日 10:18"
-      },
-      {
-        "rank": 130,
-        "title": "月之暗面调整架构筹备赴港 IPO，Kimi K3 模型发布",
-        "source": "IT之家（RSS）",
-        "summary": "月之暗面已通知投资者调整公司架构，筹备赴港 IPO，最快可能 6 个月内完成。其本周发布的 Kimi K3 模型原生支持视觉理解，拥有 100 万 token 上下文窗口，是首个达到 2.",
-        "url": "https://www.ithome.com/0/978/527.htm",
-        "heat": 9,
-        "time": "7月18日 17:35"
-      },
-      {
-        "rank": 131,
-        "title": "蔚来神玑首次独立参展世界人工智能大会，NX9031X 等芯片亮相",
-        "source": "IT之家（RSS）",
-        "summary": "蔚来芯片子公司神玑在2026世界人工智能大会上首次独立参展，推出「睿动」具身智能开发平台等AI产品。神玑已形成NX9031X、NX9031U、NX9031C等芯片序列，覆盖智能辅助驾驶、具身智。",
-        "url": "https://www.ithome.com/0/978/524.htm",
-        "heat": 9,
-        "time": "7月18日 17:15"
-      },
-      {
-        "rank": 132,
-        "title": "AI写代码将改变团队协作观念",
-        "source": "X：宝玉 (@dotey)",
-        "summary": "随着GPT 5.6级别以上模型普及，团队代码将逐渐由AI维护，因为AI写的代码水平远超绝大多数人类。开发者对个人项目已转向关注需求、验收和架构，不再逐行审查代码。",
-        "url": "https://x.com/dotey/status/2078397664954089512",
-        "heat": 9,
-        "time": "7月18日 16:33"
-      },
-      {
-        "rank": 133,
-        "title": "美国海军部发布\"AI优先\"舰队战略，将慢速采用视为比\"不完美对齐\"更大的风险",
-        "source": "The Decoder：AI News（RSS）",
-        "summary": "美国海军部正式批准一项\"武器化数据与人工智能\"新战略，旨在通过快速部署数据与AI构建\"AI优先\"舰队。该战略核心是\"Bits2Effects Cycle\"五阶段框架，并以\"平均生效时间\"（MT。",
-        "url": "https://the-decoder.com/the-pentagons-new-ai-playbook-treats-slow-adoption-as-a-bigger-risk-than-imperfect-alignment",
-        "heat": 9,
-        "time": "7月18日 16:10"
-      },
-      {
-        "rank": 134,
-        "title": "凯文·凯利在 WAIC 演讲：未来个人智能体将比你更了解自己",
-        "source": "IT之家（RSS）",
-        "summary": "凯文·凯利在 2026 世界人工智能大会上预测，未来个人智能体将以摄像头或手持形式为载体并始终保持在线。多个智能体协同可完成更多任务，且随着时间推移，这些智能体对用户的了解将超越用户自身。",
-        "url": "https://www.ithome.com/0/978/492.htm",
-        "heat": 9,
-        "time": "7月18日 15:59"
-      },
-      {
-        "rank": 135,
         "title": "Google Cloud 推出 Always-On Memory Agent，用 LLM 持续整合替代 RAG 与向量数据库",
         "source": "MarkTechPost（RSS）",
         "summary": "Google Cloud 发布 Always-On Memory Agent，一个基于 ADK 和 Gemini 3.1 Flash-Lite 的 24/7 后台进程，不使用向量数据库或嵌入向。",
@@ -3930,22 +3579,373 @@
         "time": "7月18日 15:57"
       },
       {
+        "rank": 97,
+        "title": "月之暗面调整架构筹备赴港 IPO，Kimi K3 模型发布",
+        "source": "IT之家（RSS）",
+        "summary": "月之暗面已通知投资者调整公司架构，筹备赴港 IPO，最快可能 6 个月内完成。其本周发布的 Kimi K3 模型原生支持视觉理解，拥有 100 万 token 上下文窗口，是首个达到 2.",
+        "url": "https://www.ithome.com/0/978/527.htm",
+        "heat": 9,
+        "time": "7月18日 17:35"
+      },
+      {
+        "rank": 98,
+        "title": "蔚来神玑首次独立参展世界人工智能大会，NX9031X 等芯片亮相",
+        "source": "IT之家（RSS）",
+        "summary": "蔚来芯片子公司神玑在2026世界人工智能大会上首次独立参展，推出「睿动」具身智能开发平台等AI产品。神玑已形成NX9031X、NX9031U、NX9031C等芯片序列，覆盖智能辅助驾驶、具身智。",
+        "url": "https://www.ithome.com/0/978/524.htm",
+        "heat": 9,
+        "time": "7月18日 17:15"
+      },
+      {
+        "rank": 99,
+        "title": "美国海军部发布\"AI优先\"舰队战略，将慢速采用视为比\"不完美对齐\"更大的风险",
+        "source": "The Decoder：AI News（RSS）",
+        "summary": "美国海军部正式批准一项\"武器化数据与人工智能\"新战略，旨在通过快速部署数据与AI构建\"AI优先\"舰队。该战略核心是\"Bits2Effects Cycle\"五阶段框架，并以\"平均生效时间\"（MT。",
+        "url": "https://the-decoder.com/the-pentagons-new-ai-playbook-treats-slow-adoption-as-a-bigger-risk-than-imperfect-alignment",
+        "heat": 9,
+        "time": "7月18日 16:10"
+      },
+      {
+        "rank": 100,
+        "title": "凯文·凯利在 WAIC 演讲：未来个人智能体将比你更了解自己",
+        "source": "IT之家（RSS）",
+        "summary": "凯文·凯利在 2026 世界人工智能大会上预测，未来个人智能体将以摄像头或手持形式为载体并始终保持在线。多个智能体协同可完成更多任务，且随着时间推移，这些智能体对用户的了解将超越用户自身。",
+        "url": "https://www.ithome.com/0/978/492.htm",
+        "heat": 9,
+        "time": "7月18日 15:59"
+      },
+      {
+        "rank": 101,
+        "title": "2026世界人工智能大会即将举行，科创AIETF博时盘初快速拉升涨超1%",
+        "source": "界面新闻",
+        "summary": "截至2026年7月13日 09:44，上证科创板人工智能指数(950180)强势上涨1.20%，成分股恒玄科技上涨7.50%，沐曦股份上涨6.56%，寒武纪上涨4.49%，海光信息，晶晨股份等个股跟涨。科创AIETF博时(588790)盘初涨超1%，现涨0.82%。",
+        "url": "https://view.inews.qq.com/a/20260713A03I1K00?scene=news-skill",
+        "heat": 9,
+        "time": "7月13日 10:04"
+      },
+      {
+        "rank": 102,
+        "title": "国家地方共建人形机器人创新中心将发布与华为共建的具身智能实训场样板点",
+        "source": "证券时报e公司",
+        "summary": "人民财讯7月8日电，记者7月8日从国家地方共建人形机器人创新中心（以下简称 “国地中心”）了解到，国地中心已完成对全国首个异构人形机器人训练场——麒麟训练场的改造升级。",
+        "url": "https://view.inews.qq.com/a/20260708A0AVOY00?scene=news-skill",
+        "heat": 9,
+        "time": "7月8日 21:21"
+      },
+      {
+        "rank": 103,
+        "title": "英伟达市值不到两个月蒸发1万亿美元，估值回落至AI热潮掀起之前的水平",
+        "source": "界面新闻",
+        "summary": "在不到两个月的时间里市值蒸发约1万亿美元后，英伟达股票触及自AI热潮掀起并推动该股飙升以来的最低廉水平。这家芯片制造商的图形处理器（GPU）仍然主导着人工智能数据中心市场。",
+        "url": "https://view.inews.qq.com/a/20260708A08T0K00?scene=news-skill",
+        "heat": 9,
+        "time": "7月8日 18:09"
+      },
+      {
+        "rank": 104,
+        "title": "英伟达挑战者SambaNova融资10亿美元 估值升至110亿美元",
+        "source": "财联社",
+        "summary": "财联社7月8日讯 （实习编辑 叶可/ 编辑 齐灵）AI芯片赛道诞生一家百亿美元独角兽。SambaNova周三宣布完成10亿美元融资，公司最新估值升至110亿美元，成为资本押注英伟达挑战者的又一大宗交易。",
+        "url": "https://view.inews.qq.com/a/20260708A08GC400?scene=news-skill",
+        "heat": 9,
+        "time": "7月8日 17:41"
+      },
+      {
+        "rank": 105,
+        "title": "【明日主题前瞻】今年我国人工智能相关产业规模预计增速超30%",
+        "source": "财联社",
+        "summary": "今年我国人工智能相关产业规模预计增速超30%高端AI芯片下半年集中量产，高密度算力强制拉动液冷需求存储模组龙头称Q3内存将涨价20%-30%机构称AI PCB产业链拉货节奏提速恒瑞医药口服小分子GLP-1药物III期成功AI单机柜功率半导体价值量有望提升6-8倍【主题详情】今年我国人工智能相关产业规模预计增速超30%近日，",
+        "url": "https://view.inews.qq.com/a/20260708A07PHG00?scene=news-skill",
+        "heat": 9,
+        "time": "7月8日 16:32"
+      },
+      {
+        "rank": 106,
+        "title": "深圳发布15个政务领域人工智能应用场景，港股AI应用爆发，金蝶国际、智谱大涨超 8%",
+        "source": "21世纪经济报道",
+        "summary": "截至发稿，恒生指数上涨1.54%，港股AI应用部分个股表现不俗：金蝶国际（0268.HK）上涨8.68%、智谱（2513.HK）上涨8.32%、金山云（3896.HK）上涨6.95%、明源云（0909.HK）上涨4.84%、商汤-W（0020.HK）上涨4.00%、金山软件（3888.HK）上涨2.80%",
+        "url": "https://view.inews.qq.com/a/20260708A04DIZ00?scene=news-skill",
+        "heat": 9,
+        "time": "7月8日 11:43"
+      },
+      {
+        "rank": 107,
+        "title": "创业板人工智能ETF 涨超3%，我国AI产业持续扩容，2026年核心产业规模增速预计超30%",
+        "source": "界面新闻",
+        "summary": "截至2026年7月8日 10:47，创业板人工智能ETF大成(159242)一度涨超3%，现涨2.86%，盘中换手3.56%，成交4831.43万元。ETF所踪的标的指数创业板人工智能指数(970070)强势上涨2.71%，成分股网宿科技上涨19.97%，深信服上涨17.92%，锐捷网络上涨13.17%，东田微，奥飞数据等个股跟涨",
+        "url": "https://view.inews.qq.com/a/20260708A045IP00?scene=news-skill",
+        "heat": 9,
+        "time": "7月8日 11:29"
+      },
+      {
+        "rank": 108,
+        "title": "南方基金旗下创业板人工智能ETF 涨超3%，AI主题从概念驱动转向业绩验证阶段",
+        "source": "界面新闻",
+        "summary": "截至2026年7月8日 11:05，创业板人工智能指数(970070)一度涨超3%，现涨2.15%，创业板人工智能ETF南方(159382)盘中换手4.28%，成交1.02亿元。",
+        "url": "https://view.inews.qq.com/a/20260708A045JL00?scene=news-skill",
+        "heat": 9,
+        "time": "7月8日 11:29"
+      },
+      {
+        "rank": 109,
+        "title": "Perplexity宣布将使用英伟达新款CPU 全新设计更符合AI代理需求",
+        "source": "财联社",
+        "summary": "财联社7月8日讯（编辑 马兰）人工智能初创公司Perplexity周二宣布，该公司计划使用英伟达的新型CPU芯片。这将帮助英伟达撬动由英特尔和AMD等传统芯片制造商主导的CPU市场。",
+        "url": "https://view.inews.qq.com/a/20260708A03J1100?scene=news-skill",
+        "heat": 9,
+        "time": "7月8日 10:40"
+      },
+      {
+        "rank": 110,
+        "title": "人工智能ETF 涨超2%，AI基础设施到2026年仍将维持高景气，产业链有望逐步进入再配置区间",
+        "source": "界面新闻",
+        "summary": "场内ETF方面，截至2026年7月8日 09:32，中证人工智能产业指数(931071)强势上涨2.41%，成分股紫光股份、浪潮信息、华勤技术10cm涨停，中科曙光，瑞芯微等个股跟涨。人工智能ETF华富(515980)高开高走上涨2.40%",
+        "url": "https://view.inews.qq.com/a/20260708A02V2200?scene=news-skill",
+        "heat": 9,
+        "time": "7月8日 9:49"
+      },
+      {
+        "rank": 111,
+        "title": "AI人工智能ETF平安张超2.2%，Meta推出AI图像生成模型",
+        "source": "界面新闻",
+        "summary": "截至2026年7月8日 09:38，中证人工智能主题指数(930713)强势上涨2.31%，成分股网宿科技上涨17.92%，浪潮信息上涨10.01%，紫光股份上涨9.34%，瑞芯微，复旦微电等个股跟涨。AI人工智能ETF平安(512930)上涨2.23%，最新价报0.73元",
+        "url": "https://view.inews.qq.com/a/20260708A02V3X00?scene=news-skill",
+        "heat": 9,
+        "time": "7月8日 9:49"
+      },
+      {
+        "rank": 112,
+        "title": "沉睡巨人正在苏醒？英伟达逆势抗跌 看涨期权酝酿“大干一场”",
+        "source": "财联社",
+        "summary": "财联社7月8日讯（编辑 潇湘）全球科技界最大的“沉睡巨人”似乎正在苏醒……行情数据显示，尽管追踪一篮子芯片股表现的VanEck半导体ETF(SMH)在周二大跌了近4%，但英伟达股价仍奋力收涨0.7%。",
+        "url": "https://view.inews.qq.com/a/20260708A02SHW00?scene=news-skill",
+        "heat": 9,
+        "time": "7月8日 9:42"
+      },
+      {
+        "rank": 113,
+        "title": "【季报高增长】LPU推理芯片+人形机器人，战略投资国内领先的LPU企业，已围绕英伟达旗下平台推出具身智能控制器，有望卡位机器人“大脑”和“大小脑”控制器环节，这家公司上半年净利润同比增长近300%",
+        "source": "财联社V说",
+        "summary": "LPU推理芯片+人形机器人，战略投资国内领先的LPU企业，已围绕英伟达旗下平台推出具身智能控制器，有望卡位机器人“大脑”和“大小脑”控制器环节，这家公司上半年净利润同比增长近",
+        "url": "https://view.inews.qq.com/a/20260707A0BMFX00?scene=news-skill",
+        "heat": 9,
+        "time": "7月7日 22:50"
+      },
+      {
+        "rank": 114,
+        "title": "“人工智能经济学”奠基人乔·韦曼：无论是否存在泡沫，人工智能技术仍将滚滚向前",
+        "source": "证券时报e公司",
+        "summary": "人民财讯7月7日电，，美国未来产业研究院创始人乔·韦曼在“智联全球根筑苏州”AI生态研究分享会上表示，没有任何一项技术比人工智能更能颠覆性地改变企业、社会和世界。",
+        "url": "https://view.inews.qq.com/a/20260707A0B78V00?scene=news-skill",
+        "heat": 9,
+        "time": "7月7日 22:01"
+      },
+      {
+        "rank": 115,
+        "title": "2026世界投资报告：全球FDI反弹6%，AI等行业成吸金主力",
+        "source": "第一财经",
+        "summary": "联合国贸易和发展会议（UNCTAD）7月7日发布的《2026年世界投资报告》显示，2025年，全球外国直接投资（FDI）经历两年连续下滑后实现反弹，增长6%，达到1.6万亿美元。然而，这轮复苏呈现出高度集中的特征，很大程度上由少数超大型项目推动，尤其是人工智能（AI）相关的数字基础设施。",
+        "url": "https://view.inews.qq.com/a/20260707A0848E00?scene=news-skill",
+        "heat": 9,
+        "time": "7月7日 17:23"
+      },
+      {
+        "rank": 116,
+        "title": "腾讯、美团、阿里巴巴开盘大涨！高盛：国内大模型竞争重心发生变化",
+        "source": "界面新闻",
+        "summary": "7月7日（周二），恒生科技、恒生互联网科技业指数低开高走，权重股腾讯控股、美团-W开盘大涨超3%，阿里巴巴-W涨超1%。消息面上，，中国大模型更新迭代集体加速。",
+        "url": "https://view.inews.qq.com/a/20260707A02Y8500?scene=news-skill",
+        "heat": 9,
+        "time": "7月7日 9:49"
+      },
+      {
+        "rank": 117,
+        "title": "【机构龙虎榜解读】液冷+CPU+华为，参股国产CPU领军企业，拥有浸没式液冷散热服务器电源等全系列产品，实现DeepSeek大模型与国产算力深度耦合，成功交付多款AI训推一体机，这家公司获净买入",
+        "source": "财联社V说",
+        "summary": "液冷+CPU+华为，参股国产CPU领军企业，拥有浸没式液冷散热服务器电源等全系列产品，实现DeepSeek大模型与国产算力深度耦合，成功交付多款AI训推一体机，这家公司获净买",
+        "url": "https://view.inews.qq.com/a/20260706A09PPX00?scene=news-skill",
+        "heat": 9,
+        "time": "7月6日 19:28"
+      },
+      {
+        "rank": 118,
+        "title": "AI人工智能ETF平安连续3天净流入，2026中国互联网大会将举办，聚焦AI产业化落地等议题",
+        "source": "界面新闻",
+        "summary": "截至2026年7月6日 10:02，中证人工智能主题指数(930713)成分股方面涨跌互现，昆仑万维领涨5.27%，海光信息上涨4.92%，龙芯中科上涨2.21%；奥比中光领跌",
+        "url": "https://view.inews.qq.com/a/20260706A03PJL00?scene=news-skill",
+        "heat": 9,
+        "time": "7月6日 10:19"
+      },
+      {
+        "rank": 119,
+        "title": "当情感陪伴机器人投入量产时，欧洲正在为空调争吵 | 文化周报",
+        "source": "界面新闻",
+        "summary": "记者 李欣媛界面新闻编辑 | 李欣媛“文化周报”继续向你汇总呈现最近国内外文艺圈、出版界、书店业值得了解的大事小情。本周日，我们关注优必选推出的全球首款情感陪伴机器人；欧洲热浪引发关于空调的文化战争；第一座AI艺术博物馆开幕。",
+        "url": "https://view.inews.qq.com/a/20260705A03PPD00?scene=news-skill",
+        "heat": 9,
+        "time": "7月5日 11:04"
+      },
+      {
+        "rank": 120,
+        "title": "人工智能落地稳了？工业互联网又迎政策东风 算力设施成关键底座",
+        "source": "财联社",
+        "summary": "《科创板日报》7月4日讯 工业互联网有望成为人工智能落地的重要抓手和应用场景。就在日前，工信部等八部门印发《关于推动工业互联网高质量发展的实施意见》，其中提出，深化人工智能与工业互联网融合应用，到2030年推动核心产业增加值突破2.5万亿元，成为新质生产力的重要组成。",
+        "url": "https://view.inews.qq.com/a/20260704A02OJ700?scene=news-skill",
+        "heat": 9,
+        "time": "7月4日 9:17"
+      },
+      {
+        "rank": 121,
+        "title": "AI发展速度过于惊人！欧洲监管层警告：传统金融监管已跟不上技术演进",
+        "source": "财联社",
+        "summary": "财联社7月3日讯（编辑 牛占林）欧洲多位政策制定者最新警告称，人工智能(AI)的快速发展正令金融监管难以跟上技术演进的步伐，他们正努力在支持技术应用的同时，将风险控制在市场诚信与金融稳定范围之内。",
+        "url": "https://view.inews.qq.com/a/20260703A0CRZN00?scene=news-skill",
+        "heat": 9,
+        "time": "7月3日 22:56"
+      },
+      {
+        "rank": 122,
+        "title": "AI人工智能ETF平安红盘向上，机器人、存储概念领涨市场",
+        "source": "界面新闻",
+        "summary": "截至2026年7月3日 14:34，中证人工智能主题指数(930713)上涨0.82%，成分股奥比中光上涨13.15%，北京君正上涨10.59%，均胜电子上涨7.55%，科沃斯上涨6.89%，德赛西威上涨6.25%。AI人工智能ETF平安(512930)上涨0.28%，最新价报0.73元。",
+        "url": "https://view.inews.qq.com/a/20260703A07J7E00?scene=news-skill",
+        "heat": 9,
+        "time": "7月3日 14:54"
+      },
+      {
+        "rank": 123,
+        "title": "中信建投首次覆盖明略科技，公司Agentic Services业务未来有望快速发展",
+        "source": "界面新闻",
+        "summary": "从去年开始，明略科技完成了一场从传统数据智能企业向Agentic AI服务商的系统性转型。明略科技创始人吴明辉在2025年年报中发文表示，“2025年，公司完成了一次关键转型——从帮助客户‘看懂数据’，到帮助客户‘拿到结果’。",
+        "url": "https://view.inews.qq.com/a/20260703A070Z600?scene=news-skill",
+        "heat": 9,
+        "time": "7月3日 14:09"
+      },
+      {
+        "rank": 124,
+        "title": "数字经济ETF鹏扬涨超2%，ASML上调全年指引+DeepSeek-V4高峰API翻倍，AI算力芯片成时代引擎国产替代加速",
+        "source": "界面新闻",
+        "summary": "截至2026年7月3日13:05，中证数字经济主题指数(931582)强势上涨2.60%，成分股卧龙电驱上涨10.01%，江波龙上涨7.55%，浪潮信息上涨6.66%，佰维存储，汇川技术等个股跟涨。数字经济ETF鹏扬(560800)上涨2.14%。",
+        "url": "https://view.inews.qq.com/a/20260703A06I7D00?scene=news-skill",
+        "heat": 9,
+        "time": "7月3日 13:19"
+      },
+      {
+        "rank": 125,
+        "title": "亚马逊公司加速部署AI，科创人工智能ETF华夏震荡下行",
+        "source": "界面新闻",
+        "summary": "截至2026年7月2日 14:15，成分股方面涨跌互现，云天励飞领涨2.80%，石头科技上涨0.52%，奇安信上涨0.46%；澜起科技领跌12.36%，天准科技下跌11.25%，芯原股份下跌7.97%。科创人工智能ETF华夏（589010）下跌5.21%，最新报价1.71元。",
+        "url": "https://view.inews.qq.com/a/20260702A05VK600?scene=news-skill",
+        "heat": 9,
+        "time": "7月2日 14:34"
+      },
+      {
+        "rank": 126,
+        "title": "港股半导体、光通信、大模型股大跳水，智谱重挫近15%",
+        "source": "21世纪经济报道",
+        "summary": "7月2日早盘，港股两大指数高开，截至10点50分，恒生指数、恒生科技指数涨超1%。科网股多数上涨，比亚迪股份涨超9%，地平线机器人涨超6%，小米集团涨超5%，美团、快手、京东等多个热门个股上涨。",
+        "url": "https://view.inews.qq.com/a/20260702A03VDO00?scene=news-skill",
+        "heat": 9,
+        "time": "7月2日 11:27"
+      },
+      {
+        "rank": 127,
+        "title": "人工智能ETF华富单日获资金净流入超6500万元，2026年AI需求持续超预期，韩国宣布“万亿级”芯片投资计划",
+        "source": "界面新闻",
+        "summary": "场内ETF方面，截至2026年7月2日 10:36，中证人工智能产业指数(931071)下跌3.01%。成分股方面涨跌互现，天娱数科10cm涨停，慧博云通上涨5.73%，吉比特上涨3.97%。",
+        "url": "https://view.inews.qq.com/a/20260702A03H2500?scene=news-skill",
+        "heat": 9,
+        "time": "7月2日 10:54"
+      },
+      {
+        "rank": 128,
+        "title": "科网股领涨港股反弹，国产大模型集中释放技术利好",
+        "source": "界面新闻",
+        "summary": "截至2026年7月2日10:10，恒生互联网ETF华安(159688)上涨3.51%，盘中换手8.61%，成交9239.40万元。跟踪指数恒生互联网科技业指数(HSIII)强势上涨3.58%，成分股新意网集团上涨10.80%，速腾聚创上涨7.74%，美图公司上涨7.73%，万国数据-SW，禾赛-W等个股跟涨。",
+        "url": "https://view.inews.qq.com/a/20260702A03CPM00?scene=news-skill",
+        "heat": 9,
+        "time": "7月2日 10:44"
+      },
+      {
+        "rank": 129,
+        "title": "全球半导体市场加速向AI驱动转型，AI人工智能ETF平安最新规模创近3月新高",
+        "source": "界面新闻",
+        "summary": "截至2026年7月2日 09:40，中证人工智能主题指数(930713)成分股方面涨跌互现，吉比特领涨2.23%，拓维信息上涨1.93%，德赛西威上涨1.64%；光迅科技领跌。AI人工智能ETF平安(512930)最新报价0.75元，最新规模达33.43亿元，创近3月新高。",
+        "url": "https://view.inews.qq.com/a/20260702A02WCH00?scene=news-skill",
+        "heat": 9,
+        "time": "7月2日 10:04"
+      },
+      {
+        "rank": 130,
+        "title": "Kimi K3 写 H100 CUDA 内核速度比优化 PyTorch 快 14.82 倍",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "summary": "Kimi K3 在 KernelBench 测试中，生成 H100 CUDA 内核的速度比优化后的 PyTorch 快 14.82 倍，性能几乎追平 Claude Opus 4.8。KernelBench 要求 AI 智能体基于可读的 PyTorch 实现，生成既正确又更快的自定义 GPU 实现，代码必须通过编译、数值正确性验证并在实际硬件上超越基准。",
+        "url": "https://x.com/rohanpaul_ai/status/2078679499320013136",
+        "heat": 9,
+        "time": "7月19日 11:13"
+      },
+      {
+        "rank": 131,
+        "title": "国内 Coding Agent 产品盘点：TRAE、ZCode、Qcoder、Kimi Code 等",
+        "source": "X：邵猛 (@shao__meng)",
+        "summary": "博主邵猛询问国内除 TRAE、ZCode、Qcoder、Kimi Code 外，还有哪些创业公司的 Coding Agent 产品。这些产品形态对标 Cursor、Codex、Claude Code、Devin 等海外工具。",
+        "url": "https://x.com/shao__meng/status/2078671736216965205",
+        "heat": 9,
+        "time": "7月19日 10:42"
+      },
+      {
+        "rank": 132,
+        "title": "Grok视频生成进化，质感丝滑可战Seedance",
+        "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "summary": "Grok视频生成能力大幅进化，生成的视频在质感和分镜丝滑程度上已可与Seedance一战。示例中，Grok根据详细提示词生成了超现实主义纪录片风格的网球观众席片段，包含精确的首帧锁定、手持抖动、自动对焦搜索等2000年代DV质感。",
+        "url": "https://x.com/AYi_AInotes/status/2078669737194631628",
+        "heat": 9,
+        "time": "7月19日 10:34"
+      },
+      {
+        "rank": 133,
+        "title": "Kimi K3 法律基准测试近乎翻倍领先 Claude Fable 5",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "summary": "Kimi K3 在自主法律工作基准测试中以 26.7% 的成绩近乎翻倍领先 Claude Fable 5 的 14.2%。该测试涵盖 24 个法律领域的 120 项私有任务，要求模型自主处理案卷并生成法律文件，每项评分标准必须全部通过。",
+        "url": "https://x.com/rohanpaul_ai/status/2078657023370232135",
+        "heat": 9,
+        "time": "7月19日 9:43"
+      },
+      {
+        "rank": 134,
+        "title": "人工智能ETF华富近5日累计净流入近4亿元，国产大模型商业化进程加速，国产算力与大模型企业迎来...",
+        "source": "界面新闻",
+        "summary": "场内ETF方面，截至2026年7月15日 09:51，中证人工智能产业指数(931071)下跌0.96%。成分股方面涨跌互现，金山办公领涨4.85%，剑桥科技上涨4.03%，吉比特上涨3.18%。",
+        "url": "https://view.inews.qq.com/a/20260715A03Q5400?scene=news-skill",
+        "heat": 9,
+        "time": "7月15日 10:14"
+      },
+      {
+        "rank": 135,
+        "title": "AI人工智能ETF平安最新份额达48.41亿份，上半年算力硬件进出口增长55.6%",
+        "source": "界面新闻",
+        "summary": "截至2026年7月15日 09:47，中证人工智能主题指数(930713)成分股方面涨跌互现，金山办公领涨4.94%，深信服上涨3.83%，浪潮信息上涨2.99%；拓维信息领跌。AI人工智能ETF平安(512930)最新报价0.74元，最新份额达48.41亿份，创近1年新高。",
+        "url": "https://view.inews.qq.com/a/20260715A03N6Y00?scene=news-skill",
+        "heat": 9,
+        "time": "7月15日 10:09"
+      },
+      {
         "rank": 136,
+        "title": "新兴市场基金降低对AI三巨头的集中持仓 中国科技股等机会进入视野",
+        "source": "财联社",
+        "summary": "财联社7月13日电，投资者正逐渐将目光从新兴市场中的人工智能(AI)明星股转向更广泛的投资领域。目前，仅三家总市值高达4.4万亿美元的韩国和中国台湾科技公司，就贡献了新兴市场指数中相当大比例的回报。",
+        "url": "https://view.inews.qq.com/a/20260713A088NX00?scene=news-skill",
+        "heat": 9,
+        "time": "7月13日 16:52"
+      },
+      {
+        "rank": 137,
         "title": "开源工具ProofAgent-Harness评估AI智能体上下文可靠性",
         "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
         "summary": "DAIR.AI推出开源评估工具ProofAgent-Harness，通过七项标准（角色清晰度、护栏覆盖、指令一致性、工具架构质量、基础充分性、注入防护、token效率）对智能体上下文质量进行多…",
         "url": "https://x.com/omarsar0/status/2078585861315432645",
         "heat": 9,
         "time": "7月19日 5:01"
-      },
-      {
-        "rank": 137,
-        "title": "Dave Eggers 对 OpenAI 员工称 ChatGPT 对教育工作者影响\"灾难性\"",
-        "source": "The Verge：AI（RSS）",
-        "summary": "作家 Dave Eggers 去年应 Sam Altman 邀请，向约 200 名 OpenAI 员工发表演讲。他称 ChatGPT 对教育工作者的影响是\"灾难性的\"，",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
-        "heat": 9,
-        "time": "7月19日 4:54"
       },
       {
         "rank": 138,
@@ -3958,111 +3958,111 @@
       },
       {
         "rank": 139,
-        "title": "Kimi K3 写 H100 CUDA 内核速度比优化 PyTorch 快 14.82 倍",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "summary": "Kimi K3 在 KernelBench 测试中，生成 H100 CUDA 内核的速度比优化后的 PyTorch 快 14.82 倍，性能几乎追平 Claude Opus 4.8。KernelBench 要求 AI 智能体基于可读的 PyTorch 实现，生成既正确又更快的自定义 GPU 实现，代码必须通过编译、数值正确性验证并在实际硬件上超越基准。",
-        "url": "https://x.com/rohanpaul_ai/status/2078679499320013136",
+        "title": "微软CEO纳德拉内部会议吐槽Anthropic Fable模型内容管控过于严苛",
+        "source": "IT之家（RSS）",
+        "summary": "微软CEO萨提亚·纳德拉在周三内部会议上批评Anthropic的Fable模型内容管控过于严苛，称其会因\"莫名其妙的原因\"拒绝回答。Anthropic官方表示，用户询问AI大模型开发等话题时可能被旧版模型返回结果。",
+        "url": "https://www.ithome.com/0/978/002.htm",
         "heat": 9,
-        "time": "7月19日 11:13"
+        "time": "7月17日 11:37"
       },
       {
         "rank": 140,
-        "title": "国内 Coding Agent 产品盘点：TRAE、ZCode、Qcoder、Kimi Code 等",
-        "source": "X：邵猛 (@shao__meng)",
-        "summary": "博主邵猛询问国内除 TRAE、ZCode、Qcoder、Kimi Code 外，还有哪些创业公司的 Coding Agent 产品。这些产品形态对标 Cursor、Codex、Claude Code、Devin 等海外工具。",
-        "url": "https://x.com/shao__meng/status/2078671736216965205",
+        "title": "Kimi K3 展示\"AI 为 AI 设计芯片\"能力：2 天完成构建、优化、验证",
+        "source": "IT之家（RSS）",
+        "summary": "月之暗面在 Kimi K3 技术博客中展示了其模型芯片设计能力。K3 在 48 小时内利用开源 EDA 工具，基于 Nangate 45nm 库自主完成了 nano 模型专用芯片的构建、优化和验证。",
+        "url": "https://www.ithome.com/0/977/961.htm",
         "heat": 9,
-        "time": "7月19日 10:42"
+        "time": "7月17日 11:03"
       },
       {
         "rank": 141,
-        "title": "马斯克确认特斯拉 FSD 将学习驾驶员操作习惯，实现个性化自动驾驶",
-        "source": "IT之家（RSS）",
-        "summary": "马斯克确认特斯拉 FSD 将从通用型驾驶系统转向个性化系统，其神经网络将学习并记住每位车主的个人驾驶习惯与偏好。系统会记录用户的具体人工干预行为，并据此调整驾驶策略，覆盖停车、车道选择等多种场景。",
-        "url": "https://www.ithome.com/0/978/642.htm",
+        "title": "数据科学的数学基础》--一本系统梳理机器学习与高维数据分析数学原理的专著",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "summary": "该书由Afonso S. Bandeira、Amit Singer和Thomas Strohmer撰写，系统覆盖数据科学数学基础，包括高维诅咒与祝福、SVD与PCA、线性回归与正则化、图与聚类、非线性降维、随机投影、优化、分类、深度学习数学导论、图拉普拉斯大样本极限、测度集中与高斯分析、矩阵集...",
+        "url": "https://arxiv.org/abs/2607.11938",
         "heat": 9,
-        "time": "7月19日 10:36"
+        "time": "7月17日 10:33"
       },
       {
         "rank": 142,
-        "title": "Grok视频生成进化，质感丝滑可战Seedance",
-        "source": "X：阿易 AI Notes (@AYi_AInotes)",
-        "summary": "Grok视频生成能力大幅进化，生成的视频在质感和分镜丝滑程度上已可与Seedance一战。示例中，Grok根据详细提示词生成了超现实主义纪录片风格的网球观众席片段，包含精确的首帧锁定、手持抖动、自动对焦搜索等2000年代DV质感。",
-        "url": "https://x.com/AYi_AInotes/status/2078669737194631628",
+        "title": "金山办公 CEO 章庆元：订阅与 Token 计费长期并存，AI 办公商业模式将更灵活",
+        "source": "IT之家（RSS）",
+        "summary": "金山办公在\"2026 AI 生产力大会\"上发布面向个人的灵犀专业版和面向企业的 WPS Comate，后者在 WPS 365 中落地\"企业大脑\"概念。CEO 章庆元表示，金山办公定位为\"模型连接器\"，不自研大模型，而是与多家主流模型厂商合作。",
+        "url": "https://www.ithome.com/0/977/946.htm",
         "heat": 9,
-        "time": "7月19日 10:34"
+        "time": "7月17日 10:23"
       },
       {
         "rank": 143,
-        "title": "Kimi K3 法律基准测试近乎翻倍领先 Claude Fable 5",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
-        "summary": "Kimi K3 在自主法律工作基准测试中以 26.7% 的成绩近乎翻倍领先 Claude Fable 5 的 14.2%。该测试涵盖 24 个法律领域的 120 项私有任务，要求模型自主处理案卷并生成法律文件，每项评分标准必须全部通过。",
-        "url": "https://x.com/rohanpaul_ai/status/2078657023370232135",
+        "title": "用6GB显存旧显卡训练AI底鼓模型：KickWithReverb项目全解析",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "summary": "作者在配备7年前NVIDIA GTX 1660 SUPER（6GB显存）的Linux台式机上，从零训练并部署了一个生成式潜在扩散底鼓模型。模型基于超过13，000个个人采样库中的底鼓样本，采用VAE压缩频谱图、扩散U-Net生成潜在张量、HiFi-GAN声码器还原音频的三阶段流水线。",
+        "url": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
         "heat": 9,
-        "time": "7月19日 9:43"
+        "time": "7月17日 10:18"
       },
       {
         "rank": 144,
-        "title": "Kimi K3、DeepSeek V4 Pro 与 GLM-5.2 三款开源万亿参数 MoE 模型对比",
-        "source": "MarkTechPost（RSS）",
-        "summary": "Kimi K3、DeepSeek V4 Pro 与 GLM-5.2 三款开源万亿参数 MoE 模型在多项基准上对比。Kimi K3 在 MMLU 和 HumanEval 上领先，DeepSeek V4 Pro 在 GPQA 和 AIME 上表现突出，GLM-5.2 在 SWE-bench 上最优。",
-        "url": "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost",
+        "title": "AI写代码将改变团队协作观念",
+        "source": "X：宝玉 (@dotey)",
+        "summary": "随着GPT 5.6级别以上模型普及，团队代码将逐渐由AI维护，因为AI写的代码水平远超绝大多数人类。开发者对个人项目已转向关注需求、验收和架构，不再逐行审查代码。",
+        "url": "https://x.com/dotey/status/2078397664954089512",
         "heat": 9,
-        "time": "7月19日 9:41"
+        "time": "7月18日 16:33"
       },
       {
         "rank": 145,
-        "title": "安谋科技发起\"开源 AIOS 联盟\"，瑞芯微、紫光展锐等加入",
+        "title": "阿里通义实验室发布 Wan-Streamer v0.2，AI 视频电话响应延迟仅 550ms",
         "source": "IT之家（RSS）",
-        "summary": "安谋科技在2026世界人工智能大会期间宣布发起\"开源 AIOS 联盟\"，已吸引超20家生态伙伴入驻。联盟聚焦AI模型能力、传感与运控等四大技术模块，牵头单位包括芯发科技、紫光展锐、瑞芯微等芯片厂商及面壁智能等软硬件方案提供商。",
-        "url": "https://www.ithome.com/0/978/628.htm",
+        "summary": "阿里通义实验室发布 Wan-Streamer v0.2，端到端响应延迟仅 550ms。该模型将输出分辨率从 v0.1 的 192×336 提升至 640×368 @ 25FPS，并通过\"快慢分工、时序重叠\"架构在提升画质的同时不增加用户可感知延迟。",
+        "url": "https://www.ithome.com/0/978/125.htm",
         "heat": 9,
-        "time": "7月19日 9:19"
+        "time": "7月17日 16:02"
       },
       {
         "rank": 146,
-        "title": "支付宝与阶跃达成系统级合作，AI版\"阿宝\"首期接入点外卖、出行等高频服务",
-        "source": "IT之家（RSS）",
-        "summary": "支付宝与阶跃达成系统级合作，AI版\"阿宝\"与阶跃大模型及原生AI终端实现跨端互联，用户一句话即可跨应用执行多任务。合作首期已接入点外卖、出行、本地生活等高频日常服务。",
-        "url": "https://www.ithome.com/0/978/209.htm",
+        "title": "多家国际出版商就AI训练引发的侵权问题向谷歌提起诉讼",
+        "source": "新京报书评周刊",
+        "summary": "据英国《卫报》报道，多家出版商已对谷歌提起诉讼，指控该公司在训练其Gemini人工智能模型的过程中，非法使用数百万本受版权保护的书籍。出版商们称，此举是“历史上最严重的版权侵权之一”。",
+        "url": "https://view.inews.qq.com/a/20260716A03TSV00?scene=news-skill",
         "heat": 8,
-        "time": "7月17日 17:39"
+        "time": "7月16日 10:06"
       },
       {
         "rank": 147,
-        "title": "智能体互信互联互操作全球合作倡议发布，中国网信办提出十大行动方向",
-        "source": "IT之家（RSS）",
-        "summary": "中国网信办在2026世界人工智能大会上正式提出《智能体互信互联互操作全球合作倡议》，围绕技术研发、标准互认、安全伦理等十个方面提出行动方向。倡议呼吁加大智能体身份标识与协作互认等共性技术投入，推动多智能体从\"可控交互\"向\"自主协同\"演进，并优先将成果用于气候变化、公共卫生等全球性议题。",
-        "url": "https://www.ithome.com/0/978/197.htm",
+        "title": "速递｜获软银支持，印度AI应用创建初创Emergent融资1.3亿美元，估值15亿美元",
+        "source": "ZPotentials",
+        "summary": "图片 是一家帮助小型企业利用人工智能构建应用程序的初创公司，近日完成 1.3 亿美元融资，跻身为数不多达到独角兽估值的印度 AI 初创公司之列。本轮融资由 Creaegis 领投，Emergent 在周三的声明中表示，此次融资对公司的估值为 15 亿美元。",
+        "url": "https://view.inews.qq.com/a/20260716A03O4Z00?scene=news-skill",
         "heat": 8,
-        "time": "7月17日 17:13"
+        "time": "7月16日 9:59"
       },
       {
         "rank": 148,
-        "title": "阿里千问输入法移动版上线：无广告无弹窗无需注册，支持 AI 自动润色",
-        "source": "IT之家（RSS）",
-        "summary": "阿里旗下千问输入法 iOS 版 7 月 16 日上线 App Store，安卓版同日陆续上架各大商店。该输入法基于自研 CosyVoice 语音大模型，语音输入最快每分钟 300 字，支持 9 种方言及中英混合识别，单次录音最长 3 分钟。",
-        "url": "https://www.ithome.com/0/978/194.htm",
+        "title": "DeepSeek已启动IPO筹备！人工智能ETF天弘标的指数盘中跌近1%",
+        "source": "每日经济新闻",
+        "summary": "肖芮冬盘面上，两市探底回升，人工智能板块下跌。相关ETF方面，人工智能ETF天弘（561460）标的指数盘中跌0.88%，成交额达320.73万元；换手率达1.28%。",
+        "url": "https://view.inews.qq.com/a/20260716A03MYH00?scene=news-skill",
         "heat": 8,
-        "time": "7月17日 17:03"
+        "time": "7月16日 9:58"
       },
       {
         "rank": 149,
-        "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "summary": "Schema 框架在 ARC-AGI-3 公开集上，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6 Sol 达到 95.35%。该框架不修改模型权重，而是将原始观测转化为可编辑程序，联合解决状态归因和机制发现问题。",
-        "url": "https://schema-harness.github.io/",
+        "title": "小米发布具身智能模型Xiaomi-Robotics-U0",
+        "source": "北京商报",
+        "summary": "王天逸）7月15日，正式发布拥有 380 亿参数的多模态自回归具身生成基础模型Xiaomi-Robotics-U0。据称，该模型是具身领域首个覆盖四类任务的统一生成模型，打通了机器人图片和视频数据的生成与编辑链路。",
+        "url": "https://view.inews.qq.com/a/20260715A09EM400?scene=news-skill",
         "heat": 8,
-        "time": "7月17日 16:41"
+        "time": "7月15日 17:45"
       },
       {
         "rank": 150,
-        "title": "创下全球视频大模型公司最大额融资纪录，快手旗下可灵AI落地近30亿美元融资，其3月ARR已达5亿美元，...",
-        "source": "财联社V说",
-        "summary": "【快手：旗下视频生成大模型可灵AI落地近30亿美元融资】财联社7月2日电，快手在港交所公告，快手旗下领先的视频生成大模型可灵AI落地近30亿美元融资，投后估值有望达到180亿",
-        "url": "https://view.inews.qq.com/a/20260703A02PGT00?scene=news-skill",
+        "title": "腾讯启动2027\"青云计划\"校招，实习生可享正式员工薪资，聚焦大模型与智能体",
+        "source": "IT之家（RSS）",
+        "summary": "腾讯宣布启动面向2026年1月至2027年12月毕业生的\"青云计划\"2027校园招聘，聚焦大语言模型、多模态、智能体等六大技术领域。入选实习生有机会享受正式员工薪资待遇，岗位覆盖北上广深及美国、新加坡、英国、荷兰多地。",
+        "url": "https://www.ithome.com/0/977/157.htm",
         "heat": 8,
-        "time": "7月3日 8:43"
+        "time": "7月15日 17:41"
       }
     ],
     "mockEntertainment": [
@@ -4077,21 +4077,21 @@
       },
       {
         "rank": 2,
-        "title": "视频丨“电影+生活方式”深度融合 非票营收成电影产业新增长极",
-        "source": "央视新闻",
-        "summary": "在广东深圳，多家影院正在积极探索“电影+生活方式”的复合业态，通过释放线下空间价值，推动票务经营与非票经营相互赋能、协同发展。看电影您还在选择爆米花加可乐这样的组合吗？",
-        "url": "https://view.inews.qq.com/a/20260712A01RQL00?scene=news-skill",
-        "heat": 7,
-        "time": "7月12日 3:21"
-      },
-      {
-        "rank": 3,
         "title": "我是大队长丨任江：执法有温度 服务暖民心",
         "source": "央广网",
         "summary": "重庆高速公路第四支队一大队大队长任江同志深耕交通运输综合行政执法一线多年，以刚柔并济的执法，精准贴心的服务，守护道路通行安全与运输市场秩序。道路交通是城市发展的脉络，更是群众出行的民生通道。",
         "url": "https://view.inews.qq.com/a/20260713A0AMNT00?scene=news-skill",
         "heat": 7,
         "time": "7月13日 20:29"
+      },
+      {
+        "rank": 3,
+        "title": "视频丨“电影+生活方式”深度融合 非票营收成电影产业新增长极",
+        "source": "央视新闻",
+        "summary": "在广东深圳，多家影院正在积极探索“电影+生活方式”的复合业态，通过释放线下空间价值，推动票务经营与非票经营相互赋能、协同发展。看电影您还在选择爆米花加可乐这样的组合吗？",
+        "url": "https://view.inews.qq.com/a/20260712A01RQL00?scene=news-skill",
+        "heat": 7,
+        "time": "7月12日 3:21"
       },
       {
         "rank": 4,
@@ -4122,51 +4122,6 @@
       },
       {
         "rank": 7,
-        "title": "多位知名音乐人将轮番登台，2026张北草原音乐节蓄势启幕",
-        "source": "北京日报客户端",
-        "summary": "7月17日至19日，2026第十五届张北草原音乐节将在张北中都草原燃情上演。作为京张体育文化旅游带标杆文旅IP，本届音乐节全方位升级场地配套、场景体验、智慧服务和惠民举措，以全新风貌迎接八方乐迷赴夏日草原之约。",
-        "url": "https://view.inews.qq.com/a/20260715A0A0KV00?scene=news-skill",
-        "heat": 8,
-        "time": "7月15日 18:34"
-      },
-      {
-        "rank": 8,
-        "title": "Lorde 在 Mad Cool 音乐节上直言 AI 眼镜\"不性感",
-        "source": "TechCrunch：AI（RSS）",
-        "summary": "歌手 Lorde 在上周马德里 Mad Cool 音乐节演出期间公开批评 AI 眼镜，称其\"不性感\"。她表示越来越难分辨他人佩戴的是普通太阳镜还是 AI 眼镜。",
-        "url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy",
-        "heat": 8,
-        "time": "7月15日 7:10"
-      },
-      {
-        "rank": 9,
-        "title": "好惨！TVB知名演员离巢后遭区别对待，新剧番位男二降级为男四",
-        "source": "剧透社娱乐",
-        "summary": "由高海宁、马国明等人领衔主演的TVB最新情感复仇剧《夫妻的博弈》已经正式迎来首播。这部剧集翻拍的韩剧《请和我的老公结婚》，所以播出之后，自然也是引发了不少热议。",
-        "url": "https://view.inews.qq.com/a/20260710A0CQUC00?scene=news-skill",
-        "heat": 8,
-        "time": "7月14日 1:50"
-      },
-      {
-        "rank": 10,
-        "title": "电影人施南生离世，享年75岁，成龙、甄子丹、舒淇、李冰冰等众星发文悼念",
-        "source": "极目新闻",
-        "summary": "华语电影传奇人物施南生7月13日不幸离世，当晚11时30分，施南生的前夫、著名导演徐克在医院门口会见传媒。神情哀伤的徐克透露，施南生自从2022年开始身体免疫力衰退，",
-        "url": "https://view.inews.qq.com/a/20260714A00OO700?scene=news-skill",
-        "heat": 8,
-        "time": "7月14日 1:09"
-      },
-      {
-        "rank": 11,
-        "title": "电影人施南生去世，享年75岁，曾监制《英雄本色》《倩女幽魂》《黄飞鸿》等作品",
-        "source": "极目新闻",
-        "summary": "电影工作室有限公司发出声明：我们最敬爱的 施南生女士，自2022年起因免疫系统出现问题，健康状况一直未如理想。近月因细菌感染，引发多重器官衰竭，已于2026年7月13日星期一，",
-        "url": "https://view.inews.qq.com/a/20260713A0C18300?scene=news-skill",
-        "heat": 8,
-        "time": "7月13日 23:44"
-      },
-      {
-        "rank": 12,
         "title": "激动！云南2026年演唱会又上新！",
         "source": "昆明本地宝",
         "summary": "接下来云南又要热闹啦演唱会接连不断这不又有新的演唱会上新快和昆宝看看温馨提示本地宝仅整理信息参考不作售票如歌的旅程——东风韵演唱会演出时间：2026年7月25日举办地点：云南弥勒东风韵景区演出嘉…",
@@ -4175,7 +4130,7 @@
         "time": "7月13日 22:31"
       },
       {
-        "rank": 13,
+        "rank": 8,
         "title": "“汉尼拔”竟然发单曲了，88岁安东尼·霍普金斯将发布个人专辑",
         "source": "现代快报",
         "summary": "，88岁的两届奥斯卡奖得主安东尼·霍普金斯以作曲家身份发行了他的首支单曲。据唱片公司介绍，这首名为《Bracken Road》的单曲选自其“跨越六十余年创作的管弦乐作品集”，",
@@ -4184,7 +4139,7 @@
         "time": "7月13日 19:04"
       },
       {
-        "rank": 14,
+        "rank": 9,
         "title": "低调回归？小杨哥徒弟「红绿灯的黄」国内正式复播，网友并不买账",
         "source": "雷科技",
         "summary": "日前，三只羊旗下曾经的头部主播黄婧妍，也就是大家熟悉的“红绿灯的黄”，正式在视频号复播了。图源：微博截图2022 年 10 月她被小杨哥签下，成了三只羊的大徒弟。",
@@ -4193,7 +4148,7 @@
         "time": "7月13日 17:21"
       },
       {
-        "rank": 15,
+        "rank": 10,
         "title": "李健厦门演唱会即将开票！",
         "source": "海西晨报",
         "summary": "李健巡回演唱会厦门站将于7月15日10:18开启预售！你准备好了吗？演出时间：2026年8月8日19:30演出地点：厦门奥林匹克体育中心-凤凰体育馆※ 编辑：胡婧 ※ 校对：刘子纯※ 审核：廖桂金 陈祥旺※",
@@ -4202,7 +4157,7 @@
         "time": "7月13日 16:57"
       },
       {
-        "rank": 16,
+        "rank": 11,
         "title": "功夫女足》票房超5亿，登暑期档票房榜第二，迪丽热巴主演电影票房破10亿",
         "source": "红星新闻",
         "summary": "据猫眼专业版数据，2026年暑期档（6月1日-8月31日）总票房超30亿，《给阿嬷的情书》《功夫女足》《玩具总动员5》分列暑期档票房榜前三位。《功夫女足》上映首周登顶票房周榜。",
@@ -4211,7 +4166,7 @@
         "time": "7月13日 16:23"
       },
       {
-        "rank": 17,
+        "rank": 12,
         "title": "侏罗纪公园》男主山姆·尼尔逝世享年78岁，曾抗癌成功感动影迷",
         "source": "爱德华Action",
         "summary": "7月13日，曾主演《侏罗纪公园》、《钢琴课》等经典电影的知名好莱坞男演员山姆·尼尔（Sam Neill）在悉尼去世，享年78岁。他的家人随后公开发表声明确认了这一不幸的消息。",
@@ -4220,7 +4175,7 @@
         "time": "7月13日 14:35"
       },
       {
-        "rank": 18,
+        "rank": 13,
         "title": "电影《想你了》发布终极海报 7月17日上映",
         "source": "新黄河",
         "summary": "电影《想你了》发布终极海报，画面中高凡(章若楠饰)与汪美丽(金靖饰)共戴一副有线耳机，在温润如琥珀的暖色光晕下侧头相视而笑。一条小小的黑色连线，巧妙勾勒出女孩之间无需言语的深层默契。",
@@ -4229,7 +4184,7 @@
         "time": "7月13日 14:14"
       },
       {
-        "rank": 19,
+        "rank": 14,
         "title": "年近80岁的易中天，为什么用百万积分做一部AI精品电影？｜独家专访",
         "source": "极客电影",
         "summary": "这不是“老先生赶AI热潮”是如何用AI把传统文化故事进行现代化创新落地 文 | 子路编辑 | 佛耶戈欢迎在小宇宙APP订阅：FoST未来叙事收听我们出品的播客节目《AI超创快上车！》 AI超创圈子越来越扩大了。",
@@ -4238,7 +4193,7 @@
         "time": "7月13日 14:06"
       },
       {
-        "rank": 20,
+        "rank": 15,
         "title": "电影《功夫女足》进入年度票房榜前十 票房预测再上调",
         "source": "新黄河",
         "summary": "据猫眼专业版数据，电影《功夫女足》上映第2天，累计票房(含预售)超3.45亿元，进入2026年度票房榜前十。据灯塔专业版实时数据，截至7月12日22时44分，影片《功夫女足.... 共 50 条搜索结果，还有更多结果",
@@ -4247,7 +4202,7 @@
         "time": "7月13日 13:49"
       },
       {
-        "rank": 21,
+        "rank": 16,
         "title": "小黄人与大怪兽》正在热映，导演亲口证实：小黄人永生不死，繁殖方式保密、二战时躲在洞里",
         "source": "娱乐嗑学家",
         "summary": "2026年暑期档，小黄人系列新作《小黄人与大怪兽》正在热映。这部由环球影业与照明娱乐联合打造的动画电影，将标志性黄萌军团首次带入了1920年代的好莱坞默片时代。",
@@ -4256,7 +4211,7 @@
         "time": "7月12日 23:02"
       },
       {
-        "rank": 22,
+        "rank": 17,
         "title": "艺人在线公开讨薪，暴露内娱综艺深层危机",
         "source": "北京日报客户端",
         "summary": "近日，一档综艺节目因录制中断、艺人纷纷在线讨薪而成为舆论焦点。正在录制中的《开放营业中》因资金链断裂导致拍摄中止，艺人停录罢演，留守的部分艺人也无奈成为自费“合伙人”，被迫打起了“黑工”，更有艺人在社交媒体曝出，该节目总导演两年前就曾有欠薪行为。",
@@ -4265,7 +4220,7 @@
         "time": "7月12日 20:49"
       },
       {
-        "rank": 23,
+        "rank": 18,
         "title": "无人机编队表演舞蹈与特技",
         "source": "X：fofr (@fofrAI)",
         "summary": "在繁忙交通堵塞上空，小型无人机搭载舞者表演宝莱坞舞蹈，每架无人机一人，聚焦舞蹈动作。（SD2） 啦啦队员身穿飞行服，在游乐园上空的无人机上进行特技表演，最后组成人塔，由地面业余电影人拍摄，白天。",
@@ -4274,90 +4229,52 @@
         "time": "7月19日 7:36"
       },
       {
+        "rank": 19,
+        "title": "电影人施南生去世，享年75岁，曾监制《英雄本色》《倩女幽魂》《黄飞鸿》等作品",
+        "source": "极目新闻",
+        "summary": "电影工作室有限公司发出声明：我们最敬爱的 施南生女士，自2022年起因免疫系统出现问题，健康状况一直未如理想。近月因细菌感染，引发多重器官衰竭，已于2026年7月13日星期一，",
+        "url": "https://view.inews.qq.com/a/20260713A0C18300?scene=news-skill",
+        "heat": 8,
+        "time": "7月13日 23:44"
+      },
+      {
+        "rank": 20,
+        "title": "多位知名音乐人将轮番登台，2026张北草原音乐节蓄势启幕",
+        "source": "北京日报客户端",
+        "summary": "7月17日至19日，2026第十五届张北草原音乐节将在张北中都草原燃情上演。作为京张体育文化旅游带标杆文旅IP，本届音乐节全方位升级场地配套、场景体验、智慧服务和惠民举措，以全新风貌迎接八方乐迷赴夏日草原之约。",
+        "url": "https://view.inews.qq.com/a/20260715A0A0KV00?scene=news-skill",
+        "heat": 8,
+        "time": "7月15日 18:34"
+      },
+      {
+        "rank": 21,
+        "title": "Lorde 在 Mad Cool 音乐节上直言 AI 眼镜\"不性感",
+        "source": "TechCrunch：AI（RSS）",
+        "summary": "歌手 Lorde 在上周马德里 Mad Cool 音乐节演出期间公开批评 AI 眼镜，称其\"不性感\"。她表示越来越难分辨他人佩戴的是普通太阳镜还是 AI 眼镜。",
+        "url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy",
+        "heat": 8,
+        "time": "7月15日 7:10"
+      },
+      {
+        "rank": 22,
+        "title": "好惨！TVB知名演员离巢后遭区别对待，新剧番位男二降级为男四",
+        "source": "剧透社娱乐",
+        "summary": "由高海宁、马国明等人领衔主演的TVB最新情感复仇剧《夫妻的博弈》已经正式迎来首播。这部剧集翻拍的韩剧《请和我的老公结婚》，所以播出之后，自然也是引发了不少热议。",
+        "url": "https://view.inews.qq.com/a/20260710A0CQUC00?scene=news-skill",
+        "heat": 8,
+        "time": "7月14日 1:50"
+      },
+      {
+        "rank": 23,
+        "title": "电影人施南生离世，享年75岁，成龙、甄子丹、舒淇、李冰冰等众星发文悼念",
+        "source": "极目新闻",
+        "summary": "华语电影传奇人物施南生7月13日不幸离世，当晚11时30分，施南生的前夫、著名导演徐克在医院门口会见传媒。神情哀伤的徐克透露，施南生自从2022年开始身体免疫力衰退，",
+        "url": "https://view.inews.qq.com/a/20260714A00OO700?scene=news-skill",
+        "heat": 8,
+        "time": "7月14日 1:09"
+      },
+      {
         "rank": 24,
-        "title": "Anthropic 为 IPO 铺路，以最高 60 万美元年薪重金招聘投资者关系总监",
-        "source": "IT之家（RSS）",
-        "summary": "Anthropic 正为最早于今年秋季启动的 IPO 扩建投资者关系团队，最新发布的总监职位基本年薪达 42.5 万至 60 万美元。新总监需构建说服资本市场的\"投资叙事\"，并充当大型投资者与管理层的主要沟通渠道。",
-        "url": "https://www.ithome.com/0/978/351.htm",
-        "heat": 7,
-        "time": "7月18日 8:59"
-      },
-      {
-        "rank": 25,
-        "title": "Codex 5.6 Sol 让《过山车大亨2》原生登陆iPad",
-        "source": "X：Ethan Mollick (@emollick)",
-        "summary": "开发者用 Codex 5.6 Sol 将《过山车大亨2》编译为原生 ARM64 iPad 应用，并构建了触控操作层。过山车建造、场景和公园管理均可通过触控完成，这是该游戏首次在 iPad 上原生运行。",
-        "url": "https://x.com/emollick/status/2078169042687320449",
-        "heat": 7,
-        "time": "7月18日 1:24"
-      },
-      {
-        "rank": 26,
-        "title": "东莞2场大型演唱会即将开票！",
-        "source": "东莞本地宝",
-        "summary": "宝子们注意啦黎明ROBBABA东莞站演唱会明日即将公售还有A‑Lin黄丽玲歌迹Journey巡演东莞站加场预售快和小编一起来看看吧~注：演唱会、演出如有变动，请以主办方最新通知为准！",
-        "url": "https://view.inews.qq.com/a/20260715A0BQ2K00?scene=news-skill",
-        "heat": 7,
-        "time": "7月15日 21:21"
-      },
-      {
-        "rank": 27,
-        "title": "AL首秀击败DK！难解问题老秀打不动新秀小心脏",
-        "source": "游戏马蹄铁",
-        "summary": "★游戏马蹄铁原创AL首秀对战DK​赛前看起来倒像是一场势均力敌的较量，各有一些长处，也都有各自的问题。而显然DK的问题更大，尤其是每当一到关键的比赛对局中，这些在常规赛表现很勇猛的新人，就像是缩水了一样，表现很糟糕。",
-        "url": "https://view.inews.qq.com/a/20260715A0BIXJ00?scene=news-skill",
-        "heat": 7,
-        "time": "7月15日 21:03"
-      },
-      {
-        "rank": 28,
-        "title": "当一部悬疑剧放弃反转与爽感，《悬案》凭啥还能让人欲罢不能？",
-        "source": "扬眼",
-        "summary": "不靠流量明星吸睛，不用花式反转堆砌，正在优酷与CCTV-8同步热播的《悬案》，凭借纪实质感的镜头语言与反套路叙事，在悬疑赛道中走出了一条“慢”路。改编自两起历时22年才告破的真实积案，《悬案》把“时间”本身推到台前，看似放弃了“爽剧快感”，却让观众在漫长的追凶岁月里，品出了正义的重量。",
-        "url": "https://view.inews.qq.com/a/20260715A0B33B00?scene=news-skill",
-        "heat": 7,
-        "time": "7月15日 20:18"
-      },
-      {
-        "rank": 29,
-        "title": "AI剧又撞明星脸！生成角色神似胡歌引争议",
-        "source": "鞭牛士",
-        "summary": "7月15日消息，有网友发现某部AI剧的男主五官、气质神态高度神似演员胡歌，在社交平台发布相关内容：从剧照来看，确实很像胡歌：在这之前，也有网友发现某AI剧使用了胡歌肖像：相似度很高：在AI剧快速发展的环境下，AI虚拟角色外形神似知名明星早已不是个例。",
-        "url": "https://view.inews.qq.com/a/20260715A0ALBR00?scene=news-skill",
-        "heat": 7,
-        "time": "7月15日 19:28"
-      },
-      {
-        "rank": 30,
-        "title": "Vista 邀请多位朋友直播展示 Vibe Coding 作品",
-        "source": "X：Vista (@vista8)",
-        "summary": "Vista 于今晚20：00在飞书会议举办直播，邀请多位朋友每人用7分钟介绍自己的 Vibe Coding 作品或 FDE 项目。直播链接已公布，参与者可在开始前5分钟进入。",
-        "url": "https://x.com/vista8/status/2078309612374433883",
-        "heat": 7,
-        "time": "7月18日 10:43"
-      }
-    ],
-    "mockEntertainmentExtra": [
-      {
-        "rank": 31,
-        "title": "ChatGPT 网站创作有奖征集活动",
-        "source": "X：ChatGPT (@ChatGPTapp)",
-        "summary": "ChatGPT 推出\"ChatGPT sites\"功能，用户可快速搭建游戏、展示摄影、发布研究等多种网站。官方发起有奖征集，分享你的网站即有机会赢取限量版周边礼盒（含已售罄的 ChatGPT 篮球）。",
-        "url": "https://x.com/ChatGPTapp/status/2078264521748312302",
-        "heat": 7,
-        "time": "7月18日 7:44"
-      },
-      {
-        "rank": 32,
-        "title": "Roblox 移动版将推出 AI 游戏创作工具\"Build\"，7 月 28 日开启 Alpha 测试",
-        "source": "IT之家（RSS）",
-        "summary": "Roblox 宣布移动版客户端将推出\"Build\"功能，用户通过简单提示词即可用 AI 生成基础游戏，无需编程技能。该功能由多种 AI 模型（含开源和自研模型）驱动，支持生成玩法、环境、角色、视觉风格和音效。",
-        "url": "https://www.ithome.com/0/977/876.htm",
-        "heat": 7,
-        "time": "7月17日 9:31"
-      },
-      {
-        "rank": 33,
         "title": "今天下午，加场开票！沈阳演唱会最新消息",
         "source": "指尖新闻沈阳晚报",
         "summary": "21万余名歌迷狂欢汪苏泷6场演唱会的热度未散这个周末开始任贤齐的六场演唱会要来了还有一个好消息8月的谢霆锋沈阳演唱会开票瞬间数万张门票售罄 也紧急加场了 今天下午，加场开票！",
@@ -4366,7 +4283,7 @@
         "time": "7月16日 12:12"
       },
       {
-        "rank": 34,
+        "rank": 25,
         "title": "2500万元电影消费券正式发放！2026年浙江省暑期电影消费季在温岭启幕",
         "source": "九派财经",
         "summary": "7月15日晚，东海之滨的温岭石塘镇小箬村七彩拾光广场灯光璀璨、人声鼎沸。海浪伴着渔歌，石屋映着光影，2026年浙江省暑期电影消费季启动仪式暨“跟着电影游浙江品美食”主题活动在此拉开帷幕。",
@@ -4375,7 +4292,7 @@
         "time": "7月16日 11:27"
       },
       {
-        "rank": 35,
+        "rank": 26,
         "title": "来青岛奥帆中心围观米其林PK黑珍珠！ 《百厨大战》美食嘉年华连办十天！可免票参与！",
         "source": "信网",
         "summary": "综艺《百厨大战》海报。（ 爆款综艺《百厨大战》线下美食嘉年华登陆青岛奥帆海洋文化旅游区，活动7月17日至26日免费对外开放，以美食精酿打造夏日滨海文旅消费新场景。",
@@ -4384,7 +4301,7 @@
         "time": "7月16日 9:46"
       },
       {
-        "rank": 36,
+        "rank": 27,
         "title": "正式官宣！周深2026巡回演唱会济南站，来了",
         "source": "爱济南",
         "summary": "燥热盛夏泉城音乐重磅福利来袭又一演唱会正式官宣实力歌手周深2026「深深的」巡回演唱会济南站震撼来袭无数歌迷和济南网友激动刷屏满屏都是期待与欢喜温柔歌声遇上济南盛夏晚风这场双向奔赴的音乐之约早已让人满心期待 实力歌手周深2026「深深的」巡回演唱会济南站演出时间：2026年8月22日/ 23日...",
@@ -4393,7 +4310,7 @@
         "time": "7月16日 9:44"
       },
       {
-        "rank": 37,
+        "rank": 28,
         "title": "Fountain 0 用 AI 生成《奥德赛》改编电影《Odysseus： The Fall》",
         "source": "The Verge：AI（RSS）",
         "summary": "电影工作室 Fountain 0 宣布正在制作一部 AI 生成的《奥德赛》改编电影《Odysseus： The Fall》，试图借克里斯托弗·诺兰新片《奥德赛》的热度吸引关注。这类 AI 生成电...",
@@ -4402,7 +4319,7 @@
         "time": "7月16日 4:00"
       },
       {
-        "rank": 38,
+        "rank": 29,
         "title": "为什么周星驰电影，他自己演就很搞笑，其他人演就“巨尴尬”?",
         "source": "令狐伯光",
         "summary": "文|令狐伯光我前段时间写了不少《功夫女足》的文章，关于周星驰电影演员演技已经写过了。一部影视作品，为什么演员的表演会让观众觉得别扭，很多时候并不是因为演员演技完全不行，甚至都不是演员演得不认真，就像《功夫女足》一样，张小斐不用说了，你都不能说迪丽热巴，张艺兴这两个流量明星演得不认真。",
@@ -4411,16 +4328,18 @@
         "time": "7月16日 0:35"
       },
       {
-        "rank": 39,
+        "rank": 30,
         "title": "DC电影《新蝙蝠侠 2》首曝先导预告片，影片延至2028年2月18日上映",
         "source": "红星新闻",
         "summary": "DC 独立宇宙超英电影《新蝙蝠侠2》今日放出一支先导预告片，由罗伯特 · 帕丁森饰演的蝙蝠侠出镜。不过令影迷感到失落的是，本片也迎来了又一次延期，现定于2028年2月18日上映。",
         "url": "https://view.inews.qq.com/a/20260715A0CMQS00?scene=news-skill",
         "heat": 7,
         "time": "7月15日 23:29"
-      },
+      }
+    ],
+    "mockEntertainmentExtra": [
       {
-        "rank": 40,
+        "rank": 31,
         "title": "观影+旅游+美食，2026浙江暑期电影消费季在温岭启幕",
         "source": "极目新闻",
         "summary": "7月15日晚，东海之滨的浙江温岭石塘镇小箬村七彩拾光广场灯光璀璨、人声鼎沸。海浪伴着渔歌，石屋映着光影，2026年浙江省暑期电影消费季启动仪式暨“跟着电影游浙江品美食”主题活动在此拉开帷幕。",
@@ -4429,7 +4348,7 @@
         "time": "7月15日 23:04"
       },
       {
-        "rank": 41,
+        "rank": 32,
         "title": "跟着电影过暑假！2026年浙江省暑期电影消费季在温岭启动",
         "source": "潮新闻",
         "summary": "潮新闻客户端 记者 金然 何晓婷 郑天一 刘小小 7月15日晚，2026年浙江省暑期电影消费季启动仪式暨“跟着电影游浙江品美食”主题活动，在台州温岭石塘镇小箬村七彩拾光广场盛大启幕，在美食",
@@ -4438,7 +4357,7 @@
         "time": "7月15日 23:02"
       },
       {
-        "rank": 42,
+        "rank": 33,
         "title": "期待！合肥新一批演唱会定档/开票！",
         "source": "合肥本地宝",
         "summary": "合肥演唱会上新啦王赫野WINDY巡回演唱会林志炫ONEtake3.0《耳顺Golden Years》巡回演唱会已经审批通过此外还有两场演唱会明日开票陈楚生“荒芜之境”2026巡回演唱会-合肥站首开徐良“时间折叠”巡回演唱会-合肥站二开详细内容一起来看王赫野WINDY巡回演唱会截图源文化和旅游部...",
@@ -4447,7 +4366,25 @@
         "time": "7月15日 21:30"
       },
       {
-        "rank": 43,
+        "rank": 34,
+        "title": "东莞2场大型演唱会即将开票！",
+        "source": "东莞本地宝",
+        "summary": "宝子们注意啦黎明ROBBABA东莞站演唱会明日即将公售还有A‑Lin黄丽玲歌迹Journey巡演东莞站加场预售快和小编一起来看看吧~注：演唱会、演出如有变动，请以主办方最新通知为准！",
+        "url": "https://view.inews.qq.com/a/20260715A0BQ2K00?scene=news-skill",
+        "heat": 7,
+        "time": "7月15日 21:21"
+      },
+      {
+        "rank": 35,
+        "title": "AL首秀击败DK！难解问题老秀打不动新秀小心脏",
+        "source": "游戏马蹄铁",
+        "summary": "★游戏马蹄铁原创AL首秀对战DK​赛前看起来倒像是一场势均力敌的较量，各有一些长处，也都有各自的问题。而显然DK的问题更大，尤其是每当一到关键的比赛对局中，这些在常规赛表现很勇猛的新人，就像是缩水了一样，表现很糟糕。",
+        "url": "https://view.inews.qq.com/a/20260715A0BIXJ00?scene=news-skill",
+        "heat": 7,
+        "time": "7月15日 21:03"
+      },
+      {
+        "rank": 36,
         "title": "Reelful 利用 AI 将相册内容自动剪辑成短视频",
         "source": "TechCrunch：AI（RSS）",
         "summary": "前 Snapchat 工程师 Kate Deyneka 推出 iOS 应用 Reelful，用户输入提示词并录制 30 秒语音样本后，AI 即可自动规划脚本、添加配音和特效，将照片和视频剪辑成适配 TikTok 的短视频。该应用提供一次性购买（5 个视频 15 美元起）和订阅计划（Creato...",
@@ -4456,7 +4393,25 @@
         "time": "7月15日 21:00"
       },
       {
-        "rank": 44,
+        "rank": 37,
+        "title": "当一部悬疑剧放弃反转与爽感，《悬案》凭啥还能让人欲罢不能？",
+        "source": "扬眼",
+        "summary": "不靠流量明星吸睛，不用花式反转堆砌，正在优酷与CCTV-8同步热播的《悬案》，凭借纪实质感的镜头语言与反套路叙事，在悬疑赛道中走出了一条“慢”路。改编自两起历时22年才告破的真实积案，《悬案》把“时间”本身推到台前，看似放弃了“爽剧快感”，却让观众在漫长的追凶岁月里，品出了正义的重量。",
+        "url": "https://view.inews.qq.com/a/20260715A0B33B00?scene=news-skill",
+        "heat": 7,
+        "time": "7月15日 20:18"
+      },
+      {
+        "rank": 38,
+        "title": "AI剧又撞明星脸！生成角色神似胡歌引争议",
+        "source": "鞭牛士",
+        "summary": "7月15日消息，有网友发现某部AI剧的男主五官、气质神态高度神似演员胡歌，在社交平台发布相关内容：从剧照来看，确实很像胡歌：在这之前，也有网友发现某AI剧使用了胡歌肖像：相似度很高：在AI剧快速发展的环境下，AI虚拟角色外形神似知名明星早已不是个例。",
+        "url": "https://view.inews.qq.com/a/20260715A0ALBR00?scene=news-skill",
+        "heat": 7,
+        "time": "7月15日 19:28"
+      },
+      {
+        "rank": 39,
         "title": "周星驰《功夫女足》路演遇“初代郭靖”白彪，星爷变小影迷：从小看你电影长大",
         "source": "爱德华Action",
         "summary": "周星驰自编自导新作《功夫女足》自7月11日上映以来票房势头强劲，已经破7亿票房。连日来，周星驰带领一众演员四处谢票，在成都一站，一位香港武侠片传奇人物的意外现身，成为全场最大惊喜。",
@@ -4465,7 +4420,7 @@
         "time": "7月15日 15:16"
       },
       {
-        "rank": 45,
+        "rank": 40,
         "title": "大麦娱乐启动“麦芒计划”  直播招募新生代演艺人才",
         "source": "TechWeb",
         "summary": "7月13日消息，大麦娱乐今日宣布正式启动“麦芒计划”，通过网络直播形式公开招募新生代演艺人才，为行业输送更多兼具唱、跳、演实力与现场舞台感染力的演艺新人。根据官方介绍，“麦芒计划”即日起开放报名。",
@@ -4474,7 +4429,7 @@
         "time": "7月15日 13:08"
       },
       {
-        "rank": 46,
+        "rank": 41,
         "title": "天使的翅膀》原唱安琥巡演「相信你还在这里」威海站正式开票 相约8月8日蹦迪狂欢",
         "source": "诚利千代",
         "summary": "近日，华语乐坛实力唱作人、全能艺人安琥2026 年个人巡演威海站场次正式官宣开票，将于 8 月 8 日登陆山东威海核心音乐演出地标 66livehouse，带来「相信你还在这里」主题个人演唱会。",
@@ -4483,7 +4438,7 @@
         "time": "7月15日 11:00"
       },
       {
-        "rank": 47,
+        "rank": 42,
         "title": "迪士尼+：Faker将首次固定出演综艺节目——《谋杀俱乐部",
         "source": "虎扑体育内容",
         "summary": "虎扑07月15日讯 韩媒发文称Faker选手将首次固定出演综艺节目，原文具体内容如下： 15日，迪士尼+宣布《谋杀俱乐部》将于29日公开上线，并同步发布了主海报和主预告片。",
@@ -4492,7 +4447,7 @@
         "time": "7月15日 9:09"
       },
       {
-        "rank": 48,
+        "rank": 43,
         "title": "功夫女足》票房破7亿，又一档“黑马”电影定档，堪比《哪吒",
         "source": "楚楚号",
         "summary": "暑期档已经到来，多部电视剧都已经播出，开启同期对打模式，电影市场竞争也非常激烈，《功夫女足》票房直接突破7亿，正在稳步上升中，让大家没想到的是，又一部“黑马”电影定档，被指堪比《哪吒》，大家期待吗？",
@@ -4501,7 +4456,7 @@
         "time": "7月15日 6:53"
       },
       {
-        "rank": 49,
+        "rank": 44,
         "title": "尺度太大了！《姐姐当家2》能否为生活观察综艺破题？",
         "source": "新黄河",
         "summary": "《姐姐当家》第二季刚开播就成为今年夏天综艺市场的一匹黑马，尤其是明星嘉宾中邹市明夫妇和小鹿夫妇相关的短视频切片引发热议，从女性备孕的身心压力、生育年龄焦虑，到夫妻亲密相处细节、生育健康、婚姻真实经营",
@@ -4510,7 +4465,7 @@
         "time": "7月14日 20:49"
       },
       {
-        "rank": 50,
+        "rank": 45,
         "title": "诺兰写《奥德赛》遭亲儿子锐评：你剧本又没拿过奖",
         "source": "黑色玫瑰",
         "summary": "正在筹备史诗巨制《奥德赛》的导演克里斯托弗·诺兰近日分享了一段关于创作压力的趣事。他透露，在撰写《奥德赛》剧本期间，自己曾把办公室里的奥斯卡奖杯暂时移走，因为这些奖杯让他感到压力巨大，而儿子的回应却意外扎心。",
@@ -4519,7 +4474,7 @@
         "time": "7月14日 14:36"
       },
       {
-        "rank": 51,
+        "rank": 46,
         "title": "英国娱乐零售商协会谴责索尼PlayStation停产实体游戏：自私行为",
         "source": "IT之家",
         "summary": "IT之家 7 月 14 日消息，据外媒 VGC 今天（14 日）报道，代表英国实体及数字娱乐产品零售业的娱乐零售商协会（下称 ERA）公开抨击索尼停止生产 PlayStation 游戏光盘版的行为。该协会认为，索尼为了自身方便牺牲了玩家的选择权。",
@@ -4528,7 +4483,7 @@
         "time": "7月14日 9:35"
       },
       {
-        "rank": 52,
+        "rank": 47,
         "title": "纪念施南生｜香港电影真正的大女主，定义了制片人最体面最专业的模样",
         "source": "澎湃新闻",
         "summary": "施南生识人有度、成人之美，是香港影坛的 “定盘星”，谈起制片人的成功秘诀，她答得直白：“不要亏本，不要丢脸，多年之后回头看自己的作品时不后悔。”她代表了电影工业里最专业的制片人：不是资本的传声筒，不是创作的绊脚石，而是创作者的铠甲与后盾，相信电影的价值和专业的力量。",
@@ -4537,7 +4492,7 @@
         "time": "7月14日 7:56"
       },
       {
-        "rank": 53,
+        "rank": 48,
         "title": "义乌将连开两场演唱会！",
         "source": "爱义乌",
         "summary": "你的歌单里是华语流行歌曲多？还是经典英文歌曲更多？从《Take Me To You Heart》到《海阔天空》从卡朋特到刘若英这些耳熟能详的歌马上就能在义乌听现场版7月18日15:00、19:30《昨日重现》经典英文歌曲演唱会《我们的爱》流行经典金曲演唱会同一天，同一个舞台两场演唱会在义乌文化...",
@@ -4546,7 +4501,7 @@
         "time": "7月14日 7:02"
       },
       {
-        "rank": 54,
+        "rank": 49,
         "title": "定了！她要来常州开演唱会",
         "source": "常观",
         "summary": "“我是女生，漂亮的女生～”没错~满载我们青春回忆的“天后”徐怀钰要来常州啦光致蜕变2026个人巡回演唱会常州站正式定档8月29日登陆新龙湖演艺中心提到徐怀钰谁的记忆里没有几首她的歌？",
@@ -4555,13 +4510,58 @@
         "time": "7月13日 11:29"
       },
       {
-        "rank": 55,
+        "rank": 50,
         "title": "Lorde 在音乐节公开批评 Ray-Ban Meta AI 眼镜\"不够性感",
         "source": "The Verge：AI（RSS）",
         "summary": "歌手 Lorde 在马德里 Real Cool 音乐节演出期间公开批评 AI 眼镜。她未点名具体品牌，但矛头很可能指向音乐节赞助商 Ray-Ban 与 Meta 合作推出的 AI 智能眼镜。",
         "url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
         "heat": 7,
         "time": "7月13日 4:10"
+      },
+      {
+        "rank": 51,
+        "title": "Codex 5.6 Sol 让《过山车大亨2》原生登陆iPad",
+        "source": "X：Ethan Mollick (@emollick)",
+        "summary": "开发者用 Codex 5.6 Sol 将《过山车大亨2》编译为原生 ARM64 iPad 应用，并构建了触控操作层。过山车建造、场景和公园管理均可通过触控完成，这是该游戏首次在 iPad 上原生运行。",
+        "url": "https://x.com/emollick/status/2078169042687320449",
+        "heat": 7,
+        "time": "7月18日 1:24"
+      },
+      {
+        "rank": 52,
+        "title": "Anthropic 为 IPO 铺路，以最高 60 万美元年薪重金招聘投资者关系总监",
+        "source": "IT之家（RSS）",
+        "summary": "Anthropic 正为最早于今年秋季启动的 IPO 扩建投资者关系团队，最新发布的总监职位基本年薪达 42.5 万至 60 万美元。新总监需构建说服资本市场的\"投资叙事\"，并充当大型投资者与管理层的主要沟通渠道。",
+        "url": "https://www.ithome.com/0/978/351.htm",
+        "heat": 7,
+        "time": "7月18日 8:59"
+      },
+      {
+        "rank": 53,
+        "title": "Vista 邀请多位朋友直播展示 Vibe Coding 作品",
+        "source": "X：Vista (@vista8)",
+        "summary": "Vista 于今晚20：00在飞书会议举办直播，邀请多位朋友每人用7分钟介绍自己的 Vibe Coding 作品或 FDE 项目。直播链接已公布，参与者可在开始前5分钟进入。",
+        "url": "https://x.com/vista8/status/2078309612374433883",
+        "heat": 7,
+        "time": "7月18日 10:43"
+      },
+      {
+        "rank": 54,
+        "title": "ChatGPT 网站创作有奖征集活动",
+        "source": "X：ChatGPT (@ChatGPTapp)",
+        "summary": "ChatGPT 推出\"ChatGPT sites\"功能，用户可快速搭建游戏、展示摄影、发布研究等多种网站。官方发起有奖征集，分享你的网站即有机会赢取限量版周边礼盒（含已售罄的 ChatGPT 篮球）。",
+        "url": "https://x.com/ChatGPTapp/status/2078264521748312302",
+        "heat": 7,
+        "time": "7月18日 7:44"
+      },
+      {
+        "rank": 55,
+        "title": "Roblox 移动版将推出 AI 游戏创作工具\"Build\"，7 月 28 日开启 Alpha 测试",
+        "source": "IT之家（RSS）",
+        "summary": "Roblox 宣布移动版客户端将推出\"Build\"功能，用户通过简单提示词即可用 AI 生成基础游戏，无需编程技能。该功能由多种 AI 模型（含开源和自研模型）驱动，支持生成玩法、环境、角色、视觉风格和音效。",
+        "url": "https://www.ithome.com/0/977/876.htm",
+        "heat": 7,
+        "time": "7月17日 9:31"
       },
       {
         "rank": 56,
@@ -4583,24 +4583,6 @@
       },
       {
         "rank": 58,
-        "title": "PixVerse Live 7月23日回归，聚焦Agent与Canvas",
-        "source": "X：PixVerse (@PixVerse_)",
-        "summary": "PixVerse Live 回归 - 7月23日周四，上午10-11点（太平洋时间）。从创意到可投入生产的视频直播。探索Agent、Canvas和Apps，以及社区机会。",
-        "url": "https://x.com/PixVerse_/status/2077825881028849879",
-        "heat": 6,
-        "time": "7月17日 2:41"
-      },
-      {
-        "rank": 59,
-        "title": "PixVerse 推出 AI 互动直播体验 Live Party",
-        "source": "X：PixVerse (@PixVerse_)",
-        "summary": "PixVerse 推出 PixVerse Live Party，一种早期互动直播式体验，由 AI 粉丝主持人 Reina 驱动。该实验性项目探索 AI 视频从生成质量转向用户参与的可能性，展示了...",
-        "url": "https://x.com/PixVerse_/status/2077784321180713352",
-        "heat": 6,
-        "time": "7月16日 23:56"
-      },
-      {
-        "rank": 60,
         "title": "官宣！知名歌手要来福州开演唱会！",
         "source": "海峡都市报",
         "summary": "“我们依旧是少年”主题演唱会定档啦将于9月5日在福州举办演唱会将在福州海峡奥体中心体育场举办由知名歌手苏醒、王栎鑫、王铮亮陆虎、俞灏明、姚政演唱2007年快男选秀，是承载一代人热血与梦想的超级文化符号。成员历经岁月沉淀，已成为华语乐坛具有影响力的情怀标杆，拥有跨越年龄层的广泛受众与较高国民度。",
@@ -4609,7 +4591,7 @@
         "time": "7月16日 17:38"
       },
       {
-        "rank": 61,
+        "rank": 59,
         "title": "《生化危机》新电影细节公布！时间不长 僵尸不太多",
         "source": "黑色玫瑰",
         "summary": "《生化危机：爆发夜》是一部由《凶器》导演扎克·克雷格自编自导的动作恐怖片，改编自我们耳熟能详的《生化危机》游戏系列，同时也是《生化危机》电影的一次“重启”，影片即将于9月18日在美国正式上映。据IGN报道，美国大型连锁电影院线AMC也终于在近日公布了本片的片长，为1小时35分（95分钟）。",
@@ -4618,7 +4600,7 @@
         "time": "7月16日 17:15"
       },
       {
-        "rank": 62,
+        "rank": 60,
         "title": "分房、难孕、生意亏本…全员跌落滤镜的《姐姐当家2》哪有什么剧本？",
         "source": "伊姐看电影",
         "summary": "了解伊姐本人最新动态、参与线下活动加伊姐微信：eemoviekf04（不闲聊） 你如此特别，我又怎会失望 文 | 伊姐（周桂伊）《姐姐当家2》，开播第一期，就给我看哭了好几次。",
@@ -4627,7 +4609,7 @@
         "time": "7月16日 16:33"
       },
       {
-        "rank": 63,
+        "rank": 61,
         "title": "观众线下买到《功夫女足》空白票，怀疑被电影院“偷票房”；电影院称系误会：票纸潮湿没打上墨，相关员工已被停职",
         "source": "红星新闻",
         "summary": "电影《功夫女足》票房破8.8亿元，近期，有网友发帖质疑有电影院以手写票、空白票、不通过电影发行系统出机打票等方式“偷票房”。福建漳州一位网友吐槽，他在柜台买票时，打出来的票是空白的，朋友在网上买的票则是正常的。",
@@ -4636,7 +4618,7 @@
         "time": "7月16日 15:24"
       },
       {
-        "rank": 64,
+        "rank": 62,
         "title": "期待！又一演唱会定档广州白云！",
         "source": "白云融媒",
         "summary": "他是华语摇滚的传奇歌者是自带岁月力量的“音乐武侠”是无数人青春里最赤诚的声音11月7日赵传将在广州用最纯粹的嗓音复刻一代人的青春记忆带我们重回热血滚烫的年少时光赵传2026《当我们年轻的时候 》巡回演唱会·广州站他的歌声，懂你的崎岖；他的音乐，重播往事共情。",
@@ -4645,7 +4627,7 @@
         "time": "7月16日 15:21"
       },
       {
-        "rank": 65,
+        "rank": 63,
         "title": "诺兰的巅峰之作！ 媒体盛赞《奥德赛》电影",
         "source": "黑色玫瑰",
         "summary": "近日，知名好莱坞导演克里斯托弗·诺兰新片《奥德赛》首批影评出炉，不出所料，该片获得了影评人的一致好评。在烂番茄上，《奥德赛》新鲜度高达惊人的98%，而在评分网站Metacritic上也斩获了坚实的88分。",
@@ -4654,7 +4636,7 @@
         "time": "7月16日 15:07"
       },
       {
-        "rank": 66,
+        "rank": 64,
         "title": "“指环王”新电影《指环王：猎捕咕噜》正式开拍",
         "source": "Lee奇奥观影",
         "summary": "“指环王”新电影《指环王：猎捕咕噜》（Lord of the Rings: The Hunt for Gollum）于近日正式开拍，安迪·瑟金斯回归饰演咕噜并担任导演一职。",
@@ -4663,61 +4645,25 @@
         "time": "7月15日 16:21"
       },
       {
+        "rank": 65,
+        "title": "PixVerse Live 7月23日回归，聚焦Agent与Canvas",
+        "source": "X：PixVerse (@PixVerse_)",
+        "summary": "PixVerse Live 回归 - 7月23日周四，上午10-11点（太平洋时间）。从创意到可投入生产的视频直播。探索Agent、Canvas和Apps，以及社区机会。",
+        "url": "https://x.com/PixVerse_/status/2077825881028849879",
+        "heat": 6,
+        "time": "7月17日 2:41"
+      },
+      {
+        "rank": 66,
+        "title": "PixVerse 推出 AI 互动直播体验 Live Party",
+        "source": "X：PixVerse (@PixVerse_)",
+        "summary": "PixVerse 推出 PixVerse Live Party，一种早期互动直播式体验，由 AI 粉丝主持人 Reina 驱动。该实验性项目探索 AI 视频从生成质量转向用户参与的可能性，展示了...",
+        "url": "https://x.com/PixVerse_/status/2077784321180713352",
+        "heat": 6,
+        "time": "7月16日 23:56"
+      },
+      {
         "rank": 67,
-        "title": "浪姐7》“七公”来了！李小冉压轴三连唱，范玮琪演唱会变团建，女性群像戳人",
-        "source": "烤娱",
-        "summary": "都说《浪姐》“成团即解散”，但对于第7季参赛的姐姐来说，属于她们的故事还在延续。《浪姐7》已于6月27日正式收官，曾沛慈、张月、李小冉、叶一茜、徐洁儿等12位姐姐最终拿下成团席位。",
-        "url": "https://view.inews.qq.com/a/20260712A03VLU00?scene=news-skill",
-        "heat": 6,
-        "time": "7月12日 11:00"
-      },
-      {
-        "rank": 68,
-        "title": "动画电影《小黄人与大怪兽》 上映 10 天总票房破 2 亿",
-        "source": "IT之家",
-        "summary": "IT之家 7 月 12 日消息，电影《小黄人大眼萌》 主角官方微博昨晚宣布，新片《小黄人与大怪兽》 上映 10 天，总票房破 2 亿。IT之家查询获悉，《小黄人与大怪兽》是《神偷奶爸》的衍生动画电影，由《神偷奶爸》系列和《小黄人大眼萌》导演之一皮埃尔 · 柯芬执导，他也是所有小黄人的配音，编剧...",
-        "url": "https://view.inews.qq.com/a/20260712A02IGX00?scene=news-skill",
-        "heat": 6,
-        "time": "7月12日 7:05"
-      },
-      {
-        "rank": 69,
-        "title": "“在出生地和成长地汇报演出”，动画电影《八仙！》成都首映反响热烈",
-        "source": "红星新闻",
-        "summary": "7月11日下午，动画电影《八仙！》在成都举办了首映礼，现场观众反响热烈，更有影迷在互动环节玩梗片中神仙“有求必应”的设定，请配音演员用角色的声音为自己“现场赐福”。",
-        "url": "https://view.inews.qq.com/a/20260711A0A5JH00?scene=news-skill",
-        "heat": 6,
-        "time": "7月11日 21:00"
-      },
-      {
-        "rank": 70,
-        "title": "他要来长春开演唱会了",
-        "source": "长春晚报",
-        "summary": "7月10日，吉林省文化和旅游厅网站发布《吉文旅审〔2026〕350号关于准予北京锦华丽晟国际文化传媒有限公司举办2026宝石Gem「原石季节」巡回演唱会—长春站演出的许可决定》。",
-        "url": "https://view.inews.qq.com/a/20260711A0A17800?scene=news-skill",
-        "heat": 6,
-        "time": "7月11日 20:45"
-      },
-      {
-        "rank": 71,
-        "title": "突发！郑秀文演唱会延期，临时答谢会唱足十首歌，刘德华惊喜现身",
-        "source": "光影娱说",
-        "summary": "7月10日晚启德主场馆灯光亮起时，四万多歌迷攥着郑秀文《You & Mi》亚洲巡演终点站的门票进场，原定三天的正式演唱会因舞台故障刚官宣延期，换进来的是场连刘德华都空降的免费答谢会，前一秒还",
-        "url": "https://view.inews.qq.com/a/20260711A09BSC00?scene=news-skill",
-        "heat": 6,
-        "time": "7月11日 19:18"
-      },
-      {
-        "rank": 72,
-        "title": "全新电影、剧集、游戏、出版及音乐巡演，《伍六七》亮相BW",
-        "source": "澎湃新闻",
-        "summary": "7月10日至12日，二次元文化盛会BilibiliWorld 2026在上海举办。啊哈娱乐携旗下人气IP“伍六七”参展，围绕《伍六七》世界打造沉浸式主题场景，并设置官方手游试玩、官方Coser互。",
-        "url": "https://view.inews.qq.com/a/20260711A094QF00?scene=news-skill",
-        "heat": 6,
-        "time": "7月11日 19:04"
-      },
-      {
-        "rank": 73,
         "title": "网易MuMu模拟器与百度云手机达成战略合作，手游云玩新标杆",
         "source": "公众号：百度智能云（文心）",
         "summary": "网易MuMu模拟器与百度云手机达成战略合作，百度云手机全栈服务将集成至「掌上MuMu」客户端，支持游戏7x24小时云端运行，用户无需下载额外软件即可在任意设备获得旗舰级体验。百度云手机提供4K ...",
@@ -4726,7 +4672,7 @@
         "time": "7月16日 20:17"
       },
       {
-        "rank": 74,
+        "rank": 68,
         "title": "京东数字人技术助力「热血看球季」系列直播，品牌IP可自主走进直播间",
         "source": "公众号：京东JoyAI",
         "summary": "7月17日，京东数字人将技术支持「热血看球季・AI观赛团 陪你嗨看球」系列直播，让品牌IP以数字人形态自主进入直播间参与互动。该技术使品牌无需真人主播即可实现直播，降低运营成本并提升用户参与度。",
@@ -4735,16 +4681,7 @@
         "time": "7月16日 17:59"
       },
       {
-        "rank": 75,
-        "title": "Roblox 在移动端推出 AI 游戏创建功能\"Build\"",
-        "source": "TechCrunch：AI（RSS）",
-        "summary": "Roblox 发布新功能\"Build\"，允许用户通过手机输入文字提示（如\"制作一个森林中的舒适冒险游戏\"）直接生成基础游戏，无需编程经验。该功能由开源和 Roblox 自有的 AI 模型驱动，可...",
-        "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app",
-        "heat": 6,
-        "time": "7月17日 2:22"
-      },
-      {
-        "rank": 76,
+        "rank": 69,
         "title": "MeDo黑客松获奖项目Craf-te发布",
         "source": "X：百度 Baidu (@Baidu_Inc)",
         "summary": "Build with MeDo 黑客松的获奖项目之一？Craf-te，一个五天建成的 AI 驱动设计平台。@Bioba_daniel 创建它，旨在帮助用户更快制作传单、海报和营销物料，无需从零开始。",
@@ -4753,7 +4690,7 @@
         "time": "7月15日 22:00"
       },
       {
-        "rank": 77,
+        "rank": 70,
         "title": "本周日，五华区图书馆邀您免费看电影",
         "source": "昆明五华发布",
         "summary": "各位小伙伴7月19日（本周日） 14:00五华区图书馆将上映《奶奶的家》五小布邀请您免费看电影来源 | 区图书馆编辑 | 胡韦弦编审 | 孙啸武 崔志超终审 | 卢婵 黄元杰转载请联系我们或注明出处！",
@@ -4762,7 +4699,7 @@
         "time": "7月15日 16:19"
       },
       {
-        "rank": 78,
+        "rank": 71,
         "title": "阿里云AI视频方案：成本降47%",
         "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
         "summary": "阿里云推出AI视频生产方案，支持电影级画面与多镜头叙事，适用于游戏、营销、媒体和电商场景。该方案承诺在高批量AI视频创作中可节省高达47%的成本，旨在以更低投入实现规模化视频制作。",
@@ -4771,7 +4708,7 @@
         "time": "7月15日 11:24"
       },
       {
-        "rank": 79,
+        "rank": 72,
         "title": "Atomic Chat 将腾讯 Hy3 模型压缩至 1-bit 本地运行，速度超云 API 2...",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "summary": "Atomic Chat 将腾讯开源 295B 参数 MoE（21B 活跃参数）模型 Hy3 极端压缩至 1-bit，生成 92GB GGUF 文件。在 4 块 RTX 5090（128GB VRAM）上本地运行，速度达同模型云 API 的 2.2 倍。",
@@ -4780,7 +4717,7 @@
         "time": "7月15日 7:01"
       },
       {
-        "rank": 80,
+        "rank": 73,
         "title": "开发者用AI Coding复刻Mastermind猜颜色游戏",
         "source": "X：Vista (@vista8)",
         "summary": "开发者@vista8用AI Coding复刻了《世界游戏大全51》中的猜颜色游戏Mastermind，并新增3D效果与鼠标交互。项目已开源，支持手机端在线游玩。",
@@ -4789,7 +4726,7 @@
         "time": "7月15日 2:16"
       },
       {
-        "rank": 81,
+        "rank": 74,
         "title": "AI Coding复刻《世界游戏大全51》猜颜色游戏",
         "source": "X：Vista (@vista8)",
         "summary": "用户用AI Coding复刻了《世界游戏大全51》中的猜颜色游戏（原名Mastermind）。复刻版采用Three.js实现3D效果，并针对鼠标操作优化了交互体验。",
@@ -4798,13 +4735,76 @@
         "time": "7月14日 23:51"
       },
       {
-        "rank": 82,
+        "rank": 75,
         "title": "可灵AI助力新片《ODYSEEUS》预告发布",
         "source": "X：可灵 Kling AI (@Kling_ai)",
         "summary": "一个月前，Fountain 0 在翠贝卡电影节凭借《Dreams of Violets》创造了历史，这是首部被主流电影节接纳的 AI 长片。现在他们回来了--由 Ash Koosha 执导、可灵 AI 驱动的最新长片《ODYSEEUS： The Fall》预告片刚刚发布！",
         "url": "https://x.com/Kling_ai/status/2077045456417501265",
         "heat": 6,
         "time": "7月14日 23:00"
+      },
+      {
+        "rank": 76,
+        "title": "Roblox 在移动端推出 AI 游戏创建功能\"Build\"",
+        "source": "TechCrunch：AI（RSS）",
+        "summary": "Roblox 发布新功能\"Build\"，允许用户通过手机输入文字提示（如\"制作一个森林中的舒适冒险游戏\"）直接生成基础游戏，无需编程经验。该功能由开源和 Roblox 自有的 AI 模型驱动，可...",
+        "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app",
+        "heat": 6,
+        "time": "7月17日 2:22"
+      },
+      {
+        "rank": 77,
+        "title": "浪姐7》“七公”来了！李小冉压轴三连唱，范玮琪演唱会变团建，女性群像戳人",
+        "source": "烤娱",
+        "summary": "都说《浪姐》“成团即解散”，但对于第7季参赛的姐姐来说，属于她们的故事还在延续。《浪姐7》已于6月27日正式收官，曾沛慈、张月、李小冉、叶一茜、徐洁儿等12位姐姐最终拿下成团席位。",
+        "url": "https://view.inews.qq.com/a/20260712A03VLU00?scene=news-skill",
+        "heat": 6,
+        "time": "7月12日 11:00"
+      },
+      {
+        "rank": 78,
+        "title": "动画电影《小黄人与大怪兽》 上映 10 天总票房破 2 亿",
+        "source": "IT之家",
+        "summary": "IT之家 7 月 12 日消息，电影《小黄人大眼萌》 主角官方微博昨晚宣布，新片《小黄人与大怪兽》 上映 10 天，总票房破 2 亿。IT之家查询获悉，《小黄人与大怪兽》是《神偷奶爸》的衍生动画电影，由《神偷奶爸》系列和《小黄人大眼萌》导演之一皮埃尔 · 柯芬执导，他也是所有小黄人的配音，编剧...",
+        "url": "https://view.inews.qq.com/a/20260712A02IGX00?scene=news-skill",
+        "heat": 6,
+        "time": "7月12日 7:05"
+      },
+      {
+        "rank": 79,
+        "title": "“在出生地和成长地汇报演出”，动画电影《八仙！》成都首映反响热烈",
+        "source": "红星新闻",
+        "summary": "7月11日下午，动画电影《八仙！》在成都举办了首映礼，现场观众反响热烈，更有影迷在互动环节玩梗片中神仙“有求必应”的设定，请配音演员用角色的声音为自己“现场赐福”。",
+        "url": "https://view.inews.qq.com/a/20260711A0A5JH00?scene=news-skill",
+        "heat": 6,
+        "time": "7月11日 21:00"
+      },
+      {
+        "rank": 80,
+        "title": "他要来长春开演唱会了",
+        "source": "长春晚报",
+        "summary": "7月10日，吉林省文化和旅游厅网站发布《吉文旅审〔2026〕350号关于准予北京锦华丽晟国际文化传媒有限公司举办2026宝石Gem「原石季节」巡回演唱会—长春站演出的许可决定》。",
+        "url": "https://view.inews.qq.com/a/20260711A0A17800?scene=news-skill",
+        "heat": 6,
+        "time": "7月11日 20:45"
+      },
+      {
+        "rank": 81,
+        "title": "突发！郑秀文演唱会延期，临时答谢会唱足十首歌，刘德华惊喜现身",
+        "source": "光影娱说",
+        "summary": "7月10日晚启德主场馆灯光亮起时，四万多歌迷攥着郑秀文《You & Mi》亚洲巡演终点站的门票进场，原定三天的正式演唱会因舞台故障刚官宣延期，换进来的是场连刘德华都空降的免费答谢会，前一秒还",
+        "url": "https://view.inews.qq.com/a/20260711A09BSC00?scene=news-skill",
+        "heat": 6,
+        "time": "7月11日 19:18"
+      },
+      {
+        "rank": 82,
+        "title": "全新电影、剧集、游戏、出版及音乐巡演，《伍六七》亮相BW",
+        "source": "澎湃新闻",
+        "summary": "7月10日至12日，二次元文化盛会BilibiliWorld 2026在上海举办。啊哈娱乐携旗下人气IP“伍六七”参展，围绕《伍六七》世界打造沉浸式主题场景，并设置官方手游试玩、官方Coser互。",
+        "url": "https://view.inews.qq.com/a/20260711A094QF00?scene=news-skill",
+        "heat": 6,
+        "time": "7月11日 19:04"
       },
       {
         "rank": 83,
@@ -4880,51 +4880,6 @@
       },
       {
         "rank": 91,
-        "title": "电影《功夫女足》票房破8亿，领跑2026暑期档票房榜",
-        "source": "极目新闻",
-        "summary": "据灯塔专业版实时数据，截至7月15日16时23分，影片《功夫女足》票房突破8亿元。据灯塔专业版，截至7月15日，持续领跑2026暑期档票房榜。",
-        "url": "https://view.inews.qq.com/a/20260715A0AE0J00?scene=news-skill",
-        "heat": 8,
-        "time": "7月15日 19:09"
-      },
-      {
-        "rank": 92,
-        "title": "潮评丨动画电影屡屡出圈，真人电影该反思",
-        "source": "潮新闻",
-        "summary": "潮新闻客户端 评论员 王彬 图源：电影《八仙！》官博 截至目前，今年暑期档口碑最亮眼的，是《三国第一部：争洛阳》《八仙！",
-        "url": "https://view.inews.qq.com/a/20260714A0704400?scene=news-skill",
-        "heat": 8,
-        "time": "7月14日 14:52"
-      },
-      {
-        "rank": 93,
-        "title": "施南生离世：香港电影重要推手，导演徐克灵魂拍档，众好友深情缅怀",
-        "source": "尧耳的娱乐天堂",
-        "summary": "7月13日深夜，香港电影制作公司“电影工作室”发布哀告： 我们最敬爱的施南生女士，自2022年起因免疫系统出现问题，健康状况一直未如理想。",
-        "url": "https://view.inews.qq.com/a/20260714A00II400?scene=news-skill",
-        "heat": 8,
-        "time": "7月14日 0:58"
-      },
-      {
-        "rank": 94,
-        "title": "周星驰导演电影《功夫女足》登顶 2026 年暑期档票房榜",
-        "source": "IT之家",
-        "summary": "IT之家 7 月 13 日消息，据猫眼专业版数据，电影《功夫女足》上映 3 天，总票房（含预售）超 5.6841 亿，登顶 2026 年暑期档票房榜。",
-        "url": "https://view.inews.qq.com/a/20260713A0C1NA00?scene=news-skill",
-        "heat": 8,
-        "time": "7月13日 23:50"
-      },
-      {
-        "rank": 95,
-        "title": "揭秘短剧演员的“新日子”：头部转型综艺，腰部回乡卖菜",
-        "source": "娱乐资本论",
-        "summary": "揭秘短剧演员的“新日子”：头部转型综艺，腰部回乡卖菜。“已经解约了。” 这是最近小娱在各个短剧公司打听之前熟悉的演员名字时，得到的最多的答案。",
-        "url": "https://view.inews.qq.com/a/20260713A0BV7800?scene=news-skill",
-        "heat": 8,
-        "time": "7月13日 23:10"
-      },
-      {
-        "rank": 96,
         "title": "《功夫女足》爆火！暑期档电影又行了？",
         "source": "十块爱吃瓜",
         "summary": "《功夫女足》爆火！暑期档电影又行了？。朋友们，今年的电影圈有点冷。春节档之后，只有一部《给阿嬷的情书》票房口碑双丰收。（十块爱吃瓜报道）",
@@ -4933,7 +4888,7 @@
         "time": "7月13日 20:04"
       },
       {
-        "rank": 97,
+        "rank": 92,
         "title": "“芒乡有情 让爱传递”——2026年百色·田东芒果文化活动月自家人明星公益演唱会温暖唱响",
         "source": "广西卫视",
         "summary": "7月10日晚，田东县草坪集市歌声飞扬、爱心涌动。“芒乡有情 让爱传递”——2026年百色·田东芒果文化活动月自家人明星公益演唱会温情上演。",
@@ -4942,7 +4897,7 @@
         "time": "7月13日 17:12"
       },
       {
-        "rank": 98,
+        "rank": 93,
         "title": "曾主演《侏罗纪公园》的山姆•尼尔78岁去世，曾透露患血液癌，坦言还想再活十年",
         "source": "红星新闻",
         "summary": "新西兰知名演员山姆•尼尔于当地时间13日离世，享年78岁。尼尔出演过多部奥斯卡获奖影片，并因《侏罗纪公园》系列等票房大作广受全球观众喜爱。",
@@ -4951,7 +4906,7 @@
         "time": "7月13日 16:30"
       },
       {
-        "rank": 99,
+        "rank": 94,
         "title": "BW2026闭幕：外国游客远道而来，沉浸式感受中国动漫游戏展会活力",
         "source": "新民晚报",
         "summary": "7月12日，为期三天的2026 BilibiliWorld（BW）在上海国家会展中心落下帷幕。本届展会启用8个展馆，展览总面积达24万平方米。",
@@ -4960,7 +4915,7 @@
         "time": "7月13日 13:47"
       },
       {
-        "rank": 100,
+        "rank": 95,
         "title": "TVB前花旦回港红裙造型获赞，用10天录新歌，巡演12场目标红馆",
         "source": "剧透社娱乐",
         "summary": "41岁的钟嘉欣结婚后长期与丈夫及三个子女生活在加拿大，近年明显减少拍剧，把更多时间留给家庭。不过她没有完全离开娱乐圈，只是把工作重心慢慢转到音乐和演唱会。",
@@ -4969,7 +4924,7 @@
         "time": "7月13日 12:22"
       },
       {
-        "rank": 101,
+        "rank": 96,
         "title": "上海暑假（7-8月）演唱会汇总",
         "source": "上海本地宝",
         "summary": "暑假期间上海超多精彩演唱会来袭 一起来看看有你喜欢的歌手吗～ 温馨提示 本地宝仅整理信息参考，不作售票 文旅局审批仅供参考 以主办方官宣定档为准",
@@ -4978,7 +4933,7 @@
         "time": "7月13日 12:01"
       },
       {
-        "rank": 102,
+        "rank": 97,
         "title": "审批通过！厦门演唱会+2！演唱会最新排期表",
         "source": "厦门本地宝",
         "summary": "各位歌迷朋友注意啦厦门演唱会又有新消息啦！TizzyT、王赫野厦门演唱会审批通过李健演唱会即将开票厦宝带来了厦门演唱会最新排期表来看看有你喜欢的歌手吗？",
@@ -4987,7 +4942,7 @@
         "time": "7月13日 11:52"
       },
       {
-        "rank": 103,
+        "rank": 98,
         "title": "妮可基德曼与“穿普拉达的女王”安娜同框看温网，“波波头”经典造型抢镜",
         "source": "娱乐嗑学家",
         "summary": "当地时间7月12日，2026年温布尔登网球锦标赛男单决赛在全英俱乐部中心球场打响。世界排名第一的卫冕冠军辛纳与二号种子兹维列夫上演巅峰对决。",
@@ -4996,7 +4951,7 @@
         "time": "7月13日 10:17"
       },
       {
-        "rank": 104,
+        "rank": 99,
         "title": "周星驰作品《功夫女足》上映2日票房破5亿，预测总票房超20亿！已打破9项影史纪录！周星驰路演现...",
         "source": "经视直播",
         "summary": "据灯塔专业版实时数据，截至7月12日22时44分，影片《功夫女足》票房突破5亿，总票房预测大幅上调至超20亿，位列2026年度电影票房榜第8！",
@@ -5005,7 +4960,7 @@
         "time": "7月13日 9:18"
       },
       {
-        "rank": 105,
+        "rank": 100,
         "title": "游戏、动漫爱好者狂欢，BW展会拉动上海酒店预订量翻倍增长",
         "source": "南方都市报",
         "summary": "7月12日，泛指二次元）展会BilibiliWorld2026（以下简称 “BW”）于上海国家会展中心结束为期三天的展出。",
@@ -5014,13 +4969,58 @@
         "time": "7月12日 23:49"
       },
       {
-        "rank": 106,
+        "rank": 101,
         "title": "张家界大庸古城焕新 演唱会音乐节接连上演，知名艺人纷纷亮相",
         "source": "封面新闻",
         "summary": "张家界报道 7月12日晚，《大庸青春芒果音乐节》在张家界大庸古城开启，万妮达、盘尼西林、乌兰图雅、邓典等音乐人亮相，与游客共享夏日热辣。",
         "url": "https://view.inews.qq.com/a/20260712A086P500?scene=news-skill",
         "heat": 8,
         "time": "7月12日 19:34"
+      },
+      {
+        "rank": 102,
+        "title": "揭秘短剧演员的“新日子”：头部转型综艺，腰部回乡卖菜",
+        "source": "娱乐资本论",
+        "summary": "揭秘短剧演员的“新日子”：头部转型综艺，腰部回乡卖菜。“已经解约了。” 这是最近小娱在各个短剧公司打听之前熟悉的演员名字时，得到的最多的答案。",
+        "url": "https://view.inews.qq.com/a/20260713A0BV7800?scene=news-skill",
+        "heat": 8,
+        "time": "7月13日 23:10"
+      },
+      {
+        "rank": 103,
+        "title": "电影《功夫女足》票房破8亿，领跑2026暑期档票房榜",
+        "source": "极目新闻",
+        "summary": "据灯塔专业版实时数据，截至7月15日16时23分，影片《功夫女足》票房突破8亿元。据灯塔专业版，截至7月15日，持续领跑2026暑期档票房榜。",
+        "url": "https://view.inews.qq.com/a/20260715A0AE0J00?scene=news-skill",
+        "heat": 8,
+        "time": "7月15日 19:09"
+      },
+      {
+        "rank": 104,
+        "title": "潮评丨动画电影屡屡出圈，真人电影该反思",
+        "source": "潮新闻",
+        "summary": "潮新闻客户端 评论员 王彬 图源：电影《八仙！》官博 截至目前，今年暑期档口碑最亮眼的，是《三国第一部：争洛阳》《八仙！",
+        "url": "https://view.inews.qq.com/a/20260714A0704400?scene=news-skill",
+        "heat": 8,
+        "time": "7月14日 14:52"
+      },
+      {
+        "rank": 105,
+        "title": "施南生离世：香港电影重要推手，导演徐克灵魂拍档，众好友深情缅怀",
+        "source": "尧耳的娱乐天堂",
+        "summary": "7月13日深夜，香港电影制作公司“电影工作室”发布哀告： 我们最敬爱的施南生女士，自2022年起因免疫系统出现问题，健康状况一直未如理想。",
+        "url": "https://view.inews.qq.com/a/20260714A00II400?scene=news-skill",
+        "heat": 8,
+        "time": "7月14日 0:58"
+      },
+      {
+        "rank": 106,
+        "title": "周星驰导演电影《功夫女足》登顶 2026 年暑期档票房榜",
+        "source": "IT之家",
+        "summary": "IT之家 7 月 13 日消息，据猫眼专业版数据，电影《功夫女足》上映 3 天，总票房（含预售）超 5.6841 亿，登顶 2026 年暑期档票房榜。",
+        "url": "https://view.inews.qq.com/a/20260713A0C1NA00?scene=news-skill",
+        "heat": 8,
+        "time": "7月13日 23:50"
       },
       {
         "rank": 107,
@@ -5042,33 +5042,6 @@
       },
       {
         "rank": 109,
-        "title": "喜剧探案动画电影《大唐妖探》释出“限时解谜”版预告 8月8日上映",
-        "source": "新黄河",
-        "summary": "喜剧探案动画电影《大唐妖探》释出“限时解谜”版预告。离奇案件突发，大理寺实习捕快狼妖阿萨被冤枉成罪犯，幸好有天才侦探狄少提供帮助。",
-        "url": "https://view.inews.qq.com/a/20260715A0AY2F00?scene=news-skill",
-        "heat": 7,
-        "time": "7月15日 20:04"
-      },
-      {
-        "rank": 110,
-        "title": "赵本山彻底退出演艺工作，沈腾能接棒新一代喜剧王者吗？",
-        "source": "窥娱",
-        "summary": "赵本山的女儿球球在最近的一次直播中表示，赵本山已经彻底退出了演艺事业，进入到处遛弯阶段。7月13日，透露赵本山目前已彻底退出演艺工作。",
-        "url": "https://view.inews.qq.com/a/20260715A04AZG00?scene=news-skill",
-        "heat": 7,
-        "time": "7月15日 19:50"
-      },
-      {
-        "rank": 111,
-        "title": "影迷大喊欠周星驰一张电影票，周星驰现场回应：有没有搞错啊？《功夫女足》票房破8亿元，预测票房已...",
-        "source": "每日经济新闻",
-        "summary": "据灯塔专业版实时数据，截至7月15日16时23分，影片《功夫女足》票房突破8亿元。另据猫眼专业版，《功夫女足》最新预测总票房已超30亿元。",
-        "url": "https://view.inews.qq.com/a/20260715A0ALBV00?scene=news-skill",
-        "heat": 7,
-        "time": "7月15日 19:28"
-      },
-      {
-        "rank": 112,
         "title": "片尾有南京“彩蛋”，电影《八仙！》主创来宁畅聊“凡人八仙”",
         "source": "扬眼",
         "summary": "近日，东方梦工厂总裁、电影《八仙！》总监制应旭珺、导演兼编剧牟正洋、制片人曹林林携影片亮相南京站路演。",
@@ -5077,7 +5050,7 @@
         "time": "7月16日 11:38"
       },
       {
-        "rank": 113,
+        "rank": 110,
         "title": "审批定档！成都多场演唱会上新啦！",
         "source": "成都本地宝",
         "summary": "最新消息 成都多场演唱会官宣定档 罗云熙、王赫野、李荣浩、温岚等 另外张韶涵开票时间定了 快看有你想去的吗？",
@@ -5086,7 +5059,7 @@
         "time": "7月15日 20:59"
       },
       {
-        "rank": 114,
+        "rank": 111,
         "title": "暑期档只需要一种电影",
         "source": "方君荐电影",
         "summary": "（本文回答提问：“如何看待喜剧动画电影《八仙！》提档到 2026 年 7 月 18 日上映，票房能否赶超周星驰新电影？",
@@ -5095,7 +5068,7 @@
         "time": "7月15日 18:39"
       },
       {
-        "rank": 115,
+        "rank": 112,
         "title": "南京八大匹克球场地，总有一片让你“挥拍上瘾”",
         "source": "看法视频",
         "summary": "暑假到了，空调房待腻了吧？别急着回答“是”，先想想——上次出汗是什么时候？上次和朋友笑到肚子疼是什么时候？",
@@ -5104,7 +5077,7 @@
         "time": "7月15日 13:05"
       },
       {
-        "rank": 116,
+        "rank": 113,
         "title": "麦当娜，撑不起一部音乐传记片？",
         "source": "音乐先声",
         "summary": "麦当娜的传记片，终于还是黄了。刚发新专辑的传奇天后麦当娜确认，其亲自编剧、执导、选角的个人传记电影项目正式终止。",
@@ -5113,7 +5086,7 @@
         "time": "7月14日 22:45"
       },
       {
-        "rank": 117,
+        "rank": 114,
         "title": "施南生走后，香港电影再无「女频顶流」？",
         "source": "四味毒叔",
         "summary": "有了施南生，新艺城、徐克乃至香港电影人才知道“到人民群众中找好故事”的重要性。以及——“这事，你一个人说了不算。",
@@ -5122,7 +5095,7 @@
         "time": "7月14日 19:43"
       },
       {
-        "rank": 118,
+        "rank": 115,
         "title": "周星驰在回血，可《功夫女足》不是一部“好电影”",
         "source": "邑人电影院",
         "summary": "2002年，日韩世界杯是中国队唯一打进决赛圈的一次经历。决赛圈中的表现没啥好说的，0分0进球3连败结束了世界杯之旅。",
@@ -5131,7 +5104,7 @@
         "time": "7月14日 11:19"
       },
       {
-        "rank": 119,
+        "rank": 116,
         "title": "央视将播！55集历史大剧来了！于和伟、王劲松领衔，这剧不爆都难",
         "source": "草本纪年",
         "summary": "这一段时间，影视圈最火的，讨论度最高的，无疑是星爷的新电影——《功夫女足》。就目前看来，25亿票房，问题应该不大。",
@@ -5140,13 +5113,40 @@
         "time": "7月13日 19:18"
       },
       {
-        "rank": 120,
+        "rank": 117,
         "title": "带孩子看周星驰，不是笑笑就完了！他每一部电影都在教这件事！",
         "source": "哈喽王叔",
         "summary": "昨天，《功夫女足》上映了。还没来得及看，但我想写写这个话题。首先，我是为数不多不欠周星驰电影票的人。",
         "url": "https://view.inews.qq.com/a/20260713A03BFR00?scene=news-skill",
         "heat": 7,
         "time": "7月13日 9:49"
+      },
+      {
+        "rank": 118,
+        "title": "喜剧探案动画电影《大唐妖探》释出“限时解谜”版预告 8月8日上映",
+        "source": "新黄河",
+        "summary": "喜剧探案动画电影《大唐妖探》释出“限时解谜”版预告。离奇案件突发，大理寺实习捕快狼妖阿萨被冤枉成罪犯，幸好有天才侦探狄少提供帮助。",
+        "url": "https://view.inews.qq.com/a/20260715A0AY2F00?scene=news-skill",
+        "heat": 7,
+        "time": "7月15日 20:04"
+      },
+      {
+        "rank": 119,
+        "title": "赵本山彻底退出演艺工作，沈腾能接棒新一代喜剧王者吗？",
+        "source": "窥娱",
+        "summary": "赵本山的女儿球球在最近的一次直播中表示，赵本山已经彻底退出了演艺事业，进入到处遛弯阶段。7月13日，透露赵本山目前已彻底退出演艺工作。",
+        "url": "https://view.inews.qq.com/a/20260715A04AZG00?scene=news-skill",
+        "heat": 7,
+        "time": "7月15日 19:50"
+      },
+      {
+        "rank": 120,
+        "title": "影迷大喊欠周星驰一张电影票，周星驰现场回应：有没有搞错啊？《功夫女足》票房破8亿元，预测票房已...",
+        "source": "每日经济新闻",
+        "summary": "据灯塔专业版实时数据，截至7月15日16时23分，影片《功夫女足》票房突破8亿元。另据猫眼专业版，《功夫女足》最新预测总票房已超30亿元。",
+        "url": "https://view.inews.qq.com/a/20260715A0ALBV00?scene=news-skill",
+        "heat": 7,
+        "time": "7月15日 19:28"
       },
       {
         "rank": 121,
@@ -5186,15 +5186,6 @@
       },
       {
         "rank": 125,
-        "title": "Viggle 推出自研文本转动作模型",
-        "source": "X：Viggle AI (@ViggleAI)",
-        "summary": "介绍我们内部自研的全新文本转动作模型，现已上线 @Viggle_PINOC！输入动作描述，即可生成动画，该技术进展正在推动人工智能行业加速发展。",
-        "url": "https://x.com/ViggleAI/status/2077782898732650576",
-        "heat": 6,
-        "time": "7月16日 23:50"
-      },
-      {
-        "rank": 126,
         "title": "“刘姥姥”沙玉华去世",
         "source": "北京日报客户端",
         "summary": "7月15日凌晨，一级演员、87版电视剧《红楼梦》中刘姥姥扮演者沙玉华在北京去世，享年95岁。沙玉华在87版《红楼梦》中饰演刘姥姥。",
@@ -5203,7 +5194,7 @@
         "time": "7月16日 17:04"
       },
       {
-        "rank": 127,
+        "rank": 126,
         "title": "昔日奥斯卡女神佩吉“变身”后亮相！罕见携女友走红毯十指紧扣显默契",
         "source": "爱德华Action",
         "summary": "7月15日，由克里斯托弗·诺兰执导的史诗巨制《奥德赛》（The Odyssey）在纽约举办了盛大的首映礼。除主创团队外，现场更是星光璀璨。",
@@ -5212,7 +5203,7 @@
         "time": "7月16日 16:35"
       },
       {
-        "rank": 128,
+        "rank": 127,
         "title": "电影《功夫女足》刚上映就遭遇严重盗摄！直播盗摄超50分钟、“枪版”资源公然售卖低至0.8元……法律怎么看？",
         "source": "法治日报",
         "summary": "由周星驰执导的新片《功夫女足》上映第四天累计票房就突破了7亿元，势头强劲。高热度背后，《功夫女足》却遭遇了严重的院线盗摄。",
@@ -5221,13 +5212,22 @@
         "time": "7月15日 15:17"
       },
       {
-        "rank": 129,
+        "rank": 128,
         "title": "这节目遇到张雅琪，也算是遇到综艺之神了",
         "source": "星宿影视鸭",
         "summary": "文案|冻冻 编辑|潇声 《中餐厅10》正在热播，其实这一季节目看点挺少的。除了王俊凯这个流量大咖之外，其他嘉宾都没什么话题度。",
         "url": "https://view.inews.qq.com/a/20260714A04FFE00?scene=news-skill",
         "heat": 6,
         "time": "7月14日 11:27"
+      },
+      {
+        "rank": 129,
+        "title": "Viggle 推出自研文本转动作模型",
+        "source": "X：Viggle AI (@ViggleAI)",
+        "summary": "介绍我们内部自研的全新文本转动作模型，现已上线 @Viggle_PINOC！输入动作描述，即可生成动画，该技术进展正在推动人工智能行业加速发展。",
+        "url": "https://x.com/ViggleAI/status/2077782898732650576",
+        "heat": 6,
+        "time": "7月16日 23:50"
       },
       {
         "rank": 130,
@@ -5278,15 +5278,6 @@
       },
       {
         "rank": 5,
-        "title": "公募基金经理“去明星化”提速",
-        "source": "央广网",
-        "summary": "在公募基金行业高质量发展背景下，越来越多的公募机构专注于“造体系”。过去较长时间内，明星基金经理是公募基金规模增长的重要抓手，而随着市场风格切换、产品规模上升以及投资者结构变化，过度依赖单一基金经理的风险也逐渐显现。",
-        "url": "https://view.inews.qq.com/a/20260712A039MK00?scene=news-skill",
-        "heat": 10,
-        "time": "7月12日 9:44"
-      },
-      {
-        "rank": 6,
         "title": "经济热点快评丨防诈提示！别让AI荐股骗了你",
         "source": "人民日报",
         "summary": "AI换脸仿冒明星分析师、高仿APP复刻正规交易界面、语音克隆冒充持牌机构客服——日前证券时报调查曝光了一条深度应用AI技术的荐股诈骗链条，30余证券公司被仿冒，单家机构年接假冒线索超1900条，涉案金额高达数千万元。",
@@ -5295,7 +5286,7 @@
         "time": "7月12日 15:04"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "上半年我国人民币贷款增加10.72万亿元",
         "source": "新华社新闻",
         "summary": "北京7月15日电（记者吴雨、任军）中国人民银行7月15日发布的金融统计数据显示，上半年我国人民币贷款增加10.72万亿元，金融支持实体经济力度稳固。数据显示，6月末，人民币贷款余额282.63万亿元，同比增长5.2%。",
@@ -5304,7 +5295,7 @@
         "time": "7月15日 16:39"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "title": "二季度GDP增长4.3%，怎么看？",
         "source": "人民日报",
         "summary": "一季度GDP同比增长5.0%，二季度增长4.3%，上半年增长4.7%……——刚刚发布的半年报中，二季度的经济表现颇为引人关注。二季度增长4.3%，增速比一季度有所回落，这个问题怎么看？",
@@ -5313,7 +5304,7 @@
         "time": "7月15日 14:59"
       },
       {
-        "rank": 9,
+        "rank": 8,
         "title": "中国官方谈二季度GDP增速波动：经济运行基本面未变",
         "source": "中国新闻网",
         "summary": "中新社北京7月15日电 (记者 陈溯)中国国家统计局副局长毛盛勇15日在北京表示，二季度中国经济增速4.3%，和一季度比回落0.7个百分点，但经济运行的基本面没有变。他在当天的国新办新闻发布会上说，二季度中国经济增速比一季度回落主要是受一些短期因素和一些外部影响导致的。",
@@ -5322,7 +5313,7 @@
         "time": "7月15日 14:14"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "title": "瞭望 | 前探太空能源革命",
         "source": "新华社新闻",
         "summary": "太空能源正成为大国太空战略布局重要组成部分，也是大国争夺未来人工智能算力竞争主动权的重要基础设施。各国纷纷出台专项战略、加大研发投入、推动技术突破 作为新兴领域，太空能源和算力协同布局仍面临技术、经济与系统工程层面的多重挑战。",
@@ -5331,7 +5322,7 @@
         "time": "7月13日 16:55"
       },
       {
-        "rank": 11,
+        "rank": 10,
         "title": "个人养老金基金二季度扩容至321只",
         "source": "环球网",
         "summary": "日前，中国证监会披露了最新《个人养老金基金名录》。截至2026年二季度末，被纳入全国个人养老金投资范围的产品总数达到321只，较一季度末净增13只，其中新增14只、退出1只。",
@@ -5340,22 +5331,31 @@
         "time": "7月16日 11:02"
       },
       {
-        "rank": 12,
-        "title": "美联储内部激辩“加息可能性”",
-        "source": "参考消息",
-        "summary": "参考消息网7月12日报道 据法新社7月8日报道，在沃什领导下的美联储，有官员不排除最早于6月加息的可能性。根据8日公布的美联储会议纪要，在6月的最近一次会议上，有少数美国央行官员曾考虑立即加息。",
-        "url": "https://view.inews.qq.com/a/20260712A03UEM00?scene=news-skill",
-        "heat": 10,
-        "time": "7月12日 10:56"
-      },
-      {
-        "rank": 13,
+        "rank": 11,
         "title": "国际观察｜韩国股市极端行情折射“情绪化”投资风险",
         "source": "新华社新闻",
         "summary": "首尔7月15日电 题：韩国股市极端行情折射“情绪化”投资风险 新华社记者张粲 韩国综合股价指数（KOSPI）15日开盘涨幅迅速扩大至7%，因KOSPI200指数期货剧烈波动，韩国证券交易所启动“临时停牌”措施。今年以来，韩国证券交易所已36次启动“临时停牌”措施，更因KOSPI暴跌7次触发熔断机制。",
         "url": "https://view.inews.qq.com/a/20260715A04NMI00?scene=news-skill",
         "heat": 10,
         "time": "7月15日 11:19"
+      },
+      {
+        "rank": 12,
+        "title": "公募基金经理“去明星化”提速",
+        "source": "央广网",
+        "summary": "在公募基金行业高质量发展背景下，越来越多的公募机构专注于“造体系”。过去较长时间内，明星基金经理是公募基金规模增长的重要抓手，而随着市场风格切换、产品规模上升以及投资者结构变化，过度依赖单一基金经理的风险也逐渐显现。",
+        "url": "https://view.inews.qq.com/a/20260712A039MK00?scene=news-skill",
+        "heat": 10,
+        "time": "7月12日 9:44"
+      },
+      {
+        "rank": 13,
+        "title": "美联储内部激辩“加息可能性”",
+        "source": "参考消息",
+        "summary": "参考消息网7月12日报道 据法新社7月8日报道，在沃什领导下的美联储，有官员不排除最早于6月加息的可能性。根据8日公布的美联储会议纪要，在6月的最近一次会议上，有少数美国央行官员曾考虑立即加息。",
+        "url": "https://view.inews.qq.com/a/20260712A03UEM00?scene=news-skill",
+        "heat": 10,
+        "time": "7月12日 10:56"
       },
       {
         "rank": 14,
@@ -5413,15 +5413,6 @@
       },
       {
         "rank": 20,
-        "title": "致命陷阱！业绩暴增1810%，却换来股价暴跌！光伏踩过的坑，AI能否避开？",
-        "source": "央广网",
-        "summary": "盈利泡沫并非新鲜事物，2008年金融危机前夕，银行与地产的市盈率看似合理，实则被不可持续的利润暴涨所掩盖。2020—2021年的疫情受益股也出现过相同特征。",
-        "url": "https://view.inews.qq.com/a/20260712A034B800?scene=news-skill",
-        "heat": 10,
-        "time": "7月12日 9:19"
-      },
-      {
-        "rank": 21,
         "title": "西藏阿里地区“十五五”时期将构建高原现代化产业体系",
         "source": "中国新闻网",
         "summary": "中新网拉萨7月16日电 (李林)16日，西藏阿里地区“十四五”经济社会发展成就、谋划“十五五”新开局新闻发布会在拉萨召开。",
@@ -5430,7 +5421,7 @@
         "time": "7月16日 17:22"
       },
       {
-        "rank": 22,
+        "rank": 21,
         "title": "6组数据速览金融持续支持经济向新向优发展",
         "source": "人民网",
         "summary": "编者按：金融“五篇大文章”领域新增贷款占比升至70%以上，6月末普惠小微贷款余额同比增长8.3%……7月15日，为经济高质量发展注入强劲动能。",
@@ -5439,7 +5430,7 @@
         "time": "7月16日 10:46"
       },
       {
-        "rank": 23,
+        "rank": 22,
         "title": "（经济观察）年中盘点：中国经济“半年报”释三重积极信号",
         "source": "中国新闻网",
         "summary": "中新社北京7月15日电 (记者 尹倩芸)中国经济“半年报”15日出炉。面对复杂局面，中国经济顶住压力运行在合理区间，延续平稳发展态势。",
@@ -5448,7 +5439,7 @@
         "time": "7月15日 16:56"
       },
       {
-        "rank": 24,
+        "rank": 23,
         "title": "纽约股市三大股指13日显著下跌",
         "source": "新华社新闻",
         "summary": "纽约7月13日电 纽约股市三大股指13日显著下跌。截至当天收盘，道琼斯工业平均指数比前一交易日下跌138.37点，收于52498.64点，跌幅为0.26%；",
@@ -5457,7 +5448,7 @@
         "time": "7月14日 4:26"
       },
       {
-        "rank": 25,
+        "rank": 24,
         "title": "存款搬家催热券商新客理财",
         "source": "环球网",
         "summary": "存款利率跌破1%之际，券商新客理财的高收益显得尤为吸睛。近期，多家券商通过贴息产品大力揽客，社交平台上各类“薅羊毛”攻略也层出不穷。",
@@ -5466,7 +5457,7 @@
         "time": "7月14日 11:42"
       },
       {
-        "rank": 26,
+        "rank": 25,
         "title": "中国经济“半年报”发布，释放明确信号！",
         "source": "中国新闻网",
         "summary": "文/段修健 7月15日，同比增长4.7%。今年以来，经济运行中有哪些新动向、新变化，面临哪些新挑战？",
@@ -5475,13 +5466,22 @@
         "time": "7月16日 9:51"
       },
       {
-        "rank": 27,
+        "rank": 26,
         "title": "“猴行情”来了！CRO板块全线爆发，百亿基金经理提前布局",
         "source": "环球网",
         "summary": "日前，CRO板块迎来爆发，万得CRO指数近一周累计涨幅达15.93%。7月15日，实验猴价格一年接近翻倍。",
         "url": "https://view.inews.qq.com/a/20260716A07LPF00?scene=news-skill",
         "heat": 10,
         "time": "7月16日 15:42"
+      },
+      {
+        "rank": 27,
+        "title": "致命陷阱！业绩暴增1810%，却换来股价暴跌！光伏踩过的坑，AI能否避开？",
+        "source": "央广网",
+        "summary": "盈利泡沫并非新鲜事物，2008年金融危机前夕，银行与地产的市盈率看似合理，实则被不可持续的利润暴涨所掩盖。2020—2021年的疫情受益股也出现过相同特征。",
+        "url": "https://view.inews.qq.com/a/20260712A034B800?scene=news-skill",
+        "heat": 10,
+        "time": "7月12日 9:19"
       },
       {
         "rank": 28,
@@ -5856,15 +5856,6 @@
       },
       {
         "rank": 69,
-        "title": "风投用Zoom改名抗议AI笔记应用泛滥",
-        "source": "TechCrunch：AI（RSS）",
-        "summary": "风险投资人Jeremy Levine将Zoom昵称改为\"我不同意转录或录音\"，以抗议AI笔记应用日益泛滥。另一位投资人Eric Bahn表示，现在与创始人开会时默认对方会录音。",
-        "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me",
-        "heat": 10,
-        "time": "7月18日 5:20"
-      },
-      {
-        "rank": 70,
         "title": "中国电车，英国爆火",
         "source": "第一财经",
         "summary": "“学中国话、开中国车，是我的日常生活。” 近日，在古德伍德速度节上，一名英国本土的参展商人士Matteo对记者表示，他一年前购置了一辆比亚迪品牌的新能源汽车，也是自那时候，他开始练习普通话。",
@@ -5873,7 +5864,7 @@
         "time": "7月14日 17:13"
       },
       {
-        "rank": 71,
+        "rank": 70,
         "title": "新增光伏装机阶段性大幅回落，隆基绿能上半年最高预亏38亿元，公司股价年内跌幅超35%",
         "source": "读创",
         "summary": "7月14日晚间，隆基绿能（601012）发布2026年半年度业绩预告，预计2026年半年度约亏损34亿元至38亿元，上年同期亏损25.69亿元；预计扣非后约亏损37亿元至42亿元，上年同期亏损33",
@@ -5882,7 +5873,7 @@
         "time": "7月15日 10:58"
       },
       {
-        "rank": 72,
+        "rank": 71,
         "title": "美联储加息或推迟，港股三大指数集体高开，恒生生物科技涨超2%",
         "source": "每日经济新闻",
         "summary": "赵云美国6月新增非农就业大幅低于预期，CPI数据低于预期，美联储加息或推迟。7月15日早盘，港股三大指数集体高开，金融、医药等板块表现活跃，恒生生物科技指数一度涨超2%。",
@@ -5891,7 +5882,7 @@
         "time": "7月15日 9:43"
       },
       {
-        "rank": 73,
+        "rank": 72,
         "title": "柔性钙钛矿效率突破33.44%，光伏新技术迈向产业化｜新能源早参",
         "source": "每日经济新闻",
         "summary": "肖芮冬截至7月14日收盘，市场探底回升，三大指数集体收涨。新能源ETF（516270）上涨1.19%，光伏ETF（159618）上涨0.75%，创业板50ETF（159949）上涨3.84%。",
@@ -5900,7 +5891,7 @@
         "time": "7月15日 9:38"
       },
       {
-        "rank": 74,
+        "rank": 73,
         "title": "男裤不好卖了？九牧王上半年归母净利润预降超七成 股价年内跌超34%",
         "source": "读创",
         "summary": "7月14日盘后，九牧王（601566）发布公告称，经财务部门初步测算，预计公司2026年半年度实现归属于上市公司股东的净利润3000万元至4500万元，较上年同期下降74%至83%；预计实现归属于上",
@@ -5909,7 +5900,7 @@
         "time": "7月14日 16:43"
       },
       {
-        "rank": 75,
+        "rank": 74,
         "title": "TCL科技显示业务超预期，光伏板块迎来减亏拐点",
         "source": "九派财经",
         "summary": "TCL科技近日发布2026年半年度业绩预告，预计归母净利润同比大幅增长，业绩中枢显著高于市场预期。第一财经“壹评级”认为，公司业绩高增的核心驱动力源于半导体显示业务盈利的超预期释放，以及新能源光伏业务亏损持续收窄，主业盈利质量显著提升。",
@@ -5918,7 +5909,7 @@
         "time": "7月14日 10:57"
       },
       {
-        "rank": 76,
+        "rank": 75,
         "title": "美联储7月维持利率不变的概率为58.3%",
         "source": "每日经济新闻",
         "summary": "7月14日，累计加息25个基点的概率为41.7%。美联储到9月维持利率不变的概率为24.9%，累计加息25个基点的概率为51.2%，累计加息50个基点的概率为23.9%。",
@@ -5927,34 +5918,16 @@
         "time": "7月14日 6:28"
       },
       {
-        "rank": 77,
-        "title": "首家GPU金融商转向推理芯片：General Compute获4亿美元贷款，以SN50芯片为抵押",
+        "rank": 76,
+        "title": "风投用Zoom改名抗议AI笔记应用泛滥",
         "source": "TechCrunch：AI（RSS）",
-        "summary": "AI推理云初创公司General Compute从科技投资公司Upper90获得4亿美元贷款，可能是首笔以推理专用芯片为抵押的交易。其SN50芯片专为推理设计，功耗低且无需水冷，宣称推理速度比基于GPU的云服务快16倍。",
-        "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal",
+        "summary": "风险投资人Jeremy Levine将Zoom昵称改为\"我不同意转录或录音\"，以抗议AI笔记应用日益泛滥。另一位投资人Eric Bahn表示，现在与创始人开会时默认对方会录音。",
+        "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me",
         "heat": 10,
-        "time": "7月17日 20:00"
+        "time": "7月18日 5:20"
       },
       {
-        "rank": 78,
-        "title": "开润股份公告透露 DeepSeek 最新估值 3250 亿至 3500 亿元",
-        "source": "IT之家（RSS）",
-        "summary": "开润股份公告显示，其通过砺思星灵间接投资 DeepSeek 公司主体深度求索 4000 万元，穿透持股比例为 0.0114%。据此推算，DeepSeek 最新估值在 3250 亿元至 3500 亿元区间。",
-        "url": "https://www.ithome.com/0/978/336.htm",
-        "heat": 10,
-        "time": "7月18日 7:27"
-      },
-      {
-        "rank": 79,
-        "title": "DeepSeek 最新估值曝光，在 3250 亿元至 3500 亿元区间",
-        "source": "IT之家（RSS）",
-        "summary": "开润股份与汤臣倍健披露的间接投资信息显示，DeepSeek 最新估值在 3250 亿元至 3500 亿元区间。此前《金融时报》报道，DeepSeek 于今年 5 月末完成首轮外部融资，筹集约 70 亿美元，投后估值达 520 亿美元（约 3525.78 亿元人民币）。",
-        "url": "https://www.ithome.com/0/977/882.htm",
-        "heat": 10,
-        "time": "7月17日 9:53"
-      },
-      {
-        "rank": 80,
+        "rank": 77,
         "title": "前纽约联储首席：今年大概率不会加息，美政策正推高主权黄金需求！",
         "source": "财联社",
         "summary": "财联社7月16日讯（编辑 黄君芝）法国外贸银行（Natixis）美国首席经济学家Christopher Hodge最新指出，通胀将是美联储在2026年剩余时间里的主要关注点，但这并不意味着要加息，更有可能的情况是继续按兵不动。与此同时，美国采取的各种制裁和贸易政策将继续刺激主权国家对黄金的需求。",
@@ -5963,7 +5936,7 @@
         "time": "7月16日 16:23"
       },
       {
-        "rank": 81,
+        "rank": 78,
         "title": "实验猴价格大幅走高，均价突破20万元较去年底涨超四成",
         "source": "每日经济新闻",
         "summary": "肖芮冬截至11:06，市场震荡分化，聚焦A股创新药的生物医药ETF（159508）上涨0.24%，关注港股创新药的港股通生物科技ETF（159102）上涨0.64%，覆盖医药全产业链的医药ETF（512120）上涨0.21%。",
@@ -5972,7 +5945,7 @@
         "time": "7月16日 11:33"
       },
       {
-        "rank": 82,
+        "rank": 79,
         "title": "佰维存储半年净利润预增超3200%，AI存储高景气驱动业绩大增",
         "source": "每日经济新闻",
         "summary": "肖芮冬截至11:18，市场震荡反弹，聚焦港股半导体、支持T+0交易的港股通信息技术ETF（513240）上涨0.95%，科创芯片ETF（588290）下跌0.68%，科创50ETF（588280）近5日资金净流入率10.25%。成分股方面，佰维存储上涨1.52%，盛科通信领涨9.67%，艾为电...",
@@ -5981,13 +5954,40 @@
         "time": "7月16日 11:23"
       },
       {
-        "rank": 83,
+        "rank": 80,
         "title": "金银突然直线拉升，美重磅数据公布，美联储主席发声：对持续高通胀“零容忍”！存储芯片大涨，IBM暴跌24%｜美股开盘",
         "source": "每日经济新闻",
         "summary": "杜宇 记者|杜宇 编辑|程鹏 杜恒峰 校对|张锦河 7月14日，纳斯达克综合指数涨0.49%。截至发稿，道指涨0.01%，纳指涨0.6%，标普500指数涨0.29%。",
         "url": "https://view.inews.qq.com/a/20260714A0BTJ200?scene=news-skill",
         "heat": 10,
         "time": "7月14日 21:58"
+      },
+      {
+        "rank": 81,
+        "title": "首家GPU金融商转向推理芯片：General Compute获4亿美元贷款，以SN50芯片为抵押",
+        "source": "TechCrunch：AI（RSS）",
+        "summary": "AI推理云初创公司General Compute从科技投资公司Upper90获得4亿美元贷款，可能是首笔以推理专用芯片为抵押的交易。其SN50芯片专为推理设计，功耗低且无需水冷，宣称推理速度比基于GPU的云服务快16倍。",
+        "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal",
+        "heat": 10,
+        "time": "7月17日 20:00"
+      },
+      {
+        "rank": 82,
+        "title": "开润股份公告透露 DeepSeek 最新估值 3250 亿至 3500 亿元",
+        "source": "IT之家（RSS）",
+        "summary": "开润股份公告显示，其通过砺思星灵间接投资 DeepSeek 公司主体深度求索 4000 万元，穿透持股比例为 0.0114%。据此推算，DeepSeek 最新估值在 3250 亿元至 3500 亿元区间。",
+        "url": "https://www.ithome.com/0/978/336.htm",
+        "heat": 10,
+        "time": "7月18日 7:27"
+      },
+      {
+        "rank": 83,
+        "title": "DeepSeek 最新估值曝光，在 3250 亿元至 3500 亿元区间",
+        "source": "IT之家（RSS）",
+        "summary": "开润股份与汤臣倍健披露的间接投资信息显示，DeepSeek 最新估值在 3250 亿元至 3500 亿元区间。此前《金融时报》报道，DeepSeek 于今年 5 月末完成首轮外部融资，筹集约 70 亿美元，投后估值达 520 亿美元（约 3525.78 亿元人民币）。",
+        "url": "https://www.ithome.com/0/977/882.htm",
+        "heat": 10,
+        "time": "7月17日 9:53"
       },
       {
         "rank": 84,
@@ -6405,42 +6405,6 @@
       },
       {
         "rank": 130,
-        "title": "财报季、沃什和美国通胀--美联储和市场将走向何方？下周“初见端倪”！",
-        "source": "华尔街见闻",
-        "summary": "美联储新任主席沃什即将首次出席国会听证，恰逢美国6月通胀数据密集发布，两者交织之下，市场对7月加息前景的押注将面临一次集中检验。下周二，沃什听证会将在众议院金融服务委员会举行，届时6月美国CPI数据将在当天先行发布。",
-        "url": "https://view.inews.qq.com/a/20260712A0391200?scene=news-skill",
-        "heat": 10,
-        "time": "7月12日 9:42"
-      },
-      {
-        "rank": 131,
-        "title": "微软和 Meta 对 CoreWeave 与 Nebius 的 1222 亿美元承诺额剖析",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "summary": "微软和 Meta 对 CoreWeave 与 Nebius 等 neocloud 的总承诺额高达 1222 亿美元，约占 AWS 过去十二个月营收的 90%。CoreWeave 2026 财年预计营收 126 亿美元，Nebius 为 34 亿美元，承诺额远超当前销售额。",
-        "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
-        "heat": 10,
-        "time": "7月12日 6:07"
-      },
-      {
-        "rank": 132,
-        "title": "全球市场步入“动荡之夏”：警惕美联储变局、日元危机和财报季大考",
-        "source": "华尔街见闻",
-        "summary": "表面风平浪静的全球金融市场，正在积累一场风暴的能量。State Street Investment Management首席执行官Yie-Hsin Hung本周对英国《金融时报》表示，新任美联储。",
-        "url": "https://view.inews.qq.com/a/20260711A09M2W00?scene=news-skill",
-        "heat": 10,
-        "time": "7月11日 19:52"
-      },
-      {
-        "rank": 133,
-        "title": "9个交易日跌掉1600亿市值，A股存储芯片龙头兆易创新怎么了？",
-        "source": "观察者网",
-        "summary": "(文/孙梅欣 编辑/吕栋）上半年业绩出现10倍预增的“存储设计一哥”兆易创新，股价却出现大跌。兆易创新在7月9日晚间发布的半年预增公告显示，今年上半年公司归母净利润预计为69亿元，同比增幅达到1099%，相当于上涨了10倍，业绩增幅惊人。",
-        "url": "https://view.inews.qq.com/a/20260711A076JH00?scene=news-skill",
-        "heat": 10,
-        "time": "7月11日 16:09"
-      },
-      {
-        "rank": 134,
         "title": "下周重磅日程：中国GDP、美国CPI数据将发布，台积电财报也来了",
         "source": "华尔街见闻",
         "summary": "07月12日 - 07月20日当周重磅财经事件一览，以下均为北京时间：下周重点关注：宏观数据方面与央行政策方面，美国6月CPI、PPI接连出炉，美联储主席沃什将首次赴国会就货币政策作证，美联储经济褐皮书亦同步发布，市场将从中研判利率走向。",
@@ -6449,7 +6413,52 @@
         "time": "7月12日 16:26"
       },
       {
+        "rank": 131,
+        "title": "开源模型降低token价格或拖慢AGI进程",
+        "source": "X：Nathan Lambert (@natolambert)",
+        "summary": "Nathan Lambert 认同\"开源权重模型可能延缓AGI\"的逻辑链：开源模型压低可接受的token价格，导致利润率下降，进而减少大实验室的投资与收入，最终拖慢研究进度。他认为美国在投资上仍可能领先，因此开源模型+美国领导力+更多理解AI的时间，对各方都是胜利。",
+        "url": "https://x.com/natolambert/status/2078611093988233639",
+        "heat": 10,
+        "time": "7月19日 6:41"
+      },
+      {
+        "rank": 132,
+        "title": "财报季、沃什和美国通胀--美联储和市场将走向何方？下周“初见端倪”！",
+        "source": "华尔街见闻",
+        "summary": "美联储新任主席沃什即将首次出席国会听证，恰逢美国6月通胀数据密集发布，两者交织之下，市场对7月加息前景的押注将面临一次集中检验。下周二，沃什听证会将在众议院金融服务委员会举行，届时6月美国CPI数据将在当天先行发布。",
+        "url": "https://view.inews.qq.com/a/20260712A0391200?scene=news-skill",
+        "heat": 10,
+        "time": "7月12日 9:42"
+      },
+      {
+        "rank": 133,
+        "title": "微软和 Meta 对 CoreWeave 与 Nebius 的 1222 亿美元承诺额剖析",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "summary": "微软和 Meta 对 CoreWeave 与 Nebius 等 neocloud 的总承诺额高达 1222 亿美元，约占 AWS 过去十二个月营收的 90%。CoreWeave 2026 财年预计营收 126 亿美元，Nebius 为 34 亿美元，承诺额远超当前销售额。",
+        "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+        "heat": 10,
+        "time": "7月12日 6:07"
+      },
+      {
+        "rank": 134,
+        "title": "全球市场步入“动荡之夏”：警惕美联储变局、日元危机和财报季大考",
+        "source": "华尔街见闻",
+        "summary": "表面风平浪静的全球金融市场，正在积累一场风暴的能量。State Street Investment Management首席执行官Yie-Hsin Hung本周对英国《金融时报》表示，新任美联储。",
+        "url": "https://view.inews.qq.com/a/20260711A09M2W00?scene=news-skill",
+        "heat": 10,
+        "time": "7月11日 19:52"
+      },
+      {
         "rank": 135,
+        "title": "9个交易日跌掉1600亿市值，A股存储芯片龙头兆易创新怎么了？",
+        "source": "观察者网",
+        "summary": "(文/孙梅欣 编辑/吕栋）上半年业绩出现10倍预增的“存储设计一哥”兆易创新，股价却出现大跌。兆易创新在7月9日晚间发布的半年预增公告显示，今年上半年公司归母净利润预计为69亿元，同比增幅达到1099%，相当于上涨了10倍，业绩增幅惊人。",
+        "url": "https://view.inews.qq.com/a/20260711A076JH00?scene=news-skill",
+        "heat": 10,
+        "time": "7月11日 16:09"
+      },
+      {
+        "rank": 136,
         "title": "专家建议对新能源汽车开征消费税，新增收入划归地方政府",
         "source": "IT之家",
         "summary": "IT之家 7 月 16 日消息，税务总局主管的《国际税收》杂志 7 月 15 日发表了北京大学经济学院教授刘怡等人的《汽车消费税制度完善与税收分享机制设计》一文。该文建议，将新能源汽车全面纳入消费税“小汽车”税目，并将这部分形成的新增财政收入下划给地方政府。",
@@ -6458,7 +6467,7 @@
         "time": "7月16日 14:25"
       },
       {
-        "rank": 136,
+        "rank": 137,
         "title": "中国经济“半年答卷”：以“新”应变、以“韧”致远",
         "source": "九派财经",
         "summary": "“十五五”开局之年，中国经济交出了一份沉甸甸的“期中答卷”：上半年国内生产总值达695704亿元，同比增长4.7%；GDP增量达3.6万亿元，为近五年同期最大增量。图源：新华社面对外部环境变乱交织、全球经济增长放缓的复杂局面，这一增速的取得，殊为不易。",
@@ -6467,7 +6476,7 @@
         "time": "7月16日 14:02"
       },
       {
-        "rank": 137,
+        "rank": 138,
         "title": "以后能在车里看IMAX了？全球首款IMAX车载娱乐系统来了",
         "source": "极目新闻",
         "summary": "极目新闻通讯员 王达麦智能汽车的竞争，正在从“车怎么开”延伸到“人在车里如何生活”。过去几年，湖北、深圳、重庆等地在新能源汽车和智能网联汽车产业链中快速崛起：有的拥有整车制造基础，有的集聚智能硬件和电子信息产业，有的在新能源品牌和供应链协同上形成优势。",
@@ -6476,7 +6485,7 @@
         "time": "7月16日 12:04"
       },
       {
-        "rank": 138,
+        "rank": 139,
         "title": "吴晓求：金融强国建设的战略目标与实现路径",
         "source": "人大重阳",
         "summary": "2026年6月27-28日，2026 CBRC金融强国论坛在深圳举办。作为国家“十五五”规划专家委员会委员，中国人民大学原副校长、国家金融研究院院长、国家一级教授吴晓求围绕“金融强国建设”这一战略目标发表主题演讲。",
@@ -6485,7 +6494,7 @@
         "time": "7月15日 9:48"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "title": "芯片连涨两轮！一辆新能源汽车成本或暗增万元",
         "source": "华夏时报",
         "summary": "本报（chinatimes.net.cn）记者田野 于建平 北京报道2026年7月，全球半导体行业如约迎来年内第二轮价格调整窗口。与年初首轮调价主要受上游原材料成本推动不同，此次调整呈现出海内外头部企业同步、车规级产品领涨、涨幅进一步扩大的显著特征。",
@@ -6494,7 +6503,7 @@
         "time": "7月15日 9:43"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "title": "深夜，全线大涨！美联储，加息突变！沃什发声",
         "source": "北京日报客户端",
         "summary": "美联储加息预期生变。当地时间7月14日（周二），美国劳工统计局发布数据显示，受能源价格大幅跳水影响，6月居民消费价格指数（CPI）创下六年多来最大环比跌幅，年内通胀高涨的局面暂时得到缓解。",
@@ -6503,7 +6512,7 @@
         "time": "7月14日 22:54"
       },
       {
-        "rank": 141,
+        "rank": 142,
         "title": "新能源「主力上场」，一家头部企业的源点思考",
         "source": "36氪",
         "summary": "世界正在上演割裂的双面图景：A面里，人类为AI算力欢呼雀跃，为电动汽车跨境关税博弈不休；B面里，老旧电网筋骨早已不堪重负，激增的负荷、新能源发电的天然波动，让稳定与成本两道难题，持续拷问整个光伏产业",
@@ -6512,7 +6521,7 @@
         "time": "7月14日 22:10"
       },
       {
-        "rank": 142,
+        "rank": 143,
         "title": "韩国股市杠杆绞杀实录：最高46万账户遭强平，有人连养老金也亏掉了",
         "source": "华尔街见闻",
         "summary": "杠杆不等人。韩国KOSPI周一单日暴跌近9%、年内第七次触发熔断机制，很多散户盯着屏幕上的红色数字，思考的已经不是\"亏了多少\"，而是一个更紧迫的问题——还有没有钱撑过下一次补款日。",
@@ -6521,7 +6530,7 @@
         "time": "7月14日 22:02"
       },
       {
-        "rank": 143,
+        "rank": 144,
         "title": "外研院李钢：三组数据折射全球经济的新竞争逻辑",
         "source": "李钢",
         "summary": "近日中美两国公布的一系列经济数据引发市场关注，中国6月份居民消费价格指数（CPI）同比上涨1.0%，工业生产者出厂价格指数（PPI）同比上涨4.1%，6月末外汇储备规模升至34163亿美元；与此同时",
@@ -6530,7 +6539,7 @@
         "time": "7月14日 17:11"
       },
       {
-        "rank": 144,
+        "rank": 145,
         "title": "小鹏 MONA L03 上市：纯电、增程双动力，12.38 万元起",
         "source": "IT之家（RSS）",
         "summary": "小鹏 MONA L03 正式上市，提供纯电与超级增程两种动力版本，起售价 12.38 万元。纯电版 CLTC 续航 525km/625km，支持 3C 快充；增程版综合续航最长 1330km。",
@@ -6539,7 +6548,7 @@
         "time": "7月16日 21:46"
       },
       {
-        "rank": 145,
+        "rank": 146,
         "title": "台积电Q2净利润创纪录，AI需求持续驱动增长",
         "source": "X：Kim (@kimmonismus)",
         "summary": "台积电2026年第二季度营收NT$1.27T（约US$40B），同比增长36%；净利润NT$706.6B（约US$22B），同比增长77%，创历史新高，超出分析师预期11.7%。毛利率67.7%高于指引，营收落在自身指引上限（US$39.0-40.2B）。",
@@ -6548,7 +6557,7 @@
         "time": "7月16日 18:06"
       },
       {
-        "rank": 146,
+        "rank": 147,
         "title": "韩股暴跌，一20多岁男子炒股巨额亏损，持刀捅伤投资博主被捕",
         "source": "红星新闻",
         "summary": "韩国股市7月16日大幅下挫，韩国综合股价指数盘中跌超7%，SK海力士、三星电子等芯片股遭到猛烈抛售。与此同时，一起因投资亏损引发的持刀袭击案也受到关注：一名20多岁男子因听信股票投资博主的推荐蒙受巨额损失，涉嫌持凶器多次刺伤对方，目前已因涉嫌杀人未遂被警方拘捕。",
@@ -6557,7 +6566,7 @@
         "time": "7月16日 16:07"
       },
       {
-        "rank": 147,
+        "rank": 148,
         "title": "增长底线未破，下半年重在托底 | 信达宏观",
         "source": "研报精选",
         "summary": "本文转载自微信公众号：宏观亮语点击上方的“宏观亮语”可以订阅哦文/解运亮、麦麟玥信达证券宏观团队核心观点二季度经济下行压力加大。尽管名义GDP增速回升显示出价格改善带来的提振，但实际GDP增速的放缓揭示了Q2经济下行压力加大的现象。",
@@ -6566,7 +6575,7 @@
         "time": "7月16日 10:21"
       },
       {
-        "rank": 148,
+        "rank": 149,
         "title": "初创营销转向：秀产品而非融资额",
         "source": "X：Lee Robinson (@leerob)",
         "summary": "Lee Robinson 指出初创营销正发生转变：用户厌倦了千篇一律的融资发布视频，更想看产品和客户。引用推文中，AI 芯片公司 Etched 结束隐身模式，宣布已获超 10 亿美元客户合同并融资 8 亿美元，其首批机架将于今夏发货，早期测试在推理吞吐、延迟和能效上达到 SOTA。",
@@ -6575,22 +6584,13 @@
         "time": "7月15日 23:25"
       },
       {
-        "rank": 149,
+        "rank": 150,
         "title": "A股撤单转战港股！网红药企知原药业六成营收来自电商，销售费用依旧高企",
         "source": "华夏时报",
         "summary": "本报（chinatimes.net.cn）记者夏高琴 南京报道时隔两年，网红皮肤药企江苏知原药业股份有限公司（下称“知原药业”）再次冲击资本市场，继深交所主板IPO终止审核后，正式转战港交所。港交所官网显示，日前，知原药业向香港联合交易所主板递交上市申请，由中信证券（香港）有限公司担任独家保荐人。",
         "url": "https://view.inews.qq.com/a/20260715A06UUD00?scene=news-skill",
         "heat": 8,
         "time": "7月15日 14:23"
-      },
-      {
-        "rank": 150,
-        "title": "开源模型降低token价格或拖慢AGI进程",
-        "source": "X：Nathan Lambert (@natolambert)",
-        "summary": "Nathan Lambert 认同\"开源权重模型可能延缓AGI\"的逻辑链：开源模型压低可接受的token价格，导致利润率下降，进而减少大实验室的投资与收入，最终拖慢研究进度。他认为美国在投资上仍可能领先，因此开源模型+美国领导力+更多理解AI的时间，对各方都是胜利。",
-        "url": "https://x.com/natolambert/status/2078611093988233639",
-        "heat": 8,
-        "time": "7月19日 6:41"
       }
     ],
     "mockHenanNews": [

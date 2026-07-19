@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19 11:48:11",
+  "updated_at": "2026-07-19 11:52:31",
   "source": "zhenbao-main-news",
   "max_daily_normal": 5,
   "items": [
@@ -12,7 +12,7 @@
       "url": "https://view.inews.qq.com/a/20260715A099CC00?scene=news-skill",
       "open_url": "index.html#hotnews",
       "priority": "high",
-      "published_at": "2026-07-19 11:48:11",
+      "published_at": "2026-07-19 11:52:31",
       "source": "央广网",
       "score": 32
     },
@@ -25,7 +25,7 @@
       "url": "https://view.inews.qq.com/a/20260714A0AIC500?scene=news-skill",
       "open_url": "index.html#hotnews",
       "priority": "high",
-      "published_at": "2026-07-19 11:48:11",
+      "published_at": "2026-07-19 11:52:31",
       "source": "新华社新闻",
       "score": 32
     },
@@ -38,7 +38,7 @@
       "url": "https://view.inews.qq.com/a/20260715A097HC00?scene=news-skill",
       "open_url": "index.html#hotnews",
       "priority": "high",
-      "published_at": "2026-07-19 11:48:11",
+      "published_at": "2026-07-19 11:52:31",
       "source": "中国新闻网",
       "score": 32
     },
@@ -51,7 +51,7 @@
       "url": "https://view.inews.qq.com/a/20260709A07HTC00?scene=news-skill",
       "open_url": "index.html#hotnews",
       "priority": "high",
-      "published_at": "2026-07-19 11:48:11",
+      "published_at": "2026-07-19 11:52:31",
       "source": "中国新闻网",
       "score": 28
     },
@@ -64,7 +64,7 @@
       "url": "https://view.inews.qq.com/a/20260708A0335P00?scene=news-skill",
       "open_url": "index.html#hotnews",
       "priority": "high",
-      "published_at": "2026-07-19 11:48:11",
+      "published_at": "2026-07-19 11:52:31",
       "source": "中国新闻网",
       "score": 28
     },
@@ -77,7 +77,7 @@
       "url": "https://view.inews.qq.com/a/20260714A08YO100?scene=news-skill",
       "open_url": "index.html#finance",
       "priority": "normal",
-      "published_at": "2026-07-19 11:48:11",
+      "published_at": "2026-07-19 11:52:31",
       "source": "中国新闻网",
       "score": 22
     },
@@ -90,22 +90,22 @@
       "url": "https://view.inews.qq.com/a/20260716A041GM00?scene=news-skill",
       "open_url": "index.html#finance",
       "priority": "normal",
-      "published_at": "2026-07-19 11:48:11",
+      "published_at": "2026-07-19 11:52:31",
       "source": "中新经纬",
       "score": 20
     },
     {
-      "id": "20260719-henan-https-view-inews-qq-com-a-20260716A02ZEH00-scene-news-skill",
-      "title": "网传河南队陈克强有望加盟延边龙鼎，目前其社媒IP显示在吉林",
-      "summary": "近日网传消息称河南队球员陈克强有望在这次夏季转会窗加盟中甲球队延边龙鼎，目前陈克强的社交媒体账号IP显示是在吉林。陈克强出生于1999年9月18日，贡献4粒进球和2次助攻。",
+      "id": "20260719-henan-https-news-google-com-rss-articles-CBMiaEFVX3lxTFBNOVcwNFA2ZXdEWkpxTDFkY28tYVFlc",
+      "title": "中超第19轮：成都蓉城战平青岛西海岸 河南队大胜青岛海牛",
+      "summary": "中超第19轮：成都蓉城战平青岛西海岸 河南队大胜青岛海牛",
       "section": "足球",
       "type": "football",
-      "url": "https://view.inews.qq.com/a/20260716A02ZEH00?scene=news-skill",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNOVcwNFA2ZXdEWkpxTDFkY28tYVFlcmNXNnJYanE3eGtMeUlzOUMwUnBVcXFFaHZFVWpVaVJ5cmh3X21kS05LVHRXN1NoTFVJdjN4dG9STXhzY1l3c2JucHBXODFKN3VU?oc=5",
       "open_url": "index.html#football",
       "priority": "normal",
-      "published_at": "2026-07-19 11:48:11",
-      "source": "懂球帝",
-      "score": 17
+      "published_at": "2026-07-19 11:52:31",
+      "source": "chinanews.com.cn",
+      "score": 20
     }
   ]
 }

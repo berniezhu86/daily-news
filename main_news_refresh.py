@@ -189,6 +189,8 @@ SPORTS_TRUSTED_SOURCES = [
     "中国新闻网", "新华社", "央视", "人民网", "金台资讯", "大河网",
     "北京日报", "新黄河", "体坛周报", "足球报", "懂球帝", "雷速体育",
     "正观新闻", "河南足球俱乐部", "中超联赛", "中国足协",
+    "chinanews.com.cn", "CSL中超联赛", "新浪", "搜狐", "手机新浪", "手机网易",
+    "qq.com", "ZhiBo8", "球迷屋",
 ]
 
 FOOTBALL_OFFTOPIC_PATTERNS = [
@@ -404,7 +406,7 @@ def section_item_allowed(item: dict, section: str) -> bool:
         if not has_any(str(item.get("source", "")), SPORTS_TRUSTED_SOURCES):
             return False
         if section == "henan":
-            return has_any(text, ["河南队", "河南足球", "河南俱乐部", "河南球迷", "三镇vs河南", "武汉三镇vs河南"])
+            return has_any(text, ["河南队", "河南足球", "河南俱乐部", "河南球迷", "三镇vs河南", "武汉三镇vs河南", "河南大胜", "河南5", "河南1", "河南vs", "河南踢", "河南战", "河南胜", "河南负", "纳萨里奥", "古斯塔沃", "酒祖杜康", "彩陶坊", "建业", "航海体育场"])
         return has_any(text, SPORTS_EVENT_PATTERNS)
     if section == "entertainment":
         if age_hours(item, now_local()) > 168:
