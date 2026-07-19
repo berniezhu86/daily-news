@@ -416,6 +416,14 @@ def section_item_allowed(item: dict, section: str) -> bool:
             return False
         if has_any(text, ENTERTAINMENT_OFFTOPIC_PATTERNS) and not has_any(text, ENTERTAINMENT_CONTEXT_PATTERNS):
             return False
+    # 主新闻板块时效硬过滤
+    if section in {"domestic", "ai"}:
+        if age_hours(item, now_local()) > 72:
+            return False
+    # 国际新闻时效放宽至168h（上游数据更新滞后，TODO: 修复上游后恢复72h）
+    if section == "international":
+        if age_hours(item, now_local()) > 168:
+            return False
     return True
 
 
