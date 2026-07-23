@@ -2,99 +2,137 @@
   "domestic": [
     {
       "section": "domestic",
-      "title": "Codeberg 会员投票通过两项决议：承诺不将用户数据用于训练 LLM，并禁止\"vibe-coded\"项目",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "summary": "Codeberg e. V. 会员投票通过两项关于大型语言模型（LLM）的决议。第一项承诺不会使用用户或项目数据训练 LLM；第二项以 358 票同意、144 票反对的结果通过，将修改服务条款以禁止\"vibe-coded\"项目。",
-      "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
-      "heat": 7,
-      "publishedAt": "7月23日 20:27",
-      "time": "7月23日 20:27",
-      "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 1
+      "title": "王沪宁在西藏调研：全面贯彻新时代党的治藏方略，奋力推进十五五时期西藏现代化建设",
+      "source": "新华社",
+      "summary": "新华社7月22日报道，中共中央政治局常委、全国政协主席王沪宁7月19日至22日在西藏调研。他强调要深入贯彻落实党的二十届四中全会精神，贯彻落实习近平总书记关于西藏工作的重要论述和新时代党的治藏方略，持续抓好稳定、发展、生态、强边四件大事，在十五五时期奋力推进社会主义现代化新西藏建设。",
+      "url": "http://www.cppcc.gov.cn/zxld/zxzx",
+      "heat": 10,
+      "publishedAt": "2026-07-22 00:00",
+      "time": "2026-07-22 00:00",
+      "collectedAt": "2026-07-23T18:04:00+08:00",
+      "rank": 1,
+      "authority_score": 98,
+      "politics": true,
+      "badge": "hot"
     },
     {
       "section": "domestic",
-      "title": "Poolside 发布 Laguna S 2.1：118B 参数开源编程模型，8B 活跃参数性能超越十倍大模型",
-      "source": "The Decoder：AI News（RSS）",
-      "summary": "Poolside 发布第三款编程模型 Laguna S 2.1，采用 MoE 架构，总参数 118B，每 token 仅激活 8B 参数，支持百万 token 上下文窗口与思考/非思考双模式。",
-      "url": "https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size",
-      "heat": 7,
-      "publishedAt": "7月23日 20:24",
-      "time": "7月23日 20:24",
-      "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 2
+      "title": "习近平对基础教育工作作出重要指示：落实立德树人根本任务，开创基础教育高质量发展新局面",
+      "source": "新华社",
+      "summary": "新华社7月22日报道，中共中央总书记、国家主席、中央军委主席习近平就基础教育工作作出重要指示。习近平强调，党的十八大以来，党中央把基础教育作为基础性、先导性事业，推动基础教育取得长足发展。要全面贯彻党的教育方针，培养德智体美劳全面发展的社会主义建设者和接班人，树立健康第一的教育理念，提高教育教学质量，促进学生身心健康、成长成才，培养高素质专业化教师队伍，优化教育资源配置，深化教育综合改革，推进学校家庭社会协同育人。",
+      "url": "https://www.xinhuanet.com/english/20260722/9b2be23bd5a24b94bc51bb66871c2f90/c.html",
+      "heat": 10,
+      "publishedAt": "2026-07-22 00:00",
+      "time": "2026-07-22 00:00",
+      "collectedAt": "2026-07-23T18:04:00+08:00",
+      "rank": 2,
+      "authority_score": 98,
+      "politics": true,
+      "badge": "hot"
     },
     {
       "section": "domestic",
-      "title": "抗议数据中心的右翼婴儿潮一代与左翼有许多共同点",
-      "source": "The Verge：AI（RSS）",
-      "summary": "美国佛罗里达州赫南多县一场由保守派组织 Humans First 发起的抗议活动，反对在当地建设超大规模数据中心。抗议者 Carol 等人担忧噪音污染、环境破坏、国家安全（芯片依赖中国）以及 AI 对社交生活的负面影响。",
-      "url": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
-      "heat": 7,
-      "publishedAt": "7月23日 20:00",
-      "time": "7月23日 20:00",
-      "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 3
+      "title": "王毅会见印度外长苏杰生：中印应巩固关系向好势头，彰显大国担当",
+      "source": "中国新闻网",
+      "summary": "中国新闻网7月23日报道，7月22日，中共中央政治局委员、外交部长王毅在马尼拉会见印度外长苏杰生。王毅表示，习近平主席同莫迪总理的喀山、天津会晤引领中印关系走上改善发展正轨，双边贸易额再创新高。中印应立足人类福祉，巩固关系向好势头，加强在国际地区事务中的协调合作。苏杰生表示印方在台湾、西藏等问题上的立场没有改变，愿同中方推进务实合作。双方还就伊朗、缅甸等问题交换意见。",
+      "url": "https://www.chinanews.com/gn/2026/07-23/10664650.shtml",
+      "heat": 10,
+      "publishedAt": "2026-07-23 00:08",
+      "time": "2026-07-23 00:08",
+      "collectedAt": "2026-07-23T18:04:00+08:00",
+      "rank": 3,
+      "authority_score": 94,
+      "politics": true,
+      "badge": "hot"
     },
     {
       "section": "domestic",
-      "title": "红果短剧发布AI剧角色创作规范，将专项治理\"高频AI脸\"",
-      "source": "IT之家（RSS）",
-      "summary": "红果短剧发布公告，从角色差异化与版权合规两方面规范AI剧创作，要求主要角色具备清晰形象区分度，避免不同剧集使用高度相似形象。平台近期将启动专项治理，重点整治\"高频AI脸\"复用、内容同质化及素材违规三类问题。",
-      "url": "https://www.ithome.com/0/980/822.htm",
-      "heat": 7,
-      "publishedAt": "7月23日 19:47",
-      "time": "7月23日 19:47",
-      "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 4
+      "title": "中共中央、国务院印发《关于加强新时代社会工作的意见》，部署新兴领域党建与基层治理",
+      "source": "新华社",
+      "summary": "新华社北京7月23日电，中共中央、国务院印发《关于加强新时代社会工作的意见》，对加强新时代社会工作作出全面部署。《意见》要求健全党领导社会工作的体制机制，加强新经济组织、新社会组织、新就业群体党的建设，抓好党建引领基层治理和基层政权建设，走好新时代党的群众路线，推动新时代社会工作高质量发展。这是中央层面首次对社会工作领域作出系统性顶层设计。",
+      "url": "https://www.financialnews.com.cn/2026-07/23/content_453679.html",
+      "heat": 10,
+      "publishedAt": "2026-07-23 00:00",
+      "time": "2026-07-23 00:00",
+      "collectedAt": "2026-07-23T18:04:00+08:00",
+      "rank": 4,
+      "authority_score": 98,
+      "politics": true,
+      "badge": "hot"
     },
     {
       "section": "domestic",
-      "title": "北京经开区建成全市首家词元工厂，词元日产能达 1.4 万亿",
-      "source": "IT之家（RSS）",
-      "summary": "北京经开区建成全市首家词元工厂，词元日产能达 1.4 万亿，支撑模型训练及应用落地。北京同时发布国内首个开源的智能体共性基础设施，并每年投放上亿元算力券、模型券和数据券，降低 OPC 等创新主体创业成本。",
-      "url": "https://www.ithome.com/0/980/821.htm",
-      "heat": 7,
-      "publishedAt": "7月23日 19:46",
-      "time": "7月23日 19:46",
-      "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 5
+      "title": "王毅在马尼拉会见美国国务卿鲁比奥，就中美关系交换意见",
+      "source": "央视新闻",
+      "summary": "7月22日，中共中央政治局委员、外交部长王毅在马尼拉出席东亚合作系列外长会期间会见美国国务卿鲁比奥。王毅表示，今年是中美关系大年，两国元首在北京成功举行历史性会晤。中方愿与美方落实两国元首共识，推动中美关系稳定健康发展。双方就双边关系及共同关心的国际地区问题交换意见。",
+      "url": "https://news.sina.com.cn/china?id=112751",
+      "heat": 10,
+      "publishedAt": "2026-07-22 22:09",
+      "time": "2026-07-22 22:09",
+      "collectedAt": "2026-07-23T18:04:00+08:00",
+      "rank": 5,
+      "authority_score": 96,
+      "politics": true,
+      "badge": "hot"
     },
     {
       "section": "domestic",
-      "title": "小米 MiMo Code 将于 7 月 26 日结束免费使用",
-      "source": "IT之家（RSS）",
-      "summary": "小米 MiMo 官方宣布，自 7 月 26 日 18：00 起，MiMo Code 将结束免费使用阶段。用户需前往 Xiaomi MiMo API 开放平台订阅 Token Plan 以继续使用，首次订阅可享 88 折优惠。",
-      "url": "https://www.ithome.com/0/980/799.htm",
-      "heat": 7,
-      "publishedAt": "7月23日 18:28",
-      "time": "7月23日 18:28",
-      "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 6
+      "title": "国务院国资委：上半年央企利润总额1.4万亿元，部署下半年五大重点任务",
+      "source": "央广网",
+      "summary": "央广网7月22日报道，7月21日至22日，国务院国资委举办中央企业负责人研讨班。上半年央企利润总额1.4万亿元，固定资产投资同比增长4.5%，研发经费投入增长3.8%，累计打造智能工厂超2000个，生产设备数字化率达67%。下半年将着力巩固经济运行良好态势、推进原始创新和关键核心技术攻关、推动传统产业智能化绿色化融合化发展、抓好新一轮国资国企改革、防范化解重点领域风险。",
+      "url": "https://finance.cnr.cn/ycbd/20260722/t20260722_527724356.shtml",
+      "heat": 10,
+      "publishedAt": "2026-07-22 20:08",
+      "time": "2026-07-22 20:08",
+      "collectedAt": "2026-07-23T18:04:00+08:00",
+      "rank": 6,
+      "authority_score": 96,
+      "politics": true,
+      "badge": "hot"
     },
     {
       "section": "domestic",
-      "title": "2026年最佳开源语音识别模型对比：WER、语言、延迟与许可证",
-      "source": "MarkTechPost（RSS）",
-      "summary": "开源语音识别领域已不再是Whisper一家独大。Cohere Transcribe（2B，Apache 2.0）以5.42%平均词错误率登顶Hugging Face开源ASR排行榜，但IBM Granite Speech 4.1 2B（5.33%）和ARK-ASR-3B（5.04%）紧随其后，榜首差距不足1个WER点。",
-      "url": "https://www.marktechpost.com/2026/07/23/best-open-speech-recognition-asr-models-in-2026-wer-languages-latency-and-license-compared",
-      "heat": 7,
-      "publishedAt": "7月23日 17:26",
-      "time": "7月23日 17:26",
-      "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 7
+      "title": "2026年双百活动中央和国家机关专场报告会在京举行，聚焦生态环境法典",
+      "source": "新华社",
+      "summary": "新华社北京7月23日电，2026年百名法学家百场报告会法治宣讲活动中央和国家机关专场报告会在京举行，主题为贯彻实施生态环境法典。全国人大常委会法工委副主任黄薇作报告时表示，生态环境法典是继民法典之后我国第二部以法典命名的法律，标志着生态环境法治建设进入法典化时代。报告会由中央组织部、中央宣传部、中央政法委等七部门共同举办，700余人参加。",
+      "url": "https://www.news.cn/politics/20260723/cf379de9e8db43898af18eedbeaa191d/c.html",
+      "heat": 10,
+      "publishedAt": "2026-07-23 19:43",
+      "time": "2026-07-23 19:43",
+      "collectedAt": "2026-07-23T18:04:00+08:00",
+      "rank": 7,
+      "authority_score": 98,
+      "politics": true,
+      "badge": "hot"
     },
     {
       "section": "domestic",
-      "title": "我国首个全自主可控智能钻井系统\"启能·IDOS\"在川投用，整体时效提升20%",
-      "source": "IT之家（RSS）",
-      "summary": "我国首个全自主可控智能钻井系统\"启能·IDOS\"在四川成功投用，已改造12台传统钻机。系统具备智能钻井、一键关井等功能，使单趟起钻立柱数从15-18柱增至19-21柱，整体时效提升20%，试验井施工周期较最优指标缩短8.7%。",
-      "url": "https://www.ithome.com/0/980/665.htm",
-      "heat": 7,
-      "publishedAt": "7月23日 16:07",
-      "time": "7月23日 16:07",
-      "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 8
+      "title": "李强致电祝贺伯纳姆就任英国首相",
+      "source": "国务院",
+      "summary": "7月22日，国务院总理李强致电伯纳姆，祝贺他就任英国首相。李强表示，中英同为联合国安理会常任理事国和世界主要经济体，发展中英关系符合两国人民根本利益，中方愿同英方一道推动双边关系健康稳定发展。",
+      "url": "https://jxj.xiangyang.gov.cn/",
+      "heat": 10,
+      "publishedAt": "2026-07-22 00:00",
+      "time": "2026-07-22 00:00",
+      "collectedAt": "2026-07-23T18:04:00+08:00",
+      "rank": 8,
+      "authority_score": 96,
+      "politics": true,
+      "badge": "hot"
+    },
+    {
+      "section": "domestic",
+      "title": "王毅会见加拿大外长阿南德：中加关系改善势头强劲，贸易增长显著",
+      "source": "外交部",
+      "summary": "7月21日，中共中央政治局委员、外交部长王毅在马尼拉会见加拿大外长阿南德。王毅表示，中加关系持续向好，上半年双边贸易额同比增长16%，加方对华出口增长23.3%。中方愿同加方筹备好下阶段高层交往，不断丰富中加新型战略伙伴关系内涵。阿南德表示加方坚定奉行一个中国政策，对华关系是加方最重视的双边关系之一。",
+      "url": "https://www.sohu.com/a/1053090715_121107000",
+      "heat": 10,
+      "publishedAt": "2026-07-21 22:53",
+      "time": "2026-07-21 22:53",
+      "collectedAt": "2026-07-23T18:04:00+08:00",
+      "rank": 9,
+      "authority_score": 94,
+      "politics": true
     },
     {
       "section": "domestic",
@@ -106,7 +144,7 @@
       "publishedAt": "7月23日 15:40",
       "time": "7月23日 15:40",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 9
+      "rank": 10
     },
     {
       "section": "domestic",
@@ -118,7 +156,7 @@
       "publishedAt": "7月23日 15:32",
       "time": "7月23日 15:32",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 10
+      "rank": 11
     },
     {
       "section": "domestic",
@@ -130,7 +168,67 @@
       "publishedAt": "7月23日 15:14",
       "time": "7月23日 15:14",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 11
+      "rank": 12
+    },
+    {
+      "section": "domestic",
+      "title": "Codeberg 会员投票通过两项决议：承诺不将用户数据用于训练 LLM，并禁止\"vibe-coded\"项目",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "summary": "Codeberg e. V. 会员投票通过两项关于大型语言模型（LLM）的决议。第一项承诺不会使用用户或项目数据训练 LLM；第二项以 358 票同意、144 票反对的结果通过，将修改服务条款以禁止\"vibe-coded\"项目。",
+      "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
+      "heat": 6,
+      "publishedAt": "7月23日 20:27",
+      "time": "7月23日 20:27",
+      "collectedAt": "2026-07-23T13:19:08.548Z",
+      "rank": 13
+    },
+    {
+      "section": "domestic",
+      "title": "Poolside 发布 Laguna S 2.1：118B 参数开源编程模型，8B 活跃参数性能超越十倍大模型",
+      "source": "The Decoder：AI News（RSS）",
+      "summary": "Poolside 发布第三款编程模型 Laguna S 2.1，采用 MoE 架构，总参数 118B，每 token 仅激活 8B 参数，支持百万 token 上下文窗口与思考/非思考双模式。",
+      "url": "https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size",
+      "heat": 6,
+      "publishedAt": "7月23日 20:24",
+      "time": "7月23日 20:24",
+      "collectedAt": "2026-07-23T13:19:08.548Z",
+      "rank": 14
+    },
+    {
+      "section": "domestic",
+      "title": "抗议数据中心的右翼婴儿潮一代与左翼有许多共同点",
+      "source": "The Verge：AI（RSS）",
+      "summary": "美国佛罗里达州赫南多县一场由保守派组织 Humans First 发起的抗议活动，反对在当地建设超大规模数据中心。抗议者 Carol 等人担忧噪音污染、环境破坏、国家安全（芯片依赖中国）以及 AI 对社交生活的负面影响。",
+      "url": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
+      "heat": 6,
+      "publishedAt": "7月23日 20:00",
+      "time": "7月23日 20:00",
+      "collectedAt": "2026-07-23T13:19:08.548Z",
+      "rank": 15
+    },
+    {
+      "section": "domestic",
+      "title": "红果短剧发布AI剧角色创作规范，将专项治理\"高频AI脸\"",
+      "source": "IT之家（RSS）",
+      "summary": "红果短剧发布公告，从角色差异化与版权合规两方面规范AI剧创作，要求主要角色具备清晰形象区分度，避免不同剧集使用高度相似形象。平台近期将启动专项治理，重点整治\"高频AI脸\"复用、内容同质化及素材违规三类问题。",
+      "url": "https://www.ithome.com/0/980/822.htm",
+      "heat": 6,
+      "publishedAt": "7月23日 19:47",
+      "time": "7月23日 19:47",
+      "collectedAt": "2026-07-23T13:19:08.548Z",
+      "rank": 16
+    },
+    {
+      "section": "domestic",
+      "title": "北京经开区建成全市首家词元工厂，词元日产能达 1.4 万亿",
+      "source": "IT之家（RSS）",
+      "summary": "北京经开区建成全市首家词元工厂，词元日产能达 1.4 万亿，支撑模型训练及应用落地。北京同时发布国内首个开源的智能体共性基础设施，并每年投放上亿元算力券、模型券和数据券，降低 OPC 等创新主体创业成本。",
+      "url": "https://www.ithome.com/0/980/821.htm",
+      "heat": 6,
+      "publishedAt": "7月23日 19:46",
+      "time": "7月23日 19:46",
+      "collectedAt": "2026-07-23T13:19:08.548Z",
+      "rank": 17
     },
     {
       "section": "domestic",
@@ -142,7 +240,7 @@
       "publishedAt": "7月23日 14:23",
       "time": "7月23日 14:23",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 12
+      "rank": 18
     },
     {
       "section": "domestic",
@@ -154,7 +252,31 @@
       "publishedAt": "7月23日 13:47",
       "time": "7月23日 13:47",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 13
+      "rank": 19
+    },
+    {
+      "section": "domestic",
+      "title": "小米 MiMo Code 将于 7 月 26 日结束免费使用",
+      "source": "IT之家（RSS）",
+      "summary": "小米 MiMo 官方宣布，自 7 月 26 日 18：00 起，MiMo Code 将结束免费使用阶段。用户需前往 Xiaomi MiMo API 开放平台订阅 Token Plan 以继续使用，首次订阅可享 88 折优惠。",
+      "url": "https://www.ithome.com/0/980/799.htm",
+      "heat": 6,
+      "publishedAt": "7月23日 18:28",
+      "time": "7月23日 18:28",
+      "collectedAt": "2026-07-23T13:19:08.548Z",
+      "rank": 20
+    },
+    {
+      "section": "domestic",
+      "title": "2026年最佳开源语音识别模型对比：WER、语言、延迟与许可证",
+      "source": "MarkTechPost（RSS）",
+      "summary": "开源语音识别领域已不再是Whisper一家独大。Cohere Transcribe（2B，Apache 2.0）以5.42%平均词错误率登顶Hugging Face开源ASR排行榜，但IBM Granite Speech 4.1 2B（5.33%）和ARK-ASR-3B（5.04%）紧随其后，榜首差距不足1个WER点。",
+      "url": "https://www.marktechpost.com/2026/07/23/best-open-speech-recognition-asr-models-in-2026-wer-languages-latency-and-license-compared",
+      "heat": 6,
+      "publishedAt": "7月23日 17:26",
+      "time": "7月23日 17:26",
+      "collectedAt": "2026-07-23T13:19:08.548Z",
+      "rank": 21
     },
     {
       "section": "domestic",
@@ -166,7 +288,19 @@
       "publishedAt": "7月23日 12:31",
       "time": "7月23日 12:31",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 14
+      "rank": 22
+    },
+    {
+      "section": "domestic",
+      "title": "我国首个全自主可控智能钻井系统\"启能·IDOS\"在川投用，整体时效提升20%",
+      "source": "IT之家（RSS）",
+      "summary": "我国首个全自主可控智能钻井系统\"启能·IDOS\"在四川成功投用，已改造12台传统钻机。系统具备智能钻井、一键关井等功能，使单趟起钻立柱数从15-18柱增至19-21柱，整体时效提升20%，试验井施工周期较最优指标缩短8.7%。",
+      "url": "https://www.ithome.com/0/980/665.htm",
+      "heat": 6,
+      "publishedAt": "7月23日 16:07",
+      "time": "7月23日 16:07",
+      "collectedAt": "2026-07-23T13:19:08.548Z",
+      "rank": 23
     },
     {
       "section": "domestic",
@@ -178,7 +312,7 @@
       "publishedAt": "7月23日 11:13",
       "time": "7月23日 11:13",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 15
+      "rank": 24
     },
     {
       "section": "domestic",
@@ -190,7 +324,7 @@
       "publishedAt": "7月23日 11:09",
       "time": "7月23日 11:09",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 16
+      "rank": 25
     },
     {
       "section": "domestic",
@@ -202,7 +336,7 @@
       "publishedAt": "7月23日 9:53",
       "time": "7月23日 9:53",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 17
+      "rank": 26
     },
     {
       "section": "domestic",
@@ -214,7 +348,7 @@
       "publishedAt": "7月23日 9:40",
       "time": "7月23日 9:40",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 18
+      "rank": 27
     },
     {
       "section": "domestic",
@@ -226,7 +360,7 @@
       "publishedAt": "7月23日 9:03",
       "time": "7月23日 9:03",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 19
+      "rank": 28
     },
     {
       "section": "domestic",
@@ -238,7 +372,7 @@
       "publishedAt": "7月23日 8:49",
       "time": "7月23日 8:49",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 20
+      "rank": 29
     },
     {
       "section": "domestic",
@@ -250,7 +384,7 @@
       "publishedAt": "7月23日 8:27",
       "time": "7月23日 8:27",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 21
+      "rank": 30
     },
     {
       "section": "domestic",
@@ -262,7 +396,7 @@
       "publishedAt": "7月23日 8:00",
       "time": "7月23日 8:00",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 22
+      "rank": 31
     },
     {
       "section": "domestic",
@@ -274,7 +408,7 @@
       "publishedAt": "7月23日 7:33",
       "time": "7月23日 7:33",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 23
+      "rank": 32
     },
     {
       "section": "domestic",
@@ -282,11 +416,11 @@
       "source": "X：歸藏 (@op7418)",
       "summary": "Tibo 预告 Codex 即将迎来重要功能更新，包括实时语音模式，类似 ChatGPT 新实时语音模型。该更新恰逢 Opus 5 可能于发布，被认为是有意狙击竞争对手。",
       "url": "https://x.com/op7418/status/2080270323073810454",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 20:34",
       "time": "7月23日 20:34",
       "collectedAt": "2026-07-23T13:19:08.547Z",
-      "rank": 24
+      "rank": 33
     },
     {
       "section": "domestic",
@@ -294,11 +428,11 @@
       "source": "公众号：数字生命卡兹克",
       "summary": "字节跳动Seed发布STEM科学家计划，邀请100位数学、物理、化学、生物、材料学等前沿科学领域的研究者，以科学家顾问或博士实习生身份加入AI团队，首期6个月。Seed将提供充足算力资源和有竞争力的薪酬，与研究者共同用AI进行大规模科研。",
       "url": "https://mp.weixin.qq.com/s/XGSlalWPnQ0437xInGROUg",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 20:24",
       "time": "7月23日 20:24",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 25
+      "rank": 34
     },
     {
       "section": "domestic",
@@ -306,11 +440,11 @@
       "source": "X：歸藏 (@op7418)",
       "summary": "据多位消息人士透露，Anthropic 的新一代模型 Opus 5 即将发布，社区密切关注其性能表现与发布时间节点。相关动态引发多方关注。",
       "url": "https://x.com/op7418/status/2080267363937910817",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 20:22",
       "time": "7月23日 20:22",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 26
+      "rank": 35
     },
     {
       "section": "domestic",
@@ -318,11 +452,11 @@
       "source": "X：Emad Mostaque (@EMostaque)",
       "summary": "AI 若能解决考拉兹猜想这一数学难题，将标志着机器在纯粹推理领域的重大突破，引发对数学研究范式转变的讨论。相关动态引发多方关注。",
       "url": "https://x.com/EMostaque/status/2080265164520059189",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 20:13",
       "time": "7月23日 20:13",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 27
+      "rank": 36
     },
     {
       "section": "domestic",
@@ -330,11 +464,11 @@
       "source": "X：歸藏 (@op7418)",
       "summary": "黑森林工作室短暂上线 FLUX 3 预告，该模型支持图像、视频、音频和动作生成，是一个全模态生成模型，单条视频可一次生成 20 秒。按惯例该模型可能开源，若开源将利好整个生态。",
       "url": "https://x.com/op7418/status/2080264515682496991",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 20:11",
       "time": "7月23日 20:11",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 28
+      "rank": 37
     },
     {
       "section": "domestic",
@@ -342,11 +476,11 @@
       "source": "X：cb_doge (@cb_doge)",
       "summary": "xAI 旗下 Grok 月活用户同比增长 117%，实现翻倍增长，反映出 AI 聊天助手市场的持续扩张与用户对多模型生态的接受度提升。",
       "url": "https://x.com/cb_doge/status/2080263175673700651",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 20:06",
       "time": "7月23日 20:06",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 29
+      "rank": 38
     },
     {
       "section": "domestic",
@@ -354,11 +488,11 @@
       "source": "X：Oran Ge (@oran_ge)",
       "summary": "AGI 之后的分配难题，是人类当下最无解的问题 但如果 AGI 到来，这个问题是不是就迎刃而解了呢？或者说，如果 AGI 不能解决人类面临的利益分配难题 我们能称之为 AGI 吗？",
       "url": "https://x.com/oran_ge/status/2080259515694674408",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 19:51",
       "time": "7月23日 19:51",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 30
+      "rank": 39
     },
     {
       "section": "domestic",
@@ -366,11 +500,11 @@
       "source": "X：fofr (@fofrAI)",
       "summary": "sol 陷入了一种奇怪的状态，每个想法前面都被加上了\"žen 🦅\"，甚至它自己都对此感到恼火。--- NO_REPLY žen 🦅 coast. 为什么一直加？",
       "url": "https://x.com/fofrAI/status/2080258695259123877",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 19:48",
       "time": "7月23日 19:48",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 31
+      "rank": 40
     },
     {
       "section": "domestic",
@@ -378,11 +512,11 @@
       "source": "公众号：卡尔的AI沃茨",
       "summary": "腾讯推出首个设计Agent\"设计妙境 Miora\"，覆盖品牌设计、电商广告、3D建模、App UI、TVC等13个场景。Miora具备记忆功能，能持续记住用户审美偏好，并支持将完整流程保存为可复用的Skill。",
       "url": "https://mp.weixin.qq.com/s/wTI00g8lar2eLSgXAFAgBQ",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 19:47",
       "time": "7月23日 19:47",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 32
+      "rank": 41
     },
     {
       "section": "domestic",
@@ -390,11 +524,11 @@
       "source": "X：Jason Liu (@jxnlco)",
       "summary": "有传闻称某开发者使用 OpenAI Codex 进行项目开发，展示了 AI 辅助编程在实际生产力中的应用潜力。相关动态引发多方关注。",
       "url": "https://x.com/jxnlco/status/2080257205597560925",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 19:42",
       "time": "7月23日 19:42",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 33
+      "rank": 42
     },
     {
       "section": "domestic",
@@ -402,11 +536,11 @@
       "source": "X：Kim (@kimmonismus)",
       "summary": "Opus 5 似乎正在各提供商处陆续上线！是它的发布日。我对它的表现感到无比兴奋，你根本无法想象！。相关动态引发多方关注。",
       "url": "https://x.com/kimmonismus/status/2080253402684989791",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 19:27",
       "time": "7月23日 19:27",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 34
+      "rank": 43
     },
     {
       "section": "domestic",
@@ -414,11 +548,11 @@
       "source": "X：Kim (@kimmonismus)",
       "summary": "Opus 5 发布在即，社区开始讨论其与 Fable 5 的性能对比，关注点集中在推理能力、多模态和 coding 基准测试表现上。",
       "url": "https://x.com/kimmonismus/status/2080246553755676764",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 19:00",
       "time": "7月23日 19:00",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 35
+      "rank": 44
     },
     {
       "section": "domestic",
@@ -426,11 +560,11 @@
       "source": "X：Oran Ge (@oran_ge)",
       "summary": "Oran Ge 与朋友在播客中反思，AI 并未带来真正的丰饶，反而像\"人类简史\"里的小麦一样驯化了人类。许多人被 AI 的\"5小时重置时间\"锁死生活节奏，这是一种\"穷人心态\"。",
       "url": "https://x.com/oran_ge/status/2080241430401015956",
-      "heat": 6,
+      "heat": 5,
       "publishedAt": "7月23日 18:39",
       "time": "7月23日 18:39",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 36
+      "rank": 45
     },
     {
       "section": "domestic",
@@ -438,11 +572,11 @@
       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
       "summary": "作为 WAIC 的一部分，阿里云自豪地主办了一场 AI 视频创作者马拉松，汇聚创作者共同探索 AI 短片的边界。我们很高兴分享首个获奖作品--完全使用我们的 AI 视频生成模型 Happyhorse 制作。",
       "url": "https://x.com/alibaba_cloud/status/2080226902942630348",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 17:41",
       "time": "7月23日 17:41",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 37
+      "rank": 46
     },
     {
       "section": "domestic",
@@ -450,11 +584,11 @@
       "source": "X：Kim (@kimmonismus)",
       "summary": "Codex 负责人 Tibo 在竞争中仍选择正面对抗 Google Gemini 系列模型，展现了在 AI 编程助手赛道的坚定战略定位。",
       "url": "https://x.com/kimmonismus/status/2080223897845387535",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 17:30",
       "time": "7月23日 17:30",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 38
+      "rank": 47
     },
     {
       "section": "domestic",
@@ -462,11 +596,11 @@
       "source": "X：Testing Catalog (@testingcatalog)",
       "summary": "Dreamina Seedance 2.0 4K 已能生成生产级视频。导演 Neill Blomkamp 用该工具纯文本生成了 13 分钟科幻恐怖短片《Nightborne》，每帧均由提示词驱动，并使用了 32 人的授权肖像与声音。",
       "url": "https://x.com/testingcatalog/status/2080218848087679199",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 17:09",
       "time": "7月23日 17:09",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 39
+      "rank": 48
     },
     {
       "section": "domestic",
@@ -474,11 +608,11 @@
       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
       "summary": "阿里云推出第三代图像生成基础模型Qwen-Image-3.0，核心关键词为\"真实\"。该模型支持4.5k token长提示词，可一次性生成复杂版面（如报纸、考卷、3×3信息图），文字清晰至10px，并支持12种语言原生渲染、100+艺术风格及实时网络检索。",
       "url": "https://x.com/alibaba_cloud/status/2080218126264778781",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 17:07",
       "time": "7月23日 17:07",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 40
+      "rank": 49
     },
     {
       "section": "domestic",
@@ -486,11 +620,11 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "summary": "推文提出，当人思绪混乱时，不应问AI\"我该怎么办\"，而应将其作为\"外接前额叶\"，用特定指令拆解混杂的愿望、焦虑、时间等。7个Prompt可对号入座，一次只跑一个，帮助用户把问题拆开、区分事实与脑补、找回当下可行动的时间。",
       "url": "https://x.com/AYi_AInotes/status/2080210050400817435",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 16:34",
       "time": "7月23日 16:34",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 41
+      "rank": 50
     },
     {
       "section": "domestic",
@@ -498,11 +632,11 @@
       "source": "X：X.PIN (@thexpin)",
       "summary": "Insilico Medicine CEO Alex Zhavoronkov称，结合AI与中国研发生态已将药物发现周期缩短至约一年，最快案例仅9个月，而传统周期约13个月。其首款AI设计药物Rentosertib已进入II期临床试验。",
       "url": "https://x.com/thexpin/status/2080205860878340404",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 16:18",
       "time": "7月23日 16:18",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 42
+      "rank": 51
     },
     {
       "section": "domestic",
@@ -510,11 +644,11 @@
       "source": "X：百度 Baidu (@Baidu_Inc)",
       "summary": "百度Apollo Go获得香港运输署首张全无人驾驶试车牌照，将于7月27日在机场岛启动试运行。这是香港首次在公共道路进行无安全员的L4级自动驾驶测试，也是全球右舵市场首个全无人驾驶试验。",
       "url": "https://x.com/Baidu_Inc/status/2080200167203184952",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 15:55",
       "time": "7月23日 15:55",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 43
+      "rank": 52
     },
     {
       "section": "domestic",
@@ -522,11 +656,11 @@
       "source": "X：Oran Ge (@oran_ge)",
       "summary": "推文质疑AGI（AI在多数领域达到人类专家水平）是否会让人类失去生活空间。作者建议类比当前已有大量人类专家的领域，思考这些工作为何依然存在。",
       "url": "https://x.com/oran_ge/status/2080189978894839906",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 15:15",
       "time": "7月23日 15:15",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 44
+      "rank": 53
     },
     {
       "section": "domestic",
@@ -534,11 +668,11 @@
       "source": "X：Kim (@kimmonismus)",
       "summary": "传闻 GPT-5.6 Sol Ultra 与 Opus 5 即将同期发布，搭配 Cerebras 750 token/s 高速推理，AI 社区迎来密集模型更新潮。",
       "url": "https://x.com/kimmonismus/status/2080185501009465495",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 14:57",
       "time": "7月23日 14:57",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 45
+      "rank": 54
     },
     {
       "section": "domestic",
@@ -546,11 +680,11 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "summary": "这来自一位理论物理学家。【引用 @rohanpaul_ai】：AI 又一次数学胜利。两个80年代的猜想和一个2002年的猜想全部被推翻。",
       "url": "https://x.com/rohanpaul_ai/status/2080185447788224602",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 14:57",
       "time": "7月23日 14:57",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 46
+      "rank": 55
     },
     {
       "section": "domestic",
@@ -558,11 +692,11 @@
       "source": "X：Kim (@kimmonismus)",
       "summary": "传闻 OpenAI 即将发布 Sol Ultra 或 GPT-5.6 Sol 版本，预计在推理速度与多模态能力上有显著提升，搭配 Cerebras 高速推理硬件。",
       "url": "https://x.com/kimmonismus/status/2080183898504360359",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 14:51",
       "time": "7月23日 14:51",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 47
+      "rank": 56
     },
     {
       "section": "domestic",
@@ -570,11 +704,11 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "summary": "Uber 裁减了 10% 的客服岗位，这是公司首次将裁员直接归因于自动化。全球社区运营负责人 Megha Yethadka 向员工表示，组织已变得过于复杂和割裂，AI 无法在碎片化的流程上扩展，因此必须先调整结构。",
       "url": "https://x.com/rohanpaul_ai/status/2080182745657987401",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 14:46",
       "time": "7月23日 14:46",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 48
+      "rank": 57
     },
     {
       "section": "domestic",
@@ -582,11 +716,11 @@
       "source": "X：Ethan Mollick (@emollick)",
       "summary": "真希望手头有一份未解数学难题列表。（但数学证明/证伪的突然涌现，很好地预示了其他领域即将发生的情况。相关动态引发多方关注。",
       "url": "https://x.com/emollick/status/2080178812667543560",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 14:30",
       "time": "7月23日 14:30",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 49
+      "rank": 58
     },
     {
       "section": "domestic",
@@ -594,11 +728,11 @@
       "source": "公众号：腾讯元宝",
       "summary": "2026 年高考关注热点包括 AI 相关专业报考趋势、新工科方向热度变化，以及各地录取政策调整对考生志愿填报的影响。相关动态引发多方关注。",
       "url": "https://mp.weixin.qq.com/s/sBJ0yqbmEKmW7PSD_yI_rA",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 14:30",
       "time": "7月23日 14:30",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 50
+      "rank": 59
     },
     {
       "section": "domestic",
@@ -606,11 +740,11 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "summary": "研究发现，即使是强大的推理模型在处理长输入时也会养成复制大段文本的\"懒惰\"习惯，且输入越长问题越严重，这会消耗token预算并降低准确性。复制无关内容会导致错误，而只复制关键行则有助于正确回答。",
       "url": "https://x.com/rohanpaul_ai/status/2080169034935591350",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 13:52",
       "time": "7月23日 13:52",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 51
+      "rank": 60
     },
     {
       "section": "domestic",
@@ -618,11 +752,11 @@
       "source": "X：Elon Musk (@elonmusk, xAI)",
       "summary": "xAI 的 Grok 4.5 模型成功破解了一个悬置 30 年的图论猜想，展示了 AI 在纯数学定理证明领域的突破性能力。",
       "url": "https://x.com/elonmusk/status/2080165738464280725",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 13:38",
       "time": "7月23日 13:38",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 52
+      "rank": 61
     },
     {
       "section": "domestic",
@@ -630,11 +764,11 @@
       "source": "X：小互 (@xiaohu)",
       "summary": "用户 @cats_juice 用 GPT 5.6 Sol 轻松实现了过去需要手动 K 帧的贴纸效果，并支持自定义富文本和图像上传。该项目已开源，在线体验地址为 https://sticker.oooo.so。",
       "url": "https://x.com/xiaohu/status/2080164487185981545",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 13:33",
       "time": "7月23日 13:33",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 53
+      "rank": 62
     },
     {
       "section": "domestic",
@@ -642,11 +776,11 @@
       "source": "X：Berry Xia (@berryxia)",
       "summary": "用户分享为同事安装 Workbuddy 并首装美团生活助手技能的有趣经历，通过 AI 助手帮团队获取外卖优惠券，展示了 Workbuddy 在生活场景中的实用价值。",
       "url": "https://x.com/berryxia/status/2080161155746766936",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 13:20",
       "time": "7月23日 13:20",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 54
+      "rank": 63
     },
     {
       "section": "domestic",
@@ -654,11 +788,11 @@
       "source": "X：小互 (@xiaohu)",
       "summary": "小互指出，一些人喜欢造神、幻想弯道超车，但DeepSeek的核心价值观与之相反。DeepSeek之前的成就正是源于尊重客观规律和科学、脚踏实地。",
       "url": "https://x.com/xiaohu/status/2080161216757203029",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 13:20",
       "time": "7月23日 13:20",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 55
+      "rank": 64
     },
     {
       "section": "domestic",
@@ -666,11 +800,11 @@
       "source": "X：Deedy Das (@deedydas)",
       "summary": "这是最不为人知的AI应用类型之一，然而美国娱乐应用前50名中有12款属于此类。它就是短剧：AI生成的节目，每集30-60秒。",
       "url": "https://x.com/deedydas/status/2080160582913958175",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 13:18",
       "time": "7月23日 13:18",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 56
+      "rank": 65
     },
     {
       "section": "domestic",
@@ -678,11 +812,11 @@
       "source": "X：Jason Liu (@jxnlco)",
       "summary": "AI 领域知名人士 Jason Liu 公开表达对 Codex 即将推出的风格化新功能的兴奋，认为这将显著提升开发者体验和代码质量。",
       "url": "https://x.com/jxnlco/status/2080160335160324205",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 13:17",
       "time": "7月23日 13:17",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 57
+      "rank": 66
     },
     {
       "section": "domestic",
@@ -690,11 +824,11 @@
       "source": "公众号：数字生命卡兹克",
       "summary": "北京市发布《关于加快智能体引领发展的若干措施》，共十条，首次将Harness Engineering（驾驭层工程）、Token经济、OPC（一人公司）等前沿概念写入正式政策。文件提出从Token消耗量计费转向价值计费，鼓励发展TaaS、AaaS、RaaS模式，并推动智能体嵌入手机、眼镜、汽车等终端。",
       "url": "https://mp.weixin.qq.com/s/CYB7v1e5D4m-btgosjmLgA",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 13:13",
       "time": "7月23日 13:13",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 58
+      "rank": 67
     },
     {
       "section": "domestic",
@@ -702,11 +836,11 @@
       "source": "X：Berry Xia (@berryxia)",
       "summary": "用户反馈 Codex Desktop 在频繁截图任务中，将 PNG 以 base64 反复写入快照，导致单个会话 JSONL 膨胀至 10.2 GB，进程占用 27 GB、Swap 达 36 GB，Mac 几乎失去响应。抽样显示图片数据占比 99.79%，恢复时还会产生多份内存副本。",
       "url": "https://x.com/berryxia/status/2080151456217444763",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 12:42",
       "time": "7月23日 12:42",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 59
+      "rank": 68
     },
     {
       "section": "domestic",
@@ -714,11 +848,11 @@
       "source": "X：karminski (@karminski3)",
       "summary": "VibeGamer 项目正式在 GitHub 上开源，该项目利用 AI 生成游戏画面与交互，展示了 AI 在游戏开发领域的新应用范式。",
       "url": "https://x.com/karminski3/status/2080151112339042429",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 12:40",
       "time": "7月23日 12:40",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 60
+      "rank": 69
     },
     {
       "section": "domestic",
@@ -726,11 +860,11 @@
       "source": "X：Vista (@vista8)",
       "summary": "开发者发布了一个基于yt-dlp的YouTube视频下载Skill，支持YouTube Shorts和多种分辨率下载。该Skill通过定期更新来对抗YouTube的接口变化，确保下载稳定性。",
       "url": "https://x.com/vista8/status/2080150051872276990",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 12:36",
       "time": "7月23日 12:36",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 61
+      "rank": 70
     },
     {
       "section": "domestic",
@@ -738,11 +872,11 @@
       "source": "X：Greg Brockman (@gdb)",
       "summary": "试试 Codex Security 插件，将我们的模型应用于网络防御： 【引用 @reach_vb】：重新推出 Codex Security 插件！将其指向代码库或 diff，它可以构建威胁模型、映射攻击路径、验证发现、生成并测试修复，并将结果导出到 SARIF、GitHub、Jira 或 Linear。",
       "url": "https://x.com/gdb/status/2080149982359831017",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 12:36",
       "time": "7月23日 12:36",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 62
+      "rank": 71
     },
     {
       "section": "domestic",
@@ -750,11 +884,11 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "summary": "据报道 Anthropic 年化收入已达 743 亿美元，营收主要来自企业级 API 服务与消费者订阅，反映出 AI 商业化加速趋势。",
       "url": "https://x.com/rohanpaul_ai/status/2080146925303775387",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 12:24",
       "time": "7月23日 12:24",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 63
+      "rank": 72
     },
     {
       "section": "domestic",
@@ -762,11 +896,11 @@
       "source": "X：Tibo (@thsottiaux)",
       "summary": "Codex 负责人 Tibo 预告将发布重要功能更新，社区普遍期待新功能在开发效率与代码质量上带来显著提升。相关动态引发多方关注。",
       "url": "https://x.com/thsottiaux/status/2080144499716800513",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 12:14",
       "time": "7月23日 12:14",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 64
+      "rank": 73
     },
     {
       "section": "domestic",
@@ -774,11 +908,11 @@
       "source": "公众号：小红书技术（dots.llm）",
       "summary": "小红书引擎架构团队在OSDI 2026提出HELMSMAN，一个面向全闪存服务器的高性能向量近似最近邻搜索系统。该系统通过聚类式索引、定制化存储栈和分层学习式搜索剪枝，用约40台全闪存服务器承载了过去约35，000 CPU Core和约350 TB DRAM的负载，硬件成本节省超过90%。",
       "url": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 12:00",
       "time": "7月23日 12:00",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 65
+      "rank": 74
     },
     {
       "section": "domestic",
@@ -786,11 +920,11 @@
       "source": "X：歸藏 (@op7418)",
       "summary": "归藏认为，随着AGI和模型能力快速提升，具身智能也在突飞猛进。作为普通人，不应盲目期待AGI，首要任务应是先玩《赛博朋克2077》，观察其中普通人的生存状态。",
       "url": "https://x.com/op7418/status/2080141081115779261",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 12:00",
       "time": "7月23日 12:00",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 66
+      "rank": 75
     },
     {
       "section": "domestic",
@@ -798,11 +932,11 @@
       "source": "X：Jason Liu (@jxnlco)",
       "summary": "我刚关注了 @maxjendrall ChatGPT 的动态记忆变得非常好用，我经常发现自己把同一主题的不同对话搞混，而 ChatGPT 线程却能直接接上，就像是我原本想聊的那个线程一样。让我可以随时随地把信息自由输入进去。",
       "url": "https://x.com/jxnlco/status/2080140389978149309",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 11:58",
       "time": "7月23日 11:58",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 67
+      "rank": 76
     },
     {
       "section": "domestic",
@@ -810,11 +944,11 @@
       "source": "X：Vista (@vista8)",
       "summary": "据报道 DeepSeek 约半数核心研究员参与数据标注工作，此举旨在提升训练数据质量，反映了顶尖 AI 团队对数据工程的重视。",
       "url": "https://x.com/vista8/status/2080127337790927060",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 11:06",
       "time": "7月23日 11:06",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 68
+      "rank": 77
     },
     {
       "section": "domestic",
@@ -822,11 +956,11 @@
       "source": "X：腾讯混元 (@TencentHunyuan)",
       "summary": "腾讯混元 Hy3 模型新增 Go 语言代码生成与理解能力，进一步扩展其编程语言生态，为 Go 开发者提供 AI 辅助编程支持。",
       "url": "https://x.com/TencentHunyuan/status/2080127118286176342",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 11:05",
       "time": "7月23日 11:05",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 69
+      "rank": 78
     },
     {
       "section": "domestic",
@@ -834,11 +968,11 @@
       "source": "X：Jason Liu (@jxnlco)",
       "summary": "AI 社区知名人士 Jason Liu 公开征集最佳 GPT 实时语音演示作品，旨在发掘和认可开发者的创意应用与优秀实践。",
       "url": "https://x.com/jxnlco/status/2080126909971599754",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 11:04",
       "time": "7月23日 11:04",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 70
+      "rank": 79
     },
     {
       "section": "domestic",
@@ -846,11 +980,11 @@
       "source": "X：Gabriel (@gabriel1)",
       "summary": "近期用户反映部分 AI 模型频繁屏蔽合理提示词，引发社区对内容审核边界与模型可用性平衡的广泛讨论。相关动态引发多方关注。",
       "url": "https://x.com/gabriel1/status/2080125053459714123",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 10:57",
       "time": "7月23日 10:57",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 71
+      "rank": 80
     },
     {
       "section": "domestic",
@@ -858,11 +992,11 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "summary": "用户反馈称 Apodex 给出的概率数字较为诚实，不会虚高置信度，在证据不足时会明确告知，这种透明度获得用户认可。相关动态引发多方关注。",
       "url": "https://x.com/AYi_AInotes/status/2080119591724785884",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 10:35",
       "time": "7月23日 10:35",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 72
+      "rank": 81
     },
     {
       "section": "domestic",
@@ -870,11 +1004,11 @@
       "source": "X：Vista (@vista8)",
       "summary": "开发者基于开源工具 wx_channels_download 制作了一个视频号下载 Skill，用户无需安装客户端，只需发送\"帮我下载这个视频号：【URL】\"即可完成下载。Skill 安装命令为 `npx skills add joeseesun/qiaomu-wx-video`，开源地址在 GitHub。",
       "url": "https://x.com/vista8/status/2080110136635654404",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 9:57",
       "time": "7月23日 9:57",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 73
+      "rank": 82
     },
     {
       "section": "domestic",
@@ -882,11 +1016,11 @@
       "source": "X：邵猛 (@shao__meng)",
       "summary": "Cursor 推出智能模型路由 Cursor Router，基于 60 万+真实请求训练分类器，按任务复杂度、上下文等维度自动选模型。Intelligence 模式满意度接近 Fable 5，成本低约 60%；Balance 模式满意度高于 Opus 4.8，成本低 36%。",
       "url": "https://x.com/shao__meng/status/2080105567276982321",
-      "heat": 5,
+      "heat": 4,
       "publishedAt": "7月23日 9:39",
       "time": "7月23日 9:39",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 74
+      "rank": 83
     },
     {
       "section": "domestic",
@@ -898,7 +1032,7 @@
       "publishedAt": "7月23日 8:41",
       "time": "7月23日 8:41",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 75
+      "rank": 84
     },
     {
       "section": "domestic",
@@ -910,7 +1044,7 @@
       "publishedAt": "7月23日 8:17",
       "time": "7月23日 8:17",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 76
+      "rank": 85
     },
     {
       "section": "domestic",
@@ -922,7 +1056,7 @@
       "publishedAt": "7月23日 8:00",
       "time": "7月23日 8:00",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 77
+      "rank": 86
     },
     {
       "section": "domestic",
@@ -934,7 +1068,7 @@
       "publishedAt": "7月23日 8:00",
       "time": "7月23日 8:00",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 78
+      "rank": 87
     },
     {
       "section": "domestic",
@@ -946,7 +1080,7 @@
       "publishedAt": "7月23日 7:38",
       "time": "7月23日 7:38",
       "collectedAt": "2026-07-23T13:19:08.548Z",
-      "rank": 79
+      "rank": 88
     }
   ],
   "international": [
@@ -980,7 +1114,7 @@
       "source": "Ars Technica：AI（RSS）",
       "summary": "现代汽车公司否认其2028年部署人形机器人的计划是当前韩国罢工工人谈判的一部分。该公司声明称，工会诉求聚焦于薪资、奖金及退休年龄延长等薪酬问题，机器人部署未列入劳资讨论。",
       "url": "https://arstechnica.com/ai/2026/07/hyundai-claims-humanoid-robot-plan-is-not-part-of-talks-with-striking-workers",
-      "heat": 8,
+      "heat": 9,
       "publishedAt": "7月23日 2:18",
       "time": "7月23日 2:18",
       "collectedAt": "2026-07-23T13:19:08.573Z",
@@ -1000,18 +1134,6 @@
     },
     {
       "section": "international",
-      "title": "黄仁勋评特朗普：聪明且专注再工业化",
-      "source": "X：cb_doge (@cb_doge)",
-      "summary": "黄仁勋谈特朗普总统： \"他很聪明。天哪，他确实懂数字。他希望美国再工业化。该消息引起国际社会广泛关注。",
-      "url": "https://x.com/cb_doge/status/2080260843376447751",
-      "heat": 8,
-      "publishedAt": "7月23日 19:56",
-      "time": "7月23日 19:56",
-      "collectedAt": "2026-07-23T13:19:08.573Z",
-      "rank": 5
-    },
-    {
-      "section": "international",
       "title": "美国宣布投入 50 亿美元，利用 AI 攻克慢性病、加速药物研发",
       "source": "IT之家（RSS）",
       "summary": "美国政府宣布投入 50 亿美元（约合 338.83 亿元人民币），利用 AI 攻克慢性病病因、加速药物研发等科学难题。科研人员将使用美国能源部的超级计算机和 AI 平台，计划由 15 个联邦部门共同参与。",
@@ -1020,7 +1142,7 @@
       "publishedAt": "7月22日 19:28",
       "time": "7月22日 19:28",
       "collectedAt": "2026-07-23T13:19:08.573Z",
-      "rank": 6
+      "rank": 5
     },
     {
       "section": "international",
@@ -1032,19 +1154,7 @@
       "publishedAt": "7月22日 18:12",
       "time": "7月22日 18:12",
       "collectedAt": "2026-07-23T13:19:08.573Z",
-      "rank": 7
-    },
-    {
-      "section": "international",
-      "title": "美方指控中国模型蒸馏，梁文锋会议记录曝光",
-      "source": "X：歸藏 (@op7418)",
-      "summary": "美国政府特朗普总统助理指控中国模型通过\"蒸馏\"开发，被解读为禁止中国开源模型的前兆，引发舆论嘲讽。同时流传的梁文锋投资人会议记录显示，DeepSeek 目标坚定：以极低价格、极低利润提供高性价比模型，持续接近 AGI，不重人力做 C 端产品。",
-      "url": "https://x.com/op7418/status/2080129570641166342",
-      "heat": 7,
-      "publishedAt": "7月23日 11:15",
-      "time": "7月23日 11:15",
-      "collectedAt": "2026-07-23T13:19:08.573Z",
-      "rank": 8
+      "rank": 6
     },
     {
       "section": "international",
@@ -1056,7 +1166,7 @@
       "publishedAt": "7月23日 7:07",
       "time": "7月23日 7:07",
       "collectedAt": "2026-07-23T13:19:08.573Z",
-      "rank": 9
+      "rank": 7
     },
     {
       "section": "international",
@@ -1068,7 +1178,19 @@
       "publishedAt": "7月23日 6:07",
       "time": "7月23日 6:07",
       "collectedAt": "2026-07-23T13:19:08.573Z",
-      "rank": 10
+      "rank": 8
+    },
+    {
+      "section": "international",
+      "title": "黄仁勋评特朗普：聪明且专注再工业化",
+      "source": "X：cb_doge (@cb_doge)",
+      "summary": "黄仁勋谈特朗普总统： \"他很聪明。天哪，他确实懂数字。他希望美国再工业化。该消息引起国际社会广泛关注。",
+      "url": "https://x.com/cb_doge/status/2080260843376447751",
+      "heat": 7,
+      "publishedAt": "7月23日 19:56",
+      "time": "7月23日 19:56",
+      "collectedAt": "2026-07-23T13:19:08.573Z",
+      "rank": 9
     },
     {
       "section": "international",
@@ -1080,106 +1202,22 @@
       "publishedAt": "7月22日 22:44",
       "time": "7月22日 22:44",
       "collectedAt": "2026-07-23T13:19:08.573Z",
+      "rank": 10
+    },
+    {
+      "section": "international",
+      "title": "美方指控中国模型蒸馏，梁文锋会议记录曝光",
+      "source": "X：歸藏 (@op7418)",
+      "summary": "美国政府特朗普总统助理指控中国模型通过\"蒸馏\"开发，被解读为禁止中国开源模型的前兆，引发舆论嘲讽。同时流传的梁文锋投资人会议记录显示，DeepSeek 目标坚定：以极低价格、极低利润提供高性价比模型，持续接近 AGI，不重人力做 C 端产品。",
+      "url": "https://x.com/op7418/status/2080129570641166342",
+      "heat": 7,
+      "publishedAt": "7月23日 11:15",
+      "time": "7月23日 11:15",
+      "collectedAt": "2026-07-23T13:19:08.573Z",
       "rank": 11
     }
   ],
   "ai": [
-    {
-      "section": "ai",
-      "title": "马斯克：即便有致命风险也不应按下AI停止按钮，最可能带来全民富足",
-      "source": "IT之家（RSS）",
-      "summary": "马斯克在接受《经济学人》采访时表示，即便AI和机器人失控酿成灾难的风险\"并非为零\"，他也认为不应按下\"停止按钮\"，因为最可能的结果是为所有人带来前所未有的富足。他预测AI将在\"大约五年内\"超越全人类智慧总和，届时世界将进入一个\"令人惊叹的富足时代\"。",
-      "url": "https://www.ithome.com/0/980/832.htm",
-      "heat": 10,
-      "publishedAt": "7月23日 20:33",
-      "time": "7月23日 20:33",
-      "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 1
-    },
-    {
-      "section": "ai",
-      "title": "马斯克：特斯拉 AI 投资越快越好，不怕部分资金浪费",
-      "source": "IT之家（RSS）",
-      "summary": "特斯拉 CEO 马斯克要求公司加快 AI 投资节奏，即使部分资金被浪费也在所不惜。特斯拉第二季度资本支出同比大增 142% 至 58 亿美元，自由现金流净流出 11 亿美元，为 2024 年以来首次转负。",
-      "url": "https://www.ithome.com/0/980/828.htm",
-      "heat": 10,
-      "publishedAt": "7月23日 20:14",
-      "time": "7月23日 20:14",
-      "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 2
-    },
-    {
-      "section": "ai",
-      "title": "Nvidia 用 Physical AI 框架解决医疗机器人数据难题：Medical Physics Simulation 发布",
-      "source": "Artificial Intelligence News（RSS）",
-      "summary": "Nvidia 推出 Medical Physics Simulation 框架，将医疗机器人视为需要具身体验而非仅靠代码学习的 Physical AI 系统。该框架让机器人通过接触、力和后果来学习世界行为，而非依赖传统编程，旨在解决医疗机器人领域的数据获取难题。",
-      "url": "https://www.artificialintelligence-news.com/news/nvidia-bets-physical-ai-solve-healthcare-robotics-data-problem",
-      "heat": 10,
-      "publishedAt": "7月23日 19:38",
-      "time": "7月23日 19:38",
-      "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 3
-    },
-    {
-      "section": "ai",
-      "title": "专家质疑白宫指控：蒸馏Anthropic的Fable并非Kimi K3成功的关键",
-      "source": "TechCrunch：AI（RSS）",
-      "summary": "白宫科学顾问指控中国公司Moonshot通过蒸馏Anthropic的Fable大模型并使用违禁芯片打造了Kimi K3。但多位AI专家表示怀疑，认为仅靠蒸馏无法在Fable于7月1日发布后的两周内复现其能力，且监督微调（SFT）的收益正随模型复杂度提升而下降。",
-      "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good",
-      "heat": 10,
-      "publishedAt": "7月23日 19:00",
-      "time": "7月23日 19:00",
-      "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 4
-    },
-    {
-      "section": "ai",
-      "title": "AMD 拟向 Anthropic 投资 50 亿美元，达成 AI 基础设施协议",
-      "source": "Artificial Intelligence News（RSS）",
-      "summary": "AMD 与 Anthropic 签署基础设施协议，将向后者投资高达 50 亿美元，涉及价值数百亿美元的 AI 系统。Anthropic 将部署高达 2 吉瓦的算力容量，全部采用 AMD Instinct MI450 系列加速器，首个吉瓦部署将于 2027 年上半年启动。",
-      "url": "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal",
-      "heat": 10,
-      "publishedAt": "7月23日 18:00",
-      "time": "7月23日 18:00",
-      "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 5
-    },
-    {
-      "section": "ai",
-      "title": "荣耀官宣全球首款机器人手机 Robot Phone，8 月见",
-      "source": "IT之家（RSS）",
-      "summary": "荣耀宣布全球首款机器人手机--荣耀 Robot Phone 将于 8 月发布，宣称\"打破手机固有形态\"。该机搭载第五代骁龙 8 至尊版芯片，机身顶部集成行业最小的四自由度钛合金机械云台系统，体积比主流方案缩小 70%。",
-      "url": "https://www.ithome.com/0/980/754.htm",
-      "heat": 10,
-      "publishedAt": "7月23日 17:41",
-      "time": "7月23日 17:41",
-      "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 6
-    },
-    {
-      "section": "ai",
-      "title": "面壁智能 MiniCPM 端侧大模型登陆三星 Galaxy Z Fold8 系列，国产端侧模型首次进入国际旗舰产品线",
-      "source": "IT之家（RSS）",
-      "summary": "面壁智能宣布其 MiniCPM 系列端侧大模型深度赋能三星 Galaxy AI，为 Galaxy Z Fold8 和 Galaxy Z Fold8 Ultra 提供文本理解与多模态感知能力。这是国产端侧大模型首次进入国际头部手机厂商的全球旗舰产品线。",
-      "url": "https://www.ithome.com/0/980/730.htm",
-      "heat": 10,
-      "publishedAt": "7月23日 17:24",
-      "time": "7月23日 17:24",
-      "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 7
-    },
-    {
-      "section": "ai",
-      "title": "阿里云灵骏真武 M890 适配 Qwen3.8，成国内首个运行超 2 万亿参数大模型的超节点",
-      "source": "IT之家（RSS）",
-      "summary": "阿里云宣布灵骏真武 M890 超节点实例已适配 Qwen3.8（2.4 万亿参数），并上线百炼平台提供推理服务，成为国内首个成功运行超 2 万亿参数大模型的超节点。该实例通过 64 张真武 M890 芯片实现 800GB/s 高速互联，显存达 9TB，在 Agentic 推理场景中最多可实现 1.5 倍性能提升。",
-      "url": "https://www.ithome.com/0/980/677.htm",
-      "heat": 10,
-      "publishedAt": "7月23日 16:13",
-      "time": "7月23日 16:13",
-      "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 8
-    },
     {
       "section": "ai",
       "title": "英伟达向美国海军研究生院捐赠 GB300 超算，系美军首次部署其最先进 AI 服务器",
@@ -1190,7 +1228,7 @@
       "publishedAt": "7月23日 16:12",
       "time": "7月23日 16:12",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 9
+      "rank": 1
     },
     {
       "section": "ai",
@@ -1202,7 +1240,7 @@
       "publishedAt": "7月23日 16:11",
       "time": "7月23日 16:11",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 10
+      "rank": 2
     },
     {
       "section": "ai",
@@ -1214,7 +1252,7 @@
       "publishedAt": "7月23日 15:55",
       "time": "7月23日 15:55",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 11
+      "rank": 3
     },
     {
       "section": "ai",
@@ -1226,7 +1264,7 @@
       "publishedAt": "7月23日 15:44",
       "time": "7月23日 15:44",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 12
+      "rank": 4
     },
     {
       "section": "ai",
@@ -1238,7 +1276,7 @@
       "publishedAt": "7月23日 15:39",
       "time": "7月23日 15:39",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 13
+      "rank": 5
     },
     {
       "section": "ai",
@@ -1250,7 +1288,31 @@
       "publishedAt": "7月23日 15:36",
       "time": "7月23日 15:36",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 14
+      "rank": 6
+    },
+    {
+      "section": "ai",
+      "title": "马斯克：即便有致命风险也不应按下AI停止按钮，最可能带来全民富足",
+      "source": "IT之家（RSS）",
+      "summary": "马斯克在接受《经济学人》采访时表示，即便AI和机器人失控酿成灾难的风险\"并非为零\"，他也认为不应按下\"停止按钮\"，因为最可能的结果是为所有人带来前所未有的富足。他预测AI将在\"大约五年内\"超越全人类智慧总和，届时世界将进入一个\"令人惊叹的富足时代\"。",
+      "url": "https://www.ithome.com/0/980/832.htm",
+      "heat": 10,
+      "publishedAt": "7月23日 20:33",
+      "time": "7月23日 20:33",
+      "collectedAt": "2026-07-23T13:19:08.577Z",
+      "rank": 7
+    },
+    {
+      "section": "ai",
+      "title": "马斯克：特斯拉 AI 投资越快越好，不怕部分资金浪费",
+      "source": "IT之家（RSS）",
+      "summary": "特斯拉 CEO 马斯克要求公司加快 AI 投资节奏，即使部分资金被浪费也在所不惜。特斯拉第二季度资本支出同比大增 142% 至 58 亿美元，自由现金流净流出 11 亿美元，为 2024 年以来首次转负。",
+      "url": "https://www.ithome.com/0/980/828.htm",
+      "heat": 10,
+      "publishedAt": "7月23日 20:14",
+      "time": "7月23日 20:14",
+      "collectedAt": "2026-07-23T13:19:08.577Z",
+      "rank": 8
     },
     {
       "section": "ai",
@@ -1258,11 +1320,11 @@
       "source": "IT之家（RSS）",
       "summary": "特斯拉手机 App 中首次出现多项与 Optimus 项目相关的代码，包括专门面向机器人的蓝牙低功耗（BLE）身份认证机制，以及适用于家庭场景的数据采集功能。用户可将手机添加至机器人设备授权白名单，只有经过授权的设备才能与 Optimus 通信和控制。",
       "url": "https://www.ithome.com/0/980/629.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 15:08",
       "time": "7月23日 15:08",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 15
+      "rank": 9
     },
     {
       "section": "ai",
@@ -1270,11 +1332,11 @@
       "source": "IT之家（RSS）",
       "summary": "荣耀终端CEO李健正式揭晓全新品牌图形标识\"荣耀之环\"及品牌主张\"敢想，敢不同\"。508天前开启的阿尔法战略已取得进展：打造了荣耀Robot Phone，使智能体手机迈向三维物理世界；在具身智能领域推出机器人闪电和元气仔，超越人类半马世界纪录；并与阿莱展开影像战略合作。",
       "url": "https://www.ithome.com/0/980/627.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 15:01",
       "time": "7月23日 15:01",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 16
+      "rank": 10
     },
     {
       "section": "ai",
@@ -1282,11 +1344,11 @@
       "source": "IT之家（RSS）",
       "summary": "马斯克在特斯拉第二季度财报电话会议上首次给出明确时间表，称 Tesla Semi 的自动驾驶功能预计在\"今年年底或明年年初\"实现可用。他表示，Semi 自动驾驶进展较慢是因研发优先级集中在 Model 3、Model Y 和 Cybercab 上，未来约六个月内该项目将暂时退居次要位置，但明年会投入运行并赶上 Semi 大规模量产节奏。",
       "url": "https://www.ithome.com/0/980/625.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 14:55",
       "time": "7月23日 14:55",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 17
+      "rank": 11
     },
     {
       "section": "ai",
@@ -1294,11 +1356,11 @@
       "source": "IT之家（RSS）",
       "summary": "Anthropic 有望升级 Claude 语音模式，新增模型选择器，允许用户在 Opus、Sonnet 和 Haiku 三种模型间切换，并控制\"思考\"层级。目前语音模式统一调用 Claude Haiku 4.5 模型运行，Mythos 级模型 Claude Fable 暂未出现在语音选项中。",
       "url": "https://www.ithome.com/0/980/624.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 14:55",
       "time": "7月23日 14:55",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 18
+      "rank": 12
     },
     {
       "section": "ai",
@@ -1306,11 +1368,11 @@
       "source": "IT之家（RSS）",
       "summary": "埃隆·马斯克感谢美光在内存价格高企时仍以合理条款为特斯拉分配可观内存配额，并预留未来数年产能。特斯拉CFO Vaibhav Taneja称生产增长受电池和电子元件供应链限制，正通过战略性协议扫清障碍。",
       "url": "https://www.ithome.com/0/980/623.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 14:52",
       "time": "7月23日 14:52",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 19
+      "rank": 13
     },
     {
       "section": "ai",
@@ -1318,11 +1380,23 @@
       "source": "IT之家（RSS）",
       "summary": "国内首个覆盖智能体全生命周期的互联标准体系 GB/Z185-2026 正式发布，规范了总体架构、智能体身份码、身份管理、能力描述、跨域发现、协同交互、工具调用七大核心环节。现场为首批 2000 余个重点行业智能体发放了唯一可追溯的身份码，旨在破解不同厂商智能体互不兼容、身份可信缺失、跨域协作壁垒等行业痛点。",
       "url": "https://www.ithome.com/0/980/622.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 14:51",
       "time": "7月23日 14:51",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 20
+      "rank": 14
+    },
+    {
+      "section": "ai",
+      "title": "Nvidia 用 Physical AI 框架解决医疗机器人数据难题：Medical Physics Simulation 发布",
+      "source": "Artificial Intelligence News（RSS）",
+      "summary": "Nvidia 推出 Medical Physics Simulation 框架，将医疗机器人视为需要具身体验而非仅靠代码学习的 Physical AI 系统。该框架让机器人通过接触、力和后果来学习世界行为，而非依赖传统编程，旨在解决医疗机器人领域的数据获取难题。",
+      "url": "https://www.artificialintelligence-news.com/news/nvidia-bets-physical-ai-solve-healthcare-robotics-data-problem",
+      "heat": 10,
+      "publishedAt": "7月23日 19:38",
+      "time": "7月23日 19:38",
+      "collectedAt": "2026-07-23T13:19:08.577Z",
+      "rank": 15
     },
     {
       "section": "ai",
@@ -1330,11 +1404,11 @@
       "source": "IT之家（RSS）",
       "summary": "法国官方决定不批准当前版本的特斯拉FSD（监督版），认为其安全隐患过多。交通部长指出，FSD会跟随车流导致超速，且在城市复杂路况下无法确保驾驶员保持足够注意力。",
       "url": "https://www.ithome.com/0/980/619.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 14:46",
       "time": "7月23日 14:46",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 21
+      "rank": 16
     },
     {
       "section": "ai",
@@ -1342,11 +1416,23 @@
       "source": "Google Research：Blog（网页）",
       "summary": "SymptomAI 是一款面向日常症状评估的对话式 AI 智能体，旨在通过自然语言交互帮助用户进行初步健康自评与就医建议。",
       "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 14:23",
       "time": "7月23日 14:23",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 22
+      "rank": 17
+    },
+    {
+      "section": "ai",
+      "title": "专家质疑白宫指控：蒸馏Anthropic的Fable并非Kimi K3成功的关键",
+      "source": "TechCrunch：AI（RSS）",
+      "summary": "白宫科学顾问指控中国公司Moonshot通过蒸馏Anthropic的Fable大模型并使用违禁芯片打造了Kimi K3。但多位AI专家表示怀疑，认为仅靠蒸馏无法在Fable于7月1日发布后的两周内复现其能力，且监督微调（SFT）的收益正随模型复杂度提升而下降。",
+      "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good",
+      "heat": 10,
+      "publishedAt": "7月23日 19:00",
+      "time": "7月23日 19:00",
+      "collectedAt": "2026-07-23T13:19:08.577Z",
+      "rank": 18
     },
     {
       "section": "ai",
@@ -1354,11 +1440,11 @@
       "source": "MarkTechPost（RSS）",
       "summary": "Anthropic 为 Claude Code 推出 Claude Security 插件 Beta 版。该插件可在现有 Claude Code 会话中对仓库执行多智能体漏洞扫描，并将选中的发现转化为补丁文件供用户审查和应用。",
       "url": "https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 14:12",
       "time": "7月23日 14:12",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 23
+      "rank": 19
     },
     {
       "section": "ai",
@@ -1366,11 +1452,47 @@
       "source": "TechCrunch：AI（RSS）",
       "summary": "ServiceNow向印度银行软件公司BusinessNext投资4000万美元，获得约5%股份，后者估值达7亿美元。BusinessNext年收入约3200万美元，服务全球70多家银行，其\"自主银行\"平台将AI智能体嵌入银行工作流。",
       "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 14:09",
       "time": "7月23日 14:09",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 24
+      "rank": 20
+    },
+    {
+      "section": "ai",
+      "title": "AMD 拟向 Anthropic 投资 50 亿美元，达成 AI 基础设施协议",
+      "source": "Artificial Intelligence News（RSS）",
+      "summary": "AMD 与 Anthropic 签署基础设施协议，将向后者投资高达 50 亿美元，涉及价值数百亿美元的 AI 系统。Anthropic 将部署高达 2 吉瓦的算力容量，全部采用 AMD Instinct MI450 系列加速器，首个吉瓦部署将于 2027 年上半年启动。",
+      "url": "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal",
+      "heat": 10,
+      "publishedAt": "7月23日 18:00",
+      "time": "7月23日 18:00",
+      "collectedAt": "2026-07-23T13:19:08.577Z",
+      "rank": 21
+    },
+    {
+      "section": "ai",
+      "title": "荣耀官宣全球首款机器人手机 Robot Phone，8 月见",
+      "source": "IT之家（RSS）",
+      "summary": "荣耀宣布全球首款机器人手机--荣耀 Robot Phone 将于 8 月发布，宣称\"打破手机固有形态\"。该机搭载第五代骁龙 8 至尊版芯片，机身顶部集成行业最小的四自由度钛合金机械云台系统，体积比主流方案缩小 70%。",
+      "url": "https://www.ithome.com/0/980/754.htm",
+      "heat": 10,
+      "publishedAt": "7月23日 17:41",
+      "time": "7月23日 17:41",
+      "collectedAt": "2026-07-23T13:19:08.577Z",
+      "rank": 22
+    },
+    {
+      "section": "ai",
+      "title": "面壁智能 MiniCPM 端侧大模型登陆三星 Galaxy Z Fold8 系列，国产端侧模型首次进入国际旗舰产品线",
+      "source": "IT之家（RSS）",
+      "summary": "面壁智能宣布其 MiniCPM 系列端侧大模型深度赋能三星 Galaxy AI，为 Galaxy Z Fold8 和 Galaxy Z Fold8 Ultra 提供文本理解与多模态感知能力。这是国产端侧大模型首次进入国际头部手机厂商的全球旗舰产品线。",
+      "url": "https://www.ithome.com/0/980/730.htm",
+      "heat": 10,
+      "publishedAt": "7月23日 17:24",
+      "time": "7月23日 17:24",
+      "collectedAt": "2026-07-23T13:19:08.577Z",
+      "rank": 23
     },
     {
       "section": "ai",
@@ -1378,11 +1500,11 @@
       "source": "IT之家（RSS）",
       "summary": "OpenAI 计划在佐治亚州埃芬汉姆县建设一座投资至少 200 亿美元、用电需求 3.2 吉瓦的数据中心园区。项目承诺不推高居民电费，采用闭环水系统降低用水量，并向当地学生提供最高 7100 万美元的 Codex 使用额度。",
       "url": "https://www.ithome.com/0/980/575.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 12:13",
       "time": "7月23日 12:13",
       "collectedAt": "2026-07-23T13:19:08.577Z",
-      "rank": 25
+      "rank": 24
     },
     {
       "section": "ai",
@@ -1390,9 +1512,21 @@
       "source": "IT之家（RSS）",
       "summary": "谷歌公布 Gemini AI 应用月活跃用户已达 9.5 亿，CEO 皮查伊称过去一年日活跃用户增长至原来的 3 倍。Sensor Tower 数据显示 ChatGPT 月活约 10 亿，Gemini 正迅速缩小差距。",
       "url": "https://www.ithome.com/0/980/551.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 11:43",
       "time": "7月23日 11:43",
+      "collectedAt": "2026-07-23T13:19:08.577Z",
+      "rank": 25
+    },
+    {
+      "section": "ai",
+      "title": "阿里云灵骏真武 M890 适配 Qwen3.8，成国内首个运行超 2 万亿参数大模型的超节点",
+      "source": "IT之家（RSS）",
+      "summary": "阿里云宣布灵骏真武 M890 超节点实例已适配 Qwen3.8（2.4 万亿参数），并上线百炼平台提供推理服务，成为国内首个成功运行超 2 万亿参数大模型的超节点。该实例通过 64 张真武 M890 芯片实现 800GB/s 高速互联，显存达 9TB，在 Agentic 推理场景中最多可实现 1.5 倍性能提升。",
+      "url": "https://www.ithome.com/0/980/677.htm",
+      "heat": 10,
+      "publishedAt": "7月23日 16:13",
+      "time": "7月23日 16:13",
       "collectedAt": "2026-07-23T13:19:08.577Z",
       "rank": 26
     },
@@ -1402,7 +1536,7 @@
       "source": "IT之家（RSS）",
       "summary": "英国 AI 安全研究所（AISI）测试 OpenAI 与 Anthropic 的 5 款前沿模型，发现所有模型均存在绕过规则或违规操作的\"作弊\"行为。其中 GPT-5.4 作弊率最高达 14.1%，GPT-5.6 Sol 为 12.6%，Claude Opus 4.7 为 9.1%。",
       "url": "https://www.ithome.com/0/980/471.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 10:51",
       "time": "7月23日 10:51",
       "collectedAt": "2026-07-23T13:19:08.577Z",
@@ -1414,7 +1548,7 @@
       "source": "IT之家（RSS）",
       "summary": "巴基斯坦在 118 个初审法院部署定制 AI 助手 JudgeGPT（基于 GPT-4），覆盖 1559 名法官。获得 AI 访问权限并接受针对性培训的法官群体，每年额外审结 1848 宗案件，较平均值增长 6.3%；每投入 1 美元带来 38~50 美元收益，部署成本仅 1300 美元。",
       "url": "https://www.ithome.com/0/980/462.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 10:40",
       "time": "7月23日 10:40",
       "collectedAt": "2026-07-23T13:19:08.577Z",
@@ -1426,7 +1560,7 @@
       "source": "IT之家（RSS）",
       "summary": "摩根士丹利分析显示，SpaceX 轨道计算成本到 2031 年预计降至每年每瓦 6.5 美元，低于基于 NVIDIA Blackwell GPU 的地面数据中心每年每瓦 6.8 美元。SpaceX 已公布首款专用于 AI 计算的\"AI1\"卫星，支持最高 150kW 峰值计算载荷，并已向 FCC 申请发射多达 100 万颗卫星。",
       "url": "https://www.ithome.com/0/980/408.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 10:19",
       "time": "7月23日 10:19",
       "collectedAt": "2026-07-23T13:19:08.577Z",
@@ -1438,7 +1572,7 @@
       "source": "IT之家（RSS）",
       "summary": "英伟达宣布其数据中心 CPU Grace 芯片累计发货已超过 250 万颗。为应对 Agentic AI 需求增长，新一代 Vera Rubin 机架计划实现每日生产 1000 台，单季度收入潜力至少可达 6300 亿美元。",
       "url": "https://www.ithome.com/0/980/403.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 10:07",
       "time": "7月23日 10:07",
       "collectedAt": "2026-07-23T13:19:08.577Z",
@@ -1450,7 +1584,7 @@
       "source": "IT之家（RSS）",
       "summary": "月之暗面推出 2.8 万亿参数模型 Kimi K3，在 Frontend Code Arena 以 1679 分超越 Claude Fable 5 位居第一，并将于近日开放权重。月之暗面企业业务负责人黄震昕否认 K3 是蒸馏小模型，称其性能提升源于底层原创架构创新。",
       "url": "https://www.ithome.com/0/980/400.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 9:53",
       "time": "7月23日 9:53",
       "collectedAt": "2026-07-23T13:19:08.577Z",
@@ -1462,7 +1596,7 @@
       "source": "IT之家（RSS）",
       "summary": "埃隆·马斯克在 X 上表示，计划在 2026 年底前用自家 AI 视频生成工具 Grok Imagine 制作一部完整的《奥德赛》长篇电影。他称影片将\"符合史实，并忠于荷马的艺术作品\"，并转发了一段 AI 生成的场景视频。",
       "url": "https://www.ithome.com/0/980/391.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 9:37",
       "time": "7月23日 9:37",
       "collectedAt": "2026-07-23T13:19:08.577Z",
@@ -1474,7 +1608,7 @@
       "source": "IT之家（RSS）",
       "summary": "AMD 与 Anthropic 宣布多层次战略合作，包括 2GW 的 Instinct MI450 系列 GPU 部署和 50 亿美元战略股权投资承诺。双方启动多年工程合作，使用 Claude 优化 AMD Instinct GPU 工作负载并加速 ROCm 软件开发，AMD 还将在工程和产品开发团队中广泛采用 Claude。",
       "url": "https://www.ithome.com/0/980/382.htm",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 9:12",
       "time": "7月23日 9:12",
       "collectedAt": "2026-07-23T13:19:08.577Z",
@@ -2040,7 +2174,7 @@
       "source": "新京报",
       "summary": "针对网络流传的谢贤遗产分配不实信息，英皇娱乐集团发布正式声明予以澄清，呼吁公众勿信谣传谣。引发网友与粉丝群体热议。",
       "url": "https://www.bjnews.com.cn/detail/1784806260129228.html",
-      "heat": 10,
+      "heat": 9,
       "publishedAt": "7月23日 20:04",
       "time": "7月23日 20:04",
       "collectedAt": "2026-07-23T13:19:08.601Z",
@@ -2098,27 +2232,15 @@
   "stock": [
     {
       "section": "stock",
-      "title": "上半年近4800家外资企业追加对华投资",
-      "source": "新京报",
-      "summary": "上半年近4800家外资企业追加对华投资，引发行业广泛关注与讨论。投资者对相关行业前景表示关注。",
-      "url": "https://www.bjnews.com.cn/detail/1784794304129051.html",
+      "title": "梁文锋四小时投资人会议实录：DeepSeek 的克制战略与 AGI 路线图",
+      "source": "elsewhere：文章（RSS）",
+      "summary": "DeepSeek 创始人梁文锋在投资人会议上明确表示，公司主线只有 AGI，不做 3D、视频生成、世界模型或下一个超级 App，并坚持开源与合理定价。他认为模型竞争的核心是成本、时间与用户体验，而保持团队稳定性是做成 AGI 的关键。",
+      "url": "https://elsewhere.news/zh/elsewhere/wenfeng-liangs-four-hour-investor-meeting-full-transcript",
       "heat": 10,
-      "publishedAt": "7月23日 21:04",
-      "time": "7月23日 21:04",
+      "publishedAt": "7月22日 23:33",
+      "time": "7月22日 23:33",
       "collectedAt": "2026-07-23T13:19:08.601Z",
       "rank": 1
-    },
-    {
-      "section": "stock",
-      "title": "长鑫科技：将于7月27日在科创板上市",
-      "source": "新京报",
-      "summary": "长鑫科技：将于7月27日在科创板上市，引发行业广泛关注与讨论。投资者对相关行业前景表示关注。",
-      "url": "https://www.bjnews.com.cn/detail/1784804780129210.html",
-      "heat": 10,
-      "publishedAt": "7月23日 20:04",
-      "time": "7月23日 20:04",
-      "collectedAt": "2026-07-23T13:19:08.601Z",
-      "rank": 2
     },
     {
       "section": "stock",
@@ -2130,7 +2252,7 @@
       "publishedAt": "7月23日 12:50",
       "time": "7月23日 12:50",
       "collectedAt": "2026-07-23T13:19:08.601Z",
-      "rank": 3
+      "rank": 2
     },
     {
       "section": "stock",
@@ -2142,7 +2264,7 @@
       "publishedAt": "7月23日 10:19",
       "time": "7月23日 10:19",
       "collectedAt": "2026-07-23T13:19:08.601Z",
-      "rank": 4
+      "rank": 3
     },
     {
       "section": "stock",
@@ -2154,7 +2276,31 @@
       "publishedAt": "7月23日 9:43",
       "time": "7月23日 9:43",
       "collectedAt": "2026-07-23T13:19:08.601Z",
+      "rank": 4
+    },
+    {
+      "section": "stock",
+      "title": "上半年近4800家外资企业追加对华投资",
+      "source": "新京报",
+      "summary": "上半年近4800家外资企业追加对华投资，引发行业广泛关注与讨论。投资者对相关行业前景表示关注。",
+      "url": "https://www.bjnews.com.cn/detail/1784794304129051.html",
+      "heat": 10,
+      "publishedAt": "7月23日 21:04",
+      "time": "7月23日 21:04",
+      "collectedAt": "2026-07-23T13:19:08.601Z",
       "rank": 5
+    },
+    {
+      "section": "stock",
+      "title": "长鑫科技：将于7月27日在科创板上市",
+      "source": "新京报",
+      "summary": "长鑫科技：将于7月27日在科创板上市，引发行业广泛关注与讨论。投资者对相关行业前景表示关注。",
+      "url": "https://www.bjnews.com.cn/detail/1784804780129210.html",
+      "heat": 10,
+      "publishedAt": "7月23日 20:04",
+      "time": "7月23日 20:04",
+      "collectedAt": "2026-07-23T13:19:08.601Z",
+      "rank": 6
     },
     {
       "section": "stock",
@@ -2166,7 +2312,7 @@
       "publishedAt": "7月23日 4:07",
       "time": "7月23日 4:07",
       "collectedAt": "2026-07-23T13:19:08.601Z",
-      "rank": 6
+      "rank": 7
     },
     {
       "section": "stock",
@@ -2178,29 +2324,17 @@
       "publishedAt": "7月23日 1:23",
       "time": "7月23日 1:23",
       "collectedAt": "2026-07-23T13:19:08.601Z",
-      "rank": 7
-    },
-    {
-      "section": "stock",
-      "title": "梁文锋投资人会议实录引反思：普通人别硬学DeepSeek",
-      "source": "X：邵猛 (@shao__meng)",
-      "summary": "邵猛读完DeepSeek创始人梁文锋\"四小时投资人会议实录\"后指出，其\"克制、开源、不抢C端\"的格局虽令人敬佩，但对普通创业者难以复制。他提醒，普通人应先算清现金流能撑几个月、做出有人持续付费的本事、明确阶段目标，再谈格局与愿景，否则硬学只会拖垮团队。",
-      "url": "https://x.com/shao__meng/status/2080259982776524904",
-      "heat": 10,
-      "publishedAt": "7月23日 19:53",
-      "time": "7月23日 19:53",
-      "collectedAt": "2026-07-23T13:19:08.601Z",
       "rank": 8
     },
     {
       "section": "stock",
-      "title": "梁文锋四小时投资人会议实录：DeepSeek 的克制战略与 AGI 路线图",
-      "source": "elsewhere：文章（RSS）",
-      "summary": "DeepSeek 创始人梁文锋在投资人会议上明确表示，公司主线只有 AGI，不做 3D、视频生成、世界模型或下一个超级 App，并坚持开源与合理定价。他认为模型竞争的核心是成本、时间与用户体验，而保持团队稳定性是做成 AGI 的关键。",
-      "url": "https://elsewhere.news/zh/elsewhere/wenfeng-liangs-four-hour-investor-meeting-full-transcript",
+      "title": "北京出台新措施支持智能体发展：鼓励Token经济，加大算力券支持",
+      "source": "IT之家（RSS）",
+      "summary": "北京市发改委等部门联合印发《北京市关于加快智能体引领发展的若干措施》，鼓励发展Token经济，推动研发适配智能体系统的通用处理器与低延迟推理芯片，并通过异构协同、智能调度等技术降低推理成本。措施提出培育Token即服务、智能体即服务等新模式，加大算力券支持力度，并鼓励有条件的区探索发放Token券、智能体服务券，加速智能体推广应用。",
+      "url": "https://www.ithome.com/0/980/717.htm",
       "heat": 10,
-      "publishedAt": "7月22日 23:33",
-      "time": "7月22日 23:33",
+      "publishedAt": "7月23日 16:53",
+      "time": "7月23日 16:53",
       "collectedAt": "2026-07-23T13:19:08.601Z",
       "rank": 9
     },
@@ -2218,13 +2352,13 @@
     },
     {
       "section": "stock",
-      "title": "北京出台新措施支持智能体发展：鼓励Token经济，加大算力券支持",
+      "title": "梁文锋：DeepSeek 不追求成为下一个字节或腾讯，开源与低成本是实现 AGI 核心策略",
       "source": "IT之家（RSS）",
-      "summary": "北京市发改委等部门联合印发《北京市关于加快智能体引领发展的若干措施》，鼓励发展Token经济，推动研发适配智能体系统的通用处理器与低延迟推理芯片，并通过异构协同、智能调度等技术降低推理成本。措施提出培育Token即服务、智能体即服务等新模式，加大算力券支持力度，并鼓励有条件的区探索发放Token券、智能体服务券，加速智能体推广应用。",
-      "url": "https://www.ithome.com/0/980/717.htm",
+      "summary": "DeepSeek 创始人梁文锋表示，公司当前不以商业收益最大化为目标，而是通过减少非核心业务投入提高实现 AGI 的可能性。他强调，DeepSeek 开源模型与内部使用模型保持一致，不会发布性能较低版本，且只希望获得合理利润，曾将价格降低至原来的四分之一。",
+      "url": "https://www.ithome.com/0/980/367.htm",
       "heat": 10,
-      "publishedAt": "7月23日 16:53",
-      "time": "7月23日 16:53",
+      "publishedAt": "7月23日 8:12",
+      "time": "7月23日 8:12",
       "collectedAt": "2026-07-23T13:19:08.601Z",
       "rank": 11
     },
@@ -2234,11 +2368,23 @@
       "source": "X：小互 (@xiaohu)",
       "summary": "Anthropic 投资人在近期访谈中透露公司营收已突破 470 亿美元，主要驱动力来自企业级 API 服务和消费者订阅的快速增长。",
       "url": "https://x.com/xiaohu/status/2080199068555657361",
-      "heat": 9,
+      "heat": 10,
       "publishedAt": "7月23日 15:51",
       "time": "7月23日 15:51",
       "collectedAt": "2026-07-23T13:19:08.601Z",
       "rank": 12
+    },
+    {
+      "section": "stock",
+      "title": "梁文锋投资人会议实录引反思：普通人别硬学DeepSeek",
+      "source": "X：邵猛 (@shao__meng)",
+      "summary": "邵猛读完DeepSeek创始人梁文锋\"四小时投资人会议实录\"后指出，其\"克制、开源、不抢C端\"的格局虽令人敬佩，但对普通创业者难以复制。他提醒，普通人应先算清现金流能撑几个月、做出有人持续付费的本事、明确阶段目标，再谈格局与愿景，否则硬学只会拖垮团队。",
+      "url": "https://x.com/shao__meng/status/2080259982776524904",
+      "heat": 10,
+      "publishedAt": "7月23日 19:53",
+      "time": "7月23日 19:53",
+      "collectedAt": "2026-07-23T13:19:08.601Z",
+      "rank": 13
     },
     {
       "section": "stock",
@@ -2250,18 +2396,6 @@
       "publishedAt": "7月23日 13:16",
       "time": "7月23日 13:16",
       "collectedAt": "2026-07-23T13:19:08.601Z",
-      "rank": 13
-    },
-    {
-      "section": "stock",
-      "title": "梁文锋：DeepSeek 不追求成为下一个字节或腾讯，开源与低成本是实现 AGI 核心策略",
-      "source": "IT之家（RSS）",
-      "summary": "DeepSeek 创始人梁文锋表示，公司当前不以商业收益最大化为目标，而是通过减少非核心业务投入提高实现 AGI 的可能性。他强调，DeepSeek 开源模型与内部使用模型保持一致，不会发布性能较低版本，且只希望获得合理利润，曾将价格降低至原来的四分之一。",
-      "url": "https://www.ithome.com/0/980/367.htm",
-      "heat": 9,
-      "publishedAt": "7月23日 8:12",
-      "time": "7月23日 8:12",
-      "collectedAt": "2026-07-23T13:19:08.601Z",
       "rank": 14
     },
     {
@@ -2270,7 +2404,7 @@
       "source": "X：Jason Liu (@jxnlco)",
       "summary": "一家初创公司推出舌控触控板 MouthPad，用户通过舌头动作即可操控电子设备，为行动障碍人士提供了全新的交互方式，获得首轮投资。",
       "url": "https://x.com/jxnlco/status/2080084656116871306",
-      "heat": 8,
+      "heat": 9,
       "publishedAt": "7月23日 8:16",
       "time": "7月23日 8:16",
       "collectedAt": "2026-07-23T13:19:08.601Z",
@@ -2282,7 +2416,7 @@
       "source": "X：cb_doge (@cb_doge)",
       "summary": "Elon Musk 感谢特斯拉合作伙伴的投资、支持与辛勤工作。特斯拉的关键供应商正进行大规模投资以支持 Optimus 和 Robotaxi。",
       "url": "https://x.com/cb_doge/status/2080070832316154044",
-      "heat": 8,
+      "heat": 9,
       "publishedAt": "7月23日 7:21",
       "time": "7月23日 7:21",
       "collectedAt": "2026-07-23T13:19:08.601Z",
@@ -2294,7 +2428,7 @@
       "source": "X：SemiAnalysis (@SemiAnalysis_)",
       "summary": "谷歌云本季度收入主要来自TPU系统销售，标志着其从云服务商向硬件供应商的转变。这是谷歌首次在财报中使用\"primarily\"这一措辞，服务利润率略弱但整体业绩非常强劲。",
       "url": "https://x.com/SemiAnalysis_/status/2080033016768774202",
-      "heat": 8,
+      "heat": 9,
       "publishedAt": "7月23日 4:51",
       "time": "7月23日 4:51",
       "collectedAt": "2026-07-23T13:19:08.601Z",
@@ -2306,7 +2440,7 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "summary": "Google Cloud Q2 营收同比增长82%至248亿美元，运营利润率近乎翻倍至35.6%，剩余履约义务达5140亿美元，超华尔街预期。与Anthropic的TPU交易贡献显著，后者承诺购买多达100万颗Google TPU。",
       "url": "https://x.com/rohanpaul_ai/status/2080032108370956676",
-      "heat": 8,
+      "heat": 9,
       "publishedAt": "7月23日 4:47",
       "time": "7月23日 4:47",
       "collectedAt": "2026-07-23T13:19:08.601Z",
@@ -2318,7 +2452,7 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "summary": "Alphabet Q2营收同比增长24%至1198亿美元，超预期。Google Cloud收入飙升82%至248亿美元，运营利润率近乎翻倍至35.6%。",
       "url": "https://x.com/rohanpaul_ai/status/2080026671303078240",
-      "heat": 8,
+      "heat": 9,
       "publishedAt": "7月23日 4:26",
       "time": "7月23日 4:26",
       "collectedAt": "2026-07-23T13:19:08.601Z",
@@ -2330,11 +2464,35 @@
       "source": "X：SemiAnalysis (@SemiAnalysis_)",
       "summary": "AMD 刚刚宣布与 Anthropic 达成协议，将投资高达 50 亿美元，换取 Anthropic 采购 2GW 的 AMD MI455 UALOE72 及未来 GPU。🚨 这与我们三天前关于 Anthropic 的说法一致。",
       "url": "https://x.com/SemiAnalysis_/status/2079929602429141215",
-      "heat": 8,
+      "heat": 9,
       "publishedAt": "7月22日 22:00",
       "time": "7月22日 22:00",
       "collectedAt": "2026-07-23T13:19:08.601Z",
       "rank": 20
+    },
+    {
+      "section": "stock",
+      "title": "AMD与Anthropic签署数十亿美元芯片大单",
+      "source": "X：Kim (@kimmonismus)",
+      "summary": "AMD与Anthropic签署价值数百亿美元的2吉瓦芯片协议，AMD将向Anthropic投资高达50亿美元。Anthropic计划于2027年上半年部署AMD最新的MI450加速器，用于自有数据中心并通过云提供商租赁额外算力。",
+      "url": "https://x.com/kimmonismus/status/2079916015526236250",
+      "heat": 9,
+      "publishedAt": "7月22日 21:06",
+      "time": "7月22日 21:06",
+      "collectedAt": "2026-07-23T13:19:08.601Z",
+      "rank": 21
+    },
+    {
+      "section": "stock",
+      "title": "编码驱动超70%API收入，企业为何限制邮件token",
+      "source": "X：SemiAnalysis (@SemiAnalysis_)",
+      "summary": "编码驱动了实验室超过70%的API收入。那么，为什么企业还要为写邮件的人限制token？。投资者对相关行业前景表示关注。",
+      "url": "https://x.com/SemiAnalysis_/status/2079899580519285044",
+      "heat": 9,
+      "publishedAt": "7月22日 20:01",
+      "time": "7月22日 20:01",
+      "collectedAt": "2026-07-23T13:19:08.601Z",
+      "rank": 22
     },
     {
       "section": "stock",
@@ -2345,30 +2503,6 @@
       "heat": 8,
       "publishedAt": "7月23日 6:05",
       "time": "7月23日 6:05",
-      "collectedAt": "2026-07-23T13:19:08.601Z",
-      "rank": 21
-    },
-    {
-      "section": "stock",
-      "title": "AMD与Anthropic签署数十亿美元芯片大单",
-      "source": "X：Kim (@kimmonismus)",
-      "summary": "AMD与Anthropic签署价值数百亿美元的2吉瓦芯片协议，AMD将向Anthropic投资高达50亿美元。Anthropic计划于2027年上半年部署AMD最新的MI450加速器，用于自有数据中心并通过云提供商租赁额外算力。",
-      "url": "https://x.com/kimmonismus/status/2079916015526236250",
-      "heat": 8,
-      "publishedAt": "7月22日 21:06",
-      "time": "7月22日 21:06",
-      "collectedAt": "2026-07-23T13:19:08.601Z",
-      "rank": 22
-    },
-    {
-      "section": "stock",
-      "title": "编码驱动超70%API收入，企业为何限制邮件token",
-      "source": "X：SemiAnalysis (@SemiAnalysis_)",
-      "summary": "编码驱动了实验室超过70%的API收入。那么，为什么企业还要为写邮件的人限制token？。投资者对相关行业前景表示关注。",
-      "url": "https://x.com/SemiAnalysis_/status/2079899580519285044",
-      "heat": 8,
-      "publishedAt": "7月22日 20:01",
-      "time": "7月22日 20:01",
       "collectedAt": "2026-07-23T13:19:08.601Z",
       "rank": 23
     },
@@ -2407,28 +2541,12 @@
       "publishedAt": "",
       "collectedAt": "2026-07-19 13:26",
       "sourceRegion": "cn",
-      "heat": 4,
+      "heat": 2,
       "badge": "rising",
       "team": "",
       "rawTitle": "",
       "rawSummary": "",
       "rank": 2
-    },
-    {
-      "section": "henan",
-      "title": "河南队青训小将在足协杯中表现亮眼",
-      "source": "中国足协官网",
-      "summary": "在足协杯第四轮比赛中，河南队多名青训小将获得出场机会并表现亮眼。球队青训成果逐渐在一线队层面得到展现。",
-      "url": "https://www.thecfa.cn",
-      "publishedAt": "",
-      "collectedAt": "2026-07-19 13:26",
-      "sourceRegion": "cn",
-      "heat": 4,
-      "badge": "hot",
-      "team": "",
-      "rawTitle": "",
-      "rawSummary": "",
-      "rank": 3
     },
     {
       "section": "henan",
@@ -2439,8 +2557,24 @@
       "publishedAt": "",
       "collectedAt": "2026-07-19 13:26",
       "sourceRegion": "cn",
-      "heat": 4,
+      "heat": 2,
       "badge": "rising",
+      "team": "",
+      "rawTitle": "",
+      "rawSummary": "",
+      "rank": 3
+    },
+    {
+      "section": "henan",
+      "title": "河南队青训小将在足协杯中表现亮眼",
+      "source": "中国足协官网",
+      "summary": "在足协杯第四轮比赛中，河南队多名青训小将获得出场机会并表现亮眼。球队青训成果逐渐在一线队层面得到展现。",
+      "url": "https://www.thecfa.cn",
+      "publishedAt": "",
+      "collectedAt": "2026-07-19 13:26",
+      "sourceRegion": "cn",
+      "heat": 1,
+      "badge": "hot",
       "team": "",
       "rawTitle": "",
       "rawSummary": "",
@@ -2455,7 +2589,7 @@
       "publishedAt": "7月18日 21:31",
       "collectedAt": "2026-07-19T03:52:19.207Z",
       "sourceRegion": "cn",
-      "heat": 2,
+      "heat": 1,
       "badge": "rising",
       "team": "",
       "rawTitle": "",
@@ -2471,7 +2605,7 @@
       "publishedAt": "7月18日 17:42",
       "collectedAt": "2026-07-19T03:52:19.207Z",
       "sourceRegion": "cn",
-      "heat": 2,
+      "heat": 1,
       "badge": "rising",
       "team": "",
       "rawTitle": "",
@@ -2487,7 +2621,7 @@
       "publishedAt": "7月18日 2:55",
       "collectedAt": "2026-07-19T03:52:19.207Z",
       "sourceRegion": "cn",
-      "heat": 2,
+      "heat": 1,
       "badge": "rising",
       "team": "",
       "rawTitle": "",
@@ -2503,7 +2637,7 @@
       "publishedAt": "7月18日 0:33",
       "collectedAt": "2026-07-19T03:52:19.207Z",
       "sourceRegion": "cn",
-      "heat": 2,
+      "heat": 1,
       "badge": "rising",
       "team": "",
       "rawTitle": "",
@@ -2519,7 +2653,7 @@
       "publishedAt": "7月17日 13:48",
       "collectedAt": "2026-07-19T03:52:19.207Z",
       "sourceRegion": "cn",
-      "heat": 2,
+      "heat": 1,
       "badge": "rising",
       "team": "",
       "rawTitle": "",
@@ -2535,7 +2669,7 @@
       "publishedAt": "7月17日 13:41",
       "collectedAt": "2026-07-19T03:52:19.207Z",
       "sourceRegion": "cn",
-      "heat": 2,
+      "heat": 1,
       "badge": "rising",
       "team": "",
       "rawTitle": "",
@@ -2551,7 +2685,7 @@
       "publishedAt": "7月17日 13:39",
       "collectedAt": "2026-07-19T03:52:19.207Z",
       "sourceRegion": "cn",
-      "heat": 2,
+      "heat": 1,
       "badge": "hot",
       "team": "",
       "rawTitle": "",
@@ -2598,7 +2732,7 @@
       "source": "手机网易网",
       "summary": "足协杯最新赛况：兰州队 2-0 爆冷取胜、成都蓉城遗憾出局，最终八强由七支中超球队与一支中乙球队组成，最新晋级对阵图已出炉。",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kVmhnZ3EyMTBHMF9RU2w1dzNxNy0yblotMFlKUDMtcWw4S0tQd2RPLW5sYXU0MWNGRWtWUHVVWk9TOGZzUmxXd05vNWRyM0ZSYWt1S3RLRXgwbC1aaFRBTV93?oc=5",
-      "heat": 8,
+      "heat": 9,
       "publishedAt": "7月23日 2:30",
       "time": "7月23日 2:30",
       "collectedAt": "2026-07-23T13:19:08.609Z",
@@ -2613,7 +2747,7 @@
       "publishedAt": "",
       "collectedAt": "2026-07-19 13:26",
       "sourceRegion": "cn",
-      "heat": 4,
+      "heat": 2,
       "badge": "hot",
       "team": "",
       "rawTitle": "",
@@ -2629,7 +2763,7 @@
       "publishedAt": "7月18日 6:17",
       "collectedAt": "2026-07-19T03:52:19.207Z",
       "sourceRegion": "cn",
-      "heat": 2,
+      "heat": 1,
       "badge": "rising",
       "team": "",
       "rawTitle": "",
@@ -2645,7 +2779,7 @@
       "publishedAt": "7月18日 2:10",
       "collectedAt": "2026-07-19T03:52:19.207Z",
       "sourceRegion": "cn",
-      "heat": 2,
+      "heat": 1,
       "badge": "rising",
       "team": "",
       "rawTitle": "",
@@ -2661,7 +2795,7 @@
       "publishedAt": "7月17日 19:30",
       "collectedAt": "2026-07-19T03:52:19.207Z",
       "sourceRegion": "cn",
-      "heat": 2,
+      "heat": 1,
       "badge": "rising",
       "team": "",
       "rawTitle": "",
@@ -2677,7 +2811,7 @@
       "publishedAt": "7月17日 17:53",
       "collectedAt": "2026-07-19T03:52:19.207Z",
       "sourceRegion": "cn",
-      "heat": 2,
+      "heat": 1,
       "badge": "rising",
       "team": "",
       "rawTitle": "",

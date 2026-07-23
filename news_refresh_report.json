@@ -1,11 +1,11 @@
 {
-  "runAt": "2026-07-23 21:34:53",
+  "runAt": "2026-07-23 21:47:19",
   "sections": {
     "domestic": {
-      "before": 79,
-      "after": 79,
-      "duplicates": 0,
-      "authoritativeTop10": 0
+      "before": 89,
+      "after": 88,
+      "duplicates": 1,
+      "authoritativeTop10": 9
     },
     "international": {
       "before": 11,
@@ -44,8 +44,8 @@
       "authoritativeTop10": 0
     }
   },
-  "duplicateMerged": 0,
-  "domesticHighPoliticsTop8": 0,
+  "duplicateMerged": 1,
+  "domesticHighPoliticsTop8": 8,
   "changedArrays": {
     "generated_news_arrays.js": [
       "mockHotNewsDomestic",

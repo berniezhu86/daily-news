@@ -1,9 +1,17 @@
 {
-  "updated_at": "2026-07-17T12:03:34+08:00",
+  "updated_at": "2026-07-23T18:04:00+08:00",
   "window_hours": 48,
-  "window_start": "2026-07-15T12:03:34+08:00",
+  "window_start": "2026-07-21T18:04:00+08:00",
   "keywords": [
-    "习近平"
+    "习近平",
+    "李强",
+    "王沪宁",
+    "王毅",
+    "基础教育",
+    "新时代社会工作",
+    "仁爱礁",
+    "外交部",
+    "国务院国资委"
   ],
   "planned_keywords": [
     "习近平",
@@ -12,64 +20,36 @@
     "李强",
     "国务院总理",
     "国务院常务会议",
-    "国务院重大政策",
     "中共中央",
     "全国人大常委会",
     "全国政协",
     "外交部",
     "中央军委",
     "王毅",
-    "蔡奇",
-    "赵乐际",
     "王沪宁",
-    "丁薛祥",
-    "何立峰",
-    "张国清",
-    "世界人工智能大会",
-    "国务院台办",
-    "国台办",
-    "外交部例行记者会",
-    "国家防总",
-    "应急管理部",
-    "中央救灾物资",
-    "职业教育法执法检查",
-    "全国人大职业教育法",
-    "中央纪委",
-    "国务院政策例行吹风会",
-    "人工智能全球治理高级别会议"
+    "李鸿忠",
+    "林剑",
+    "彭清华",
+    "基础教育",
+    "新时代社会工作",
+    "仁爱礁",
+    "欧洲议会",
+    "东亚合作外长会"
   ],
-  "query_count": 1,
-  "candidate_count": 0,
-  "unique_candidate_count": 0,
-  "in_window_candidate_count": 0,
-  "inserted_count": 13,
-  "new_or_updated_count": 0,
-  "removed_expired_count": 2,
-  "removed_replaced_count": 0,
-  "skipped_old_count": 2,
+  "query_count": 8,
+  "candidate_count": 22,
+  "unique_candidate_count": 19,
+  "in_window_candidate_count": 16,
+  "inserted_count": 15,
+  "skipped_old_count": 4,
   "skipped_duplicate_count": 0,
-  "skipped_irrelevant_or_low_quality_count": 0,
-  "pool_total": 13,
-  "failed_queries": [
-    "沙盒内搜索“习近平”“外交部”因 DNS 解析 openapi.inews.qq.com 失败。",
-    "联网执行腾讯新闻 CLI 搜索“习近平”后 API 返回 code 4007：积分余额不足。按 tencent-news 技能要求，本轮停止抓取，未改用 WebSearch 或其他来源补抓。"
-  ],
-  "removed_items": [
-    {
-      "id": "politics-top-20260715-1201",
-      "title": "自然资源部解读中办国办意见，明确自然资源资产管理“五项改革”",
-      "published_at": "2026-07-15T10:01:11+08:00"
-    },
-    {
-      "id": "politics-top-20260715-1203",
-      "title": "国台办驳斥民进党“改变台海现状”说法，强调一个中国原则",
-      "published_at": "2026-07-15T10:22:04+08:00"
-    }
-  ],
+  "skipped_low_quality_count": 3,
+  "pool_total": 15,
   "notes": [
-    "仅维护 politics_top_news.json 和 politics_top_news_status.json，未修改日报 HTML 或 index.html。",
-    "按2026-07-17 12:03 CST前48小时窗口滚动，移除窗口外素材。",
-    "因腾讯新闻 API 积分不足，本轮未新增或更新新闻条目。",
-    "池内保留13条，均在48小时窗口内。"
+    "48小时窗口：2026-07-21 18:04 至 2026-07-23 18:04 CST。",
+    "跳过旧闻（发布超48h）：习近平上海考察(7/15)、李强主持召开国常会(7/20)、习近平出席WAIC(7/17)、习近平会见柬埔寨/泰国/联合国等(7/17)、国防部/军网相关(7/3-7/20)。",
+    "跳过低质量/与高层时政关系弱：发改委通知类转载、地方政务转载、纯企业新闻。",
+    "本轮核心收录：习近平基础教育重要指示、中共中央国务院新时代社会工作意见、王沪宁西藏调研、王毅东亚合作系列外长会密集外交（美/菲/印/马/加/欧）。",
+    "仅维护 politics_top_news.json 和 politics_top_news_status.json，未修改日报 HTML 或 index.html。"
   ]
 }
