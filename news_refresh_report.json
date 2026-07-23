@@ -1,10 +1,10 @@
 {
-  "runAt": "2026-07-23 21:47:19",
+  "runAt": "2026-07-23 22:00:25",
   "sections": {
     "domestic": {
-      "before": 89,
+      "before": 88,
       "after": 88,
-      "duplicates": 1,
+      "duplicates": 0,
       "authoritativeTop10": 9
     },
     "international": {
@@ -44,7 +44,7 @@
       "authoritativeTop10": 0
     }
   },
-  "duplicateMerged": 1,
+  "duplicateMerged": 0,
   "domesticHighPoliticsTop8": 8,
   "changedArrays": {
     "generated_news_arrays.js": [
