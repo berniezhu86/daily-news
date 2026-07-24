@@ -1,11 +1,17 @@
 {
-  "updated": "2026-07-24T18:48:48.822605+08:00",
-  "updated_display": "07月24日 18:48",
-  "count": 1,
+  "updated": "2026-07-24T22:48:56.707211+08:00",
+  "updated_display": "07月24日 22:48",
+  "count": 2,
   "news": [
     {
       "title": "斯洛伐克总统佩列格里尼将对中国进行国事访问",
       "url": "https://www.news.cn/world/20260724/eedc85dbc85d403e9c53c1f8e9e0cd69/c.html",
+      "source": "新华社",
+      "date": "2026-07-24"
+    },
+    {
+      "title": "孟加拉国总统楚普辞职",
+      "url": "https://www.news.cn/world/20260724/d1525f9725bc46329b290ab285d2c661/c.html",
       "source": "新华社",
       "date": "2026-07-24"
     }
