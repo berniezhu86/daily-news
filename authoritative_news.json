@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-25T04:48:40.418814+08:00",
-  "updated_display": "07月25日 04:48",
-  "count": 4,
+  "updated": "2026-07-25T06:48:44.209593+08:00",
+  "updated_display": "07月25日 06:48",
+  "count": 5,
   "news": [
     {
       "title": "斯洛伐克总统佩列格里尼将对中国进行国事访问",
@@ -25,6 +25,12 @@
       "title": "乌克兰基辅州遭导弹袭击致10人死亡",
       "url": "https://www.news.cn/world/20260725/c4594b7cf75840a48da395d002a8c856/c.html",
       "source": "新华社",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "瓦努阿图群岛发生5.9级地震 震源深度40千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
       "date": "2026-07-25"
     }
   ]
