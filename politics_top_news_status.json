@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T18:00:00+08:00",
+  "updated_at": "2026-07-25T18:00:00+08:00",
   "search_keywords": [
     "习近平",
     "李强",
@@ -11,14 +11,17 @@
     "全国政协",
     "中央军委",
     "上合组织外长会",
-    "新闻联播"
+    "新闻联播",
+    "中国海警",
+    "商务部",
+    "国防部"
   ],
   "candidates": 8,
-  "入库": 2,
-  "skip_old": 1,
+  "入库": 8,
+  "skip_old": 12,
   "skip_duplicate": 0,
-  "pool_total": 16,
+  "pool_total": 12,
   "search_windows_hours": 48,
-  "search_window_start": "2026-07-22T18:00:00+08:00",
-  "search_window_end": "2026-07-24T18:00:00+08:00"
+  "search_window_start": "2026-07-23T18:00:00+08:00",
+  "search_window_end": "2026-07-25T18:00:00+08:00"
 }
