@@ -17,3 +17,30 @@
 - **下一轮**: 第18轮，首场 7月10日（周五）19:35 山东泰山 vs 云南玉昆（连续第3天一致判定）
 - **数据源**: CCTV体育网 zczb-cctv.com，上一场 7月5日（申花 3-2 浙江，第17轮结束），下一场 7月10日
 - **结果**: 按规则跳过
+
+## 2026-07-18 13:06
+- **判定**: 比赛日（7月18日周六有4场中超比赛）
+- **数据源**: 球探体育 m.titan007.com 积分榜；腾讯新闻/网易/懂球帝 河南5-1青岛海牛
+- **更新内容**: cslStandings（16队）、mockPastMatches（追加7月17日河南5-1青岛海牛）、mockMatches（移除7月17日赛果）
+- **提交**: b2cb2c4
+- **部署**: 语法校验通过 → 推送成功 → 远程验收通过（版本 v20260718v3）
+- **结果**: 更新成功
+
+## 2026-07-18 23:55
+- **判定**: 比赛日（7月18日周六Round 19共8场已全部结束）
+- **数据源**: 网易新闻/球迷屋 7月18日Round 19赛果：河南5-1青岛海牛(7/17)、大连英博3-1山东泰山、上海申花0-2天津津门虎、武汉三镇2-0深圳新鹏城、青岛西海岸1-1成都蓉城、北京国安1-1辽宁铁人、云南玉昆2-2上海海港、重庆铜梁龙1-1浙江队
+- **任务目标检测失败**: cslStandings、mockPastMatches、mockMatches 三个变量在 index.html 中**已不存在**
+  - 6f0fa69 提交(21:55) "feat: 河南足球(15条)+中超(8条)恢复 — Google News RSS备用方案生效" 删除了所有 `mock*` 数组（包括 cslStandings、mockPastMatches、mockMatches），同时把 renderCslStandings 渲染函数也一并删除
+  - 当前 index.html 不再 load `generated_news_arrays.js`，且没有任何脚本渲染 henan-fc/csl 板块（两板块均显示 "0 条"）
+  - 6f0fa69 的"恢复"实际只补了 generated_news_arrays.js 里的 mockHenanNews/mockCslOtherTeams 数据，但页面渲染层未同步迁移
+- **操作**:
+  - git pull --rebase origin main → 已 up to date（无远程新提交）
+  - **未修改 index.html**（无可写入的目标变量）
+  - **未 commit**（避免空 commit 或无效变更）
+  - **未执行 deploy_and_verify.js**（无变更可部署）
+- **结果**: 按规则跳过（任务已与当前代码架构不兼容）
+- **建议**: 任务应重构以适配新架构——
+  - 选项A: 重新在 index.html 引入 cslStandings/mockPastMatches/mockMatches + renderCslStandings 渲染函数（恢复旧架构，但需人工维护）
+  - 选项B: 改用 Google News RSS 数据源（mockCslOtherTeams），需要先修复 index.html 加载和渲染该数据的脚本
+  - 选项C: 任务停用，因整个足球板块功能降级已发生
+- **待办**: 需要用户决策后再决定下一步动作

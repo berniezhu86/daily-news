@@ -46,7 +46,7 @@ function main() {
 
     // 用 node --check 校验语法
     try {
-      execSync(`node --check "${tmpFile}"`, {
+      execSync(`/Users/bainian/.workbuddy/binaries/node/versions/22.22.2/bin/node --check "${tmpFile}"`, {
         stdio: ['pipe', 'pipe', 'pipe'],
         timeout: 10000,
       });

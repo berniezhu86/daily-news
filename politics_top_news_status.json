@@ -10,14 +10,14 @@
     "全国人大常委会",
     "全国政协",
     "中央军委",
-    "基础教育",
-    "中国东盟外长会"
+    "上合组织外长会",
+    "新闻联播"
   ],
-  "candidates": 2,
+  "candidates": 8,
   "入库": 2,
-  "skip_old": 4,
+  "skip_old": 1,
   "skip_duplicate": 0,
-  "pool_total": 15,
+  "pool_total": 16,
   "search_windows_hours": 48,
   "search_window_start": "2026-07-22T18:00:00+08:00",
   "search_window_end": "2026-07-24T18:00:00+08:00"
