@@ -1,28 +1,21 @@
 {
-  "updated_at": "2026-07-24 13:01",
+  "updated_at": "2026-07-24 19:02",
   "status": "success",
   "pulled": 198,
-  "added_net": 75,
-  "deduped": 108,
-  "trimmed": 15,
+  "added_net": 34,
+  "deduped": 118,
+  "trimmed": 48,
   "sections": {
     "domestic": 200,
-    "international": 16,
-    "ai": 183,
-    "entertainment": 11,
-    "stock": 36,
+    "international": 21,
+    "ai": 200,
+    "entertainment": 15,
+    "stock": 38,
     "henan": 16,
-    "csl": 10
+    "csl": 9
   },
-  "total_final": 472,
-  "pushed_to_github": true,
+  "total_final": 499,
+  "pushed_to_github": false,
   "target": "index.html",
-  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序",
-  "deploy_status": "success",
-  "deploy_commit": "dfdfcfa",
-  "deploy_content_version": "v20260724v4",
-  "deploy_url": "https://berniezhu86.github.io/daily-news/",
-  "deploy_verified_at": "2026-07-24 16:06",
-  "checked_at": "2026-07-24 16:06",
-  "deploy_error": "read ECONNRESET"
+  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序"
 }
