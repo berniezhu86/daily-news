@@ -1,12 +1,24 @@
 {
-  "updated_at": "2026-07-24T12:00:00+08:00",
-  "search_keywords": ["习近平", "李强", "国务院", "中共中央", "王毅", "外交部", "全国人大常委会", "全国政协", "中央军委", "国防部"],
-  "candidates": 22,
-  "入库": 17,
-  "skip_old": 9,
-  "skip_duplicate": 1,
-  "pool_total": 17,
+  "updated_at": "2026-07-24T18:00:00+08:00",
+  "search_keywords": [
+    "习近平",
+    "李强",
+    "国务院",
+    "中共中央",
+    "王毅",
+    "外交部",
+    "全国人大常委会",
+    "全国政协",
+    "中央军委",
+    "基础教育",
+    "中国东盟外长会"
+  ],
+  "candidates": 2,
+  "入库": 2,
+  "skip_old": 4,
+  "skip_duplicate": 0,
+  "pool_total": 15,
   "search_windows_hours": 48,
-  "search_window_start": "2026-07-22T12:00:00+08:00",
-  "search_window_end": "2026-07-24T12:00:00+08:00"
+  "search_window_start": "2026-07-22T18:00:00+08:00",
+  "search_window_end": "2026-07-24T18:00:00+08:00"
 }
