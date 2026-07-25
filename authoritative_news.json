@@ -1,25 +1,19 @@
 {
-  "updated": "2026-07-25T08:48:48.926572+08:00",
-  "updated_display": "07月25日 08:48",
-  "count": 4,
+  "updated": "2026-07-25T10:48:48.967464+08:00",
+  "updated_display": "07月25日 10:48",
+  "count": 3,
   "news": [
+    {
+      "title": "万山磅礴看主峰|习近平谈亚太合作",
+      "url": "http://politics.people.com.cn/n1/2026/0725/c461001-40767772.html",
+      "source": "人民日报",
+      "date": "2026-07-25"
+    },
     {
       "title": "斯洛伐克总统佩列格里尼将对中国进行国事访问",
       "url": "http://world.people.com.cn/n1/2026/0725/c1002-40767640.html",
       "source": "人民日报",
       "date": "2026-07-25"
-    },
-    {
-      "title": "孟加拉国总统楚普辞职",
-      "url": "https://www.news.cn/world/20260724/d1525f9725bc46329b290ab285d2c661/c.html",
-      "source": "新华社",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "议长担任代理总统",
-      "url": "https://www.news.cn/world/20260724/136ab575eab44317a3ec07bf27eec6d4/c.html",
-      "source": "新华社",
-      "date": "2026-07-24"
     },
     {
       "title": "乌克兰基辅州遭导弹袭击致10人死亡",
