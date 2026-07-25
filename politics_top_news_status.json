@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T18:00:00+08:00",
+  "updated_at": "2026-07-25T12:31:29.321223+08:00",
   "search_keywords": [
     "习近平",
     "李强",
@@ -16,12 +16,12 @@
     "商务部",
     "国防部"
   ],
-  "candidates": 8,
-  "入库": 8,
-  "skip_old": 12,
+  "candidates": 2,
+  "入库": 2,
+  "skip_old": 0,
   "skip_duplicate": 0,
-  "pool_total": 12,
+  "pool_total": 14,
   "search_windows_hours": 48,
-  "search_window_start": "2026-07-23T18:00:00+08:00",
-  "search_window_end": "2026-07-25T18:00:00+08:00"
+  "search_window_start": "2026-07-23T12:31:29.321223+08:00",
+  "search_window_end": "2026-07-25T12:31:29.321223+08:00"
 }
