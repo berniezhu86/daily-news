@@ -1,15 +1,15 @@
 {
-  "runAt": "2026-07-25 19:20:46",
+  "runAt": "2026-07-26 07:20:30",
   "sections": {
     "domestic": {
-      "before": 204,
-      "after": 204,
+      "before": 194,
+      "after": 194,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
     "international": {
-      "before": 39,
-      "after": 39,
+      "before": 43,
+      "after": 43,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
@@ -32,14 +32,14 @@
       "authoritativeTop10": 0
     },
     "henan": {
-      "before": 9,
-      "after": 9,
+      "before": 8,
+      "after": 8,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
     "csl": {
-      "before": 5,
-      "after": 5,
+      "before": 7,
+      "after": 7,
       "duplicates": 0,
       "authoritativeTop10": 0
     }
