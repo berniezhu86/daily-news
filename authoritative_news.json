@@ -1,11 +1,17 @@
 {
-  "updated": "2026-07-26T20:53:52.894155+08:00",
-  "updated_display": "07月26日 20:53",
-  "count": 7,
+  "updated": "2026-07-26T22:48:45.275381+08:00",
+  "updated_display": "07月26日 22:48",
+  "count": 8,
   "news": [
     {
       "title": "习近平总书记关于侨务工作的重要论述凝聚共同致力民族复兴的强大力量",
       "url": "https://www.news.cn/politics/leaders/20260726/9dd7fa4b34934fc291925b159a38595b/c.html",
+      "source": "新华社",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "塞内加尔总统法耶成立新党 政坛力量加速重组",
+      "url": "https://www.news.cn/world/20260726/827118887f6141fdbee3dc9ff3887270/c.html",
       "source": "新华社",
       "date": "2026-07-26"
     },
@@ -22,14 +28,20 @@
       "date": "2026-07-25"
     },
     {
-      "title": "渭源突发山洪已致10死",
+      "title": "渭源突发山洪致10死",
       "url": "https://www.news.cn/local/20260726/b0c3222b79a748238b0acf371cbf2480/c.html",
       "source": "新华社",
       "date": "2026-07-26"
     },
     {
-      "title": "四川眉山洪雅县玉屏山发生森林火灾 暂无伤亡报告",
-      "url": "https://www.news.cn/local/20260726/5721c0d524b24373b143e815314aeef8/c.html",
+      "title": "九寨沟景区发生泥石流灾害 未造成人员伤亡",
+      "url": "https://www.news.cn/local/20260726/f9fc05829ac6490f8c572e8d0b98c00f/c.html",
+      "source": "新华社",
+      "date": "2026-07-26"
+    },
+    {
+      "title": "台湾新北市发生4.8级地震 震源深度95千米",
+      "url": "https://www.news.cn/tw/20260726/f003d07f5d664938a535e829767d7593/c.html",
       "source": "新华社",
       "date": "2026-07-26"
     },
@@ -37,12 +49,6 @@
       "title": "甘肃渭源突发山洪 已致10人死亡",
       "url": "http://society.people.com.cn/n1/2026/0726/c1008-40768154.html",
       "source": "人民日报",
-      "date": "2026-07-26"
-    },
-    {
-      "title": "台湾新北市发生4.8级地震 震源深度95千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
       "date": "2026-07-26"
     }
   ]
