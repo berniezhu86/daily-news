@@ -1,8 +1,14 @@
 {
-  "updated": "2026-07-26T08:49:15.265481+08:00",
-  "updated_display": "07月26日 08:49",
+  "updated": "2026-07-26T10:48:48.172402+08:00",
+  "updated_display": "07月26日 10:48",
   "count": 3,
   "news": [
+    {
+      "title": "塞内加尔总统成立新政党“基拉伊—共和爱国者党”",
+      "url": "https://www.news.cn/world/20260726/aee23d623fd844638a0e4510ca72a5f7/c.html",
+      "source": "新华社",
+      "date": "2026-07-26"
+    },
     {
       "title": "习近平文化思想引领中国世界遗产申报保护工作壮阔实践",
       "url": "https://www.news.cn/politics/leaders/20260725/b3b7a241da8b46a293757996c3046bfa/c.html",
@@ -14,12 +20,6 @@
       "url": "https://www.news.cn/politics/leaders/20260725/59991dbc85ff45a38c01d2ac4e37b8b5/c.html",
       "source": "新华社",
       "date": "2026-07-25"
-    },
-    {
-      "title": "“红霞”强度减弱 中央气象台发布台风橙色预警",
-      "url": "https://www.news.cn/politics/20260726/21665c390391405f80908d209158251e/c.html",
-      "source": "新华社",
-      "date": "2026-07-26"
     }
   ]
 }
