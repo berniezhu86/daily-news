@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T08:00:00+08:00",
+  "updated_at": "2026-07-26T12:00:00+08:00",
   "search_keywords": [
     "习近平",
     "李强",
@@ -14,14 +14,18 @@
     "新闻联播",
     "中国海警",
     "商务部",
-    "国防部"
+    "国防部",
+    "韩正",
+    "赵乐际",
+    "巴基斯坦",
+    "吉尔吉斯斯坦"
   ],
-  "candidates": 2,
-  "入库": 2,
-  "skip_old": 5,
+  "candidates": 0,
+  "入库": 0,
+  "skip_old": 2,
   "skip_duplicate": 0,
   "pool_total": 15,
   "search_windows_hours": 48,
-  "search_window_start": "2026-07-24T08:00:00+08:00",
-  "search_window_end": "2026-07-26T08:00:00+08:00"
+  "search_window_start": "2026-07-24T12:00:00+08:00",
+  "search_window_end": "2026-07-26T12:00:00+08:00"
 }
