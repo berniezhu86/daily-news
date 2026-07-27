@@ -1,12 +1,18 @@
 {
-  "updated": "2026-07-27T06:48:52.053946+08:00",
-  "updated_display": "07月27日 06:48",
-  "count": 4,
+  "updated": "2026-07-27T08:48:53.746540+08:00",
+  "updated_display": "07月27日 08:48",
+  "count": 6,
   "news": [
     {
       "title": "古巴国家主席：美对古封锁是“残酷策划的种族灭绝”",
       "url": "https://www.news.cn/world/20260727/7273afd9feb648849e21cb117ccd645a/c.html",
       "source": "新华社",
+      "date": "2026-07-27"
+    },
+    {
+      "title": "斯洛伐克总统佩列格里尼今起对我国进行国事访问",
+      "url": "https://world.people.com.cn/n1/2026/0727/c1002-40768213.html",
+      "source": "人民日报",
       "date": "2026-07-27"
     },
     {
@@ -16,16 +22,22 @@
       "date": "2026-07-26"
     },
     {
-      "title": "\"义乌发展经验\",习近平这样总结",
-      "url": "http://politics.people.com.cn/n1/2026/0726/c461001-40768161.html",
-      "source": "人民日报",
-      "date": "2026-07-26"
-    },
-    {
       "title": "习近平文化思想引领中国世界遗产申报保护工作壮阔实践",
       "url": "https://www.news.cn/politics/leaders/20260725/b3b7a241da8b46a293757996c3046bfa/c.html",
       "source": "新华社",
       "date": "2026-07-25"
+    },
+    {
+      "title": "甘肃渭源县会川镇双石门沟发生山洪 两部门派工作组赶赴现场救援",
+      "url": "http://society.people.com.cn/n1/2026/0727/c1008-40768221.html",
+      "source": "人民日报",
+      "date": "2026-07-27"
+    },
+    {
+      "title": "读懂山洪灾害气象预警信息",
+      "url": "http://env.people.com.cn/n1/2026/0727/c1010-40768256.html",
+      "source": "人民日报",
+      "date": "2026-07-27"
     }
   ]
 }
