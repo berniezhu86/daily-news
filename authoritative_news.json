@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-27T18:48:45.220714+08:00",
-  "updated_display": "07月27日 18:48",
-  "count": 7,
+  "updated": "2026-07-27T22:48:57.128142+08:00",
+  "updated_display": "07月27日 22:48",
+  "count": 5,
   "news": [
     {
       "title": "习近平同巴西总统卢拉通电话",
@@ -17,14 +17,8 @@
     },
     {
       "title": "斯洛伐克总统佩列格里尼抵达北京开始访华",
-      "url": "https://www.news.cn/world/20260727/420e7234685d47a8823bcdcfd8ac6371/c.html",
-      "source": "新华社",
-      "date": "2026-07-27"
-    },
-    {
-      "title": "韩前总统尹锡悦一审获刑 其当选可能无效",
-      "url": "https://www.news.cn/world/20260727/1a42fb4ea17640a495b17fa83775ee32/c.html",
-      "source": "新华社",
+      "url": "http://world.people.com.cn/n1/2026/0727/c1002-40768870.html",
+      "source": "人民日报",
       "date": "2026-07-27"
     },
     {
@@ -37,12 +31,6 @@
       "title": "直击甘肃渭源山洪灾害救援现场",
       "url": "https://www.news.cn/photo/20260727/65e1ddb86ca244dca054b37ab1382d18/c.html",
       "source": "新华社",
-      "date": "2026-07-27"
-    },
-    {
-      "title": "新疆昌吉州呼图壁县发生3.6级地震 震源深度21千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
       "date": "2026-07-27"
     }
   ]
