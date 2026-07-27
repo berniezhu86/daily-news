@@ -1,19 +1,19 @@
 {
-  "updated": "2026-07-27T08:48:53.746540+08:00",
-  "updated_display": "07月27日 08:48",
-  "count": 6,
+  "updated": "2026-07-27T10:49:15.388569+08:00",
+  "updated_display": "07月27日 10:49",
+  "count": 7,
   "news": [
-    {
-      "title": "古巴国家主席：美对古封锁是“残酷策划的种族灭绝”",
-      "url": "https://www.news.cn/world/20260727/7273afd9feb648849e21cb117ccd645a/c.html",
-      "source": "新华社",
-      "date": "2026-07-27"
-    },
     {
       "title": "斯洛伐克总统佩列格里尼今起对我国进行国事访问",
       "url": "https://world.people.com.cn/n1/2026/0727/c1002-40768213.html",
       "source": "人民日报",
       "date": "2026-07-27"
+    },
+    {
+      "title": "习近平总书记的关心关怀，引领着我国世界遗产申报保护工作不断开创新局面，彰显着当代中国共产党人的文化自觉与历史担当",
+      "url": "https://www.news.cn/politics/leaders/20260726/6f07a77248c049fb8ef64ebcfe78b956/c.html",
+      "source": "新华社",
+      "date": "2026-07-26"
     },
     {
       "title": "习近平总书记关于侨务工作的重要论述凝聚共同致力民族复兴的强大力量",
@@ -37,6 +37,12 @@
       "title": "读懂山洪灾害气象预警信息",
       "url": "http://env.people.com.cn/n1/2026/0727/c1010-40768256.html",
       "source": "人民日报",
+      "date": "2026-07-27"
+    },
+    {
+      "title": "台湾台南市发生4.0级地震 震源深度8千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
       "date": "2026-07-27"
     }
   ]
