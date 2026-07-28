@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-29T04:48:47.921113+08:00",
-  "updated_display": "07月29日 04:48",
-  "count": 6,
+  "updated": "2026-07-29T06:48:52.331450+08:00",
+  "updated_display": "07月29日 06:48",
+  "count": 5,
   "news": [
     {
       "title": "美乌总统白宫会谈讨论“爱国者”拦截弹生产",
@@ -11,7 +11,7 @@
     },
     {
       "title": "藤森庆子宣誓就任秘鲁总统",
-      "url": "https://www.news.cn/world/20260729/14214beac5e84e5490cd91bec72f967b/c.html",
+      "url": "https://www.news.cn/20260729/013ecc300d354c458bfa6e9ef135f513/c.html",
       "source": "新华社",
       "date": "2026-07-29"
     },
@@ -32,12 +32,6 @@
       "url": "https://www.news.cn/politics/leaders/20260728/aba5630929c543e5838e6e7cc9f110d7/c.html",
       "source": "新华社",
       "date": "2026-07-28"
-    },
-    {
-      "title": "甘肃临夏州积石山县发生3.0级地震 震源深度8千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
-      "date": "2026-07-29"
     }
   ]
 }
