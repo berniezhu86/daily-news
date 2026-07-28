@@ -1,8 +1,14 @@
 {
-  "updated": "2026-07-28T06:48:42.873277+08:00",
-  "updated_display": "07月28日 06:48",
-  "count": 5,
+  "updated": "2026-07-28T08:48:48.816231+08:00",
+  "updated_display": "07月28日 08:48",
+  "count": 4,
   "news": [
+    {
+      "title": "黎巴嫩总统：以色列持续违反协议的行为不可接受",
+      "url": "https://www.news.cn/world/20260728/61a1107f4e7b4aa4ab1c3d4b5c9dd9b1/c.html",
+      "source": "新华社",
+      "date": "2026-07-28"
+    },
     {
       "title": "推动习近平法治思想深入人心",
       "url": "http://politics.people.com.cn/n1/2026/0728/c1001-40769029.html",
@@ -14,18 +20,6 @@
       "url": "https://www.news.cn/politics/leaders/20260727/7943d146c41747d7b5741a00a1f2537f/c.html",
       "source": "新华社",
       "date": "2026-07-27"
-    },
-    {
-      "title": "斯洛伐克总统佩列格里尼抵达北京开始访华",
-      "url": "http://world.people.com.cn/n1/2026/0727/c1002-40768870.html",
-      "source": "人民日报",
-      "date": "2026-07-27"
-    },
-    {
-      "title": "甘肃酒泉市肃北县发生3.1级地震 震源深度10千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
-      "date": "2026-07-28"
     },
     {
       "title": "4名中国公民在巴新船只倾覆事故中遇难",
