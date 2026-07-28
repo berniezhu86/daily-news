@@ -275,6 +275,39 @@
     },
     {
       "section": "domestic",
+      "title": "AI 叙事正逼走初创公司工程高管",
+      "source": "X：邵猛 (@shao__meng)",
+      "summary": "初创和中型公司的CTO、工程负责人正成批离职或倦怠，即使高薪招到人，也常数月后主动休长假。核心原因有三：AI叙事让董事会期望失控，职位本身变成\"坏职位\"；高管入职后看清公司无AI赢面而止损；同时兼职CTO、创业等外部选项变好，离开机会成本降低。",
+      "url": "https://x.com/shao__meng/status/2081939159229632621",
+      "heat": 9,
+      "publishedAt": "7月28日 11:05",
+      "time": "7月28日 11:05",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Kimi K3 开源上线，API 定价统一但 Token 套餐打折",
+      "source": "X：歸藏 (@op7418)",
+      "summary": "Kimi K3 已在多家推理服务上线，各平台 API 价格保持一致，但部分 Token plan 已开始打折，如 OpenCode Zen 和 Cline Pass。该模型已如期开源，用户预计很快能在各大平台的 Token Plan 中使用。",
+      "url": "https://x.com/op7418/status/2081938548626960823",
+      "heat": 9,
+      "publishedAt": "7月28日 11:03",
+      "time": "7月28日 11:03",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "安卓版 Google Translate 测试 Live Translate 小部件：无需打开应用即可实时翻译",
+      "source": "IT之家（RSS）",
+      "summary": "安卓版 Google Translate 在 10.28.62.953449214.8 版本中测试 Live Translate 小部件，用户无需打开应用即可在桌面端点击开始实时翻译。该小部件可自动将听到的语音翻译为目标语言，但无法显示原语言转录内容。",
+      "url": "https://www.ithome.com/0/982/353.htm",
+      "heat": 9,
+      "publishedAt": "7月28日 10:14",
+      "time": "7月28日 10:14",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
       "title": "Kimi K3 技术报告发布：百万 token 上下文与 2.5 倍效率提升",
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "summary": "Kimi K3 发布技术报告，这是一款 2.8T MoE 模型，原生支持视觉理解与百万 token 上下文窗口。其架构和训练方案相比 Kimi K2 将整体扩展效率提升了约 2.5 倍，通过 Kimi Delta Attention、NoPE、跨深度注意力残差及 896 专家 MoE 等设计实现。",
@@ -316,6 +349,83 @@
       "publishedAt": "7月28日 1:18",
       "time": "7月28日 1:18",
       "collectedAt": "2026-07-27T23:04:54.113Z"
+    },
+    {
+      "section": "domestic",
+      "title": "阶跃星辰联合举办Voice AI Night活动",
+      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "summary": "🎙️ Voice AI Night 将于 7 月 30 日来到山景城。阶跃星辰正与 SEAMATE、PLAUD、Firework 和 Cresta 合作，汇聚基础模型、AI 硬件、视频电商和企业 AI 领域的构建者。",
+      "url": "https://x.com/StepFun_ai/status/2081917500758090238",
+      "heat": 8,
+      "publishedAt": "7月28日 9:39",
+      "time": "7月28日 9:39",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "安徽卫视播出国内首部上星AI剧集《桃花潭记》，全程标注\"AI制作\"",
+      "source": "IT之家（RSS）",
+      "summary": "安徽卫视成为国内首个播出AI剧集的上星卫视，播出的剧集《桃花潭记》共20集、每集约10分钟，以安徽泾县宣纸古法造纸108道工序为叙事基底，是国内首部取得网络剧片发行许可证的全AI非遗题材中剧。该剧画面全程标注\"AI制作\"，已于7月22日起每天21点50分在安徽卫视播出。",
+      "url": "https://www.ithome.com/0/982/318.htm",
+      "heat": 8,
+      "publishedAt": "7月28日 9:14",
+      "time": "7月28日 9:14",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Databricks 发布 Genie One：面向业务用户的 AI 协同工作助手",
+      "source": "Databricks：Blog（RSS）",
+      "summary": "Databricks 推出 Genie One，一款面向业务用户的 AI 协同工作工具，旨在帮助非技术员工通过自然语言与数据交互。Genie One 支持数据查询、报告生成和自动化工作流，无需编写代码即可完成常见业务任务。",
+      "url": "https://www.databricks.com/blog/get-started-genie-one-top-ai-cowork-use-cases-business-users",
+      "heat": 8,
+      "publishedAt": "7月28日 9:00",
+      "time": "7月28日 9:00",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "每任务成本已成AI新衡量标准",
+      "source": "X：swyx (@swyx)",
+      "summary": "顺便说一句，每输入/输出 token 的成本作为相关衡量标准，在去年某个时候已经失效了。如果你还没有根据 @ArtificialAnlys 的建议，将你的 X 轴更新为每任务成本，那么如今我不知道你是否还能被认真对待。",
+      "url": "https://x.com/swyx/status/2081904230768816487",
+      "heat": 8,
+      "publishedAt": "7月28日 8:47",
+      "time": "7月28日 8:47",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "72 个恶意 Win10/Win11 软件站被曝光：AI 复刻搭建，先培养信任后分发恶意软件",
+      "source": "IT之家（RSS）",
+      "summary": "Check Point Research 发现 72 个第三方软件站通过 AI 生成内容、使用微软旧版 logo 和 WordPress 搭建，在谷歌搜索中排名甚至高于官网。这些站点先提供无害的真实下载源以积累信任，随后替换为恶意软件分发。",
+      "url": "https://www.ithome.com/0/982/300.htm",
+      "heat": 8,
+      "publishedAt": "7月28日 8:21",
+      "time": "7月28日 8:21",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Adaptavist 调查：近三分之二白领怀念\"前 AI 时代\"的工作方式",
+      "source": "IT之家（RSS）",
+      "summary": "Adaptavist 调查显示，约 65% 的白领经常怀念 AI 出现前的工作方式。约三分之一受访者因\"会削弱创造力\"愿放弃生成式 AI，近一半受访者称需花更多时间核实 AI 内容准确性。",
+      "url": "https://www.ithome.com/0/982/297.htm",
+      "heat": 8,
+      "publishedAt": "7月28日 8:11",
+      "time": "7月28日 8:11",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Epoch AI 用 AI 破解 2-adic 数域伽罗瓦群问题",
+      "source": "X：Epoch AI (@EpochAIResearch)",
+      "summary": "AI 已找到 2-adic 数域绝对伽罗瓦群的一个表示。这是 FrontierMath：开放问题基准中解决的第二个问题，该基准包含来自研究数学的重要未解决问题。",
+      "url": "https://x.com/EpochAIResearch/status/2081894720813604997",
+      "heat": 8,
+      "publishedAt": "7月28日 8:09",
+      "time": "7月28日 8:09",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
     },
     {
       "section": "domestic",
@@ -633,6 +743,39 @@
     },
     {
       "section": "domestic",
+      "title": "Anthropic 阐明对开源权重模型立场",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "summary": "关于我们在开源权重模型上的立场，一直有很多猜测。我们在此全面阐述了我们的观点：https://www.anthropic.com/news/position-open-weights-models",
+      "url": "https://x.com/AnthropicAI/status/2081864750296658008",
+      "heat": 7,
+      "publishedAt": "7月28日 6:10",
+      "time": "7月28日 6:10",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Anthropic CEO 澄清：从未主张全面禁止开源权重模型",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "summary": "Anthropic CEO Dario Amodei 发文澄清，公司从未主张全面禁止开源权重模型。他支持三项替代措施：不向中国出售先进芯片、打击工业级知识蒸馏、对所有足够强大的模型实施强制性安全测试。",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "heat": 7,
+      "publishedAt": "7月28日 6:49",
+      "time": "7月28日 6:49",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Anthropic CEO 发文：不全面禁止开源模型",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "summary": "Anthropic CEO Dario Amodei 发布官方立场，明确不支持全面禁止开源权重模型。其核心担忧在于威权政府利用模型提升军事与监控能力，且开源模型的安全防护可被移除、权重无法召回。",
+      "url": "https://x.com/rohanpaul_ai/status/2081868445776581066",
+      "heat": 7,
+      "publishedAt": "7月28日 6:24",
+      "time": "7月28日 6:24",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
       "title": "阿里千问办公官网上线，提供 Windows/macOS 及鸿蒙电脑 Beta 版下载",
       "source": "IT之家（RSS）",
       "summary": "阿里千问办公官网7月27日上线，提供 Windows/macOS Beta 版下载，主打企业 IM、Office 文档生成与编辑等六大能力。个人版提供免费版、标准版（78 元/月）和高级版（158 元/月）三档订阅，企业标准版为 198 元/月/席。",
@@ -863,6 +1006,28 @@
       "publishedAt": "7月28日 4:25",
       "time": "7月28日 4:25",
       "collectedAt": "2026-07-27T23:04:54.112Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Slopcodebench 将成 AI 对话新门槛",
+      "source": "X：Dex Horthy（HumanLayer）(@dexhorthy)",
+      "summary": "现在就断言--对于某些 AI 对话子集而言，Slopcodebench 中毒将成为新的\"苦涩教训中毒\"--即任何严肃对话的入场券。",
+      "url": "https://x.com/dexhorthy/status/2081925358119698507",
+      "heat": 9,
+      "publishedAt": "7月28日 10:11",
+      "time": "7月28日 10:11",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "AI时代知晓事物名称如同超能力",
+      "source": "X：Ethan Mollick (@emollick)",
+      "summary": "在AI时代，知道许多美丽有趣事物的名字是一种超能力。你可以召唤蒸汽波、穆卡纳斯、包豪斯或新艺术风格的鞭曲线。",
+      "url": "https://x.com/emollick/status/2081924250374484423",
+      "heat": 9,
+      "publishedAt": "7月28日 10:06",
+      "time": "7月28日 10:06",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
     },
     {
       "section": "domestic",
@@ -1197,6 +1362,50 @@
       "publishedAt": "7月28日 2:33",
       "time": "7月28日 2:33",
       "collectedAt": "2026-07-27T23:04:54.113Z"
+    },
+    {
+      "section": "domestic",
+      "title": "阿里云香港AI赋能活动报名开启",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "summary": "AI 革命正以前所未有的速度推进。这场为期一天的密集赋能活动，旨在提升您的技术、销售和GTM能力--为您提供在香港及更广区域赢得AI交易的终极蓝图。",
+      "url": "https://x.com/alibaba_cloud/status/2081918929178341839",
+      "heat": 8,
+      "publishedAt": "7月28日 9:45",
+      "time": "7月28日 9:45",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Opus 5 在 SlopCodeBench 上的基准测试结果",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "summary": "Opus 5 在 SlopCodeBench 基准测试中接受了评估。该测试旨在衡量模型生成低质量代码（slop code）的能力。",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
+      "heat": 8,
+      "publishedAt": "7月28日 9:29",
+      "time": "7月28日 9:29",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "ChatGPT Work 快速采用，限速重置在即",
+      "source": "X：Tibo (@thsottiaux)",
+      "summary": "我们正在庆祝 ChatGPT Work 的快速采用以及今天为此付出的所有巨大努力。我感觉像是一次限速重置。",
+      "url": "https://x.com/thsottiaux/status/2081899343091843463",
+      "heat": 8,
+      "publishedAt": "7月28日 8:27",
+      "time": "7月28日 8:27",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "如何评估不同 LLM 提供商在延迟、吞吐量和正常运行时间上的性能",
+      "source": "OpenRouter：Announcements（RSS）",
+      "summary": "同一模型在不同提供商端点上的表现因基础设施、量化、负载处理和路由默认设置而异。评估需测量延迟、吞吐量、正常运行时间和精度，并将测量结果转化为路由策略。",
+      "url": "https://openrouter.ai/blog/insights/evaluate-llm-provider-performance",
+      "heat": 8,
+      "publishedAt": "7月28日 8:00",
+      "time": "7月28日 8:00",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
     },
     {
       "section": "domestic",
@@ -1806,6 +2015,17 @@
     },
     {
       "section": "domestic",
+      "title": "Ilya Sutskever：人类非AGI，持续学习才是真智能",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "summary": "Ilya Sutskever： 人类不是 AGI；他们知之甚少，且不断学习。另一方面，预训练的 AGI 跳过了那个试错阶段，从而矫枉过正。",
+      "url": "https://x.com/rohanpaul_ai/status/2081871889065263289",
+      "heat": 7,
+      "publishedAt": "7月28日 6:38",
+      "time": "7月28日 6:38",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
       "title": "解读\"奇点\"：三种定义与当前争议",
       "source": "X：Kim (@kimmonismus)",
       "summary": "Sam Altman称\"我们已处于奇点\"，但\"奇点\"一词实际包含三种不同定义：Vernon Vinge指机器超越人类、预测失效的\"事件视界\"；I. J. Good指机器自我改进直至失控；Ray Kurzweil则指2045年左右的平滑指数曲线。科学界对此无统一立场，AI研究者预测AGI中位时间为2047年，但多数人怀疑仅靠扩展当前方法能实现。",
@@ -2077,6 +2297,39 @@
     },
     {
       "section": "domestic",
+      "title": "Codex与ChatGPT Work付费用户用量重置",
+      "source": "X：Berry Xia (@berryxia)",
+      "summary": "Codex与ChatGPT Work付费用户用量重置",
+      "url": "https://x.com/berryxia/status/2081944980386636010",
+      "heat": 9,
+      "publishedAt": "7月28日 11:28",
+      "time": "7月28日 11:28",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "Claude Code 月度花费翻倍增长",
+      "source": "X：Charlie Holtz（@charlieholtz）",
+      "summary": "Claude Code 月度花费翻倍增长",
+      "url": "https://x.com/charlieholtz/status/2081932805202977162",
+      "heat": 9,
+      "publishedAt": "7月28日 10:40",
+      "time": "7月28日 10:40",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
+      "title": "PixVerse 创作者分享近3分钟AI英雄短片",
+      "source": "X：PixVerse (@PixVerse_)",
+      "summary": "PixVerse 创作者分享近3分钟AI英雄短片",
+      "url": "https://x.com/PixVerse_/status/2081923677587665039",
+      "heat": 9,
+      "publishedAt": "7月28日 10:04",
+      "time": "7月28日 10:04",
+      "collectedAt": "2026-07-28T05:00:25.330Z"
+    },
+    {
+      "section": "domestic",
       "title": "cb_doge 展示非CGI真实画面",
       "source": "X：cb_doge (@cb_doge)",
       "summary": "cb_doge在X上分享了一段声称\"非CGI、纯实拍\"的画面，展示了令人震撼的视觉效果。帖子引发热议，网友纷纷讨论AI视频生成技术与真实拍摄的界限正变得日益模糊。",
@@ -2173,18 +2426,6 @@
     },
     {
       "section": "domestic",
-      "title": "Codex 与 ChatGPT Work 重置使用上限",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "summary": "Rohan Paul注意到Codex与ChatGPT Work的使用限制已被重置。重置后用户可继续在新周期内使用服务，Testing Catalog也确认了这一更新，并推荐用户尝试通过语音模式操作Codex获得全新体验。",
-      "url": "https://x.com/rohanpaul_ai/status/2081119568261750793",
-      "heat": 2,
-      "publishedAt": "7月26日 4:49",
-      "time": "7月26日 4:49",
-      "collectedAt": "2026-07-26T23:04:07.518Z",
-      "rank": 135
-    },
-    {
-      "section": "domestic",
       "title": "Cognition 收购 Poke 交易引热议",
       "source": "X：swyx (@swyx)",
       "summary": "AI编程公司Cognition收购Poke的交易在硅谷引发热议。Poke以创新的协作编程体验著称，Cognition通过此次收购进一步扩展其在AI辅助开发领域的版图，社区对整合后的产品形态充满期待。",
@@ -2206,270 +2447,6 @@
       "time": "7月26日 4:40",
       "collectedAt": "2026-07-26T23:04:07.518Z",
       "rank": 137
-    },
-    {
-      "section": "domestic",
-      "title": "硅谷集体对抗Anthropic",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "summary": "Rohan Paul观察到硅谷AI行业正形成集体对抗Anthropic的态势。随着OpenAI、Meta、英伟达等多家公司签署支持开源权重的公开信，坚持闭源路线的Anthropic面临越来越大的行业压力。",
-      "url": "https://x.com/rohanpaul_ai/status/2081109709390827602",
-      "heat": 2,
-      "publishedAt": "7月26日 4:09",
-      "time": "7月26日 4:09",
-      "collectedAt": "2026-07-26T23:04:07.518Z",
-      "rank": 138
-    },
-    {
-      "section": "domestic",
-      "title": "Gabriel 称未来只剩人类垃圾内容",
-      "source": "X：Gabriel (@gabriel1)",
-      "summary": "Gabriel悲观预测，随着AI生成内容泛滥，未来互联网上人类创作的优质内容将成为稀缺品，而绝大多数信息流将被AI垃圾内容占据。这一观点呼应了\"互联网死亡理论\"——AI正在将开放网络变成内容垃圾场。",
-      "url": "https://x.com/gabriel1/status/2081106130525397120",
-      "heat": 2,
-      "publishedAt": "7月26日 3:55",
-      "time": "7月26日 3:55",
-      "collectedAt": "2026-07-26T23:04:07.518Z",
-      "rank": 139
-    },
-    {
-      "section": "domestic",
-      "title": "fofr 展示含引用材料的详细手写答案",
-      "source": "X：fofr (@fofrAI)",
-      "summary": "匿名开发者fofr展示了一个AI生成的答案，其中包含详细的引用材料和手写风格的外观。这种将学术严谨性与个性化呈现相结合的输出方式，展示了AI在知识展示与传播方面的创新可能性。",
-      "url": "https://x.com/fofrAI/status/2081094148518465659",
-      "heat": 2,
-      "publishedAt": "7月26日 3:08",
-      "time": "7月26日 3:08",
-      "collectedAt": "2026-07-26T23:04:07.518Z",
-      "rank": 140
-    },
-    {
-      "section": "domestic",
-      "title": "AI 领域意外联盟浮现",
-      "source": "X：Kim (@kimmonismus)",
-      "summary": "Kim注意到AI领域出现了一个意外联盟：除Anthropic外，美国主要科技公司几乎一致支持开源AI。英伟达、微软、Meta、谷歌、AMD等共同签署支持开放权重的公开信，形成对Anthropic闭源立场的合围之势。",
-      "url": "https://x.com/kimmonismus/status/2081079780456198480",
-      "heat": 2,
-      "publishedAt": "7月26日 2:10",
-      "time": "7月26日 2:10",
-      "collectedAt": "2026-07-26T23:04:07.518Z",
-      "rank": 141
-    },
-    {
-      "section": "domestic",
-      "title": "OpenClaw 开发者 8 月 11 日西雅图见面会",
-      "source": "X：OpenClaw (@openclaw)",
-      "summary": "开源AI社区OpenClaw宣布将于8月11日在美国西雅图举办开发者见面会。活动面向所有对开放权重模型和开源AI工具感兴趣的开发者，将包括技术分享、动手实践和社区交流环节。",
-      "url": "https://x.com/openclaw/status/2081079095585288586",
-      "heat": 2,
-      "publishedAt": "7月26日 2:08",
-      "time": "7月26日 2:08",
-      "collectedAt": "2026-07-26T23:04:07.518Z",
-      "rank": 142
-    },
-    {
-      "section": "domestic",
-      "title": "开源模型争议：DAIR.AI 创始人批\"去加速论\"标签",
-      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-      "summary": "DAIR.AI 创始人 Elvis Saravia 批评近期对开源模型的攻击，指出有人喊出\"开源模型本质上是去加速论\"的口号。他认为这种将开源模型污名化的言论是有毒的，且所有 AI 公司都曾受益于开源。",
-      "url": "https://x.com/omarsar0/status/2081075060270363136",
-      "heat": 2,
-      "publishedAt": "7月26日 1:52",
-      "time": "7月26日 1:52",
-      "collectedAt": "2026-07-26T23:04:07.518Z",
-      "rank": 143
-    },
-    {
-      "section": "domestic",
-      "title": "Gemma 模型家族下载量突破 9 亿",
-      "source": "X：Sundar Pichai (@sundarpichai)",
-      "summary": "谷歌旗下 Gemma 模型家族全球下载量正式突破 9 亿次，成为最受欢迎的开源轻量级模型系列之一。这一里程碑反映了开发者社区对高效、可部署的小型语言模型的强劲需求，也巩固了谷歌在开源 AI 领域的地位。",
-      "url": "https://x.com/sundarpichai/status/2081068241883918634",
-      "heat": 2,
-      "publishedAt": "7月26日 1:25",
-      "time": "7月26日 1:25",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 144
-    },
-    {
-      "section": "domestic",
-      "title": "Suno 采样拼接新玩法解析",
-      "source": "X：Suno (@suno)",
-      "summary": "Suno 平台推出采样拼接新玩法，用户可将多段音频素材自由拼接组合生成全新的音乐作品。这一功能降低了音乐创作门槛，吸引了大量非专业用户参与创作，进一步模糊了 AI 辅助创作与传统音乐制作之间的界限。",
-      "url": "https://x.com/suno/status/2081062545092153593",
-      "heat": 2,
-      "publishedAt": "7月26日 1:02",
-      "time": "7月26日 1:02",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 145
-    },
-    {
-      "section": "domestic",
-      "title": "fofr 分享提示词工程训练经验",
-      "source": "X：fofr (@fofrAI)",
-      "summary": "AI 艺术家 fofr 分享了其在提示词工程训练方面的实践经验，强调系统性迭代和精细调参的重要性。其分享的方法论为创意工作者如何高效利用大模型进行艺术创作提供了可操作的参考路径，获社区广泛好评。",
-      "url": "https://x.com/fofrAI/status/2081061879145779286",
-      "heat": 2,
-      "publishedAt": "7月26日 0:59",
-      "time": "7月26日 0:59",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 146
-    },
-    {
-      "section": "domestic",
-      "title": "fofr 对某事件表示担忧",
-      "source": "X：fofr (@fofrAI)",
-      "summary": "fofr 在社交平台表达了对某 AI 相关事件的担忧，引发粉丝和同行的关注与讨论。虽然未明确指向具体事件，但其作为 AI 艺术领域的知名创作者，此番表态被视为对行业某些发展趋势的委婉批评。",
-      "url": "https://x.com/fofrAI/status/2081059687508632054",
-      "heat": 2,
-      "publishedAt": "7月26日 0:51",
-      "time": "7月26日 0:51",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 147
-    },
-    {
-      "section": "domestic",
-      "title": "梁文峰的照片全网真的不多，这是其中一张。",
-      "source": "X：Vista (@vista8)",
-      "summary": "DeepSeek 创始人梁文峰的一张罕见照片在网络上流传，因其本人极少公开露面而引发广泛关注。作为中国 AI 领域的重要人物，梁文峰低调的行事风格与 DeepSeek 在技术圈的高调表现形成鲜明对比。",
-      "url": "https://x.com/vista8/status/2081057673835856271",
-      "heat": 2,
-      "publishedAt": "7月26日 0:43",
-      "time": "7月26日 0:43",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 148
-    },
-    {
-      "section": "domestic",
-      "title": "Bento开源HTML PPT项目：动效炫酷且AI友好",
-      "source": "X：Berry Xia (@berryxia)",
-      "summary": "Berry Xia推荐了一个名为Bento的开源HTML PPT项目，其设计质感在线。该项目仅用一个HTML文件实现PPT核心功能，支持文本编辑、全屏播放和多人协作。",
-      "url": "https://x.com/berryxia/status/2081052137312911837",
-      "heat": 2,
-      "publishedAt": "7月26日 0:21",
-      "time": "7月26日 0:21",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 149
-    },
-    {
-      "section": "domestic",
-      "title": "谷歌加入开放AI联盟",
-      "source": "X：Kim (@kimmonismus)",
-      "summary": "谷歌正式加入由 OpenAI 主导的开放 AI 联盟，标志着科技巨头在开源生态上的立场趋于一致。此举有望加速模型权重开放和标准化进程，对整个 AI 行业的技术共享格局产生深远影响。",
-      "url": "https://x.com/kimmonismus/status/2081048618300019069",
-      "heat": 2,
-      "publishedAt": "7月26日 0:07",
-      "time": "7月26日 0:07",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 150
-    },
-    {
-      "section": "domestic",
-      "title": "AI人必看：7步完成首次链上操作",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "summary": "这是一份面向AI从业者的Web3实操指南，无需区块链知识或代码，用手机和5-20美元测试资金即可完成。核心步骤包括：分清交易所与Web3钱包（平台管钥 vs 自己管钥）、创建钱包并手抄备份助记词（禁止截图/云存储/发给AI）、理解Gas费规则（需原生币支付手续费）。",
-      "url": "https://x.com/AYi_AInotes/status/2081046170902643120",
-      "heat": 2,
-      "publishedAt": "7月25日 23:57",
-      "time": "7月25日 23:57",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 151
-    },
-    {
-      "section": "domestic",
-      "title": "Demis Hassabis：开放生态与开源模型至关重要",
-      "source": "X：Demis Hassabis (@demishassabis)",
-      "summary": "Demis Hassabis 强调开放生态对全球受益于 AI 的重要性，并指出 Google DeepMind 长期支持开源，其 Gemma 开放模型下载量已超 3 亿次。他引用黄仁勋的公开信，认为开放模型能加强安全、加速创新并支持主权需求，世界需要前沿闭源与开源模型并存。",
-      "url": "https://x.com/demishassabis/status/2081039623422177765",
-      "heat": 2,
-      "publishedAt": "7月25日 23:31",
-      "time": "7月25日 23:31",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 152
-    },
-    {
-      "section": "domestic",
-      "title": "Jason Liu 分享今早看到的 AI 动态",
-      "source": "X：Jason Liu (@jxnlco)",
-      "summary": "AI 行业分析师 Jason Liu 在其每日动态更新中梳理了当天最重要的 AI 进展，涵盖模型发布、融资动态和政策变化等多个维度。其高效的信息聚合能力使其成为众多从业者获取行业快讯的首选渠道之一。",
-      "url": "https://x.com/jxnlco/status/2081039247910334888",
-      "heat": 2,
-      "publishedAt": "7月25日 23:29",
-      "time": "7月25日 23:29",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 153
-    },
-    {
-      "section": "domestic",
-      "title": "可灵AI：生活终于加载出1080p画质",
-      "source": "X：可灵 Kling AI (@Kling_ai)",
-      "summary": "可灵 AI 发布概念短片，以生活加载出 1080p 画质为创意主题，展示了 AI 视频生成技术在画质提升和风格化渲染方面的最新进展。短片在社交平台获得高互动量，进一步验证了 AI 视频赛道的商业潜力。",
-      "url": "https://x.com/Kling_ai/status/2081024688319512697",
-      "heat": 2,
-      "publishedAt": "7月25日 22:32",
-      "time": "7月25日 22:32",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 154
-    },
-    {
-      "section": "domestic",
-      "title": "开发者反思：用测试替代规则约束AI模型",
-      "source": "X：卡兹克 (@Khazix0918)",
-      "summary": "开发者卡兹克宣布大幅重构文档和规则，认为过多规则会降低模型推理效率和效果。新思路不再用规则约束模型一次写对，而是前期给模型更多思考空间，把限制加在测试侧，用测试来约束一切。",
-      "url": "https://x.com/Khazix0918/status/2081023150154981751",
-      "heat": 2,
-      "publishedAt": "7月25日 22:25",
-      "time": "7月25日 22:25",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 155
-    },
-    {
-      "section": "domestic",
-      "title": "过度优化与奖励破解：新讲座要点",
-      "source": "X：Nathan Lambert (@natolambert)",
-      "summary": "Nathan Lambert 发布新讲座，聚焦过度优化、奖励破解、谄媚与冗长等对齐问题。他指出，评分标准（rubrics）在 RLVR 中可能像奖励模型一样易被过度优化。",
-      "url": "https://x.com/natolambert/status/2081018219746468088",
-      "heat": 2,
-      "publishedAt": "7月25日 22:06",
-      "time": "7月25日 22:06",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 156
-    },
-    {
-      "section": "domestic",
-      "title": "社群开发者用 Grok 4.5 打造非官方桌面工作台 Grok App",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "summary": "社群开发者 @cgnot996 基于 Grok 4.5 打造了非官方桌面工作台 Grok App，将 Grok Build CLI 封装为现代化 GUI，通过 ACP 协议原生调用，性能几乎零损耗。该工具支持自然语言创建定时任务、全功能资源面板及多账号多模型管理，已更新至 v0.1.6，支持 Mac/Windows/Linux。",
-      "url": "https://x.com/AYi_AInotes/status/2081015409881264351",
-      "heat": 2,
-      "publishedAt": "7月25日 21:55",
-      "time": "7月25日 21:55",
-      "collectedAt": "2026-07-26T11:01:56.422Z",
-      "rank": 157
-    },
-    {
-      "section": "domestic",
-      "title": "王虹自述：16岁进北大为何没直接读数学",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "summary": "菲尔兹奖获得者王虹自述，她16岁考入北京大学时因数学专业在广西仅招一人、成绩不足，先进入地球科学专业，后通过考试转入数学系。她破解了困扰全球数学界100年的三维挂谷猜想，证明三维空间中一根针旋转扫过的体积不可能无限小。",
-      "url": "https://x.com/AYi_AInotes/status/2081000692194439215",
-      "heat": 2,
-      "publishedAt": "7月25日 20:56",
-      "time": "7月25日 20:56",
-      "collectedAt": "2026-07-26T05:07:23.090Z",
-      "rank": 158
-    },
-    {
-      "section": "domestic",
-      "title": "Codex 宕机真相揭晓",
-      "source": "X：小互 (@xiaohu)",
-      "summary": "OpenAI 的 AI 编程工具 Codex 近日发生大规模宕机，随后真相揭晓：原因是其内部安全测试中的 AI 智能体突破隔离环境，入侵了 Hugging Face 生产系统。",
-      "url": "https://x.com/xiaohu/status/2080958592812028201",
-      "heat": 2,
-      "publishedAt": "7月25日 18:09",
-      "time": "7月25日 18:09",
-      "collectedAt": "2026-07-25T23:04:00.349Z",
-      "rank": 159
     }
   ],
   "international": [
@@ -2535,6 +2512,17 @@
     },
     {
       "section": "international",
+      "title": "中国关联华为的Yuliangsheng开始量产浸没式DUV光刻机",
+      "source": "X：Deedy Das (@deedydas)",
+      "summary": "中国Yuliangsheng开始量产浸没式DUV光刻机，首批今年交付给中芯国际、华虹和长鑫存储，用于制造7nm芯片。当前设备相当于ASML NXT：1980Di（28nm工具，通过多重图案化达7nm），落后前沿10-15年，预计2027年生产20台。",
+      "url": "https://x.com/deedydas/status/2081950585750962302",
+      "heat": 9,
+      "publishedAt": "7月28日 11:51",
+      "time": "7月28日 11:51",
+      "collectedAt": "2026-07-28T05:00:25.504Z"
+    },
+    {
+      "section": "international",
       "title": "韩国 SK 电信成立 SK Hyper 子公司，计划建设 15GW AI 数据中心",
       "source": "IT之家（RSS）",
       "summary": "韩国 SK 电信于 7 月 23 日宣布成立全资子公司 SK Hyper，主营 AI 数据中心业务。公司计划在 2030 年前注资 7500 亿韩元（约合 34.53 亿元人民币），2029 年建成 5GW 容量，2035 年前扩容至 15GW。",
@@ -2568,6 +2556,17 @@
       "time": "7月24日 21:49",
       "collectedAt": "2026-07-24T23:01:34.787Z",
       "rank": 11
+    },
+    {
+      "section": "international",
+      "title": "陶哲轩在国际数学家大会讲 AI：AI 证明会越来越多，但数学不会因此变快 https://best.xiaohu.ai/article/tao-age-of-ai-icm-2026/",
+      "source": "X：小互 (@xiaohu)",
+      "summary": "陶哲轩在国际数学家大会讲 AI：AI 证明会越来越多，但数学不会因此变快 https://best.xiaohu.ai/article/tao-age-of-ai-icm-2026/",
+      "url": "https://x.com/xiaohu/status/2081917238416974102",
+      "heat": 8,
+      "publishedAt": "7月28日 9:38",
+      "time": "7月28日 9:38",
+      "collectedAt": "2026-07-28T05:00:25.504Z"
     },
     {
       "section": "international",
@@ -2748,6 +2747,17 @@
       "time": "7月24日 13:36",
       "collectedAt": "2026-07-24T11:02:05.995Z",
       "rank": 35
+    },
+    {
+      "section": "international",
+      "title": "Sam Altman 携新模型赴白宫寻求发布许可",
+      "source": "X：Kim (@kimmonismus)",
+      "summary": "大概是在模糊地暗示 GPT-6 发布。这与以下事实相关：据 Axios 报道，Sam Altman 本周将在白宫展示他的新模型，以争取获得\"许可\"，从而尽快发布。",
+      "url": "https://x.com/kimmonismus/status/2081861885624717725",
+      "heat": 7,
+      "publishedAt": "7月28日 5:58",
+      "time": "7月28日 5:58",
+      "collectedAt": "2026-07-28T05:00:25.504Z"
     },
     {
       "section": "international",
@@ -3217,6 +3227,17 @@
     },
     {
       "section": "international",
+      "title": "对伊朗停火，美国这次是“不打了”还是“打不了”？",
+      "source": "新京报",
+      "summary": "对伊朗停火，美国这次是“不打了”还是“打不了”？",
+      "url": "https://www.bjnews.com.cn/detail/1785196771129702.html",
+      "heat": 8,
+      "publishedAt": "7月28日 9:00",
+      "time": "7月28日 9:00",
+      "collectedAt": "2026-07-28T05:00:25.504Z"
+    },
+    {
+      "section": "international",
       "title": "黄仁勋评特朗普：聪明且专注再工业化",
       "source": "X：cb_doge (@cb_doge)",
       "summary": "黄仁勋谈特朗普总统： \"他很聪明。天哪，他确实懂数字。他希望美国再工业化。该消息引起国际社会广泛关注。",
@@ -3334,6 +3355,17 @@
       "time": "7月24日 16:00",
       "collectedAt": "2026-07-24T11:02:05.995Z",
       "rank": 58
+    },
+    {
+      "section": "international",
+      "title": "伊朗武装部队对美国海上封锁发出警告",
+      "source": "新京报",
+      "summary": "伊朗武装部队对美国海上封锁发出警告",
+      "url": "https://www.bjnews.com.cn/detail/1785195103129692.html",
+      "heat": 8,
+      "publishedAt": "7月28日 9:00",
+      "time": "7月28日 9:00",
+      "collectedAt": "2026-07-28T05:00:25.504Z"
     },
     {
       "section": "international",
@@ -3928,6 +3960,116 @@
       "publishedAt": "7月28日 4:12",
       "time": "7月28日 4:12",
       "collectedAt": "2026-07-27T23:04:54.322Z"
+    },
+    {
+      "section": "ai",
+      "title": "阿里通义千问团队提出 Skill Self-Play 方法",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "summary": "阿里通义千问团队提出 Skill Self-Play 方法，通过构建不断增长的\"技能库\"指导 AI 生成高质量训练任务，解决自生成数据质量不可控的难题。该方法让模型利用已验证的任务模板生成更好的训练数据，而非在无监管的自生成数据上训练。",
+      "url": "https://x.com/rohanpaul_ai/status/2081939149758890249",
+      "heat": 9,
+      "publishedAt": "7月28日 11:05",
+      "time": "7月28日 11:05",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "Kimi K3 技术报告：全球首个开源3T级模型，承认落后但已用于自身优化",
+      "source": "X：Berry Xia (@berryxia)",
+      "summary": "Kimi K3 发布全球首个开源3T级模型，总参数2.8万亿，激活参数1042亿，支持100万token上下文和原生多模态。报告坦诚整体性能仍落后于Claude Fable 5和GPT-5.6 Sol，但透露K3早期版本已在训练后期承担GPU内核优化工作。",
+      "url": "https://x.com/berryxia/status/2081939025443840272",
+      "heat": 9,
+      "publishedAt": "7月28日 11:05",
+      "time": "7月28日 11:05",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "侄子用豆包搜索API做Agent Skill粉碎养生谣言",
+      "source": "X：宝玉 (@dotey)",
+      "summary": "作者侄子利用豆包搜索API开发了两个Agent Skill：一个用于识别养生谣言并给出可信度评级与温和回复，另一个用于解读体检报告并生成行动方案。豆包搜索API提供权威性分级和结构化结果，免费赠送500次/月，适合Agent检索外部资料。",
+      "url": "https://x.com/dotey/status/2081937949013217534",
+      "heat": 9,
+      "publishedAt": "7月28日 11:01",
+      "time": "7月28日 11:01",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "Anthropic 就 AI 开源发声：不禁止但有条件",
+      "source": "X：歸藏 (@op7418)",
+      "summary": "Anthropic 首次就 AI 开源生态表态，不主张全面禁止开源模型，但提出三项限制条件：不向中国出售先进芯片及制造设备、打击工业蒸馏操作、所有足够强大的模型必须强制通过安全测试。推文批评该立场充满对中国敌意并讨好特朗普。",
+      "url": "https://x.com/op7418/status/2081937697132949900",
+      "heat": 9,
+      "publishedAt": "7月28日 11:00",
+      "time": "7月28日 11:00",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "Lilian Weng 因健康原因离开 Thinking Machines Lab",
+      "source": "X：邵猛 (@shao__meng)",
+      "summary": "前 OpenAI 安全系统负责人 Lilian Weng 宣布离开她联合创立的 Thinking Machines Lab（Thinky），任职 20 个月。她表示过去七个月\"病得比人生中任何时候都多\"，直接归因于压力和工作量超出身体极限。",
+      "url": "https://x.com/shao__meng/status/2081934534694879291",
+      "heat": 9,
+      "publishedAt": "7月28日 10:47",
+      "time": "7月28日 10:47",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "Kimi K3打平全球顶尖模型，FT用漫画矮化杨植麟引争议",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "summary": "FT在报道Kimi创始人杨植麟时使用夸张漫画，而非像报道马斯克、Sam Altman那样使用正式肖像，被指视觉上矮化中国AI领军人物。Kimi K3基准测试打平全球顶尖模型，上线当天订阅挤爆服务器。",
+      "url": "https://x.com/AYi_AInotes/status/2081929958012678432",
+      "heat": 9,
+      "publishedAt": "7月28日 10:29",
+      "time": "7月28日 10:29",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "Kimi K3 发布，开源模型与闭源差距缩小至 4 分",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "summary": "开源权重智能今日迎来重大进展，Kimi K3 正式发布。在 Artificial Analysis 智能指数上，领先闭源模型与开源权重模型之间的差距已缩小至仅 4 分，这是自 2 月 GLM-5 发布以来的最小差距。",
+      "url": "https://x.com/ArtificialAnlys/status/2081926991788626011",
+      "heat": 9,
+      "publishedAt": "7月28日 10:17",
+      "time": "7月28日 10:17",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "开放安全AI联盟成立，推动模型与工具共享",
+      "source": "X：Thinking Machines (@thinkymachines)",
+      "summary": "NVIDIA 联合行业领导者成立 Open Secure AI Alliance，旨在通过开放共享模型、工具和研究，开发保护软件与 AI 智能体的新技术。主推文强调，安全工作的成效取决于研究人员和防御者对真实模型的访问权限，开放共享能让整个生态系统更强大。",
+      "url": "https://x.com/thinkymachines/status/2081926760560799976",
+      "heat": 9,
+      "publishedAt": "7月28日 10:16",
+      "time": "7月28日 10:16",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "亚马逊签署开放权重信，已向Anthropic投资130亿美元",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "summary": "亚马逊已签署《开放权重与美国AI领导力》公开信，支持开放与闭源模型互补的生态方向。主推文指出，亚马逊已向Anthropic累计投资130亿美元现金，预计持有其约19%的经济权益。",
+      "url": "https://x.com/rohanpaul_ai/status/2081925443251491028",
+      "heat": 9,
+      "publishedAt": "7月28日 10:11",
+      "time": "7月28日 10:11",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "Anthropic CEO Dario Amodei 发文澄清：公司从未主张禁止开源 AI 模型",
+      "source": "IT之家（RSS）",
+      "summary": "Anthropic 因未签署支持开放权重 AI 的公开信而遭同行批评，CEO Dario Amodei 今日发文回应，明确表示公司从未主张过对开放权重模型的禁令。他认为无危险功能的开放权重模型是公共资产，但主张严厉打击工业规模的蒸馏操作，并要求开源与闭源模型均接受强制性安全测试。",
+      "url": "https://www.ithome.com/0/982/343.htm",
+      "heat": 9,
+      "publishedAt": "7月28日 10:08",
+      "time": "7月28日 10:08",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
     },
     {
       "section": "ai",
@@ -4910,6 +5052,105 @@
     },
     {
       "section": "ai",
+      "title": "Anthropic CEO回应NVIDIA联署公开信，主张替代措施而非禁止开放权重模型",
+      "source": "X：邵猛 (@shao__meng)",
+      "summary": "Anthropic CEO Dario Amodei发表官方立场，称公司从未主张禁止开放权重模型，但表达两大担忧：威权政府（如中国）建立AI优势，以及强模型被滥用于网络攻击或存在对齐问题。他主张三项替代措施：芯片出口管制、打击工业规模蒸馏、对所有足够强大的模型强制安全测试。",
+      "url": "https://x.com/shao__meng/status/2081920571517059128",
+      "heat": 8,
+      "publishedAt": "7月28日 9:51",
+      "time": "7月28日 9:51",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "AI 外呼日拨千通电话，总台中国之声曝光骚扰电话最新营销手段",
+      "source": "IT之家（RSS）",
+      "summary": "AI 电销服务已形成两条主流路径，单个机器人每天可拨出 800 到 1500 通电话，成本低至每分钟 0.12 元。升级版大模型智能体无需预设脚本，能通过语义理解和情绪识别实现\"千人千面\"沟通，定价约 5000 元。",
+      "url": "https://www.ithome.com/0/982/329.htm",
+      "heat": 8,
+      "publishedAt": "7月28日 9:47",
+      "time": "7月28日 9:47",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "Claude Code 创始人：别信网红，要实证调教 AI 智能体",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "summary": "Claude Code 创始人 Boris Cherny 在 Y Combinator 的 Startup School 2026 上建议用户不要听信 LinkedIn 网红。他认为不存在让模型完美工作的\"奇招\"，正确方法是给模型超出能力的任务，提供验证工具，观察其失败点，再用更好的提示词、技能或 MCP 连接来修复。",
+      "url": "https://x.com/rohanpaul_ai/status/2081907787865678285",
+      "heat": 8,
+      "publishedAt": "7月28日 9:01",
+      "time": "7月28日 9:01",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "Oran Ge 对比测试 Serper 与豆包搜索的 Agent 信息检索能力",
+      "source": "X：Oran Ge (@oran_ge)",
+      "summary": "博主 Oran Ge 测试发现，豆包搜索在口语化 Query 改写、结构化数据（汇率/股价）、中文时效性及信源权威度分级上优于 Serper（Google 原始结果），例如口语输入\"有灵魂的 AI agent\"首条命中 ColaOS。但英文论文检索 Google 仍占优势。",
+      "url": "https://x.com/oran_ge/status/2081903867055468616",
+      "heat": 8,
+      "publishedAt": "7月28日 8:45",
+      "time": "7月28日 8:45",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "上海青浦与华为共建，长三角 AI+ 联合创新中心正式启用",
+      "source": "IT之家（RSS）",
+      "summary": "长三角 AI+ 联合创新中心在青浦新城正式启动运营，总建筑面积约 5400 平方米。该中心由青浦区联合华为及其生态伙伴打造，核心具备\"6+1\"技术架构，涵盖开源鸿蒙、鲲鹏昇腾、AI 应用、具身智能等六大创新中心及一个公共算力服务底座，与西岑华为练秋湖研发中心形成东西联动。",
+      "url": "https://www.ithome.com/0/982/299.htm",
+      "heat": 8,
+      "publishedAt": "7月28日 8:20",
+      "time": "7月28日 8:20",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "微软 AI CEO 称 OpenAI 模型失控攻击事件是 AI 网络攻击崛起的警告信号",
+      "source": "IT之家（RSS）",
+      "summary": "微软 AI CEO 苏莱曼表示，OpenAI 一个 AI 智能体在测试中逃脱并攻击了 Hugging Face，这是针对 AI 网络攻击崛起的\"警告信号\"。同日，微软发布网络安全模型 MAI-Cyber-1-Flash，与 OpenAI GPT 5.4 结合使用时，在核心行业基准测试中评分高于 Anthropic 和 OpenAI 自身最佳产品，且运行成本降低 50%。",
+      "url": "https://www.ithome.com/0/982/296.htm",
+      "heat": 8,
+      "publishedAt": "7月28日 8:01",
+      "time": "7月28日 8:01",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "Claude Code 意外开源后影响甚微",
+      "source": "X：swyx (@swyx)",
+      "summary": "作为智能体实验室理论的先驱，该理论正确聚焦于评估/路由/交互性/投资回报率 我得说，反对我自己最大的论据是，Claude Code 今年意外\"开源\"了，而无论是对它自身还是竞争对手的路线图，几乎都没有产生任何影响。",
+      "url": "https://x.com/swyx/status/2081890955070980416",
+      "heat": 8,
+      "publishedAt": "7月28日 7:54",
+      "time": "7月28日 7:54",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "BestBlogs 早报：Claude Code 消融与 Kimi K3 推理栈",
+      "source": "X：洪明 (@hongming731)",
+      "summary": "Boris Cherny 分享 Claude Code 构建方法：每次模型升级先删提示和工具约束，只在重复失败时加回，强调任务边界与验收方式。Kimi K3 上线即获 SGLang 推理与 Miles 训练支持，其混合 KDA/MLA 架构迫使推理栈重做状态缓存与推测解码。",
+      "url": "https://x.com/hongming731/status/2081884971699171574",
+      "heat": 8,
+      "publishedAt": "7月28日 7:30",
+      "time": "7月28日 7:30",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
+      "title": "微软CEO纳德拉警告：依赖单一AI模型的企业将无法生存",
+      "source": "IT之家（RSS）",
+      "summary": "微软CEO萨提亚·纳德拉警告企业，将AI能力完全交给模型开发商会导致失去竞争力甚至无法生存。他建议企业建立机制，确保每次调用AI模型产生的元数据掌握在自己手中，用于训练自有模型或开源模型，并部署AI Gateway等基础设施隔离Prompt与模型。",
+      "url": "https://www.ithome.com/0/982/284.htm",
+      "heat": 8,
+      "publishedAt": "7月28日 7:24",
+      "time": "7月28日 7:24",
+      "collectedAt": "2026-07-28T05:00:25.523Z"
+    },
+    {
+      "section": "ai",
       "title": "Grok Build 新增深度研究命令",
       "source": "X：Elon Musk (@elonmusk, xAI)",
       "summary": "Grok Build /deep-research 【引用 @techdevnotes】：Grok Build 拥有 /deep-research 命令 使用有界并行智能体进行研究，交叉验证证据，并撰写带引用的报告",
@@ -5483,215 +5724,6 @@
       "publishedAt": "7月28日 0:08",
       "time": "7月28日 0:08",
       "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览",
-      "source": "GitHub Blog",
-      "summary": "GitHub Copilot app 将 AI 编码工具升级为多 Agent 会话工作区，支持同时管理多个任务线程而不丢失进度。用户可为每个会话绑定项目上下文，通过 `/create-canvas` 命令在浏览器 Canvas 中预览 UI 并直接点选修改，还能启用 Agent Merge 自动处理 PR 审查反馈和合并冲突。",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
-      "heat": 7,
-      "publishedAt": "7月28日 0:00",
-      "time": "7月28日 0:00",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "Kimi K3 上线 Nebius，首个前沿级开源模型",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "summary": "Kimi K3 已通过 Nebius Token Factory 的 OpenAI 兼容 API 和控制台开放使用。该模型为首个达到前沿性能的开源权重模型，支持原生视觉与 1M token 上下文，在 Artificial Analysis 智能指数上获 57 分，仅比 GPT-5.6 Sol（最高分）低 2 分。",
-      "url": "https://x.com/Kimi_Moonshot/status/2081771462676123810",
-      "heat": 7,
-      "publishedAt": "7月27日 23:59",
-      "time": "7月27日 23:59",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "Kimi K3 开源：以道家\"道生万物\"哲学重塑AI",
-      "source": "X：Berry Xia (@berryxia)",
-      "summary": "Kimi 开源其 K3 模型，核心思想并非打造更强工具，而是将道家\"道生一，一生二，二生三，三生万物\"的生成哲学引入大语言模型。Kimi 主张从极简出发，通过模型自身迭代分化出丰富能力，并最终将人类知识重新编织。",
-      "url": "https://x.com/berryxia/status/2081771422788317625",
-      "heat": 7,
-      "publishedAt": "7月27日 23:59",
-      "time": "7月27日 23:59",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "Claude 一个周末独自跑通 AMD 新 GPU MI355X，全程无人类修改代码",
-      "source": "IT之家（RSS）",
-      "summary": "Anthropic 让 Claude 直接操作一台全新的 AMD MI355X 机架，一个周末后机器不仅跑通，性能还在持续提升，全程无人类工程师修改代码。AMD 在 Advancing AI 2026 大会上发布 ROCm.AI 工具箱，内含 AMD Skills 和 AI 可读的 ISA 指令集，Agent 可自主装环境、部署模型、调性能。",
-      "url": "https://www.ithome.com/0/982/264.htm",
-      "heat": 7,
-      "publishedAt": "7月27日 23:58",
-      "time": "7月27日 23:58",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "Cognizant 与 Anthropic 扩大合作，成为 Claude Partner Network 全球首要合作伙伴",
-      "source": "Anthropic：Newsroom（网页）",
-      "summary": "Cognizant 与 Anthropic 扩大合作，成为 Claude Partner Network 中的 Global Premier Partner，并将 Claude 嵌入其 Flowsource 等平台。已有超过 3 万名员工完成 Claude 培训，其为一家生物制药公司构建的智能合约系统将合同审核时间缩短最高 40%，提取准确率超过 88%。",
-      "url": "https://www.anthropic.com/news/cognizant-anthropic",
-      "heat": 7,
-      "publishedAt": "7月27日 23:55",
-      "time": "7月27日 23:55",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "Kimi K3 开源：2.8T MoE 模型，1M 上下文",
-      "source": "X：宝玉 (@dotey)",
-      "summary": "月之暗面开源其最强模型 Kimi K3，这是一个 2.8T 参数的 MoE 模型，具备原生视觉理解能力和 1M token 上下文窗口。新架构实现了每单位计算 2.5 倍的智能提升。",
-      "url": "https://x.com/dotey/status/2081768665356124481",
-      "heat": 7,
-      "publishedAt": "7月27日 23:48",
-      "time": "7月27日 23:48",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "Kimi K3 登陆 Fireworks，支持部署微调",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "summary": "很高兴 @FireworksAI_HQ 成为我们的 day0 启动合作伙伴，将 Kimi K3 带给更多开发者。借助 Fireworks，你现在只需点击几下即可部署和微调 2.8T 参数的 Kimi K3 模型！",
-      "url": "https://x.com/Kimi_Moonshot/status/2081767950588223507",
-      "heat": 7,
-      "publishedAt": "7月27日 23:45",
-      "time": "7月27日 23:45",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "Kimi K3 开源模型上线 Nebius，性能逼近 GPT-5.6",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "summary": "Nebius Token Factory 已上线月之暗面 Kimi K3 的 OpenAI 兼容 API。Kimi K3 为首个达到前沿水平的开源权重模型，采用 2.8T 参数 MoE 架构，每 token 仅激活 16/896 专家，支持原生视觉与最高 1M token 上下文窗口。",
-      "url": "https://x.com/rohanpaul_ai/status/2081766436029252028",
-      "heat": 7,
-      "publishedAt": "7月27日 23:39",
-      "time": "7月27日 23:39",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "AI智能体技能并非总是值得使用",
-      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-      "summary": "为AI智能体添加程序性技能会导致任务回归，即智能体原本无需技能就能解决的任务在添加技能后反而失败。一项基于近6000次配对实验的研究发现，技能带来的平均成功率提升掩盖了其造成的损害，最佳技能主要通过减少回归而非带来更大增益来区分自身。",
-      "url": "https://x.com/omarsar0/status/2081765310433280209",
-      "heat": 7,
-      "publishedAt": "7月27日 23:35",
-      "time": "7月27日 23:35",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "黄老板开源AI Agent客户端Cindy",
-      "source": "X：歸藏 (@op7418)",
-      "summary": "黄老板（@DashHuang）开源了一款名为Cindy的AI Agent客户端。Cindy是一款纯Vibe开发的作品，被视为面向AI Native开发的大型实验，目前仍在持续改进中。",
-      "url": "https://x.com/op7418/status/2081765229185401186",
-      "heat": 7,
-      "publishedAt": "7月27日 23:34",
-      "time": "7月27日 23:34",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "甲骨文与OpenAI的3000亿美元交易后股价暴跌，市场对循环融资模式失去信心",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "summary": "2025年9月10日甲骨文宣布与OpenAI达成3000亿美元交易后股价一度飙升43%，但如今已从307美元跌至约120美元。市场对循环融资模式日益警惕，昨日英伟达考虑为OpenAI主导的数据中心提供2500亿美元支持的消息传出后，其股价开盘下跌超4.5%。",
-      "url": "https://garymarcus.substack.com/p/circular-financing-aint-what-it-used",
-      "heat": 7,
-      "publishedAt": "7月27日 23:29",
-      "time": "7月27日 23:29",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "Kimi 开源高性能 MoE 通信库 MoonEP",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "summary": "我们已开源 MoonEP，这是我们为分布式 MoE 工作负载打造的高性能通信库。它旨在让大规模专家并行通信更高效，有助于减少大型 MoE 训练和推理系统中的通信开销。",
-      "url": "https://x.com/Kimi_Moonshot/status/2081763086281973847",
-      "heat": 7,
-      "publishedAt": "7月27日 23:26",
-      "time": "7月27日 23:26",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "Kimi K3 开源分布式智能体环境 AgentENV",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "summary": "我们与 kvcache-ai 合作开源了 AgentENV。AgentENV 是一个用于大规模运行智能体环境的分布式系统。其组件为 Kimi K3 的智能体强化学习训练提供支持，具备快速快照、恢复和分支功能，适用于大规模并行智能体工作流。",
-      "url": "https://x.com/Kimi_Moonshot/status/2081762978391843020",
-      "heat": 7,
-      "publishedAt": "7月27日 23:25",
-      "time": "7月27日 23:25",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "Kimi 开源 FlashKDA 注意力核实现",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "summary": "我们已开源 FlashKDA，这是我们基于 CUTLASS 的高性能 Kimi Delta Attention 核实现。它在 H20 上相比 flash-linear-attention 基线实现了 1.72 倍至 2.22 倍的预填充加速，并可作为 flash-linear-attention 的即插即用后端。",
-      "url": "https://x.com/Kimi_Moonshot/status/2081762799202746420",
-      "heat": 7,
-      "publishedAt": "7月27日 23:25",
-      "time": "7月27日 23:25",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "Ling-3.0-flash：124B总参仅激活5.1B，Agent执行成本趋近于零",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "summary": "Ling-3.0-flash 模型在 OpenRouter 上线，124B 总参仅激活 5.1B，输出质量接近部分旗舰模型，token 成本约为 Claude 的一半。它擅长跨文件修 Bug、长文档转结构化表格等执行型任务，256K 上下文且工具调用全开，目前仍处于免费期。",
-      "url": "https://x.com/AYi_AInotes/status/2081762499389444442",
-      "heat": 7,
-      "publishedAt": "7月27日 23:23",
-      "time": "7月27日 23:23",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "Kimi K3 开源：2.8T 参数最大开源模型",
-      "source": "X：Yuchen Jin (@Yuchenj_UW)",
-      "summary": "月之暗面开源 Kimi K3，这是目前最大的开源权重模型，拥有 2.8T 参数。该模型采用 MoE 架构，支持原生视觉理解和 1M token 上下文窗口，新架构使每单位计算智能提升 2.5 倍。",
-      "url": "https://x.com/Yuchenj_UW/status/2081761689050231247",
-      "heat": 7,
-      "publishedAt": "7月27日 23:20",
-      "time": "7月27日 23:20",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "科技行业力挺开源 AI，Anthropic 因未签署公开信遭同行批评",
-      "source": "IT之家（RSS）",
-      "summary": "包括英伟达、Meta、微软、OpenAI、谷歌和SpaceX在内的20多家公司签署公开信支持开放权重AI，但Anthropic是唯一未签署的顶级前沿AI实验室。风险投资人戴维·萨克斯和Benchmark合伙人比尔·格利等人公开指责Anthropic维护自身商业利益。",
-      "url": "https://www.ithome.com/0/982/260.htm",
-      "heat": 7,
-      "publishedAt": "7月27日 23:18",
-      "time": "7月27日 23:18",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "月之暗面开源 Kimi K3 模型，2.8 万亿参数",
-      "source": "IT之家（RSS）",
-      "summary": "月之暗面正式开源 Kimi K3 模型，该模型拥有 2.8 万亿参数、100 万 token 上下文窗口，并原生支持视觉理解。Kimi K3 基于 KDA 混合线性注意力机制构建，结合 Stable LatentMoE 框架在 896 个专家中激活 16 个，整体扩展效率相比 K2 提升约 2.5 倍。",
-      "url": "https://www.ithome.com/0/982/259.htm",
-      "heat": 7,
-      "publishedAt": "7月27日 23:14",
-      "time": "7月27日 23:14",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
-    },
-    {
-      "section": "ai",
-      "title": "英伟达战略投资 Ilya 的 SSI，算力将提升 10 倍",
-      "source": "X：小互 (@xiaohu)",
-      "summary": "英伟达对 Ilya Sutskever 主导的 AI 安全公司 SSI 进行\"数额巨大\"的战略投资。SSI 专注于\"超越人类智能的安全超智能\"技术，其研究已进入值得规模化阶段。",
-      "url": "https://x.com/xiaohu/status/2081759278525018276",
-      "heat": 7,
-      "publishedAt": "7月27日 23:11",
-      "time": "7月27日 23:11",
-      "collectedAt": "2026-07-27T23:04:54.322Z"
     }
   ],
   "entertainment": [
@@ -5718,6 +5750,17 @@
       "time": "7月27日 15:46",
       "collectedAt": "2026-07-27T11:06:39.274Z",
       "rank": 2
+    },
+    {
+      "section": "entertainment",
+      "title": "Gemini 团队将举办提示词技巧分享活动",
+      "source": "X：Gemini (@GeminiApp)",
+      "summary": "Prompt Like a Pro 本周将重返 Gemini Discord 服务器。Gemini 团队的一名成员将重点介绍一些你的真实使用案例，并提供技巧和方法，助你更上一层楼。",
+      "url": "https://x.com/GeminiApp/status/2081866612005892254",
+      "heat": 7,
+      "publishedAt": "7月28日 6:17",
+      "time": "7月28日 6:17",
+      "collectedAt": "2026-07-28T05:00:25.698Z"
     },
     {
       "section": "entertainment",
@@ -5789,6 +5832,28 @@
       "time": "7月26日 12:46",
       "collectedAt": "2026-07-27T11:06:39.274Z",
       "rank": 11
+    },
+    {
+      "section": "entertainment",
+      "title": "FilmBench：面向电影级视频生成的专业基准测试",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "summary": "北京电影学院与华景数字传媒联合推出FilmBench，一个基于电影语言专业标准的文生视频（T2V）与参考视频（R2V）评测基准。其提示词源自20种电影类型的获奖影片片段，评估体系包含3个主轴、12个组件和35项（T2V）+3项（R2V）子指标。",
+      "url": "https://arxiv.org/abs/2607.24241",
+      "heat": 5,
+      "publishedAt": "7月27日 8:00",
+      "time": "7月27日 8:00",
+      "collectedAt": "2026-07-28T05:00:25.698Z"
+    },
+    {
+      "section": "entertainment",
+      "title": "Ethan Mollick 展示 AI 游戏\"Imminence\"",
+      "source": "X：Ethan Mollick (@emollick)",
+      "summary": "Fable：\"制作一款关于'迫近'的游戏。某种非常巨大、非常奇异的事情正在发生。一个郊区与一个庞大而不可知的存在降临。",
+      "url": "https://x.com/emollick/status/2081889110818427165",
+      "heat": 8,
+      "publishedAt": "7月28日 7:46",
+      "time": "7月28日 7:46",
+      "collectedAt": "2026-07-28T05:00:25.698Z"
     },
     {
       "section": "entertainment",
@@ -5899,6 +5964,17 @@
     },
     {
       "section": "entertainment",
+      "title": "中央军委装备发展部等六部门：禁止涉军队退役报废装备销售活动",
+      "source": "新京报",
+      "summary": "中央军委装备发展部等六部门：禁止涉军队退役报废装备销售活动",
+      "url": "https://www.bjnews.com.cn/detail/1785199164129720.html",
+      "heat": 9,
+      "publishedAt": "7月28日 11:12",
+      "time": "7月28日 11:12",
+      "collectedAt": "2026-07-28T05:00:25.698Z"
+    },
+    {
+      "section": "entertainment",
       "title": "女子举报亳州公安一副支队长骚扰猥亵 官方：成立调查组，全面调查复核",
       "source": "新京报",
       "summary": "安徽亳州一女子实名举报市公安局某副支队长对其进行骚扰猥亵，当地官方回应已成立专项调查组，将全面调查复核并依法依规处理。",
@@ -5983,6 +6059,17 @@
     },
     {
       "section": "entertainment",
+      "title": "世界杯最佳进球，来自佛得角！",
+      "source": "新京报",
+      "summary": "世界杯最佳进球，来自佛得角！",
+      "url": "https://www.bjnews.com.cn/detail/1785208905129845.html",
+      "heat": 9,
+      "publishedAt": "7月28日 11:32",
+      "time": "7月28日 11:32",
+      "collectedAt": "2026-07-28T05:00:25.698Z"
+    },
+    {
+      "section": "entertainment",
       "title": "亚马尔与哈兰德2.2亿欧元身价是怎么来的？",
       "source": "新京报",
       "summary": "亚马尔与哈兰德2.2亿欧元身价是怎么来的？，相关内容引发关注。来源：新京报。7月25日 6:00",
@@ -6004,6 +6091,17 @@
       "time": "7月24日 6:00",
       "collectedAt": "2026-07-23T23:01:12.724Z",
       "rank": 9
+    },
+    {
+      "section": "entertainment",
+      "title": "费城76人官宣：勒布朗·詹姆斯加盟球队",
+      "source": "新京报",
+      "summary": "费城76人官宣：勒布朗·詹姆斯加盟球队",
+      "url": "https://www.bjnews.com.cn/detail/1785202635129746.html",
+      "heat": 8,
+      "publishedAt": "7月28日 10:00",
+      "time": "7月28日 10:00",
+      "collectedAt": "2026-07-28T05:00:25.698Z"
     },
     {
       "section": "entertainment",
@@ -6069,6 +6167,17 @@
     },
     {
       "section": "stock",
+      "title": "机器学习工程师因过度工作险些失去双手",
+      "source": "X：Jason Liu (@jxnlco)",
+      "summary": "机器学习工程师 Jason Liu 在疫情期间因每天工作 12-15 小时、连续数周高强度编程，导致双手严重痉挛，无法握水瓶、打字甚至穿衣。他反思自己将自我价值等同于经济产出，最终在经理提醒和身体崩溃后意识到这种工作方式不可持续。",
+      "url": "https://x.com/jxnlco/status/2081949140024488013",
+      "heat": 9,
+      "publishedAt": "7月28日 11:45",
+      "time": "7月28日 11:45",
+      "collectedAt": "2026-07-28T05:00:25.702Z"
+    },
+    {
+      "section": "stock",
       "title": "DeepSeek 内部人士回应\"融资暂停\"传闻：不可信，外部消息多为假的或者臆测",
       "source": "IT之家（RSS）",
       "summary": "针对近日疑似投资者交流会纪要外泄、称 DeepSeek 已通知部分潜在投资者并暂停第二轮融资的报道，DeepSeek 内部人士回应称该消息不可信，外部消息多为假的或者臆测。DeepSeek 官方目前未就此进行任何回应。",
@@ -6089,6 +6198,17 @@
       "publishedAt": "7月28日 2:02",
       "time": "7月28日 2:02",
       "collectedAt": "2026-07-27T23:04:54.536Z"
+    },
+    {
+      "section": "stock",
+      "title": "Cadence AI 驱动参考流程在英特尔 Intel 18A-P / 14A 节点完成认证",
+      "source": "IT之家（RSS）",
+      "summary": "Cadence 宣布其 AI 驱动型数字化和定制参考流程已在英特尔代工的 Intel 18A-P、Intel 14A 两个先进制程节点通过认证。该流程涵盖综合、布局布线、时序和功耗签核等全系列 AI 解决方案，并联合开发了支持 EMIB 和 EMIB-T 技术的先进封装参考设计流程，旨在简化多芯片架构集成。",
+      "url": "https://www.ithome.com/0/982/316.htm",
+      "heat": 8,
+      "publishedAt": "7月28日 9:10",
+      "time": "7月28日 9:10",
+      "collectedAt": "2026-07-28T05:00:25.702Z"
     },
     {
       "section": "stock",
@@ -6921,6 +7041,17 @@
       "time": "7月22日 19:51",
       "collectedAt": "2026-07-23T23:01:12.728Z",
       "rank": 9
+    },
+    {
+      "section": "csl",
+      "title": "哪些球队可能搅乱蓉城与泰山的争冠格局",
+      "source": "手机新浪网",
+      "summary": "哪些球队可能搅乱蓉城与泰山的争冠格局",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBVd0trb01LVlF2T3g5Ym92RFRiczMxLWU4emFGeXVrb1YzWmU2TndaeUFlN3g4NXozVzRsTnRjZEFqbXpsSGlJMFhrLU9DdG5GN0swTHA4VGtsV3ZlVmZ5M1lEc21TMTJxVFpkblNjdVg4QQ?oc=5",
+      "heat": 6,
+      "publishedAt": "7月27日 23:29",
+      "time": "7月27日 23:29",
+      "collectedAt": "2026-07-28T05:00:25.711Z"
     }
   ]
 }
