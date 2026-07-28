@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T12:32:19+08:00",
+  "updated_at": "2026-07-28T18:00:00+08:00",
   "search_keywords": [
     "习近平",
     "李强",
@@ -12,16 +12,22 @@
     "中央军委",
     "斯洛伐克",
     "佩列格里尼",
-    "全球发展倡议",
-    "法治宣传教育",
-    "商务部"
+    "商务部",
+    "国防部",
+    "南部战区",
+    "东盟外长"
   ],
-  "candidates": 3,
-  "入库": 3,
-  "skip_old": 2,
+  "candidates": 0,
+  "入库": 0,
+  "skip_old": 0,
   "skip_duplicate": 0,
-  "pool_total": 9,
+  "pool_total": 7,
   "search_windows_hours": 48,
-  "search_window_start": "2026-07-26T12:32:19+08:00",
-  "search_window_end": "2026-07-28T12:32:19+08:00"
+  "search_window_start": "2026-07-26T18:00:00+08:00",
+  "search_window_end": "2026-07-28T18:00:00+08:00",
+  "expired_removed": 2,
+  "expired_ids": [
+    "politics-top-20260727-006",
+    "politics-top-20260727-008"
+  ]
 }
