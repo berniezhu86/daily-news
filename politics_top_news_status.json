@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T18:00:00+08:00",
+  "updated_at": "2026-07-30T00:00:00+08:00",
   "search_keywords": [
     "习近平",
     "李强",
@@ -11,21 +11,21 @@
     "全国政协",
     "中央军委",
     "国防部",
-    "赵乐际",
-    "董军",
-    "文莱",
     "斯洛伐克",
-    "国台办",
-    "国务院常务会议"
+    "圣多美和普林西比",
+    "商务部",
+    "六部门通告"
   ],
-  "candidates": 2,
-  "入库": 2,
+  "candidates": 4,
+  "入库": 4,
   "skip_old": 0,
   "skip_duplicate": 0,
-  "pool_total": 9,
+  "pool_total": 12,
   "search_windows_hours": 48,
-  "search_window_start": "2026-07-27T18:00:00+08:00",
-  "search_window_end": "2026-07-29T18:00:00+08:00",
-  "expired_removed": 0,
-  "expired_ids": []
+  "search_window_start": "2026-07-28T00:00:00+08:00",
+  "search_window_end": "2026-07-30T00:00:00+08:00",
+  "expired_removed": 1,
+  "expired_ids": [
+    "politics-top-20260728-003"
+  ]
 }
