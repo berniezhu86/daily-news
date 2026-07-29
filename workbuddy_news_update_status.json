@@ -17,5 +17,11 @@
   "total_final": 638,
   "pushed_to_github": false,
   "target": "index.html",
-  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序"
+  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序",
+  "deploy_status": "success",
+  "deploy_error": "语法校验失败: /bin/sh: node: command not found",
+  "checked_at": "2026-07-30 07:00",
+  "last_deployed": "2026-07-30T07:00:00+08:00",
+  "remote_version": "v20260730v1",
+  "agent": "marvis"
 }
