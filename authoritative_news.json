@@ -1,11 +1,17 @@
 {
-  "updated": "2026-07-29T18:48:47.389239+08:00",
-  "updated_display": "07月29日 18:48",
-  "count": 7,
+  "updated": "2026-07-29T20:49:05.256681+08:00",
+  "updated_display": "07月29日 20:49",
+  "count": 8,
   "news": [
     {
       "title": "习近平致电祝贺诺瓦当选连任圣多美和普林西比总统",
       "url": "https://www.news.cn/politics/leaders/20260729/b243e6be74124e32ac8f88e3f0774568/c.html",
+      "source": "新华社",
+      "date": "2026-07-29"
+    },
+    {
+      "title": "李强会见斯洛伐克总统佩列格里尼",
+      "url": "https://www.news.cn/politics/leaders/20260729/b63dd5f40512419881546dbb2de8a00d/c.html",
       "source": "新华社",
       "date": "2026-07-29"
     },
