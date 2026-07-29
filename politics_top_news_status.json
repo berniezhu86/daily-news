@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T06:00:00+08:00",
+  "updated_at": "2026-07-29T18:00:00+08:00",
   "search_keywords": [
     "习近平",
     "李强",
@@ -12,20 +12,23 @@
     "中央军委",
     "国防部",
     "商务部",
-    "侨务工作",
-    "唐山",
-    "农业农村现代化"
+    "国新办",
+    "产能过剩",
+    "斯洛伐克",
+    "侨务工作"
   ],
-  "candidates": 3,
-  "入库": 3,
-  "skip_old": 1,
+  "candidates": 1,
+  "入库": 1,
+  "skip_old": 0,
   "skip_duplicate": 0,
-  "pool_total": 9,
+  "pool_total": 7,
   "search_windows_hours": 48,
-  "search_window_start": "2026-07-27T06:00:00+08:00",
-  "search_window_end": "2026-07-29T06:00:00+08:00",
-  "expired_removed": 1,
+  "search_window_start": "2026-07-27T18:00:00+08:00",
+  "search_window_end": "2026-07-29T18:00:00+08:00",
+  "expired_removed": 3,
   "expired_ids": [
-    "politics-top-20260727-004"
+    "politics-top-20260727-001",
+    "politics-top-20260727-005",
+    "politics-top-20260727-007"
   ]
 }
