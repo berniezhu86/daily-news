@@ -1,8 +1,32 @@
 {
-  "updated": "2026-07-29T14:48:45.205630+08:00",
-  "updated_display": "07月29日 14:48",
-  "count": 4,
+  "updated": "2026-07-29T16:48:48.423096+08:00",
+  "updated_display": "07月29日 16:48",
+  "count": 7,
   "news": [
+    {
+      "title": "习近平致电祝贺诺瓦当选连任圣多美和普林西比总统",
+      "url": "https://www.news.cn/politics/leaders/20260729/b243e6be74124e32ac8f88e3f0774568/c.html",
+      "source": "新华社",
+      "date": "2026-07-29"
+    },
+    {
+      "title": "习近平主席特使、科技部部长阴和俊出席秘鲁总统权力交接仪式",
+      "url": "https://www.news.cn/politics/20260729/a2a54abc870d46d7bee27f091c615a5a/c.html",
+      "source": "新华社",
+      "date": "2026-07-29"
+    },
+    {
+      "title": "古巴谴责哥伦比亚候任总统“断交”言论",
+      "url": "https://www.news.cn/world/20260729/2c4749fa9a354b8b91fa21a00fef5e81/c.html",
+      "source": "新华社",
+      "date": "2026-07-29"
+    },
+    {
+      "title": "愿同中国共同寻求解决方案,斯洛伐克总统这样对习主席说",
+      "url": "http://politics.people.com.cn/n1/2026/0729/c461001-40770405.html",
+      "source": "人民日报",
+      "date": "2026-07-29"
+    },
     {
       "title": "习近平对侨务工作作出重要指示",
       "url": "https://www.news.cn/politics/leaders/20260728/17c785c229a74beeb085aca442f27cc7/c.html",
@@ -10,21 +34,15 @@
       "date": "2026-07-28"
     },
     {
-      "title": "习近平同斯洛伐克总统佩列格里尼会谈",
-      "url": "https://www.news.cn/politics/leaders/20260728/aba5630929c543e5838e6e7cc9f110d7/c.html",
+      "title": "外交部：中方对日本熊本县地震遇难者表示哀悼",
+      "url": "https://www.news.cn/world/20260729/ea5f39df91b64a68bcc851496dbee8f1/c.html",
       "source": "新华社",
-      "date": "2026-07-28"
+      "date": "2026-07-29"
     },
     {
       "title": "日本熊本县发生7.1级地震",
       "url": "https://world.people.com.cn/n1/2026/0729/c1002-40770056.html",
       "source": "人民日报",
-      "date": "2026-07-29"
-    },
-    {
-      "title": "新疆阿克苏地区乌什县发生4.6级地震 震源深度10千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
       "date": "2026-07-29"
     }
   ]
