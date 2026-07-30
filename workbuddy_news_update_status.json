@@ -1,27 +1,21 @@
 {
-  "updated_at": "2026-07-30 07:00",
+  "updated_at": "2026-07-30 13:02",
   "status": "success",
-  "pulled": 194,
-  "added_net": 28,
-  "deduped": 38,
-  "trimmed": 128,
+  "pulled": 196,
+  "added_net": 35,
+  "deduped": 90,
+  "trimmed": 71,
   "sections": {
     "domestic": 200,
-    "international": 106,
+    "international": 103,
     "ai": 200,
-    "entertainment": 54,
-    "stock": 53,
+    "entertainment": 56,
+    "stock": 51,
     "henan": 14,
-    "csl": 11
+    "csl": 9
   },
-  "total_final": 638,
+  "total_final": 633,
   "pushed_to_github": false,
   "target": "index.html",
-  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序",
-  "deploy_status": "success",
-  "deploy_error": "语法校验失败: /bin/sh: node: command not found",
-  "checked_at": "2026-07-30 07:00",
-  "last_deployed": "2026-07-30T07:00:00+08:00",
-  "remote_version": "v20260730v1",
-  "agent": "marvis"
+  "notes": "滚动合并到本地新闻池，等待 Codex 审核排序"
 }
