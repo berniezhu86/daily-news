@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T12:31:49.941662+08:00",
+  "updated_at": "2026-07-30T18:32:36.467674+08:00",
   "search_keywords": [
     "习近平",
     "李强",
@@ -11,22 +11,17 @@
     "全国政协",
     "中央军委",
     "国防部",
-    "中央宣传部",
-    "时代楷模",
-    "反网络暴力法",
-    "国家网信办"
+    "二十届五中全会",
+    "全球发展倡议"
   ],
-  "candidates": 2,
-  "入库": 2,
+  "candidates": 4,
+  "入库": 4,
   "skip_old": 0,
   "skip_duplicate": 0,
-  "pool_total": 12,
+  "pool_total": 16,
   "search_windows_hours": 48,
-  "search_window_start": "2026-07-28T12:31:49.941662+08:00",
-  "search_window_end": "2026-07-30T12:31:49.941662+08:00",
-  "expired_removed": 2,
-  "expired_ids": [
-    "politics-top-20260728-001",
-    "politics-top-20260728-002"
-  ]
+  "search_window_start": "2026-07-28T18:32:36.467674+08:00",
+  "search_window_end": "2026-07-30T18:32:36.467674+08:00",
+  "expired_removed": 0,
+  "expired_ids": []
 }
