@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-30T08:48:44.366153+08:00",
-  "updated_display": "07月30日 08:48",
-  "count": 6,
+  "updated": "2026-07-30T10:48:56.878679+08:00",
+  "updated_display": "07月30日 10:48",
+  "count": 5,
   "news": [
     {
       "title": "李强赵乐际分别会见斯洛伐克总统佩列格里尼",
@@ -28,16 +28,10 @@
       "date": "2026-07-29"
     },
     {
-      "title": "李强会见斯洛伐克总统佩列格里尼",
-      "url": "https://www.news.cn/politics/leaders/20260729/b63dd5f40512419881546dbb2de8a00d/c.html",
+      "title": "日本熊本地震已致28人死",
+      "url": "https://www.news.cn/world/20260730/0c9c116a7d784d8f9ca255c5f7cc2cf6/c.html",
       "source": "新华社",
-      "date": "2026-07-29"
-    },
-    {
-      "title": "赵乐际会见斯洛伐克总统佩列格里尼",
-      "url": "https://www.news.cn/politics/leaders/20260729/e38727f2809342e7b7bb6457129fa8ba/c.html",
-      "source": "新华社",
-      "date": "2026-07-29"
+      "date": "2026-07-30"
     }
   ]
 }
