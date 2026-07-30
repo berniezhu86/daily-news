@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-30T20:48:50.195277+08:00",
-  "updated_display": "07月30日 20:48",
-  "count": 5,
+  "updated": "2026-07-30T22:48:52.069525+08:00",
+  "updated_display": "07月30日 22:48",
+  "count": 7,
   "news": [
     {
       "title": "以习近平同志为核心的党中央引领人民军队书写强军兴军新篇章",
@@ -22,15 +22,27 @@
       "date": "2026-07-30"
     },
     {
-      "title": "习近平谈华侨:心系桑梓、心系祖国",
-      "url": "https://cpc.people.com.cn/n1/2026/0730/c164113-40771000.html",
+      "title": "时习之丨习近平谈华侨：心系桑梓、心系祖国",
+      "url": "http://cpc.people.com.cn/n1/2026/0730/c164113-40771000.html",
       "source": "人民日报",
       "date": "2026-07-30"
+    },
+    {
+      "title": "习近平对侨务工作作出重要指示",
+      "url": "http://politics.people.com.cn/n1/2026/0729/c1024-40769756.html",
+      "source": "人民日报",
+      "date": "2026-07-29"
     },
     {
       "title": "日本熊本县地震死亡人数上升至34人",
       "url": "https://www.news.cn/world/20260730/0e3d850b99504b0aa2ad158a029429b8/c.html",
       "source": "新华社",
+      "date": "2026-07-30"
+    },
+    {
+      "title": "四川泸州市泸县发生3.3级地震 震源深度6千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
       "date": "2026-07-30"
     }
   ]
