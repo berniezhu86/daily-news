@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-02T04:48:50.378021+08:00",
-  "updated_display": "08月02日 04:48",
-  "count": 5,
+  "updated": "2026-08-02T06:49:00.084299+08:00",
+  "updated_display": "08月02日 06:49",
+  "count": 6,
   "news": [
     {
       "title": "习近平总书记指引加快建设健康中国",
@@ -32,6 +32,12 @@
       "url": "https://www.news.cn/politics/leaders/20260731/198f59001ac542989c655cb4bcae37f1/c.html",
       "source": "新华社",
       "date": "2026-07-31"
+    },
+    {
+      "title": "秘鲁南部发生坠机事故 13人死亡",
+      "url": "https://www.news.cn/world/20260802/36d4a74dcfb94a86baec528e23fd3128/c.html",
+      "source": "新华社",
+      "date": "2026-08-02"
     }
   ]
 }
