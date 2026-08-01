@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-01T18:49:06.064897+08:00",
-  "updated_display": "08月01日 18:49",
-  "count": 4,
+  "updated": "2026-08-01T20:49:02.381296+08:00",
+  "updated_display": "08月01日 20:49",
+  "count": 5,
   "news": [
     {
       "title": "时习之|今天,重温习近平的强军嘱托",
@@ -26,6 +26,12 @@
       "url": "https://www.news.cn/politics/leaders/20260731/198f59001ac542989c655cb4bcae37f1/c.html",
       "source": "新华社",
       "date": "2026-07-31"
+    },
+    {
+      "title": "两部门联合发布红色山洪灾害气象预警",
+      "url": "https://www.news.cn/politics/20260801/96d6232a6f9e4794b4250e03a6d3ea76/c.html",
+      "source": "新华社",
+      "date": "2026-08-01"
     }
   ]
 }
