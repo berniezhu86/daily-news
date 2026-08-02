@@ -1,8 +1,14 @@
 {
-  "updated": "2026-08-02T20:49:03.156484+08:00",
-  "updated_display": "08月02日 20:49",
-  "count": 5,
+  "updated": "2026-08-02T22:49:00.667504+08:00",
+  "updated_display": "08月02日 22:49",
+  "count": 7,
   "news": [
+    {
+      "title": "巴西总统卢拉已在高等选举法院登记为总统候选人",
+      "url": "https://www.news.cn/world/20260802/7f021f51bdac45c19bf90369a8fb2f69/c.html",
+      "source": "新华社",
+      "date": "2026-08-02"
+    },
     {
       "title": "学习进行时丨健康中国建设，习近平总书记指明科学方法论",
       "url": "https://www.news.cn/politics/xxjxs/20260801/2c1e906e8d064c22abdb9fbd335ad785/c.html",
@@ -31,6 +37,12 @@
       "title": "美国爱达荷州快餐店枪击事件已致3死7伤",
       "url": "https://www.news.cn/world/20260802/f578783a5d9248cb9c04a3c1c755cb0e/c.html",
       "source": "新华社",
+      "date": "2026-08-02"
+    },
+    {
+      "title": "青海海南州兴海县发生3.6级地震 震源深度10千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
       "date": "2026-08-02"
     }
   ]
