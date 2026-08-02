@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-02T10:48:57.650875+08:00",
-  "updated_display": "08月02日 10:48",
-  "count": 4,
+  "updated": "2026-08-02T12:48:46.744058+08:00",
+  "updated_display": "08月02日 12:48",
+  "count": 6,
   "news": [
     {
       "title": "第一观察丨习近平总书记指引加快建设健康中国",
@@ -22,9 +22,21 @@
       "date": "2026-07-31"
     },
     {
+      "title": "吉林发布山洪灾害、地质灾害气象风险黄色预警",
+      "url": "https://www.news.cn/politics/20260802/08db111d88774f1980278161f0e56023/c.html",
+      "source": "新华社",
+      "date": "2026-08-02"
+    },
+    {
       "title": "日本熊本县地震已造成38人死亡",
       "url": "https://www.news.cn/world/20260802/dc661901869f4a6ca60722a950c46325/c.html",
       "source": "新华社",
+      "date": "2026-08-02"
+    },
+    {
+      "title": "青海海西州唐古拉地区发生3.1级地震 震源深度10千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
       "date": "2026-08-02"
     }
   ]
