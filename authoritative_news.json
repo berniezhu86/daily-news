@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-02T08:48:55.989549+08:00",
-  "updated_display": "08月02日 08:48",
+  "updated": "2026-08-02T10:48:57.650875+08:00",
+  "updated_display": "08月02日 10:48",
   "count": 4,
   "news": [
     {
-      "title": "习近平总书记指引加快建设健康中国",
+      "title": "第一观察丨习近平总书记指引加快建设健康中国",
       "url": "https://www.news.cn/politics/leaders/20260801/118063e47eb145a283a33ef394370e37/c.html",
       "source": "新华社",
       "date": "2026-08-01"
     },
     {
-      "title": "健康中国建设，习近平总书记指明科学方法论",
+      "title": "学习进行时丨健康中国建设，习近平总书记指明科学方法论",
       "url": "https://www.news.cn/politics/xxjxs/20260801/2c1e906e8d064c22abdb9fbd335ad785/c.html",
       "source": "新华社",
       "date": "2026-08-01"
     },
     {
-      "title": "习近平：强化政治引领 深化创新发展 高质量推进国防和军队现代化",
-      "url": "https://www.news.cn/politics/leaders/20260731/1c4e6c73f77548a0bb59b818cf407972/c.html",
+      "title": "《求是》杂志发表习近平总书记重要文章《加快建设健康中国》",
+      "url": "https://www.news.cn/politics/leaders/20260731/712926d1a1ef44758c10a7043d37cb48/c.html",
       "source": "新华社",
       "date": "2026-07-31"
     },
     {
-      "title": "青海海南州兴海县发生3.0级地震 震源深度10千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
+      "title": "日本熊本县地震已造成38人死亡",
+      "url": "https://www.news.cn/world/20260802/dc661901869f4a6ca60722a950c46325/c.html",
+      "source": "新华社",
       "date": "2026-08-02"
     }
   ]
