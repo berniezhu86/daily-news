@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T06:31:26.917387+08:00",
+  "updated_at": "2026-08-02T18:00:00+08:00",
   "search_keywords": [
     "习近平",
     "李强",
@@ -11,25 +11,19 @@
     "全国政协",
     "中央军委",
     "国防部",
-    "求是",
-    "健康中国",
-    "双周协商座谈会",
-    "人工智能+"
+    "政治局集体学习",
+    "出境入境管理",
+    "陈新武",
+    "重庆代市长"
   ],
-  "candidates": 2,
-  "入库": 2,
-  "skip_old": 5,
+  "candidates": 3,
+  "入库": 3,
+  "skip_old": 0,
   "skip_duplicate": 0,
-  "pool_total": 8,
+  "pool_total": 11,
   "search_windows_hours": 48,
-  "search_window_start": "2026-07-31T06:31:26.917387+08:00",
-  "search_window_end": "2026-08-02T06:31:26.917387+08:00",
-  "expired_removed": 5,
-  "expired_ids": [
-    "politics-top-20260730-001",
-    "politics-top-20260730-005",
-    "politics-top-20260730-006",
-    "politics-top-20260730-003",
-    "politics-top-20260730-004"
-  ]
+  "search_window_start": "2026-07-31T18:00:00+08:00",
+  "search_window_end": "2026-08-02T18:00:00+08:00",
+  "expired_removed": 0,
+  "expired_ids": []
 }
