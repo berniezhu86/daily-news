@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-03T00:48:52.351788+08:00",
-  "updated_display": "08月03日 00:48",
-  "count": 5,
+  "updated": "2026-08-03T02:48:59.166265+08:00",
+  "updated_display": "08月03日 02:48",
+  "count": 6,
   "news": [
     {
       "title": "巴西总统卢拉已在高等选举法院登记为总统候选人",
@@ -26,6 +26,12 @@
       "url": "https://www.news.cn/politics/leaders/20260731/712926d1a1ef44758c10a7043d37cb48/c.html",
       "source": "新华社",
       "date": "2026-07-31"
+    },
+    {
+      "title": "四川宜宾市高县发生3.0级地震 震源深度10千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
+      "date": "2026-08-03"
     },
     {
       "title": "湖南长沙一小区发生火灾 已造成4人死亡、2人受伤",
