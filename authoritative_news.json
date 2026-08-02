@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-02T22:49:00.667504+08:00",
-  "updated_display": "08月02日 22:49",
-  "count": 7,
+  "updated": "2026-08-03T00:48:52.351788+08:00",
+  "updated_display": "08月03日 00:48",
+  "count": 5,
   "news": [
     {
       "title": "巴西总统卢拉已在高等选举法院登记为总统候选人",
@@ -31,18 +31,6 @@
       "title": "湖南长沙一小区发生火灾 已造成4人死亡、2人受伤",
       "url": "https://www.news.cn/local/20260802/5f5878057c4542068e7dfa59aeb56543/c.html",
       "source": "新华社",
-      "date": "2026-08-02"
-    },
-    {
-      "title": "美国爱达荷州快餐店枪击事件已致3死7伤",
-      "url": "https://www.news.cn/world/20260802/f578783a5d9248cb9c04a3c1c755cb0e/c.html",
-      "source": "新华社",
-      "date": "2026-08-02"
-    },
-    {
-      "title": "青海海南州兴海县发生3.6级地震 震源深度10千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
       "date": "2026-08-02"
     }
   ]
