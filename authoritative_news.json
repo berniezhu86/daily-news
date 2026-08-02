@@ -1,13 +1,13 @@
 {
-  "updated": "2026-08-03T04:49:01.887499+08:00",
-  "updated_display": "08月03日 04:49",
-  "count": 6,
+  "updated": "2026-08-03T06:49:01.378487+08:00",
+  "updated_display": "08月03日 06:49",
+  "count": 7,
   "news": [
     {
-      "title": "巴西总统卢拉已在高等选举法院登记为总统候选人",
-      "url": "https://www.news.cn/world/20260802/7f021f51bdac45c19bf90369a8fb2f69/c.html",
+      "title": "巴西劳工党正式确认卢拉为总统候选人",
+      "url": "https://www.news.cn/world/20260803/8dc8bb35a75148999e0dea204d971bd5/c.html",
       "source": "新华社",
-      "date": "2026-08-02"
+      "date": "2026-08-03"
     },
     {
       "title": "学习进行时丨健康中国建设，习近平总书记指明科学方法论",
@@ -28,9 +28,15 @@
       "date": "2026-07-31"
     },
     {
-      "title": "四川宜宾市高县发生3.3级地震 震源深度6千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
+      "title": "以军空袭加沙致18人死亡",
+      "url": "https://www.news.cn/world/20260803/6d06c2a3806a4bc6b7b631542ab3e5c9/c.html",
+      "source": "新华社",
+      "date": "2026-08-03"
+    },
+    {
+      "title": "巴基斯坦西北部发生爆炸致14人死亡",
+      "url": "https://www.news.cn/world/20260803/1bbd8b52cbef45f6820538fa222f6a95/c.html",
+      "source": "新华社",
       "date": "2026-08-03"
     },
     {
