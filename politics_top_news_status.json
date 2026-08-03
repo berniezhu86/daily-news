@@ -1,38 +1,31 @@
 {
-  "updated_at": "2026-08-03T06:00:00+08:00",
+  "updated_at": "2026-08-03T18:00:00+08:00",
   "search_keywords": [
     "习近平",
     "李强",
     "国务院",
     "中共中央",
+    "政治局",
     "王毅",
     "外交部",
     "全国人大常委会",
     "全国政协",
     "中央军委",
     "国防部",
-    "扫黑除恶",
     "东亚合作外长会",
-    "柬埔寨"
+    "朝鲜"
   ],
-  "candidates": 2,
-  "入库": 2,
-  "skip_old": 9,
+  "candidates": 1,
+  "入库": 1,
+  "skip_old": 2,
   "skip_duplicate": 0,
-  "pool_total": 4,
+  "pool_total": 3,
   "search_windows_hours": 48,
-  "search_window_start": "2026-08-01T06:00:00+08:00",
-  "search_window_end": "2026-08-03T06:00:00+08:00",
-  "expired_removed": 9,
+  "search_window_start": "2026-08-01T18:00:00+08:00",
+  "search_window_end": "2026-08-03T18:00:00+08:00",
+  "expired_removed": 2,
   "expired_ids": [
-    "politics-top-20260802-001",
-    "politics-top-20260731-001",
-    "politics-top-20260731-002",
-    "politics-top-20260731-003",
-    "politics-top-20260802-002",
-    "politics-top-20260731-004",
-    "politics-top-20260731-005",
-    "politics-top-20260731-006",
-    "politics-top-20260802-003"
+    "politics-top-20260801-001",
+    "politics-top-20260801-002"
   ]
 }
