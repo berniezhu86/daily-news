@@ -1,51 +1,51 @@
 {
-  "runAt": "2026-08-03 13:20:49",
+  "runAt": "2026-08-03 19:21:20",
   "sections": {
     "domestic": {
-      "before": 197,
-      "after": 197,
+      "before": 198,
+      "after": 198,
       "duplicates": 0,
       "authoritativeTop10": 10
     },
     "international": {
-      "before": 79,
-      "after": 79,
+      "before": 77,
+      "after": 77,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
     "ai": {
-      "before": 144,
-      "after": 144,
+      "before": 166,
+      "after": 166,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
     "entertainment": {
-      "before": 42,
-      "after": 42,
+      "before": 41,
+      "after": 41,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
     "stock": {
-      "before": 43,
-      "after": 43,
+      "before": 44,
+      "after": 44,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
     "henan": {
-      "before": 9,
-      "after": 9,
+      "before": 10,
+      "after": 10,
       "duplicates": 0,
       "authoritativeTop10": 1
     },
     "csl": {
-      "before": 3,
-      "after": 3,
+      "before": 4,
+      "after": 4,
       "duplicates": 0,
       "authoritativeTop10": 0
     }
   },
   "duplicateMerged": 0,
-  "domesticHighPoliticsTop8": 2,
+  "domesticHighPoliticsTop8": 5,
   "changedArrays": {
     "generated_news_arrays.js": [
       "mockHotNewsDomestic",

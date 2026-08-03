@@ -12,20 +12,20 @@
     "全国政协",
     "中央军委",
     "国防部",
-    "东亚合作外长会",
-    "朝鲜"
+    "柬埔寨",
+    "中国—东盟",
+    "出境入境管理",
+    "知识产权",
+    "集成电路"
   ],
-  "candidates": 1,
-  "入库": 1,
-  "skip_old": 2,
+  "candidates": 6,
+  "入库": 6,
+  "skip_old": 0,
   "skip_duplicate": 0,
-  "pool_total": 3,
+  "pool_total": 9,
   "search_windows_hours": 48,
   "search_window_start": "2026-08-01T18:00:00+08:00",
   "search_window_end": "2026-08-03T18:00:00+08:00",
-  "expired_removed": 2,
-  "expired_ids": [
-    "politics-top-20260801-001",
-    "politics-top-20260801-002"
-  ]
+  "expired_removed": 0,
+  "expired_ids": []
 }
