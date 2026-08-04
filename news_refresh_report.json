@@ -1,33 +1,33 @@
 {
-  "runAt": "2026-08-04 07:20:41",
+  "runAt": "2026-08-04 13:20:35",
   "sections": {
     "domestic": {
-      "before": 185,
-      "after": 185,
+      "before": 198,
+      "after": 198,
       "duplicates": 0,
       "authoritativeTop10": 7
     },
     "international": {
-      "before": 82,
-      "after": 82,
+      "before": 81,
+      "after": 81,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
     "ai": {
-      "before": 200,
-      "after": 200,
-      "duplicates": 0,
+      "before": 197,
+      "after": 196,
+      "duplicates": 1,
       "authoritativeTop10": 0
     },
     "entertainment": {
-      "before": 43,
+      "before": 44,
       "after": 43,
-      "duplicates": 0,
+      "duplicates": 1,
       "authoritativeTop10": 0
     },
     "stock": {
-      "before": 43,
-      "after": 43,
+      "before": 44,
+      "after": 44,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
@@ -44,7 +44,7 @@
       "authoritativeTop10": 0
     }
   },
-  "duplicateMerged": 0,
+  "duplicateMerged": 2,
   "domesticHighPoliticsTop8": 5,
   "changedArrays": {
     "generated_news_arrays.js": [

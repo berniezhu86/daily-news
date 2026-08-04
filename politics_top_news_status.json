@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T06:00:00+08:00",
+  "updated_at": "2026-08-04T12:00:00+08:00",
   "search_keywords": [
     "习近平",
     "李强",
@@ -12,25 +12,16 @@
     "全国政协",
     "中央军委",
     "国防部",
-    "科技强国",
-    "治国理政纪实",
-    "新闻联播",
-    "东亚合作",
-    "外长会"
+    "时政要闻"
   ],
-  "candidates": 1,
-  "入库": 1,
-  "skip_old": 4,
+  "candidates": 0,
+  "入库": 0,
+  "skip_old": 0,
   "skip_duplicate": 0,
   "pool_total": 6,
   "search_windows_hours": 48,
-  "search_window_start": "2026-08-02T06:00:00+08:00",
-  "search_window_end": "2026-08-04T06:00:00+08:00",
-  "expired_removed": 4,
-  "expired_ids": [
-    "politics-top-20260803-004",
-    "politics-top-20260803-005",
-    "politics-top-20260803-001",
-    "politics-top-20260803-007"
-  ]
+  "search_window_start": "2026-08-02T12:00:00+08:00",
+  "search_window_end": "2026-08-04T12:00:00+08:00",
+  "expired_removed": 0,
+  "expired_ids": []
 }
