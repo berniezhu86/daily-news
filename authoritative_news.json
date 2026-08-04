@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-04T06:48:46.789382+08:00",
-  "updated_display": "08月04日 06:48",
-  "count": 3,
+  "updated": "2026-08-04T08:48:47.656863+08:00",
+  "updated_display": "08月04日 08:48",
+  "count": 5,
   "news": [
     {
       "title": "习近平经济思想指引中国经济高质量发展行稳致远",
@@ -10,16 +10,28 @@
       "date": "2026-08-03"
     },
     {
-      "title": "健康中国建设,习近平总书记指明科学方法论",
-      "url": "http://politics.people.com.cn/n1/2026/0803/c461001-40773151.html",
-      "source": "人民日报",
-      "date": "2026-08-03"
-    },
-    {
       "title": "健康中国建设，习近平总书记指明科学方法论",
       "url": "https://www.news.cn/politics/xxjxs/20260801/2c1e906e8d064c22abdb9fbd335ad785/c.html",
       "source": "新华社",
       "date": "2026-08-01"
+    },
+    {
+      "title": "以习近平经济思想为指引构建中国经济学自主知识体系",
+      "url": "http://opinion.people.com.cn/n1/2026/0601/c461530-40731096.html",
+      "source": "人民日报",
+      "date": "2026-06-01"
+    },
+    {
+      "title": "习近平经济思想对中华优秀传统经济思想的弘扬发展",
+      "url": "http://opinion.people.com.cn/n1/2026/0508/c461530-40715485.html",
+      "source": "人民日报",
+      "date": "2026-05-08"
+    },
+    {
+      "title": "以习近平经济思想为引领促进区域协调发展",
+      "url": "http://opinion.people.com.cn/n1/2026/0224/c461530-40668716.html",
+      "source": "人民日报",
+      "date": "2026-02-24"
     }
   ]
 }
