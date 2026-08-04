@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T12:00:00+08:00",
+  "updated_at": "2026-08-04T18:00:00+08:00",
   "search_keywords": [
     "习近平",
     "李强",
@@ -14,14 +14,15 @@
     "国防部",
     "时政要闻"
   ],
-  "candidates": 0,
+  "candidates": 3,
   "入库": 0,
-  "skip_old": 0,
-  "skip_duplicate": 0,
+  "skip_old": 3,
+  "skip_duplicate": 2,
   "pool_total": 6,
   "search_windows_hours": 48,
-  "search_window_start": "2026-08-02T12:00:00+08:00",
-  "search_window_end": "2026-08-04T12:00:00+08:00",
+  "search_window_start": "2026-08-02T18:00:00+08:00",
+  "search_window_end": "2026-08-04T18:00:00+08:00",
   "expired_removed": 0,
-  "expired_ids": []
+  "expired_ids": [],
+  "notes": "跳过旧闻3条：国常会7月31日会议(发布时间7月31日19:36,超出48h窗口)、求是文章《加快建设健康中国》(7月31日发布)、习近平签署通令记功(8月1日报道)；跳过重复2条：央广网治国理政纪实(与politics-top-20260804-001重复)、东风浩荡开新局述评(与politics-top-20260803-009主题重叠/评论性非硬新闻)。素材池维持6条不变。"
 }
