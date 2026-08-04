@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-04T16:49:01.045452+08:00",
-  "updated_display": "08月04日 16:49",
-  "count": 3,
+  "updated": "2026-08-04T18:48:58.285544+08:00",
+  "updated_display": "08月04日 18:48",
+  "count": 4,
   "news": [
+    {
+      "title": "伊朗总统否认辞职传闻",
+      "url": "https://www.news.cn/world/20260804/7d12fa75717a49f281faaf9f22116396/c.html",
+      "source": "新华社",
+      "date": "2026-08-04"
+    },
+    {
+      "title": "时习之|习近平深情礼赞新时代英雄",
+      "url": "http://cpc.people.com.cn/n1/2026/0804/c164113-40773582.html",
+      "source": "人民日报",
+      "date": "2026-08-04"
+    },
     {
       "title": "习近平总书记关切事|实业报国志 接力谱新篇",
       "url": "http://politics.people.com.cn/n1/2026/0804/c461001-40773777.html",
@@ -14,12 +26,6 @@
       "url": "https://www.news.cn/politics/leaders/20260803/5486539215f84753b83d7b96e96a0142/c.html",
       "source": "新华社",
       "date": "2026-08-03"
-    },
-    {
-      "title": "黑龙江：暴雨红警+龙卷预警",
-      "url": "https://www.news.cn/local/20260804/483b8d0513f94f508b69efd16ed97658/c.html",
-      "source": "新华社",
-      "date": "2026-08-04"
     }
   ]
 }
