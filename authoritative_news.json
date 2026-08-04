@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-04T10:48:59.044224+08:00",
-  "updated_display": "08月04日 10:48",
-  "count": 4,
+  "updated": "2026-08-04T12:48:50.763463+08:00",
+  "updated_display": "08月04日 12:48",
+  "count": 2,
   "news": [
     {
       "title": "习近平经济思想指引中国经济高质量发展行稳致远",
@@ -14,18 +14,6 @@
       "url": "https://www.news.cn/politics/xxjxs/20260801/2c1e906e8d064c22abdb9fbd335ad785/c.html",
       "source": "新华社",
       "date": "2026-08-01"
-    },
-    {
-      "title": "委内瑞拉地震遇难人数超过6000",
-      "url": "https://www.news.cn/world/20260804/b05d9c7ca82042c392577d64a1d94941/c.html",
-      "source": "新华社",
-      "date": "2026-08-04"
-    },
-    {
-      "title": "四川宜宾市高县发生3.4级地震 震源深度5千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
-      "date": "2026-08-04"
     }
   ]
 }
