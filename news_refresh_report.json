@@ -1,27 +1,27 @@
 {
-  "runAt": "2026-08-05 13:21:04",
+  "runAt": "2026-08-05 19:20:56",
   "sections": {
     "domestic": {
-      "before": 200,
-      "after": 200,
+      "before": 198,
+      "after": 198,
       "duplicates": 0,
-      "authoritativeTop10": 9
+      "authoritativeTop10": 10
     },
     "international": {
-      "before": 82,
-      "after": 82,
+      "before": 80,
+      "after": 80,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
     "ai": {
-      "before": 188,
-      "after": 188,
+      "before": 190,
+      "after": 190,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
     "entertainment": {
-      "before": 42,
-      "after": 42,
+      "before": 40,
+      "after": 40,
       "duplicates": 0,
       "authoritativeTop10": 0
     },
