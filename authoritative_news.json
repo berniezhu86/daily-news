@@ -1,25 +1,19 @@
 {
-  "updated": "2026-08-05T10:48:59.169840+08:00",
-  "updated_display": "08月05日 10:48",
-  "count": 3,
+  "updated": "2026-08-05T12:48:57.857909+08:00",
+  "updated_display": "08月05日 12:48",
+  "count": 2,
   "news": [
-    {
-      "title": "党的十八大以来，习近平主席率先垂范、亲力亲为擘画推进中国特色大国外交",
-      "url": "https://www.news.cn/politics/leaders/20260804/add095cce4294d1fa12789e1a83e8bf3/c.html",
-      "source": "新华社",
-      "date": "2026-08-04"
-    },
-    {
-      "title": "推动世界各地的民众携手发展，正是习近平主席心中的“天下之大利”",
-      "url": "https://www.news.cn/politics/leaders/20260804/add095cce4294d1fa12789e1a83e8bf3/c.html",
-      "source": "新华社",
-      "date": "2026-08-04"
-    },
     {
       "title": "习近平经济思想指引中国经济高质量发展行稳致远",
       "url": "https://www.news.cn/politics/leaders/20260803/5486539215f84753b83d7b96e96a0142/c.html",
       "source": "新华社",
       "date": "2026-08-03"
+    },
+    {
+      "title": "苏拉威西海发生6.4级地震 震源深度50千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
+      "date": "2026-08-05"
     }
   ]
 }
