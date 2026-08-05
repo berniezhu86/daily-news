@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-05T14:49:04.380848+08:00",
-  "updated_display": "08月05日 14:49",
-  "count": 3,
+  "updated": "2026-08-05T16:48:49.253616+08:00",
+  "updated_display": "08月05日 16:48",
+  "count": 4,
   "news": [
     {
       "title": "习近平经济思想指引中国经济高质量发展行稳致远",
@@ -16,9 +16,15 @@
       "date": "2026-02-09"
     },
     {
-      "title": "菲律宾以南海域发生6.4级地震 暂无海啸威胁",
-      "url": "https://www.news.cn/world/20260805/da5249ad20bc4d5182f9d103c16160e4/c.html",
+      "title": "以军袭击加沙遇难者下葬 七千余具遗体仍被埋废墟",
+      "url": "https://www.news.cn/world/20260805/eb7a2e8aee984d54a3fbff02c4c4cee1/c.html",
       "source": "新华社",
+      "date": "2026-08-05"
+    },
+    {
+      "title": "新疆阿克苏地区沙雅县发生3.6级地震 震源深度25千米",
+      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
+      "source": "中国地震台网",
       "date": "2026-08-05"
     }
   ]
