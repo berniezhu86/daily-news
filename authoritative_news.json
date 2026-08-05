@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-05T12:48:57.857909+08:00",
-  "updated_display": "08月05日 12:48",
-  "count": 2,
+  "updated": "2026-08-05T14:49:04.380848+08:00",
+  "updated_display": "08月05日 14:49",
+  "count": 3,
   "news": [
     {
       "title": "习近平经济思想指引中国经济高质量发展行稳致远",
@@ -10,9 +10,15 @@
       "date": "2026-08-03"
     },
     {
-      "title": "苏拉威西海发生6.4级地震 震源深度50千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
+      "title": "《习近平谈治国理政》第五卷蕴含重大世界意义",
+      "url": "http://world.people.com.cn/n1/2026/0209/c1002-40661861.html",
+      "source": "人民日报",
+      "date": "2026-02-09"
+    },
+    {
+      "title": "菲律宾以南海域发生6.4级地震 暂无海啸威胁",
+      "url": "https://www.news.cn/world/20260805/da5249ad20bc4d5182f9d103c16160e4/c.html",
+      "source": "新华社",
       "date": "2026-08-05"
     }
   ]
