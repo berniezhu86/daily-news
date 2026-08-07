@@ -2719,19 +2719,7 @@ function setupMarqueeClicks() {
 // 权威要闻缓存
 var authoritativeNews = [];
 var authLoadAttempted = false;
-var AUTHORITATIVE_NEWS_FALLBACK = {
-  "updated": "2026-08-07T12:48:58.915546+08:00",
-  "updated_display": "08月07日 12:48",
-  "count": 1,
-  "news": [
-    {
-      "title": "中塔人士共话《习近平谈治国理政》第五卷",
-      "url": "https://www.news.cn/politics/leaders/20260806/79e669d3e5214c8aa2aa94b1efde93c4/c.html",
-      "source": "新华社",
-      "date": "2026-08-06"
-    }
-  ]
-};
+var AUTHORITATIVE_NEWS_FALLBACK = {"updated": "2026-08-07T14:48:47.852818+08:00", "updated_display": "08月07日 14:48", "count": 5, "news": [{"title": "国际舞台上，习近平主席广交朋友、以诚相待，总是从繁忙的外事活动中抽出时间与各界人士、普通民众广泛接触和交流，留下无数动人瞬间，搭建起民心相通的桥梁", "url": "https://www.news.cn/politics/leaders/20260806/96db7230517347e9bed2832f1631da84/c.html", "source": "新华社", "date": "2026-08-06"}, {"title": "中塔人士共话《习近平谈治国理政》第五卷", "url": "https://www.news.cn/politics/leaders/20260806/79e669d3e5214c8aa2aa94b1efde93c4/c.html", "source": "新华社", "date": "2026-08-06"}, {"title": "四川宜宾市高县发生4.9级地震 当地震感明显", "url": "https://www.news.cn/politics/20260807/b73b042978b648418f52af103b37638f/c.html", "source": "新华社", "date": "2026-08-07"}, {"title": "泰国校园枪击案死亡人数升至7人", "url": "https://www.news.cn/world/20260807/26657017e5714d7ba643d6d886299dbc/c.html", "source": "新华社", "date": "2026-08-07"}, {"title": "四川宜宾市高县发生4.9级地震 震源深度6千米", "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao", "source": "中国地震台网", "date": "2026-08-07"}]};
 var AUTH_HEAD_KEYWORDS = ['习近平','国家主席','中华人民共和国主席','国家元首','主席令','总统','国家总统','副总统','国王','女王','天皇','埃米尔'];
 var AUTH_BREAKING_TOPICS = ['地震','海啸','台风','洪水','山洪','泥石流','滑坡','暴雨','龙卷风','火灾','爆炸','坍塌','事故','空难','坠机','列车脱轨','沉船','袭击','枪击','战争','冲突','导弹','空袭','恐袭','疫情','传染病','核事故','泄漏'];
 var AUTH_BREAKING_SIGNALS = ['突发','快讯','刚刚','已致','造成','死亡','遇难','伤亡','受伤','失踪','被困','救援','疏散','停运','关闭','预警','紧急','进入紧急状态','级地震','人死亡','人遇难','人受伤'];
