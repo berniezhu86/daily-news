@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-07T16:49:22.216991+08:00",
-  "updated_display": "08月07日 16:49",
-  "count": 4,
+  "updated": "2026-08-07T18:49:02.478276+08:00",
+  "updated_display": "08月07日 18:49",
+  "count": 2,
   "news": [
     {
       "title": "习近平总书记关切事|厚植营商沃土推动东北全面振兴",
@@ -14,18 +14,6 @@
       "url": "https://www.news.cn/politics/leaders/20260806/96db7230517347e9bed2832f1631da84/c.html",
       "source": "新华社",
       "date": "2026-08-06"
-    },
-    {
-      "title": "四川宜宾市高县发生4.9级地震 当地震感明显",
-      "url": "https://www.news.cn/politics/20260807/b73b042978b648418f52af103b37638f/c.html",
-      "source": "新华社",
-      "date": "2026-08-07"
-    },
-    {
-      "title": "四川宜宾市高县发生3.0级地震 震源深度7千米",
-      "url": "https://data.earthquake.cn/datashare/report.shtml?PAGEID=earthquake_subao",
-      "source": "中国地震台网",
-      "date": "2026-08-07"
     }
   ]
 }
